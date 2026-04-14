@@ -1,0 +1,30 @@
+{
+  "name": "ai-staffing-pipeline",
+  "version": "1.0.0",
+  "description": "Full AI white-collar staffing pipeline: intake → work execution → invoice",
+  "trigger": "manual",
+  "stages": [
+    {
+      "agent": "staffing-intake",
+      "action": "intake",
+      "description": "Qualify client and capture work order",
+      "output": "/home/workspace/solomon-vault/staffing/work-orders/{client-name}-{date}.md"
+    },
+    {
+      "agent": "work-delivery",
+      "action": "execute",
+      "description": "Execute task via Russell Tuna, quality review gate",
+      "input": "/home/workspace/solomon-vault/staffing/work-orders/{latest}",
+      "output": "/home/workspace/solomon-vault/staffing/deliverables/{work-order-name}"
+    },
+    {
+      "agent": "invoice-agent",
+      "action": "invoice",
+      "description": "Generate Stripe invoice and track payment",
+      "input": "/home/workspace/solomon-vault/staffing/deliverables/log.md",
+      "output": "/home/workspace/solomon-vault/staffing/invoices/{client}-{date}.md"
+    }
+  ],
+  "on_success": "notify-joseph",
+  "on_failure": "alert-joseph"
+}
