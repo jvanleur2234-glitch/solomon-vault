@@ -87,6 +87,112 @@ Source: Greg Isenberg free masterclass, shared by @KanikaBK
     - **Why now:** Every SMB needs an "employee" that never sleeps, costs $50/mo instead of $3K/mo
     - **Difficulty:** 7/10 | **Timeline:** 6-12 months to first recurring contract
 
+## Screenpipe-Based Workflow Automator (Added Apr 14, 2026)
+
+**Foundation:** Screenpipe (MIT, cross-platform: Windows/Mac/Linux, MCP server, 5-10% CPU, local SQLite, screen + audio capture, Louis Beaumont @screenpipe)
+
+**The Core Insight:** Watch one expert do a job ONCE → AI extracts the workflow → deploy it as (a) training simulation, (b) automated n8n workflow, (c) step-by-step checklist. ANY worker can replicate the expert's performance without the expert being present.
+
+**For Solomon OS:** Screenpipe pipes → Hermes brain → Russell Tuna execution. Screenpipe captures, Hermes reasons, Russell Tuna reports.
+
+### Quick Wins (1-2 weeks each):
+
+**WIN 1 — SOP Generator for Any Business**
+Expert does task while Screenpipe records. AI extracts steps. Outputs: (a) interactive training doc, (b) n8n workflow that automates 80%, (c) checklist. Sell to: HVAC, landscaping, cleaning, real estate, any service business. $99-299/setup + $99/mo maintenance.
+
+**WIN 2 — "Replay My Sale" Negotiation Coach**
+Record any sales call or negotiation. AI instantly grades every moment you left money on the table. Builds personal "winning moves" library over time. Salespeople, recruiters, real estate agents pay $19-49/mo. Can integrate with Screenpipe audio capture.
+
+**WIN 3 — AI Receptionist / Front Desk Cloner**
+Watch one great receptionist handle calls, emails, walk-ins for 1 day. AI extracts every decision tree. Deploy as: (a) training for new hires, (b) automation workflow for after-hours calls, (c) voice AI that handles intake. Any service business pays $200-500/mo for this.
+
+**WIN 4 — The Memory Gate (Predictive Workload Forecaster)**
+Screenpipe watches a senior employee for 1 week. AI maps their actual patterns, predicts what tasks land on new hires next month, identifies which skills to learn NOW. HR departments and small businesses pay $50-150/mo per employee.
+
+### Industry Breakdown:
+
+**Real Estate:**
+- Watch top agent handle a listing presentation → extract winning script
+- Watch objection handling → train entire team
+- Watch negotiation → build negotiation playbook AI
+- Screenpipe captures open house flow → automate follow-up
+
+**Healthcare / Medical Offices:**
+- Watch receptionist handle difficult patient → train entire front desk
+- Watch billing specialist catch errors → automate claim scrubbing
+- Watch scheduling manager fill cancellations → automate waitlist calls
+- Compliance: every interaction logged automatically
+
+**Legal:**
+- Watch senior paralegal review contracts → extract checklist
+- Watch attorney prepare witness → build cross-examination AI
+- Watch intake specialist qualify leads → automate lead scoring
+- Compliance Guardian: automatic audit trail for every client interaction
+
+**Sports / Coaching:**
+- Watch game film (Screenpipe captures screen + audio) → AI extracts play patterns
+- Coach does tactical breakdown → extract decision framework
+- Star player explains positioning → training simulation for team
+- **Fundraising angle:** Watch best fundraiser handle a donor call → extract script, objection handling, ask sequence. Nonprofit development teams pay $500-2K/mo to clone their best fundraiser's technique.
+
+**Restaurants / Hospitality:**
+- Watch GM handle upset customer → train all staff
+- Watch chef manage rush → extract workflow for new cooks
+- Watch server close $500+ tables → upselling playbook
+- Watch booking manager fill slow nights → automation for waitlist + reactivation
+
+**Home Services (HVAC, Plumbing, Electrical):**
+- Watch technician diagnose problem → build diagnostic decision tree
+- Watch estimator give quote → extract pricing psychology
+- Watch service manager handle complaint → train full team
+- Watch inventory specialist order parts → automate reorder triggers
+
+**Fundraising / Nonprofit:**
+- Watch best fundraiser handle major donor call → extract full ask sequence
+- Watch grant writer review funder's past giving → personalize approach
+- Watch board member make ask → replicate across all board members
+- Watch event coordinator convert attendees → automate follow-up sequence
+- **How it works:** Screenpipe audio captures the call + screen. Hermes extracts every decision point. Russell Tuna generates personalized script for each donor based on giving history. Result: even first-year fundraisers close like 20-year veterans.
+
+**Sports — Game Film Analysis:**
+- Coach watches game on screen → Screenpipe captures + narrates
+- AI extracts: formation patterns, player positioning errors, tactical decisions, momentum shifts
+- Output: (a) automated highlight reel script, (b) player-specific training notes, (c) opponent scouting report
+- **Basketball/football/soccer coaches:** $100-300/mo per sport per team
+- **Recruiting:** Watch highlight film → extract athlete's decision-making speed, positioning IQ, work rate
+
+### Technical Stack for Screenpipe Integration:
+- Screenpipe MCP server → Hermes (reasoning + skill dispatch) → Russell Tuna (output to user) → n8n (workflow automation) → Stripe (payments)
+- Video + audio capture → AI transcription → Hermes extracts decision tree → n8n automates the workflow → user approves via Telegram → Russell Tuna reports results
+
+### Competitors:
+- Omi (macOS only, 300K users, wearable + desktop)
+- Rewind/Limitless (cloud, macOS only, $20-40/mo)
+- Microsoft Recall (Windows only, no audio, no AI layer on top)
+- Screenpipe = only cross-platform + open source + MCP + AI pipeline ready
+
+### Clicky SDK Angle (April 10, 2026):
+- SDK embeds AI voice guide inside any mobile app
+- Built by YC P26 founders (@vineetwts)
+- Could power in-app guidance for ANY of these industry solutions
+- Integrate: Lume (teacher grading), JackConnect (real estate CRM), SubTrim (subscription cancellation)
+
+### MegaPlan Connection (MASTER_PLAN.md):
+The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe as the capture layer. Instead of manually describing the workflow, the AI watches it happen. This collapses Phase 1 from "week 1-2" to "day 1."
+
+---
+
+## Clicky SDK — AI In-App Voice Guide (Added Apr 10, 2026)
+- **Source:** @vineetwts (YC P26), 791 likes, 73K views
+- **What:** SDK embeds AI voice guide inside ANY mobile app, walks users through every step in real-time
+- **Demo:** Founder's mom made a UPI payment (first time ever) using mock Google Pay guided by AI voice
+- **Potential uses for Solomon OS:**
+  - Widget inside SubTrim Pro to guide users through subscription cancellation
+  - In-app guide for Russell Tuna setup flows
+  - Guide for Solomon OS Dashboard onboarding
+  - Lume: AI voice guide for teachers learning the grading interface
+- **Status:** Reach out to Vineet (YC P26) — explore partnership or hiring the builders
+
 ## TRULY OUT OF THE BOX — Post-Stack Thinking
 
 *Added: April 9, 2026 — thinking 3-7 years out, leveraging where AI infrastructure is heading*
@@ -257,30 +363,6 @@ Source: Greg Isenberg free masterclass, shared by @KanikaBK
 - **Revenue:** Operators running this system hitting $10-30K/month. Solomon OS UGC Agency could capture part of this: source creators → produce TikTok Shop videos → charge per video or rev share.
 - **LINK fit:** ★★★★★ — deals + money + new tech/AI + fits golden thread
 - **Status:** Added April 10, 2026
-
-### Clicky SDK — AI App Guide (April 10, 2026)
-
-**Tweet:** @vineetwts (YC P26 founder, Interfaze AI) — 791 likes, 73K views in HOURS
-
-**What it is:** SDK that embeds an AI voice guide inside any mobile app. Walks users through every step in real-time. Demo: founder's mom made a UPI payment (first time ever) using a mock Google Pay app guided by the AI.
-
-**Built by:** @Yrishavjs + @shukla_pritika — 2 college students, looking for opportunities
-
-**Why it matters:**
-- Accessibility + seniors is a MASSIVE underserved market
-- 22-year-old YC-backed founder already validated demand (73K views in hours)
-- "Built for my mom" = perfect founder story for content distribution
-- Farza (founder of _buildspace) reached out wanting to collab — big validation signal
-
-**LINK fit:** ★★★★★ — new tech/AI (fits) + deals + people connections (YC founder network) + could be the product Joseph sells access to
-
-**Potential uses for Solomon OS:**
-- Widget inside SubTrim Pro to guide users through subscription cancellation
-- In-app guide for Russell Tuna setup flows
-- Guide for Solomon OS Dashboard onboarding
-
-**Status:** Added April 10, 2026 — HIGH priority follow-up
-**Action:** Reach out to Vineet (YC P26) — introduce Joseph, explore partnership or hiring the builders
 
 ## Boomer App Economy (Added Apr 11, 2026)
 **Source:** Idea Browser tweet — 51% of US wealth, $2.6T buying power, 10K boomers turn 65 every day.

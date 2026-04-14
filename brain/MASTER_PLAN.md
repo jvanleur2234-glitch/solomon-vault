@@ -50,6 +50,17 @@
 
 ---
 
+## PREREQUISITE — Screenpipe (Apr 14, 2026)
+
+**Screenpipe** (MIT, Windows/Mac/Linux, MCP server, 5-10% CPU) can replace manual workflow description in Phase 1. Instead of interviewing the expert to describe their process, you run Screenpipe while they work. AI extracts the full workflow automatically. This collapses Phase 1 from "week 1-2" to "day 1."
+
+- Clone: `git clone https://github.com/screenpipe/screenpipe.git`
+- Docs: https://docs.screenpi.pe
+- MCP: `npx screenpipe-mcp`
+- Stack: Screenpipe (capture) → Hermes (reasoning) → n8n (automation) → Russell Tuna (user comms)
+
+---
+
 ## EXECUTION PLAN — 4 PHASES
 
 ### PHASE 1 — FOUNDATION (Week 1-2) — $0 to build
