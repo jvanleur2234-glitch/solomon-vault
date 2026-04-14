@@ -87,6 +87,17 @@ Source: Greg Isenberg free masterclass, shared by @KanikaBK
     - **Why now:** Every SMB needs an "employee" that never sleeps, costs $50/mo instead of $3K/mo
     - **Difficulty:** 7/10 | **Timeline:** 6-12 months to first recurring contract
 
+## Thuki Windows Fork — COMPLETED Apr 14, 2026
+**Repo:** https://github.com/jvanleur2234-glitch/thuki-windows
+**Source:** https://github.com/quiet-node/thuki (Apache 2.0, macOS only)
+**What changed:**
+- `activator.rs` → `GetAsyncKeyState` polling (double-Ctrl hotkey)
+- `screenshot.rs` → Win32 BitBlt screen capture
+- `lib.rs` → Standard Tauri window (no NSPanel), alwaysOnTop
+- `Cargo.toml` → Added `windows` crate with Win32 API features
+**Status:** Forked and pushed. Needs Rust toolchain + Bun + VS Build Tools to compile on Windows.
+**Build:** `bun run build:all` after installing prerequisites (see BUILD_WINDOWS.md)
+
 ## Screenpipe-Based Workflow Automator (Added Apr 14, 2026)
 
 **Foundation:** Screenpipe (MIT, cross-platform: Windows/Mac/Linux, MCP server, 5-10% CPU, local SQLite, screen + audio capture, Louis Beaumont @screenpipe)
@@ -408,10 +419,7 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
 
 ## THE REAL BUSINESS: AI Employee Agency (Apr 11 EVENING)
 
-**What it is:** We BUILD custom AI employees for businesses. They describe their business → we build the agent → they install it on THEIR server → it works forever.
-
-**How it works:**
-1. Client describes their business (e.g., "I run a real estate agency")
+**What it is:** We BUILD custom AI employees for businesses. They describe their business (e.g., "I run a real estate agency")
 2. We build the agent using Solomon OS stack (Hermes + Russell Tuna + PinchTab + Ollama)
 3. Package as install script → runs on THEIR server (self-hosted, no data leaves)
 4. Client pays $99-499/mo subscription per agent
