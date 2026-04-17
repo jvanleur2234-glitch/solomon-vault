@@ -1,0 +1,28 @@
+#!/bin/bash
+# Solomon OS session start — loads vault context
+set -e
+VAULT_DIR="${SOLOMON_VAULT:-/home/workspace/solomon-vault}"
+cd "$VAULT_DIR"
+
+echo "## Solomon OS Session Context"
+echo ""
+echo "### Date"
+echo "$(date '+%Y-%m-%d (%A)')"
+echo ""
+echo "### North Star"
+head -20 brain/North\ Star.md 2>/dev/null || echo "(not found)"
+echo ""
+echo "### Services Status"
+head -20 brain/Services.md 2>/dev/null || echo "(not found)"
+echo ""
+echo "### Active Work"
+ls work/active/*.md 2>/dev/null | sed 's|work/active/||;s|\.md$||' | head -10 || echo "(none)"
+echo ""
+echo "### Recent Leads"
+ls work/leads/*.md 2>/dev/null | sed 's|work/leads/||;s|\.md$||;s|-|_|g' | head -10 || echo "(none)"
+echo ""
+echo "### Recent Wins"
+ls perf/brag/*.md 2>/dev/null | sed 's|perf/brag/||;s|\.md$||' | tail -5 || echo "(none)"
+echo ""
+echo "### Ideas Pipeline (Top 5)"
+head -30 brain/Business\ Ideas.md 2>/dev/null | grep -E "^#" | head -5 || echo "(not found)"

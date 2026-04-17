@@ -1,0 +1,5 @@
+2026-04-11 23:18:06,558 [SOLOMON] INFO HTTP Request: POST http://localhost:9888/instances/start "HTTP/1.1 201 Created"
+2026-04-11 23:18:07,589 [SOLOMON] INFO HTTP Request: GET http://localhost:9888/instances/inst_41f23610 "HTTP/1.1 200 OK"
+2026-04-11 23:18:08,722 [SOLOMON] INFO HTTP Request: GET http://localhost:9888/instances/inst_41f23610 "HTTP/1.1 200 OK"
+2026-04-11 23:18:09,752 [SOLOMON] INFO HTTP Request: GET http://localhost:9888/instances/inst_41f23610 "HTTP/1.1 200 OK"
+2026-04-11 23:18:15,081 [SOLOMON] INFO HTTP Request: POST http://localhost:9888/instances/inst_41f23610/stop "HTTP/1.1 200 OK"

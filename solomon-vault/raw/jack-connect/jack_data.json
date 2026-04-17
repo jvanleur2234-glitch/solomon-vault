@@ -1,0 +1,128 @@
+{
+  "leads": [
+    {
+      "id": "lead_001",
+      "name": "Sarah Johnson",
+      "score": 9,
+      "source": "Zillow inquiry",
+      "status": "Active buyer",
+      "budget": "$350K-450K",
+      "priority": "HIGH",
+      "notes": "First-time buyer, pre-approved, motivated",
+      "contact": "605-555-0101",
+      "added": "2026-04-08"
+    },
+    {
+      "id": "lead_002",
+      "name": "Marcus Chen",
+      "score": 8,
+      "source": "SOI referral",
+      "status": "Investment buyer",
+      "budget": "$500K",
+      "priority": "HIGH",
+      "notes": "Looking for multi-family, cap rate 7%+",
+      "contact": "605-555-0102",
+      "added": "2026-04-05"
+    },
+    {
+      "id": "lead_003",
+      "name": "Rachel Torres",
+      "score": 6,
+      "source": "Open house sign-in",
+      "status": "Exploring options",
+      "budget": "$275K-325K",
+      "priority": "MEDIUM",
+      "notes": "Relocating from Minnesota, needs to sell first",
+      "contact": "605-555-0103",
+      "added": "2026-04-10"
+    }
+  ],
+  "deals": [
+    {
+      "id": "deal_001",
+      "address": "123 Main St, Sioux Falls",
+      "status": "Under Contract",
+      "closing_date": "2026-04-14",
+      "price": "$285,000",
+      "buyer": "Sarah Johnson",
+      "pending_items": [
+        "Appraisal — call lender to confirm April 14 appointment",
+        "Inspection — repairs requested, seller response pending"
+      ],
+      "notes": "Jack called the appraisal ordered. Need to confirm date."
+    },
+    {
+      "id": "deal_002",
+      "address": "456 Oak Ave, Brandon",
+      "status": "Active",
+      "closing_date": "2026-04-16",
+      "price": "$425,000",
+      "buyer": "Marcus Chen",
+      "pending_items": [
+        "Walk-through scheduled April 16 at 2 PM",
+        "Investment analysis completed — cap rate 7.2%"
+      ],
+      "notes": "Investment deal. Marcus is solid. Walk-through is final step."
+    },
+    {
+      "id": "deal_003",
+      "address": "789 Pine Rd, Sioux Falls",
+      "status": "Pending",
+      "closing_date": "2026-04-22",
+      "price": "$198,000",
+      "buyer": "First-time buyer",
+      "pending_items": [
+        "Seller negotiating repair credits",
+        " lender pre-approval update needed"
+      ],
+      "notes": "Seller pushing back on repairs. May need to compromise."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_001",
+      "description": "Call lender at First Premier — confirm appraisal date for 123 Main St",
+      "due": "2026-04-12",
+      "priority": "HIGH",
+      "assigned_to": "Jack"
+    },
+    {
+      "id": "task_002",
+      "description": "Text Sarah Johnson back — she's been waiting 3 days",
+      "due": "2026-04-11",
+      "priority": "HIGH",
+      "assigned_to": "Jack"
+    },
+    {
+      "id": "task_003",
+      "description": "Send Alpine Capital investment info to Marcus Chen",
+      "due": "2026-04-11",
+      "priority": "HIGH",
+      "assigned_to": "Jack"
+    },
+    {
+      "id": "task_004",
+      "description": "Follow up with seller at 789 Pine Rd on repair response",
+      "due": "2026-04-12",
+      "priority": "MEDIUM",
+      "assigned_to": "Jack"
+    }
+  ],
+  "farm_area": {
+    "primary": "SE Sioux Falls, SD",
+    "secondary": ["Brandon, SD", "NW Sioux Falls, SD"],
+    "price_ranges": {
+      "starter": "$150K-250K",
+      "mid": "$250K-400K",
+      "high": "$400K+"
+    }
+  },
+  "jack": {
+    "name": "Jack Vanleur",
+    "brokerage": "Alpine Real Estate Companies",
+    "phone": "605-555-0100",
+    "specialties": ["Investment properties", "Luxury homes", "First-time buyers"],
+    "chat_id": "",  # Set when Jack starts using Telegram
+    "telegram_handle": ""  # Set when Jack connects
+  }
+}
