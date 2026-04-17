@@ -10,12 +10,32 @@
 |-------|------|----------|--------|
 | Zo (CEO) | Orchestration, building, strategy | Zo Computer | ✅ Active |
 | Russell Tuna | Client comms, Telegram, outreach | t.me/RussellTunaBot | ✅ Active |
-| Hermes | Execution layer — skills, builds, tools | localhost:3101 | ✅ Active |
+| Hermes | Execution layer — skills, tools | localhost:3101 | ✅ Active |
 | CashClaw | SEO audits, lead generation, cold email | CLI | ✅ Built |
 | JackConnect | First client agent — real estate | Custom | 🔨 In progress |
 | Clicky | Watch-once workflow automation | Planned | 📋 Not started |
 | Solomon Bus | Inter-agent communication | Bus daemon | ✅ Active |
 | Job Runner | Persistent background jobs | Daemon | ✅ Active |
+
+## Show Me The Money Skills (14 Business Skills)
+
+Russell Tuna and Hermes can invoke these via `/money <skill-name>`:
+
+| Skill | What It Does |
+|-------|-------------|
+| money-outreach | Cold email campaigns, B2B lead generation, sales sequences |
+| money-ops | 24/7 autonomous ops, scheduling, business health scoring |
+| money-finance | Revenue tracking, Stripe integration, financial reports |
+| money-content | Blog posts, landing pages, email sequences, video scripts |
+| money-seo | SEO audits, keyword research, GEO (AI search optimization) |
+| money-ads | Google/Meta ad campaigns, spend optimization, ROAS |
+| money-social | X/Twitter, LinkedIn, Reddit, Product Hunt posting |
+| money-strategy | Business model stress test, pricing, GTM, competitive analysis |
+| money-discover | Market research, ICP building, competitive benchmarking |
+| money-product | Build + deploy MVP, Stripe payments, QA testing |
+| money-quality | Code review, pre-launch QA, security audit |
+| money-diagnose | Socratic business diagnosis — find WHY you're stuck |
+| money-show-me | Main entry point — routes to the right skill |
 
 ---
 
