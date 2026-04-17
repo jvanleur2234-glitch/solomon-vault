@@ -450,3 +450,57 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
 - No infrastructure costs for us
 
 **Status:** READY TO SELL. Start with ONE client as proof of concept.
+---
+
+## CloudBrowser Services (April 17, 2026)
+
+**🔴 Protocol Reverse Engineering as a Service**
+- Use anything-analyzer (Electron + MITM + CDP + AI) to reverse engineer any company's private API
+- Businesses pay $197-497/report for competitive intelligence
+- One session captures full API: endpoints, auth, signatures, payloads, response formats
+- Example: reverse engineer a competitor's pricing API, a SaaS tool's hidden endpoints, a mobile app's backend
+- Sell reports + optional "build us an integration" follow-up
+- Status: stack built (anything-analyzer + CloudBrowser)
+
+**🔴 AI Memory as a Service**
+- Use agentic-stack (4-layer memory) + egregore (shared team memory) as subscription products
+- Businesses pay $19-99/mo for an AI that remembers everything about their business
+- Compare: current AI = forget everything. Ours = remembers everything across sessions
+- Use cognee for structured knowledge graphs
+- Status: stack built (agentic-stack + egregore + cognee)
+
+**🔴 Agentic Browser Automation Service**
+- Use CloudBrowser (Playwright + Ollama) to automate browser tasks for clients
+- Real estate: auto-search MLS, scrape listings, fill forms
+- Research: scrape competitor sites, price monitors, lead capture
+- Operations: automate data entry, CRM updates, reporting
+- Charge $97-297/mo per automation workflow
+- Status: CloudBrowser server running at port 9876
+
+**🟡 Homepage Dashboard for Solopreneurs**
+- Deploy JackConnect Dashboard (Homepage-based) as a managed service
+- One URL, 50+ widgets: Ollama, Plex, Home Assistant, GitHub, Calendars, Weather, Stocks
+- Charge $9/mo hosting + $29/mo for custom widget development
+- Self-hosted option: $29 one-time setup + $9/mo
+- Status: config files ready in jack-connect/jack-dashboard/
+
+**🟡 Cabinet-Powered AI Employee Brains**
+- Cabinet + JackConnect agent templates = premium AI employee product
+- Sell as: "Your AI worker with a perfect memory"
+- $49-149/mo per AI employee
+- Integration: cognee memory + autoMate desktop automation + CloudBrowser web
+- Status: Cabinet installed, 7 real estate agents ready
+
+**🟡 Production SaaS Starter — Agency Play**
+- Use production-saas-starter (Next.js 16 + Go + pgvector + Stytch + Polar.sh) as the foundation
+- Build B2B SaaS for clients FAST: 2-4 weeks to launch instead of 3-6 months
+- Sell builds for $2,497-9,997 or 30% equity
+- Polar.sh handles global tax compliance + subscriptions automatically
+- Status: forked and ready at solomon-production-saas-starter/
+
+## Egregore — Shared Mind for AI Teams (April 17, 2026)
+- **URL:** egregore.xyz (private repo, email waitlist)
+- **Concept:** "A shared mind that never forgets" — team AI that contributes to a common knowledge base
+- **What makes it interesting:** Every AI in a team contributes to shared episodic + semantic memory. Human reviews lessons before they become permanent.
+- **For Solomon OS:** Multi-agent teams (Russell Tuna, Hermes, JackConnect, etc.) could share context via egregore-like pattern
+- **Build it:** Use agentic-stack's semantic memory layer as the base, add a shared Redis/Postgres backend for cross-agent memory sync
