@@ -360,7 +360,7 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
   2. DEEP — SERVICE. AI SaaS companies pay you to run this playbook for them. Find vibecoding/SaaS products → recruit creators → run Whop-style payment model → take 20-30% of affiliate revenue.
 - **Stack already built:** MoneyPrinterTurbo (video), browser-use (monitoring), zo.space (landing), Russell Tuna (creator outreach)
 - **Joseph's role:** Bring SaaS clients, leverage creator network
-- **LINK fit:** ★★★★★ — money + deals + new tech/AI, fits golden thread perfectly
+- **LINK fit:** ★★★★★ — money + deals + new tech/AI + fits golden thread
 - **Revenue ceiling:** $5-30K/mo (shallow), $50K+/mo (deep agency)
 - **Effort:** Shallow = days, Deep = 2-4 weeks
 - **Status:** Added April 10, 2026
@@ -548,3 +548,109 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
 **Status:** Scrapling forked to `jvanleur2234-glitch/Scrapling` ✅
 **Installed:** `pip install scrapling "curl_cffi>=0.15.0"` ✅
 **Hermes skill:** `/root/.hermes/skills/scrapling-scrapling` linked ✅
+
+---
+
+## 🏠 Airbnb/VRBO Message Management AI (Added Apr 17, 2026)
+
+**What it does:** Property hosts pay $100–300/month for an AI that:
+- Answers all guest messages 24/7 (booking inquiries, check-in questions, late-night requests)
+- Sends automated check-in instructions and house manual
+- Resolves common complaints before they escalate
+- Leaves review responses
+- Handles rebooking and cancellation requests
+- Sends pre-stay reminder and post-stay follow-up
+
+**Why hosts pay for this:**
+- Airbnb's algorithm heavily weights response time (must be <1hr for Superhost status)
+- 7M Airbnb hosts globally, 1% penetration = 70,000 customers × $150/mo = $126M ARR
+- Privacy concerns: guest data stays local, no third-party cloud dependency
+- Most hosts manage 1-5 properties — not full-time, but always-on demand
+
+**Revenue math:**
+- 50 clients × $150/mo = $7,500/mo
+- 200 clients × $150/mo = $30,000/mo
+- 1,000 clients × $150/mo = $150,000/mo
+
+**Our stack:**
+- CloudBrowser — automates web tasks (log into Airbnb, send messages)
+- Hermes — reasoning + response generation + conversation memory
+- Russell Tuna — Telegram interface for host to review/override
+- PinchTab — browser automation for multi-platform (Airbnb + VRBO + Booking.com)
+- JackConnect-style dashboard — host sees all properties, all conversations
+
+**First step:** Verify Airbnb API access (they have a messaging API) + VRBO equivalent. If APIs are blocked, use CloudBrowser stealth automation.
+
+**Difficulty:** 5/10 | **Time to first client:** 4-6 weeks | **MRR ceiling:** $150K/mo+ | **Window:** 18-24 months before Airbnb builds it themselves
+
+---
+
+## 🏠 Offline AI Property Management Assistant (Added Apr 17, 2026)
+
+**What it does:** Real estate investors and property managers pay $150–400/month for a local AI that:
+- Handles tenant communication templates (maintenance requests, lease renewals, late rent notices)
+- Lease drafting assistance (pull from state-specific templates)
+- Maintenance request triage (prioritize urgent vs. routine, route to correct vendor)
+- Rent collection reminders (automated texts/emails before due date)
+- Financial summaries (monthly P&L, cash flow, vacancy rates)
+- All processing local — tenant PII never leaves the server
+
+**Why privacy-first wins here:**
+- Tenant data (SSN, income verification, bank info) is highly sensitive
+- Property managers handling Section 8 or government housing have strict compliance requirements
+- AppFolio ($1B+ valuation) and Buildium prove the market — neither is AI-native
+- Landlords pay premium for "can't be hacked, won't be subpoenaed" positioning
+
+**Revenue math:**
+- 40 clients × $250/mo = $10,000/mo
+- 200 clients × $250/mo = $50,000/mo
+
+**Fold into JackConnect:** Add as a "Property Manager" persona/tier at $199-399/mo. Uses same stack as JackConnect real estate agent but with:
+- Property-specific skills (lease templates, rent roll analysis, maintenance triage)
+- Multi-property dashboard (manage 1-50 units per client)
+- Section 8 / government housing compliance mode (optional add-on)
+
+**Stack:** Hermes (skills) + Cabinet (knowledge base for state-specific landlord-tenant law) + CloudBrowser (web tasks) + cognee (property memory graph)
+
+**Difficulty:** 6/10 | **Time to first client:** 6-8 weeks | **MRR ceiling:** $100K/mo+ | **Path:** Start privacy-conscious indie landlords → expand to property management firms
+
+---
+
+## 📚 Amazon KDP Low-Content Book Publisher (Added Apr 17, 2026)
+
+**What it does:** AI generates 2-3 KDP low-content books per day (journals, notebooks, puzzle books, activity books, planners). Human reviews and uploads (5 min/day). Royalties stack passively.
+
+**Why books over YouTube:**
+- Evergreen — no algorithm dependency, no audience building required
+- Search-based discovery — Amazon's search is intent-driven, not attention-driven
+- Zero upload automation risk — KDP ToS prohibits automated uploads, so the human-in-the-loop is actually required (clean legal ground)
+- Stacks with YouTube — same AI content engine produces both video scripts and book content
+- Royalty积累 — 2 books/day × $2-5 royalty × 30 days = $120-450/month passive per book after upload
+
+**The workflow:**
+1. Hermes/Claude researches 3 low-competition KDP niches daily (web search + Amazon data)
+2. Generates: interior pages (lined, grid, dotted), back cover, 7 keyword phrases, description, category selection
+3. Stirling-PDF formats to KDP specs (6×9 inches, 120 pages, bleed settings)
+4. Human reviews output (2 min) → uploads to KDP
+5. Repeat daily — Royalty statements monthly
+
+**Accounts needed:**
+- Amazon KDP (free)
+- Amazon Associates (cross-promotion, free)
+- Payoneer or direct deposit for royalties
+
+**Our stack:**
+- Hermes — niche research, content generation, keyword research, description writing
+- Stirling-PDF — PDF formatting to KDP specs (already have)
+- Claude — quality control review
+- Daily automation via Job Runner
+
+**Gap to close:** Stirling-PDF needs to be set up as a CLI tool for batch PDF generation. Verify it's installed and working.
+
+**Difficulty:** 3/10 | **Time to first sale:** 2-4 weeks | **MRR ceiling:** $5K/mo at 200+ titles | **Effort:** 5-10 min/day maintenance
+
+**Honest note:** This is 95% hands-off AI automation, not 100%. You spend ~5 min/day clicking upload. That's the legally clean bottleneck — Amazon requires human-initiated submissions.
+
+**Competitor context:** KDP authors using AI are racing to publish 100+ titles. Our advantage isn't volume — it's using Hermes to find underserved niches before they saturate.
+
+---
