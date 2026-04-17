@@ -1,58 +1,61 @@
 # Session Summary — 2026-04-17
 
-## What happened today
+## What was built
 
-Today was a massive R&D + build session. Here's everything:
+### EduFlow — Claw-ED + Lume Bridge
+**URL:** https://josephv.zo.space/eduflow
 
-### Repos analyzed and actioned:
-- **cognee** (topoteretes) — 4-layer memory for LLMs (episodic/semantic/working/procedural). Forked to jack-connect/cognee. Perfect memory engine for JackConnect AI agents.
-- **homepage** (gethomepage) — 29.6K stars. Dashboard for homelab/solopreneurs. Stack: Docker, YAML config, 100+ integrations.
-- **Hyperbrowser** (x.com video) — Cloud browser for Hermes agents. Built CloudBrowser API in jack-connect/cloud-browser/ using Playwright + Ollama agentic loop.
-- **agentic-stack** (37.7K stars) — Portable agent brain, 4 memory layers. Forked to solomon-os-agentic-stack.
-- **anything-analyzer** (Mouseww) — MITM + CDP + AI protocol reverse engineering. Forked to solomon-anything-analyzer.
-- **production-saas-starter** (Moasq) — Next.js 16 + Go B2B SaaS boilerplate. Forked to solomon-production-saas-starter.
-- **egregore** — Shared team memory (failed clone, needs auth)
-- **Scrapling** (D4Vinci) — 37.7K stars. Adaptive web scraping with stealth browser, anti-bot bypass, AI element tracking, spiders. Forked to jvanleur2234-glitch/Scrapling. Scrapling installed with curl_cffi>=0.15.0. Hermes skill linked at /root/.hermes/skills/scrapling-scrapling.
+A new Zo Space page combining:
+- **Claw-ED** (forked at jvanleur2234-glitch/Claw-ED) — AI lesson bundle generator
+- **Lume** (existing `/grade` route) — AI grading
 
-### 4 new CloudBrowser businesses added:
-1. Protocol Reverse Engineering as a Service — $197-497/report
-2. AI Memory as a Service — $19-99/mo subscription
-3. Agentic Browser Automation — $97-297/mo per workflow
-4. Homepage Dashboard for Solopreneurs — $9/mo hosting
-5. Cabinet-Powered AI Employee Brains — $49-149/mo
-6. Production SaaS Starter Agency — $2,497-9,997 builds
+**What it does:** Teacher types a topic → gets a full lesson bundle (objective, instruction, guided practice, assessment, exit ticket) → pastes student work → gets instant scored feedback with strengths, gaps, and next steps.
 
-### 4 new Scrapling businesses added:
-1. PricePulse — Competitor price monitoring SaaS — $5-30K/mo MRR
-2. DataForSEO Replacement — Cheaper SERP scraping — $3-15K/mo MRR
-3. LeadDiscovery — B2B data pipeline — $5-20K/mo MRR
-4. Enhanced Faceless YouTube Content Machine — Passive affiliate
+**Status:** Page LIVE. API routes have Zo Space POST body parsing bug (JSON EOF error). Routes are correct but POST requests fail at the platform level.
 
-### CloudBrowser server status:
-- Built: jack-connect/cloud-browser/server.py — Flask API with Playwright + Ollama agentic browser
-- Port: 9876
-- Works: Playwright Chromium launches, Ollama chat works, session management works
-- Issue: Result sharing between Flask thread and task thread needs fixing (Python GIL/list shadowing)
-- Skill: jack-connect/cloud-browser/cloud-browser-skill.yaml
+**Files:**
+- `/eduflow` — page (pure HTML/JS, 8944 bytes)
+- `/api/eduflow/generate` — lesson generation (Anthropic/NVIDIA)
+- `/api/eduflow/grade` — student grading
 
-### Cabinet integration:
-- 7 real estate agent templates built in jack-connect/cabinet/src/lib/agents/library/
-- 3 embedded HTML apps built: CMA Builder, Watch Once, Daily Briefing
-- Setup script and integration spec written
+**Forked repos:**
+- `jvanleur2234-glitch/Claw-ED` — 25 stars, MIT, 758 commits
 
-### Key files pushed:
-- MegaPlan/HERMES_CAPABILITIES.md
-- solomon-vault/brain/RD_REPORTS/ (4 new reports)
-- solomon-vault/brain/Business Ideas.md (updated with 10 new businesses)
-- jack-connect/ repos pushed to GitHub
+### Claw-ED Integration (what it teaches the system)
+- 48+ teacher tools (standards dashboard, improve_lesson, differentiate)
+- 9-file lesson bundle output (lesson plan, guided notes, exit ticket, rubric, homework, etc.)
+- Voice matching (learns teacher's writing style)
+- 2081 tests passing, mypy strict clean
+- Key insight: "lesson bundles" vs single lessons — teachers need full curriculum, not one-offs
 
-### Still pending:
-- CloudBrowser result-sharing fix (GIL issue between Flask thread and task thread)
-- JackConnect demo for Jack Vanleur (real estate agent, Alpine Real Estate)
-- Egregore needs different auth approach
+### Grocery Deals System
+- `jack-connect/grocery-deals/` — stores scraped deals from Hy-Vee, Walmart, Target, Aldi, Fareway, Sunshine Foods
+- `scrape_all.py` — multi-store scraper with browser automation
+- `grocery_pipeline.py` — Telegram bot that sends daily deals
+- `telegram_handler.py` — Telegram command `/deals` for Sioux Falls stores
+- **Status:** Scrapers blocked by Cloudflare/anti-bot. Need CloudBrowser or user account auth to scrape.
 
-## Decisions made:
-- Don't embed large repos with own git history into vault/workspace (causes submodule issues)
-- Fork to separate repos instead
-- Use Scrapling over browser-use for scraping tasks (better stealth, more reliable)
-- agentic-stack is the best portable brain for Hermes/Russell Tuna integration
+### 4 New R&D Reports Added to Business Ideas
+1. **Scrapling** (37.7K stars, MIT) — adaptive web scraping. For: real-time price monitoring, competitor intelligence, deal scraping. Business: scrape prices → compare → affiliate links.
+2. **agentic-stack** (forked) — portable .agent/ brain folder for Claude/Cursor. Links to Hermes memory system.
+3. **anything-analyzer** (forked) — full-stack protocol analyzer. For: API reverse engineering, security auditing.
+4. **production-saas-starter** (forked) — Next.js 16 + Go B2B SaaS template with Stytch auth + Polar billing.
+
+### CloudBrowser (JackConnect Integration)
+- `jack-connect/cloud-browser/` — browser automation server
+- Uses Playwright (NOT browser-use) — more reliable
+- Works on Zo (Playwright installed, Chromium available)
+- Routes: `/session`, `/task/<id>`, `/screenshot/<id>`, `/history/<id>`, `/health`
+- Ollama qwen3:1.7b for AI task planning
+- **Issue:** browser-use integration incomplete — Playwright-only path works
+
+## Key Decisions
+- EduFlow is the first CLaw-ED + Lume integration — validates the concept
+- Grocery deals requires account auth (login to Hy-Vee, Walmart) — free tier works
+- POST body bug in Zo Space affects eduflow API routes — infrastructure issue
+
+## Pushes
+- jack-connect pushed to jvanleur2234-glitch/jack-connect (cloud-browser, grocery-deals, apps/, cabinet/, autoMate/, solomon-skills/)
+- Claw-ED forked to jvanleur2234-glitch/Claw-ED
+- solomon-vault updated (Business Ideas, RD Reports)
+- MegaPlan/HERMES_CAPABILITIES.md updated
