@@ -450,3 +450,156 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
 - No infrastructure costs for us
 
 **Status:** READY TO SELL. Start with ONE client as proof of concept.
+---
+
+## CloudBrowser-Powered Businesses (Added Apr 17, 2026)
+
+**Stack:** CloudBrowser = Playwright + Ollama running locally on YOUR machine. Browser that AI controls. Zero API costs. Visits any site, extracts any data, takes screenshots.
+
+**What it does that matters:** Turns unstructured web browsing into automated, reproducible workflows. No human clicking required after setup.
+
+---
+
+### 1. Lead Gen Service — $29-99/lead (FASTEST to first dollar)
+
+**What:** Research any business, deliver 50 verified leads with phone + email in 24hrs.
+
+**How CloudBrowser does it:**
+- Visits target company's website → extracts services, pricing, geography
+- Visits LinkedIn → finds decision makers
+- Visits industry directories → cross-references data
+- Visits county assessor sites → gets property records
+- Compiles everything into a clean CSV
+
+**Pricing:**
+- 50 basic leads (name + email): $29
+- 50 premium leads (name + phone + email + company): $59
+- 50 ultra leads (everything + LinkedIn profile + recent news): $99
+
+**Time to deliver:** 4-8 hours (CloudBrowser works while you sleep)
+
+**Effort to set up:** 2hrs (landing page + Stripe)
+
+**Revenue math:**
+- 2 clients/week × $59 = ~$500/week = $2K/mo
+- 5 clients/week × $59 = ~$1,250/week = $5K/mo
+
+**Who pays:** Real estate agents, financial advisors, HVAC companies, any local business that needs new customers
+
+**Stack:** CloudBrowser + Zo Space (landing page) + Stripe + Telegram (delivery)
+
+---
+
+### 2. Competitive Intel Reports — $197/report or $497/mo subscription
+
+**What:** For real estate agents — visit every competitor's site in their market, extract listings, pricing, marketing tactics, new listings, price drops. Delivered weekly.
+
+**How CloudBrowser does it:**
+- Visits 10-20 competitor real estate sites
+- Extracts: current listings, pricing, days on market, marketing language
+- Compares to client's listings
+- Generates weekly report: "Your listing at 123 Main is priced 8% above comparable active listings"
+
+**Pricing:**
+- One-time report: $197
+- Monthly subscription (weekly reports): $497/mo
+- Quarterly deep-dive: $997/quarter
+
+**Who pays:** Real estate agents (especially investment property agents), insurance agents, any commission-based sales rep
+
+**JackConnect tie-in:** This IS JackConnect's market intel agent running on steroids. Jack could offer this as his first paid add-on.
+
+**Revenue math:**
+- 10 agents × $497/mo = $4,970/mo recurring
+- Just 3 agents × $497 = $1,491/mo
+
+---
+
+### 3. JackConnect CloudBrowser Tier — $30-100/mo (recurring)
+
+**What:** JackConnect with CloudBrowser as the research engine. The "AI employee" that actually reads the web for the agent.
+
+**Enhanced capabilities:**
+- Property research: "Find all listings in Sioux Falls 57104 under $350K with 3+ beds" → structured data
+- Lead enrichment: "Enrich this list of 100 names with phone numbers and emails" → full CRM data
+- Market monitoring: "Check Zillow every morning for new listings in these 5 ZIPs" → daily alerts
+- Competitor tracking: "Check if competitor Keller Williams posted any new listings this week" → alerts
+
+**Pricing:**
+- Solo (CloudBrowser research + Ollama): $30/mo
+- Pro (CloudBrowser + GPT-4o for reasoning): $70/mo
+- Business (CloudBrowser + Claude Sonnet 4): $100/mo
+
+**Effort:** Already built. Just needs Jack as first customer + Stripe integration.
+
+---
+
+### 4. Data Reseller Service — $200-500/mo per client
+
+**What:** CloudBrowser visits government sites (county assessor, tax records, foreclosures, courthouse filings) daily. Packages clean data into CSVs. Sells to title companies, investors, insurance agents.
+
+**Real examples:**
+- Foreclosure listings for Sioux Falls area: $300/mo subscription
+- New construction permits: $200/mo
+- Divorce filings (public record): $150/mo
+- Commercial property sales: $500/mo
+
+**How it works:**
+- CloudBrowser runs daily at 6am
+- Scrapes county assessor website for new filings
+- Parses into clean CSV
+- Emails to client every morning
+
+**Effort:** 1 day to set up per data type. Each new data type = new subscription.
+
+**Who pays:**
+- Title companies (need fast data on new filings)
+- Real estate investors (foreclosures, off-market deals)
+- Insurance agents (new construction = new policies)
+- Lawyers (court filings)
+
+---
+
+### 5. Sweepstakes Hunting Service — $19-99/mo
+
+**What:** Enter sweepstakes, contest, and giveaways automatically. People pay you to run their entries 24/7.
+
+**How CloudBrowser does it:**
+- Logs into Gleam, Rafflecopter, other contest platforms
+- Enters hundreds of contests per day
+- Tracks wins and reports monthly
+
+**Pricing:**
+- Basic (50 contests/day): $19/mo
+- Pro (200 contests/day): $49/mo
+- Enterprise (unlimited): $99/mo
+
+**Reality check:** Niche market, but some people make serious money finding the good contests. $0 cost to run, pure margin.
+
+---
+
+## Cabinet + Cognee Memory Layer (Added Apr 17, 2026)
+
+**What:** JackConnect becomes an agent with persistent memory. It remembers EVERYTHING about Jack's business — past clients, deals, preferences, conversations. Gets smarter over time.
+
+**Why it matters for all the above:**
+- Every lead gen report = new context that improves next report
+- Every client interaction = agent learns their style
+- Market data accumulates = predictive intelligence
+- No more starting from scratch every session
+
+**Stack installed:**
+- Cabinet: AI team OS (7 real estate agent templates ready)
+- Cognee: Memory layer (installed at /home/workspace/jack-connect/cognee)
+- autoMate: Desktop automation (script library ready)
+- Homepage: JackConnect Dashboard (installed at /home/workspace/jack-connect/jack-dashboard)
+
+**Revenue impact:**
+- Without memory: $29/lead (one-time)
+- With memory: $29/lead + $30/mo subscription (agent gets smarter every month)
+
+The memory layer is what turns a one-time service into recurring revenue.
+
+---
+
+*Last updated: April 17, 2026*
