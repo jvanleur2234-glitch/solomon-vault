@@ -504,3 +504,47 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
 - **What makes it interesting:** Every AI in a team contributes to shared episodic + semantic memory. Human reviews lessons before they become permanent.
 - **For Solomon OS:** Multi-agent teams (Russell Tuna, Hermes, JackConnect, etc.) could share context via egregore-like pattern
 - **Build it:** Use agentic-stack's semantic memory layer as the base, add a shared Redis/Postgres backend for cross-agent memory sync
+
+--- Scrapling — 37.7K Stars, MIT, Forked Apr 17 ---
+**Repo:** jvanleur2234-glitch/solomon-scrapling | jvanleur2234-glitch/Scrapling
+**What it is:** Adaptive web scraping framework with Playwright stealth browser, anti-bot bypass (Cloudflare, Turnstile), AI element tracking (auto-relocates elements when site changes), concurrent spiders with pause/resume, proxy rotation, and MCP server.
+**LINK fit:** ★★★★★ — #data-pipeline #competitor-monitoring #price-intelligence #facelessyoutube #hermes #browser
+**Skill:** `scrapling-scrapling` — installed to Hermes at `/root/.hermes/skills/scrapling-scrapling`
+**For Solomon OS:** Hermes uses Scrapling to scrape competitor sites, monitor pricing, build data pipelines, and power the faceless YouTube content pipeline.
+
+### Businesses from Scrapling
+
+**1. PricePulse — Competitor Price Monitoring SaaS**
+- Every e-commerce site, travel site, real estate listing scraped daily
+- Alert when competitor prices change
+- Integrates with Scrapling stealth mode (bypasses anti-bot)
+- Stack: Scrapling + Solomon OS + Telegram alerts
+- Revenue: $29-149/mo per monitor
+- Competitors charge $99-500/mo for less
+- **Build:** Zo Space + Scrapling spider + Telegram notifications + Stripe
+- **MRR potential:** $5-30K/mo
+
+**2. DataForSEO Replacement — Cheaper SERP Scraping**
+- Scrapling's Fetcher class impersonates Chrome TLS fingerprint perfectly
+- Google, Amazon, Yelp, all search engines scrapable at scale
+- Stack: Scrapling + proxy rotation + structured output API
+- Sell credits: $10 for 1K scrapes, $50 for 10K
+- **MRR potential:** $3-15K/mo
+
+**3. LeadDiscovery — B2B Data Pipeline**
+- Scrape LinkedIn, Yellow Pages, Crunchbase, job postings for leads
+- Build structured B2B databases by industry/location/revenue
+- Stack: Scrapling stealth + Spider framework + structured output
+- Sell: $197 for 10K leads, $497 for 50K leads
+- **MRR potential:** $5-20K/mo
+
+**4. Faceless YouTube Content Machine (Enhanced)**
+- Scrapling replaces browser-use for content research
+- Scrape competitor videos, comments, trending topics, Reddit discussions
+- Feed to MoneyPrinterTurbo → automated video pipeline
+- Stack: Scrapling → Ollama analysis → MoneyPrinterTurbo → Postiz
+- **MRR potential:** Passive via affiliate links
+
+**Status:** Scrapling forked to `jvanleur2234-glitch/Scrapling` ✅
+**Installed:** `pip install scrapling "curl_cffi>=0.15.0"` ✅
+**Hermes skill:** `/root/.hermes/skills/scrapling-scrapling` linked ✅
