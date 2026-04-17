@@ -1,51 +1,58 @@
 # Session Summary — 2026-04-17
 
-## Date & Context
-**Date:** April 17, 2026
-**Session:** Deep research + build session. Reviewed Solomon OS stack, watched YouTube video on Solomon's warning about golems/AI, analyzed 8 links, built memory + dashboard integrations.
+## What happened today
 
-## Key Decisions Made
+Today was a massive R&D + build session. Here's everything:
 
-### 1. Cabinet Integration for JackConnect
-- Forked Cabinet (hilash/cabinet) — AI team OS with git-backed knowledge
-- Forked autoMate (yuruotong1/autoMate) — desktop automation for apps without APIs
-- Built 7 real estate agent templates in Cabinet's library format
-- Created setup.sh + onboard-jack.sh for one-command install
+### Repos analyzed and actioned:
+- **cognee** (topoteretes) — 4-layer memory for LLMs (episodic/semantic/working/procedural). Forked to jack-connect/cognee. Perfect memory engine for JackConnect AI agents.
+- **homepage** (gethomepage) — 29.6K stars. Dashboard for homelab/solopreneurs. Stack: Docker, YAML config, 100+ integrations.
+- **Hyperbrowser** (x.com video) — Cloud browser for Hermes agents. Built CloudBrowser API in jack-connect/cloud-browser/ using Playwright + Ollama agentic loop.
+- **agentic-stack** (37.7K stars) — Portable agent brain, 4 memory layers. Forked to solomon-os-agentic-stack.
+- **anything-analyzer** (Mouseww) — MITM + CDP + AI protocol reverse engineering. Forked to solomon-anything-analyzer.
+- **production-saas-starter** (Moasq) — Next.js 16 + Go B2B SaaS boilerplate. Forked to solomon-production-saas-starter.
+- **egregore** — Shared team memory (failed clone, needs auth)
+- **Scrapling** (D4Vinci) — 37.7K stars. Adaptive web scraping with stealth browser, anti-bot bypass, AI element tracking, spiders. Forked to jvanleur2234-glitch/Scrapling. Scrapling installed with curl_cffi>=0.15.0. Hermes skill linked at /root/.hermes/skills/scrapling-scrapling.
 
-### 2. Cognee Memory Layer
-- Cloned topoteretes/cognee (15,900 stars) into jack-connect/
-- Built jack-connect/cognee-jack.py — memory CLI with 8 categories:
-  - leads, deals, cma_reports, market_intel, client_nurture, transactions, preferences, lessons_learned
-- Uses Ollama locally (qwen3:1.7b) — free, no API costs
-- Already has native Hermes integration (memory.provider: cognee)
+### 4 new CloudBrowser businesses added:
+1. Protocol Reverse Engineering as a Service — $197-497/report
+2. AI Memory as a Service — $19-99/mo subscription
+3. Agentic Browser Automation — $97-297/mo per workflow
+4. Homepage Dashboard for Solopreneurs — $9/mo hosting
+5. Cabinet-Powered AI Employee Brains — $49-149/mo
+6. Production SaaS Starter Agency — $2,497-9,997 builds
 
-### 3. Homepage Dashboard
-- Created jack-dashboard/ — fork of Homepage (29.6K stars) branded for real estate
-- Config: settings.yaml (Jack's bookmarks + Solomon OS links)
-- Services: Ollama, Cognee, Pipeline, Leads, CMA Builder, Watch Once, Commission Tracker
-- Widgets: custom real estate + system health
-- start.sh launcher — starts dashboard + memory in one command
+### 4 new Scrapling businesses added:
+1. PricePulse — Competitor price monitoring SaaS — $5-30K/mo MRR
+2. DataForSEO Replacement — Cheaper SERP scraping — $3-15K/mo MRR
+3. LeadDiscovery — B2B data pipeline — $5-20K/mo MRR
+4. Enhanced Faceless YouTube Content Machine — Passive affiliate
 
-## Code Created/Modified
-- jack-connect/cabinet/ — full Cabinet repo (815 files)
-- jack-connect/autoMate/ — autoMate repo
-- jack-connect/solomon-skills/ — JackConnect skill library
-- jack-connect/automate-scripts/real-estate/ — 3 desktop automation scripts
-- jack-connect/cognee/ — Cognee knowledge engine
-- jack-connect/cognee-jack.py — Jack's memory CLI
-- jack-connect/jack-dashboard/ — Homepage fork with real estate config
-- jack-connect/setup.sh — one-command installer
-- jack-connect/onboard-jack.sh — 5-question onboarding
+### CloudBrowser server status:
+- Built: jack-connect/cloud-browser/server.py — Flask API with Playwright + Ollama agentic browser
+- Port: 9876
+- Works: Playwright Chromium launches, Ollama chat works, session management works
+- Issue: Result sharing between Flask thread and task thread needs fixing (Python GIL/list shadowing)
+- Skill: jack-connect/cloud-browser/cloud-browser-skill.yaml
 
-## Problems Solved
-- Git embedded repo issues (removed .git from cognee/homepage subdirs, pushed as regular copies)
-- Clean GitHub push for jack-connect repo
+### Cabinet integration:
+- 7 real estate agent templates built in jack-connect/cabinet/src/lib/agents/library/
+- 3 embedded HTML apps built: CMA Builder, Watch Once, Daily Briefing
+- Setup script and integration spec written
 
-## Unresolved / Next Session
-- Test Cognee memory demo with real JackConnect data
-- Deploy jack-dashboard locally and verify
-- Connect Cognee to Hermes config
-- Get Jack's first testimonial
+### Key files pushed:
+- MegaPlan/HERMES_CAPABILITIES.md
+- solomon-vault/brain/RD_REPORTS/ (4 new reports)
+- solomon-vault/brain/Business Ideas.md (updated with 10 new businesses)
+- jack-connect/ repos pushed to GitHub
 
-## GitHub Pushes
-- jack-connect repo: multiple pushes, all clean
+### Still pending:
+- CloudBrowser result-sharing fix (GIL issue between Flask thread and task thread)
+- JackConnect demo for Jack Vanleur (real estate agent, Alpine Real Estate)
+- Egregore needs different auth approach
+
+## Decisions made:
+- Don't embed large repos with own git history into vault/workspace (causes submodule issues)
+- Fork to separate repos instead
+- Use Scrapling over browser-use for scraping tasks (better stealth, more reliable)
+- agentic-stack is the best portable brain for Hermes/Russell Tuna integration
