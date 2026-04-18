@@ -1,30 +1,28 @@
-# Telegram Session Summary — April 10, 2026
+# Telegram Session — April 10, 2026
 
 ## Date
-April 10, 2026
-
-## Channel
-Telegram DM
+April 10, 2026 | 11:19 PM CDT
 
 ## Key Decisions
-- Named YouTube channel: **"Way Which You Should Go"**
-- Faith/kids niche confirmed
-- MoneyPrinterTurbo is LIVE on port 8080 but needs API keys to generate videos
+- Discussed "Agency Agents" GitHub repo (810K stars, 147 roles, 12 divisions)
+- Discussed Ollama 0.21 Hermes Agent support
+- Joseph asked to wire Agency Agents into Solomon OS
 
-## Problems Identified
-1. LLM provider empty → need Pollinations AI (free, no key needed) or OpenAI key
-2. Video source (Pexels/Pixabay) API keys empty → no stock video footage
-3. Ollama was down, now restarted and running on port 11434 (only llama3.2:1b model)
+## What We Covered
+- SOLOMON_OS.md complete history review
+- Business priority: AI White-Collar Staffing Agency
+- Tweet 1: Agency Agents repo — MIT licensed, one-command install, 147 roles, 12 divisions
+- Tweet 2: Ollama 0.21 drops Hermes Agent support natively
+- Analysis: Agency Agents = productized version of what Solomon OS builds with Russell Tuna
+- Hermes integration opportunity: Ollama 0.21 native Hermes agent
 
-## Code Created/Modified
-- Restarted Ollama daemon: `nohup ollama serve > /dev/shm/ollama.log 2>&1`
+## Action Item
+- Clone Agency Agents repo, cherry-pick most valuable agent roles
+- Integrate into Solomon OS as hireable worker templates
+- Status: QUEUED (Joseph said "Yes do that wire it up" on April 18)
 
-## Unresolved Issues
-- Pexels API key needed for stock video (free tier: 200 videos/month)
-- Pollinations LLM needs to be configured in config.toml
-- Piper TTS voice options not yet tested for calm/kids narration
+## Unresolved
+- None
 
-## Follow-up Needed
-1. Joseph to provide Pexels API key (free at pexels.com/api)
-2. Test Pollinations + Pexels combo to generate first "Way Which You Should Go" video
-3. Explore Piper TTS voices for calm kids narration
+## Files Modified
+- /home/workspace/solomon-vault/raw/telegram_SUMMARY_2026-04-10.md (this file)

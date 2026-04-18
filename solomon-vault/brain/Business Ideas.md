@@ -654,3 +654,28 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
 **Competitor context:** KDP authors using AI are racing to publish 100+ titles. Our advantage isn't volume — it's using Hermes to find underserved niches before they saturate.
 
 ---
+## EduFlow — Claw-ED + Lume Bridge (Added Apr 17, 2026)
+- **What:** One page that combines Claw-ED (lesson generation) + Lume (grading) — teachers get a full lesson AND auto-grading in one place
+- **Live at:** https://josephv.zo.space/eduflow
+- **Forked:** Claw-ED at jvanleur2234-glitch/Claw-ED (25 stars, MIT, 758 commits, 2081 tests)
+- **How it works:** Teacher types topic → full lesson bundle generated (objective, instruction, practice, assessment, exit ticket) → pastes student work → instant scored feedback with strengths, gaps, and next steps
+- **Why teachers want it:** They describe what they need → get a complete lesson → grade student work in the SAME tool without switching apps
+- **Business model:** Freemium (3 free lessons/week) → $9/mo teacher, $19/mo school/district
+- **LINK fit:** ★★★★★ — wife (teacher) = first customer, validated with real users
+- **Competitive edge:** No competitor combines lesson generation AND grading in one flow. Claw-ED does lessons, Lume does grading — EduFlow is the bridge.
+- **Next step:** Get wife to use it, iterate based on feedback, add more Claw-ED tools (standards dashboard, differentiation, improve_lesson)
+
+## Antigravity Awesome Skills (Added Apr 17, 2026)
+- **Repo:** sickn33/antigravity-awesome-skills — 33.7K stars, MIT, 1,400+ skills, 1481 commits
+- **Forked:** jvanleur2234-glitch/antigravity-awesome-skills
+- **What it is:** World's largest agentic skills library. Skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows.
+- **LINK fit:** ★★★★★ — directly upgrades Hermes and Russell Tuna. 1,400+ skills in one command.
+- **How to use:** `npx @sickn33/antigravity-ai install <skill-name>` or browse catalog and install specific skills into Hermes.
+- **Strategic value:** Solomon OS agents get instant access to 1,400+ battle-tested skills. Agent upgrade path = browse catalog + install.
+- **Key categories:** coding, security, DevOps, data, AI/ML, writing, design, productivity
+
+## Paperclip Docs (Added Apr 17, 2026)
+- **URL:** aronprins.github.io/paperclip-docs/
+- **What:** Official Paperclip documentation just went live. Improved adapter docs, user guides, tutorials.
+- **Relevance:** We already have Paperclip running at localhost:3101. Better docs = better Hermes/Paperclip integration for Solomon OS.
+- **Action:** Read the new docs and improve the Hermes-Paperclip adapter integration.

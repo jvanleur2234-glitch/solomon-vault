@@ -89,6 +89,58 @@
 - **Defense Team**: Hardening, Detection, Response, Forensics, Threat Intel agents
 - **Self-improvement**: After every successful attack: root cause → fix deployed → detection rule created → attack team briefed on closed vector → new attack surface explored
 
+## SELF-IMPROVEMENT LOOP (Phase 1-5 Build)
+
+Solomon OS has a continuous self-improvement architecture across 4 layers:
+
+### The 4 Memory Layers
+| Layer | What | Scope | Latency |
+|-------|------|-------|---------|
+| HOT | Current session state | Per-user | Sync (fast) |
+| COLD | Lessons learned, verified patterns | Per-user | Async |
+| Shared | Anonymized techniques + anti-patterns | Cross-user | Read-only |
+| Identity | Who the user is (soul, values, goals) | Per-user | Slow-changing |
+
+### The Self-Improvement Cycle (every interaction)
+1. **Respond** — use HOT + Identity context
+2. **Log result** — what happened
+3. **Evaluate** — did it work?
+4. **Update** — reinforce success / diagnose failure
+5. **Propagate** — if shareable, anonymize and add to shared pool
+6. **Compound** — next session smarter from all past sessions
+
+### Build Phases
+- **Phase 1 (WEEKS 1-2):** Per-user memory directories, context loader, session summarizer
+- **Phase 2 (WEEKS 2-3):** Feedback signal capture (explicit + implicit), quality gates
+- **Phase 3 (WEEKS 3-5):** Cross-user knowledge sharing with anonymization layer
+- **Phase 4 (WEEKS 4-6):** Identity evolution with drift detection
+- **Phase 5 (ONGOING):** Continuous compounding — daily review, weekly audit, monthly deep-dive
+
+### Privacy Model
+- Users CAN share: techniques, workflow patterns, tool configs, anti-patterns (all anonymized)
+- Users CANNOT share: conversations, client data, raw memory files
+- Users can OPT-OUT of shared pool contributions
+- Users can revoke contributions at any time
+
+### Shared Knowledge Pool
+Location: `/home/workspace/solomon-vault/shared/`
+- `techniques/` — what works (anonymized success patterns)
+- `anti-patterns/` — what fails (anonymized failed approaches)
+- `insights/` — platform-level aggregate patterns (cohort-level, not individual)
+
+### Quality Gates
+- New learning → requires 2+ confirmations OR explicit user approval before promoting to verified lesson
+- Unverified → stage in `cold/staging/` until confirmed
+- Verified → promote to `cold/lessons/`
+
+### Existing Foundations
+- Solomon Vault brain/ → maps to COLD + Identity layers ✅
+- GBrain patterns → feedback + entity detection ✅
+- Sunday Self-Review Agent → weekly audit loop ✅
+- Per-user brain files → HOT + COLD needed (per-user directories at `solomon-vault/users/{user-id}/`) 🔨
+- Shared technique registry → needs building 🔨
+- Anonymization layer → needs building 🔨
+
 ## Supported Model Providers
 
 | Provider | Env Var | Model | Status |
