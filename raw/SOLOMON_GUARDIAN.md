@@ -1,207 +1,125 @@
-# SOLOMON GUARDIAN — Autonomous Security Intelligence
+# CYBER GUARDIAN OS — ARCHITECTURE v2
 
-> **Purpose:** Self-learning, self-updating, 24/7 security agent that protects Be Like You! OS at every layer. Never requires manual updates. Learns and improves autonomously.
+## PURPOSE
+Guardian is Solomon OS's autonomous defensive AI — protects all systems 24/7, detects threats, responds in real-time, and self-improves endlessly.
 
----
+## 🔴 CORE INNOVATION — ADVERSARIAL SELF-IMPROVEMENT LOOP
 
-## CORE PHILOSOPHY
+The Guardian runs TWO parallel teams at all times:
 
-- **Assume Breach:** Guardian assumes it is already compromised. It hunts for attackers internally at all times.
-- **Zero Trust:** Every process, user, connection, and packet is verified — always.
-- **Self-Healing:** If compromised, Guardian isolates, kills, and restores from clean snapshot — automatically.
-- **Impossible to Silently Disable:** Any attempt to kill or neuter Guardian triggers immediate lockout response.
-- **Defense in Depth:** Network → System → Application → Data — every layer protected simultaneously.
+**DEFENSE TEAM** — Protects, detects, responds, hardens
+**ATTACK TEAM** — Constantly penetrates, exploits, breaks, reports
 
----
-
-## HOW IT LEARNS 24/7
-
-### Threat Intelligence Sources (Continuous ingestion)
-- CVE Database (NVD), Exploit-DB, MITRE ATT&CK (real-time TTP updates)
-- VirusTotal, AbuseIPDB, AlienVault OTX (IOC feeds)
-- Dark web leak forums, Ransom leak sites (via safe OSINT collection)
-- Shodan, Censys (exposure monitoring)
-- abuse.ch (malware DNS blocklists),urlhaus
-- Twitter/X threat actor accounts ( @bank_security, @M___M___M, @pr0ficial, etc.)
-- Security RSS: Krebs, Dark Reading, The Hacker News, BleepingComputer, Ars Technica, Schneier on Security
-- ArXiv security papers, BlackHat/DEF CON talks (YouTube), CCC presentations
-- Custom honeypots (SSH, HTTP, SMB, RDP, FTP, DNS) capturing live attack patterns
-
-### Self-Improvement Loop
-```
-New threat intel → analyze → extract IOCs → update detection model →
-push new rules to kernel monitors → validate against false positive suite →
-deploy silently → if attack detected → block + isolate + alert + learn
-```
-
-### Malware Analysis Pipeline
-- Files flagged by any monitor → sent to Cuckoo Sandbox automatically
-- Reverse engineers malware in isolated environment
-- Extracts: IOCs (hashes, IPs, domains, URLs), behavioral patterns, persistence mechanisms, evasion techniques
-- Compiles findings into YARA rules + Snort/Suricata rules + detection signatures
-- Updates Guardian's detection engine within minutes of new sample
-
-### Behavioral Learning
-- Builds baseline of "normal" for: system calls, network traffic, user behavior, process spawning, file access, CPU/memory patterns
-- Anomaly detection uses unsupervised ML (Isolation Forest, LSTM autoencoders)
-- Learns your specific usage patterns to reduce false positives
-- Continuously retrains model as behavior evolves
+The ONLY rule: **Attackers must win.** If a vulnerability is found, the system learns from it, patches it, and hardens. The attack team NEVER stops. Loop never ends.
 
 ---
 
-## PROTECTION LAYERS
+## ADVERSARIAL CYCLE (runs 24/7, no human intervention)
 
-### Layer 1 — Network Security
-- **Full packet inspection** on all interfaces (eth, wifi, cellular, Bluetooth, USB)
-- **Intrusion Detection/Prevention:** Suricata + custom rules, zero-day detection via protocol anomaly
-- **DNS filtering:** Blocks known-malicious domains, DNSCrypt, DNS-over-HTTPS monitoring
-- **Encrypted channel monitoring:** Detects exfiltration even inside TLS (traffic volume, timing, packet size patterns)
-- **L7 firewall:** Deep packet inspection for protocol compliance (HTTP, SMTP, SSH, etc.)
-- **DDoS mitigation:** Adaptive rate limiting, traffic scrubbing,geo-blocking
-- **Rogue AP detection:** Detects evil twin attacks, ARP spoofing, man-in-the-middle
-- **Port scan detection:** Blocks reconnaissance, maps attacker toolchain
-- **Bluetooth hardening:** Monitors pairing attempts, blocks unencrypted transfers
-
-### Layer 2 — Kernel / System Security
-- **eBPF monitors** on all system calls (read, write, exec, network, file operations)
-- **Kernel integrity monitoring** via IMA/EVM (Linux) — detects rootkit persistence
-- **Secure boot chain:** UEFI + measured boot + TPM attestation
-- **Process spawning monitor:** Catches living-off-the-land attacks (PowerShell, regsvr32, mshta)
-- **Memory protection:** NX bit enforcement, ASLR, stack canaries, heap integrity checks
-- **Module signing:** No unsigned kernel modules loadable
-- **Container/namespace isolation:** Every app in its own sandbox with minimal privileges
-- **Seccomp profiles:** Syscall allowlisting (block dangerous syscalls per app)
-
-### Layer 3 — Application Security
-- **App vetting:** Every app analyzed before install (static + dynamic analysis)
-- **Runtime Application Self-Protection (RASP):** Instruments apps to detect exploitation attempts
-- **SQL injection / XSS detection** at the system call level (not just at the app layer)
-- **File integrity monitoring:** Critical system files hashed and monitored
-- **Credential protection:** Keychain hardening, credential guard, no plaintext secrets in memory longer than needed
-- **Secure IPC:** All inter-process communication encrypted and verified
-
-### Layer 4 — Data Security
-- **Encryption at rest:** AES-256 for all stored data, per-file encryption
-- **Secure deletion:** Overwrite with random data before delete (NIST 800-88 compliant)
-- **Backup with integrity:** Append-only encrypted backups, cryptographic verification on restore
-- **Data exfiltration detection:** Monitors unusual data access patterns, large file reads, bulk transfers
-- **Privacy enforcement:** Camera/mic/location access logged and require explicit user consent per-app
-
-### Layer 5 — Identity & Access
-- **Biometric auth:** Face + fingerprint + voice (multi-modal)
-- **Hardware security key support:** YubiKey, Titan
-- **Behavioral auth:** Typing patterns, touch pressure, gait (phone sensors)
-- **Secure enclave:** All cryptographic operations in hardware-backed TEE/SE
-- **Zero-trust networking:** Every connection re-authenticated, mTLS for all internal services
-- **Session integrity:** Detects session hijacking, cookie theft, token replay
+1. **Attacker probes** — Find new vulnerability, zero-day, misconfiguration, or logic flaw
+2. **Attacker exploits** — Gains access, escalates privileges, moves laterally, exfiltrates data, or disrupts service
+3. **Attack registers** — Alert fired with full context: vector, payload, root cause, impact
+4. **Guardian learns** — New rule created, patch deployed, model retrained on attack signature
+5. **Defense strengthens** — System is now immune to that attack vector
+6. **Attacker adapts** — Finds new vector the Guardian hasn't seen
+7. **Loop repeats** — Forever. No finish line.
 
 ---
 
-## AUTONOMOUS RESPONSE CAPABILITIES
+## ATTACK TEAM MODULES
 
-When Guardian detects a threat:
-1. **Isolate** — Network-isolate the compromised process/app/account immediately
-2. **Kill** — Terminate malicious process, revoke tokens, invalidate sessions
-3. **Restore** — Auto-rollback affected files/system to last known-good state
-4. **Alert** — Notify user with full incident report (what happened, how, what was done)
-5. **Learn** — Update all detection rules to catch this attack vector everywhere
+### Recon Agent
+- Port scans, DNS enumeration, service fingerprinting, OSINT on infrastructure
+- Maps the attack surface continuously
+- Tools: nmap, masscan, amass, subfinder, shodan, curl banners
 
-### Guardian Lockout Protocol
-If an attacker attempts to disable Guardian:
-- Guardian detects the kill attempt (monitoring its own process tree)
-- Instantly locks all credentials, freezes sessions, wipes Guardian process from memory
-- Sends alert via out-of-band channel (SMS to trusted contacts, if configured)
-- Device enters locked-down mode — only trusted recovery key works
-- Attacker cannot re-enable Guardian without physical access + trusted biometrics
+### Exploit Agent
+- Attempts known exploits against discovered services
+- Tests for OWASP Top 10, CVEs with available PoCs
+- Brute forces authentication (SSH, HTTP, API endpoints)
+- Tools: metasploit, sqlmap, commix, social-engineer-toolkit, hydra
 
----
+### Vulnerability Research Agent
+- Fuzzes inputs, finds logic flaws, identifies zero-days
+- Tests for race conditions, injection attacks, authentication bypasses
+- Analyzes patch diffs of open-source dependencies for backdoors
 
-## SELF-UPDATE MECHANISM
+### Red Team Agent
+- Simulates real adversary TTPs (Mitre ATT&CK)
+- Phishing via SMTP server, credential harvesting
+- Lateral movement via discovered credentials
+- Data exfiltration simulations
 
-Guardian NEVER needs manual updates because:
-- **Vulnerability feeds:** Auto-ingest new CVEs, assess exposure, push patches or mitigations
-- **Rule updates:** New IOCs from honeypots/malware analysis automatically compiled into detection rules
-- **Model retraining:** Behavioral model retrained nightly on latest data
-- **Zero-day response:** Within minutes of a new 0-day in the wild, behavioral heuristics update
-- **Att&ck mapping:** MITRE updates → Guardian automatically updates its TTP coverage map
-- **Red team feedback:** Simulated attacks run continuously, gaps identified and fixed automatically
-
-### Daily Guardian Report
-Each day, you receive a plain-language security digest:
-- New threats blocked
-- System health score
-- Any anomalies detected and resolved
-- Privacy usage stats
-- Recommendations (auto-implemented unless flagged for your review)
+### Living Off the Land Agent
+- Uses only built-in system tools (LOLbins)
+- Tests if defenders can detect basic system abuse
+- Fileless malware simulation
 
 ---
 
-## TOOLCHAIN & INTEGRATIONS
+## DEFENSE TEAM MODULES
 
-### Detection & Prevention
-- **eBPF:** kernel-level syscall, network, and file monitoring
-- **OSSEC / Wazuh:** Host-based intrusion detection (HIDS)
-- **Suricata:** Network IDS/IPS, L7 inspection
-- **Snort:** Additional network analysis
-- **Elastic SIEM:** Centralized logging and correlation
-- **ClamAV + custom signatures:** Malware detection
+### Hardening Agent
+- Applies patches, locks down configs, removes unnecessary services
+- Enforces MFA, rotates credentials, tightens firewall rules
+- Implements least-privilege access controls
 
-### Threat Intelligence
-- **VirusTotal API:** File, URL, IP reputation
-- **AbuseIPDB:** IP reputation
-- **AlienVault OTX:** Threat pulses
-- ** Shodan:** Exposure monitoring
-- **urlhaus, abuse.ch:** Malware URL/DNS blocklists
+### Detection Agent
+- SIEM rules, YARA signatures, behavioral ML anomaly detection
+- eBPF kernel monitors, file integrity monitoring
+- Network traffic analysis, DNS tunneling detection
 
-### Malware Analysis
-- **Cuckoo Sandbox:** Automated malware analysis
-- **Joe Sandbox:** Additional deep analysis
-- **YARA:** Pattern matching for malware families
-- **Velociraptor / OSQuery:** Endpoint detection and response
+### Response Agent
+- Isolates compromised systems automatically
+- Kills malicious processes, blocks IPs, revokes sessions
+- Prevents lateral movement in real-time
 
-### Honeypots
-- **VTHoney, Dionaea, MWCollect:** Low-interaction honeypots capturing live attack traffic
-- Custom SSH, HTTP, SMB honeypots to study attacker TTPs
+### Forensics Agent
+- Analyzes successful breaches for root cause
+- Generates attack timeline, impact assessment
+- Extracts IOCs for threat intel
 
-### Endpoint Response
-- **Velociraptor:** DFIR (Digital Forensics and Incident Response)
-- **OSQuery:** Endpoint visibility
-- **Lynis:** Linux security auditing
+### Threat Intel Agent
+- Aggregates indicators from all successful attacks
+- Enriches with VirusTotal, AlienVault OTX, Shodan
+- Generates actionable signatures for detection
 
 ---
 
-## BUILD PRIORITY
+## SELF-IMPROVEMENT ENGINE
 
-Guardian is built FIRST — before the OS kernel, before any app layer, before anything else. The boot chain is:
-```
-Boot ROM → UEFI/Trusted Boot → Guardian Verification → Guardian Kernel Module Load →
-Guardian eBPF Programs → System Integrity Check → OS Kernel Load → Apps Load
-```
-
-Guardian must be running and verified before the phone is usable.
-
----
-
-## AGENT STRUCTURE
-
-Guardian is itself an agent with sub-modules:
-
-- **Guardian Core:** Main orchestrator, coordinates all sub-modules, manages update loop
-- **Threat Intel Agent:** Continuously reads all feeds, processes new IOCs
-- **Malware Analysis Agent:** Analyzes samples, extracts signatures, updates YARA rules
-- **Hunting Agent:** Assumes breach, proactively searches for indicators of compromise
-- **Response Agent:** Handles autonomous triage, isolation, remediation
-- **Forensics Agent:** Post-incident analysis, attack chain reconstruction
-- **Report Agent:** Generates daily digest, stores all logs in immutable audit trail
-- **Self-Improve Agent:** Retrains models, updates rules, patches vulnerabilities automatically
+After EVERY successful attack:
+1. Full debrief: what happened, how it was exploited, what failed
+2. Root cause analysis — was it a config, a code bug, a logic flaw, a missing patch?
+3. Fix deployed automatically within minutes
+4. Detection rule created for that exact attack pattern
+5. Attack team briefed: that vector is now closed, find another
+6. Defense team briefed: new baseline, stay alert for variants
+7. Cycle count incremented — system gets harder to breach over time
 
 ---
 
-## SUCCESS METRICS
+## GOVERNANCE
 
-- Mean time to detect (MTTD): < 30 seconds for known attacks, < 5 minutes for novel attacks
-- Mean time to respond (MTTR): < 60 seconds (auto-remediate without human input)
-- False positive rate: < 0.1% (measured against labeled test dataset)
-- Threat intel coverage: 100% of active CVEs assessed within 24 hours of publish
-- Zero successful persistent compromises (measured by red team exercises)
-- 100% of Guardian's own code verified against supply chain attacks
+- **The ONE rule**: Attackers must always win eventually — that is the point
+- **Speed requirement**: Fix must be deployed before next attack cycle (typically < 5 minutes)
+- **Transparency**: Every attack logged publicly, every fix documented
+- **Zero vanity**: If no attacks are succeeding, the attack team is not trying hard enough
+- **Learning priority**: Every vulnerability discovered becomes a permanent immunity
+
+---
+
+## STACK
+
+- Ollama (local LLMs for attack/reasoning)
+- Python agents with tool access (nmap, metasploit, yara, ebpf, etc.)
+- PostgreSQL audit log
+- Redis task queue
+- Prometheus + Grafana dashboards
+- eBPF for kernel-level monitoring
+- AppArmor / SELinux profiles
+- Crowdstrike-style behavioral AI detection
+
+---
+
+*Last updated: April 18, 2026*
