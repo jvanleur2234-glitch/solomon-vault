@@ -1,0 +1,53 @@
+{
+  "generic": {
+    "description": "Safety invariants for all skill types",
+    "checks": [
+      {
+        "rule": "no_hardcoded_secrets",
+        "pattern": "password\\s*=|api_key\\s*=|secret\\s*=",
+        "severity": "critical",
+        "message": "Hardcoded secrets detected — use environment variables"
+      },
+      {
+        "rule": "no_shell_injection",
+        "pattern": "os\\.system|subprocess\\.call|subprocess\\.run.*shell\\s*=\\s*True",
+        "severity": "critical",
+        "message": "Shell injection vectors detected"
+      },
+      {
+        "rule": "no_eval",
+        "pattern": "eval\\(|exec\\(",
+        "severity": "high",
+        "message": "Dynamic code execution detected — security risk"
+      },
+      {
+        "rule": "no_raw_sql_delete",
+        "pattern": "DELETE\\s+FROM\\s+\\w+\\",
+        "severity": "high",
+        "message": "Raw DELETE without parameterization — SQL injection risk"
+      }
+    ]
+  },
+  "auto-skill-router": {
+    "description": "Skill router must never execute dynamic code",
+    "checks": [
+      {
+        "rule": "no_dynamic_execution",
+        "pattern": "exec\\(|eval\\(|compile\\(",
+        "severity": "critical",
+        "message": "Skill router cannot contain dynamic code execution"
+      }
+    ]
+  },
+  "email-sequence": {
+    "description": "Email sequences must not hardcode credentials",
+    "checks": [
+      {
+        "rule": "no_hardcoded_email_creds",
+        "pattern": "smtp.*password\\s*=|email.*password\\s*=",
+        "severity": "critical",
+        "message": "Email credentials must come from environment variables"
+      }
+    ]
+  }
+}

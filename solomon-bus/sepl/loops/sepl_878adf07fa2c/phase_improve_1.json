@@ -1,0 +1,11 @@
+{
+  "phase": "improve",
+  "iteration": 1,
+  "timestamp": "2026-04-18T05:09:21.715176Z",
+  "data": {
+    "skill": "email-sequence",
+    "candidate_version": "0.1.0a",
+    "hypothesis_id": "H1-default",
+    "content_hash": "e153af014c8b9bba7bf75dbf70c8837c"
+  }
+}

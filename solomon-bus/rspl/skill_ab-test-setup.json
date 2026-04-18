@@ -1,0 +1,11 @@
+{
+  "name": "ab-test-setup",
+  "type": "skill",
+  "current_version": "0.1.0",
+  "created": "2026-04-18T05:00:37.234863Z",
+  "lifecycle": "init",
+  "metadata": {
+    "source": "hermes",
+    "registered": "2026-04-18"
+  }
+}

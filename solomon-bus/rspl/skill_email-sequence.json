@@ -1,0 +1,12 @@
+{
+  "name": "email-sequence",
+  "type": "skill",
+  "current_version": "0.1.1",
+  "created": "2026-04-18T05:00:37.231612Z",
+  "lifecycle": "updated",
+  "metadata": {
+    "source": "hermes",
+    "registered": "2026-04-18"
+  },
+  "last_updated": "2026-04-18T05:09:21.716728Z"
+}

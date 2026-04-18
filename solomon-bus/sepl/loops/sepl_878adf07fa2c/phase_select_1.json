@@ -1,0 +1,20 @@
+{
+  "phase": "select",
+  "iteration": 1,
+  "timestamp": "2026-04-18T05:09:21.707575Z",
+  "data": {
+    "candidates": [
+      {
+        "hypothesis": {
+          "id": "H1-default",
+          "type": "unknown",
+          "hypothesis": "Unclassified failure \u2014 need more diagnostic info",
+          "confidence": 0.3,
+          "fix_candidate": "gather_more_diagnostics"
+        },
+        "selected": true,
+        "rank": 1
+      }
+    ]
+  }
+}
