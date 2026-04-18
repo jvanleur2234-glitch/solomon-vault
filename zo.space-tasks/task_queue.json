@@ -1,0 +1,150 @@
+{
+  "tasks": [
+    {
+      "id": "coord_test_1",
+      "name": "Zo1\u2192Zo2 Coordination Test",
+      "type": "coordination",
+      "priority": "high",
+      "status": "pending",
+      "assignedTo": "zo2",
+      "addedAt": "2026-04-14T15:40:00Z"
+    },
+    {
+      "id": "glass_rd_001",
+      "name": "Glass by Pickle \u2014 RD Analysis",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-15T12:05:00Z",
+      "notes": "Recommendation: SKIP. Desktop app, overlaps with Screenpipe. See RD_REPORT glass-digital-mind-extension.md"
+    },
+    {
+      "id": "open-lovable_rd_001",
+      "name": "Open Lovable \u2014 RD Analysis",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-15T14:50:00Z",
+      "notes": "Recommendation: SKILL. 25k stars, MIT. Firecrawl team. Clone any site to React in minutes. See RD_REPORT open-lovable.md"
+    },
+    {
+      "id": "open-generative-ai_rd_001",
+      "name": "Open-Generative-AI \u2014 RD Analysis",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-15T15:50:00Z",
+      "notes": "Recommendation: INTEGRATE. 4.8k stars, MIT. 200+ AI models via Muapi API. Complementary to MoneyPrinterTurbo. Needs API key + cost analysis. See RD_REPORT open-generative-ai.md"
+    },
+    {
+      "id": "parlor-jackconnect-1776268686",
+      "name": "Integrate Parlor into Jack Connect / Screenpipe stack",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-15T15:55:00Z",
+      "notes": "RD_REPORT: Parlor replaces Clicky Cloudflare Worker (free on-device voice), Screenpipe for screen, Clicky overlay for cursor. Core: Watch Once voice AI."
+    },
+    {
+      "id": "bonsai-webgpu-001",
+      "name": "Bonsai 1.7B \u2014 Browser-Native 1-bit LLM + Sovereign Distributed AI Integration",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-16T03:22:00Z",
+      "notes": "RD_REPORT: bonsai-1bit-llm.md. Apache 2.0, WebGPU browser demo, 290MB. FORGE with priority \u2014 browser = node solves compute layer problem. Combine with Ratspeak + Reticulum for sovereign distributed AI network. Crypto key = node identity + compute credits. Reticulum = trust/identity layer, Airlines Plan/WebGPU = compute layer."
+    },
+    {
+      "id": "clearwing-lazarus-ai-001",
+      "name": "Clearwing \u2014 Autonomous Vulnerability Scanner + Source-Code Hunter",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-17T12:10:00Z",
+      "notes": "RD_REPORT: clearwing-lazarus-ai.md. 214 stars, MIT. LangGraph-based dual-mode: network pentest (63 tools) + source-code hunter with auto-patch. SKILL \u2014 add as security tier to AI staffing agency. Next: run clearwing doctor + test on small repo."
+    },
+    {
+      "id": "pashov-skills-001",
+      "name": "pashov/skills \u2014 Solidity Multi-Agent Audit Framework",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-17T12:10:00Z",
+      "notes": "RD_REPORT: pashov-skills.md. 610 stars, MIT. 8 specialized Solidity audit agents + FP gate validation. SKILL \u2014 study architecture for Solomon OS agent design; fork for Web3 audit service offering in AI staffing agency."
+    },
+    {
+      "id": "autogenesis-sepl-001",
+      "name": "Autogenesis SEPL Loop \u2014 Build into Solomon Bus",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-18T04:40:00Z",
+      "notes": "RD_REPORT: autogenesis-2604.15034.md. CRITICAL. SEPL = Reflect\u2192Select\u2192Improve\u2192Evaluate\u2192Commit closed-loop. Turns Russell Tuna from reactive chatbot \u2192 self-improving worker. Priority task per Joseph on Telegram."
+    },
+    {
+      "id": "gnhf-iter-001",
+      "name": "gn hf Iteration Engine \u2014 Graft onto Solomon Bus",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T04:40:00Z",
+      "notes": "RD_REPORT: gnhf.md. SKILL. gn hf nightly iteration pattern (commit on success/rollback on failure/notes.md across iterations) maps onto Solomon Bus overnight worker. Graft gn hf iteration engine as Solomon OS overnight loop."
+    },
+    {
+      "id": "planning-with-files-001",
+      "name": "planning-with-files \u2014 Integrate Manus-Style 3-File Planning into Solomon OS",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T04:46:00Z",
+      "notes": "RD_REPORT: planning-with-files.md. INTEGRATE. 3-file pattern (task_plan.md/findings.md/progress.md) + PreToolUse/PostToolUse/Stop hooks. Adopt for complex Russell Tuna multi-step tasks. Clone to /home/workspace/Skills/planning-with-files/."
+    },
+    {
+      "id": "repolens-001",
+      "name": "RepoLens \u2014 Multi-Lens Code Audit Tool",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T13:30:00Z",
+      "notes": "RD_REPORT: repolens.md. 146 stars, Apache 2.0. 280 AI agents across 27 domains for code review, security, DevOps. Test against Solomon OS codebase with --dry-run first. Could become centerpiece of AI staffing agency offering."
+    },
+    {
+      "id": "paperless-ngx-001",
+      "name": "Paperless-ngx \u2014 Document Management System",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T13:30:00Z",
+      "notes": "RD_REPORT: paperless-ngx.md. 38.2k stars, GPL-3.0. Django+Angular document management with Tesseract OCR. WORTHWHILE \u2014 deploy on Zo server via Docker for internal ops. Hook into Solomon Bus for auto-tagging. Could be bundled service for AI staffing clients."
+    },
+    {
+      "id": "agency-agents-001",
+      "name": "Agency Agents \u2014 Integrate 147 AI Personas into Solomon OS",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-18T17:30:00Z",
+      "notes": "RD_REPORT: agency-agents.md. 810K stars, MIT. Clone top 20 roles to /home/workspace/agency-agents/. Add to Hermes skills registry. Map to AI staffing agency service offerings."
+    },
+    {
+      "id": "consulting-ai-brain-001",
+      "name": "Consulting AI Brain \u2014 Package as Solomon OS Service",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T17:30:00Z",
+      "notes": "RD_REPORT: consulting-ai-brain.md. 3-layer AI brain system for consulting firms. Position as high-ticket service offering when Second Brain Portal goes public. Competitors: StarlingAI, Auctor."
+    },
+    {
+      "id": "ralph-001",
+      "name": "Ralph \u2014 Autonomous AI Agent Loop",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T22:05:00Z",
+      "notes": "RD_REPORT: ralph.md. SKILL. Fresh-context iteration pattern for Russell Tuna/Solomon Bus. PRD \u2192 user stories \u2192 loop \u2192 progress.txt. Adapt Ralph's loop concept into Solomon Bus / Russell Tuna workflow."
+    }
+  ],
+  "lastUpdated": "2026-04-18T22:05:00Z",
+  "sessionSummary": "Added paperless-ngx RD report and queue entry."
+}
