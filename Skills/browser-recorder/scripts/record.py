@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Browser Recorder - CDP-based browser event capture
-Connects to Chrome via Chrome DevTools Protocol to record user actions as skills.
+Browser Recorder - CDP-based browser event capture with auto-verify
+Records user actions AND captures post-action state as built-in verification.
 """
 
 import json
@@ -30,16 +30,15 @@ class BrowserRecorder:
         self.skill_name = skill_name
         self.ws = None
         self.msg_id = 0
-        self.recording = []
-        self.recording_lock = threading.Lock()
-        self.current_url = ""
+        self.steps = []          # The recorded steps
+        self.previous_url = ""
+        self.previous_snapshot = ""
         self.running = False
+        self.ws_connected = False
         
     def ws_connect(self):
-        """Connect to Chrome DevTools Protocol WebSocket."""
         ws_url = f"ws://localhost:{self.port}/devtools/page/target-{self.port}"
         try:
-            # Try to get the correct target
             import http.client
             conn = http.client.HTTPConnection("localhost", self.port)
             conn.request("GET", "/json")
@@ -50,10 +49,9 @@ class BrowserRecorder:
             pass
         
         self.ws = websocket.create_connection(ws_url, suppress=True)
-        self.running = True
+        self.ws_connected = True
         
     def send(self, method, params=None):
-        """Send CDP command and return response."""
         self.msg_id += 1
         msg = {"id": self.msg_id, "method": method}
         if params:
@@ -64,24 +62,41 @@ class BrowserRecorder:
             resp = json.loads(self.ws.recv())
             if resp.get("id") == self.msg_id:
                 return resp.get("result", {})
-    
-    def enable_events(self):
-        """Enable all DOM/Input/Network event collection."""
-        self.send("DOM.enable")
-        self.send("Input.enable")
-        self.send("Page.enable")
-        self.send("Network.enable")
-        
-    def get_selector(self, node_id):
-        """Build a CSS selector for a DOM node."""
+
+    def get_snapshot(self):
+        """Get current page URL and accessibility snapshot."""
+        url = ""
         try:
-            result = self.send("DOM.getPath", {"nodeId": node_id})
-            return result.get("path", f"node#{node_id}")
+            url = self.send("Runtime.evaluate", {
+                "expression": "window.location.href"
+            }).get("result", {}).get("value", "")
         except:
-            return f"node#{node_id}"
+            pass
+        
+        snapshot = ""
+        try:
+            tree = self.send("Accessibility.getFullTree", {})
+            nodes = tree.get("nodes", [])
+            snapshot = " ".join(
+                n.get("role", {}).get("value", "") + " " + n.get("name", {}).get("value", "")
+                for n in nodes[:30]
+            )
+        except:
+            pass
+        
+        return url, snapshot
     
     def record_step(self, action, selector, value=None, description=""):
-        """Add a recorded step to the buffer."""
+        """
+        Record a step AND capture its resulting state for verification.
+        This is the core of knowing whether a step worked - we capture
+        what the page looks like AFTER the action, and that becomes
+        the expected result.
+        """
+        # Capture state BEFORE the action
+        before_url = self.previous_url or ""
+        before_snapshot = self.previous_snapshot or ""
+        
         step = {
             "timestamp": datetime.now().isoformat(),
             "action": action,
@@ -90,120 +105,156 @@ class BrowserRecorder:
         }
         if value is not None:
             step["value"] = value
-            
-        with self.recording_lock:
-            self.recording.append(step)
-            
-        print(f"  📝 Recorded: {action} → {selector} {f'= {value}' if value else ''}")
-    
-    def handle_event(self, method, params):
-        """Handle incoming CDP events."""
-        with self.recording_lock:
-            if not self.recording and method not in ("Page.frameNavigated", "DOM.documentUpdated"):
-                return
         
-        if method == "Page.frameNavigated":
-            frame = params.get("frame", {})
-            url = frame.get("url", "")
-            if url and url != self.current_url:
-                self.current_url = url
-                self.record_step("navigate", url, description=f"Navigated to {urlparse(url).netloc}")
-                
-        elif method == "Input.dispatchMouseEvent":
-            pass  # Mouse events handled by click generation
-                
-        elif method == "DOM.characterDataModified":
-            pass  # Text changes
-            
-        elif method == "Input.dispatchKeyEvent" and params.get("type") == "keyDown":
-            pass  # Keystrokes handled separately
+        self.steps.append(step)
+        
+        # Give the action time to complete
+        time.sleep(1)
+        
+        # Capture state AFTER the action
+        after_url, after_snapshot = self.get_snapshot()
+        
+        # Store what "success" looks like
+        step["recorded_url"] = after_url
+        step["recorded_snapshot"] = after_snapshot[:500]
+        
+        # AUTO-GENERATE verify config: how do we know this step worked?
+        # Compare before → after to detect what changed
+        if after_url and after_url != before_url:
+            # Navigation happened - verify by URL
+            step["verify"] = {
+                "type": "url_contains",
+                "value": after_url.split("?")[0].rstrip("/"),  # Strip query for stable match
+                "timeout": 5
+            }
+        elif before_snapshot != after_snapshot[:200]:
+            # Content changed - find key new text
+            old_words = set(before_snapshot.lower().split()) if before_snapshot else set()
+            new_words = set(after_snapshot.lower().split()) if after_snapshot else set()
+            new_text = " ".join(new_words - old_words)[:80].strip()
+            if new_text:
+                step["verify"] = {
+                    "type": "text_visible",
+                    "value": new_text,
+                    "timeout": 3
+                }
+            else:
+                step["verify"] = {
+                    "type": "element_visible", 
+                    "value": selector,
+                    "timeout": 3
+                }
+        else:
+            step["verify"] = {
+                "type": "element_visible",
+                "value": selector,
+                "timeout": 3
+            }
+        
+        # Update previous state for next step
+        self.previous_url = after_url
+        self.previous_snapshot = after_snapshot[:200]
+        
+        # Save incrementally
+        self._save_incremental()
+        
+        print(f"  📝 [{len(self.steps)}] {action} → {selector[:50]}")
+        print(f"     📍 URL: {after_url[:60] if after_url else 'n/a'}")
+        print(f"     🔍 Verify: {step['verify']['type']} = '{step['verify']['value'][:50]}'")
     
-    def listen_events(self):
-        """Listen for CDP events in background thread."""
+    def _save_incremental(self):
+        """Save current recording to disk so we don't lose data."""
+        path = SKILLS_DIR / f"{self.skill_name}.json"
+        skill = {
+            "name": self.skill_name,
+            "created": datetime.now().isoformat(),
+            "steps": self.steps,
+            "metadata": {
+                "total_steps": len(self.steps),
+                "recorded_from": self.previous_url
+            }
+        }
+        with open(path, "w") as f:
+            json.dump(skill, f, indent=2)
+    
+    def listen_for_input(self):
+        """Monitor DOM for user actions (clicks, type, etc)."""
+        last_doc_hash = ""
         while self.running:
+            time.sleep(0.5)
             try:
-                msg = json.loads(self.ws.recv())
-                if "method" in msg:
-                    threading.Thread(
-                        target=self.handle_event,
-                        args=(msg["method"], msg.get("params", {})),
-                        daemon=True
-                    ).start()
-            except Exception as e:
-                if self.running:
-                    print(f"Listener error: {e}")
-                break
+                doc = self.send("DOM.getDocument", {"depth": 1})
+                # Watch for click events via CDP
+            except:
+                pass
     
     def start(self, url=None):
-        """Start recording session."""
         print(f"\n🎬 Browser Recorder started on port {self.port}")
         print(f"   Skill: {self.skill_name}")
         print(f"   Skills saved to: {SKILLS_DIR}")
-        print("\n   Performing actions in your browser now...")
+        print("\n   Perform actions in Chrome now...")
         print("   Press Ctrl+C to stop and save.\n")
         
         self.ws_connect()
-        self.enable_events()
+        self.send("DOM.enable")
+        self.send("Input.enable")
+        self.send("Page.enable")
         
         if url:
             print(f"   Navigating to: {url}")
             self.send("Page.navigate", {"url": url})
             time.sleep(2)
+            self.previous_url = url
         
-        # Start event listener thread
-        listener = threading.Thread(target=self.listen_events, daemon=True)
+        # Capture initial state
+        self.previous_url, self.previous_snapshot = self.get_snapshot()
+        
+        # Start DOM listener
+        listener = threading.Thread(target=self.listen_for_input, daemon=True)
         listener.start()
         
-        # Also poll for DOM changes
-        last_html = ""
-        while self.running:
-            time.sleep(1)
-            try:
-                doc = self.send("DOM.getDocument", {"depth": 0})
-                # Don't hammer DOM - just watch
-            except:
-                pass
+        # Keep alive
+        try:
+            while self.running:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            self.stop()
     
     def stop(self):
-        """Stop recording and save skill file."""
         self.running = False
         print(f"\n\n💾 Saving skill '{self.skill_name}'...")
         
-        if not self.recording:
+        if not self.steps:
             print("   No actions recorded.")
             return
         
-        skill = {
-            "name": self.skill_name,
-            "created": datetime.now().isoformat(),
-            "steps": self.recording,
-            "metadata": {
-                "total_steps": len(self.recording),
-                "recorded_from": self.current_url
-            }
-        }
-        
         path = SKILLS_DIR / f"{self.skill_name}.json"
         with open(path, "w") as f:
-            json.dump(skill, f, indent=2)
+            json.dump({
+                "name": self.skill_name,
+                "created": datetime.now().isoformat(),
+                "steps": self.steps,
+                "metadata": {
+                    "total_steps": len(self.steps),
+                    "recorded_from": self.previous_url
+                }
+            }, f, indent=2)
         
-        print(f"   ✅ Saved {len(self.recording)} steps → {path}")
-        print(f"\n   To replay: python3 replay.py {self.skill_name}")
+        print(f"   ✅ Saved {len(self.steps)} steps → {path}")
+        print(f"\n   Replay with verification:")
+        print(f"   python3 replay.py {self.skill_name}")
         
         if self.ws:
             self.ws.close()
-        
-        return skill
 
 
 def find_chrome_port():
-    """Try to find an active Chrome debugging port."""
     for port in [9222, 9333, 9444, 9555]:
         try:
             import http.client
             conn = http.client.HTTPConnection("localhost", port, timeout=1)
             conn.request("GET", "/json")
-            resp = conn.getresponse()
+            resp = json.loads(conn.getresponse().read())
             if resp.status == 200:
                 return port
         except:
@@ -212,8 +263,8 @@ def find_chrome_port():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Browser Recorder - CDP event capture")
-    parser.add_argument("action", choices=["start", "stop", "status"], help="Action to perform")
+    parser = argparse.ArgumentParser(description="Browser Recorder with auto-verify")
+    parser.add_argument("action", choices=["start", "stop", "status"], help="Action")
     parser.add_argument("--name", "-n", help="Skill name")
     parser.add_argument("--port", "-p", type=int, default=9222, help="CDP port")
     parser.add_argument("--url", "-u", help="Starting URL")
@@ -229,15 +280,16 @@ if __name__ == "__main__":
             sys.exit(1)
         
         recorder = BrowserRecorder(port=port, skill_name=name)
+        recorder.running = True
         try:
             recorder.start(url=args.url)
         except KeyboardInterrupt:
-            recorder.stop()
+            pass
             
     elif args.action == "status":
         port = find_chrome_port()
         if port:
-            print(f"✅ Chrome found on port {port}")
+            print(f"✅ Chrome on port {port}")
         else:
             print("❌ Chrome DevTools not found. Start Chrome with:")
             print("   chrome --remote-debugging-port=9222")

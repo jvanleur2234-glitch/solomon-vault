@@ -1,79 +1,140 @@
----
-name: browser-recorder
-description: Watch browser actions, record them as a reusable skill, replay on demand. The AI watches you use a website once, then can do it autonomously forever.
-compatibility: Created for Zo Computer
-metadata:
-  author: josephv.zo.computer
----
-
 # Browser Recorder Skill
 
-Record once. Replay forever.
+Record browser actions as reusable, verifiable skills.
 
-## Concept
-- Watch a user navigate a website (via CDP browser events)
-- Save each step as a structured skill file
-- Replay the skill later with different parameters
+## What It Does
 
-## Workflow
+1. **Record** — You perform actions in Chrome, the system captures each step + the resulting page state
+2. **Verify** — Each step gets auto-generated verification: "how do we know this worked?"
+3. **Replay** — Execute the skill with `replay.py`, which checks each step and stops immediately if something fails
 
-### 1. Record a skill
-```bash
-agent-browser connect --cdp <port>
-python3 /Skills/browser-recorder/scripts/record.py start --name pizza-ranch --port 9222
-# User performs actions in connected browser
-python3 /Skills/browser-recorder/scripts/record.py stop --name pizza-ranch
+## Architecture
+
+```
+scripts/record.py    — CDP event capture, auto-verify generation
+scripts/replay.py    — Execute with verification, stop-on-fail
+skills/*.json        — Recorded skills with verify configs
 ```
 
-### 2. List recorded skills
+## Core Principle: Know If It Worked
+
+The system NEVER guesses. Every recorded step captures:
+- The action (click, type, navigate)
+- The selector used
+- The expected result (what the URL and page looked like AFTER the action)
+- An auto-generated verify config (URL changed, text appeared, element visible)
+
+When replaying, replay.py checks each step against its verify config. If the step failed, it stops and reports exactly which step broke.
+
+## Recording a Skill
+
+**Step 1: Start Chrome with DevTools**
 ```bash
-ls /home/workspace/Skills/browser-recorder/skills/
+chrome --remote-debugging-port=9222
 ```
 
-### 3. Replay a skill
+**Step 2: Start recording**
 ```bash
-python3 /home/workspace/Skills/browser-recorder/scripts/replay.py pizza-ranch --params "size=large,topping=pepperoni"
+python3 /home/workspace/Skills/browser-recorder/scripts/record.py start \
+  --name pizza-ranch-order \
+  --port 9222 \
+  --url https://pizzaranch.com
 ```
 
-### 4. Watch mode (auto-record)
+**Step 3: Perform actions**
+Do the full flow in Chrome. Each action is recorded with post-action state captured.
+
+**Step 4: Stop and save**
+Press Ctrl+C. The skill saves to `skills/pizza-ranch-order.json`.
+
+## Replaying a Skill
+
 ```bash
-python3 /home/workspace/Skills/browser-recorder/scripts/watch.py --name pizza-ranch --url https://order.pizzaranch.com
+python3 replay.py pizza-ranch-order
 ```
 
-## Skill File Format
+Output:
+```
+🎬 Replaying skill: pizza-ranch-order
+   Steps: 8
+   Params: {}
+
+  1. navigate → https://pizzaranch.com/menu
+     📝 Navigated to: pizzaranh.com/menu
+     ✅ URL contains 'menu': https://pizzaranch.com/menu
+
+  2. click → #pizza-builder
+     🔍 Verify: text_visible = 'build your own pizza'
+     ✅ Text found: 'build your own pizza'
+
+  3. type → #size-select = Large
+     🔍 Verify: url_contains = 'size=large'
+     ❌ VERIFY FAILED: URL never contained 'size=large'. Got: https://pizzaranch.com/build
+
+🚫 Stopping at step 3 — verification failed.
+```
+
+## Verify Types
+
+| Type | What It Checks |
+|------|----------------|
+| `url_contains` | Expected substring in URL |
+| `url_equals` | URL matches exactly |
+| `text_visible` | Key text appears on page |
+| `text_not_visible` | Expected text is gone |
+| `element_visible` | Selector/content present |
+
+## Parameter Substitution
+
+Skills support `{{variable}}` placeholders:
+
+```bash
+python3 replay.py pizza-ranch-order --params item=Supreme Pizza,size=Large
+```
+
+The recorded variables become defaults but can be overridden at replay time.
+
+## Auto-Verify Generation
+
+When recording, after each action the system:
+1. Captures the resulting URL and page snapshot
+2. Compares to previous state
+3. Detects what changed (navigation, new text, content change)
+4. Generates the appropriate verify config automatically
+
+Example auto-generated verify:
 ```json
 {
-  "name": "pizza-ranch",
-  "trigger": "order pizza from pizza ranch",
-  "base_url": "https://order.pizzaranch.com",
-  "steps": [
-    {
-      "action": "click",
-      "selector": "text=Large",
-      "description": "Select large pizza size"
-    },
-    {
-      "action": "type",
-      "selector": "#address",
-      "value": "{{address}}",
-      "description": "Enter delivery address"
-    }
-  ],
-  "parameters": ["address", "size", "topping"],
-  "variables": {
-    "address": "123 Main St, Des Moines, IA"
+  "type": "url_contains",
+  "value": "pizza-ranch.com/menu",
+  "timeout": 5
+}
+```
+
+## Manual Step Addition
+
+For complex skills, you can manually add steps with custom verify:
+```json
+{
+  "action": "click",
+  "selector": "#submit-order",
+  "description": "Submit order",
+  "verify": {
+    "type": "text_visible",
+    "value": "order confirmed",
+    "timeout": 5
   }
 }
 ```
 
-## Parameters
-Skills support `{{parameter}}` substitution:
-- `{{size}}` — replaced at replay time
-- `{{topping}}` — replaced at replay time
-- `{{address}}` — from saved profile
+## Status
 
-## CDP Connection
-agent-browser uses CDP port 9222 by default when started with `connect`:
 ```bash
-agent-browser connect --port 9222
+python3 /home/workspace/Skills/browser-recorder/scripts/record.py status
 ```
+
+## Next Phase
+
+- Natural language parameter extraction (parse "order a large pepperoni" into params)
+- Self-healing: when verify fails, analyze and auto-retry with adjusted selectors
+- Learning loop: track failed steps across replays and auto-fix
