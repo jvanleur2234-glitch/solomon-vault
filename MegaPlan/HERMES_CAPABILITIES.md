@@ -1,6 +1,28 @@
 # Hermes Capabilities
 **Last Updated: April 17, 2026**
 
+## JCPaid Universal Self-Improvement Loop (April 18, 2026)
+
+The same adversarial loop from Solomon Guardian applies to ALL of JCPaid:
+
+**5 Loops, 1 Infrastructure:**
+
+| Loop | What it tracks | What improves |
+|------|---------------|---------------|
+| Business Growth | Client acquisition, pricing, channels | Revenue compounding |
+| Content Creation | Views, clicks, watch time, CTAs | Content performance |
+| Sales Outreach | Open rates, reply rates, close rates | Close rate improving |
+| Product Building | Feature usage, errors, build speed | Build velocity |
+| Strategy | Win/loss on initiatives, prediction accuracy | Prediction accuracy |
+
+**Technical layer powers all 5:**
+Icarus (shared memory) → Evolver (analyzes patterns) → Hermes (applies fixes) → agentic-stack (graduates lessons) → All loops compound together
+
+**Full doc:** `solomon-vault/brain/SELF_IMPROVEMENT_LOOP.md`
+- **Location:** `/home/workspace/solomon-vault/brain/SELF_IMPROVEMENT_LOOP.md`
+
+---
+
 ## JCPaid Pre-Install Stack (April 18, 2026)
 
 The philosophy: JCPaid = Best of breed pre-installed + AI layer + user makes it their own. The default experience is already better than most people's current setup. Then customize from there.
