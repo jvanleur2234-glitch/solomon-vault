@@ -235,6 +235,28 @@ Next attack = harder to breach
 
 **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
 
+## Be Like You! OS — N.O.M.A.D. Fork (April 19, 2026)
+- **Repo:** github.com/jvanleur2234-glitch/be-like-you-nomad (Apache 2.0)
+- **Forked from:** Crosstalk-Solutions/project-nomad (13K stars)
+- **What it is:** Project N.O.M.A.D. + Solomon OS integrated as a Docker sidecar. One Postgres database replaces Redis, RabbitMQ, Elasticsearch, Pinecone, Snowflake.
+- **Components added to N.O.M.A.D.:**
+  - Hermes agent (agent brain)
+  - Russell Tuna (Telegram AI)
+  - Icarus (cross-agent memory layer)
+  - Evolver (self-improvement engine)
+  - Solomon Bus (job queue via Postgres SKIP LOCKED)
+  - Solomon Air (VoIP + SDR)
+  - Solomon Guardian (security monitor)
+  - Solomon Browser (AI browser agent)
+  - Full-text search (Postgres TSvector + GIN)
+  - Vector search (Postgres pg_vector)
+- **Architecture:** N.O.M.A.D. Command Center (existing) + Solomon OS sidecar (new Docker containers)
+- **Unified Postgres schema:** All agents share ONE database. Functions: `dequeue_job()`, `find_similar_memories()`, `search_knowledge()`, `queue_stats()`
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `be-like-you-nomad/SPEC.md`
+- **Docker compose:** `be-like-you-nomad/solomon/docker-compose.yaml`
+- **Postgres schema:** `be-like-you-nomad/solomon/postgres-schema.sql`
+
 ## Project N.O.M.A.D. — Offline Knowledge Server (April 18, 2026)
 
 **Concept:** Build your own offline knowledge server. No internet required.
@@ -247,6 +269,32 @@ Next attack = harder to breach
 **Why it matters for JCPaid:**
 - Solomon OS / Be Like You! OS = privacy-first AI phone OS
 - N.O.M.A.D. = the ultimate offline moat
+- Users can have their OWN knowledge base, completely off-grid
+
+**For Be Like You! OS:**
+- Layer between vPhone VoIP and carrier independence
+- When combined with Tor/mesh networking = truly untraceable communication
+- This is the endgame for the "free global calling" vision
+
+**What we'd need to add:**
+- OpenBTS or YateBTS (open source BTS software)
+- USRP or RTL-SDR hardware
+- VoIP gateway integration
+
+**Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+
+## ClawLess — Browser-Based AI Agent Runtime (April 18, 2026)
+
+**Concept:** Run AI agents directly in the browser, no server required.
+
+**What it enables:**
+- AI agents that work on any device, anywhere
+- No need for a server or internet connection
+- Runs on a local browser tab
+
+**Why it matters for JCPaid:**
+- Solomon OS / Be Like You! OS = privacy-first AI phone OS
+- ClawLess = the ultimate offline moat
 - Users can have their OWN knowledge base, completely off-grid
 
 **For Be Like You! OS:**
