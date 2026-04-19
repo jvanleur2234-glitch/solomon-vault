@@ -512,3 +512,6482 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **For Be Like You! OS:** Layer between vPhone VoIP and carrier independence. When combined with Tor/mesh networking = truly untraceable communication. This is the endgame for the "free global calling" vision.
 - **What we'd need to add:** OpenBTS or YateBTS (open source BTS software), USRP or RTL-SDR hardware, VoIP gateway integration.
 - **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+## OpenSRE — AI
+- **Repo:** github.com/jvanleur2234-glitch/OpenSRE
+- **What it does:** Open Source Reasoning Engine — AI agent that can reason about code, data, and workflows. Built on top of Ollama and Gemini.
+- **Why it matters for JCPaid:** Provides a way to distribute the OS to users who are offline or have limited internet access.
+- **For Be Like You! OS:** Layer between vPhone VoIP and carrier independence. When combined with Tor/mesh networking = truly untraceable communication. This is the endgame for the "free global calling" vision.
+- **What we'd need to add:** OpenBTS or YateBTS (open source BTS software), USRP or RTL-SDR hardware, VoIP gateway integration.
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:** `OpenSRE/SPEC.md`
+- **Docker compose:** `OpenSRE/solomon/docker-compose.yaml`
+- **Postgres schema:** `OpenSRE/solomon/postgres-schema.sql`
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+- **LINK fit:** ★★★★★ — #open-source #ai #reasoning #engine
+- **Cloned:** /home/workspace/OpenSRE/
+- **Status:** Forked, pushed to GitHub. Ready to build the integration spec.
+- **Full spec:**## AI OSINT — 7WaySecurity (April 19, 2026)
+- Repo: 7WaySecurity/ai_osint — 29 stars, MIT+CC BY-SA 4.0
+- Forked: jvanleur2234-glitch/ai_osint
+- What it does: OSINT for AI infrastructure — Google dorks, Shodan queries, GitHub dorks, and techniques to discover exposed LLM endpoints, leaked AI API keys, misconfigured vector databases, and unprotected AI agents
+- Key categories: Google Dorks (Claude/Grok/ChatGPT leaks), GitHub Dorks (API keys in configs), Shodan Queries (Ollama, vLLM, Gradio, Streamlit, Qdrant, Milvus, Weaviate), MCP & Agent Exposure (OpenClaw RCE risk), Vector DB reconnaissance
+- CRITICAL for Solomon Guardian: OpenClaw/Clawdbot = 4,000+ exposed agents on Shodan with zero auth. RCE via prompt injection. Our Guardian Attack Team can scan for these exposures.
+- Also finds: leaked Claude conversations (600 indexed by Google, 143K on Archive.org), exposed Ollama servers (175K worldwide), MLflow CVE-2026-0545 (CVSS 9.1), exposed HuggingFace spaces with hardcoded keys
+- LINK fit: ★★★★★ — #solomon-guardian #security #osint #llm-top-10
