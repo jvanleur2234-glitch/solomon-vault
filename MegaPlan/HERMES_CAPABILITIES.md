@@ -169,7 +169,71 @@ MIT > Apache 2.0 > AGPL > GPL. Avoid GPL for SaaS-like products (share-alike传�
 - **vphone-cli reference**: github.com/Lakr233/vphone-cli — virtual phone provisioning via SIP/VoIP
 - **LINK fit**: ★★★★★ — #mobile-os #solomon-os #open-source #voip #security
 
-## SELF-IMPROVEMENT LOOP (Phase 1-5 Build)
+## SELF-IMPROVEMENT LOOP — FULLY WIRED (April 19, 2026)
+
+All 4 layers + execution engines now connected:
+
+### The Complete Self-Improvement Loop
+
+```
+Guardian detects attack (eBPF, behavioral AI, threat intel feeds)
+        ↓
+Icarus fabric_write (attack signal → all agents instantly)
+        ↓
+Evolver scans error logs → selects matching Gene (fix template)
+        ↓
+Evolver emits GEP prompt → applies fix to source code/config
+        ↓
+Human-in-loop review mode (--review flag, whitelist-only, 180s timeout)
+        ↓
+Approved → deployed. Rejected → logged for manual review.
+        ↓
+agentic-stack graduates/rejects the lesson (graduate.py/reject.py)
+        ↓
+Icarus fabric_write (fix deployed → system-wide immunity update)
+        ↓
+Next interaction = smarter from all past mistakes
+```
+
+### Component Roles
+
+| Component | Role |
+|-----------|------|
+| **Guardian** | Attack Team (probes) + Defense Team (responds) — runs 24/7 adversarial loop |
+| **Icarus** | Cross-agent shared memory — one agent learns it, every agent recalls it |
+| **Evolver** | Self-evolution engine — scans logs, selects Gene, emits GEP, applies fix |
+| **agentic-stack** | Lesson review protocol — graduate.py approves, reject.py flags for rework |
+| **Hermes** | Applies fixes, runs skills, reports outcomes |
+| **Solomon Vault brain/** | COLD + Identity layers (where lessons are permanently stored) |
+
+### Safety
+- Evolver `--review` mode: human-in-loop holds every change
+- Whitelist-only commands (no rm -rf, no chmod 777)
+- 180s timeout per fix
+- Reviewer gets: error description, Gene used, GEP prompt, diff preview
+- agentic-stack final review before lesson is promoted to verified pattern
+
+### Quality Gates
+- Unverified → stage in `cold/staging/` until 2+ confirmations OR explicit user approval
+- Verified → promote to `cold/lessons/` (permanent immunity)
+- Shared pool → anonymized techniques + anti-patterns for cross-user learning
+
+### Build Status
+| Layer | Status |
+|-------|--------|
+| HOT (current session state) | ✅ Per-user directories at `solomon-vault/users/{user-id}/` |
+| COLD (lessons learned) | ✅ Solomon Vault brain/ + Icarus fabric/ |
+| Shared (anonymized pool) | ✅ `solomon-vault/shared/` |
+| Identity (who user is) | ✅ Solomon Vault brain/NORTH_STAR.md |
+| Evolver (Gene selection + GEP) | ✅ Forked, RD report, HERMES_CAPABILITIES.md |
+| Icarus (cross-agent memory) | ✅ Forked, RD report, HERMES_CAPABILITIES.md |
+| agentic-stack (lesson review) | ✅ Forked, HERMES_CAPABILITIES.md |
+| Guardian (adversarial loop) | ✅ SOLOMON_GUARDIAN.md v2 with Evolver/Icarus wired in |
+| Sunday Self-Review Agent | ✅ Weekly audit loop |
+
+---
+
+### Build Phases
 
 Solomon OS has a continuous self-improvement architecture across 4 layers:
 
