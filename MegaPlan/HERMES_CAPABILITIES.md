@@ -496,3 +496,10 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **What it does:** All-in-one Android APK analysis tool. Disassembles, decompiles, and analyzes APKs. Built on Python.
 - **Use for:** Reverse engineering Android apps → build integrations → resell access. Protocol analysis as a service.
 - **LINK fit:** ★★★★★ — #android #integrations #revenue
+
+## The Book of Secret Knowledge — 216K Stars (April 19, 2026)
+- **Repo:** trimstray/the-book-of-secret-knowledge — 216K stars, MIT
+- **Forked:** jvanleur2234-glitch/the-book-of-secret-knowledge
+- **What it is:** The definitive sysadmin/DevOps/security reference. Lists, manuals, cheatsheets, blogs, hacks, one-liners, CLI/web tools. 1,069 commits, maintained since 2018.
+- **For Solomon OS:** Pre-installed reference for every operator. When Russell Tuna needs to run a network scan, find a Linux cheat sheet, or reference a pentest one-liner — it's in this book.
+- **LINK fit:** ★★★★☆ — #reference #sysadmin #security #devops #tools
