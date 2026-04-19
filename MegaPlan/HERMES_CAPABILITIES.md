@@ -277,6 +277,16 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **Priority:** HIGH — Install as shared memory layer for ALL Solomon OS agents.
 - **Full RD report:** `solomon-vault/brain/RD_REPORTS/icarus.md`
 
+## Evolver — GEP Self-Evolution Engine (April 18, 2026)
+- **Repo:** github.com/EvoMap/evolver — 5K stars, GPL-3.0
+- **Forked:** jvanleur2234-glitch/evolver
+- **What it does:** Self-evolution engine. Scans error logs → selects matching Gene (fix template) → emits GEP prompt → applies fix. Safe: whitelist-only commands, 180s timeout, human-in-loop review mode.
+- **JCPaid fit:** ★★★★★ — CRITICAL. This IS the self-improvement engine Solomon OS was missing.
+- **Full loop:** Guardian detects attack → Icarus shares signal → Evolver scans → selects Gene → GEP prompt → Hermes applies fix → review mode approves.
+- **Strategies:** balanced / innovate / harden / repair-only
+- **Install:** `cd evolver && npm install && node index.js --review`
+- **Full RD report:** `solomon-vault/brain/RD_REPORTS/evolver.md`
+
 ## Mano-P 1.0 — Vision-Based GUI Agent (April 18, 2026)
 - **Repo:** github.com/Mininglamp-AI/Mano-P (281 stars, MIT)
 - **Forked:** jvanleur2234-glitch/Mano-P
