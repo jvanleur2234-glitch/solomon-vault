@@ -490,3 +490,10 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **Framework:** Maps to OWASP LLM Top 10 (LLM01-LLM10)
 - **Quick run:** `uvx snyk-agent-scan@latest --skills`
 - **LINK fit:** ★★★★★ — #solomon-guardian #security #owasp #llm-top-10
+
+## ZSWatch — Open Source Smartwatch (April 19, 2026)
+- **Repo:** github.com/ZSWatch/ZSWatch — 3.2K stars, GPL-3.0
+- **What it is:** Complete open-source smartwatch built from scratch — hardware (KiCad PCBs) + firmware (Zephyr RTOS). Nordic nRF5340, 240x240 touchscreen, IMU, HR, mic, BLE.
+- **Why it matters for Be Like You! OS:** This is what we'd fork for the Solomon OS watch. Hardware designs open, app framework extensible, Zephyr OS could host Solomon agents.
+- **LINK fit:** ★★★★★ — #wearables #hardware #solomon-air #future
+- **Cloned:** /home/workspace/ZSWatch/
