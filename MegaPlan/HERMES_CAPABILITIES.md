@@ -133,7 +133,7 @@ MIT > Apache 2.0 > AGPL > GPL. Avoid GPL for SaaS-like products (share-alike传�
 - **What it does:** AI-first startup OS — knowledge base + AI agents + scheduled jobs + Kanban boards. Git-backed history. Self-hosted. Drop HTML apps in any folder.
 - **For JackConnect:** Jack's personal AI team brain — all agents, all memory, all work in one place
 
-## Cognee Memory Layer (April 17, 2026)
+## Cognee — AI M (April 17, 2026)
 - **Location:** jack-connect/cognee/
 - **What it does:** Structured memory for LLMs — graph + vector search over any data. Pipeline: add text/files/tables → cognify → search
 - **For JackConnect:** Long-term memory for Jack's real estate business — client history, deal notes, market data
@@ -481,3 +481,12 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **What it is:** The definitive sysadmin/DevOps/security reference. Lists, manuals, cheatsheets, blogs, hacks, one-liners, CLI/web tools. 1,069 commits, maintained since 2018.
 - **For Solomon OS:** Pre-installed reference for every operator. When Russell Tuna needs to run a network scan, find a Linux cheat sheet, or reference a pentest one-liner — it's in this book.
 - **LINK fit:** ★★★★☆ — #reference #sysadmin #security #devops #tools
+
+## Snyk Agent Scan — Security Scanner for AI Agents (April 19, 2026)
+- **Repo:** snyk/agent-scan — 2.2K stars, Apache-2.0
+- **Cloned:** /home/workspace/agent-scan/
+- **What it does:** Scans AI agents, MCP servers, and skills for prompt injections + vulnerabilities. Auto-discovers Claude Code/Desktop, Cursor, Windsurf, Gemini CLI, and more. Detects 15+ security risks: prompt injection, tool poisoning, tool shadowing, toxic flows, hardcoded secrets, credential handling.
+- **Why it matters for Solomon Guardian:** Guardian's attack team can use this to audit OUR OWN agents — scan Russell Tuna, Hermes, all our skills for vulnerabilities before attackers find them. Integrates with Snyk Evo for central monitoring.
+- **Framework:** Maps to OWASP LLM Top 10 (LLM01-LLM10)
+- **Quick run:** `uvx snyk-agent-scan@latest --skills`
+- **LINK fit:** ★★★★★ — #solomon-guardian #security #owasp #llm-top-10
