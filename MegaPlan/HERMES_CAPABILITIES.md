@@ -135,26 +135,43 @@ MIT > Apache 2.0 > AGPL > GPL. Avoid GPL for SaaS-like products (share-alike传�
 - **For Solomon OS:** Russell Tuna reads client ad performance data → optimization reports for AI Staffing Agency. Hermes can pull Facebook Ads data directly via MCP router.
 - **LINK fit:** ★★★★☆ — #facebook-ads #meta #insights #analytics #ai-staffing
 
-## Solomon Guardian — Autonomous Security Intelligence (April 18, 2026)
-- **Location**: `/home/workspace/solomon-vault/raw/SOLOMON_GUARDIAN.md`
-- **Core innovation**: Security agent that never stops learning, never needs updates, runs 24/7 autonomously
-- **Self-learning 24/7**:
-  - Subscribes to 15+ threat intel feeds (CVE databases, malware registries, dark web leak feeds, threat actor TTPs)
-  - Reads every new security paper on arXiv, BlackHat/DEF CON talks, Exploit-DB, MITRE ATT&CK daily
-  - Runs its own honeypots to capture live attack patterns
-  - Analyzes global traffic patterns to detect new attack waves before they hit
-  - Reverse-engineers malware samples in sandbox to extract IOCs and detection signatures
-- **Runtime protection**:
-  - Kernel-level eBPF monitors (system calls, network, file access, memory)
-  - Real-time behavioral AI — learns normal patterns, flags anomalies instantly
-  - Full packet inspection on all network interfaces
-  - Encrypted channel monitoring (detects exfiltration even inside TLS)
-  - Process spawning monitor — catches fileless malware, living-off-the-land attacks
-  - Immutable audit log (append-only, cryptographically signed)
-  - Auto-rollback on compromise detection (isolates, kills, restores from clean snapshot)
-- **Self-update loop**: New threat intel → analyze → extract IOCs → update detection model → push new rules to kernel monitors → validate against false positive suite → deploy silently → if attack detected → block + isolate + alert + learn
-- **Attack classes handled**: Malware, ransomware, rootkits, trojans, worms, zero-days (behavioral), DDoS, phishing, credential theft, privilege escalation, lateral movement, data exfiltration, supply chain attacks, social engineering
-- **LINK fit**: ★★★★★ — #security #solomon-os #defense #guardian
+## AI-penetration-testing — OWASP LLM Top 10 Toolkit (April 18, 2026)
+- **Repo:** github.com/Mr-Infect/AI-penetration-testing — 195 stars, Ethical Hacking License
+- **Forked:** jvanleur2234-glitch/AI-penetration-testing
+- **What it is:** AI/ML/LLM pentesting toolkit. OWASP LLM Top 10 vulnerability framework (prompt injection, data exfil, supply chain, poisoning, prompt leakage, vector attacks, etc.).
+- **JCPaid fit:** PERFECT for Solomon Guardian. OWASP LLM Top 10 = the vulnerability checklist the Guardian tests against. Red team techniques from this repo directly feed the Guardian Attack Team.
+- **Status:** Forked ✅ — RD report: `solomon-vault/brain/RD_REPORTS/ai-pentest.md`
+
+## SOLOMON GUARDIAN — Full Self-Defense + Self-Improvement Loop (Wired April 18, 2026)
+
+The complete adversarial loop — all pieces now connected:
+
+```
+AI-pentest (Red Team methodology)
+         ↓
+Guardian Attack Team (detects vulnerabilities)
+         ↓
+Icarus (shared memory, cross-agent signal)
+         ↓
+Evolver (scans error logs → Gene selection → GEP prompt)
+         ↓
+Hermes (applies fix, review mode)
+         ↓
+agentic-stack (graduate/reject)
+         ↓
+Solomon Bus → push update to all agents
+         ↓
+Next attack = harder to breach
+```
+
+**Key integrations:**
+- AI-pentest OWASP LLM Top 10 → Guardian vulnerability checklist
+- Evolver Gene library → automatic fix generation
+- Icarus → shared memory layer across all Solomon OS agents
+- Guardian log (append-only, cryptographically signed) → audit trail + rollback
+- **Self-update loop:** New threat intel → analyze → extract IOCs → update detection → validate → deploy → block + isolate + alert + learn
+- **Attack classes handled:** Malware, ransomware, rootkits, trojans, worms, zero-days (behavioral), DDoS, phishing, credential theft, privilege escalation, lateral move, LLM prompt injection, vector store attacks, model poisoning
+- **Status:** Full loop operational. Evolver + Icarus + AI-pentest + agentic-stack all wired in.
 
 ## Be Like You! OS — Mobile OS Built on Solomon OS (April 18, 2026)
 - **Full architecture**: `/home/workspace/BE_LIKE_YOU_OS.md`
