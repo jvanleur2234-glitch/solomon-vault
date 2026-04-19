@@ -477,3 +477,5 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **Use for:** Accelerating large-scale machine learning workloads, especially those involving deep neural networks.
 - **Status:** Open-source, actively maintained by NVIDIA.
 - **LINK fit:** ★★★★☆ — #gpu #performance #nvidia #deep-learning
+
+## Hermes + NVIDIA NIM — 20x Faster (April 19, 2026)
