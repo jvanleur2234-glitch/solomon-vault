@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="solomon-popup">
+    <header class="header">
+      <div class="logo">⟡ Solomon</div>
+      <div class="status-dot" id="statusDot"></div>
+    </header>
+
+    <!-- Solomon Air Section -->
+    <section class="section">
+      <h3>⟆ Solomon Air</h3>
+      <div class="input-row">
+        <input type="tel" id="dialNumber" placeholder="+1 555 000 0000" />
+        <button id="dialBtn" class="btn btn-primary">⟆</button>
+      </div>
+      <div class="input-row">
+        <input type="text" id="smsNumber" placeholder="Contact" />
+        <input type="text" id="smsMessage" placeholder="Message" />
+        <button id="smsBtn" class="btn btn-secondary">→</button>
+      </div>
+      <div id="callStatus" class="status-text"></div>
+    </section>
+
+    <!-- JackConnect Section -->
+    <section class="section">
+      <h3>⚡ JackConnect Workers</h3>
+      <div id="workerList" class="worker-list">
+        <div class="loading">Loading workers...</div>
+      </div>
+      <div class="input-row">
+        <input type="text" id="taskInput" placeholder="Assign a task..." />
+        <button id="assignBtn" class="btn btn-accent">→</button>
+      </div>
+    </section>
+
+    <!-- Hermes Memory Section -->
+    <section class="section">
+      <h3>◎ Hermes Memory</h3>
+      <div class="memory-input-row">
+        <input type="text" id="memKey" placeholder="Key" />
+        <input type="text" id="memValue" placeholder="Value" />
+        <button id="storeBtn" class="btn btn-secondary">+</button>
+      </div>
+      <div id="recentMem" class="recent-mem"></div>
+    </section>
+
+    <!-- Quick Actions -->
+    <section class="section">
+      <h3>⊕ Quick Actions</h3>
+      <div class="quick-actions">
+        <button class="btn btn-outline" id="openSidepanel">Open AI Panel</button>
+        <button class="btn btn-outline" id="openDashboard">Dashboard</button>
+        <button class="btn btn-outline" id="syncMemory">Sync Memory</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Solomon OS v0.1 · <a href="#" id="settingsLink">Settings</a>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

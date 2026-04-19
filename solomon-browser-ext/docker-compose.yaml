@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  # Selfsync — Self-hosted Chrome Sync
+  # Replaces Google Chrome Sync. All browser data stays local.
+  selfsync:
+    image: ghcr.io/loyalpartner/selfsync:latest
+    container_name: solomon-selfsync
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - selfsync-data:/data
+    environment:
+      - SELFSYNC_ADDR=0.0.0.0:8080
+      - SELFSYNC_DB=/data/selfsync.db
+      - RUST_LOG=info
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Solomon Browser Backend (future)
+  # Local AI services for offline mode
+  # solomon-local:
+  #   build: ./solomon-local
+  #   container_name: solomon-local
+  #   restart: unless-stopped
+  #   ports:
+  #     - "3001:3001"  # Solomon Bus
+  #     - "3002:3002"  # Solomon Air
+  #     - "3003:3003"  # JackConnect
+
+volumes:
+  selfsync-data:
+    driver: local

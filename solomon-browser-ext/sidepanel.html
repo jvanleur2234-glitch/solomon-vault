@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Solomon AI Panel</title>
+</head>
+<body>
+  <div class="ai-panel">
+    <header class="panel-header">
+      <div class="logo">⟡ Solomon AI</div>
+      <div class="model-selector">
+        <select id="modelSelect">
+          <option value="auto">Auto</option>
+          <option value="claude">Claude</option>
+          <option value="gpt4">GPT-4</option>
+          <option value="ollama">Local (Ollama)</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- Chat Area -->
+    <div id="chatArea" class="chat-area">
+      <div class="welcome-message">
+        <div class="logo-large">⟡</div>
+        <h2>Solomon AI</h2>
+        <p>Your AI-native browser layer. Ask me anything about this page, your tabs, or anything else.</p>
+      </div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="input-area">
+      <textarea id="chatInput" placeholder="Ask Solomon anything about this page..." rows="1"></textarea>
+      <button id="sendBtn" class="btn btn-primary">⟡</button>
+    </div>
+
+    <!-- Tab Memory Bar -->
+    <div class="tab-memory-bar" id="tabMemoryBar">
+      <div class="memory-label">Page Memory</div>
+      <div id="tabMemContent" class="tab-mem-content">—</div>
+    </div>
+
+    <!-- Page Analysis Toggle -->
+    <div class="panel-footer">
+      <button class="btn btn-outline btn-sm" id="analyzeBtn">⟡ Analyze This Page</button>
+      <button class="btn btn-outline btn-sm" id="summarizeBtn">⊕ Summarize</button>
+      <button class="btn btn-outline btn-sm" id="extractBtn">◎ Extract Data</button>
+    </div>
+  </div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>

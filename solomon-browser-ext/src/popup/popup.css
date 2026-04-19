@@ -1,0 +1,262 @@
+/* Solomon Browser — Popup Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 13px;
+  background: #0f0f14;
+  color: #e2e8f0;
+  width: 360px;
+  min-height: 400px;
+}
+
+.solomon-popup {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 400px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid #2a2a3a;
+  background: #1a1a24;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #e2e8f0;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #94a3b8;
+}
+
+.dot.online {
+  background: #22c55e;
+  box-shadow: 0 0 6px #22c55e;
+}
+
+/* Sections */
+.section {
+  padding: 12px 16px;
+  border-bottom: 1px solid #1a1a24;
+}
+
+.ask-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+textarea {
+  width: 100%;
+  background: #1a1a24;
+  border: 1px solid #2a2a3a;
+  border-radius: 8px;
+  color: #e2e8f0;
+  padding: 10px;
+  font-size: 13px;
+  font-family: inherit;
+  resize: none;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+textarea:focus {
+  border-color: #6366f1;
+}
+
+.primary-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.primary-btn:hover {
+  background: #4f46e5;
+}
+
+.primary-btn:disabled {
+  background: #4a4a6a;
+  cursor: not-allowed;
+}
+
+/* Response */
+.response-area {
+  padding: 12px 16px;
+  max-height: 200px;
+  overflow-y: auto;
+  background: #1a1a24;
+}
+
+.response-area.hidden {
+  display: none;
+}
+
+.response-content {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #e2e8f0;
+}
+
+.response-content p {
+  margin-bottom: 8px;
+}
+
+.response-content strong {
+  color: #6366f1;
+}
+
+.response-content code {
+  background: #0f0f14;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.loading {
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.error {
+  color: #ef4444;
+}
+
+.success {
+  color: #22c55e;
+}
+
+.summary, .extracted, .memory-list {
+  font-size: 12px;
+}
+
+.summary h3, .extracted h3, .memory-list h3 {
+  color: #6366f1;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.memory-item {
+  padding: 6px 0;
+  border-bottom: 1px solid #2a2a3a;
+  color: #94a3b8;
+}
+
+.empty {
+  color: #64748b;
+  font-style: italic;
+}
+
+/* Tools Grid */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.tool-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: #1a1a24;
+  border: 1px solid #2a2a3a;
+  border-radius: 8px;
+  padding: 10px 6px;
+  color: #94a3b8;
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tool-btn:hover {
+  background: #2a2a3a;
+  color: #e2e8f0;
+  border-color: #6366f1;
+}
+
+.tool-btn svg {
+  color: #6366f1;
+}
+
+/* Mode Selector */
+.mode-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+}
+
+.mode-selector label {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.mode-selector select {
+  flex: 1;
+  background: #1a1a24;
+  border: 1px solid #2a2a3a;
+  border-radius: 6px;
+  color: #e2e8f0;
+  padding: 6px 10px;
+  font-size: 12px;
+  outline: none;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  margin-top: auto;
+  font-size: 10px;
+  color: #64748b;
+}
+
+.footer a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.shortcut {
+  background: #1a1a24;
+  padding: 2px 6px;
+  border-radius: 4px;
+}

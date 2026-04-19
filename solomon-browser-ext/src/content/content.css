@@ -1,0 +1,39 @@
+/* Solomon Browser — Content Styles */
+
+:root {
+  --solomon-primary: #6366f1;
+  --solomon-primary-hover: #4f46e5;
+  --solomon-bg: #0f0f14;
+  --solomon-surface: #1a1a24;
+  --solomon-border: #2a2a3a;
+  --solomon-text: #e2e8f0;
+  --solomon-muted: #94a3b8;
+  --solomon-accent: #22d3ee;
+  --solomon-success: #22c55e;
+  --solomon-warning: #f59e0b;
+  --solomon-error: #ef4444;
+}
+
+.solomon-highlight {
+  outline: 2px solid var(--solomon-primary) !important;
+  outline-offset: 2px !important;
+  background-color: rgba(99, 102, 241, 0.05) !important;
+}
+
+.solomon-tooltip {
+  position: fixed;
+  background: var(--solomon-bg);
+  border: 1px solid var(--solomon-border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--solomon-text);
+  z-index: 999999;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+.solomon-tooltip.hidden {
+  display: none;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+  <title>Solomon Browser</title>
+</head>
+<body>
+  <div class="solomon-popup">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2L2 7l10 5 10-5-10-5z" fill="#6366f1"/>
+          <path d="M2 17l10 5 10-5" stroke="#6366f1" stroke-width="2" stroke-linecap="round"/>
+          <path d="M2 12l10 5 10-5" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span>Solomon</span>
+      </div>
+      <div class="status" id="status">
+        <span class="dot online"></span>
+        <span>Online</span>
+      </div>
+    </div>
+
+    <!-- Quick Ask -->
+    <div class="section ask-section">
+      <textarea id="ask-input" placeholder="Ask anything about this page or the web..." rows="2"></textarea>
+      <button id="ask-btn" class="primary-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2a10 10 0 1 0 10 10H12V2z"/>
+        </svg>
+        Ask
+      </button>
+    </div>
+
+    <!-- Response Area -->
+    <div id="response-area" class="response-area hidden">
+      <div class="response-content" id="response-content"></div>
+    </div>
+
+    <!-- Tools Grid -->
+    <div class="section tools-grid">
+      <button class="tool-btn" id="btn-highlight" title="Highlight interactive elements (Alt+H)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+        </svg>
+        Highlight
+      </button>
+      <button class="tool-btn" id="btn-summarize" title="Summarize this page">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="16" y1="13" x2="8" y2="13"/>
+          <line x1="16" y1="17" x2="8" y2="17"/>
+        </svg>
+        Summarize
+      </button>
+      <button class="tool-btn" id="btn-memory" title="View Solomon memory">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+        Memory
+      </button>
+      <button class="tool-btn" id="btn-sync" title="Sync to selfsync server">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="23 4 23 10 17 10"/>
+          <polyline points="1 20 1 14 7 14"/>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+        </svg>
+        Sync
+      </button>
+      <button class="tool-btn" id="btn-extract" title="Extract key info from page">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        Extract
+      </button>
+      <button class="tool-btn" id="btn-remember" title="Save this page to memory">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        </svg>
+        Remember
+      </button>
+    </div>
+
+    <!-- Mode Selector -->
+    <div class="section mode-selector">
+      <label>Mode:</label>
+      <select id="mode-select">
+        <option value="fast">⚡ Fast</option>
+        <option value="balanced">⚖️ Balanced</option>
+        <option value="deep">🧠 Deep Think</option>
+      </select>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <a href="#" id="open-options">Settings</a>
+      <span class="shortcut">Alt+S: Ask</span>
+      <span class="shortcut">Alt+H: Highlight</span>
+    </div>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
