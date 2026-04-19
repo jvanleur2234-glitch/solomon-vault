@@ -497,3 +497,10 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **Why it matters for Be Like You! OS:** This is what we'd fork for the Solomon OS watch. Hardware designs open, app framework extensible, Zephyr OS could host Solomon agents.
 - **LINK fit:** ★★★★★ — #wearables #hardware #solomon-air #future
 - **Cloned:** /home/workspace/ZSWatch/
+
+## Nano Banana Pro — 10K Curated AI Prompts (April 19, 2026)
+- **Repo:** github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts — multi-language, MIT
+- **Forked:** jvanleur2234-glitch/awesome-nano-banana-pro-prompts
+- **What it is:** 10,000+ curated AI prompts organized by category. Content creation, automation, coding, marketing, etc.
+- **For Russell Tuna:** Training data for AI agent personas. Feed prompt patterns into Russell's fine-tuning or few-shot examples.
+- **LINK fit:** ★★★★☆ — #training #prompts #russell-tuna
