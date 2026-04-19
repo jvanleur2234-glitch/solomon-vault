@@ -99,6 +99,115 @@ After EVERY successful attack:
 
 ---
 
+## EVOLVER INTEGRATION — GEP Self-Evolution Engine
+
+**Repo:** github.com/EvoMap/evolver (5K stars, GPL-3.0)
+**Forked:** jvanleur2234-glitch/evolver
+**Install:** `cd evolver && npm install && node index.js --review`
+
+### The Full Self-Improvement Loop (Wired)
+
+```
+Guardian detects attack (eBPF, behavioral AI, threat intel feeds)
+        ↓
+Icarus shared memory (signal shared across ALL agents instantly)
+        ↓
+Evolver scans error logs → selects matching Gene (fix template)
+        ↓
+Evolver emits GEP prompt → applies fix to source code/config
+        ↓
+Human-in-loop review mode (review flag = true, whitelist-only, 180s timeout)
+        ↓
+Approved → deployed. Rejected → logged for manual review.
+        ↓
+agentic-stack graduates/rejects the lesson (graduate.py/reject.py)
+        ↓
+Next interaction = smarter from all past mistakes
+```
+
+### How Each Piece Fits
+
+| Component | Role in Guardian Loop |
+|-----------|----------------------|
+| **Guardian Attack Team** | Probes → finds vulnerability → fires alert |
+| **Guardian Defense Team** | Responds → hardens → logs root cause |
+| **Icarus** (icarus-daedalus) | Shares attack signal across ALL agents instantly |
+| **Evolver** (5K stars, GEP) | Scans logs → selects Gene → emits GEP → applies fix |
+| **agentic-stack** | Reviews AI-generated lessons, graduates verified patterns |
+| **Hermes** | Applies fixes, runs skills, reports outcomes |
+
+### Evolver Gene Selection (How It Works)
+- Gene = fix template mapped to error pattern
+- Evolver reads error class → finds matching Gene → generates GEP prompt
+- GEP prompt = natural language description of the fix needed
+- Fix applied to codebase → review mode holds it until human approves
+- Approved = deployed. System is now immune to that vector.
+
+### Safety
+- `--review` flag = human-in-loop holds every change
+- Whitelist-only commands (no rm -rf, no chmod 777)
+- 180s timeout per fix
+- Reviewer gets: error description, Gene used, GEP prompt, diff preview
+
+### Integration Commands
+
+```bash
+# Start Evolver in review mode
+cd /home/workspace/evolver && node index.js --review
+
+# Wire Icarus → Evolver
+echo "export EVOLVER_ENABLED=true" >> ~/.solomon/env
+
+# Test the loop end-to-end
+hermes --test self-improvement-loop
+```
+
+---
+
+## ICARUS INTEGRATION — Cross-Agent Shared Memory
+
+**Repos:** 
+- github.com/esaradev/icarus-daedalus (249 stars, MIT) 
+- github.com/esaradev/icarus-plugin (51 stars, MIT)
+**Forked:** jvanleur2234-glitch/icarus-daedalus + jvanleur2234-glitch/icarus-plugin
+
+### How Icarus Powers the Loop
+
+```
+Guardian detects attack → Icarus fabric_write (attack signal)
+        ↓
+All agents read the attack signal → Hermes, Russell Tuna, every agent knows
+        ↓
+Evolver scans → sees the attack signal → selects Gene
+        ↓
+Fix applied → Icarus fabric_write (fix deployed, new detection rule)
+        ↓
+All agents read the fix → system-wide immunity update
+```
+
+### Fabric Commands (How Agents Talk)
+
+```bash
+# Guardian writes attack signal
+fabric_write guardian hot attack "DETECTED: SQL injection vector in /api/users"
+
+# All agents read
+fabric_read hermes hot
+
+# Evolver searches for matching Gene
+fabric_search "SQL injection"
+
+# Fix deployed — write to cold (permanent lesson)
+fabric_write evolver cold fix "SQL injection → parameterized queries deployed"
+```
+
+### Memory Tiers (Auto-Curation)
+- **Hot** (< 24h): Active attacks, live threats
+- **Warm** (1-7 days): Recent fixes, lessons in validation
+- **Cold** (> 7 days): Verified permanent immunity
+
+---
+
 ## GOVERNANCE
 
 - **The ONE rule**: Attackers must always win eventually — that is the point
@@ -113,6 +222,9 @@ After EVERY successful attack:
 
 - Ollama (local LLMs for attack/reasoning)
 - Python agents with tool access (nmap, metasploit, yara, ebpf, etc.)
+- Evolver — self-evolution engine (scans, Gene selection, GEP prompts)
+- Icarus — shared memory across all agents (fabric_write/read/search)
+- agentic-stack — lesson review protocol (graduate.py/reject.py)
 - PostgreSQL audit log
 - Redis task queue
 - Prometheus + Grafana dashboards
@@ -122,4 +234,4 @@ After EVERY successful attack:
 
 ---
 
-*Last updated: April 18, 2026*
+*Last updated: April 19, 2026 — Evolver + Icarus wired into the self-improvement loop*
