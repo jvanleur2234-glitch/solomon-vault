@@ -235,6 +235,32 @@ Next attack = harder to breach
 
 **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
 
+## Project N.O.M.A.D. — Offline Knowledge Server (April 18, 2026)
+
+**Concept:** Build your own offline knowledge server. No internet required.
+
+**What it enables:**
+- Offline access to all your knowledge base, documents, and tools
+- Complete independence from the internet
+- Runs on a local server ($20 Raspberry Pi)
+
+**Why it matters for JCPaid:**
+- Solomon OS / Be Like You! OS = privacy-first AI phone OS
+- N.O.M.A.D. = the ultimate offline moat
+- Users can have their OWN knowledge base, completely off-grid
+
+**For Be Like You! OS:**
+- Layer between vPhone VoIP and carrier independence
+- When combined with Tor/mesh networking = truly untraceable communication
+- This is the endgame for the "free global calling" vision
+
+**What we'd need to add:**
+- OpenBTS or YateBTS (open source BTS software)
+- USRP or RTL-SDR hardware
+- VoIP gateway integration
+
+**Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
+
 ## SELF-IMPROVEMENT LOOP — FULLY WIRED (April 19, 2026)
 
 All 4 layers + execution engines now connected:
