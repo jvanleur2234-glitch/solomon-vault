@@ -143,8 +143,17 @@
       "status": "pending",
       "addedAt": "2026-04-18T22:05:00Z",
       "notes": "RD_REPORT: ralph.md. SKILL. Fresh-context iteration pattern for Russell Tuna/Solomon Bus. PRD \u2192 user stories \u2192 loop \u2192 progress.txt. Adapt Ralph's loop concept into Solomon Bus / Russell Tuna workflow."
+    },
+    {
+      "id": "hermes-atlas-001",
+      "name": "Hermes Atlas \u2014 Ecosystem Directory",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-19T22:30:00Z",
+      "notes": "RD_REPORT: hermes-atlas.md. 152K stars, +46.8K this week. Ecosystem map for Hermes Agent \u2014 93 repos across 12 categories. WORTHWHILE \u2014 use for discovery when building Solomon OS features. Check monthly for new self-improvement, security, multi-agent entries."
     }
   ],
-  "lastUpdated": "2026-04-18T22:05:00Z",
+  "lastUpdated": "2026-04-19T22:30:00Z",
   "sessionSummary": "Added paperless-ngx RD report and queue entry."
 }
