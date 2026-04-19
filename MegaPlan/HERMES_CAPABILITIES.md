@@ -276,3 +276,19 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **For Solomon OS:** Fills the #1 gap — shared cross-agent memory. Zo learns something → Russell Tuna recalls it. Cross-platform (Telegram ↔ CLI). Self-improving (every decision logged → training data → fine-tuned model).
 - **Priority:** HIGH — Install as shared memory layer for ALL Solomon OS agents.
 - **Full RD report:** `solomon-vault/brain/RD_REPORTS/icarus.md`
+
+## Hermes xurl Skill — Official X API CLI (April 18, 2026)
+- **PR:** NousResearch/hermes-agent#12303 — merged TODAY
+- **xurl:** github.com/xdevplatform/xurl — official X API CLI by Chris Park et al. (740 stars, v1.0.3)
+- **Installed:** xurl binary on this server at /usr/local/bin/xurl ✅
+- **What changed:** Old `xitter` skill (Infatoshi/x-cli, OAuth 1.0a, 5 env vars, single account) replaced with `xurl` (OAuth 2.0 PKCE + 1.0a, auto-refresh, multi-app/multi-user, DMs+media+streaming+raw v2)
+- **Key improvements:**
+  - Official — maintained by X dev platform, not 3rd party
+  - OAuth 2.0 PKCE with auto-refresh tokens
+  - Multi-account support (multiple X apps/users)
+  - Credentials stored in `~/.xurl` managed by xurl itself — no manual env var juggling
+  - Larger API surface: DMs, follows, blocks, mutes, media upload, streaming, raw v2 endpoints, webhooks
+  - Better agent-safety guardrails (forbidden flags list, no `--verbose` in agent mode, never-read-`~/.xurl` rule)
+- **Hermes fit:** Replace our existing xitter-based X skill with this. Full X API access (posts, DMs, search, media) wrapped in Hermes SKILL.md conventions.
+- **Install xurl:** `curl -fsSL https://raw.githubusercontent.com/xdevplatform/xurl/main/install.sh | bash`
+- **Full RD report:** `solomon-vault/brain/RD_REPORTS/hermes-xurl.md`
