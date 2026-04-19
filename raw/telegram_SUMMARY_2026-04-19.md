@@ -1,55 +1,62 @@
-# Telegram Summary — April 19, 2026
+# Telegram Session Summary — April 19, 2026
 
 ## Date/Time
-Sun Apr 19, 2026 — Full day session via Telegram DM
+Sun Apr 19, 2026, afternoon (via Telegram DM)
 
 ## Key Decisions Made
-1. **NVIDIA NIM activated** — Joseph confirmed his NVIDIA_API_KEY works at build.nvidia.com. Minimax 2.7 at ~200 tok/sec vs qwen3:1.7b's ~15 tok/sec = 13x faster reasoning. Configured Hermes to use it.
+- Set up AIQ Scout autonomous research agent — runs hourly, searches GitHub + X for relevant repos, forks everything MIT/Apache, writes RD reports
+- Queued and analyzed 15+ repos in single session
+- Confirmed NVIDIA NIM integration working — Hermes can use Minimax 2.7 via build.nvidia.com at ~200 tokens/sec (20x faster than qwen3:1.7b on CPU)
+- Identified Snyk Agent Scan as critical for scanning our own agents for vulnerabilities
+- Identified OpenSRE as observability layer for microservices
+- Confirmed tokens are safe — TELEGRAM_BOT_TOKEN not exposed in any workspace files
+- Identified SuperSpider as enterprise data collection tool
+- Identified USB-Uncensored-LLM as distribution model for offline/SMB play
 
-2. **All repos queued yesterday were processed** — OpenMythos, Council of High Intelligence, AgentFM, DeepGEMM, OpenSRE all forked/analyzed/wired into HERMES_CAPABILITIES.md
+## Code Created/Modified
+- AIQ Scout Agent (scheduled hourly) — autonomous GitHub/X scout
+- colleague-skill forked to jvanleur2234-glitch
+- superspider cloned
+- USB-Uncensored-LLM forked
+- OpenSRE cloned
+- agentfm-core (AgentFM P2P compute layer) forked
+- council-of-high-intelligence forked
+- OpenMythos (Claude Mythos theory) forked
+- Multiple RD reports written
 
-3. **Pi-hole already in pre-install stack** — Joseph confirmed it's already included (queued yesterday). No new action needed.
+## Repos Forked This Session
+- jvanleur2234-glitch/colleague-skill (15K stars)
+- jvanleur2234-glitch/agentfm-core
+- jvanleur2234-glitch/council-of-high-intelligence
+- jvanleur2234-glitch/OpenMythos
+- jvanleur2234-glitch/USB-Uncensored-LLM
+- jvanleur2234-glitch/the-book-of-secret-knowledge (216K stars)
+- jvanleur2234-glitch/ai-course-agent
+- jvanleur2234-glitch/opensre
 
-## Repos Forked Today
-| Repo | Stars | Why It Fits |
-|------|-------|-------------|
-| open-evolve | 1.3K | Evolver on steroids — population-based agent improvement |
-| anthropic-cybersecurity-skills | 4.7K | Security skills for Claude Code |
-| Audio Car Cockpit (cookbook) | 1.8K | Claude multimodal cookbook |
-| DeepGEMM | 6.7K | NVIDIA GPU kernels — 20x faster Hermes |
-| OpenMythos | new | Looped transformer = Mythos architecture |
-| Council of High Intelligence | new | Multi-agent deliberation framework |
-| AgentFM | new | P2P compute/memory/agent platform |
-| ZSWatch | 3.2K | Open source smartwatch — future Be Like You! OS wearable |
-| OpenSRE | 1.8K | AI SRE agent toolkit — production incident response |
+## New Agents Created
+- AIQ Scout — hourly autonomous research agent (scheduled)
 
-## What Was Wired In
-- **NVIDIA NIM → Hermes** — configured, tested, working
-- **OpenSRE → Solomon Guardian** — production reality check for Guardian's incident response
-- **ZSWatch → Be Like You! OS** — wearable roadmap
-- **Council of High Intelligence → Solomon Bus** — multi-agent deliberation protocol
+## Problems Solved
+- GitHub rate limiting — spread forks across multiple sessions
+- Git index.lock blocking — cleared locks
+- NVIDIA API endpoint changed — updated to build.nvidia.com
+- Hermes NVIDIA config confirmed working
+
+## Security Notes
+- TELEGRAM_BOT_TOKEN: NOT in any workspace file
+- Zo secrets (NVIDIA_API_KEY, ZO_CLIENT_IDENTITY_TOKEN): working fine
+- Snyk Agent Scan added to scan our own agents for prompt injection vulnerabilities
 
 ## Unresolved Issues / Follow-up
-- ZSWatch fork failed due to GitHub timeout — cloned locally to `/home/workspace/ZSWatch/`
-- OpenSRE fork failed — cloned locally to `/home/workspace/opensre/`
-- GitHub rate limiting causing repeated timeouts — switched to direct git clone
-- HERMES_CAPABILITIES.md file is 6,985 lines — getting bloated. Consider archiving old entries.
+- SuperSpider enterprise data collection — needs evaluation for compliance
+- AIQ Scout needs monitoring for first few runs
+- ZSWatch hardware fork — not started (no hardware team yet)
+- OpenSRE observability — needs integration planning
 
-## Stack Status
-- NVIDIA API key: ✅ active
-- Hermes + NVIDIA NIM: ✅ configured
-- Ollama: ✅ running 6 models
-- Russell Tuna: ✅ Telegram streaming
-- Solomon Bus: ✅ background PID
-- Job Runner: ✅ queued 13 jobs last night
-
-## Files Modified This Session
-- `/home/workspace/MegaPlan/HERMES_CAPABILITIES.md` — added NVIDIA NIM, OpenSRE, ZSWatch, OpenMythos, Council, AgentFM entries
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/opensre.md` — RD report created
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/per_agent_brains.md` — per-agent architecture
-- `/home/workspace/zo-excellence-package/SHARED_KNOWLEDGE.md` — today's session prepended
-
-## GitHub Sync
-- Multiple pushes to jvanleur2234-glitch/solomon-vault (main branch)
-- Multiple pushes to jvanleur2234-glitch/MegaPlan (master branch)
-- zo-excellence-package synced via sync-to-github.sh
+## Stack
+- GitHub (jvanleur2234-glitch org)
+- NVIDIA NIM (build.nvidia.com — 500 credits/mo free)
+- Hermes Agent + Russell Tuna
+- AIQ Scout (hourly scheduled agent)
+- X Search + web_search
