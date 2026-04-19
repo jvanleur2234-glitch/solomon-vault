@@ -1,6 +1,59 @@
 # Hermes Capabilities
 **Last Updated: April 17, 2026**
 
+## JCPaid Pre-Install Stack (April 18, 2026)
+
+The philosophy: JCPaid = Best of breed pre-installed + AI layer + user makes it their own. The default experience is already better than most people's current setup. Then customize from there.
+
+**Reference catalog:** https://selfh.st/apps/ — self-hosted alternatives directory by Ethan Sholly. Use license filters to find MIT/Apache/AGPL options for pre-install batch.
+
+### The Pre-Install Batch
+
+**Communication:**
+- Matrix/Element — E2E encrypted messaging, bridges to Telegram/Signal
+- Jitsi — video calls, no Zoom needed
+
+**File & Docs:**
+- NextCloud — Google Drive replacement, self-hosted
+- CollabOS or OnlyOffice — collaborative docs/spreadsheets/slides
+
+**Passwords & Security:**
+- Vaultwarden — Bitwarden-compatible, lightweight, runs on $5 VPS
+
+**VPN & Networking:**
+- WireGuard — modern VPN protocol, kernel-level, very fast
+- Tailscale — zero-config VPN mesh, works through NATs
+
+**AI Layer (Solomon OS on top):**
+- Ollama — local LLM inference, free, no API costs
+- browser-harness — self-healing browser automation for AI agents
+- Paseo — cross-device AI agent control from phone
+
+**Email:**
+- Thunderbird — full email client, IMAP/SMTP
+- Resend API — send emails via API, 3K free/month
+
+**Calendar & Tasks:**
+- Cal.com — Calendly alternative, self-hosted, open source
+
+**Notes & Knowledge:**
+- Obsidian — local-first markdown notes
+- Cabinet — git-backed KB with AI agents + Kanban
+
+**Video:**
+- Jitsi Meet — self-hosted video conferencing
+- PeerTube — YouTube alternative, federated
+
+### License Priority
+MIT > Apache 2.0 > AGPL > GPL. Avoid GPL for SaaS-like products (share-alike传染). AGPL fine for internal tooling. MIT/Apache are always safe.
+
+### Build Approach
+1. Pick one category (e.g. passwords/VPN) and build a one-command installer
+2. Test on a fresh VM to verify it works
+3. Layer in the AI automation for that category
+4. Repeat for each category
+5. Package as a JCPaid OS image
+
 ## Agency Agents — 810K Stars AI Employee Templates (April 18, 2026)
 - **Repo:** github.com/msitarzewski/agency-agents — 810K stars, MIT License
 - **Cloned:** /home/workspace/agency-agents/ (full repo, 21 categories, 140+ roles)
@@ -175,3 +228,51 @@ Location: `/home/workspace/solomon-vault/shared/`
 | Ollama | (local) | qwen3:1.7b, llama3.2 | ✅ |
 | OpenAI | `OPENAI_API_KEY` | GPT-4o, GPT-4o-mini | ✅ |
 | NVIDIA | `NVIDIA_API_KEY` | minimax-m2.5 via build.nvidia.com | ✅ |
+
+## JCPaid Pre-Install Philosophy (April 18, 2026)
+> JCPaid = Best of breed pre-installed + AI layer + user makes it their own
+
+### Core Stack
+The stack to pre-install in every JCPaid/Solomon OS build:
+
+**Communication**
+- Matrix/Element — E2E encrypted messaging, bridge to Telegram/Signal
+- Jitsi — video calls, no Zoom needed
+
+**File & Docs**
+- NextCloud — Google Drive replacement, self-hosted
+- CollabOS or OnlyOffice — Docs/sheets/slides, not Google's
+
+**Password & Secrets**
+- Vaultwarden — Bitwarden server, 1Password replacement
+
+**VPN**
+- WireGuard — modern, fast, killswitch
+- Mysterium Node — decentralized VPN (pre-forked at /home/workspace/node)
+
+**AI Layer**
+- Ollama — local LLM, already running ✅
+- browser-harness — self-healing browser harness (forked: jvanleur2234-glitch/browser-harness)
+- Paseo — cross-device Russell Tuna control (forked: jvanleur2234-glitch/paseo)
+
+**Email**
+- Thunderbird + self-hosted SMTP (or Resend API)
+
+**Calendar/Tasks**
+- Cal.com — Calendly replacement, self-hosted
+
+**Notes/KB**
+- Obsidian — local-first notes
+- Cabinet — AI knowledge base (already in jack-connect/)
+
+**Philosophy:** Ship it so good out of the box — everything works, everything talks to each other, Solomon OS AI manages it all — that the default experience is already better than most people's current setup. Then customize from there.
+
+**Reference catalog:** https://selfh.st/apps/ — self-hosted alternatives directory by Ethan Sholly. Use license filters to find MIT/Apache/AGPL options for pre-install batch.
+
+## Icarus Hermes Plugin (April 18, 2026)
+- **Repos:** github.com/esaradev/icarus-daedalus (249 stars, MIT) + github.com/esaradev/icarus-plugin (51 stars, MIT)
+- **Forked:** jvanleur2234-glitch/icarus-daedalus + jvanleur2234-glitch/icarus-plugin
+- **What it does:** Shared memory layer for Hermes agents — one agent learns it, every agent recalls it. Self-building wiki, memory maintenance with quality scoring/auto-archival, training data export for fine-tuning replacement models. Markdown + YAML frontmatter in ~/fabric/, no database. Hot/Warm/Cold tiering with auto-curation.
+- **For Solomon OS:** Fills the #1 gap — shared cross-agent memory. Zo learns something → Russell Tuna recalls it. Cross-platform (Telegram ↔ CLI). Self-improving (every decision logged → training data → fine-tuned model).
+- **Priority:** HIGH — Install as shared memory layer for ALL Solomon OS agents.
+- **Full RD report:** `solomon-vault/brain/RD_REPORTS/icarus.md`
