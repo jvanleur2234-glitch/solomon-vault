@@ -88,3 +88,39 @@ curl -s localhost:11434/api/tags  # Ollama
 3. Create a health check entry in `/home/workspace/.agent/status/monitor.sh`
 4. If external: register as a user service via Zo dashboard
 5. Update SHARED_KNOWLEDGE.md with any new capabilities
+
+---
+## SOLOMON RING — Private Security Camera System (Local-First)
+
+**Concept:** Privacy-first doorbell/camera security system. No cloud. No big tech. Own your footage.
+
+**Problem it solves:**
+- Ring, Nest, Arlo = all cloud-dependent. Companies can be hacked, comply with warrants, sell data.
+- Solomon Ring puts all processing + storage LOCAL on a Solomon NAS or home server.
+
+**Core features:**
+- Hardware: ESP32-CAM +-compatible board running Solomon OS agent
+- Local AI processing: detection, face recognition, package recognition ON DEVICE
+- No outbound connections — camera only talks to local Solomon NAS
+- Encrypted storage (Solomon Guardian layer)
+- Solomon OS manages all cameras as agent endpoints
+- Real-time alerts via Solomon Air (local push, no third party)
+- App in Solomon OS to view live feed + recorded clips
+- Motion zones, scheduling, sensitivity — all local config
+
+**Architecture:**
+```
+ESP32-CAM (Solomon Agent) ←→ Local Network ←→ Solomon NAS (storage + AI)
+                                                  ↑
+                                         Solomon OS (control plane)
+                                                  ↓
+                                    Solomon Air (alerts to phone)
+```
+
+**Open source advantage:**
+- Anyone can build Solomon Ring hardware
+- Community-contributed detection models (train on your own face data, locally)
+- App marketplace for specialized detection agents
+
+**Privacy moat:** Footage NEVER leaves the home network. Even if someone hacks "Solomon" company, there's nothing to access — all data is local.
+

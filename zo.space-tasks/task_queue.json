@@ -140,7 +140,7 @@
       "name": "Ralph \u2014 Autonomous AI Agent Loop",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-18T22:05:00Z",
       "notes": "RD_REPORT: ralph.md. SKILL. Fresh-context iteration pattern for Russell Tuna/Solomon Bus. PRD \u2192 user stories \u2192 loop \u2192 progress.txt. Adapt Ralph's loop concept into Solomon Bus / Russell Tuna workflow."
     },
@@ -152,8 +152,44 @@
       "status": "pending",
       "addedAt": "2026-04-19T22:30:00Z",
       "notes": "RD_REPORT: hermes-atlas.md. 152K stars, +46.8K this week. Ecosystem map for Hermes Agent \u2014 93 repos across 12 categories. WORTHWHILE \u2014 use for discovery when building Solomon OS features. Check monthly for new self-improvement, security, multi-agent entries."
+    },
+    {
+      "id": "viseron-ring-001",
+      "name": "Viseron \u2014 Self-Hosted NVR for Solomon Ring Doorbell/Camera System",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-19T23:10:00Z",
+      "notes": "2.8k stars, MIT. Python, local-only NVR with AI CV (object detection, face recognition, motion, YOLO, TensorFlow, Google Coral, EdgeTPU). No cloud. Perfect for Solomon Ring \u2014 privacy-first security camera system that competitors can't hack. Hardware: Raspberry Pi + Coral USB + IP cameras."
+    },
+    {
+      "id": "gmapsxploit-001",
+      "name": "GmapsXploit \u2014 Google API Key Auditor",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-19T23:30:00Z",
+      "notes": "RD_REPORT: gmapsxploit.md. ~400 stars, MIT. Bash script auditing 30+ Google Cloud endpoints for API key exposures. SKILL \u2014 integrate billing impact methodology into Solomon Guardian API scanning module. Clone to /home/workspace/Skills/gmapsxploit/."
+    },
+    {
+      "id": "gbrain-v013-001",
+      "name": "GBrain v0.13 \u2014 Garry Tan Self-Wiring Knowledge Brain",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "completed",
+      "addedAt": "2026-04-19T23:50:00Z",
+      "notes": "INTEGRATE. Self-wiring knowledge graph with typed relationships + YAML frontmatter + compiled truth + timeline. Cloned to /home/workspace/agency-agents/gbrain/. Direct overlap with Solomon OS brain architecture. See RD_REPORT gbrain-v013.md."
+    },
+    {
+      "id": "hermes-agent-rd-001",
+      "name": "Hermes Agent by Nous Research \u2014 RD Analysis",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "completed",
+      "addedAt": "2026-04-19T23:50:00Z",
+      "notes": "Recommendation: FORGE. Integrate skills architecture + messaging gateway into Solomon OS. See RD_REPORT: hermes-agent-nous-research.md"
     }
   ],
-  "lastUpdated": "2026-04-19T22:30:00Z",
-  "sessionSummary": "Added paperless-ngx RD report and queue entry."
+  "lastUpdated": "2026-04-19T23:50:00Z",
+  "sessionSummary": "Added GmapsXploit RD report and queue entry. Queued from Telegram X post by @akaclandestine."
 }
