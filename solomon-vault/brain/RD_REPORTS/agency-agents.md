@@ -1,56 +1,45 @@
-# RD Report: Agency Agents (810K stars)
+# RD Report: agency-agents
+
+**Slug:** agency-agents  
+**URL:** https://github.com/msitarzewski/agency-agents  
+**Stars:** 81,468 ⭐ | **Forks:** 13,041  
+**License:** MIT  
+**Language:** Shell
+
+---
 
 ## What It Is
-"The Agency" — open-source collection of 147 specialized AI agent personas across 12 divisions. Each agent has its own personality, workflow, success metrics, and deliverable templates. MIT licensed.
+"A complete AI agency at your fingertips — From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."
 
-**URL**: https://github.com/msitarzewski/agency-agents
-**Stars**: 810K+
-**License**: MIT
+81K stars. The Chinese post described it as: "61个AI员工分部门开会、干活、汇报" (61 AI employees divided into departments, meeting, working, reporting). This is essentially a pre-built AI company with multiple specialized agents.
 
-## Divisions & Roles
+---
 
-| Division | # Agents | Key Roles |
-|----------|----------|-----------|
-| Engineering | 24 | Frontend Dev, Backend Architect, AI Engineer, DevOps, Security, SRE |
-| Marketing | 25 | SEO, Social Media, TikTok, LinkedIn, Content, Reddit Community |
-| Sales | 7 | Outbound Strategist, Deal Closer, Sales Engineer, Pipeline Analyst |
-| Design | 7 | Brand Designer, UX Researcher, Graphic Designer |
-| Product | 6 | Product Manager, UX Writer, QA |
-| Strategy | 5 | Business Analyst, Financial Modeler |
-| Paid Media | 7 | PPC, Programmatic, Tracking, Creative Strategist |
-| Support | 6 | Support Responder, Finance Tracker, Legal Compliance |
-| Project Management | 4 | Project Manager, Coordinator |
-| Operations | 5 | VA, HR, Recruiter |
-| Game Dev | 3 | Unity/Unreal Developer |
-| Academic | 4 | Research Analyst |
+## What We'd Use It For
+- **AI Staffing Agency** — this IS the product. Pre-built team of AI workers businesses can hire
+- **Solomon OS knowledge base** — extract the agent architecture patterns (9 departments, 61 agents)
+- **Client onboarding** — offer as a ready-made AI workforce
 
-## How It Works
-Each agent file contains:
-- Identity & personality traits
-- Core mission & workflows  
-- Technical deliverables with code examples
-- Success metrics & communication style
+---
 
-Works with: Claude Code, Copilot, Cursor, Aider, Windsurf, Gemini CLI, OpenCode
+## Comparison to What We Have
+- Solomon OS: Russell Tuna + Solomon Bus + Hermes = custom multi-agent system
+- agency-agents: 61 pre-built specialized agents in a ready-made company structure
+- This is a **direct competitive product** to what we're building
 
-## Solomon OS Fit
+---
 
-### What This Enables for AI Staffing Agency
-Instead of Russell Tuna as one generalist bot → package specialized AI workers:
-- **Hireable agents**: Social Media Manager, Cold Email Agent, Bookkeeper, SEO Specialist, Customer Support Agent, Sales Development Rep
-- Each agent is a distinct persona with defined workflows
-- MIT license = commercial use allowed
-- Fork command already works for spawning parallel agents
+## Critical Observation
+81K stars. This is the AI Staffing Agency product ALREADY BUILT. The question is: can we compete? Can we差异化 (differentiate)?
 
-### Integration Plan
-1. Clone to `/home/workspace/agency-agents/`
-2. Create Solomon OS agent templates from key roles
-3. Add to Hermes skills registry
-4. Map to staffing service offerings
+Differentiation angles:
+- Our focus: white-collar knowledge work (not general agents)
+- Our edge: Zo Computer infrastructure, Telegram-first UX, Solomon OS orchestration
+- Local/free via Ollama vs their approach
 
-## Recommendation: **INTEGRATE**
-Priority: HIGH
-- Direct commercial use (MIT)
-- 147 ready-made agent personas for staffing agency
-- Clone top 20 roles to Solomon OS agents directory
-- Feed Russell Tuna the best ones for specialized modes
+---
+
+## Recommendation: SKIM (Understand the Threat)
+**Reason:** 81K stars = massive community validation. Direct competitor to the AI Staffing Agency idea. Need to study it deeply, understand its limitations, and find our differentiation.
+
+**Action:** Don't clone — study. Analyze what makes it successful and what it doesn't do (white-collar knowledge work, local/free deployment, Telegram-first UX). Use insights to strengthen Solomon OS positioning.

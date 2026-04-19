@@ -354,67 +354,7 @@ Next interaction = smarter from all past mistakes
 - agentic-stack final review before lesson is promoted to verified pattern
 
 ### Quality Gates
-- Unverified → stage in `cold/staging/` until 2+ confirmations OR explicit user approval
-- Verified → promote to `cold/lessons/` (permanent immunity)
-- Shared pool → anonymized techniques + anti-patterns for cross-user learning
-
-### Build Status
-| Layer | Status |
-|-------|--------|
-| HOT (current session state) | ✅ Per-user directories at `solomon-vault/users/{user-id}/` |
-| COLD (lessons learned) | ✅ Solomon Vault brain/ + Icarus fabric/ |
-| Shared (anonymized pool) | ✅ `solomon-vault/shared/` |
-| Identity (who user is) | ✅ Solomon Vault brain/NORTH_STAR.md |
-| Evolver (Gene selection + GEP) | ✅ Forked, RD report, HERMES_CAPABILITIES.md |
-| Icarus (cross-agent memory) | ✅ Forked, RD report, HERMES_CAPABILITIES.md |
-| agentic-stack (lesson review) | ✅ Forked, HERMES_CAPABILITIES.md |
-| Guardian (adversarial loop) | ✅ SOLOMON_GUARDIAN.md v2 with Evolver/Icarus wired in |
-| Sunday Self-Review Agent | ✅ Weekly audit loop |
-
----
-
-### Build Phases
-
-Solomon OS has a continuous self-improvement architecture across 4 layers:
-
-### The 4 Memory Layers
-| Layer | What | Scope | Latency |
-|-------|------|-------|---------|
-| HOT | Current session state | Per-user | Sync (fast) |
-| COLD | Lessons learned, verified patterns | Per-user | Async |
-| Shared | Anonymized techniques + anti-patterns | Cross-user | Read-only |
-| Identity | Who the user is (soul, values, goals) | Per-user | Slow-changing |
-
-### The Self-Improvement Cycle (every interaction)
-1. **Respond** — use HOT + Identity context
-2. **Log result** — what happened
-3. **Evaluate** — did it work?
-4. **Update** — reinforce success / diagnose failure
-5. **Propagate** — if shareable, anonymize and add to shared pool
-6. **Compound** — next session smarter from all past sessions
-
-### Build Phases
-- **Phase 1 (WEEKS 1-2):** Per-user memory directories, context loader, session summarizer
-- **Phase 2 (WEEKS 2-3):** Feedback signal capture (explicit + implicit), quality gates
-- **Phase 3 (WEEKS 3-5):** Cross-user knowledge sharing with anonymization layer
-- **Phase 4 (WEEKS 4-6):** Identity evolution with drift detection
-- **Phase 5 (ONGOING):** Continuous compounding — daily review, weekly audit, monthly deep-dive
-
-### Privacy Model
-- Users CAN share: techniques, workflow patterns, tool configs, anti-patterns (all anonymized)
-- Users CANNOT share: conversations, client data, raw memory files
-- Users can OPT-OUT of shared pool contributions
-- Users can revoke contributions at any time
-
-### Shared Knowledge Pool
-Location: `/home/workspace/solomon-vault/shared/`
-- `techniques/` — what works (anonymized success patterns)
-- `anti-patterns/` — what fails (anonymized failed approaches)
-- `insights/` — platform-level aggregate patterns (cohort-level, not individual)
-
-### Quality Gates
-- New learning → requires 2+ confirmations OR explicit user approval before promoting to verified lesson
-- Unverified → stage in `cold/staging/` until confirmed
+- Unverified → stage in `cold/staging/` until 2+ confirmations OR explicit user approval before promoting to verified lesson
 - Verified → promote to `cold/lessons/`
 
 ### Existing Foundations
@@ -517,3 +457,23 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **Hermes fit:** Replace our existing xitter-based X skill with this. Full X API access (posts, DMs, search, media) wrapped in Hermes SKILL.md conventions.
 - **Install xurl:** `curl -fsSL https://raw.githubusercontent.com/xdevplatform/xurl/main/install.sh | bash`
 - **Full RD report:** `solomon-vault/brain/RD_REPORTS/hermes-xurl.md`
+
+## Baoyu Infographic Skill — NOUS Partnership (April 19, 2026)
+
+## Anthropic-Cybersecurity-Skills — 754 MITRE-Mapped Security Skills (April 19, 2026)
+- **Repo:** github.com/mukul975/Anthropic-Cybersecurity-Skills — 4.7K stars, Apache 2.0, 554 forks
+- **Cloned:** /home/workspace/Anthropic-Cybersecurity-Skills/
+- **What it is:** 754 structured cybersecurity skills across 26 domains. Each skill encodes the exact decision-making workflow a senior analyst follows — not scripts, not checklists. Built on agentskills.io standard (YAML frontmatter + Markdown).
+- **Key domains:** Cloud Security (60), Threat Hunting (55), Threat Intel (50), Web App Security (42), Network Security (40), Malware Analysis (39), DFIR (38), Pentest (35)
+- **5 framework mappings:** MITRE ATT&CK (200+ techniques), NIST CSF 2.0 (all 6 functions), MITRE ATLAS (84 AI-specific threats), MITRE D3FEND (267 countermeasures), NIST AI RMF (GenAI Profile)
+- **Critical for Solomon Guardian:** ATLAS includes agentic AI attack vectors — context poisoning, tool invocation abuse, MCP server compromises, malicious agent deployment. This guards Hermes and Russell Tuna themselves.
+- **Business fit:** Sell "AI Security Analyst" as a product — Hermes + 754 skills = automated SOC for SMBs. $99-499/mo subscription.
+- **Quick install:** `npx skills add mukul975/Anthropic-Cybersecurity-Skills`
+- **Full RD report:** `solomon-vault/brain/RD_REPORTS/anthropic-cybersecurity-skills.md`
+
+## DeepGEMM — NVIDIA H100 GPU Kernels (April 17, 2026)
+- **Repo:** github.com/NVIDIA/DeepGEMM
+- **What it does:** High-performance GPU kernels for matrix multiplication, optimized for NVIDIA H100. Built on top of CUTLASS and CUDA.
+- **Use for:** Accelerating large-scale machine learning workloads, especially those involving deep neural networks.
+- **Status:** Open-source, actively maintained by NVIDIA.
+- **LINK fit:** ★★★★☆ — #gpu #performance #nvidia #deep-learning
