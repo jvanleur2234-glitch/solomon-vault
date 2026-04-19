@@ -6991,3 +6991,12 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - CRITICAL for Solomon Guardian: OpenClaw/Clawdbot = 4,000+ exposed agents on Shodan with zero auth. RCE via prompt injection. Our Guardian Attack Team can scan for these exposures.
 - Also finds: leaked Claude conversations (600 indexed by Google, 143K on Archive.org), exposed Ollama servers (175K worldwide), MLflow CVE-2026-0545 (CVSS 9.1), exposed HuggingFace spaces with hardcoded keys
 - LINK fit: ★★★★★ — #solomon-guardian #security #osint #llm-top-10
+
+## Thunderbolt — Thunderbird's Cross-Platform AI Client (April 19, 2026)
+- **Repo:** github.com/thunderbird/thunderbolt — 2.2K stars, Mozilla Public License 2.0
+- **Forked:** jvanleur2234-glitch/thunderbolt
+- **What it is:** Thunderbird's AI chat client. Cross-platform (web, iOS, Android, Mac, Linux, Windows), local/offline models, enterprise on-prem deployment.
+- **Stack:** Tauri (Rust backend), TypeScript frontend, Drizzle ORM, Ollama/llama.cpp compatible
+- **Pitch:** "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in."
+- **Why it matters:** Thunderbird has MASSIVE distribution — pre-installed on Linux distros, millions of users. Could be the JCPaid messaging AI layer.
+- **LINK fit:** ★★☆☆☆ — #messaging #thunderbird #cross-platform
