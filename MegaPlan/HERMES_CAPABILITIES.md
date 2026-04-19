@@ -504,3 +504,11 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **What it is:** 10,000+ curated AI prompts organized by category. Content creation, automation, coding, marketing, etc.
 - **For Russell Tuna:** Training data for AI agent personas. Feed prompt patterns into Russell's fine-tuning or few-shot examples.
 - **LINK fit:** ★★★★☆ — #training #prompts #russell-tuna
+
+## USB Distribution Model (April 19, 2026)
+- **Concept:** Distribute Solomon OS and Be Like You! OS via USB drives.
+- **What it enables:** Users can install the OS on their own devices without internet access.
+- **Why it matters for JCPaid:** Provides a way to distribute the OS to users who are offline or have limited internet access.
+- **For Be Like You! OS:** Layer between vPhone VoIP and carrier independence. When combined with Tor/mesh networking = truly untraceable communication. This is the endgame for the "free global calling" vision.
+- **What we'd need to add:** OpenBTS or YateBTS (open source BTS software), USRP or RTL-SDR hardware, VoIP gateway integration.
+- **Privacy moat:** Being your own carrier = no cell carrier surveillance, no SIM tracking, no IMSI catcher vulnerability.
