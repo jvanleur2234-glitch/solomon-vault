@@ -133,7 +133,7 @@ MIT > Apache 2.0 > AGPL > GPL. Avoid GPL for SaaS-like products (share-alike传�
 - **What it does:** AI-first startup OS — knowledge base + AI agents + scheduled jobs + Kanban boards. Git-backed history. Self-hosted. Drop HTML apps in any folder.
 - **For JackConnect:** Jack's personal AI team brain — all agents, all memory, all work in one place
 
-## Cognee — AI M (April 17, 2026)
+## Cognee — AI (April 17, 2026)
 - **Location:** jack-connect/cognee/
 - **What it does:** Structured memory for LLMs — graph + vector search over any data. Pipeline: add text/files/tables → cognify → search
 - **For JackConnect:** Long-term memory for Jack's real estate business — client history, deal notes, market data
