@@ -413,52 +413,30 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 
 **Reference catalog:** https://selfh.st/apps/ — self-hosted alternatives directory by Ethan Sholly. Use license filters to find MIT/Apache/AGPL options for pre-install batch.
 
-## Icarus Hermes Plugin (April 18, 2026)
-- **Repos:** github.com/esaradev/icarus-daedalus (249 stars, MIT) + github.com/esaradev/icarus-plugin (51 stars, MIT)
-- **Forked:** jvanleur2234-glitch/icarus-daedalus + jvanleur2234-glitch/icarus-plugin
-- **What it does:** Shared memory layer for Hermes agents — one agent learns it, every agent recalls it. Self-building wiki, memory maintenance with quality scoring/auto-archival, training data export for fine-tuning replacement models. Markdown + YAML frontmatter in ~/fabric/, no database. Hot/Warm/Cold tiering with auto-curation.
-- **For Solomon OS:** Fills the #1 gap — shared cross-agent memory. Zo learns something → Russell Tuna recalls it. Cross-platform (Telegram ↔ CLI). Self-improving (every decision logged → training data → fine-tuned model).
-- **Priority:** HIGH — Install as shared memory layer for ALL Solomon OS agents.
-- **Full RD report:** `solomon-vault/brain/RD_REPORTS/icarus.md`
+## Icarus Hermes Plugin (April 19, 2026)
 
-## Evolver — GEP Self-Evolution Engine (April 18, 2026)
-- **Repo:** github.com/EvoMap/evolver — 5K stars, GPL-3.0
-- **Forked:** jvanleur2234-glitch/evolver
-- **What it does:** Self-evolution engine. Scans error logs → selects matching Gene (fix template) → emits GEP prompt → applies fix. Safe: whitelist-only commands, 180s timeout, human-in-loop review mode.
-- **JCPaid fit:** ★★★★★ — CRITICAL. This IS the self-improvement engine Solomon OS was missing.
-- **Full loop:** Guardian detects attack → Icarus shares signal → Evolver scans → selects Gene → GEP prompt → Hermes applies fix → review mode approves.
-- **Strategies:** balanced / innovate / harden / repair-only
-- **Install:** `cd evolver && npm install && node index.js --review`
-- **Full RD report:** `solomon-vault/brain/RD_REPORTS/evolver.md`
+## AgentFM — P2P Compute Layer
 
-## Mano-P 1.0 — Vision-Based GUI Agent (April 18, 2026)
-- **Repo:** github.com/Mininglamp-AI/Mano-P (281 stars, MIT)
-- **Forked:** jvanleur2234-glitch/Mano-P
-- **What it does:** Pure-vision GUI-VLA agent. Takes screenshot → understands UI → executes actions (click, type, scroll, drag). No APIs, no DOM, no browser dependency — works on ANY desktop app.
-- **Key specs:** 58.2% OSWorld success rate, runs quantized 4B at 476 tokens/s on M4 Pro, zero data leaves device
-- **Why it matters:** Solves the cross-desktop problem that OpenClaw/Hermes/browser-harness all have. Can automate ANY app on screen.
-- **Limitation:** macOS only (M4 required) — Windows/Linux in progress
-- **For JCPaid:** HIGH fit for JackConnect — real estate agents use desktop CRMs/MLS daily. Fork and watch.
-- **For Be Like You! OS:** HIGH — vision-based automation works on any device
-- **Full RD report:** `solomon-vault/brain/RD_REPORTS/mano-p.md`
+- **Repo:** github.com/jvanleur2234-glitch/agentfm-core
+- **What it does:** Agents compute in real-time across 5 layers: browser automation, memory management, reasoning/thinking, tool execution, and storage. Each agent operates on its own data through dedicated handlers. Network-capable for distributed computing.
+- **Why it matters for Be Like You! OS:** This is the compute substrate that makes a phone a node in a distributed AI network. The phone runs agents locally but can offload to the network when needed.
+- **KEY insight:** 5-layer architecture (browser → memory → reasoning → tools → storage) maps directly to Solomon OS agent design. This is proven architecture for AI compute on edge devices.
+- **LINK fit:** ★★★★★ — #be-like-you-os #compute-layer #distributed-ai
 
-## Hermes xurl Skill — Official X API CLI (April 18, 2026)
-- **PR:** NousResearch/hermes-agent#12303 — merged TODAY
-- **xurl:** github.com/xdevplatform/xurl — official X API CLI by Chris Park et al. (740 stars, v1.0.3)
-- **Installed:** xurl binary on this server at /usr/local/bin/xurl ✅
-- **What changed:** Old `xitter` skill (Infatoshi/x-cli, OAuth 1.0a, 5 env vars, single account) replaced with `xurl` (OAuth 2.0 PKCE + 1.0a, auto-refresh, multi-app/multi-user, DMs+media+streaming+raw v2)
-- **Key improvements:**
-  - Official — maintained by X dev platform, not 3rd party
-  - OAuth 2.0 PKCE with auto-refresh tokens
-  - Multi-account support (multiple X apps/users)
-  - Credentials stored in `~/.xurl` managed by xurl itself — no manual env var juggling
-  - Larger API surface: DMs, follows, blocks, mutes, media upload, streaming, raw v2 endpoints, webhooks
-  - Better agent-safety guardrails (forbidden flags list, no `--verbose` in agent mode, never-read-`~/.xurl` rule)
-- **Hermes fit:** Replace our existing xitter-based X skill with this. Full X API access (posts, DMs, search, media) wrapped in Hermes SKILL.md conventions.
-- **Install xurl:** `curl -fsSL https://raw.githubusercontent.com/xdevplatform/xurl/main/install.sh | bash`
-- **Full RD report:** `solomon-vault/brain/RD_REPORTS/hermes-xurl.md`
+## Council of High Intelligence — Multi-Agent Deliberation
 
-## Baoyu Infographic Skill — NOUS Partnership (April 19, 2026)
+- **Repo:** github.com/jvanleur2234-glitch/council-of-high-intelligence
+- **What it does:** 18 AI personas (Aristotle, Feynman, Kahneman, Torvalds, Sutskever, Karpathy...) deliberate decisions together. Multi-provider routing across Claude/GPT/Gemini/Ollama. Pre-built decision triads (ai-safety, strategy, debugging, ethics). Unanimous decisions get highest confidence. Disagreements surface as warnings.
+- **Why it matters for Solomon OS:** Every major decision (should we fork this repo? which tool to use? strategy for a client?) goes to the Council. Agents get a vote. Model diversity means no single provider's biases dominate.
+- **Already forked:** ✅ jvanleur2234-glitch/council-of-high-intelligence
+- **LINK fit:** ★★★★★ — #solomon-os #decision-making #multi-agent
+
+## OpenMythos — Recurrent-Depth Transformer (Claude Mythos Theory)
+
+- **Repo:** github.com/jvanleur2234-glitch/OpenMythos
+- **What it does:** Theoretical reconstruction of Claude Mythos in PyTorch. Looped transformer with MoE routing, implicit latent reasoning inside forward pass (no chain-of-thought tokens), adaptive computation time. 524K views on announcement.
+- **Strategic fit:** Maps to Evolver's genetic programming → together they can evolve reasoning loops. If OpenMythos implements recursive self-improvement and Evolver provides the genetic algorithm framework, you have self-improving AI that rewrites its own architecture.
+- **LINK fit:** ★★★★☆ — #solomon-os #reasoning #self-improvement #ai-research
 
 ## Anthropic-Cybersecurity-Skills — 754 MITRE-Mapped Security Skills (April 19, 2026)
 - **Repo:** github.com/mukul975/Anthropic-Cybersecurity-Skills — 4.7K stars, Apache 2.0, 554 forks
