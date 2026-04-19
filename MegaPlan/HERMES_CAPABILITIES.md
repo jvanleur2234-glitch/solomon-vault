@@ -277,6 +277,17 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **Priority:** HIGH — Install as shared memory layer for ALL Solomon OS agents.
 - **Full RD report:** `solomon-vault/brain/RD_REPORTS/icarus.md`
 
+## Mano-P 1.0 — Vision-Based GUI Agent (April 18, 2026)
+- **Repo:** github.com/Mininglamp-AI/Mano-P (281 stars, MIT)
+- **Forked:** jvanleur2234-glitch/Mano-P
+- **What it does:** Pure-vision GUI-VLA agent. Takes screenshot → understands UI → executes actions (click, type, scroll, drag). No APIs, no DOM, no browser dependency — works on ANY desktop app.
+- **Key specs:** 58.2% OSWorld success rate, runs quantized 4B at 476 tokens/s on M4 Pro, zero data leaves device
+- **Why it matters:** Solves the cross-desktop problem that OpenClaw/Hermes/browser-harness all have. Can automate ANY app on screen.
+- **Limitation:** macOS only (M4 required) — Windows/Linux in progress
+- **For JCPaid:** HIGH fit for JackConnect — real estate agents use desktop CRMs/MLS daily. Fork and watch.
+- **For Be Like You! OS:** HIGH — vision-based automation works on any device
+- **Full RD report:** `solomon-vault/brain/RD_REPORTS/mano-p.md`
+
 ## Hermes xurl Skill — Official X API CLI (April 18, 2026)
 - **PR:** NousResearch/hermes-agent#12303 — merged TODAY
 - **xurl:** github.com/xdevplatform/xurl — official X API CLI by Chris Park et al. (740 stars, v1.0.3)
