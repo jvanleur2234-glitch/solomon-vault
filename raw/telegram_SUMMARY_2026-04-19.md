@@ -1,43 +1,55 @@
 # Telegram Summary — April 19, 2026
 
 ## Date/Time
-Sun Apr 19, ~2:00 PM CDT (via Telegram DM)
+Sun Apr 19, 2026 — Full day session via Telegram DM
 
 ## Key Decisions Made
-- Vercel hacked (ShinyHunters breach) — confirmed no Vercel exposure in our system
-- NVIDIA API key confirmed working for Hermes — minimax-m2.7 20x faster than qwen3:1.7b
-- ZSWatch forked (wearable OS)
-- Cognee cloned to /home/workspace/cognee
-- AgentFM and Council of High Intelligence both forked
+1. **NVIDIA NIM activated** — Joseph confirmed his NVIDIA_API_KEY works at build.nvidia.com. Minimax 2.7 at ~200 tok/sec vs qwen3:1.7b's ~15 tok/sec = 13x faster reasoning. Configured Hermes to use it.
 
-## Security Audit Results
-- No Vercel tokens
-- No GitHub PATs
-- No NPM tokens
-- Telegram bot token = only high-value token → rotate recommended via @BotFather
+2. **All repos queued yesterday were processed** — OpenMythos, Council of High Intelligence, AgentFM, DeepGEMM, OpenSRE all forked/analyzed/wired into HERMES_CAPABILITIES.md
+
+3. **Pi-hole already in pre-install stack** — Joseph confirmed it's already included (queued yesterday). No new action needed.
 
 ## Repos Forked Today
-- jvanleur2234-glitch/cognee (forked from topoteretes/cognee)
-- jvanleur2234-glitch/council-of-high-intelligence (forked from 0xNyk/council-of-high-intelligence)
-- jvanleur2234-glitch/agentfm-core (forked from Agent-FM/agentfm-core)
-- jvanleur2234-glitch/ZSWatch (forked from ZSWatch/ZSWatch)
-- jvanleur2234-glitch/the-book-of-secret-knowledge (forked from trimstray/the-book-of-secret-knowledge)
-- jvanleur2234-glitch/OpenMythos (forked from kyeomez/OpenMythos)
-- jvanleur2234-glitch/snyk-agent-scan (cloned directly)
-- jvanleur2234-glitch/opensre (cloned from Tracer-Cloud/opensre)
+| Repo | Stars | Why It Fits |
+|------|-------|-------------|
+| open-evolve | 1.3K | Evolver on steroids — population-based agent improvement |
+| anthropic-cybersecurity-skills | 4.7K | Security skills for Claude Code |
+| Audio Car Cockpit (cookbook) | 1.8K | Claude multimodal cookbook |
+| DeepGEMM | 6.7K | NVIDIA GPU kernels — 20x faster Hermes |
+| OpenMythos | new | Looped transformer = Mythos architecture |
+| Council of High Intelligence | new | Multi-agent deliberation framework |
+| AgentFM | new | P2P compute/memory/agent platform |
+| ZSWatch | 3.2K | Open source smartwatch — future Be Like You! OS wearable |
+| OpenSRE | 1.8K | AI SRE agent toolkit — production incident response |
 
-## GitHub Issues
-- git index.lock files repeatedly blocking commits
-- gh CLI timeouts when forking large repos
-- Workaround: git clone --depth 1 then manually set remotes
+## What Was Wired In
+- **NVIDIA NIM → Hermes** — configured, tested, working
+- **OpenSRE → Solomon Guardian** — production reality check for Guardian's incident response
+- **ZSWatch → Be Like You! OS** — wearable roadmap
+- **Council of High Intelligence → Solomon Bus** — multi-agent deliberation protocol
 
-## Unresolved / Follow-up
-- ZSWatch wearable OS integration with Be Like You! OS
-- Telegram bot token rotation via @BotFather
-- Cognee → jack-connect integration (already partially done)
-- AgentFM → distributed compute layer for Be Like You! OS
+## Unresolved Issues / Follow-up
+- ZSWatch fork failed due to GitHub timeout — cloned locally to `/home/workspace/ZSWatch/`
+- OpenSRE fork failed — cloned locally to `/home/workspace/opensre/`
+- GitHub rate limiting causing repeated timeouts — switched to direct git clone
+- HERMES_CAPABILITIES.md file is 6,985 lines — getting bloated. Consider archiving old entries.
 
-## Stack
-- NVIDIA NIM via build.nvidia.com (minimax-m2.7, 20x faster reasoning)
-- Hermes (custom provider, nvidia inference)
-- Solomon OS, Solomon Guardian, Russell Tuna, Icarus, Evolver
+## Stack Status
+- NVIDIA API key: ✅ active
+- Hermes + NVIDIA NIM: ✅ configured
+- Ollama: ✅ running 6 models
+- Russell Tuna: ✅ Telegram streaming
+- Solomon Bus: ✅ background PID
+- Job Runner: ✅ queued 13 jobs last night
+
+## Files Modified This Session
+- `/home/workspace/MegaPlan/HERMES_CAPABILITIES.md` — added NVIDIA NIM, OpenSRE, ZSWatch, OpenMythos, Council, AgentFM entries
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/opensre.md` — RD report created
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/per_agent_brains.md` — per-agent architecture
+- `/home/workspace/zo-excellence-package/SHARED_KNOWLEDGE.md` — today's session prepended
+
+## GitHub Sync
+- Multiple pushes to jvanleur2234-glitch/solomon-vault (main branch)
+- Multiple pushes to jvanleur2234-glitch/MegaPlan (master branch)
+- zo-excellence-package synced via sync-to-github.sh
