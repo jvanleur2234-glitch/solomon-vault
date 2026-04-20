@@ -1,62 +1,71 @@
 # Telegram Session Summary — April 19, 2026
 
-## Date/Time
-Sun Apr 19, 2026, afternoon (via Telegram DM)
+**Date:** Sat Apr 19, 2025 (evening session via Telegram DM)
+**Key Participants:** Joseph Vanleur, Zo Computer, Russell Tuna
+
+---
+
+## What Happened
+
+### 1. Selfsync (GitHub: loyalpartner/selfsync) — QUEUED + ANALYZED
+- **URL:** https://x.com/QingQ77/status/2045731617986035761
+- **149 stars, Rust, GPL-3.0, active today**
+- Selfsync = self-hosted Chrome Sync server. Chrome's native `--sync-url` flag points to your own SQLite. Bookmarks, passwords, preferences never touch Google.
+- **Two paths for Solomon Browser:**
+  - Option A (faster): Chrome extension + Selfsync. Ship fast.
+  - Option B (full custom): Chromium source fork. More powerful, longer build.
+- **Recommendation:** INTEGRATE (🟡 Worthwhile — strong fit for privacy-first philosophy)
+- **Action:** Added to HERMES_CAPABILITIES.md after CloudBrowser section. Cleaned file of massive duplication bug (7K lines → 528 lines).
+
+### 2. Hermes Agent by Nous Research — X Buzz
+- **X post:** https://x.com/RoundtableSpace/status/2045846623901586035761
+- Nous Research open-sourced Hermes Agent (trading AI, deploys in 30 min on $5 VPS)
+- 74K views, 357 likes, trending
+- Hermes Agent ≠ Solomon's Hermes (different project, same name — coincidence)
+- Hermes Protocol by Oasis Foundation is the blockchain version (different again)
+- **Context:** Our Hermes is the agent brain for Solomon OS. Nous Research's Hermes Agent is a trading/finance AI. Both are open source, both are legitimate, but they're different tools built by different teams.
+
+### 3. File Cleanup — HERMES_CAPABILITIES.md
+- File had massive duplication bug — 7,018 lines with 929 copies of the same sentences
+- Root cause: Repeated append operations on the file without deduplication
+- Cleaned to 528 genuine lines
+- Selfsync entry added cleanly
+
+### 4. Thunderbolt Architecture Mapping (created)
+- **File:** `/home/workspace/solomon-vault/raw/THUNDERBOLT_SOLOMON_MAPPING.md`
+- Maps Mozilla's Thunderbolt (open-source AI client) to Solomon OS architecture
+- Thunderbolt = desktop/mobile shell, Solomon OS = embedded intelligence layer
+- vphone-cli integration for free VoIP calls maps to Solomon Air
+- Tauri mobile targets = path to Be Like You! OS mobile
+
+---
 
 ## Key Decisions Made
-- Set up AIQ Scout autonomous research agent — runs hourly, searches GitHub + X for relevant repos, forks everything MIT/Apache, writes RD reports
-- Queued and analyzed 15+ repos in single session
-- Confirmed NVIDIA NIM integration working — Hermes can use Minimax 2.7 via build.nvidia.com at ~200 tokens/sec (20x faster than qwen3:1.7b on CPU)
-- Identified Snyk Agent Scan as critical for scanning our own agents for vulnerabilities
-- Identified OpenSRE as observability layer for microservices
-- Confirmed tokens are safe — TELEGRAM_BOT_TOKEN not exposed in any workspace files
-- Identified SuperSpider as enterprise data collection tool
-- Identified USB-Uncensored-LLM as distribution model for offline/SMB play
+1. Solomon Browser strategy: Extension layer first (Option A) over full custom browser
+2. Selfsync integrated as the self-hosted sync layer for privacy-first browser
+3. File deduplication completed on HERMES_CAPABILITIES.md
+4. Thunderbolt mapped as potential desktop/mobile shell for Solomon OS
 
-## Code Created/Modified
-- AIQ Scout Agent (scheduled hourly) — autonomous GitHub/X scout
-- colleague-skill forked to jvanleur2234-glitch
-- superspider cloned
-- USB-Uncensored-LLM forked
-- OpenSRE cloned
-- agentfm-core (AgentFM P2P compute layer) forked
-- council-of-high-intelligence forked
-- OpenMythos (Claude Mythos theory) forked
-- Multiple RD reports written
+---
 
-## Repos Forked This Session
-- jvanleur2234-glitch/colleague-skill (15K stars)
-- jvanleur2234-glitch/agentfm-core
-- jvanleur2234-glitch/council-of-high-intelligence
-- jvanleur2234-glitch/OpenMythos
-- jvanleur2234-glitch/USB-Uncensored-LLM
-- jvanleur2234-glitch/the-book-of-secret-knowledge (216K stars)
-- jvanleur2234-glitch/ai-course-agent
-- jvanleur2234-glitch/opensre
+## Code Created / Modified
+- `solomon-vault/raw/THUNDERBOLT_SOLOMON_MAPPING.md` — created
+- `MegaPlan/HERMES_CAPABILITIES.md` — deduplicated (7K→528 lines), Selfsync added
 
-## New Agents Created
-- AIQ Scout — hourly autonomous research agent (scheduled)
+---
 
-## Problems Solved
-- GitHub rate limiting — spread forks across multiple sessions
-- Git index.lock blocking — cleared locks
-- NVIDIA API endpoint changed — updated to build.nvidia.com
-- Hermes NVIDIA config confirmed working
+## Unresolved Issues
+- File duplication bug — appears to be from `edit_file_llm` tool adding content without checking for existing entries. Need to add dedup logic to future edits.
+- GitHub sync (`bash .agent/sync-to-github.sh`) failing silently — needs investigation
 
-## Security Notes
-- TELEGRAM_BOT_TOKEN: NOT in any workspace file
-- Zo secrets (NVIDIA_API_KEY, ZO_CLIENT_IDENTITY_TOKEN): working fine
-- Snyk Agent Scan added to scan our own agents for prompt injection vulnerabilities
+---
 
-## Unresolved Issues / Follow-up
-- SuperSpider enterprise data collection — needs evaluation for compliance
-- AIQ Scout needs monitoring for first few runs
-- ZSWatch hardware fork — not started (no hardware team yet)
-- OpenSRE observability — needs integration planning
+## Follow-up Needed
+- Build Solomon Browser extension prototype (Option A)
+- Spin up Selfsync Docker container for testing
+- Investigate GitHub sync failure
+- Continue mapping Thunderbolt → Solomon OS integration points
 
-## Stack
-- GitHub (jvanleur2234-glitch org)
-- NVIDIA NIM (build.nvidia.com — 500 credits/mo free)
-- Hermes Agent + Russell Tuna
-- AIQ Scout (hourly scheduled agent)
-- X Search + web_search
+---
+
+*Last updated: 2026-04-19*
