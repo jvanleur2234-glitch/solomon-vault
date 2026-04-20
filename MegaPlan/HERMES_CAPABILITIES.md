@@ -756,3 +756,4 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **What:** 65% token reduction for Claude Code / any LLM. Compressed context windows.
 - **Use for:** Cost savings on API calls. Hermes reasoning uses 65% fewer tokens.
 - **Status:** SKILL ✅
+- **accomplish** — Desktop AI coworker (10.6K stars, MIT). Study daemon architecture for Solomon Bus. Cloned to /home/workspace/accomplish/
