@@ -738,3 +738,21 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **viseron** — Self-hosted NVR with AI CV. Object detection, face recognition, YOLO. Privacy-first Solomon Ring doorbell/camera system. Hardware: Raspberry Pi + Coral USB.
 - **reticulum-phantom** — P2P encrypted file sharing via Reticulum network. No central servers. For Solomon Air privacy-first file transfer between agents.
 - **mrholmes** — OSINT tool for lead research. Username/email/phone/domain search across 50+ sites. For JackConnect lead-gen — automated contact discovery.
+
+## podcast-artifact
+- **Type:** SKILL
+- **What:** YouTube podcast to structured LLM knowledge artifact. Transcribe, extract insights, format as markdown.
+- **Use for:** Solomon OS knowledge base. Feed podcasts into brain as structured entries.
+- **Status:** SKILL ✅
+
+## hyperframes
+- **Type:** SKILL  
+- **What:** HTML-to-video pipeline. AI frame extraction + narration from any web page.
+- **Use for:** Content marketing. Turn JackConnect case studies into YouTube videos.
+- **Status:** SKILL ✅
+
+## caveman
+- **Type:** SKILL
+- **What:** 65% token reduction for Claude Code / any LLM. Compressed context windows.
+- **Use for:** Cost savings on API calls. Hermes reasoning uses 65% fewer tokens.
+- **Status:** SKILL ✅
