@@ -1,0 +1,73 @@
+{
+  "agent": "lead-scout",
+  "company": "SoloSEO",
+  "top_leads": [
+    {
+      "rank": 1,
+      "name": "Valley Heating & Cooling",
+      "url": "https://valleyhvac.com",
+      "type": "hvac contractor",
+      "location": "Local",
+      "score": 75,
+      "signals": [
+        "No Google Business",
+        "Local service - high intent",
+        "Regional name - outdated SEO likely"
+      ],
+      "outreach_email": "COLD EMAIL \u2014 Valley Heating & Cooling\n=====================================\n\nSubject: Quick SEO opportunity I found for Valley H&C\n\nHi,\n\nI noticed your website while researching local HVAC companies. \nMost businesses in the heating/cooling space have outdated SEO \u2014 \nwhich actually means there's an easy opportunity to stand out.\n\nI run SoloSEO, a focused SEO audit service. We help local contractors\nlike Valley H&C get found by homeowners searching \"furnace repair near me\"\nand \"AC service [city]\" \u2014 the searches that actually convert to service calls.\n\nI have a quick 10-minute audit of your website ready. \nNo commitment, no sales pitch \u2014 just what I found.\n\nWant to see it?\n\n\u2014 Joseph\nSoloSEO",
+      "status": "outreach_ready"
+    },
+    {
+      "rank": 2,
+      "name": "Sunrise Landscaping",
+      "url": "https://sunriselandscape.com",
+      "type": "landscaping",
+      "location": "Local",
+      "score": 75,
+      "signals": [
+        "No Google Business",
+        "Local service - high intent",
+        "Regional name - outdated SEO likely"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Cedar Springs Dental",
+      "url": "https://cedarspringsdental.com",
+      "type": "dental",
+      "location": "Local",
+      "score": 75,
+      "signals": [
+        "No Google Business",
+        "Local service - high intent",
+        "Regional name - outdated SEO likely"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Main Street Coffee",
+      "url": "https://mainstreetcoffeeco.com",
+      "type": "coffee shop",
+      "location": "Local",
+      "score": 75,
+      "signals": [
+        "No Google Business",
+        "Local service - high intent",
+        "Regional name - outdated SEO likely"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Riverside Auto Repair",
+      "url": "https://riversideautorepair.com",
+      "type": "auto repair",
+      "location": "Local",
+      "score": 75,
+      "signals": [
+        "No Google Business",
+        "Local service - high intent",
+        "Regional name - outdated SEO likely"
+      ]
+    }
+  ]
+}
