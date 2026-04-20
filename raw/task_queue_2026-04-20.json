@@ -1,0 +1,388 @@
+{
+  "tasks": [
+    {
+      "id": "coord_test_1",
+      "name": "Zo1\u2192Zo2 Coordination Test",
+      "type": "coordination",
+      "priority": "high",
+      "status": "completed",
+      "assignedTo": "zo2",
+      "addedAt": "2026-04-14T15:40:00Z",
+      "notes": "Spec written at brain/COORDINATION_TEST.md. GitHub commit 8ff9ef3."
+    },
+    {
+      "id": "glass_rd_001",
+      "name": "Glass by Pickle \u2014 RD Analysis",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-15T12:05:00Z",
+      "notes": "Recommendation: SKIP. Desktop app, overlaps with Screenpipe. See RD_REPORT glass-digital-mind-extension.md"
+    },
+    {
+      "id": "open-lovable_rd_001",
+      "name": "Open Lovable \u2014 RD Analysis",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-15T14:50:00Z",
+      "notes": "Recommendation: SKILL. 25k stars, MIT. Firecrawl team. Clone any site to React in minutes. See RD_REPORT open-lovable.md"
+    },
+    {
+      "id": "open-generative-ai_rd_001",
+      "name": "Open-Generative-AI \u2014 RD Analysis",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-15T15:50:00Z",
+      "notes": "Recommendation: INTEGRATE. 4.8k stars, MIT. 200+ AI models via Muapi API. Complementary to MoneyPrinterTurbo. Needs API key + cost analysis. See RD_REPORT open-generative-ai.md"
+    },
+    {
+      "id": "parlor-jackconnect-1776268686",
+      "name": "Integrate Parlor into Jack Connect / Screenpipe stack",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "completed",
+      "addedAt": "2026-04-15T15:55:00Z",
+      "notes": "Integration spec written at brain/PARLOR_JACKCONNECT_INTEGRATION.md. GitHub commit 8ff9ef3."
+    },
+    {
+      "id": "bonsai-webgpu-001",
+      "name": "Bonsai 1.7B \u2014 Browser-Native 1-bit LLM + Sovereign Distributed AI Integration",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-16T03:22:00Z",
+      "notes": "RD_REPORT: bonsai-1bit-llm.md. Apache 2.0, WebGPU browser demo, 290MB. FORGE with priority \u2014 browser = node solves compute layer problem. Combine with Ratspeak + Reticulum for sovereign distributed AI network. Crypto key = node identity + compute credits. Reticulum = trust/identity layer, Airlines Plan/WebGPU = compute layer."
+    },
+    {
+      "id": "clearwing-lazarus-ai-001",
+      "name": "Clearwing \u2014 Autonomous Vulnerability Scanner + Source-Code Hunter",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-17T12:10:00Z",
+      "notes": "RD_REPORT: clearwing-lazarus-ai.md. 214 stars, MIT. LangGraph-based dual-mode: network pentest (63 tools) + source-code hunter with auto-patch. SKILL \u2014 add as security tier to AI staffing agency. Next: run clearwing doctor + test on small repo."
+    },
+    {
+      "id": "pashov-skills-001",
+      "name": "pashov/skills \u2014 Solidity Multi-Agent Audit Framework",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-17T12:10:00Z",
+      "notes": "RD_REPORT: pashov-skills.md. 610 stars, MIT. 8 specialized Solidity audit agents + FP gate validation. SKILL \u2014 study architecture for Solomon OS agent design; fork for Web3 audit service offering in AI staffing agency."
+    },
+    {
+      "id": "autogenesis-sepl-001",
+      "name": "Autogenesis SEPL Loop \u2014 Build into Solomon Bus",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-18T04:40:00Z",
+      "notes": "RD_REPORT: autogenesis-2604.15034.md. CRITICAL. SEPL = Reflect\u2192Select\u2192Improve\u2192Evaluate\u2192Commit closed-loop. Turns Russell Tuna from reactive chatbot \u2192 self-improving worker. Priority task per Joseph on Telegram."
+    },
+    {
+      "id": "gnhf-iter-001",
+      "name": "gn hf Iteration Engine \u2014 Graft onto Solomon Bus",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T04:40:00Z",
+      "notes": "RD_REPORT: gnhf.md. SKILL. gn hf nightly iteration pattern (commit on success/rollback on failure/notes.md across iterations) maps onto Solomon Bus overnight worker. Graft gn hf iteration engine as Solomon OS overnight loop."
+    },
+    {
+      "id": "planning-with-files-001",
+      "name": "planning-with-files \u2014 Integrate Manus-Style 3-File Planning into Solomon OS",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-18T04:46:00Z",
+      "notes": "RD_REPORT: planning-with-files.md. INTEGRATE. 3-file pattern (task_plan.md/findings.md/progress.md) + PreToolUse/PostToolUse/Stop hooks. Adopt for complex Russell Tuna multi-step tasks. Clone to /home/workspace/Skills/planning-with-files/."
+    },
+    {
+      "id": "repolens-001",
+      "name": "RepoLens \u2014 Multi-Lens Code Audit Tool",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T13:30:00Z",
+      "notes": "RD_REPORT: repolens.md. 146 stars, Apache 2.0. 280 AI agents across 27 domains for code review, security, DevOps. Test against Solomon OS codebase with --dry-run first. Could become centerpiece of AI staffing agency offering."
+    },
+    {
+      "id": "paperless-ngx-001",
+      "name": "Paperless-ngx \u2014 Document Management System",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-18T13:30:00Z",
+      "notes": "RD_REPORT: paperless-ngx.md. 38.2k stars, GPL-3.0. Django+Angular document management with Tesseract OCR. WORTHWHILE \u2014 deploy on Zo server via Docker for internal ops. Hook into Solomon Bus for auto-tagging. Could be bundled service for AI staffing clients."
+    },
+    {
+      "id": "agency-agents-001",
+      "name": "Agency Agents \u2014 Integrate 147 AI Personas into Solomon OS",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-18T17:30:00Z",
+      "notes": "RD_REPORT: agency-agents.md. 810K stars, MIT. Clone top 20 roles to /home/workspace/agency-agents/. Add to Hermes skills registry. Map to AI staffing agency service offerings."
+    },
+    {
+      "id": "consulting-ai-brain-001",
+      "name": "Consulting AI Brain \u2014 Package as Solomon OS Service",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-18T17:30:00Z",
+      "notes": "RD_REPORT: consulting-ai-brain.md. 3-layer AI brain system for consulting firms. Position as high-ticket service offering when Second Brain Portal goes public. Competitors: StarlingAI, Auctor."
+    },
+    {
+      "id": "ralph-001",
+      "name": "Ralph \u2014 Autonomous AI Agent Loop",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-18T22:05:00Z",
+      "notes": "RD_REPORT: ralph.md. SKILL. Fresh-context iteration pattern for Russell Tuna/Solomon Bus. PRD \u2192 user stories \u2192 loop \u2192 progress.txt. Adapt Ralph's loop concept into Solomon Bus / Russell Tuna workflow."
+    },
+    {
+      "id": "hermes-atlas-001",
+      "name": "Hermes Atlas \u2014 Ecosystem Directory",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-19T22:30:00Z",
+      "notes": "RD_REPORT: hermes-atlas.md. 152K stars, +46.8K this week. Ecosystem map for Hermes Agent \u2014 93 repos across 12 categories. WORTHWHILE \u2014 use for discovery when building Solomon OS features. Check monthly for new self-improvement, security, multi-agent entries."
+    },
+    {
+      "id": "viseron-ring-001",
+      "name": "Viseron \u2014 Self-Hosted NVR for Solomon Ring Doorbell/Camera System",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-19T23:10:00Z",
+      "notes": "2.8k stars, MIT. Python, local-only NVR with AI CV (object detection, face recognition, motion, YOLO, TensorFlow, Google Coral, EdgeTPU). No cloud. Perfect for Solomon Ring \u2014 privacy-first security camera system that competitors can't hack. Hardware: Raspberry Pi + Coral USB + IP cameras."
+    },
+    {
+      "id": "gmapsxploit-001",
+      "name": "GmapsXploit \u2014 Google API Key Auditor",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-19T23:30:00Z",
+      "notes": "RD_REPORT: gmapsxploit.md. ~400 stars, MIT. Bash script auditing 30+ Google Cloud endpoints for API key exposures. SKILL \u2014 integrate billing impact methodology into Solomon Guardian API scanning module. Clone to /home/workspace/Skills/gmapsxploit/."
+    },
+    {
+      "id": "gbrain-v013-001",
+      "name": "GBrain v0.13 \u2014 Garry Tan Self-Wiring Knowledge Brain",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "completed",
+      "addedAt": "2026-04-19T23:50:00Z",
+      "notes": "INTEGRATE. Self-wiring knowledge graph with typed relationships + YAML frontmatter + compiled truth + timeline. Cloned to /home/workspace/agency-agents/gbrain/. Direct overlap with Solomon OS brain architecture. See RD_REPORT gbrain-v013.md."
+    },
+    {
+      "id": "hermes-agent-rd-001",
+      "name": "Hermes Agent by Nous Research \u2014 RD Analysis",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "completed",
+      "addedAt": "2026-04-19T23:50:00Z",
+      "notes": "Recommendation: FORGE. Integrate skills architecture + messaging gateway into Solomon OS. See RD_REPORT: hermes-agent-nous-research.md"
+    },
+    {
+      "id": "podcast-artifact-001",
+      "name": "Podcast Artifact \u2014 YouTube \u2192 LLM Knowledge Artifact Pipeline",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:05:00Z",
+      "notes": "SKILL. Build Hermes skill: YouTube URL \u2192 transcript (yt-dlp + Whisper) \u2192 artifact (minimax/Opus) \u2192 save to brain/RD_REPORTS/. See RD_REPORT podcast-llm-artifact.md"
+    },
+    {
+      "id": "plain-app-001",
+      "name": "PlainApp \u2014 Android Phone Hub as Solomon Air Mobile Layer",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:08:00Z",
+      "notes": "INTEGRATE. 4.1k stars AGPL-3.0. Android web dashboard for SMS/calls/files/contacts. Fork as phone layer for Solomon Air. Android reference for Be Like You! OS. Fits JackConnect."
+    },
+    {
+      "id": "your-everyday-tools-001",
+      "name": "Your Everyday Tools \u2014 57 Self-Hosted Utilities",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:15:00Z",
+      "notes": "SKILL. 161 stars, AGPL-3.0. Python+Flask bundle of 57 utilities (PDF, spreadsheets, OCR, image tools, calculators, QR, security). Self-hosted, no JS frameworks. Pre-install batch fits Solomon OS / JCPaid default stack. Clone to /home/workspace/Skills/your-everyday-tools/."
+    },
+    {
+      "id": "ml-master-hcc-001",
+      "name": "ML-Master 2.0 + Hierarchical Cognitive Caching \u2014 Long-Horizon Agent Architecture",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:14:00Z",
+      "notes": "INTEGRATE. 3-tier memory (short/medium/long) validates Solomon OS self-improvement loop. Short-term cache = missing piece. Paper: arxiv.org/abs/2601.10402. 56.44% medal rate on MLE-Bench 24h run."
+    },
+    {
+      "id": "plain-app-001",
+      "name": "PlainApp \u2014 Android Phone Hub as Solomon Air Mobile Layer",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:08:00Z",
+      "notes": "INTEGRATE. 4.1k stars AGPL-3.0. Android web dashboard for SMS/calls/files/contacts. Fork as phone layer for Solomon Air. Android reference for Be Like You! OS. Fits JackConnect."
+    },
+    {
+      "id": "zeroshot-001",
+      "name": "covibes/zeroshot \u2014 CLI Autonomous Engineering Team",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "completed",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "SKILL. GitHub issue in, production code out. Autonomous research/plan/code/test loop. Fits Solomon Bus job queue. See RD_REPORT zeroshot.md",
+      "completedAt": "2026-04-20T16:33:54.314965Z"
+    },
+    {
+      "id": "oh-my-agent-001",
+      "name": "first-fluke/oh-my-agent \u2014 Portable Multi-Agent Harness",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "completed",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "SKILL. Frontend/backend/architecture/QA/PM agents in parallel. Maps to Russell Tuna /fork pattern. See RD_REPORT oh-my-agent.md",
+      "completedAt": "2026-04-20T16:33:54.314985Z"
+    },
+    {
+      "id": "wshobson-agents-001",
+      "name": "wshobson/agents \u2014 Production Claude Code Multi-Agent System",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "SKILL. 184 agents, 16 workflows, 150+ skills. Study for Solomon OS multi-agent orchestration. See RD_REPORT wshobson-agents.md"
+    },
+    {
+      "id": "hyperframes-001",
+      "name": "heygen-com/hyperframes \u2014 HTML-to-Video for AI Agents",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "INTEGRATE. AI agents generate video from HTML. Complements podcast-artifact pipeline (hyperframes instead of Chart.js). See RD_REPORT hyperframes.md"
+    },
+    {
+      "id": "caveman-001",
+      "name": "JuliusBrussee/caveman \u2014 65% Token Reduction for Claude Code",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "SKILL. Primitive language style cuts token cost 65%. Apply to Russell Tuna for cheaper local inference. See RD_REPORT caveman.md"
+    },
+    {
+      "id": "crewai-001",
+      "name": "crewAI/crewAI \u2014 Enterprise Multi-Agent Orchestration",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "INTEGRATE. Leading multi-agent framework, role definition, task delegation, async\u534f\u4f5c, memory. Already 20K+ stars trending. See RD_REPORT crewai.md"
+    },
+    {
+      "id": "passmark-001",
+      "name": "Passmark \u2014 AI Playwright Regression Testing Library",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:23:00Z",
+      "notes": "INTEGRATE. 374 stars, FSL-1.1-Apache-2.0. AI + Playwright regression testing with Redis step caching, multi-model consensus assertions, auto-healing. Key patterns for Solomon Browser: Redis caching architecture + Claude/Gemini dual-model verification. Not copying code (FSL license) \u2014 adopt architecture patterns. Clone to /home/workspace/Skills/passmark/ for pattern study."
+    },
+    {
+      "id": "open-webui-001",
+      "name": "Open WebUI \u2014 Self-Hosted AI Chat Interface",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "completed",
+      "addedAt": "2026-04-20T01:24:00Z",
+      "notes": "SKILL/PRIORITY. 28K stars, MIT. Self-hosted AI chat UI with Ollama built-in. Clone to /home/workspace/Skills/open-webui/. Integrate with Russell Tuna as web frontend.",
+      "completedAt": "2026-04-20T16:33:54.314990Z"
+    },
+    {
+      "id": "hexsect-001",
+      "name": "HexSect Team \u2014 Offensive Security Tools (Clematis_GUI, WormGPT, HexSecGPT)",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:25:00Z",
+      "notes": "SKIP for JCPaid. Too niche for real estate clients. FOLLOW for Solomon Guardian \u2014 binary analysis patterns. HexPig static analysis pipeline maps to OWASP LLM Top 10 detection. WormGPT (232 stars) = CLI for LLMs with OpenRouter. HexSecGPT (248 stars) = chatbot. 25 repos, AGPL-3.0. Follow hexsect for security research patterns."
+    },
+    {
+      "id": "agentarmor-001",
+      "name": "AgentArmor Studio \u2014 8-Layer Security for AI Agents",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:30:45+00:00",
+      "notes": "SKILL. Fork + integrate 8-layer security pipeline into Solomon Guardian. agentarmor-core already on PyPI. Maps L1-L8 directly to Guardian architecture."
+    },
+    {
+      "id": "meilisearch-001",
+      "name": "Meilisearch \u2014 AI Hybrid Search Engine",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-20T01:47:00Z",
+      "notes": "INTEGRATE. 57.2K stars, MIT. Rust search engine with hybrid vector+keyword search. Perfect for Solomon OS knowledge base, JackConnect client search, and Second Brain Portal. Docker one-command install. Priority: replace Elasticsearch as the search layer for Solomon OS."
+    },
+    {
+      "id": "soc2-001",
+      "name": "SOC 2 Type II Compliance \u2014 Enterprise Banking Gate",
+      "type": "security",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:47Z",
+      "notes": "Gap assessment + policy writing + audit trail implementation + 3-6 month data collection before Type II audit. Opens banking/finance vertical. Budget: 30-80K/year for CPA/CISA audit."
+    },
+    {
+      "id": "atlas-os-001",
+      "name": "Atlas OS \u2014 Windows Playbook Architecture",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-20T02:11:00Z",
+      "notes": "Playbook architecture spec written at brain/ATLAS_OS_PLAYBOOK_ARCHITECTURE.md. GitHub commit 8ff9ef3."
+    },
+    {
+      "id": "reticulum-phantom-001",
+      "name": "Reticulum Phantom \u2014 P2P Encrypted File Sharing for Solomon Air",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T04:24:00Z",
+      "notes": "SKILL. 50 stars, MIT, Python. P2P file sharing over Reticulum mesh. .ghost files = torrent equivalent. Perfect for Solomon Air privacy-first file sharing. Fits Be Like You! OS offline mesh. Clone to /home/workspace/Skills/phantom/"
+    },
+    {
+      "id": "mrholmes-osint-001",
+      "name": "Mr.Holmes \u2014 OSINT Tool for Lead Research",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T17:30:00Z",
+      "notes": "Recommendation: SKILL. 3.3K stars, GPL-3.0. OSINT tool for domain/username/phone lookup. Use for JackConnect lead research - find decision-maker info before cold outreach. Clone to Skills/mrholmes/. INSTALL: git clone + pip install -r requirements.txt + python3 MrHolmes.py"
+    },
+    {
+      "id": "awesome-selfhosted-001",
+      "name": "awesome-selfhosted \u2014 Curated Self-Hosted Software Directory",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T17:30:00Z",
+      "notes": "SKIP (287K stars, 50+ categories, MIT/Apache. DIRECTORY not implementation. Use as curation source for JCPaid pre-install stack. Fork for JackConnect service marketplace."
+    }
+  ],
+  "lastUpdated": "2026-04-20T17:30:00Z",
+  "sessionSummary": "Tasks 1, 2, 4 completed: coordination test spec, Parlor\u2192JackConnect integration spec, Atlas playbook architecture. GitHub 8ff9ef3."
+}
