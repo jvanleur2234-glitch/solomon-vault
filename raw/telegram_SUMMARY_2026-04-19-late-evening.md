@@ -46,11 +46,11 @@
 ---
 
 ## Code Created / Modified
-- `/home/workspace/Skills/clicky/` — full skill created from scratch
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/` — 4 new RD reports (ml-master-hcc, github-trending-agents-april18, bc250-mining-board, chrome-v8-security)
-- `/home/workspace/MegaPlan/HERMES_CAPABILITIES.md` — Clicky entry added
-- `/home/workspace/zo.space-tasks/task_queue.json` — 8 new tasks added, now at 34 total
-- `/home/workspace/.agent/sync-to-github.sh` — updated to push dual repos
+- `brain/PROBABILITY_ASSESSMENT.md` — JCPaid full probability + honest timeline analysis
+- `brain/Atlas_OS_Bundle_Strategy.md` — Atlas OS bundle co-marketing plan
+- `zo.space/jackconnect/portal` — Client job submission portal (live)
+- `zo.space/jackconnect/worker` — Russell Tuna worker dashboard (live)
+- `zo.space/api/jackconnect/submit-job` — Job queue API with Stripe invoicing
 
 ---
 
