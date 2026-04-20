@@ -734,3 +734,7 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **Use for:** JCPaid pre-install batch, service matching, competitive analysis
 - **Maps to our services:** SEO Audit, Lead Gen, Cold Email, CMA Report, Market Report, Social Content
 - **LINK fit:** ★★★★☆ — #pre-install-batch #service-matching #business-ideas
+
+- **viseron** — Self-hosted NVR with AI CV. Object detection, face recognition, YOLO. Privacy-first Solomon Ring doorbell/camera system. Hardware: Raspberry Pi + Coral USB.
+- **reticulum-phantom** — P2P encrypted file sharing via Reticulum network. No central servers. For Solomon Air privacy-first file transfer between agents.
+- **mrholmes** — OSINT tool for lead research. Username/email/phone/domain search across 50+ sites. For JackConnect lead-gen — automated contact discovery.
