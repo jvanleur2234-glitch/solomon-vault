@@ -124,3 +124,9 @@
 - **What it does:** P2P GPU pooling via QUIC. Credit economy, Sensitive Data Guard, private networks, OpenAI-compatible API, iOS app.
 - **For research:** AgentFM direct competitor. Credit economy + privacy safeguards architecture study.
 - **Status:** Forked (already existed) ✅
+
+## Aragora — Multi-Model Deliberation Control Plane (April 20, 2026)
+- **Repo:** synaptent/aragora — MIT
+- **What it does:** Auditable multi-model decision control plane with structured debate, receipts, provenance, and review gates. Default-deny sandboxed effectors.
+- **For Solomon OS:** Governance layer for Hermes multi-agent deliberations. Audit trails on every agent decision. Verifiable bounded execution.
+- **Status:** Forked to jvanleur2234-glitch/aragora ✅
