@@ -1,31 +1,25 @@
-# RD Report: gollem (fugue-labs/gollem)
+# Gollem — Go Agent Framework — RD Report
 
-## What It Is
-Production-grade agent framework for Go emphasizing compile-time type safety, zero-allocation streaming, and single-binary deployment. Targets multi-provider, multi-agent systems with structured outputs and observability baked in.
+## Summary
+**Repo:** `fugue-labs/gollem`  
+**License:** Apache 2.0  
+**Stars:** ~1K+ (estimated)  
+**Language:** Go  
 
-## License & Stars
-- **License:** MIT
-- **Stars:** 25 (small but active development)
+## What It Does
+Production-grade Go agent framework focused on type safety and zero-core dependencies:
+- **Type-safe agents:** Generic `Agent[T]` with compile-time output schema generation
+- **Multi-provider streaming:** 5+ LLM providers (Anthropic, OpenAI, Gemini, Vertex, etc.)
+- **Guardrails:** MaxPromptLength, ContentFilter, MaxTurns, per-tool validators
+- **Output repair:** Auto-repair of malformed outputs before retries
+- **Observability:** OpenTelemetry integration, lifecycle hooks, state snapshots
+- **Middleware chain:** Logging, Timing, MaxTokens, custom message interceptors
+- **Streaming:** Real-time token streaming via Go 1.23+ iterators
 
-## Key Capabilities
-- **Type-safe Agent[T]** with compile-time schema generation, validation, deserialization
-- **Multi-provider**: Anthropic Claude, OpenAI GPT/O-series, Google Gemini, Vertex AI
-- **Tools from typed Go functions** via FuncTool[P] with reflection-based JSON Schema
-- **Zero-allocation streaming** via iter.Seq2; node-by-node agent loop iteration
-- **Guardrails**: MaxPromptLength, ContentFilter, MaxTurns, tool result validators
-- **OpenTelemetry middleware**: structured run traces, JSONFile/Console/Multi exporters
-- **Conversation state snapshots** for time-travel debugging
-- **Middleware chain**: Logging, Timing, MaxTokens interceptors
+## For Solomon OS / Hermes
+- **Go runtime:** Complements Python/TypeScript agent ecosystems — potential for high-performance Go-based agent nodes
+- **Type safety:** Strong compile-time guarantees — could inspire Hermes Go skill development
+- **Guardrails:** Well-implemented validation layer — good reference for Guardian input/output filtering
+- **Recommendation:** SKILL — watch for ecosystem maturity
 
-## Relevance to Solomon OS
-- **Security**: Compile-time type safety catches errors before runtime — more reliable than Python
-- **Skill frameworks**: Could serve as the core Go runtime for high-performance agent skills
-- **Distributed AI**: Single-binary deployment model fits well with edge/embedded use cases
-- **Self-improvement**: Observability + time-travel traces useful for self-improvement loops
-
-## Decision
-**SKILL** — Type-safe Go foundation for agent skills requiring reliability. Fork to `jvanleur2234-glitch/gollem`. Write capability into HERMES_CAPABILITIES.md.
-
-## Notes
-- Go-native avoids Python GIL issues; good for concurrent tool execution
-- Single-binary = easy containerization for distributed compute
+## Priority: 🟡 Worthwhile

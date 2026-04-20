@@ -1,4 +1,4 @@
-# HERMES CAPABILITIES — Updated 2026-04-19
+# HERMES CAPABILITIES — Updated 2026-04-20
 
 ## Skill Frameworks
 - ** NousResearch/hermes-agent** — Core agent framework ( NousResearch/hermes-agent) — Full AI agent with skills ecosystem, MCP support, multi-platform gateway
@@ -14,6 +14,7 @@
 - ** henomis/phero** — Apache 2.0, Go-based multi-agent framework with RAG, MCP, streaming, observability
 - ** alphora-ai/alphora** — Full-stack Python agent framework with sandboxing, typed streaming, skills ecosystem
 - ** solace-labs/solace-agent-mesh** — Event-driven multi-agent mesh via Solace Event Mesh, Apache 2.0
+- **fugue-labs/gollem** — Apache 2.0, Go-first type-safe agent framework with compile-time guarantees, multi-provider streaming, guardrails, OpenTelemetry observability
 
 ## Browser Automation (ClawLess Competitors)
 - ** vercel-labs/agent-browser** — MIT, native Rust CLI for AI agent browser automation
@@ -67,6 +68,7 @@
 - ** matiasdaloia/concilium** — MIT, CLI/Electron multi-LLM deliberation: parallel execution → blind peer review → synthesis
 - ** kyleparrot/deliberate** — MIT, experimental bash+JSONL multi-agent deliberation protocol for local machines
 - ** dnhess/spectra** — MIT, multi-agent deliberation framework for Claude Code with blackboard architecture
+- **bassrehab/artemis-agents** — Apache 2.0, structured N-agent debate framework with H-L-DAG argumentation, causal reasoning, jury scoring, sandbagging detection, MCP server mode
 
 ## Skill Index / ASM
 - ** skill-framework/skill-index-updater** — ASM skill index management for GitHub skill repos
@@ -80,7 +82,7 @@
 - ** raymin0223/mixture_of_recursions** — Mixture-of-Recursions: adaptive per-token recursion depth (NeurIPS 2025)
 
 ---
-*Last updated: 2026-04-19 22:30 UTC — AIQ Scout Session*
+*Last updated: 2026-04-20 16:30 UTC — AIQ Scout Hourly Session*
 ## microsoft/agent-framework — Graph-Based Agent Orchestration (April 20, 2026)
 - **Repo:** microsoft/agent-framework — MIT (~9k stars)
 - **What it does:** Cross-language (Python/.NET) agent framework with graph-based workflows, streaming, checkpointing, human-in-the-loop, time-travel debugging.
