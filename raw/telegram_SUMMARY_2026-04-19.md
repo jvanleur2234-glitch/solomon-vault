@@ -1,71 +1,59 @@
-# Telegram Session Summary — April 19, 2026
+# Telegram Session Summary — 2026-04-19
 
-**Date:** Sat Apr 19, 2025 (evening session via Telegram DM)
-**Key Participants:** Joseph Vanleur, Zo Computer, Russell Tuna
+## Session: AIQ Scout Hourly Research Run
 
----
+### Date/Time
+- 2026-04-19 ~20:35 UTC
 
-## What Happened
+### Research Conducted
 
-### 1. Selfsync (GitHub: loyalpartner/selfsync) — QUEUED + ANALYZED
-- **URL:** https://x.com/QingQ77/status/2045731617986035761
-- **149 stars, Rust, GPL-3.0, active today**
-- Selfsync = self-hosted Chrome Sync server. Chrome's native `--sync-url` flag points to your own SQLite. Bookmarks, passwords, preferences never touch Google.
-- **Two paths for Solomon Browser:**
-  - Option A (faster): Chrome extension + Selfsync. Ship fast.
-  - Option B (full custom): Chromium source fork. More powerful, longer build.
-- **Recommendation:** INTEGRATE (🟡 Worthwhile — strong fit for privacy-first philosophy)
-- **Action:** Added to HERMES_CAPABILITIES.md after CloudBrowser section. Cleaned file of massive duplication bug (7K lines → 528 lines).
+#### GitHub Searches (8 categories)
+1. **Agent Framework 2026** — Found: microsoft/agent-framework (Python/.NET, graph-based), gollem (Go type-safe), dapr-agents, alphora, phero, agentlib, solace-agent-mesh
+2. **Self-Improving AI Agent** — Found: MaximeRobeyns/self_improving_coding_agent, ikorfale/agent-self-improvement, xmaks82/self-improving-agent, xm-ninja, RangeKing/self-evolving-agent
+3. **Hermes MCP Skills** — Found: NousResearch/hermes-agent (MCP client capabilities), cloudwalk/hermes-mcp (Elixir SDK), poetryprotocol/hermes-mcp
+4. **Distributed AI Compute P2P** — Found: AgentFM/agentfm-core, hyperspaceai/agi, hyperspaceai/hyperspace-node, mycellm, peerclaw, aria-protocol
+5. **AI Security Scanner Agent** — Found: sinewaveai/agent-security-scanner-mcp, medusa (9600+ patterns), snyk/agent-scan, guard-scanner (364 patterns)
+6. **Browser Automation AI Agent** — Found: browser-use, vercel-labs/agent-browser (Rust CLI), mozilla/pilo, browserable, copilotbrowser, vibium, Koda
+7. **Multi-Agent Deliberation** — Found: slior/dialectic-agentic, synaptent/aragora, BayramAnnakov/agent-tower-plugin, dnhess/spectra, council, Quorum
+8. **Recurrent Transformer MoE** — Found: MedITSolutionsKurman/medit-one (recurrent + MoE), lucidrains/st-moe-pytorch, raymin0223/mixture_of_recursions
 
-### 2. Hermes Agent by Nous Research — X Buzz
-- **X post:** https://x.com/RoundtableSpace/status/2045846623901586035761
-- Nous Research open-sourced Hermes Agent (trading AI, deploys in 30 min on $5 VPS)
-- 74K views, 357 likes, trending
-- Hermes Agent ≠ Solomon's Hermes (different project, same name — coincidence)
-- Hermes Protocol by Oasis Foundation is the blockchain version (different again)
-- **Context:** Our Hermes is the agent brain for Solomon OS. Nous Research's Hermes Agent is a trading/finance AI. Both are open source, both are legitimate, but they're different tools built by different teams.
+#### X/Twitter Searches (4 topics)
+- **Solomon OS OR Hermes agent** — Active Hermes ecosystem growth, NVIDIA MiniMax-M2.7 integration, community extensions (camel, alpha, dojo)
+- **Self-improving AI defense** — Self-healing prompts, self-evaluation defenses, layered runtime defenses
+- **AI agent security vulnerability 2026** — OpenClaw CVE-2026-33579 (admin escalation 8.1-9.8), Agentic Vulnerability Enumeration (AVE) standard, AI finding 27-year-old OpenBSD vuln
+- **Distributed AI compute grid** — Sentient GRID (orchestration layer), NexusLabs physical AI grid
 
-### 3. File Cleanup — HERMES_CAPABILITIES.md
-- File had massive duplication bug — 7,018 lines with 929 copies of the same sentences
-- Root cause: Repeated append operations on the file without deduplication
-- Cleaned to 528 genuine lines
-- Selfsync entry added cleanly
+### Repos Evaluated & Forked
 
-### 4. Thunderbolt Architecture Mapping (created)
-- **File:** `/home/workspace/solomon-vault/raw/THUNDERBOLT_SOLOMON_MAPPING.md`
-- Maps Mozilla's Thunderbolt (open-source AI client) to Solomon OS architecture
-- Thunderbolt = desktop/mobile shell, Solomon OS = embedded intelligence layer
-- vphone-cli integration for free VoIP calls maps to Solomon Air
-- Tauri mobile targets = path to Be Like You! OS mobile
+| Repo | License | Stars | Decision |
+|------|---------|-------|----------|
+| koatora20/guard-scanner | MIT | ~2 | FORK — 364 patterns for agentic-era security |
+| unconst/ninja | NOASSERTION | — | FORK (research) — self-improvement loop architecture |
+| spmfrance-cloud/aria-protocol | MIT | — | WATCH — P2P CPU inference (AgentFM competitor) |
+| MedITSolutionsKurman/medit-one | TBD | — | FORK (research) — recurrent + MoE architecture |
 
----
+**Already had cloned:** browser-use, dapr-agents, agent-framework, agent-security-scanner-mcp, gollem, st-moe-pytorch, vibium, council, Quorum, spectra, dialectic-agentic, copilotbrowser, ninja, openclaw-self-evolving, self_improving_coding_agent
 
-## Key Decisions Made
-1. Solomon Browser strategy: Extension layer first (Option A) over full custom browser
-2. Selfsync integrated as the self-hosted sync layer for privacy-first browser
-3. File deduplication completed on HERMES_CAPABILITIES.md
-4. Thunderbolt mapped as potential desktop/mobile shell for Solomon OS
+### RD Reports Written
+1. `guard-scanner-agent-security.md` — SKILL (integrate into Hermes vetting)
+2. `ninja-self-improving-coding-agent.md` — RESEARCH only (NOASSERTION license)
+3. `aria-protocol-p2p-ai-inference.md` — WATCH (AgentFM competitor)
+4. `medit-one-recurrent-transformer-moe.md` — RESEARCH (architecture ref)
 
----
+### Key Findings
+- **Hermes ecosystem exploding**: 6-week growth with extensions (camel, alpha, dojo, skill-factory)
+- **OpenClaw CVE-2026-33579**: Admin escalation vulnerability 8.1-9.8 severity — relevant for Solomon Guardian
+- **AVE standard launched**: First Agentic Vulnerability Enumeration records (bawbel/bawbel-ave)
+- **ARIA Protocol**: CPU-only P2P AI via 1-bit models — energy efficient alternative to GPU grids
 
-## Code Created / Modified
-- `solomon-vault/raw/THUNDERBOLT_SOLOMON_MAPPING.md` — created
-- `MegaPlan/HERMES_CAPABILITIES.md` — deduplicated (7K→528 lines), Selfsync added
+### Hermes Capabilities Updated
+- Added guard-scanner, ninja, ARIA Protocol, medit-one entries to HERMES_CAPABILITIES.md
 
----
+### Follow-Up Needed
+- Confirm medit-one license before any production consideration
+- ninja is NOASSERTION — do NOT use in production, study only
+- ARIA Protocol worth watching for edge compute strategy
+- guard-scanner SOUL.md immutability checks → integrate into Hermes skill vetting
 
-## Unresolved Issues
-- File duplication bug — appears to be from `edit_file_llm` tool adding content without checking for existing entries. Need to add dedup logic to future edits.
-- GitHub sync (`bash .agent/sync-to-github.sh`) failing silently — needs investigation
-
----
-
-## Follow-up Needed
-- Build Solomon Browser extension prototype (Option A)
-- Spin up Selfsync Docker container for testing
-- Investigate GitHub sync failure
-- Continue mapping Thunderbolt → Solomon OS integration points
-
----
-
-*Last updated: 2026-04-19*
+### Sync
+- GitHub sync: `/home/workspace/.agent/sync-to-github.sh`
