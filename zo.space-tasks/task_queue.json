@@ -387,6 +387,15 @@
       "status": "completed",
       "addedAt": "2026-04-20T18:04:00Z",
       "notes": "SKILL. 10.6K stars, MIT. Daemon architecture maps to Solomon Bus. Study for JackConnect positioning. Cloned to /home/workspace/accomplish/"
+    },
+    {
+      "id": "paperclip-company-001",
+      "name": "Paperclip Company Generator \u2014 JackConnect Template Equivalent",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T18:25:00Z",
+      "notes": "SKILL. Aron Prins X post. AI skill generates fully importable company with all workflows customized. Build JackConnect equivalent \u2014 real estate company templates that generate JackConnect with client branding + workflows pre-configured. Status: SKILL. Source: https://x.com/i/status/2046269070643757221"
     }
   ],
   "lastUpdated": "2026-04-20T17:45:00Z",
