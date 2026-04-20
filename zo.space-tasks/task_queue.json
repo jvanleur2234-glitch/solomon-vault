@@ -1,6 +1,15 @@
 {
   "tasks": [
     {
+      "id": "1panel-001",
+      "name": "1Panel \u2014 VPS Control Panel with Native AI Agents",
+      "type": "rd-research",
+      "priority": "critical",
+      "status": "completed",
+      "addedAt": "2026-04-20T17:52:00Z",
+      "notes": "FORGE \u2014 CRITICAL. 35.1K stars, native Ollama + OpenClaw. Bundle with 1Panel for Atlas OS strategy. Cloned to /home/workspace/1panel/. See RD_REPORT 1panel.md."
+    },
+    {
       "id": "coord_test_1",
       "name": "Zo1\u2192Zo2 Coordination Test",
       "type": "coordination",
@@ -87,7 +96,7 @@
       "name": "gn hf Iteration Engine \u2014 Graft onto Solomon Bus",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-18T04:40:00Z",
       "notes": "RD_REPORT: gnhf.md. SKILL. gn hf nightly iteration pattern (commit on success/rollback on failure/notes.md across iterations) maps onto Solomon Bus overnight worker. Graft gn hf iteration engine as Solomon OS overnight loop."
     },
@@ -105,7 +114,7 @@
       "name": "RepoLens \u2014 Multi-Lens Code Audit Tool",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-18T13:30:00Z",
       "notes": "RD_REPORT: repolens.md. 146 stars, Apache 2.0. 280 AI agents across 27 domains for code review, security, DevOps. Test against Solomon OS codebase with --dry-run first. Could become centerpiece of AI staffing agency offering."
     },
@@ -155,15 +164,6 @@
       "notes": "RD_REPORT: hermes-atlas.md. 152K stars, +46.8K this week. Ecosystem map for Hermes Agent \u2014 93 repos across 12 categories. WORTHWHILE \u2014 use for discovery when building Solomon OS features. Check monthly for new self-improvement, security, multi-agent entries."
     },
     {
-      "id": "viseron-ring-001",
-      "name": "Viseron \u2014 Self-Hosted NVR for Solomon Ring Doorbell/Camera System",
-      "type": "rd-research",
-      "priority": "normal",
-      "status": "pending",
-      "addedAt": "2026-04-19T23:10:00Z",
-      "notes": "2.8k stars, MIT. Python, local-only NVR with AI CV (object detection, face recognition, motion, YOLO, TensorFlow, Google Coral, EdgeTPU). No cloud. Perfect for Solomon Ring \u2014 privacy-first security camera system that competitors can't hack. Hardware: Raspberry Pi + Coral USB + IP cameras."
-    },
-    {
       "id": "gmapsxploit-001",
       "name": "GmapsXploit \u2014 Google API Key Auditor",
       "type": "rd-research",
@@ -204,7 +204,7 @@
       "name": "PlainApp \u2014 Android Phone Hub as Solomon Air Mobile Layer",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T01:08:00Z",
       "notes": "INTEGRATE. 4.1k stars AGPL-3.0. Android web dashboard for SMS/calls/files/contacts. Fork as phone layer for Solomon Air. Android reference for Be Like You! OS. Fits JackConnect."
     },
@@ -213,7 +213,7 @@
       "name": "Your Everyday Tools \u2014 57 Self-Hosted Utilities",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T01:15:00Z",
       "notes": "SKILL. 161 stars, AGPL-3.0. Python+Flask bundle of 57 utilities (PDF, spreadsheets, OCR, image tools, calculators, QR, security). Self-hosted, no JS frameworks. Pre-install batch fits Solomon OS / JCPaid default stack. Clone to /home/workspace/Skills/your-everyday-tools/."
     },
@@ -231,7 +231,7 @@
       "name": "PlainApp \u2014 Android Phone Hub as Solomon Air Mobile Layer",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T01:08:00Z",
       "notes": "INTEGRATE. 4.1k stars AGPL-3.0. Android web dashboard for SMS/calls/files/contacts. Fork as phone layer for Solomon Air. Android reference for Be Like You! OS. Fits JackConnect."
     },
@@ -324,7 +324,7 @@
       "name": "AgentArmor Studio \u2014 8-Layer Security for AI Agents",
       "type": "rd-research",
       "priority": "high",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T01:30:45+00:00",
       "notes": "SKILL. Fork + integrate 8-layer security pipeline into Solomon Guardian. agentarmor-core already on PyPI. Maps L1-L8 directly to Guardian architecture."
     },
@@ -356,33 +356,30 @@
       "notes": "Playbook architecture spec written at brain/ATLAS_OS_PLAYBOOK_ARCHITECTURE.md. GitHub commit 8ff9ef3."
     },
     {
-      "id": "reticulum-phantom-001",
-      "name": "Reticulum Phantom \u2014 P2P Encrypted File Sharing for Solomon Air",
-      "type": "rd-research",
-      "priority": "normal",
-      "status": "pending",
-      "addedAt": "2026-04-20T04:24:00Z",
-      "notes": "SKILL. 50 stars, MIT, Python. P2P file sharing over Reticulum mesh. .ghost files = torrent equivalent. Perfect for Solomon Air privacy-first file sharing. Fits Be Like You! OS offline mesh. Clone to /home/workspace/Skills/phantom/"
-    },
-    {
-      "id": "mrholmes-osint-001",
-      "name": "Mr.Holmes \u2014 OSINT Tool for Lead Research",
-      "type": "rd-research",
-      "priority": "normal",
-      "status": "pending",
-      "addedAt": "2026-04-20T17:30:00Z",
-      "notes": "Recommendation: SKILL. 3.3K stars, GPL-3.0. OSINT tool for domain/username/phone lookup. Use for JackConnect lead research - find decision-maker info before cold outreach. Clone to Skills/mrholmes/. INSTALL: git clone + pip install -r requirements.txt + python3 MrHolmes.py"
-    },
-    {
       "id": "awesome-selfhosted-001",
       "name": "awesome-selfhosted \u2014 Curated Self-Hosted Software Directory",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T17:30:00Z",
       "notes": "SKIP (287K stars, 50+ categories, MIT/Apache. DIRECTORY not implementation. Use as curation source for JCPaid pre-install stack. Fork for JackConnect service marketplace."
+    },
+    {
+      "id": "coordin_test_001",
+      "name": "Zo1\u2192Zo2 Coordination Test",
+      "type": "general",
+      "priority": "normal",
+      "status": "completed"
+    },
+    {
+      "id": "supermemory-ai-001",
+      "name": "Supermemory AI \u2014 Integrate Icarus Memory Backend",
+      "type": "skill",
+      "priority": "high",
+      "status": "pending",
+      "notes": "22K stars, #1 on 3 benchmarks, Hermes plugin ready. INTEGRATE. RD: brain/RD_REPORTS/supermemory-ai.md"
     }
   ],
-  "lastUpdated": "2026-04-20T17:30:00Z",
+  "lastUpdated": "2026-04-20T17:45:00Z",
   "sessionSummary": "Tasks 1, 2, 4 completed: coordination test spec, Parlor\u2192JackConnect integration spec, Atlas playbook architecture. GitHub 8ff9ef3."
 }
