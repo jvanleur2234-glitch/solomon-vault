@@ -81,3 +81,44 @@
 
 ---
 *Last updated: 2026-04-19 22:30 UTC — AIQ Scout Session*
+## microsoft/agent-framework — Graph-Based Agent Orchestration (April 20, 2026)
+- **Repo:** microsoft/agent-framework — MIT (~9k stars)
+- **What it does:** Cross-language (Python/.NET) agent framework with graph-based workflows, streaming, checkpointing, human-in-the-loop, time-travel debugging.
+- **For Solomon OS:** Graph orchestration model → Hermes architecture study. DevUI for dev experience inspiration. Multi-language → cross-platform runtime.
+- **Status:** Forked (already existed) ✅
+
+## dapr/dapr-agents — Production-Grade Resilient Agents (April 20, 2026)
+- **Repo:** dapr/dapr-agents — Apache 2.0
+- **What it does:** Built on Dapr runtime. Durable workflow execution, scale-to-zero (thousands on one core), 50+ data source integrations, Kubernetes-native.
+- **For Solomon OS:** Durability + resilience core requirement. Scale-to-zero for cost efficiency. Data integrations for Hermes knowledge layer.
+- **Status:** Forked (already existed) ✅
+
+## hackmyagent — NanoMind Semantic Security Compiler (April 20, 2026)
+- **Repo:** opena2a-org/hackmyagent — Apache 2.0
+- **What it does:** Security scanner + red team toolkit. 209 checks + 29 semantic checks. Abstract Security Tree instead of regex. Self-securing binary. 164 adversarial payloads.
+- **For Solomon Guardian:** Best-in-class semantic analysis. Catches undeclared capabilities, scope mismatches, evasion attempts. Self-securing scanner.
+- **Status:** Forked (already existed) ✅
+
+## agent-security-scanner-mcp — ProofLayer Security Scanner (April 20, 2026)
+- **Repo:** sinewaveai/agent-security-scanner-mcp — MIT (97.7% precision)
+- **What it does:** Security MCP server. AST + taint analysis, 1700+ rules, 4.3M package hallucination detection, auto-fix, 11 MCP tools.
+- **For Solomon Guardian:** Snyk competitor with superior precision. MCP-native security gate for agent deployments.
+- **Status:** Forked (already existed) ✅
+
+## Shard — Receipt-First Agent Observability (April 20, 2026)
+- **Repo:** TrentPierce/Shard — FSL-1.1-ALv2
+- **What it does:** Agent execution runtime with receipt-first observability. Every step emits durable receipt (routing, trust, cost, latency). Provenance graph.
+- **For Solomon OS:** Audit trail + accountability for agent decisions. Cross-topology routing study. Graceful degradation patterns.
+- **Status:** Forked (already existed) ✅
+
+## aria-protocol — P2P 1-bit AI Inference (April 20, 2026)
+- **Repo:** spmfrance-cloud/aria-protocol — MIT
+- **What it does:** P2P decentralized inference using 1-bit models. 70-82% energy savings. Runs on any CPU. Blockchain provenance, consent-based.
+- **For research:** AgentFM competitor analysis. 1-bit model quality tradeoff monitoring. Edge inference option.
+- **Status:** Forked (already existed) ✅
+
+## mycellm — P2P GPU Inference Network (April 20, 2026)
+- **Repo:** mycellm/mycellm — Apache 2.0
+- **What it does:** P2P GPU pooling via QUIC. Credit economy, Sensitive Data Guard, private networks, OpenAI-compatible API, iOS app.
+- **For research:** AgentFM direct competitor. Credit economy + privacy safeguards architecture study.
+- **Status:** Forked (already existed) ✅
