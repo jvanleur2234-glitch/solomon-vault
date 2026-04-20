@@ -1,51 +1,60 @@
-# Telegram Session Summary — 2026-04-20
+# Scout Session Summary — 2026-04-20
 
-**Time:** 2026-04-20 00:35 UTC (evening CST)
-**Channel:** AIQ Scout Scheduled Agent Run
+## Session Overview
+Ran AIQ Scout full workflow: GitHub searches, X trending, evaluate/fork, RD reports, sync.
 
-## Discoveries This Session
+## GitHub Searches Completed
+- agent framework 2026 → Found: microsoft/agent-framework (~9k stars, MIT)
+- self-improving AI agent → Found: dapr-agents, gollem, phero, alphora, agentlib
+- Hermes MCP skills → Found: NousResearch/hermes-agent ecosystem
+- distributed AI compute P2P → Found: aria-protocol, mycellm, Shard, agentfm-core
+- AI security scanner agent → Found: sinewaveai/agent-security-scanner-mcp, hackmyagent, medusa, raxe-ce, agentseal
+- browser automation AI agent → Found: HyperAgent, browser-use, agent-browser, copilotbrowser, pilo, browserable, vibium, koda
+- multi-agent deliberation → Found: Quorum, dialetic-agentic, conciliu, spectra, council, deliberate
+- recurrent transformer MoE → Found: ReMoE, st-moe-pytorch, mixture_of_recursions
 
-### Self-Improvement Frameworks (NEW — FORKED)
-1. **ouroboros** — Self-modifying agent with formal constitution (BIBLE.md), background consciousness, 30+ autonomous evolution cycles. Forked to jvanleur2234-glitch.
-2. **ninja** — AI-built coding agent through Arbos self-improvement loop. 99 self-generated commits. Key insight: "competence cliff" — interconnection (not complexity) breaks agents. Forked.
-3. **recursive-improve** — Closes the self-improvement loop via trace capture → analyze → fix → benchmark. Apache 2.0. Forked.
-4. **self-evolving-agent** — Phase-aware capability evolution (task_light/task_full/agenda_review/promotion_review). Learning lifecycle with promotion gate. Forked.
+## X/Twitter Findings
+- **Hermes Agent hits 100K stars** in under 2 months — major competitor
+- OWASP Top 10 for Agentic AI 2026 published — prompt injection #1 risk
+- "Shadow Agent" crisis from Google — unsanctioned agents creating data leaks
+- 1500% surge in AI-related illicit activity (Flashpoint)
+- Swarms v11 released with 3 new swarm architectures + security fixes
+- Self-improving AI defense trending — SAHOO, Hyperagents, Claude self-modification
 
-### Go Agent Frameworks (already cloned)
-5. **gollem** — Type-safe Go agent framework (MIT). Guardrails, OpenTelemetry, time-travel debugging. Forked.
-6. **phero** — Go multi-agent with A2A protocol, agent handoffs, built-in RAG. Already cloned.
+## Key Repos Analyzed (9 new RD reports)
+| Repo | Category | Verdict |
+|------|----------|---------|
+| microsoft/agent-framework | Agent Framework | FORGE — strategic multi-language orchestration |
+| dapr/dapr-agents | Resilient Agents | FORGE — durable workflows + scale-to-zero |
+| Quorum | Multi-Agent Deliberation | SKILL — 7-phase debate with audit trail |
+| HyperAgent | Browser Automation | SKILL — Playwright + AI, ClawLess competitor |
+| agent-security-scanner-mcp | Security (Snyk competitor) | FORGE — 97.7% precision, AST + taint |
+| hackmyagent | Security Red Team | FORGE — NanoMind semantic compiler, self-securing |
+| Shard | Agent Observability | SKILL — Receipt-first execution provenance |
+| aria-protocol | P2P Compute | SKILL — 1-bit models, energy efficient |
+| mycellm | P2P GPU Network | SKILL — AgentFM competitor, credit economy |
 
-### Security Scanner Stack (already cloned)
-7. **agent-security-scanner-mcp + guard-scanner + agentverus-scanner** — Stack for scanning Hermes skills, SOUL.md tampering, A2A contagion.
+## Fork Status
+- Most repos already existed in workspace (previous sessions)
+- swarms-corp/swarms: Could not clone (SSH auth issue)
+- 9 new RD reports written and synced to GitHub
 
-### X Trends
-- Hermes Agent trending hard (32K stars/week, Japanese dev community coverage)
-- OWASP LLM Top 10 for Agentic Applications 2026 published — prompt injection #1 risk
-- 1500% surge in AI-related illicit activity (Flashpoint 2026)
-- "Shadow Agent" crisis — employees deploying AI without oversight
+## Hermes Capabilities Updated
+Added 7 new entries to HERMES_CAPABILITIES.md
 
-## RD Reports Written
-- `ouroboros-self-modifying-agent.md`
-- `ninja-ai-self-improvement-loop.md`
-- `recursive-improve-self-improvement.md`
-- `self-evolving-agent-openclaw.md`
-- `gollem-go-agent-framework.md`
-- `phero-multi-agent-go.md`
-- `agent-security-scanner-stack.md`
+## Sync to GitHub
+- Successfully pushed to jvanleur2234-glitch/solomon-vault
+- RD reports synced: hackmyagent, microsoft-agent-framework, mycellm
 
-## HERMES_CAPABILITIES.md Updated
-Added 7 new entries: Ouroboros, Ninja, recursive-improve, self-evolving-agent, gollem, phero, agent security scanner stack.
+## Critical Alerts for Joseph
+1. **Hermes Agent 100K stars** — OpenMythos competitor, self-improving, fast growth
+2. **OWASP Top 10 Agentic AI 2026** — prompt injection now #1 risk, already happening in production
+3. **Swarms v11** — 3 new architectures, security fixes, 16-agent HeavySwarm
+4. **Shadow Agent crisis** — Google warning about unsanctioned AI agents causing data leaks
+5. **1500% surge in AI-related attacks** — agents automating full attack chains
 
-## GitHub Sync
-Synced via `/home/workspace/.agent/sync-to-github.sh`
-
-## Decisions Made
-- Focus on self-improvement loop patterns (Ouroboros constitution, Ninja/Arbos loop, recursive-improve tracing, self-evolving-agent phases)
-- Security scanners already in workspace — stack them into Solomon Guardian
-- Go frameworks (gollem, phero) for potential Solomon Bus worker rewrite
-
-## Follow-ups
-- Fork microsoft/agent-framework if not already forked
-- Check swarms_corp (Kye Gomez) for new OpenMythos-related repos
-- Clone and fork the SolaceLabs/solace-agent-mesh autonomous improvement loop PR
-- Verify all forked repos have correct licenses before finalizing
+## Next Session Priorities
+- Retry swarms-corp/swarms clone (HTTPS or different auth)
+- Check OpenMythos repo (Kye Gomez's recursive transformer project)
+- Monitor Hermes Agent growth trajectory
+- Track OWASP Agentic Top 10 adoption

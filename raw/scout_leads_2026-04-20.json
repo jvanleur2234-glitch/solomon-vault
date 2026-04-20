@@ -1,0 +1,152 @@
+[
+  {
+    "date": "2026-04-20",
+    "business_name": "Covina Ca Locksmith",
+    "url": "https://www.covinacalocksmith.com",
+    "seo_score": 53,
+    "top_issues": [
+      "Missing alt text on all images",
+      "No Open Graph meta tags",
+      "No Twitter Card meta tags"
+    ],
+    "contact_method": "email",
+    "contact_value": "admin@covinacalocksmith.com",
+    "phone": "(626) 593-2011",
+    "status": "emailed"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Farmington Hills MI Locksmith",
+    "url": "https://www.farmingtonhillsmilocksmith.com",
+    "seo_score": 58,
+    "top_issues": [
+      "Missing alt text on images",
+      "No Open Graph meta tags",
+      "No Twitter Card meta tags"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@farmingtonhillsmilocksmith.com",
+    "phone": "(248) 939-5075",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Onalaska Dental Smiles",
+    "url": "https://onalaskasmilesdental.com",
+    "seo_score": 58,
+    "top_issues": [
+      "Missing alt text on images",
+      "No Open Graph meta tags",
+      "No Twitter Card meta tags"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@onalaskasmilesdental.com",
+    "phone": "(608) 783-6384",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "StrongTower Lock & Key",
+    "url": "https://www.strongtowerlockandkey.com",
+    "seo_score": 68,
+    "top_issues": [
+      "Missing canonical tag",
+      "Title tag too short (37 chars, should be 50-60)",
+      "Meta description too short"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@strongtowerlockandkey.com",
+    "phone": "(484) 484-3518",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Stoneman HVAC",
+    "url": "https://stonemanhvac.com",
+    "seo_score": 68,
+    "top_issues": [
+      "Missing canonical tag",
+      "Title tag too long (63 chars, should be 50-60)",
+      "Images missing alt text"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@stonemanhvac.com",
+    "phone": null,
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Trinity Dental GA",
+    "url": "https://trinitydentalga.com",
+    "seo_score": 68,
+    "top_issues": [
+      "Images missing alt text",
+      "No Open Graph meta tags",
+      "Slow server response time (1030ms)"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@trinitydentalga.com",
+    "phone": null,
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "North Tarrant Heat & Air",
+    "url": "https://www.northtarrantac.com",
+    "seo_score": 74,
+    "top_issues": [
+      "Images missing alt text",
+      "No Open Graph meta tags",
+      "Slow server response time (1308ms)"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@northtarrantac.com",
+    "phone": null,
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Citywide Lock & Key",
+    "url": "https://www.citywidelockandkey.com",
+    "seo_score": 74,
+    "top_issues": [
+      "Title too long (74 chars)",
+      "Meta description too short",
+      "H1 tag issues"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@citywidelockandkey.com",
+    "phone": "(443) 578-1686",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Kwikey Locksmith Services",
+    "url": "https://kwikeylocksmithservices.com",
+    "seo_score": 79,
+    "top_issues": [
+      "Slow server response time (1562ms)",
+      "Meta description too short",
+      "Images missing alt text"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@kwikeylocksmithservices.com",
+    "phone": "(561) 328-3308",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Shipley Plumbing",
+    "url": "https://shipleyplumbing.com",
+    "seo_score": 79,
+    "top_issues": [
+      "H1 tag issues",
+      "Meta description too short",
+      "Images missing alt text"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@shipleyplumbing.com",
+    "phone": null,
+    "status": "pending"
+  }
+]
