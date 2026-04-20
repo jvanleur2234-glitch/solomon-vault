@@ -130,3 +130,30 @@
 - **What it does:** Auditable multi-model decision control plane with structured debate, receipts, provenance, and review gates. Default-deny sandboxed effectors.
 - **For Solomon OS:** Governance layer for Hermes multi-agent deliberations. Audit trails on every agent decision. Verifiable bounded execution.
 - **Status:** Forked to jvanleur2234-glitch/aragora ✅
+
+## agent-security-scanner-sinewave — Sinewave Security Scanner (April 20, 2026)
+- **Repo:** sinewaveai/agent-security-scanner-mcp — (verify license)
+- **What it does:** Security scanner MCP server with prompt injection firewall, package hallucination detection (4.3M+ packages), 1000+ vuln rules, AST + taint analysis, auto-fix.
+- **For Solomon OS:** Security hardening for Hermes. MCP-native fits our architecture. Auto-fix adds self-healing defense capability.
+- **Status:** Forked to jvanleur2234-glitch/agent-security-scanner-sinewave ✅
+
+## agentverus-scanner — Trust & Safety Scanner for Agent Skills (April 20, 2026)
+- **Repo:** agentverus/agentverus-scanner — MIT
+- **What it does:** Analyzes AI agent skill files for prompt injection, data exfiltration, 10+ ASST threat categories. Detects AGENTS.md/SOUL.md tampering. Structured trust reports.
+- **For Solomon OS:** Trust verification layer for Hermes skills. Detects workspace config tampering. Trust scoring for skill marketplace.
+- **Status:** Forked to jvanleur2234-glitch/agentverus-scanner-new ✅
+
+## raxe-ce — Runtime Security for AI Agents (April 20, 2026)
+- **Repo:** raxe-ai/raxe-ce — (verify license)
+- **What it does:** 515+ L1 rules + ML L2 ensemble for real-time prompt/reasoning/tool/memory protection. 94.7% TP, sub-5ms. 100% local, no cloud.
+- **For Solomon OS:** Runtime defense guard for Hermes execution. Local-only fits privacy-first. Speed sufficient for production.
+- **Status:** Forked to jvanleur2234-glitch/raxe-ce-new ✅
+
+## vigile-scan-sinewave — Zero-Config Trust Scanner (April 20, 2026)
+- **Repo:** Vigile-ai/vigile-scan (sinewave variant) — Apache 2.0
+- **What it does:** 59 detection rules, auto-discovers MCP configs and skills, produces trust scores. No install required. JSON output.
+- **For Solomon OS:** Quick skill trust verification. Frictionless scanning of new Hermes skills. CI/CD integrable.
+- **Status:** Forked to jvanleur2234-glitch/vigile-scan-sinewave ✅
+
+---
+*Last updated: 2026-04-20 19:40 UTC — AIQ Scout Hourly Session*
