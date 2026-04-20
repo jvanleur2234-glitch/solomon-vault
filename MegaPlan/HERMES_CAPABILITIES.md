@@ -726,3 +726,11 @@ The stack to pre-install in every JCPaid/Solomon OS build:
 - **Use for:** Maps every category → JackConnect service offering
 - **LINK fit:** ★★★★★ — #self-hosted #pre-install-batch
 
+
+## awesome-selfhosted — Self-Hosted Apps Catalog (April 20, 2026)
+- **Repo:** github.com/awesome-selfhosted/awesome-selfhosted (150K+ stars, CC)
+- **What it is:** 500+ self-hosted apps organized by category. Source for JCPaid pre-install batch.
+- **Categories:** Content Management, File Storage, Analytics, Communication, CRM, ERP, HR, Marketing, etc.
+- **Use for:** JCPaid pre-install batch, service matching, competitive analysis
+- **Maps to our services:** SEO Audit, Lead Gen, Cold Email, CMA Report, Market Report, Social Content
+- **LINK fit:** ★★★★☆ — #pre-install-batch #service-matching #business-ideas
