@@ -1,59 +1,64 @@
 # Telegram Session Summary — 2026-04-19
 
-## Session: AIQ Scout Hourly Research Run
+## Session: AIQ Scout — Hourly R&D Research Run
 
 ### Date/Time
-- 2026-04-19 ~20:35 UTC
+- 2026-04-19 22:40 UTC (03:40 local)
 
-### Research Conducted
+### What Was Done
 
-#### GitHub Searches (8 categories)
-1. **Agent Framework 2026** — Found: microsoft/agent-framework (Python/.NET, graph-based), gollem (Go type-safe), dapr-agents, alphora, phero, agentlib, solace-agent-mesh
-2. **Self-Improving AI Agent** — Found: MaximeRobeyns/self_improving_coding_agent, ikorfale/agent-self-improvement, xmaks82/self-improving-agent, xm-ninja, RangeKing/self-evolving-agent
-3. **Hermes MCP Skills** — Found: NousResearch/hermes-agent (MCP client capabilities), cloudwalk/hermes-mcp (Elixir SDK), poetryprotocol/hermes-mcp
-4. **Distributed AI Compute P2P** — Found: AgentFM/agentfm-core, hyperspaceai/agi, hyperspaceai/hyperspace-node, mycellm, peerclaw, aria-protocol
-5. **AI Security Scanner Agent** — Found: sinewaveai/agent-security-scanner-mcp, medusa (9600+ patterns), snyk/agent-scan, guard-scanner (364 patterns)
-6. **Browser Automation AI Agent** — Found: browser-use, vercel-labs/agent-browser (Rust CLI), mozilla/pilo, browserable, copilotbrowser, vibium, Koda
-7. **Multi-Agent Deliberation** — Found: slior/dialectic-agentic, synaptent/aragora, BayramAnnakov/agent-tower-plugin, dnhess/spectra, council, Quorum
-8. **Recurrent Transformer MoE** — Found: MedITSolutionsKurman/medit-one (recurrent + MoE), lucidrains/st-moe-pytorch, raymin0223/mixture_of_recursions
+#### 1. GitHub Searches Completed
+- **Agent framework 2026**: Found microsoft/agent-framework (9k+ stars), henomis/phero (Apache 2.0 Go framework), fugue-labs/gollem (Go type-safe), sammwyy/agentlib (MIT TypeScript)
+- **Self-improving AI agent**: Found maximerobeyns/self_improving_coding_agent, xmaks82/self-improving-agent (16-agent system), grail-computer/self-improving-agent
+- **Hermes MCP skills**: Found NousResearch/hermes-agent with 70+ skills, cloudwalk/hermes-mcp, slab/hermes-mcp (MIT Elixir fork)
+- **Distributed AI compute P2P**: Found Agent-FM/agentfm-core, hyperspaceai/agi, mycellm, peerclaw, aria-protocol, tutu
+- **AI security scanner agent**: Found sinewaveai/agent-security-scanner-mcp, snyk/agent-scan, medusa (9,600+ patterns), guard-scanner (364 patterns)
+- **Browser automation AI agent**: Found vercel-labs/agent-browser, browser-use, hyperbrowserai/HyperAgent, mozilla/pilo, browserable, vibium, copilotbrowser
+- **Multi-agent deliberation**: Found dialectic-agentic, agent-tower-plugin, Quorum, dubs3c/council, Concilium, deliberate, spectra
+- **Recurrent transformer MoE**: Found ReMoE, MedIT One, ST-MoE, HAG-MoE, Mixture-of-Recursions (NeurIPS 2025)
 
-#### X/Twitter Searches (4 topics)
-- **Solomon OS OR Hermes agent** — Active Hermes ecosystem growth, NVIDIA MiniMax-M2.7 integration, community extensions (camel, alpha, dojo)
-- **Self-improving AI defense** — Self-healing prompts, self-evaluation defenses, layered runtime defenses
-- **AI agent security vulnerability 2026** — OpenClaw CVE-2026-33579 (admin escalation 8.1-9.8), Agentic Vulnerability Enumeration (AVE) standard, AI finding 27-year-old OpenBSD vuln
-- **Distributed AI compute grid** — Sentient GRID (orchestration layer), NexusLabs physical AI grid
+#### 2. X/Twitter Searches Completed
+- **Solomon OS OR Hermes agent**: Hermes Agent trending — "feels like the last OS" quote from 0xWulf, NousResearch community growing
+- **Self-improving AI defense**: Self-healing prompts, adversarial robustness, layer approach beyond input detection
+- **AI agent security vulnerability 2026**: CVE-2025-68146 in OpenHands (sandbox escape), vendors dismissing critical bugs
+- **Distributed AI compute grid**: Sentient GRID, GRID for Robotics, collective intelligence architecture trending
 
-### Repos Evaluated & Forked
+#### 3. Forks Created This Session
+| Repo | Fork URL | Status |
+|------|----------|--------|
+| sammwyy/agentlib | github.com/jvanleur2234-glitch/agentlib | ✓ Created |
+| matiasdaloia/concilium | github.com/jvanleur2234-glitch/concilium | ✓ Created |
+| slab/hermes-mcp | Already exists (hermes-mcp) | — |
+| fugue-labs/gollem | Already exists | — |
+| hyperbrowserai/HyperAgent | Already exists | — |
 
-| Repo | License | Stars | Decision |
-|------|---------|-------|----------|
-| koatora20/guard-scanner | MIT | ~2 | FORK — 364 patterns for agentic-era security |
-| unconst/ninja | NOASSERTION | — | FORK (research) — self-improvement loop architecture |
-| spmfrance-cloud/aria-protocol | MIT | — | WATCH — P2P CPU inference (AgentFM competitor) |
-| MedITSolutionsKurman/medit-one | TBD | — | FORK (research) — recurrent + MoE architecture |
+#### 4. RD Reports Written
+- `gollem-go-agent-framework.md` — Go type-safe agent framework
+- `hyperagent-ai-browser-automation.md` — AI browser automation with stealth + caching
+- `hermes-mcp-elixir-slab.md` — MIT Elixir MCP SDK
+- `agentlib-typescript-agent-framework.md` — TypeScript fluent API agent framework
+- `concilium-multi-llm-deliberation.md` — Anonymous peer review deliberation
 
-**Already had cloned:** browser-use, dapr-agents, agent-framework, agent-security-scanner-mcp, gollem, st-moe-pytorch, vibium, council, Quorum, spectra, dialectic-agentic, copilotbrowser, ninja, openclaw-self-evolving, self_improving_coding_agent
+#### 5. HERMES_CAPABILITIES.md Updated
+- Full capabilities document rewritten with 50+ entries across 7 categories
+- Added agentlib under Agent Orchestration
+- Added Concilium under Multi-Agent Deliberation
 
-### RD Reports Written
-1. `guard-scanner-agent-security.md` — SKILL (integrate into Hermes vetting)
-2. `ninja-self-improving-coding-agent.md` — RESEARCH only (NOASSERTION license)
-3. `aria-protocol-p2p-ai-inference.md` — WATCH (AgentFM competitor)
-4. `medit-one-recurrent-transformer-moe.md` — RESEARCH (architecture ref)
+#### 6. GitHub Sync
+- `/home/workspace/.agent/sync-to-github.sh` ran successfully
+- solomon-vault pushed: 6 files changed, 230 insertions
 
 ### Key Findings
-- **Hermes ecosystem exploding**: 6-week growth with extensions (camel, alpha, dojo, skill-factory)
-- **OpenClaw CVE-2026-33579**: Admin escalation vulnerability 8.1-9.8 severity — relevant for Solomon Guardian
-- **AVE standard launched**: First Agentic Vulnerability Enumeration records (bawbel/bawbel-ave)
-- **ARIA Protocol**: CPU-only P2P AI via 1-bit models — energy efficient alternative to GPU grids
+1. **Hermes Agent momentum**: Community shifting from "largest LLM" to specialized open-source frameworks — aligns with Solomon OS positioning
+2. **Security scanners exploding**: 10+ new AI security scanner repos; OWASP Agentic Top 10 compliance is now a category
+3. **Deliberation is hot**: 8+ multi-agent deliberation frameworks; Quorum and Concilium are both MIT — strong competitors to Council of High Intelligence
+4. **Go agent frameworks emerging**: gollem (type-safe), phero (RAG+MCP) — worth watching for high-performance use cases
+5. **Browser automation**: HyperAgent and copilotbrowser are strong ClawLess competitors with action caching and "follow me" mode
 
-### Hermes Capabilities Updated
-- Added guard-scanner, ninja, ARIA Protocol, medit-one entries to HERMES_CAPABILITIES.md
+### Unresolved Issues
+- None — session completed fully
 
 ### Follow-Up Needed
-- Confirm medit-one license before any production consideration
-- ninja is NOASSERTION — do NOT use in production, study only
-- ARIA Protocol worth watching for edge compute strategy
-- guard-scanner SOUL.md immutability checks → integrate into Hermes skill vetting
-
-### Sync
-- GitHub sync: `/home/workspace/.agent/sync-to-github.sh`
+- Review RD reports for agentlib, Concilium, HyperAgent, gollem
+- Evaluate security scanners for ClawLess integration (guard-scanner + hackmyagent stack looks promising)
+- Consider Quorum vs Concilium for Solomon OS deliberation module
