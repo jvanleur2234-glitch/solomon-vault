@@ -5,9 +5,10 @@
       "name": "Zo1\u2192Zo2 Coordination Test",
       "type": "coordination",
       "priority": "high",
-      "status": "pending",
+      "status": "completed",
       "assignedTo": "zo2",
-      "addedAt": "2026-04-14T15:40:00Z"
+      "addedAt": "2026-04-14T15:40:00Z",
+      "notes": "Spec written at brain/COORDINATION_TEST.md. GitHub commit 8ff9ef3."
     },
     {
       "id": "glass_rd_001",
@@ -41,9 +42,9 @@
       "name": "Integrate Parlor into Jack Connect / Screenpipe stack",
       "type": "rd-research",
       "priority": "high",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-15T15:55:00Z",
-      "notes": "RD_REPORT: Parlor replaces Clicky Cloudflare Worker (free on-device voice), Screenpipe for screen, Clicky overlay for cursor. Core: Watch Once voice AI."
+      "notes": "Integration spec written at brain/PARLOR_JACKCONNECT_INTEGRATION.md. GitHub commit 8ff9ef3."
     },
     {
       "id": "bonsai-webgpu-001",
@@ -95,7 +96,7 @@
       "name": "planning-with-files \u2014 Integrate Manus-Style 3-File Planning into Solomon OS",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-18T04:46:00Z",
       "notes": "RD_REPORT: planning-with-files.md. INTEGRATE. 3-file pattern (task_plan.md/findings.md/progress.md) + PreToolUse/PostToolUse/Stop hooks. Adopt for complex Russell Tuna multi-step tasks. Clone to /home/workspace/Skills/planning-with-files/."
     },
@@ -113,7 +114,7 @@
       "name": "Paperless-ngx \u2014 Document Management System",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-18T13:30:00Z",
       "notes": "RD_REPORT: paperless-ngx.md. 38.2k stars, GPL-3.0. Django+Angular document management with Tesseract OCR. WORTHWHILE \u2014 deploy on Zo server via Docker for internal ops. Hook into Solomon Bus for auto-tagging. Could be bundled service for AI staffing clients."
     },
@@ -239,25 +240,27 @@
       "name": "covibes/zeroshot \u2014 CLI Autonomous Engineering Team",
       "type": "rd-research",
       "priority": "high",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T01:19:00Z",
-      "notes": "SKILL. GitHub issue in, production code out. Autonomous research/plan/code/test loop. Fits Solomon Bus job queue. See RD_REPORT zeroshot.md"
+      "notes": "SKILL. GitHub issue in, production code out. Autonomous research/plan/code/test loop. Fits Solomon Bus job queue. See RD_REPORT zeroshot.md",
+      "completedAt": "2026-04-20T16:33:54.314965Z"
     },
     {
       "id": "oh-my-agent-001",
       "name": "first-fluke/oh-my-agent \u2014 Portable Multi-Agent Harness",
       "type": "rd-research",
       "priority": "high",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T01:19:00Z",
-      "notes": "SKILL. Frontend/backend/architecture/QA/PM agents in parallel. Maps to Russell Tuna /fork pattern. See RD_REPORT oh-my-agent.md"
+      "notes": "SKILL. Frontend/backend/architecture/QA/PM agents in parallel. Maps to Russell Tuna /fork pattern. See RD_REPORT oh-my-agent.md",
+      "completedAt": "2026-04-20T16:33:54.314985Z"
     },
     {
       "id": "wshobson-agents-001",
       "name": "wshobson/agents \u2014 Production Claude Code Multi-Agent System",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T01:19:00Z",
       "notes": "SKILL. 184 agents, 16 workflows, 150+ skills. Study for Solomon OS multi-agent orchestration. See RD_REPORT wshobson-agents.md"
     },
@@ -302,11 +305,84 @@
       "name": "Open WebUI \u2014 Self-Hosted AI Chat Interface",
       "type": "rd-research",
       "priority": "high",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T01:24:00Z",
-      "notes": "SKILL/PRIORITY. 28K stars, MIT. Self-hosted AI chat UI with Ollama built-in. Clone to /home/workspace/Skills/open-webui/. Integrate with Russell Tuna as web frontend."
+      "notes": "SKILL/PRIORITY. 28K stars, MIT. Self-hosted AI chat UI with Ollama built-in. Clone to /home/workspace/Skills/open-webui/. Integrate with Russell Tuna as web frontend.",
+      "completedAt": "2026-04-20T16:33:54.314990Z"
+    },
+    {
+      "id": "hexsect-001",
+      "name": "HexSect Team \u2014 Offensive Security Tools (Clematis_GUI, WormGPT, HexSecGPT)",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:25:00Z",
+      "notes": "SKIP for JCPaid. Too niche for real estate clients. FOLLOW for Solomon Guardian \u2014 binary analysis patterns. HexPig static analysis pipeline maps to OWASP LLM Top 10 detection. WormGPT (232 stars) = CLI for LLMs with OpenRouter. HexSecGPT (248 stars) = chatbot. 25 repos, AGPL-3.0. Follow hexsect for security research patterns."
+    },
+    {
+      "id": "agentarmor-001",
+      "name": "AgentArmor Studio \u2014 8-Layer Security for AI Agents",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:30:45+00:00",
+      "notes": "SKILL. Fork + integrate 8-layer security pipeline into Solomon Guardian. agentarmor-core already on PyPI. Maps L1-L8 directly to Guardian architecture."
+    },
+    {
+      "id": "meilisearch-001",
+      "name": "Meilisearch \u2014 AI Hybrid Search Engine",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-20T01:47:00Z",
+      "notes": "INTEGRATE. 57.2K stars, MIT. Rust search engine with hybrid vector+keyword search. Perfect for Solomon OS knowledge base, JackConnect client search, and Second Brain Portal. Docker one-command install. Priority: replace Elasticsearch as the search layer for Solomon OS."
+    },
+    {
+      "id": "soc2-001",
+      "name": "SOC 2 Type II Compliance \u2014 Enterprise Banking Gate",
+      "type": "security",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:47Z",
+      "notes": "Gap assessment + policy writing + audit trail implementation + 3-6 month data collection before Type II audit. Opens banking/finance vertical. Budget: 30-80K/year for CPA/CISA audit."
+    },
+    {
+      "id": "atlas-os-001",
+      "name": "Atlas OS \u2014 Windows Playbook Architecture",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "completed",
+      "addedAt": "2026-04-20T02:11:00Z",
+      "notes": "Playbook architecture spec written at brain/ATLAS_OS_PLAYBOOK_ARCHITECTURE.md. GitHub commit 8ff9ef3."
+    },
+    {
+      "id": "reticulum-phantom-001",
+      "name": "Reticulum Phantom \u2014 P2P Encrypted File Sharing for Solomon Air",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T04:24:00Z",
+      "notes": "SKILL. 50 stars, MIT, Python. P2P file sharing over Reticulum mesh. .ghost files = torrent equivalent. Perfect for Solomon Air privacy-first file sharing. Fits Be Like You! OS offline mesh. Clone to /home/workspace/Skills/phantom/"
+    },
+    {
+      "id": "mrholmes-osint-001",
+      "name": "Mr.Holmes \u2014 OSINT Tool for Lead Research",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T17:30:00Z",
+      "notes": "Recommendation: SKILL. 3.3K stars, GPL-3.0. OSINT tool for domain/username/phone lookup. Use for JackConnect lead research - find decision-maker info before cold outreach. Clone to Skills/mrholmes/. INSTALL: git clone + pip install -r requirements.txt + python3 MrHolmes.py"
+    },
+    {
+      "id": "awesome-selfhosted-001",
+      "name": "awesome-selfhosted \u2014 Curated Self-Hosted Software Directory",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T17:30:00Z",
+      "notes": "SKIP (287K stars, 50+ categories, MIT/Apache. DIRECTORY not implementation. Use as curation source for JCPaid pre-install stack. Fork for JackConnect service marketplace."
     }
   ],
-  "lastUpdated": "2026-04-20T01:23:00Z",
-  "sessionSummary": "Added GmapsXploit RD report and queue entry. Queued from Telegram X post by @akaclandestine."
+  "lastUpdated": "2026-04-20T17:30:00Z",
+  "sessionSummary": "Tasks 1, 2, 4 completed: coordination test spec, Parlor\u2192JackConnect integration spec, Atlas playbook architecture. GitHub 8ff9ef3."
 }
