@@ -1,0 +1,14 @@
+{
+  "company": "SoloSEO",
+  "type": "seo-audit",
+  "budget": 1500,
+  "mission": "Deliver comprehensive SEO audits that drive ranking improvements",
+  "agents": [
+    {"role": "analyst", "name": "SEO Analyst", "runtime": "openclaw", "cost": 50},
+    {"role": "researcher", "name": "Keyword Hunter", "runtime": "openclaw", "cost": 50},
+    {"role": "planner", "name": "Content Strategist", "runtime": "claude-code", "cost": 50}
+  ],
+  "skills": ["seo-crawl", "keyword-research", "content-brief", "screaming-frog"],
+  "goal": "Execute seo-audit work for one client this month (by 2026-05-20)",
+  "manifest_id": "SOLOSEO-2026-04-20"
+}
