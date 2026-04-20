@@ -1,32 +1,31 @@
-# gollem — Type-Safe Go Agent Framework
-
-**Already cloned:** `/home/workspace/gollem`
-**Forked:** `jvanleur2234-glitch/gollem`
-**Stars:** Unknown (v0.3.1, March 2026)
-**License:** MIT
-**Category:** agent-framework #go #type-safety
+# RD Report: gollem (fugue-labs/gollem)
 
 ## What It Is
-Production-ready Go agent framework emphasizing compile-time type safety, zero-allocation streaming, and single-binary deployment. Prevents runtime type errors that plague Python agent frameworks.
+Production-grade agent framework for Go emphasizing compile-time type safety, zero-allocation streaming, and single-binary deployment. Targets multi-provider, multi-agent systems with structured outputs and observability baked in.
 
-## Key Features
-1. **Generic Agent[T]** — automatic schema generation, validation, deserialization
-2. **5+ LLM providers** — Anthropic Claude, OpenAI GPT, Google Gemini/Vertex
-3. **FuncTool[P]** — typed tools with reflection-based JSON Schema
-4. **Guardrails** — input/turn guards, tool result validators, output auto-repair
-5. **Observability** — structured run traces, OpenTelemetry middleware, lifecycle hooks
-6. **Conversation snapshots** — time-travel debugging
-7. **Zero core dependencies** — single binary, compile-time guarantees
+## License & Stars
+- **License:** MIT
+- **Stars:** 25 (small but active development)
 
-## Key Patterns for Solomon OS
-1. **Type-safe at compile time** → Go-based agents could replace fragile Python patterns in Solomon Bus workers
-2. **Guardrails pattern** → maps to Solomon Guardian input validation
-3. **OpenTelemetry middleware** → structured logging for all agents
-4. **Time-travel debugging** → conversation snapshots for Russell Tuna debugging
-5. **Single binary deployment** → Solomon OS agents could be compiled Go binaries
+## Key Capabilities
+- **Type-safe Agent[T]** with compile-time schema generation, validation, deserialization
+- **Multi-provider**: Anthropic Claude, OpenAI GPT/O-series, Google Gemini, Vertex AI
+- **Tools from typed Go functions** via FuncTool[P] with reflection-based JSON Schema
+- **Zero-allocation streaming** via iter.Seq2; node-by-node agent loop iteration
+- **Guardrails**: MaxPromptLength, ContentFilter, MaxTurns, tool result validators
+- **OpenTelemetry middleware**: structured run traces, JSONFile/Console/Multi exporters
+- **Conversation state snapshots** for time-travel debugging
+- **Middleware chain**: Logging, Timing, MaxTokens interceptors
 
-## Verdict
-**INTEGRATE** — MIT, type-safe, production-grade. The guardrails + observability + time-travel combination is powerful. Consider for Solomon Bus worker rewrite in Go.
+## Relevance to Solomon OS
+- **Security**: Compile-time type safety catches errors before runtime — more reliable than Python
+- **Skill frameworks**: Could serve as the core Go runtime for high-performance agent skills
+- **Distributed AI**: Single-binary deployment model fits well with edge/embedded use cases
+- **Self-improvement**: Observability + time-travel traces useful for self-improvement loops
 
-## Links
-- https://github.com/jvanleur2234-glitch/gollem
+## Decision
+**SKILL** — Type-safe Go foundation for agent skills requiring reliability. Fork to `jvanleur2234-glitch/gollem`. Write capability into HERMES_CAPABILITIES.md.
+
+## Notes
+- Go-native avoids Python GIL issues; good for concurrent tool execution
+- Single-binary = easy containerization for distributed compute
