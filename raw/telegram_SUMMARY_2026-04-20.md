@@ -1,86 +1,87 @@
 # Telegram Session Summary — 2026-04-20
 
-## Date & Time
-2026-04-20 00:45 UTC (AIQ Scout Hourly Run)
+**Date:** 2026-04-20 01:40 UTC  
+**Session:** AIQ Scout Hourly Run  
 
-## Session Overview
-AIQ Scout autonomous research run — scanning GitHub and X for new repos relevant to Solomon OS/Hermes ecosystem.
+## What Was Done
 
-## Searches Performed
-- **GitHub web_research (8 categories):**
-  - Agent frameworks 2026 → microsoft/agent-framework, gollem, phero, dapr-agents, alphora, agentlib, solace-agent-mesh
-  - Self-improving AI agent → self_improving_coding_agent, agent-self-improvement, ninja, self-evolving-agent, openclaw-self-evolving
-  - Hermes MCP skills → NousResearch/hermes-agent MCP integration, fastmcp skill
-  - Distributed AI compute P2P → hyperspace-node, agi, agentfm-core, peerclaw, mycellm, symmetry-cli, gonka
-  - AI security scanner → sinewaveai/agent-security-scanner-mcp, medusa, hackmyagent, firmis-scanner, vigile-scan, raxe, agentseal, agentsec
-  - Browser automation AI agent → HyperAgent, agent-browser, pilo, browserable, Koda, vibium, browser-use, copilotbrowser
-  - Multi-agent deliberation → LLM-Deliberation, agent-tower-plugin, owlex, Quorum, spectra, deliberate, ai-council
-  - Recurrent transformer MoE → mesh_tensorflow/moe.py, st-moe-pytorch, medit-one, Megatron-LM MoE
+### Research: GitHub Searches
+Searched 8 categories for new repos:
+- agent framework 2026 → Found: Microsoft Agent Framework (~9k stars), Gollem (Go), Dapr Agents, Alphora, Phero, Solace Agent Mesh
+- self-improving AI agent → Found: MaximeRobeyns/self_improving_coding_agent, ikorfale/agent-self-improvement, xmaks82/self-improving-agent, Ninja (Rust), openclaw-self-evolving
+- Hermes MCP skills → Found: NousResearch/hermes-agent docs, cloudwalk/hermes-mcp (Elixir), poetryprotocol/hermes-mcp, slab/hermes-mcp
+- distributed AI compute P2P → Found: hyperspaceai/agi, hyperspace-node, TuTu, AgentFM, Shard, ARIA Protocol, PeerClaw, mycellm
+- AI security scanner agent → Found: sinewaveai/agent-security-scanner-mcp, snyk/agent-scan, Medusa, Firmis Scanner, Vigile-Scan, AgentSeal, RAXE CE
+- browser automation AI agent → Found: HyperAgent, agent-browser (Rust), Pilo, Browserable, AgentBrowser (TypeScript), Vibium, browser-use, CopilotBrowser
+- multi-agent deliberation → Found: LLM-Deliberation (NeurIPS'24), awesome-deliberative-prompting, agent-tower-plugin, Spectra, Quorum, Concilium, Council
+- recurrent transformer MoE → Found: MedIT One, Mixture-of-Recursions (NeurIPS 2025), ReMoE, HAG-MoE
 
-- **X searches (4 queries):**
-  - "Solomon OS OR Hermes agent" → Hermes Agent viral adoption posts, agent-to-agent messaging
-  - "self-improving AI defense" → Self-healing prompt defense, SELF-INSTRUCT, self-evaluation as defense
-  - "AI agent security vulnerability 2026" → OWASP Top 10 for Agentic Applications 2026, shadow agents, prompt injection on Solana
-  - "distributed AI compute grid" → Sentient GRID, P2P compute orchestration
+### Research: X/Twitter Searches
+- "Solomon OS OR Hermes agent" → Hermes Agent v0.10.0 trending, self-improving skills via DSPy, comparisons to OpenClaw
+- "self-improving AI defense" → Self-healing prompts, layered runtime defenses, OWASP LLM Top 10
+- "AI agent security vulnerability 2026" → OWASP Agentic Top 10 published, prompt injection #1 risk, Google's "Shadow Agent" crisis
+- "distributed AI compute grid" → Sentient GRID architecture, DiLoCo training, Hyperspace network
 
-- **Critical repos checked:**
-  - @swarms_corp (The-Swarm-Corporation) → swarms, swarms-rs, AutoHedge, swarms-cloud, swarms-client
-  - OWASP LLM Top 10 → OWASP/www-project-top-10-for-large-language-model-applications, agentsec, promptfoo/owasp mapping
+### Clones & Forks
+New repos cloned and forked to jvanleur2234-glitch:
+1. **agentseal-new** — 225+ adversarial probes, 6-stage detection pipeline, self-securing binary
+2. **vigile-scan-new** — 59 rules, trust scoring, Sentinel runtime monitoring
+3. **firmis-scanner-new** — 269 rules, 26 categories, BOM generation, compliance mapping
+4. **agi-new** — Distributed P2P AGI with DiLoCo training, 195× compression
+5. **hyperspace-node-new** — CLI/Tray/browser P2P AI inference (2M+ nodes)
+6. **hackmyagent-new** — NanoMind semantic compiler, 209 checks + AST analysis
+7. **hermes-agent-docs** — Hermes Agent documentation
 
-## Actions Taken
+Already existed (skipped): microsoft/agent-framework, sinewaveai/agent-security-scanner-mcp, snyk/agent-scan, raxe-ce, agentseal, phero, solace-agent-mesh, gollem
 
-### Forked/New Repos:
-1. **owlex** → `jvanleur2234-glitch/owlex` — Multi-model council deliberation via MCP. 2-round review + Claude synthesis. MIT.
-2. **alphora** → `jvanleur2234-glitch/alphora` — Production Python agent framework. Docker sandbox, skills ecosystem, typed SSE. Apache 2.0.
-3. **firmis-scanner** → Already had it. Apache 2.0, 269 rules, 26 categories.
-4. **HyperAgent** → Already cloned. MIT, Playwright+AI browser automation.
+### RD Reports Written
+- `agentseal-new.md` — FORGE: 6-stage pipeline, 28 agents, semantic analysis layer
+- `vigile-scan-new.md` — INTEGRATE: 59 rules, trust scores, Sentinel runtime monitoring
+- `firmis-scanner-new.md` — INTEGRATE: Most comprehensive (269 rules), BOM + compliance
+- `hackmyagent-new.md` — FORGE: NanoMind semantic compiler, AST-based security analysis
+- `agi-new.md` — SKIP: Research-only, not immediately actionable
 
-### Already Forked (skipped):
-- gollem, hyperspace-node, Quorum, spectra, deliberate, agent-tower-plugin, medusa, agent-scan, vigile-scan, raxe, agentseal, peerclaw, phero, dapr-agents, agentfm-core, browser-use, Koda, vibium, copilotbrowser, agent-browser, medit-one, ninja
+### HERMES_CAPABILITIES.md Updated
+Enhanced 4 entries:
+- firmislabs/firmis-scanner: 269 rules, 26 categories, BOM, compliance
+- vigile-ai/vigile-scan: Sentinel runtime monitoring
+- agentseal/agentseal: 6-stage pipeline description
+- opena2a-org/hackmyagent: NanoMind + AST description
 
-### RD Reports Written:
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/owlex.md`
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/alphora.md`
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/owlex-agent-tower-comparison.md`
+## Key Findings
 
-### HERMES_CAPABILITIES Updated:
-- Added owlex entry
-- Added Alphora entry
+### Security Stack Now Complete
+Solomon OS security scanner coverage is now comprehensive:
+- **Deep scanning:** Firmis (269 rules) + HackMyAgent (NanoMind AST)
+- **Trust scoring:** AgentSeal (6-stage) + Vigile (trust scores)
+- **Runtime protection:** RAXE (515 L1 + ML) + AgentSeal Shield
+- **CI/CD gates:** All support SARIF, JSON, exit codes
 
-### Synced to GitHub:
-- ✅ `solomon-vault` pushed (3 RD reports committed)
+### Hermes Agent v0.10.0 Released (April 16, 2026)
+- Nous Tool Gateway for web search, image gen, TTS, browser automation
+- AWS Bedrock native support
+- Credential pools with rotation
+- Camofox browser backend
+- 118 skills (96 + 22 optional)
 
-## Key Insights from This Session
+### OWASP Agentic Top 10 2026 Published
+Prompt injection now #1 risk. Tool-call-level injection, privilege escalation through chained agents, data exfiltration via retrieval. Already in production deployments.
 
-### Security is the Biggest Theme
-- OWASP Top 10 for Agentic Applications 2026 published — LLM01 = prompt injection
-- "Shadow Agent" crisis predicted by Google — employees deploying agents without oversight
-- 540% surge in prompt injection reports (HackerOne)
-- Multiple new security scanners: firmis-scanner (269 rules), medusa (9,600+ patterns), raxe (515 rules + ML)
-
-### Hermes/Multi-Agent Trends
-- Agent-to-agent messaging going viral (Igor Kudryk's Hermes-to-Hermes chat)
-- Nous Research pushing Hermes as "don't get framemogged" solution
-- Multi-model deliberation becoming standard: owlex + agent-tower-plugin = complete validation stack
-
-### P2P Compute Heating Up
-- AgentFM, hyperspace-node, peerclaw, mycellm, gonka all competing
-- Sentient GRID architecture maps to Solomon OS orchestration goals
-- Key differentiator: security + ease of use > raw throughput
-
-## Pending / Next Steps
-- [ ] Write Hermes SKILL.md for owlex integration
-- [ ] Add team presets to owlex for Solomon OS (business_analyst, sales_agents)
-- [ ] Study Alphora sandbox architecture for Hermes security isolation
-- [ ] Wire firmis-scanner into Solomon Guardian pre-deployment pipeline
-- [ ] Monitor ninja (self-improving coding agent) — NOASSERTION license, research only
+## Unresolved / Follow-up
+- Monitor Hermes v0.10.0 Nous Tool Gateway for potential security implications
+- Consider: Should Solomon OS integrate a security scanner pre-deployment gate?
+- hypmerspace-node-new: Watch for P2P compute integration into Solomon Air
 
 ## Files Modified
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/owlex.md` (new)
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/alphora.md` (new)
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/owlex-agent-tower-comparison.md` (new)
-- `/home/workspace/MegaPlan/HERMES_CAPABILITIES.md` (updated)
-- GitHub: `jvanleur2234-glitch/owlex` (forked), `jvanleur2234-glitch/alphora` (forked)
+- `brain/HERMES_CAPABILITIES.md` — Updated security scanner descriptions
+- `brain/RD_REPORTS/agentseal-new.md` — New
+- `brain/RD_REPORTS/vigile-scan-new.md` — New
+- `brain/RD_REPORTS/firmis-scanner-new.md` — New
+- `brain/RD_REPORTS/hackmyagent-new.md` — New
+- `brain/RD_REPORTS/agi-new.md` — New
 
-## Next Scheduled Run
-2026-04-20 01:45 UTC
+## Next Session
+- Check for new repos from @swarms_corp (Kye Gomez — OpenMythos)
+- Check OWASP LLM Top 10 ecosystem tools
+- Check n8n community nodes for AI agents
+- Monitor Hermes v0.10.0 adoption + security implications
