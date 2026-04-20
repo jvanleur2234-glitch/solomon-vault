@@ -42,48 +42,79 @@ async function initSolomon() {
 
 // Solomon Air — VoIP dialer
 async function solomonDial(number) {
-  const response = await fetch("http://localhost:3002/api/dial", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ number })
-  });
-  return response.json();
+  try {
+    const response = await fetch("http://localhost:3002/api/dial", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ number })
+    });
+    return await response.json();
+  } catch (e) {
+    return { success: false, error: e.message };
+  }
 }
 
 // Solomon Air — Send SMS
 async function solomonSMS(number, message) {
-  const response = await fetch("http://localhost:3002/api/sms", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ number, message })
-  });
-  return response.json();
+  try {
+    const response = await fetch("http://localhost:3002/api/sms", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ number, message })
+    });
+    return await response.json();
+  } catch (e) {
+    return { success: false, error: e.message };
+  }
 }
 
 // JackConnect — Get active workers
 async function getWorkers() {
-  const response = await fetch("http://localhost:3003/api/workers");
-  if (response.ok) return response.json();
+  try {
+    const response = await fetch("http://localhost:3003/api/workers");
+    if (response.ok) return await response.json();
+  } catch (e) {}
   return { workers: [] };
 }
 
 // JackConnect — Assign task to worker
 async function assignTask(workerId, task) {
-  const response = await fetch("http://localhost:3003/api/assign", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ workerId, task })
-  });
-  return response.json();
+  try {
+    const response = await fetch("http://localhost:3003/api/assign", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ workerId, task })
+    });
+    return await response.json();
+  } catch (e) {
+    return { success: false, error: e.message };
+  }
 }
 
 // Hermes — Store memory from browsing
 async function herMESStore(key, value) {
-  await fetch("http://localhost:3001/api/memory/store", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ key, value, source: "browser" })
-  });
+  try {
+    await fetch("http://localhost:3001/api/memory/store", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ key, value, source: "browser" })
+    });
+  } catch (e) {
+    console.log("[Solomon] Memory store failed:", e.message);
+  }
+}
+
+// Hermes — Sync memory
+async function herMESSync() {
+  try {
+    const response = await fetch("http://localhost:3001/api/memory/sync", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" }
+    });
+    return await response.json();
+  } catch (e) {
+    return { success: false, error: e.message };
+  }
 }
 
 // Message handler
@@ -106,6 +137,10 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   }
   if (msg.type === "HERMES_STORE") {
     herMESStore(msg.key, msg.value).then(sendResponse);
+    return true;
+  }
+  if (msg.type === "HERMES_SYNC") {
+    herMESSync().then(sendResponse);
     return true;
   }
   if (msg.type === "GET_STATE") {

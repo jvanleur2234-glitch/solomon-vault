@@ -28,28 +28,39 @@ async function sendMessage() {
     const pageTitle = tab.title;
 
     // Get page content via content script
-    const pageContent = await chrome.tabs.sendMessage(tab.id, { type: "GET_PAGE_CONTENT" });
+    let pageContent = { text: "", links: [], phones: [], emails: [], prices: [] };
+    try {
+      pageContent = await chrome.tabs.sendMessage(tab.id, { type: "GET_PAGE_CONTENT" });
+    } catch (e) {
+      // Content script may not be loaded on chrome:// pages
+    }
 
     // Build prompt with page context
     const prompt = `User is browsing: ${pageTitle} (${pageUrl})
 
-${pageContent ? `Page content:\n${pageContent.text.slice(0, 3000)}` : '(No page content available)'}
+${pageContent && pageContent.text ? `Page content:\n${pageContent.text.slice(0, 3000)}` : '(No page content available)'}
+
+${pageContent && pageContent.phones && pageContent.phones.length ? `Phones found: ${pageContent.phones.join(", ")}` : ''}
+${pageContent && pageContent.emails && pageContent.emails.length ? `Emails found: ${pageContent.emails.join(", ")}` : ''}
+${pageContent && pageContent.prices && pageContent.prices.length ? `Prices found: ${pageContent.prices.join(", ")}` : ''}
 
 User question: ${text}
 
 Answer as Solomon AI. Be helpful, concise, and actionable.`;
 
+    // Get Zo token
+    const token = await getZoToken();
+
     // Call Zo API
     const response = await fetch("https://api.zo.computer/zo/ask", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${await getZoToken()}`,
+        "Authorization": `Bearer ${token}`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
         input: prompt,
-        model_name: "vercel:minimax/minimax-m2.7",
-        conversation_id: "solomon-browser-" + (await getUserId())
+        model_name: "vercel:minimax/minimax-m2.7"
       })
     });
 
@@ -79,7 +90,7 @@ function appendMessage(role, content, isTyping = false) {
   const div = document.createElement("div");
   div.className = `message ${role}${isTyping ? " typing" : ""}`;
   div.id = id;
-  div.innerHTML = `<div class="msg-content">${content}</div>`;
+  div.innerHTML = `<div class="msg-content">${escapeHtml(content)}</div>`;
   chatArea.appendChild(div);
   chatArea.scrollTop = chatArea.scrollHeight;
   return id;
@@ -88,6 +99,12 @@ function appendMessage(role, content, isTyping = false) {
 function removeMessage(id) {
   const el = document.getElementById(id);
   if (el) el.remove();
+}
+
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text;
+  return div.innerHTML;
 }
 
 // Auto-resize textarea
@@ -109,28 +126,40 @@ sendBtn.addEventListener("click", sendMessage);
 // Page analysis
 document.getElementById("analyzeBtn").addEventListener("click", async () => {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  const content = await chrome.tabs.sendMessage(tab.id, { type: "GET_PAGE_CONTENT" });
-  if (content) {
-    chatInput.value = `Analyze this page: what is it about, who is it for, and what are the main actions I can take?`;
-    sendMessage();
+  try {
+    const content = await chrome.tabs.sendMessage(tab.id, { type: "GET_PAGE_CONTENT" });
+    if (content && content.text) {
+      chatInput.value = `Analyze this page: what is it about, who is it for, and what are the main actions I can take?`;
+      sendMessage();
+    }
+  } catch (e) {
+    appendMessage("assistant", "Cannot analyze this page (chrome:// pages are restricted).");
   }
 });
 
 document.getElementById("summarizeBtn").addEventListener("click", async () => {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  const content = await chrome.tabs.sendMessage(tab.id, { type: "GET_PAGE_CONTENT" });
-  if (content) {
-    chatInput.value = `Summarize this page in 3 bullet points.`;
-    sendMessage();
+  try {
+    const content = await chrome.tabs.sendMessage(tab.id, { type: "GET_PAGE_CONTENT" });
+    if (content && content.text) {
+      chatInput.value = `Summarize this page in 3 bullet points.`;
+      sendMessage();
+    }
+  } catch (e) {
+    appendMessage("assistant", "Cannot summarize this page.");
   }
 });
 
 document.getElementById("extractBtn").addEventListener("click", async () => {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-  const content = await chrome.tabs.sendMessage(tab.id, { type: "GET_PAGE_CONTENT" });
-  if (content) {
-    chatInput.value = `Extract all structured data from this page (emails, phones, prices, links, dates). Format as a list.`;
-    sendMessage();
+  try {
+    const content = await chrome.tabs.sendMessage(tab.id, { type: "GET_PAGE_CONTENT" });
+    if (content && content.text) {
+      chatInput.value = `Extract all structured data from this page (emails, phones, prices, dates). Format as a list.`;
+      sendMessage();
+    }
+  } catch (e) {
+    appendMessage("assistant", "Cannot extract from this page.");
   }
 });
 
@@ -139,6 +168,12 @@ async function getZoToken() {
   return localStorage.getItem("solomon_token") || "";
 }
 
-async function getUserId() {
-  return localStorage.getItem("solomon_user_id") || "anonymous";
+// Load page memory on startup
+async function loadPageMemory() {
+  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  if (tab && tab.url) {
+    tabMemContent.textContent = tab.title || tab.url;
+  }
 }
+
+loadPageMemory();

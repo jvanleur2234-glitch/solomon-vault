@@ -21,17 +21,6 @@ services:
       timeout: 10s
       retries: 3
 
-  # Solomon Browser Backend (future)
-  # Local AI services for offline mode
-  # solomon-local:
-  #   build: ./solomon-local
-  #   container_name: solomon-local
-  #   restart: unless-stopped
-  #   ports:
-  #     - "3001:3001"  # Solomon Bus
-  #     - "3002:3002"  # Solomon Air
-  #     - "3003:3003"  # JackConnect
-
 volumes:
   selfsync-data:
     driver: local

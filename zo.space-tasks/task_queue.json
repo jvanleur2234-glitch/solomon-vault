@@ -188,8 +188,125 @@
       "status": "completed",
       "addedAt": "2026-04-19T23:50:00Z",
       "notes": "Recommendation: FORGE. Integrate skills architecture + messaging gateway into Solomon OS. See RD_REPORT: hermes-agent-nous-research.md"
+    },
+    {
+      "id": "podcast-artifact-001",
+      "name": "Podcast Artifact \u2014 YouTube \u2192 LLM Knowledge Artifact Pipeline",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:05:00Z",
+      "notes": "SKILL. Build Hermes skill: YouTube URL \u2192 transcript (yt-dlp + Whisper) \u2192 artifact (minimax/Opus) \u2192 save to brain/RD_REPORTS/. See RD_REPORT podcast-llm-artifact.md"
+    },
+    {
+      "id": "plain-app-001",
+      "name": "PlainApp \u2014 Android Phone Hub as Solomon Air Mobile Layer",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:08:00Z",
+      "notes": "INTEGRATE. 4.1k stars AGPL-3.0. Android web dashboard for SMS/calls/files/contacts. Fork as phone layer for Solomon Air. Android reference for Be Like You! OS. Fits JackConnect."
+    },
+    {
+      "id": "your-everyday-tools-001",
+      "name": "Your Everyday Tools \u2014 57 Self-Hosted Utilities",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:15:00Z",
+      "notes": "SKILL. 161 stars, AGPL-3.0. Python+Flask bundle of 57 utilities (PDF, spreadsheets, OCR, image tools, calculators, QR, security). Self-hosted, no JS frameworks. Pre-install batch fits Solomon OS / JCPaid default stack. Clone to /home/workspace/Skills/your-everyday-tools/."
+    },
+    {
+      "id": "ml-master-hcc-001",
+      "name": "ML-Master 2.0 + Hierarchical Cognitive Caching \u2014 Long-Horizon Agent Architecture",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:14:00Z",
+      "notes": "INTEGRATE. 3-tier memory (short/medium/long) validates Solomon OS self-improvement loop. Short-term cache = missing piece. Paper: arxiv.org/abs/2601.10402. 56.44% medal rate on MLE-Bench 24h run."
+    },
+    {
+      "id": "plain-app-001",
+      "name": "PlainApp \u2014 Android Phone Hub as Solomon Air Mobile Layer",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:08:00Z",
+      "notes": "INTEGRATE. 4.1k stars AGPL-3.0. Android web dashboard for SMS/calls/files/contacts. Fork as phone layer for Solomon Air. Android reference for Be Like You! OS. Fits JackConnect."
+    },
+    {
+      "id": "zeroshot-001",
+      "name": "covibes/zeroshot \u2014 CLI Autonomous Engineering Team",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "SKILL. GitHub issue in, production code out. Autonomous research/plan/code/test loop. Fits Solomon Bus job queue. See RD_REPORT zeroshot.md"
+    },
+    {
+      "id": "oh-my-agent-001",
+      "name": "first-fluke/oh-my-agent \u2014 Portable Multi-Agent Harness",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "SKILL. Frontend/backend/architecture/QA/PM agents in parallel. Maps to Russell Tuna /fork pattern. See RD_REPORT oh-my-agent.md"
+    },
+    {
+      "id": "wshobson-agents-001",
+      "name": "wshobson/agents \u2014 Production Claude Code Multi-Agent System",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "SKILL. 184 agents, 16 workflows, 150+ skills. Study for Solomon OS multi-agent orchestration. See RD_REPORT wshobson-agents.md"
+    },
+    {
+      "id": "hyperframes-001",
+      "name": "heygen-com/hyperframes \u2014 HTML-to-Video for AI Agents",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "INTEGRATE. AI agents generate video from HTML. Complements podcast-artifact pipeline (hyperframes instead of Chart.js). See RD_REPORT hyperframes.md"
+    },
+    {
+      "id": "caveman-001",
+      "name": "JuliusBrussee/caveman \u2014 65% Token Reduction for Claude Code",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "SKILL. Primitive language style cuts token cost 65%. Apply to Russell Tuna for cheaper local inference. See RD_REPORT caveman.md"
+    },
+    {
+      "id": "crewai-001",
+      "name": "crewAI/crewAI \u2014 Enterprise Multi-Agent Orchestration",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:19:00Z",
+      "notes": "INTEGRATE. Leading multi-agent framework, role definition, task delegation, async\u534f\u4f5c, memory. Already 20K+ stars trending. See RD_REPORT crewai.md"
+    },
+    {
+      "id": "passmark-001",
+      "name": "Passmark \u2014 AI Playwright Regression Testing Library",
+      "type": "rd-research",
+      "priority": "normal",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:23:00Z",
+      "notes": "INTEGRATE. 374 stars, FSL-1.1-Apache-2.0. AI + Playwright regression testing with Redis step caching, multi-model consensus assertions, auto-healing. Key patterns for Solomon Browser: Redis caching architecture + Claude/Gemini dual-model verification. Not copying code (FSL license) \u2014 adopt architecture patterns. Clone to /home/workspace/Skills/passmark/ for pattern study."
+    },
+    {
+      "id": "open-webui-001",
+      "name": "Open WebUI \u2014 Self-Hosted AI Chat Interface",
+      "type": "rd-research",
+      "priority": "high",
+      "status": "pending",
+      "addedAt": "2026-04-20T01:24:00Z",
+      "notes": "SKILL/PRIORITY. 28K stars, MIT. Self-hosted AI chat UI with Ollama built-in. Clone to /home/workspace/Skills/open-webui/. Integrate with Russell Tuna as web frontend."
     }
   ],
-  "lastUpdated": "2026-04-19T23:50:00Z",
+  "lastUpdated": "2026-04-20T01:23:00Z",
   "sessionSummary": "Added GmapsXploit RD report and queue entry. Queued from Telegram X post by @akaclandestine."
 }

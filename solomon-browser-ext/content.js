@@ -15,6 +15,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     clickElement(msg.selector);
     sendResponse({ success: true });
   }
+  return true; // keep channel open for async response
 });
 
 // Extract readable text content from page
@@ -30,26 +31,33 @@ function extractPageContent() {
     prices: []
   };
 
-  // Main text content
-  const main = document.querySelector("main, article, [role='main'], .content, #content") 
+  // Skip chrome:// and other restricted pages
+  if (window.location.protocol.startsWith("chrome")) {
+    return result;
+  }
+
+  // Main text content — try common content containers
+  const main = document.querySelector("main, article, [role='main'], .content, #content, .main, [role='article']") 
     || document.body;
-  result.text = main.innerText?.slice(0, 10000) || "";
+  result.text = main.innerText?.replace(/\s+/g, " ").trim().slice(0, 10000) || "";
 
   // Links
   document.querySelectorAll("a[href]").forEach(a => {
     const text = a.innerText?.trim();
     const href = a.href;
-    if (text && href) result.links.push({ text, href });
+    if (text && href && !href.startsWith("javascript:")) {
+      result.links.push({ text: text.slice(0, 100), href });
+    }
   });
 
-  // Images
+  // Images with alt text
   document.querySelectorAll("img").forEach(img => {
     const alt = img.alt || "";
     const src = img.src || "";
-    if (src) result.images.push({ alt, src });
+    if (src) result.images.push({ alt: alt.slice(0, 100), src });
   });
 
-  // Phone numbers (US format)
+  // Phone numbers (US and international format)
   const phoneRegex = /(\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}/g;
   const phoneMatches = document.body.innerText.match(phoneRegex) || [];
   result.phones = [...new Set(phoneMatches)];
@@ -59,7 +67,7 @@ function extractPageContent() {
   const emailMatches = document.body.innerText.match(emailRegex) || [];
   result.emails = [...new Set(emailMatches)];
 
-  // Prices
+  // Prices (USD and common formats)
   const priceRegex = /\$\d+(?:,\d{3})*(?:\.\d{2})?/g;
   const priceMatches = document.body.innerText.match(priceRegex) || [];
   result.prices = [...new Set(priceMatches)];
@@ -73,8 +81,12 @@ function highlightElement(selector) {
     const el = document.querySelector(selector);
     if (el) {
       el.style.outline = "3px solid #6366f1";
+      el.style.outlineOffset = "2px";
       el.scrollIntoView({ behavior: "smooth", block: "center" });
-      setTimeout(() => el.style.outline = "", 3000);
+      setTimeout(() => {
+        el.style.outline = "";
+        el.style.outlineOffset = "";
+      }, 3000);
     }
   } catch (e) {}
 }
@@ -87,35 +99,31 @@ function clickElement(selector) {
   } catch (e) {}
 }
 
-// Auto-read page for Hermes memory
-async function autoStorePage() {
-  const content = extractPageContent();
-  if (content.text.length > 100) {
-    chrome.runtime.sendMessage({
-      type: "HERMES_STORE",
-      key: `page:${Date.now()}`,
-      value: {
-        url: content.url,
-        title: content.title,
-        phones: content.phones,
-        emails: content.emails,
-        prices: content.prices
-      }
-    });
-  }
-}
-
-// Run on pages that look important (not chrome://, etc.)
+// Auto-read page for Hermes memory (debounced)
+let autoStoreTimer = null;
 if (!window.location.protocol.startsWith("chrome")) {
-  // Debounced auto-store (once per page load)
-  let stored = false;
   const observer = new MutationObserver(() => {
-    if (!stored && document.readyState === "complete") {
-      setTimeout(() => {
-        autoStorePage();
-        stored = true;
-      }, 2000);
-    }
+    if (autoStoreTimer) clearTimeout(autoStoreTimer);
+    autoStoreTimer = setTimeout(() => {
+      const content = extractPageContent();
+      if (content.text.length > 100) {
+        chrome.runtime.sendMessage({
+          type: "HERMES_STORE",
+          key: `page:${Date.now()}`,
+          value: {
+            url: content.url,
+            title: content.title,
+            phones: content.phones,
+            emails: content.emails,
+            prices: content.prices,
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+    }, 2000);
   });
-  observer.observe(document.body, { childList: true, subtree: true });
+  
+  if (document.body) {
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
 }

@@ -1,6 +1,5 @@
 // Solomon Browser — Popup Script
 
-// Elements
 const dialBtn = document.getElementById("dialBtn");
 const smsBtn = document.getElementById("smsBtn");
 const assignBtn = document.getElementById("assignBtn");
