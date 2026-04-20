@@ -32,11 +32,11 @@
 - ** pantheon-security/medusa** — 9,600+ AI security patterns, 200 CVE detections, GitHub repo scan via `medusa scan --git`
 - ** koatora20/guard-scanner** — MIT, 364 patterns, 35 threat categories, OWASP Agentic Top 10 compliance
 - ** agentverus/agentverus-scanner** — MIT, TypeScript trust/safety scanner for agent skills (prompt injection, exfil, 10+ threat categories)
-- ** firmislabs/firmis-scanner** — Apache 2.0, multi-platform agent security scanner (242 rules, 21 threat categories)
-- ** vigile-ai/vigile-scan** — Apache 2.0, MCP server + agent skill scanner with trust scores (59 rules)
-- ** agentseal/agentseal** — 225+ tests, 28 agents, red-teaming + supply-chain audits for AI agents
+- ** firmislabs/firmis-scanner** — Apache 2.0, multi-platform agent security scanner (269 rules, 26 threat categories, BOM generation, compliance mapping)
+- ** vigile-ai/vigile-scan** — Apache 2.0, MCP server + agent skill scanner with trust scores (59 rules), Sentinel runtime monitoring
+- ** agentseal/agentseal** — FSL-Apache 2.0, 225+ tests, 28 agents, 6-stage detection pipeline (pattern→deobfuscation→semantic→baseline→registry→YAML)
 - ** raxe-ai/raxe-ce** — 515+ L1 rules + on-device ML ensemble, 94.7% TP rate, runtime prompt injection protection
-- ** opena2a-org/hackmyagent** — 164 adversarial payloads, 209 static checks, semantic security analysis for agent skills
+- ** opena2a-org/hackmyagent** — 209 static checks + 29 semantic checks + NanoMind semantic compiler, Abstract Security Tree, self-securing binary
 - ** sammwyy/agentlib** — MIT, TypeScript agent framework with fluent API, pluggable reasoning engines, token budgeting, session isolation
 
 ## Distributed AI Compute (AgentFM Competitors)
