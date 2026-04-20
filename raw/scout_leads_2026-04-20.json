@@ -1,152 +1,112 @@
 [
   {
     "date": "2026-04-20",
-    "business_name": "Covina Ca Locksmith",
-    "url": "https://www.covinacalocksmith.com",
-    "seo_score": 53,
+    "business_name": "Bredahl Plumbing Inc.",
+    "url": "https://bredahlplumbing.com/",
+    "seo_score": 74,
     "top_issues": [
-      "Missing alt text on all images",
-      "No Open Graph meta tags",
-      "No Twitter Card meta tags"
+      "Title tag too long (63 chars, optimal 50-60)",
+      "Meta description too short (under 150 chars)",
+      "H1 tag missing or not unique",
+      "Images missing alt text",
+      "Images not using lazy loading"
     ],
     "contact_method": "email",
-    "contact_value": "admin@covinacalocksmith.com",
-    "phone": "(626) 593-2011",
-    "status": "emailed"
+    "status": "pitched"
   },
   {
     "date": "2026-04-20",
-    "business_name": "Farmington Hills MI Locksmith",
-    "url": "https://www.farmingtonhillsmilocksmith.com",
-    "seo_score": 58,
+    "business_name": "AE Plumbing Services",
+    "url": "https://ae303.com/",
+    "seo_score": 63,
     "top_issues": [
-      "Missing alt text on images",
-      "No Open Graph meta tags",
-      "No Twitter Card meta tags"
-    ],
-    "contact_method": "email",
-    "contact_value": "info@farmingtonhillsmilocksmith.com",
-    "phone": "(248) 939-5075",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-20",
-    "business_name": "Onalaska Dental Smiles",
-    "url": "https://onalaskasmilesdental.com",
-    "seo_score": 58,
-    "top_issues": [
-      "Missing alt text on images",
-      "No Open Graph meta tags",
-      "No Twitter Card meta tags"
-    ],
-    "contact_method": "email",
-    "contact_value": "info@onalaskasmilesdental.com",
-    "phone": "(608) 783-6384",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-20",
-    "business_name": "StrongTower Lock & Key",
-    "url": "https://www.strongtowerlockandkey.com",
-    "seo_score": 68,
-    "top_issues": [
-      "Missing canonical tag",
-      "Title tag too short (37 chars, should be 50-60)",
+      "Server response time slow (694ms, target <500ms)",
+      "Title tag too short (39 chars, optimal 50-60)",
+      "No Open Graph tags",
+      "No Twitter Card meta",
       "Meta description too short"
     ],
     "contact_method": "email",
-    "contact_value": "info@strongtowerlockandkey.com",
-    "phone": "(484) 484-3518",
-    "status": "pending"
+    "status": "pitched"
   },
   {
     "date": "2026-04-20",
-    "business_name": "Stoneman HVAC",
-    "url": "https://stonemanhvac.com",
-    "seo_score": 68,
+    "business_name": "Village Ace Hardware - Locksmith",
+    "url": "https://villageace.com/locksmith/",
+    "seo_score": 84,
     "top_issues": [
-      "Missing canonical tag",
-      "Title tag too long (63 chars, should be 50-60)",
-      "Images missing alt text"
+      "Title tag too short (48 chars, optimal 50-60)",
+      "Images not using lazy loading",
+      "Meta description length off"
     ],
     "contact_method": "email",
-    "contact_value": "info@stonemanhvac.com",
-    "phone": null,
-    "status": "pending"
+    "status": "pitched"
   },
   {
     "date": "2026-04-20",
-    "business_name": "Trinity Dental GA",
-    "url": "https://trinitydentalga.com",
-    "seo_score": 68,
-    "top_issues": [
-      "Images missing alt text",
-      "No Open Graph meta tags",
-      "Slow server response time (1030ms)"
-    ],
-    "contact_method": "email",
-    "contact_value": "info@trinitydentalga.com",
-    "phone": null,
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-20",
-    "business_name": "North Tarrant Heat & Air",
-    "url": "https://www.northtarrantac.com",
-    "seo_score": 74,
-    "top_issues": [
-      "Images missing alt text",
-      "No Open Graph meta tags",
-      "Slow server response time (1308ms)"
-    ],
-    "contact_method": "email",
-    "contact_value": "info@northtarrantac.com",
-    "phone": null,
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-20",
-    "business_name": "Citywide Lock & Key",
-    "url": "https://www.citywidelockandkey.com",
-    "seo_score": 74,
-    "top_issues": [
-      "Title too long (74 chars)",
-      "Meta description too short",
-      "H1 tag issues"
-    ],
-    "contact_method": "email",
-    "contact_value": "info@citywidelockandkey.com",
-    "phone": "(443) 578-1686",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-20",
-    "business_name": "Kwikey Locksmith Services",
-    "url": "https://kwikeylocksmithservices.com",
+    "business_name": "Belton Locksmith",
+    "url": "https://www.beltonlocksmith254.com/",
     "seo_score": 79,
     "top_issues": [
-      "Slow server response time (1562ms)",
-      "Meta description too short",
-      "Images missing alt text"
+      "Title tag too short (42 chars)",
+      "Images missing alt text",
+      "Images not using lazy loading",
+      "Meta description length off"
     ],
     "contact_method": "email",
-    "contact_value": "info@kwikeylocksmithservices.com",
-    "phone": "(561) 328-3308",
-    "status": "pending"
+    "status": "pitched"
   },
   {
     "date": "2026-04-20",
-    "business_name": "Shipley Plumbing",
-    "url": "https://shipleyplumbing.com",
-    "seo_score": 79,
+    "business_name": "Windy City Movers",
+    "url": "https://www.windycitymoversinc.com/service-area/elmhurst-il",
+    "seo_score": 89,
     "top_issues": [
-      "H1 tag issues",
-      "Meta description too short",
-      "Images missing alt text"
+      "Title tag too long (65 chars)",
+      "Meta description length off"
     ],
     "contact_method": "email",
-    "contact_value": "info@shipleyplumbing.com",
-    "phone": null,
-    "status": "pending"
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Ewing Automotive",
+    "url": "https://www.ewingautomotivetx.com/",
+    "seo_score": 89,
+    "top_issues": [
+      "Title tag too long (61 chars)",
+      "Meta description length off"
+    ],
+    "contact_method": "email",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Carlton's Auto Service",
+    "url": "https://www.carltonsautoservice.com/",
+    "seo_score": 74,
+    "top_issues": [
+      "Title tag too long (68 chars)",
+      "Meta description too short",
+      "H1 tag missing or not unique",
+      "Images missing alt text",
+      "Images not using lazy loading"
+    ],
+    "contact_method": "email",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-20",
+    "business_name": "Luks Realty",
+    "url": "https://www.luksrealty.com/",
+    "seo_score": 79,
+    "top_issues": [
+      "Title tag too long (89 chars)",
+      "H1 tag missing or not unique",
+      "Images missing alt text",
+      "Images not using lazy loading"
+    ],
+    "contact_method": "email",
+    "status": "pitched"
   }
 ]

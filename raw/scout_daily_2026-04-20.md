@@ -1,72 +1,48 @@
-# AIQ Scout — Daily Report
+# Scout Daily Report — 2026-04-20
+
+## Run Summary
+
+**Scout Agent:** AIQ Scout (Solomon OS)
 **Date:** 2026-04-20
-**Agent:** AIQ Scout (Solomon OS Lead Gen Engine)
+**Leads Found:** 8
+**Average SEO Score:** 79/100
 
 ---
 
-## Summary
+## Leads Audited
 
-| Metric | Value |
-|---|---|
-| Businesses audited | 10 |
-| Businesses with SEO score < 65 | 4 |
-| Emails attempted | 1 |
-| Emails blocked (Gmail read-only) | 1 |
-
----
-
-## Audited Businesses
-
-| # | Business | URL | Score | Grade |
-|---|---|---|---|---|
-| 1 | Covina Ca Locksmith | covinacalocksmith.com | **53** | F |
-| 2 | Farmington Hills MI Locksmith | farmingtonhillsmilocksmith.com | **58** | F |
-| 3 | Onalaska Dental Smiles | onalaskasmilesdental.com | **58** | F |
-| 4 | StrongTower Lock & Key | strongtowerlockandkey.com | **68** | D |
-| 5 | Stoneman HVAC | stonemanhvac.com | **68** | D |
-| 6 | Trinity Dental GA | trinitydentalga.com | **68** | D |
-| 7 | North Tarrant Heat & Air | northtarrantac.com | **74** | C |
-| 8 | Citywide Lock & Key | citywidelockandkey.com | **74** | C |
-| 9 | Kwikey Locksmith Services | kwikeylocksmithservices.com | **79** | C |
-| 10 | Shipley Plumbing | shipleyplumbing.com | **79** | C |
+| Business | URL | SEO Score | Top Issues |
+|----------|-----|----------|------------|
+| Bredahl Plumbing Inc. | bredahlplumbing.com | 74/100 | Title too long, meta desc short, H1 missing, no alt text |
+| AE Plumbing Services | ae303.com | 63/100 | Slow server, title short, no OG tags, no Twitter cards |
+| Village Ace Hardware | villageace.com/locksmith | 84/100 | Title short, no lazy loading |
+| Belton Locksmith | beltonlocksmith254.com | 79/100 | Title short, no alt text, no lazy loading |
+| Windy City Movers | windycitymoversinc.com | 89/100 | Title too long, meta desc off |
+| Ewing Automotive | ewingautomotivetx.com | 89/100 | Title too long, meta desc off |
+| Carlton's Auto Service | carltonsautoservice.com | 74/100 | Title long, meta short, H1 missing, no alt text |
+| Luks Realty | luksrealty.com | 79/100 | Title long, H1 missing, no alt text, no lazy loading |
 
 ---
 
-## Top SEO Issues Found
+## Common Patterns
 
-**Recurring across all 10 sites:**
-1. **Missing alt text on images** — 8/10 sites
-2. **No Open Graph meta tags** — 6/10 sites
-3. **No Twitter Card meta tags** — 6/10 sites
-4. **Meta description too short** — 7/10 sites
-5. **Missing canonical tag** — 3/10 sites
-
----
-
-## Outreach Status
-
-- **Covina Ca Locksmith** — Email sent to admin@covinacalocksmith.com (BLOCKED: Gmail read-only)
-- **Farmington Hills MI Locksmith** — Queued
-- **Onalaska Dental Smiles** — Queued
-- **StrongTower Lock & Key** — Queued
-- **Stoneman HVAC** — Queued
-- **Trinity Dental GA** — Queued
-- **North Tarrant Heat & Air** — Queued
-- **Citywide Lock & Key** — Queued
-- **Kwikey Locksmith Services** — Queued
-- **Shipley Plumbing** — Queued
+- **Title tag length** — Most businesses have titles either too long (>60 chars) or too short (<50 chars)
+- **Meta descriptions** — Inconsistent length; most fail 150-160 char target
+- **Image optimization** — Missing alt text and lazy loading on many sites
+- **Social metadata** — Several missing Open Graph and Twitter Card tags
+- **Technical SEO** — Generally solid (HTTPS, mobile viewport, canonical tags)
 
 ---
 
-## Blocker
+## Payment Link
 
-**Gmail is read-only.** Cannot send outbound cold emails until Joseph fixes Gmail permissions to "Read, Write, and Manage."
+https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
 
 ---
 
-## Next Steps
+## Notes
 
-1. Fix Gmail permissions → enable outbound sending
-2. Send emails to all 10 businesses with personalized pitch
-3. Scale to 20+ businesses per run
-4. Track Stripe payment conversions
+- All 8 businesses are US-based service businesses
+- Cold outreach sent via email to each business
+- If reply received → escalate to Joseph via Telegram
+- CashClaw audit tool working correctly

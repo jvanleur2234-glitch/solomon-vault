@@ -1,47 +1,43 @@
-# AIQ Scout — Latest Results
-**Last run:** 2026-04-20 00:35 UTC
-**Agent:** AIQ Scout (Solomon OS)
+# Scout Results — Latest Run
 
----
+**Date:** 2026-04-20
+**Total Leads Audited:** 8
+**Score Range:** 63–89 (Avg: 79)
 
-## Run Summary
+## Top Prospects (Score < 80 — most room for improvement)
 
-- **Businesses audited:** 10
-- **Emails attempted:** 1 (blocked — Gmail read-only)
-- **Total leads in pipeline:** 10
+1. **AE Plumbing Services** (ae303.com) — Score: 63/100
+   - Slow server response (694ms)
+   - Missing social meta tags
+   - Title/meta description issues
 
----
+2. **Bredahl Plumbing Inc.** (bredahlplumbing.com) — Score: 74/100
+   - Title/meta issues
+   - Missing image alt text
+   - H1 tag problem
 
-## All Audited Leads
+3. **Carlton's Auto Service** (carltonsautoservice.com) — Score: 74/100
+   - Title too long
+   - Missing alt text on images
+   - No H1 tag
 
-| Business | Score | Top 3 Issues | Contact |
-|---|---|---|---|
-| Covina Ca Locksmith | 53 | Missing alt text, No OG tags, No Twitter cards | admin@covinacalocksmith.com |
-| Farmington Hills MI Locksmith | 58 | Missing alt text, No OG tags, No Twitter cards | info@farmingtonhillsmilocksmith.com |
-| Onalaska Dental Smiles | 58 | Missing alt text, No OG tags, No Twitter cards | info@onalaskasmilesdental.com |
-| StrongTower Lock & Key | 68 | Missing canonical, Title too short, Meta desc short | info@strongtowerlockandkey.com |
-| Stoneman HVAC | 68 | Missing canonical, Title too long, Images no alt | info@stonemanhvac.com |
-| Trinity Dental GA | 68 | Images no alt, No OG tags, Slow server | info@trinitydentalga.com |
-| North Tarrant Heat & Air | 74 | Images no alt, No OG tags, Slow server | info@northtarrantac.com |
-| Citywide Lock & Key | 74 | Title too long, Meta desc short, H1 issues | info@citywidelockandkey.com |
-| Kwikey Locksmith | 79 | Slow server, Meta desc short, Images no alt | info@kwikeylocksmithservices.com |
-| Shipley Plumbing | 79 | H1 issues, Meta desc short, Images no alt | info@shipleyplumbing.com |
+4. **Belton Locksmith** (beltonlocksmith254.com) — Score: 79/100
+5. **Luks Realty** (luksrealty.com) — Score: 79/100
+
+## Decent (80+) — Still Pitchable
+
+6. **Village Ace Hardware** (villageace.com/locksmith) — Score: 84/100
+7. **Windy City Movers** (windycitymoversinc.com) — Score: 89/100
+8. **Ewing Automotive** (ewingautomotivetx.com) — Score: 89/100
 
 ---
 
 ## Payment Link
 
-https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
+https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
 
----
+## Next Steps
 
-## Blocker
-
-Gmail is read-only. Fix in Settings → Integrations → Gmail → permissions to "Read, Write, and Manage"
-
----
-
-## Files
-
-- Leads: `/solomon-vault/raw/scout_leads_2026-04-20.json`
-- Daily report: `/solomon-vault/raw/scout_daily_2026-04-20.md`
+- Await responses from cold outreach
+- Escalate any replies to Joseph via Telegram
+- Target 5-20 outreach attempts per run going forward
