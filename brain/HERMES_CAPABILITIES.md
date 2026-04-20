@@ -157,3 +157,14 @@
 
 ---
 *Last updated: 2026-04-20 19:40 UTC — AIQ Scout Hourly Session*
+
+## Solomon Browser Agent (added 2026-04-20)
+- **Script:** `/home/workspace/solomon-vault/raw/browser_agent.py`
+- **Dashboard:** https://josephv.zo.space/browser-agent
+- **API:** https://josephv.zo.space/api/browser-agent
+- **What it does:** Autonomous web agent — takes a natural language task, controls a headless Chromium browser via Playwright, executes multi-step workflows (navigate, click, fill, scroll, extract, screenshot), powered by Groq/Llama3.3 or Claude or GPT-4o
+- **Actions:** navigate, click, fill, press, scroll, wait, extract, screenshot, get_page_info
+- **Queue worker:** `browser_agent_queue.sh` (background, process-only service `svc_6pqw2UJyZxs`)
+- **Task state:** `/home/workspace/solomon-vault/raw/browser_agent_tasks.json`
+- **Task history:** `/home/workspace/solomon-vault/raw/browser_agent_history/`
+- **Note:** Uses local Playwright (no external cloud). Groq/Llama3.3-70B is the default LLM.
