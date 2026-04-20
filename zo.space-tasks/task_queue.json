@@ -393,7 +393,7 @@
       "name": "Paperclip Company Generator \u2014 JackConnect Template Equivalent",
       "type": "rd-research",
       "priority": "high",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T18:25:00Z",
       "notes": "SKILL. Aron Prins X post. AI skill generates fully importable company with all workflows customized. Build JackConnect equivalent \u2014 real estate company templates that generate JackConnect with client branding + workflows pre-configured. Status: SKILL. Source: https://x.com/i/status/2046269070643757221"
     },
@@ -402,7 +402,7 @@
       "name": "Paperclip Company Generator \u2014 AI Agent Companies from One Prompt",
       "type": "rd-research",
       "priority": "high",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T18:50:00Z",
       "notes": "RD_REPORT: paperclip-company-generator.md. INTEGRATE. Fork company generator concept for JackConnect. Study Aron Prins Paperclip Desktop. 13.5K stars, MIT. Generates full AI company per client job."
     },
@@ -411,7 +411,7 @@
       "name": "Paperclip Desktop \u2014 Mac App for AI Agent Orchestration",
       "type": "rd-research",
       "priority": "normal",
-      "status": "pending",
+      "status": "completed",
       "addedAt": "2026-04-20T18:50:00Z",
       "notes": "Aron Prins desktop app for Paperclip. One-click AI agent orchestration, no terminal. 400+ stars in 9 days. MIT license. Mac-only now, potential cross-platform."
     }
