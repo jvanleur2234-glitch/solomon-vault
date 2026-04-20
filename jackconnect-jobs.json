@@ -1,0 +1,23 @@
+{
+  "jobs": [
+    {
+      "jobId": "JC-MO6NZCND-T8KE",
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "",
+      "jobType": "seo-audit",
+      "serviceLabel": "SEO Audit",
+      "url": "https://test.com",
+      "notes": "Test note",
+      "timeline": "",
+      "price": 150,
+      "status": "queued",
+      "createdAt": "2026-04-20T03:57:43.753Z",
+      "updatedAt": "2026-04-20T03:57:43.753Z",
+      "completedAt": null,
+      "completedNotes": "",
+      "invoiceUrl": null,
+      "stripePaymentLink": "https://buy.stripe.com/test_seo_D-T8KE"
+    }
+  ]
+}
