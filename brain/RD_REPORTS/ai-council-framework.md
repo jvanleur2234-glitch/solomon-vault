@@ -1,36 +1,27 @@
-# RD Report: AI Council Framework
+# RD Report: ai-council-framework — Deliberative AI Council Methodology
 
+**Date:** 2026-04-21  
 **Repo:** focuslead/ai-council-framework  
-**Fork:** https://github.com/jvanleur2234-glitch/ai-council-framework  
-**Stars:** Unknown (new discovery)  
+**URL:** https://github.com/focuslead/ai-council-framework  
 **License:** MIT  
-**Date:** 2026-04-20
+**Stars:** ~low (new)  
+**Relevance:** Multi-agent deliberation, consensus synthesis, anti-sycophancy  
 
 ## What It Is
+A research-backed methodology for orchestrating multiple AI models into a deliberative council to improve decision quality, reduce hallucinations, and counter bias through parallel consultation, structured debate, and consensus synthesis.
 
-A structured multi-AI deliberative decision-making framework that orchestrates multiple AI models into a council. Reduces hallucinations and sycophancy through parallel consultation, structured debate, evidence-based stance changes, and consensus synthesis. Targets the "Council of High Intelligence" competitor space.
+## Key Capabilities
+- **6-phase workflow:** Distribute → Collect → Synthesize → Debate (up to 3 rounds) → Verify → Deliver
+- **Consensus depth modes:** QUICK, BALANCED, THOROUGH, RIGOROUS, EXHAUSTIVE
+- **Anti-sycophancy protocol** — independent initial positions, evidence-based stance changes
+- **Dissent preservation** — minority positions retained in final output
+- **Confidence-weighted voting** with threshold calibration
+- **Web verification** integration in final phase
 
-## Key Features
+## Relevance to Solomon OS / Hermes
+- Consensus-driven decision making aligns with multi-agent Hermes workflows
+- Anti-sycophancy protocol directly addresses prompt injection defense
+- MIT licensed for commercial fork
 
-- **5 consensus modes:** QUICK, BALANCED, THOROUGH, RIGOROUS, EXHAUSTIVE — balancing speed vs rigor
-- **Anti-sycophancy protocols:** Independent first-round responses, evidence-based stance changes, confidence-weighted voting, minority position protection
-- **Debate rounds:** Bounded debate with evidence requests up to configurable rounds
-- **Validation:** Fresh validation + optional web verification before final recommendation
-- **Confidence scores:** Output includes confidence scores and transparency on consensus path
-
-## Relevance to Solomon OS
-
-- Multi-agent deliberation directly competes with the Council of High Intelligence concept
-- Could be integrated as a deliberation engine for Hermes decision-making
-- Anti-sycophancy protocols are valuable for business logic validation
-- MIT licensed — safe to fork and adapt
-
-## Comparison to Existing
-
-- Similar to `spectra` (already forked) but more focused on collaborative decision-making
-- Different from `Quorum` — more research-backed methodology vs voting mechanics
-- Aligns with the "multi-agent critical thinking" need in Hermes
-
-## Recommendation
-
-**SKILL** — Evaluate as a deliberation engine for Solomon OS council features. The anti-sychophancy and confidence scoring are valuable for business-grade AI decisions.
+## Verdict
+**FORGE** — Fork for Solomon OS decision-making layer. The anti-sycophancy and dissent preservation mechanisms are valuable for high-stakes agent decisions.

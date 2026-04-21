@@ -1,29 +1,26 @@
-# RD Report: Dialectic Agent-Native
+# RD Report: dialectic-agentic — Multi-Agent Design Debate System
 
-**Repo:** `slior/dialectic-agentic`  
-**License:** MIT | **Lang:** Markdown/Config  
+**Date:** 2026-04-21  
+**Repo:** slior/dialectic-agentic  
+**URL:** https://github.com/slior/dialectic-agentic/tree/master  
+**License:** MIT  
+**Stars:** ~low (new)  
+**Relevance:** Multi-agent deliberation, design debate, structured proposals  
 
-## What It Does
-Multi-agent design debate system using only skill files, prompt files, and JSON config — no code required. Runs on any agentic platform supporting subagent dispatch.
-
-## Why It Matters for Solomon OS
-- **No-Code Debate Framework**: Define debates entirely in markdown/JSON
-- **Structured Deliberation**: Proposals → Critiques → Refinements → Judge verdict
-- **Agent-Native**: Works with Cursor, Claude Code, any platform with Task tool
-- **Audit-Ready Output**: Full transcript in markdown files
+## What It Is
+A fully agent-native design-debate system where multiple specialized AI agents (architect, security, performance, simplicity) engage in structured rounds of proposals, critiques, and refinements to solve design problems. A judge evaluates convergence after each round.
 
 ## Key Capabilities
-- Multiple expert roles (architect, security, performance, simplicity)
-- Judge evaluates convergence after each round
-- Configurable convergence criteria
-- Optional clarifications phase
-- Full debate transcript in human-readable markdown
-- Deterministic replay via JSON config
+- **Skill-file based** — works on any agentic platform supporting subagent dispatch + file I/O
+- **No traditional code** — declarative via problem.md + debate-config.json
+- **Structured rounds:** proposals → critiques → refinements → verdict
+- **Judge evaluation** for convergence detection
+- **Full trace output** per round with synthesis
 
-## Comparison to What We Have
-vs **Quorum**: Dialectic is design-focused, code-free. Quorum is multi-provider, production deliberation. Different use cases, both valuable.
+## Relevance to Solomon OS / Hermes
+- Declarative debate system fits Hermes skill-based architecture
+- Useful for design decisions within Solomon OS agent workflows
+- MIT licensed
 
-## Recommendation
-**SKILL** — Useful for Solomon OS decision-making layer. Implement in Hermes for architectural decisions.
-
-**Category:** #multi-agent #deliberation #decision-making
+## Verdict
+**SKILL** — Fork for Solomon OS design review capabilities. The structured debate format could become a "skill review" workflow for Hermes skill evaluation.

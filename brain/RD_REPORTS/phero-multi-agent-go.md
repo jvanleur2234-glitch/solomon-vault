@@ -1,30 +1,29 @@
-# phero — Multi-Agent AI System (Go)
+# RD Report: phero — Go Multi-Agent Framework
 
-**Already cloned:** `/home/workspace/phero`
-**Stars:** Unknown (v0.0.4, April 2026)
-**License:** Apache 2.0
-**Category:** agent-framework #multi-agent #go
+**Date:** 2026-04-21  
+**Repo:** henomis/phero  
+**URL:** https://github.com/henomis/phero  
+**License:** Apache-2.0  
+**Stars:** ~low (new)  
+**Relevance:** Agent orchestration, multi-agent workflows, A2A protocol, skill system  
 
 ## What It Is
-Modern Go framework for building multi-agent AI systems with agent orchestration, role specialization, and runtime handoffs. A2A protocol, LLM abstraction, MCP support.
+A Go 1.25+ framework for building multi-agent AI systems with agent-to-agent communication via A2A protocol, MCP support, and a skills ecosystem defined by SKILL.md files.
 
-## Key Features
-1. **Agent orchestration + handoffs** — Result.HandoffAgent for multi-agent workflows
-2. **A2A (agent-to-agent) protocol** — expose agents as HTTP servers or invoke remote agents as tools
-3. **Multi-LLM support** — OpenAI-compatible + Anthropic
-4. **Tool-first design** — function tools, automatic JSON Schema, embedded RAG
-5. **Memory management** — conversational context, vector stores (Qdrant, pgvector, Weaviate)
-6. **Guardrails** — safe-mode, blocklist/allowlist, timeouts
-7. **Tracing + observability**
+## Key Capabilities
+- **Multi-agent orchestration** with role specialization and runtime handoffs
+- **A2A protocol** — agents exposed as HTTP servers or consumed as local tools
+- **LLM middleware** for cross-cutting behaviors
+- **Skills system** (SKILL.md-based), memory management, MCP support
+- **RAG/vector stores** (Qdrant, pgvector, Weaviate)
+- **Tool guardrails** with blocklists/allowlists and timeouts
+- **OpenAI-compatible** endpoints + Anthropic
 
-## Key Patterns for Solomon OS
-1. **A2A protocol** → maps to Solomon Bus inter-agent communication
-2. **Agent handoffs** → how do agents transfer control? Study this pattern
-3. **Built-in RAG** → memory layer for Hermes could use this
-4. **Go-based** → single binary, type-safe, production-ready
+## Relevance to Solomon OS / Hermes
+- Go-based = zero dependencies, single-binary deploy (Solomon OS philosophy)
+- A2A protocol aligns with Hermes' delegate_tool inter-agent communication
+- Skills ecosystem matches Hermes SKILL.md pattern
+- MIT/Apache compatible for commercial use
 
 ## Verdict
-**INTEGRATE** — Apache 2.0, Go, A2A protocol. The agent handoff pattern is directly applicable to Solomon Bus. Study for multi-agent Solomon OS architecture.
-
-## Links
-- https://github.com/henomis/phero
+**SKILL** — Fork for Hermes Go agent capabilities. The A2A protocol and skills system are directly applicable to Solomon OS inter-agent communication.

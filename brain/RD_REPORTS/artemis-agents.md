@@ -1,28 +1,28 @@
-# ARTEMIS Agents — RD Report
+# RD Report: artemis-agents — Structured Debate Multi-Agent Framework
 
-## Summary
-**Repo:** `bassrehab/artemis-agents`  
-**License:** Apache 2.0  
-**Stars:** ~500+ (estimated)  
-**Language:** Python  
+**Date:** 2026-04-21  
+**Repo:** bassrehab/artemis-agents  
+**URL:** https://github.com/bassrehab/artemis-agents  
+**License:** MIT  
+**Stars:** ~low (new)  
+**Relevance:** Multi-agent deliberation, structured debate, adversarial reasoning  
 
-## What It Does
-Purpose-built multi-agent debate framework with structured argumentation. Key differentiators:
-- **H-L-DAG:** Hierarchical argument generation for context-aware synthesis
-- **L-AE-CR:** Adaptive evaluation with causal reasoning — dynamic criteria weighting
-- **Jury Scoring:** Multi-perspective evaluation of arguments
-- **Safety Monitoring:** Real-time detection of sandbagging, deception, manipulation
-- **Reasoning model support:** o1/R1 native
-- **MCP server mode:** Can run as MCP server
-- **Real-time streaming, hierarchical debates, multimodal evidence** (v2)
+## What It Is
+ARTEMIS is an open-source framework for structured, debate-driven multi-agent decision-making using hierarchical argument generation (H-L-DAG), adaptive evaluation with causal reasoning, jury-style scoring, and built-in ethics/safety monitoring.
 
-## For Solomon OS / Hermes
-- **Deliberation layer:** ARTEMIS could power Solomon's "Council of High Intelligence" — structured multi-perspective debate for complex decisions
-- **Safety:** Sandbagging/deception detection aligns with Guardian security posture
-- **Comparison to Quorum:** ARTEMIS is more structured (H-L-DAG + causal reasoning) vs Quorum's 7-phase procedural flow
-- **Recommendation:** SKILL — worth integrating as deliberation engine for high-stakes decisions
+## Key Capabilities
+- **N-agent debates** with dynamic evaluation weights
+- **Hierarchical argument generation** (H-L-DAG)
+- **Adaptive evaluation** with causal reasoning (L-AE-CR)
+- **Jury-style scoring** with built-in ethics
+- **Sandbagging detection** for deception identification
+- **Streaming support**, multimodal evidence (v2), steering vectors
+- **Reasoning model support** (o1/R1 native models)
 
-## Fork Status
-Forked to `jvanleur2234-glitch/artemis-agents` ✅
+## Relevance to Solomon OS / Hermes
+- Structured deliberation aligns with "Council of High Intelligence" concept for Solomon OS
+- Adversarial evaluation useful for security scanning workflows
+- MIT licensed, clean for commercial fork
 
-## Priority: 🟡 Worthwhile
+## Verdict
+**FORGE** — Fork for Solomon OS deliberation engine. Hierarchical debate + ethics monitoring fits the "Council of High Intelligence" concept in the roadmap.

@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-04-21",
+    "business_name": "EZ Plumbing & Drains",
+    "url": "https://www.ezplumbingmn.com/",
+    "seo_score": 79,
+    "top_issues": ["Missing alt text on images", "Images not lazy loaded", "Meta description too short"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "John Shelton Plumbing",
+    "url": "https://johnsheltonplumbing.com/",
+    "seo_score": 84,
+    "top_issues": ["Slow server response time", "Meta description too short", "Missing alt text on images"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "Stanfield Plumbing",
+    "url": "https://www.stanfieldplumbingok.com/",
+    "seo_score": 68,
+    "top_issues": ["Missing favicon", "Missing alt text on images", "Title too short (44 chars)"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "Weaver Heating & Air",
+    "url": "https://weaverheatingandairinc.com/repair/",
+    "seo_score": 74,
+    "top_issues": ["No Open Graph tags", "Missing alt text on images", "Title too short"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "Smile Doc Dentist",
+    "url": "https://smiledocdentist.com/dentist-near-me/",
+    "seo_score": 79,
+    "top_issues": ["No Twitter Card meta", "Images not lazy loaded", "Missing favicon"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "Belton Locksmith",
+    "url": "https://www.beltonlocksmith254.com/",
+    "seo_score": 74,
+    "top_issues": ["Title too short", "Missing alt text on images", "Images not lazy loaded"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "West End Safe & Lock",
+    "url": "https://www.westendsafeandlock.com/residential-locksmith-services",
+    "seo_score": 74,
+    "top_issues": ["Meta description too short", "Missing alt text on images", "Images not lazy loaded"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "Kreit Dental",
+    "url": "https://kreitdental.com/dentist-near-me/",
+    "seo_score": 58,
+    "top_issues": ["No Twitter Card meta", "No canonical tag", "Title too short (36 chars)"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "ValleyWide Dental",
+    "url": "https://valleywidedental.com/dentist-near-me/",
+    "seo_score": 63,
+    "top_issues": ["No Twitter Card meta", "No canonical tag", "Title too long (62 chars)"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "George's Heat & Air",
+    "url": "https://georgesheatandair.com/",
+    "seo_score": 74,
+    "top_issues": ["No Open Graph tags", "No H1 tag", "Missing alt text on images"],
+    "contact_method": "website_contact_form",
+    "status": "pitched"
+  }
+]
