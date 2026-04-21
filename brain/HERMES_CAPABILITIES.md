@@ -170,3 +170,6 @@
 - **Task state:** `/home/workspace/solomon-vault/raw/browser_agent_tasks.json`
 - **Task history:** `/home/workspace/solomon-vault/raw/browser_agent_history/`
 - **Note:** Uses local Playwright (no external cloud). Groq/Llama3.3-70B is the default LLM.
+
+## Memory & Knowledge Graphs
+- ** topoteretes/cognee** — Apache 2.0, persistent memory for AI agents via vector+graph knowledge engine, 16.5K stars. ECL pipeline (Extract→Cognify→Load), 30+ data sources, MCP server, CLI+UI. Drop-in memory layer for Hermes agents.

@@ -1,43 +1,34 @@
-# RD Report: Omi AI — Desktop "Life Architect"
+# RD Report: Omi AI — Desktop "Life Architect" (Now Open Source)
 
 **URL:** https://x.com/kodjima33/status/2046357870426419223
 **Date:** 2026-04-20
-**Platform:** X/Twitter + omi.me
-**Stars:** 8,000+ (GitHub, viral launch April 14)
+**Platform:** X/Twitter + omi.me + GitHub
+**Stars:** 8,000+ (viral launch April 14, 2026)
 **License:** Open source
 
 ## What It Is
-Omi is a desktop AI that acts as a "life architect" — sees your screen, hears conversations, tells you what to do next. Built by Nik Shevchenko (Thiel Fellow).
+Omi is a desktop AI "life architect" that sees your screen, hears conversations, tells you what to do next. Built by Nik Shevchenko (Thiel Fellow). April 20: announced fully open source.
 
 **Today (April 20):** Announced fully open source:
-- Clone with `omi .me` (GitHub one-liner)
-- BYOK (bring your own keys) — use with no limits
-- Ask Omi to "vibecode itself" and it will
-- Local backend install in 1 command coming soon
+- Clone at github.com/omyghtght/omi
+- Also open-sourced Omi Desktop Mac app (omi.me/macos)
+- Omi Cloud still runs as hosted service
 
-**Original launch (April 14):** Went viral with 1.4M views, 6K likes in 6 days.
+**Core Features:**
+- Screen and audio awareness
+- Persistent memory of your digital life
+- Actionable next-step suggestions
+- Local-first, privacy-conscious
 
-## What It Does
-- Monitors screen + audio in real-time
-- Acts as persistent second brain with actual attention
-- Open source, local, privacy-first
-- Self-modifying: can "vibecode itself"
+## Key Insights
+- 8K stars in 6 days = fastest-growing AI desktop app since Raycast
+- Open source = clone + customize for JackConnect use case
+- "Life architect" positioning = exactly the Solomon OS value prop for clients
 
-## Relevance to JCPaid/Solomon OS
-**Low-Medium** — Different focus (personal desktop assistant vs. business automation), but the "self-vibecoding" and persistent context features are similar to what Solomon Browser aims to do.
-
-Could inspire:
-- Solomon Browser persistent memory improvements
-- Screen-watching capability for context-aware automation
-
-## Comparison to Alternatives
-- **Solomon Browser:** Similar DOM/screen access goals, but web-focused not desktop-focused
-- **Apple macOS AI:** Native but closed, not agentic
-- **Rewind.ai:** Similar screen memory, closed source
+## What We'd Use It For
+Fork Omi for JackConnect real estate version — screen/audio awareness for real estate agents. Replace manual screenpipe setup with Omi's pre-built awareness stack. License concerns — review before forking.
 
 ## Recommendation
-**🟢 NICE TO HAVE** — Cool tech, but no immediate fit for JCPaid's business automation focus. Worth watching for inspiration on persistent context and self-modification patterns.
+🟡 WORTHWHILE — Study Omi's screen/audio awareness architecture for Solomon Browser POC. License TBD (check GitHub). Clone and audit when ready.
 
-## Next Steps
-- Clone and test locally if time allows
-- Note the "vibecode itself" pattern for potential Solomon Browser feature
+**Source:** https://x.com/kodjima33/status/2046357870426419223
