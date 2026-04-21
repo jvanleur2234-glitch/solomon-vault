@@ -1,9 +1,9 @@
 # RD Report: dapr/dapr-agents
 
-**Date:** 2026-04-20
-**Fork:** jvanleur2234-glitch/dapr-agents
-**License:** Apache 2.0
-**Category:** Agent Orchestration / Infrastructure
+**Date:** 2026-04-20  
+**Fork:** jvanleur2234-glitch/dapr-agents  
+**License:** Apache 2.0  
+**Category:** Agent Orchestration / Infrastructure  
 **Relevance:** 🔴 Critical
 
 ## What It Is

@@ -18,8 +18,9 @@ Production-grade Go agent framework focused on type safety and zero-core depende
 
 ## For Solomon OS / Hermes
 - **Go runtime:** Complements Python/TypeScript agent ecosystems — potential for high-performance Go-based agent nodes
-- **Type safety:** Strong compile-time guarantees — could inspire Hermes Go skill development
-- **Guardrails:** Well-implemented validation layer — good reference for Guardian input/output filtering
-- **Recommendation:** SKILL — watch for ecosystem maturity
+- **Type safety:** Could provide Hermes with typed tool/skill contracts
+- **Guardrails:** Built-in validation aligns with Solomon security requirements
+- **MIT/Apache fork exists:** `jvanleur2234-glitch/gollem`
 
-## Priority: 🟡 Worthwhile
+## Recommendation
+**INTEGRATE** — Gollem's type-safe Go agents could serve as a high-performance compute node layer for Solomon OS. The guardrail system is well-designed for security-conscious deployments.

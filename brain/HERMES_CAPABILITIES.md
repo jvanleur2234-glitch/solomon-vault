@@ -197,3 +197,52 @@
 
 ---
 *Last updated: 2026-04-21 04:35 UTC — AIQ Scout Hourly Session*
+
+## P2P Distributed Compute — AgentFM Competitors (AIQ Scout 2026-04-21)
+- ** antonellof/peerclaw** — MIT/Apache, Rust-based P2P agent network (single binary). GGUF inference, libp2p networking, PCLAW token economy, HNSW/BM25 vector memory, SKILL.md + MCP, OpenAI-compatible API. AgentFM competitor with more mature token economy + built-in memory. Forked.
+- ** Agent-FM/agentfm-core** — MIT, Go P2P platform turning idle CPUs/GPUs into decentralized AI supercomputer. Podman containers, DHT NAT punching, GossipSub load balancing, private swarms. Forked to jvanleur2234-glitch/agentfm-core.
+- ** NikeGunn/tutu** — MIT, Go distributed AI platform. Zero-config local LLM, optional P2P GPU pooling, credit economy, OpenAI-compatible API, MCP gateway. AgentFM alternative with simpler architecture.
+- ** hyperspaceai/agi** — MIT, experimental distributed AGI system. P2P gossip training, DiLoCo/SparseLoCo distributed training, PodCapsule migration, Hyperspace A1 blockchain. Frontier P2P training research.
+- ** mycellm/mycellm** — Apache 2.0, Python P2P GPU inference network. QUIC transport, Ed25519 identities, on-device PII scanning, private federations, OpenAI-compatible API. Forked.
+
+## Self-Improving Agents (AIQ Scout 2026-04-21)
+- ** xmaks82/self-improving-agent** — MIT, 16-agent system with self-improvement loop. FeedbackDetector→Analyzer→Versioner prompt evolution, 6 free LLM providers + Claude OAuth, 13 core tools, 6-layer bash security. Forked.
+- ** MaximeRobeyns/self_improving_coding_agent** — MIT, autonomous coding agent with iterative self-improvement loop. Docker-isolated, benchmark-driven self-modification, web UI for monitoring. Forked.
+- ** ikorfale/agent-self-improvement** — MIT, self-improvement system with ACT→MEASURE→LEARN→ADAPT loop, 70–90% LLM cost reduction, SQLite/JSONL tracking. Forked.
+- ** nickovchinnikov/flarec** — Apache 2.0, self-improving agent with feedback loop. Performance tracking, pattern learning, adaptive scheduling, cost optimization.
+- ** unconst/ninja** — MIT, coding agent built entirely via automated self-improvement loop. Arbos orchestrator drives continuous feedback cycles across 30+ sessions.
+
+## Multi-Agent Deliberation (AIQ Scout 2026-04-21)
+- ** slior/dialectic-agentic** — MIT, multi-agent debate tool. Expert roles (architect, security, performance), iterative rounds, judge convergence assessment, JSON config. No code required. Forked.
+- ** focuslead/ai-council-framework** — MIT, structured 6-step multi-AI decision-making. Anti-Sycophancy Protocol, evidence-based debate, confidence scores. Forked to jvanleur2234-glitch/ai-council-framework.
+- ** dnhess/spectra** — MIT, blackboard deliberation framework for Claude Code. deep-design, decision-board (ADR), peer-review, trust-layer adversarial verification. Forked.
+- ** matiasdaloia/concilium** — MIT, anonymous peer-review deliberation. Parallel agents + blind juror synthesis. Forked.
+- ** Solvely-Colin/Quorum** — MIT, 7-phase multi-provider deliberation (Gather→Plan→Formulate→Debate→Adjust→Rebuttal→Vote) + minority report. SHA-256 audit ledger. Forked.
+- ** bassrehab/artemis-agents** — Apache 2.0, structured debate with hierarchical argument generation, causal reasoning, jury scoring, safety monitoring. Forked to jvanleur2234-glitch/artemis-agents.
+
+## Agent Security Scanners (AIQ Scout 2026-04-21)
+- ** koatora20/guard-scanner** — MIT, MCP/A2A security scanner. 364 patterns, 35 threat categories, OWASP ASI mapping, prompt injection/identity hijacking/memory poisoning/A2A contagion detection. Forked.
+- ** sinewaveai/agent-security-scanner-mcp** — MIT, prompt injection firewall, 4.3M+ package hallucination detection, 1000+ vulnerability rules with AST/taint analysis, auto-fix. Forked.
+- ** Pantheon-Security/medusa** — AGPL, AI-first scanner with 9,600+ patterns, 200 CVE detections (Log4Shell, LangChain RCE), --git mode for repo poisoning. Forked to jvanleur2234-glitch/medusa.
+- ** snyk/agent-scan** — Apache 2.0, discovers and scans agent/MCP components. Prompt injection, tool poisoning, malware, hardcoded secrets. Forked.
+- ** Firmislabs/firmis-scanner** — Apache 2.0, runtime security scanner for 9 agent platforms. 242 rules, 21 threat categories, BOM generation, SARIF output. Forked.
+
+## Recurrent Transformer + MoE (AIQ Scout 2026-04-21)
+- ** MedITSolutionsKurman/medit-one** — MIT, fast memory-efficient transformer with recurrent-style inference. Single-token prediction, constant memory, MoE integration, CUDA kernels. Forked to jvanleur2234-glitch/medit-one-new.
+- ** raymin0223/mixture_of_recursions** — MIT, NeurIPS 2025 MoR approach. Adaptive token-level computation via dynamic recursive depths, recursion-wise KV caching.
+- ** thu-ml/ReMoE** — Apache 2.0, fully differentiable MoE with ReLU routing. Adaptive sparsity, end-to-end training. Built on Megatron-LM.
+
+## Agent Orchestration Frameworks (AIQ Scout 2026-04-21)
+- ** fugue-labs/gollem** — Apache 2.0, Go agent framework. Type-safe Generic Agent[T], multi-provider streaming, guardrails, OpenTelemetry, middleware chain, zero-core deps. Forked.
+- ** dapr/dapr-agents** — Apache 2.0, Dapr-based durable workflow agents. Scale-to-zero, 50+ data integrations, Kubernetes-native, fault-tolerant. Forked to jvanleur2234-glitch/dapr-agents.
+- ** op encmit/alphora** — MIT, Python composable AI agents. ReAct/Plan-Execute orchestration, sandboxed code execution, typed streaming, skills ecosystem. Forked.
+- ** yai-dev/agentrail** — MIT, TypeScript agent harness. Sandboxed execution, multi-agent orchestration, browser automation, knowledge management, deep-research addon. Forked.
+- ** henomis/phero** — MIT, Go multi-agent framework. A2A protocol, MCP support, RAG, vector stores, LLM middleware, tracing. Forked.
+
+## Hermes MCP Ecosystem (AIQ Scout 2026-04-21)
+- ** NousResearch/hermes-agent** — Full MCP client with Resources, Prompts, Tools support. 70+ skills ecosystem. Already forked.
+- ** cloudwalk/hermes-mcp** — Elixir MCP SDK (client + server). MIT licensed.
+- ** slab/hermes-mcp** — High-performance Elixir MCP with server/client implementations, streamable HTTP transport.
+- ** poetryprotocol/hermes-mcp** — Windows-optimized MCP server with 15 tools, file/shell/git/web operations.
+
+*Last updated: 2026-04-21 13:40 UTC — AIQ Scout Hourly Session*

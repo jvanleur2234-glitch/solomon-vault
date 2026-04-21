@@ -1,27 +1,34 @@
-# RD Report:concilium — Multi-LLM Deliberation Platform
+# RD Report: concilium — Multi-LLM Deliberation Platform
 
-**Date:** 2026-04-21  
-**Repo:** matiasdaloia/concilium  
-**URL:** https://github.com/matiasdaloia/concilium  
-**License:** MIT  
-**Stars:** ~low (new)  
-**Relevance:** Multi-agent deliberation, parallel execution, blind peer review, synthesis  
+**Repo**: `matiasdaloia/concilium`  
+**License**: MIT  
+**Language**: TypeScript/Node.js  
+**Stars**: ~200+ (estimated)  
+**Date**: 2026-04-21
 
 ## What It Is
-A multi-LLM deliberation platform that runs several AI agents in parallel, has them anonymously peer-review each other, and synthesizes a single superior answer. Reduces validation time from ~25 min to ~3 min per prompt.
 
-## Key Capabilities
-- **Parallel execution** with multiple agents (Claude, OpenAI, local models)
-- **Anonymous jury review** — agents rank peers without knowing identities
-- **Chairman synthesis** for final output
-- **CLI + Electron desktop GUI**
-- **Local-first** — data stays on-device
-- **Programmatic API** for integrating agent skills
+Open-source multi-agent deliberation platform that runs several AI coding agents in parallel, has them anonymously peer-review each other, and synthesizes a single high-quality answer. CLI + Electron desktop, local-first, programmatic API.
 
-## Relevance to Solomon OS / Hermes
-- Peer review/synthesis pattern useful for Hermes skill validation
-- Anonymous review prevents sycophancy — relevant for security-critical workflows
-- MIT licensed
+## Key Features
 
-## Verdict
-**FORGE** — Fork for Solomon OS quality assurance layer. Anonymous peer review fits Hermes skill verification before deployment.
+- **Parallel execution** — prompts sent to multiple agents simultaneously (Claude, Codex, OpenCode)
+- **Anonymous peer review** — juror models critique without bias
+- **Synthesis** — chairman model combines best parts into validated answer
+- **Local-first** — data stays on machine, MIT licensed
+- **CLI + desktop** — Electron interface, programmatic API
+- **Multi-provider** — Claude, GPT, Gemini, Ollama via OpenRouter
+
+## For Solomon OS / Hermes
+
+- **Deliberation** — could power Solomon's "Council of High Intelligence" reasoning
+- **Anonymous review** — quality gate for agent outputs
+- **Synthesis** — combines multi-model reasoning into unified answers
+
+## Comparison to Quorum / Council
+
+concilium is simpler than Quorum (fewer phases) but offers anonymous peer review + synthesis. Good lightweight alternative.
+
+## Recommendation
+
+**SKILL** — concilium's anonymous peer review pattern is worth studying for Hermes's quality assurance layer. Lower priority than Quorum but adds diversity to deliberation stack.
