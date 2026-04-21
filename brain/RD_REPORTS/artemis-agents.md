@@ -1,32 +1,27 @@
-# ArtemIS Agents — Structured Multi-Agent Debate Framework
+# bassrehab/artemis-agents — Structured N-Agent Debate Framework
 
-**Fork**: `bassrehab/artemis-agents` → no existing fork
-**License**: MIT
-**Stars**: New
-**Language**: Python
+**Date:** 2026-04-21  
+**Category:** Multi-Agent Deliberation  
+**License:** Apache 2.0  
+**Stars:** ~150  
+**Forked:** `/home/workspace/artemis-agents`
 
-## What It Is
-
-Framework for structured multi-agent debates with adaptive evaluation, causal analysis, and safety monitoring. Built with hierarchical argument generation (H-L-DAG) and a jury scoring mechanism.
+## What It Does
+Structured, debate-driven decision-making among multiple AI agents with adaptive evaluation, causal reasoning, and built-in safety monitoring. Hierarchical Argument Generation (H-L-DAG), jury scoring, ethical alignment.
 
 ## Key Features
+- Hierarchical argument generation (H-L-DAG)
+- Adaptive evaluation with causal reasoning (L-AE-CR)
+- Jury scoring mechanism
+- Real-time safety monitoring (deception/sandbagging detection)
+- Multi-agent debates with N agents
+- Dynamic weighting of evaluation criteria
+- Streaming, metacognition, multimodal evidence (v2)
 
-- **Multi-agent debate**: N agents, real-time streaming, metacognitive safety
-- **Hierarchical argument generation**: H-L-DAG structure
-- **Dynamic adaptive evaluation**: L-AE-CR (causal reasoning)
-- **Jury scoring**: Built-in ethical alignment
-- **Sandbagging detection**: Real-time safety checks for deception
-- **Multimodal evidence**: Handling in v2 stack
-- **API**: Simple Python API for setting up debates with agents, jury panel, topics, rounds
+## For Solomon OS / Hermes
+- Causal reasoning integration = better debate quality than pure retrieval
+- Safety monitoring catches sandbagging/deception
+- Could power high-stakes decision workflows in Hermes
 
-## Relevance to Council of High Intelligence
-
-- **Direct competitor**: ArtemIS has structured debate + jury scoring + ethical alignment
-- **Different angle**: Hierarchical argument generation vs. simple consensus mechanisms
-- **Use case**: Could be integrated as the "deliberation engine" for Solomon OS decision-making
-
-## Verdict
-
-🟡 SKILL — Clone and study the debate/jury scoring architecture. Could inform how Solomon OS agents reach consensus on high-stakes decisions.
-
-**Action**: Look at `src/` structure and jury.py for scoring implementation.
+## Recommendation
+**SKILL** — Causal reasoning + safety monitoring = high-quality debate outputs. Apache 2.0 licensed.

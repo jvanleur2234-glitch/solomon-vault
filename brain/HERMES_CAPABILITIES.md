@@ -7,6 +7,7 @@
 - ** cloudwalk/hermes-mcp** — Elixir SDK implementing Model Context Protocol (MCP)
 - ** slab/hermes-mcp** — Fork of cloudwalk/hermes-mcp, MIT-licensed Elixir MCP SDK
 - ** NousResearch/hermes-agent (FastMCP)** — FastMCP skill for rapid MCP server development
+- ** NousResearch/hermes-agent v0.2.0** — MCP client with native HTTP transport, sampling, resource/prompt discovery
 
 ## Agent Orchestration
 - ** microsoft/agent-framework** — Multi-language (Python/.NET) graph-based agent orchestration with DevUI, 9k+ stars

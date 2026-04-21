@@ -1,37 +1,56 @@
-# Scout Daily Report — 2026-04-21
+# AIQ Scout Daily Report — 2026-04-21
 
 ## Run Summary
+- **Date:** 2026-04-21
+- **Total Leads Found:** 6
+- **Total Audits Run:** 6
+- **Outreach Attempts:** 6 (5 email, 1 phone/contact form)
+- **Best Target:** StrongTower Lock & Key (42/100), Bush Automotive (37/100)
 
-**Lead Discovery:** 10 businesses audited (plumbers, HVAC, dentists, locksmiths)
-**Outreach Sent:** 10
-**Avg SEO Score:** 73/100 (C range)
-**Best Lead:** Kreit Dental (58 - F, most room for improvement)
-**Worst Lead:** Crossfield Heating (89 - B, already performing well)
+## Leads
 
-## Leads Audited
+| # | Business | URL | Score | Top 3 Issues | Contact |
+|---|----------|-----|-------|--------------|---------|
+| 1 | Remington Family Dental | remingtonfamilydental.com | 79 | No HTTPS, Missing alt text, No lazy loading | scheduling@remingtonfamilydental.com |
+| 2 | Brothers Plumbing | brothersplumbing.com | 79 | Slow server, Missing OG tags, No alt text | info@brothers-plumbing.com |
+| 3 | StrongTower Lock & Key | strongtowerlockandkey.com | **42** | No title, No meta desc, No OG/Twitter tags | service@strongtowerlockandkey.com |
+| 4 | World's Best Movers | worldsbestmoversinc.com | 79 | Title too long, No OG tags, No H1 | 312-973-7736 |
+| 5 | Bush Automotive | bush-automotive.com | **37** | 403 error, No mobile viewport, No charset | 731-337-5711 |
+| 6 | Carfix Auto Repair | carfixautorepair.com | 84 | Slow server, Title too long, No lazy loading | Web form |
 
-| Business | URL | Score | Top Issues |
-|---|---|---|---|
-| EZ Plumbing & Drains | https://www.ezplumbingmn.com/ | 79/C | Missing alt text, no lazy loading |
-| John Shelton Plumbing | https://johnsheltonplumbing.com/ | 84/B | Slow server, meta too short |
-| Stanfield Plumbing | https://www.stanfieldplumbingok.com/ | 68/D | No favicon, missing alt text |
-| Weaver Heating & Air | https://weaverheatingandairinc.com/repair/ | 74/C | No Open Graph, missing alt text |
-| Smile Doc Dentist | https://smiledocdentist.com/dentist-near-me/ | 79/C | No Twitter cards, missing favicon |
-| Belton Locksmith | https://www.beltonlocksmith254.com/ | 74/C | Title too short, no lazy loading |
-| West End Safe & Lock | https://www.westendsafeandlock.com/ | 74/C | Meta too short, missing alt text |
-| Kreit Dental | https://kreitdental.com/dentist-near-me/ | 58/F | No Twitter cards, no canonical tag |
-| ValleyWide Dental | https://valleywidedental.com/dentist-near-me/ | 63/D | No Twitter, no canonical |
-| George's Heat & Air | https://georgesheatandair.com/ | 74/C | No Open Graph, no H1 |
+## Audit Details
 
-## Common Patterns
-- **All 10 sites** had missing alt text on images
-- **All 10 sites** had slow server response times (>500ms)
-- **8/10** lacked Twitter Card meta tags
-- **7/10** didn't lazy load images
-- **4/10** had missing or broken favicons
+### StrongTower Lock & Key (42/100) — Priority Target
+- **URL:** https://www.strongtowerlockandkey.com/
+- **Technical Score:** 71/100 (C)
+- **On-Page Score:** 25/100 (F)
+- **11 failures** including: no title tag, no meta description, no OG tags, no Twitter cards, no H2 tags, thin content (<300 words)
+- **Recommendation:** Quick wins — add title, meta, and basic content
 
-## Payment Link
-https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 — $29/mo SEO audit
+### Bush Automotive (37/100) — Priority Target
+- **URL:** https://bush-automotive.com/
+- **Technical Score:** 43/100 (F)
+- **On-Page Score:** 33/100 (F)
+- **12 failures** including: 403 Forbidden (blocking SEO crawlers), no mobile viewport, no charset, title too short (13 chars), no meta description
+- **Recommendation:** Site needs complete SEO overhaul
 
-## Next Run
-Target 10 more businesses (auto repair, movers, real estate agents)
+### Brothers Plumbing (79/100)
+- **URL:** https://www.brothersplumbing.com/brighton-ac-repair/
+- Slow server response (1986ms), missing OG tags, missing image alt text
+
+### Remington Family Dental (79/100)
+- **URL:** http://www.remingtonfamilydental.com/
+- No HTTPS, missing alt text, no lazy loading on images
+
+### World's Best Movers (79/100)
+- **URL:** https://worldsbestmoversinc.com/lake-bluff-movers/
+- Title too long (138 chars), meta description too short, missing OG tags, no H1
+
+### Carfix Auto Repair (84/100)
+- **URL:** https://carfixautorepair.com/location/garner/
+- Slow server (863ms), title too long (170 chars), images lack lazy loading
+
+## Next Actions
+- Await replies from outreach
+- Escalate any replies to Joseph via Telegram
+- Payment link: https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08

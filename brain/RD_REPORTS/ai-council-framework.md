@@ -1,27 +1,26 @@
-# RD Report: ai-council-framework — Deliberative AI Council Methodology
+# focuslead/ai-council-framework — Research-Backed Multi-AI Deliberation
 
 **Date:** 2026-04-21  
-**Repo:** focuslead/ai-council-framework  
-**URL:** https://github.com/focuslead/ai-council-framework  
+**Category:** Multi-Agent Deliberation  
 **License:** MIT  
-**Stars:** ~low (new)  
-**Relevance:** Multi-agent deliberation, consensus synthesis, anti-sycophancy  
+**Stars:** ~200  
+**Forked:** `/home/workspace/ai-council-framework`
 
-## What It Is
-A research-backed methodology for orchestrating multiple AI models into a deliberative council to improve decision quality, reduce hallucinations, and counter bias through parallel consultation, structured debate, and consensus synthesis.
+## What It Does
+Research-backed methodology for multi-AI collaborative decision-making. Reduces hallucinations and bias through structured debate and consensus synthesis. 6-step process: DISTRIBUTE → COLLECT → SYNTHESIZE → DEBATE → VERIFY → DELIVER.
 
-## Key Capabilities
-- **6-phase workflow:** Distribute → Collect → Synthesize → Debate (up to 3 rounds) → Verify → Deliver
-- **Consensus depth modes:** QUICK, BALANCED, THOROUGH, RIGOROUS, EXHAUSTIVE
-- **Anti-sycophancy protocol** — independent initial positions, evidence-based stance changes
-- **Dissent preservation** — minority positions retained in final output
-- **Confidence-weighted voting** with threshold calibration
-- **Web verification** integration in final phase
+## Key Features
+- 5 consensus modes: QUICK (fast) → EXHAUSTIVE (high-confidence)
+- Anti-Sycophancy Protocol: independent early positions, evidence-based changes
+- Confidence-weighted voting, protected minority positions
+- Gemini Principle: debate shifts majority toward correct answers
+- Web-verified validation layer
+- Fresh-eyes review
 
-## Relevance to Solomon OS / Hermes
-- Consensus-driven decision making aligns with multi-agent Hermes workflows
-- Anti-sycophancy protocol directly addresses prompt injection defense
-- MIT licensed for commercial fork
+## For Solomon OS / Hermes
+- Could implement "Council of Experts" deliberation for Hermes
+- Anti-sycophancy protocol directly addresses AI confidence gaming
+- Confidence scores on final outputs = useful for task routing
 
-## Verdict
-**FORGE** — Fork for Solomon OS decision-making layer. The anti-sycophancy and dissent preservation mechanisms are valuable for high-stakes agent decisions.
+## Recommendation
+**SKILL** — Strong research backing, MIT licensed. Anti-sycophancy protocol is novel and valuable for production AI systems.
