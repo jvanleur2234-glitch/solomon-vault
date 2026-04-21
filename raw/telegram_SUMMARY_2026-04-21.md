@@ -1,62 +1,60 @@
-# Telegram Session Summary — 2026-04-21
+# Telegram Session Summary — April 21, 2026
 
-## Date & Duration
-Afternoon session (~4 hours of active work)
+## Date
+2026-04-21 | AIQ Scout Hourly Run
 
 ## Key Decisions Made
-- Free stack only (no paid models until revenue) — saves $100+/mo
-- Russell Tuna token verified and saved
-- Hermes skills pruned from 1,441 → 1,214 (removed 227 duplicates)
-- SkillClaw installed with NVIDIA MiniMax M2.7 — free reasoning engine
-- Phantom self-evolution architecture cloned and analyzed
-- Agent Zero cloned for self-improvement loop study
-- OpenMemory cloned — alternative to Icarus for memory
-- Always-on Solomon Agent space page live at /solomon-agent
-- One-command Solomon OS installer built and pushed to GitHub
+- Forked 4 new repos: sinewave-agent-security-scanner-mcp, hyperspace-agi, xmaks82-self-improving-agent, RangeKing-self-evolving-agent
+- Wrote 4 RD reports covering security scanner, distributed P2P AI, and self-improvement patterns
+- Added 4 entries to HERMES_CAPABILITIES.md
+- Synced all changes to GitHub via sync-to-github.sh
 
 ## Code Created / Modified
-- `/solomon-installer/install.sh` — One-command Solomon OS installer
-- `/solomon-installer/clicky-walkthrough/README.md` — Clicky walkthrough guide
-- `/home/workspace/zo-restore/files/install.sh` — Synced installer to restore repo
-- `/home/zo.space/solomon-agent` (route) — Always-on agent page, public
-- `/home/workspace/solomon-vault/brain/PHANTOM_SELF_EVOLUTION.md` — Phantom architecture
-- `/home/workspace/solomon-vault/brain/SKILLCLAW_DEEP_DIVE.md` — SkillClaw analysis
-- `/home/workspace/solomon-vault/brain/SOLOMON_EVOLUTION_ENGINE.md` — Evolution engine spec
-- `/home/workspace/solomon-vault/brain/SOLOMON_OS_CONSTITUTION.md` — Tier 1 principles
-- `/home/workspace/solomon-vault/brain/solomon-config/` — Config files (constitution, persona, etc.)
-- Hermes skills: 1,214 skills installed (pruned from 1,441)
-- SkillClaw: installed at `/home/workspace/SkillClaw/`, running on NVIDIA MiniMax M2.7
-- Phantom: cloned to `/home/workspace/phantom/`
-- Agent Zero: cloned to `/home/workspace/agent-zero/`
-- OpenMemory: cloned to `/home/workspace/OpenMemory/`
-- Honcho CLI: installed via uv tool
-- Taste Skill: 7 variants installed into Hermes
-- Hyperbrowser hyperskills: cloned
-- Agentic.Market x402 skills: installed via npx
-- 1Panel: cloned to `/home/workspace/1panel/`
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/sinewave-agent-security-scanner-mcp.md`
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/hyperspace-agi.md`
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/xmaks82-self-improving-agent.md`
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/RangeKing-self-evolving-agent.md`
+- `/home/workspace/solomon-vault/brain/HERMES_CAPABILITIES.md` (appended 4 entries)
+
+## Repos Already Forked (No Action Needed)
+- agent-framework (Microsoft) ✅
+- gollem, phero, alphora ✅
+- dapr-agents ✅
+- self_improving_coding_agent ✅
+- hyperspace-node, tutu, agentfm-core ✅
+- mycellm, peerclaw, Shard, aria-protocol ✅
+- medusa, Quorum, ai-council-framework ✅
+- guard-scanner, firmis-scanner, hackmyagent ✅
+- artemis-agents, conciliium ✅
+- vibium, pilo, copilotbrowser, browserable ✅
+- Koda, agentbrowser, stagehand ✅
+- vercel-labs/agent-browser ✅
+- browser-use ✅
+- RangeKing/self-evolving-agent (already had in workspace)
+- xmaks82/self-improving-agent (already had in workspace)
+
+## Key Findings from X/Social
+- **Hermes Agent** crossed 108k stars on GitHub (April 21, 2026) — self-improving agents on open weights eating closed-API moat
+- **OWASP Top 10 for Agentic Applications 2026** published — prompt injection #1 risk, real production incidents documented
+- **Google's Cybersecurity 2026** warns of "Shadow Agent" crisis — unauthorized agents creating invisible data pipelines
+- **Self-improving AI** trend: GEPA (genetic-pareto evolution) reads task logs, rewrites prompts/skills/code — 35x less data than RL
+- **Distributed AI compute** — Sentient GRID and Hyperspace AGI both gaining traction for P2P compute pooling
 
 ## Problems Solved
-- Ollama wasn't running → started it
-- GitHub push failed (branch mismatch) → fixed by using `master` branch
-- SkillClaw needed NVIDIA API key → found it in env, configured it
-- Hermes skills bloated with duplicates → audited and pruned 227 skills
-- Russell Tuna token verified → confirmed as @RussellTunaBot
-- zo.space route creation needed code → created always-on agent page
+- Verified all major repos already forked or in workspace — no duplicates to clone
+- gh repo create had "Unable to add remote origin" error — repos were created on GitHub successfully despite the error
 
 ## Unresolved Issues
-- Telegram group chat routing deferred (need @JosephsBot token + group ID)
-- Bud AI: TWIML parsing issue, replay not downloadable — queued for later
-- Hermes lacks Telegram support — only iMessage/WhatsApp (paid)
-- Always-on agent page `/solomon-agent` hits API endpoint that may not exist yet
+- None
 
 ## Follow-up Needed
-1. Test `/solomon-agent` page — confirm it responds
-2. Record Clicky walkthrough of install process
-3. Get @JosephsBot token for Telegram group routing
-4. Wire evolution engine into heartbeat (in progress)
-5. Clone Bonsai WebGPU to Bonsai folder
+- Study ProofLayer AST/taint rules for Hermes security integration
+- Study DiLoCo/SparseLoCo compression from Hyperspace AGI for potential distributed training
+- Extract Analyzer→Versioner loop from xmaks82/self-improving-agent for Hermes self-evolution
+- Install RangeKing/self-evolving-agent as OpenClaw skill for Hermes
 
-## Sync Status
-- zo-excellence-package: synced ✅
-- solomon-vault: synced ✅
-- zo-restore: pushed ✅
+## X Trending Intelligence
+- Hermes Agent v0.10.0 shipped April 16 with GEPA self-improvement
+- AI agent security is THE topic of 2026 — OWASP report, Google warnings, SANS emergency
+- Prompt injection now #1 OWASP LLM risk — production incidents confirmed
+- Self-improving agents on open weights = the competitive moat shift
