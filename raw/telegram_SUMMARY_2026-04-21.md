@@ -1,59 +1,81 @@
-# Telegram Session Summary — 2026-04-21
+# AIQ Scout Session Summary — 2026-04-21 04:35 UTC
 
-**Date:** 2026-04-21 03:40 UTC  
-**Channel:** AIQ Scout Scheduled Agent  
-**Session:** Hourly R&D Research Pass
+## Session Overview
+Hourly AIQ Scout R&D session. Conducted comprehensive GitHub + X research across all 8 target categories.
 
-## Actions Taken
+## Repos Evaluated
+### Already existed in workspace (skipped clone):
+- council-of-high-intelligence ✅
+- Quorum ✅
+- concilium ✅
+- self_improving_coding_agent ✅
+- self-improving-agent ✅
+- openclaw-self-evolving ✅
+- self-evolving-agent ✅
+- KwaaiNet ✅
+- tutu ✅
+- aria-protocol ✅
+- spectra ✅
+- agent-tower-plugin ✅
+- medusa ✅
+- deliberate ✅
 
-### GitHub Searches Completed
-- Agent frameworks 2026: microsoft/agent-framework, gollem, alphora, dapr-agents, agentrail, agent-orcha, solace-agent-mesh, phero
-- Self-improving agents: ikorfale/agent-self-improvement, MaximeRobeyns/self_improving_coding_agent, ouroboros, unconst/ninja, kayba-ai/recursive-improve, xmaks82/self-improving-agent, RangeKing/self-evolving-agent, modelscope/AgentEvolver
-- Hermes MCP skills: NousResearch/hermes-agent v0.2.0 (70+ skills, Skills Hub, MCP client)
-- Distributed AI compute: hyperspaceai/agi, mycellm, aria-protocol, KwaaiNet, antonellof/peerclaw, PrimeIntellect-ai/protocol
-- AI security scanners: snyk/agent-scan, Agent-Field/sec-af, oxvault/scanner, ZIRAN, AgentSeal, firmis-scanner, guard-scanner, zeroleaks
-- Browser automation: clawless, ClawdAgent, cheliped-browser, tappi-browser, browser-use, vibium, openbrowser-ai
-- Multi-agent deliberation: council-of-high-intelligence, ai-counsel, claude-synod-debate, council-ai, agent-council, concilium, llm-council
-- MoE/Recurrent Transformer: lucidrains/st-moe-pytorch, lucidrains/mixture-of-experts, NVIDIA/Megatron-LM MoE, raymin0223/mixture_of_recursions
+### Forked this session:
+- **gadievron/raptor** → jvanleur2234-glitch/raptor ✅
+  - MIT, autonomous offensive/defensive security framework (Claude Code-powered)
+  - RD report: `brain/RD_REPORTS/raptor.md`
+  
+- **blueman82/ai-counsel** → jvanleur2234-glitch/ai-counsel ✅
+  - MIT, multi-agent deliberation MCP server (true deliberative consensus)
+  - RD report: `brain/RD_REPORTS/ai-counsel.md`
 
-### X/Twitter Searches Completed
-- "Solomon OS OR Hermes agent": Hermes Agent dominates — v0.2.0 "Everywhere Release", WeChat native support, GBrain perfect recall, Unibase integration
-- "self-improving AI defense": Self-healing prompts, self-evaluation defense, layered runtime defenses, Bell Cyber Autonomous SOC
-- "AI agent security vulnerability 2026": OWASP Top 10 Agentic 2026 real incidents, Shadow Agent crisis, Q1 2026 exploits with confirmed victims
-- "distributed AI compute grid": Sentient GRID architecture, Intelligence Delivery Network, modular workflow DAGs
+### Not forked (already known/skipped):
+- Raptor and ai-counsel were the only new forks needed
 
-### Forks Attempted
-| Repo | Status |
-|------|--------|
-| ddalcu/agent-orcha | Already existed |
-| razzant/ouroboros | Already forked ✅ |
-| 0xNyk/council-of-high-intelligence | Forked ✅ |
-| koatora20/guard-scanner | Already existed |
-| zeroleaks/zeroleaks | Forked ✅ |
-| yai-dev/agentrail | Already existed |
+## RD Reports Written (this session)
+- `brain/RD_REPORTS/raptor.md` — autonomous security research framework
+- `brain/RD_REPORTS/ai-counsel.md` — multi-agent deliberation MCP server
+- `brain/RD_REPORTS/n8n-nodes-dynamic-agent.md` — n8n AI agent node reference
+- `brain/RD_REPORTS/swarms-kyegomez.md` — enterprise multi-agent orchestration (6k stars)
+- `brain/RD_REPORTS/owasp-agentic-skills-top10.md` — OWASP security standard reference
 
-### RD Reports Written
-- `council-of-high-intelligence.md` — CC0 18-persona council with polarity pairs + dissent quotas
-- `ouroboros.md` — Self-modifying agent with BIBLE.md constitution, 30+ evolution cycles
-- `zeroleaks.md` — Multi-agent prompt injection scanner (TAP, Crescendo, defense fingerprinting)
-
-### HERMES_CAPABILITIES.md Updated
-- Added ouroboros to Self-Improving Agents
-- Added zeroleaks to AI Security Scanners
-- Added council-of-high-intelligence to Multi-Agent Deliberation
-
-## Key Findings
-1. **Hermes Agent v0.2.0 is exploding** — 70+ skills, WeChat native, Unibase integration, GBrain memory layer
-2. **Security is heating up** — OWASP Top 10 Agentic 2026 published with REAL Q1 2026 incidents (Claude weaponized for墨西哥 government attack)
-3. **Self-improving agents maturing** — ouroboros shows 30+ autonomous evolution cycles without human intervention
-4. **Distributed compute gaining traction** — Sentient GRID, hyperspaceai/agi, mycellm all active
-
-## Decisions Made
-- Focus for this session: security scanners (zeroleaks) + deliberation (council-of-high-intelligence) + self-improvement study (ouroboros)
-- Skipped: Already-forked repos, repos without clear MIT/Apache license
-
-## Follow-up Needed
-- None from this session — human can review RD reports in brain/RD_REPORTS/
+## HERMES_CAPABILITIES.md Updated
+Added new sections:
+- **Security — Offensive/Defensive**: Raptor, AI Counsel
+- **n8n Integration**: n8n-nodes-dynamic-agent
+- **Enterprise Multi-Agent**: swarms (kyegomez)
+- **OWASP Security Standards**: agentic-skills-top10
 
 ## GitHub Sync
-- Sync script: `/home/workspace/.agent/sync-to-github.sh` — ✅ ran successfully
+✅ Pushed to jvanleur2234-glitch/solomon-vault (commit 7f1a9e0)
+
+## X Discourse Highlights
+1. **Hermes Agent ecosystem exploding** — hermes-alpha (cloud deploy), hermes-skill-factory (auto skill creation), icarus-plugin (self-memory), hermes-agent-camel (CaMeL trust boundaries). 10w+ stars. OWASP Agentic Top 10 mentioned as critical context.
+
+2. **Self-improving AI defense** — Agentic Shielding concept (5.4-Cyber agent air-gaps vulnerabilities in real-time until refactored). Self-healing prompt defense. Zero-knowledge proofs for verifiable Defense AI (DeepProve).
+
+3. **AI agent security 2026** — OWASP Q1 2026 exploit roundup confirms agents are now primary attack vector. Exploit timeline compressed from weeks to hours. Most incidents CANNOT be mapped to CVE. Shadow Agent crisis confirmed by Google's 2026 forecast. A campaign weaponized Claude to automate exploit dev against Mexican government agencies.
+
+4. **Distributed AI compute** — Sentient GRID: recursive orchestration, token-level routing, DAG pipelines, reproducible AI runs with full audit trail. Kye Gomez's Swarms: enterprise orchestration with 6k stars, MCP, X402, AOP protocol.
+
+## Critical Repos Checked
+- ✅ swarms_corp/Kye Gomez repos: studied swarms, swarms-pytorch, ClawSwarm, CodeGuardian, StatisticalModelEvaluator
+- ✅ OWASP LLM Top 10 ecosystem: studied OWASP/www-project-agentic-skills-top-10, OWASP/www-project-top-10-for-large-language-model-applications, perplext/LLMrecon
+- ✅ n8n community nodes: studied n8n-nodes-dynamic-agent, n8n-nodes-claude-agent, fjrdomingues/n8n-nodes-better-ai-agent
+
+## Key Findings
+1. **Security is NOW the battleground** — OWASP Q1 2026 data confirms real-world agent exploits. "Agent is the vector, not just the target." Most orgs can't reconstruct what agents did. Solomon Guardian needs to be prioritized.
+
+2. **Hermes ecosystem momentum** — 10w+ stars, cloud deployment, skill factory, memory plugins. Community building fast. Need to integrate OWASP Agentic Top 10 compliance into Hermes skill system.
+
+3. **Enterprise multi-agent orchestration** — Kye Gomez's Swarms (6k stars) vs AgentFM. X402 payments + AOP protocol = monetization layer for agents. Study this for Solomon OS monetization.
+
+4. **Self-improving agents** — Ninja (unconst), self-improving-coding-agent, ouroboros — all iterating on permanent improvement loops. Competence cliff discovered by Ninja: interdependencies trigger failure.
+
+5. **n8n integration opportunity** — dynamic-agent node shows pattern for Hermes n8n node. Fork and adapt.
+
+## Unresolved / Follow-Up
+- Verify Raptor license and full feature scope
+- Explore hermes-agent-camel integration with CaMeL trust boundaries
+- Study KwaaiNet architecture for distributed trust graph
+- Check if tutu/aria-protocol better suited than AgentFM for Solomon Air

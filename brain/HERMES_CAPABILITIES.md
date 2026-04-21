@@ -1,4 +1,4 @@
-# HERMES CAPABILITIES — Updated 2026-04-20
+# HERMES CAPABILITIES — Updated 2026-04-21
 
 ## Skill Frameworks
 - ** NousResearch/hermes-agent** — Core agent framework ( NousResearch/hermes-agent) — Full AI agent with skills ecosystem, MCP support, multi-platform gateway
@@ -71,8 +71,11 @@
 - ** matiasdaloia/concilium** — MIT, CLI/Electron multi-LLM deliberation: parallel execution → blind peer review → synthesis
 - ** kyleparrot/deliberate** — MIT, experimental bash+JSONL multi-agent deliberation protocol for local machines
 - ** dnhess/spectra** — MIT, multi-agent deliberation framework for Claude Code with blackboard architecture
-- **bassrehab/artemis-agents** — Apache 2.0, structured N-agent debate framework with H-L-DAG argumentation, causal reasoning, jury scoring, sandbagging detection, MCP server mode
+- ** bassrehab/artemis-agents** — Apache 2.0, structured N-agent debate framework with H-L-DAG argumentation, causal reasoning, jury scoring, sandbagging detection, MCP server mode
 - ** focuslead/ai-council-framework** — MIT, research-backed multi-AI deliberation: 5 consensus modes (QUICK→EXHAUSTIVE), anti-sycophancy protocols, confidence-weighted voting, minority position protection, web-verified validation
+- ** s-abdelnabi/llm-deliberation** — MIT, NeurIPS 2024 benchmark for multi-agent LLM negotiation (cooperation/competition/maliciousness), adversarial safety evaluation
+- ** minnesotanlp/collaborative-calibration** — MIT, ICLR 2024 multi-agent deliberation for LLM confidence calibration and rationalization
+- ** logikon-ai/awesome-deliberative-prompting** — MIT, comprehensive curated reading list on deliberative prompting (CoT origins → DeepSeek R1), all frameworks/datasets/tools catalogued
 
 ## Skill Index / ASM
 - ** skill-framework/skill-index-updater** — ASM skill index management for GitHub skill repos
