@@ -1,92 +1,95 @@
 [
   {
     "date": "2026-04-21",
-    "business_name": "EZ Plumbing & Drains",
-    "url": "https://www.ezplumbingmn.com/",
+    "business_name": "Remington Family Dental",
+    "url": "http://www.remingtonfamilydental.com/",
     "seo_score": 79,
-    "top_issues": ["Missing alt text on images", "Images not lazy loaded", "Meta description too short"],
-    "contact_method": "website_contact_form",
+    "top_issues": [
+      "No HTTPS (site uses HTTP)",
+      "Missing image alt text",
+      "Images lack lazy loading"
+    ],
+    "contact_method": "email",
+    "contact_value": "scheduling@remingtonfamilydental.com",
     "status": "pitched"
   },
   {
     "date": "2026-04-21",
-    "business_name": "John Shelton Plumbing",
-    "url": "https://johnsheltonplumbing.com/",
+    "business_name": "Brothers Plumbing, Heating & Electric",
+    "url": "https://www.brothersplumbing.com/brighton-ac-repair/",
+    "seo_score": 79,
+    "top_issues": [
+      "Slow server response time (1986ms)",
+      "Missing Open Graph tags",
+      "Missing image alt text"
+    ],
+    "contact_method": "email",
+    "contact_value": "info@brothers-plumbing.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "StrongTower Lock & Key",
+    "url": "https://www.strongtowerlockandkey.com/",
+    "seo_score": 42,
+    "top_issues": [
+      "No title tag",
+      "No meta description",
+      "No Open Graph tags",
+      "No Twitter Card meta",
+      "No HTML lang attribute",
+      "Content under 300 words"
+    ],
+    "contact_method": "email",
+    "contact_value": "service@strongtowerlockandkey.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "World's Best Movers",
+    "url": "https://worldsbestmoversinc.com/lake-bluff-movers/",
+    "seo_score": 79,
+    "top_issues": [
+      "Title too long (138 chars)",
+      "Meta description too short",
+      "Missing Open Graph tags",
+      "No H1 tag"
+    ],
+    "contact_method": "phone",
+    "contact_value": "312-973-7736",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "Bush Automotive",
+    "url": "https://bush-automotive.com/",
+    "seo_score": 37,
+    "top_issues": [
+      "403 Forbidden - site blocking crawlers",
+      "No mobile viewport meta",
+      "No charset declaration",
+      "No title tag (13 chars)",
+      "No meta description",
+      "No Open Graph tags",
+      "No H2 tags",
+      "Content under 300 words"
+    ],
+    "contact_method": "phone",
+    "contact_value": "731-337-5711",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-21",
+    "business_name": "Carfix Auto Repair",
+    "url": "https://carfixautorepair.com/location/garner/",
     "seo_score": 84,
-    "top_issues": ["Slow server response time", "Meta description too short", "Missing alt text on images"],
-    "contact_method": "website_contact_form",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-21",
-    "business_name": "Stanfield Plumbing",
-    "url": "https://www.stanfieldplumbingok.com/",
-    "seo_score": 68,
-    "top_issues": ["Missing favicon", "Missing alt text on images", "Title too short (44 chars)"],
-    "contact_method": "website_contact_form",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-21",
-    "business_name": "Weaver Heating & Air",
-    "url": "https://weaverheatingandairinc.com/repair/",
-    "seo_score": 74,
-    "top_issues": ["No Open Graph tags", "Missing alt text on images", "Title too short"],
-    "contact_method": "website_contact_form",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-21",
-    "business_name": "Smile Doc Dentist",
-    "url": "https://smiledocdentist.com/dentist-near-me/",
-    "seo_score": 79,
-    "top_issues": ["No Twitter Card meta", "Images not lazy loaded", "Missing favicon"],
-    "contact_method": "website_contact_form",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-21",
-    "business_name": "Belton Locksmith",
-    "url": "https://www.beltonlocksmith254.com/",
-    "seo_score": 74,
-    "top_issues": ["Title too short", "Missing alt text on images", "Images not lazy loaded"],
-    "contact_method": "website_contact_form",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-21",
-    "business_name": "West End Safe & Lock",
-    "url": "https://www.westendsafeandlock.com/residential-locksmith-services",
-    "seo_score": 74,
-    "top_issues": ["Meta description too short", "Missing alt text on images", "Images not lazy loaded"],
-    "contact_method": "website_contact_form",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-21",
-    "business_name": "Kreit Dental",
-    "url": "https://kreitdental.com/dentist-near-me/",
-    "seo_score": 58,
-    "top_issues": ["No Twitter Card meta", "No canonical tag", "Title too short (36 chars)"],
-    "contact_method": "website_contact_form",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-21",
-    "business_name": "ValleyWide Dental",
-    "url": "https://valleywidedental.com/dentist-near-me/",
-    "seo_score": 63,
-    "top_issues": ["No Twitter Card meta", "No canonical tag", "Title too long (62 chars)"],
-    "contact_method": "website_contact_form",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-21",
-    "business_name": "George's Heat & Air",
-    "url": "https://georgesheatandair.com/",
-    "seo_score": 74,
-    "top_issues": ["No Open Graph tags", "No H1 tag", "Missing alt text on images"],
-    "contact_method": "website_contact_form",
+    "top_issues": [
+      "Slow server response time (863ms)",
+      "Title too long (170 chars)",
+      "Images lack lazy loading"
+    ],
+    "contact_method": "web_form",
+    "contact_value": "https://carfixautorepair.com/location/garner/",
     "status": "pitched"
   }
 ]
