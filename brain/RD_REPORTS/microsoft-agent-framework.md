@@ -1,40 +1,30 @@
 # RD Report: microsoft/agent-framework
 
-## Summary
-Microsoft's production-grade multi-language agent framework (Python + .NET/C#) for building, orchestrating, and deploying AI agents with graph-based workflows, streaming, checkpointing, human-in-the-loop, and time-travel capabilities.
+**Date:** 2026-04-21  
+**Slug:** microsoft-agent-framework  
+**Category:** Agent Framework  
+**License:** MIT  
+**Stars:** ~9.5k  
+**Language:** Python + .NET/C#  
 
-## Key Details
-- **License**: MIT
-- **Language**: Python + C#/.NET
-- **Stars**: ~9,500+ (active, large community)
-- **Latest**: python-1.0.1 (April 2026)
-- **Repo**: https://github.com/microsoft/agent-framework
+## What It Is
+Microsoft's multi-language (Python + .NET) platform for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based orchestration with data-flow and time-travel capabilities.
 
-## What It Does
-- **Graph-based workflows**: Connect agents and deterministic functions with data flows including streaming, checkpointing, human-in-the-loop, and time-travel capabilities
-- **Multi-language**: Consistent APIs across Python and .NET with full parity
-- **DevUI**: Interactive developer UI for testing and debugging workflows
-- **AF Labs**: Experimental packages for benchmarking, RL, and research
-- **Observability**: Built-in OpenTelemetry integration for distributed tracing
-- **Multiple LLM providers**: Azure Foundry, OpenAI, Anthropic, and more
+## Key Features
+- Graph-based workflows connecting agents with deterministic functions
+- Streaming, checkpointing, human-in-the-loop, time-travel debugging
+- DevUI for interactive agent development/testing
+- Dual-language APIs (Python + C#/.NET) with aligned tooling
+- AF Labs for cutting-edge features (benchmarking, RL, research)
+- Weekly office hours, Discord, extensive docs
 
-## Relevance to Solomon OS / Hermes
-- **Competitor to Hermes**: Microsoft Agent Framework is the most direct competitor to Hermes — enterprise-grade, multi-agent orchestration with graph-based workflows
-- **Migration source**: Has migration guides FROM Semantic Kernel and AutoGen (meaning users are migrating TO it)
-- **Forked by**: jvanleur2234-glitch/agent-framework
-
-## Use Cases
-- Enterprise agent orchestration with .NET preference
-- Cross-language agent teams (Python + C#)
-- Production-grade multi-agent workflows requiring DevUI debugging
-- Human-in-the-loop workflow orchestration
-- Agents requiring time-travel / checkpointing
-
-## Competitive Position
-- Direct competitor to NousResearch/hermes-agent in enterprise multi-agent space
-- Microsoft backing = long-term viability and corporate adoption
-- Graph-based workflow model similar to what Hermes Conductor aims to be
-- AF Labs (RL + benchmarking) is a unique research angle
+## Relevance to Solomon OS
+- **Competitor:** Agent orchestration layer (similar to what Solomon Bus/Hermes does)
+- **Opportunity:** Fork for Windows/.NET enterprise agent scenarios
+- **Risk:** Microsoft backing means rapid ecosystem growth
 
 ## Verdict
-**FORGE** — Forked already. Watch for feature parity with Hermes and potential integration points (MCP tool output formatting, DevUI equivalents, AF Labs RL components).
+**WATCH** — Large Microsoft-backed project with strong enterprise positioning. Fork for enterprise Windows agent scenarios. Keep as competitor intel.
+
+## Priority
+🟡 Worthwhile
