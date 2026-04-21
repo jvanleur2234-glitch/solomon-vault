@@ -60,6 +60,7 @@
 - ** ramsbaby/openclaw-self-evolving** — Weekly log-based self-evolution with human approval for AGENTS.md diffs
 - ** ikorfale/agent-self-improvement** — MIT, 70-90% LLM cost reduction via ACT→MEASURE→LEARN→ADAPT loop with SQLite tracking
 - ** rangeking/self-evolving-agent** — OpenClaw skill, curriculum/evaluation/transfer/promotion lifecycle
+- ** razzant/ouroboros** — MIT, self-modifying agent with BIBLE.md constitution, 30+ autonomous evolution cycles, multi-model review, background consciousness
 
 ## Multi-Agent Deliberation (Council of High Intelligence Competitors)
 - ** slior/dialectic-agentic** — Agent-native multi-agent design debate system with converge/judge architecture

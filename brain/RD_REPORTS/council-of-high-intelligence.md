@@ -1,40 +1,32 @@
-# RD Report: Council of High Intelligence — 18 AI Personas Debating Your Hardest Decisions
+# RD Report: council-of-high-intelligence
 
-**URL:** https://github.com/0xNyk/council-of-high-intelligence
-**Date:** 2026-04-20
-**Platform:** GitHub + X/Twitter
-**Stars:** 136 (growing, MIT)
-**License:** MIT
+**Date:** 2026-04-21  
+**Slug:** council-of-high-intelligence  
+**License:** CC0 (Public Domain)  
+**GitHub:** https://github.com/0xNyk/council-of-high-intelligence  
+**Forked:** https://github.com/jvanleur2234-glitch/council-of-high-intelligence  
 
 ## What It Is
-A multi-perspective reasoning framework where 18 AI personas (Aristotle, Feynman, Kahneman, Torvalds, Sun Tzu, Ada Lovelace, Marcus Aurelius, Machiavelli, Lao Tzu, Socrates, Miyamoto Musashi, Alan Watts, and more) deliberate across multiple LLM providers to produce structured verdicts with unresolved questions and next steps.
+18 AI personas deliberate hard decisions across multiple LLM providers. One CLI command (`/council`) triggers structured multi-perspective analysis from diverse intellectual traditions (Aristotle, Socrates, Sun Tzu, Ada Lovelace, etc.).
 
-The tagline: "If your agent stack always agrees, it's probably lying to you."
+## Key Features
+- **18 council members** with distinct domains, personas, default models
+- **Polarity pairs** force genuine tension (Socrates destroys assumptions; Feynman rebuilds from first principles)
+- **Multi-provider routing** across Claude, OpenAI, Gemini, Ollama for genuinely different reasoning
+- **Problem Restate Gate** — every member reframes the question before analysis
+- **Dissent quotas, novelty gates, counterfactual prompts** prevent groupthink
+- **3 deliberation modes:** quick, duo, full
+- **Verdicts lead with Unresolved Questions**, not false consensus
+- OpenClaw/CrewAI-compatible SKILL.md
 
-Core features:
-- Multi-provider auto-routing: Claude, OpenAI, Gemini, Ollama — different models for genuine diversity
-- Deliberation protocol: polarity pairs, problem restatement, dissent quotas, counterfactual prompts
-- Three deliberation modes + unified command: `/council`, `/council --quick`, `/council --duo`, `/council --triad [domain]`, `/council --full`, `/council --members name1,name2,...`
-- 11 predefined domain triads (Architecture → Aristotle+Ada+Feynman; Strategy → Sun Tzu+Machiavelli+Aurelius; etc.)
-- Built for Claude Code but agent-agnostic
-
-Also available as an OpenClaw skill: openclaw/skills/skills/0xnyk/council-of-high-intelligence/SKILL.md
-
-## What We'd Use It For
-1. **Strategic decisions for Solomon OS** — when facing hard choices (e.g., which vertical to pursue, which tech to adopt), run /council to get multi-perspective analysis
-2. **Client decision support in AI Employee Agency** — JackConnect could include /council as a premium feature for big decisions
-3. **Russell Tuna integration** — teach Russell Tuna to invoke the council for complex tasks
-4. **Solomon Bus deliberation** — overnight worker could run council on tomorrow's priorities
-
-## Compares to What We Have
-- Solomon OS brain/ files: ad-hoc reasoning, single perspective
-- Agency Agents 147 personas: general roles, no structured deliberation
-- pm-skills: PM-specific workflows, no multi-model debate
-- Council of High Intelligence: structured multi-round deliberation with dissent enforcement — unique in the ecosystem
+## Relevance to Solomon OS
+- **Council of High Intelligence competitor** — our Quorum fork already covers multi-model deliberation
+- **Hermes deliberation layer** — could be adapted as a skill for high-stakes Hermes decisions
+- **Multi-provider routing** study for Hermes Router S1/S2/S3 architecture
+- **Philosophy-first governance** model — could inform Solomon OS constitution/BIBLE design
 
 ## Recommendation
-🟡 SKILL — Clone to /Skills/council-of-high-intelligence/. Add as a Solomon OS decision-making skill. Study the deliberation protocol for potential integration into Solomon Bus overnight loop.
+**SKILL** — Already have Quorum and ai-council-framework forks. Low priority unless we need the specific 18-persona approach. The polarity-pair + dissent-quota mechanism is worth studying for Hermes deliberation design.
 
-Install: `claude plugin marketplace add 0xNyk/council-of-high-intelligence` or clone directly.
-
-Also: follow 0xNyk for related tools (xint CLI, mission-control, lacp, truthlens) — they're building a coherent agent infrastructure stack.
+## Status
+✅ Forked to jvanleur2234-glitch/council-of-high-intelligence
