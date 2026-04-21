@@ -1,26 +1,31 @@
-# RD Report: agent-tower-plugin — Multi-Agent Deliberation for Claude Code
+# Agent-Tower-Plugin — Multi-Agent Deliberation for Claude Code
 
-**Date:** 2026-04-21  
-**Repo:** BayramAnnakov/agent-tower-plugin  
-**URL:** https://github.com/BayramAnnakov/agent-tower-plugin  
-**License:** MIT  
-**Stars:** ~low (new)  
-**Relevance:** Multi-agent deliberation, council/debate/deliberate modes, Claude Code integration  
+**Fork**: `BayramAnnakov/agent-tower-plugin` → already in workspace
+**License**: MIT
+**Stars**: New
+**Language**: TypeScript
 
 ## What It Is
-A Python-based multi-agent deliberation plugin for Claude Code that orchestrates diverse AI coding assistants (Claude, Codex, Gemini) to generate multiple perspectives, then combines them via structured modes.
 
-## Key Capabilities
-- **Council mode:** Parallel agents with anonymous ranking + chairman synthesis
-- **Debate mode:** Adversarial binary-position argument with judge
-- **Deliberate mode:** Producer/reviewer loop toward consensus
-- **Multi-backend:** Claude, Codex, Gemini via registry pattern
-- **Configurable rounds** and consensus thresholds
+A multi-agent deliberation plugin for Claude Code that orchestrates Claude, Codex, and Gemini to provide diverse perspectives on coding tasks.
 
-## Relevance to Solomon OS / Hermes
-- Multi-backend deliberation useful for Hermes skill quality validation
-- Council mode matches "Council of High Intelligence" concept
-- MIT licensed
+## Key Features
+
+- **Modes**: 
+  - `/tower:council` — Parallel independent agent opinions with anonymous peer ranking + chairman synthesis
+  - `/tower:debate` — Adversarial debate between two agents with judge
+  - `/tower:deliberate` — Producer/reviewer loop for iterative refinement
+- **Backend support**: Claude Code CLI, Codex CLI, Gemini CLI
+- **Quick install**: `npx agent-tower-plugin`
+
+## Relevance to Council of High Intelligence
+
+- **Direct pattern match**: Council mode, adversarial debate, producer/reviewer loop
+- **Already forked**: Already in workspace — good sign we recognized its value
+- **Implementation**: TypeScript plugin for Claude Code — could port patterns to Hermes
 
 ## Verdict
-**SKILL** — Fork for Hermes multi-backend deliberation. The council/debate/deliberate patterns could enhance Hermes skill verification across different LLM providers.
+
+🟢 INTEGRATE — Study the prompt patterns and mode structures. Already forked, so focus on extracting deliberation logic for Solomon OS.
+
+**Action**: Read SKILL.md and orchestrator.ts for council/debate implementations.
