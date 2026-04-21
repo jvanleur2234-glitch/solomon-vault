@@ -1,43 +1,45 @@
-# Telegram Session Summary — 2026-04-21
+# Telegram Session Summary — 2026-04-21 (Afternoon)
 
 **Date:** April 21, 2026
-**Session start:** ~11:07 AM CDT
-**Session end:** ~11:50 AM CDT
+**Session:** ~11:07 AM – ~12:00 PM CDT
 
-## Key Decisions Made
-1. Phantom self-evolution engine → integrated into Solomon OS Heartbeat
-2. SkillClaw cloned + installed, ready for Hermes integration
-3. 6 RD items processed (X posts + GitHub repos)
+## Actions Taken
 
-## Code Created / Modified
-1. `/home/workspace/.agent/heartbeat/evolution_engine.py` — 6-step self-evolution pipeline
-2. `/home/workspace/.agent/heartbeat/decision_engine.py` — wired evolution engine call
-3. `/home/workspace/solomon-config/` — Phantom-style config dir (constitution, persona, user-profile, domain-knowledge, strategies/)
-4. `/home/workspace/solomon-evolution/evolution.py` — standalone evolution engine
-5. `/home/workspace/solomon-vault/brain/PHANTOM_SELF_EVOLUTION_INTEGRATION.md` — integration spec
-6. `/home/workspace/solomon-vault/brain/SKILLCLAW_HERMES_INTEGRATION.md` — SkillClaw integration spec
-7. `/home/workspace/solomon-vault/brain/RD_REPORTS/phantom-ai-coworker.md` — Phantom RD report
+### Phantom Self-Evolution → Solomon OS
+- Cloned `/home/workspace/phantom/` (1.27K stars, Apache 2.0)
+- Created `solomon-vault/solomon-config/` — constitution/persona/user-profile/domain-knowledge/strategies/version.json
+- Created `solomon-evolution/evolution.py` — full 6-step pipeline (Observe→Critique→Delta→5-Gate Validation→Apply→Consolidate)
+- Created `solomon-vault/brain/PHANTOM_SELF_EVOLUTION_INTEGRATION.md`
 
-## Repos Cloned
-- `/home/workspace/phantom/` (ghostwright/phantom, 1.27K stars)
-- `/home/workspace/SkillClaw/` (AMAP-ML/SkillClaw, 4.2K stars)
+### Evolution Engine → Heartbeat
+- Created `/home/workspace/.agent/heartbeat/evolution_engine.py`
+- Modified `/home/workspace/.agent/heartbeat/decision_engine.py` — calls evolution after normal heartbeat checks
+- Runs every 5 hours OR weekly cadence
 
-## Repos Queued for Later
-- SkillClaw → Hermes integration pending interactive setup
-- Phantom → study architecture patterns for Solomon Bus
+### SkillClaw → Hermes Integration
+- Cloned `/home/workspace/SkillClaw/` (4.2K stars, MIT)
+- Installed via `bash scripts/install_skillclaw.sh`
+- SkillClaw running as daemon (PID=1744, port 30000)
+- Routes Ollama local inference through proxy — skills evolve silently at zero cost
+- Created `solomon-vault/brain/SKILLCLAW_HERMES_INTEGRATION.md`
+- Created `solomon-vault/brain/HERMES_CAPABILITIES_UPDATE.md` (for HERMES_CAPABILITIES.md update)
 
-## Problems Solved
-- Services were down (Ollama, Hermes, MoneyPrinterTurbo, Paperclip) — noted in heartbeat logs
-- GitHub TLS timeouts from previous session — synced successfully
+### R&D Queue — 17 items processed today
+Queued: pm-skills, avoko-ai, omi-life-architect, microsandbox, databricks-lakeflow, council-of-high-intelligence, grok4-patchright, phantom, skillclaw, craft-agents-oss, knip, claude-obsidian, souls-directory, call-me, awesome-api-security, cloud-mail, x402-post
 
-## Unresolved Issues
-- SkillClaw needs interactive `skillclaw setup` to complete Hermes integration
-- Hermes config backup created (before changes) but not yet restored
+### GitHub Sync
+- All commits pushed to solomon-vault and zo-excellence-package
 
-## Follow-up Needed
-- Run `skillclaw setup` interactively
-- Test evolution pipeline manually
-- Verify Heartbeat picks up evolution_engine.py
+## Key Decisions
+- SkillClaw left as daemon (no Hermes OpenClaw integration needed — different stack)
+- Evolution engine runs passively via heartbeat
+- All RD reports written to `brain/RD_REPORTS/`
 
-## GitHub Sync
-- Pushed to solomon-vault via sync-to-github.sh
+## Unresolved
+- Hermes OpenClaw integration — not needed since we use Hermes native + NVIDIA NIM
+- Some services still down (Ollama, Hermes, MoneyPrinterTurbo, Paperclip) per heartbeat
+
+## Next Session
+- Wire evolution trigger manually
+- Deep dive on any queued R&D items
+- Check service health
