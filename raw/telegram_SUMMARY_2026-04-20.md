@@ -1,48 +1,65 @@
-# Telegram Session Summary — 2026-04-20
+# Session Summary — 2026-04-20
 
-## AIQ Scout Hourly Session — 02:45 UTC
+## AIQ Scout Hourly Session — 23:35 UTC
 
-### Research Conducted
-1. **GitHub Scans (8 categories):**
-   - Agent frameworks 2026: microsoft/agent-framework, gollem, alphora, phero, dapr-agents, agentrail, solace-agent-mesh, agent-orcha ✅
-   - Self-improving AI: ouroboros (already forked), self-improving-agent, ninja, self-evolving-agent, HyperAgents ✅
-   - Hermes MCP skills: FastMCP, hermes-mcp, cloudwalk/hermes-mcp ✅
-   - Distributed AI compute P2P: hyperspaceai/agi, mycellm, peerclaw, agentfm-core, aria-protocol, tutu ✅
-   - AI security scanners: agentverus, ai-agent-scanner, medusa, snyk/agent-scan, hackmyagent, guard-scanner ✅
-   - Browser automation: HyperAgent, agent-browser, pilo, vibium, agentbrowser, browserable, koda, copilotbrowser ✅
-   - Multi-agent deliberation: dialectic-agentic, aragora, agent-tower-plugin, spectra, deliberate,concilium, quorum, artemis-agents ✅
-   - Recurrent transformer MoE: mixture_of_recursions, ReMoE, hag-moe, medit-one, st-moe-pytorch ✅
-
-2. **X/Twitter Scans (4 topics):**
-   - "Solomon OS OR Hermes agent": Hermes Agent ecosystem exploding (hermes-alpha, hermes-skill-factory, icarus-plugin, hermes-agent-camel). LLM-Wiki integration.
-   - "self-improving AI defense": Self-healing prompts, Bell Cyber Autonomous SOC, self-evaluation as defense
-   - "AI agent security vulnerability 2026": OWASP Top 10 for Agentic Applications 2026, Shadow Agent crisis, RECUR protocol for Solana agents
-   - "distributed AI compute grid": Sentient GRID orchestration, Ashish Kapoor GRID for Robotics
-
-3. **Critical Repos:**
-   - @swarms_corp (Kye Gomez): swarms-rs, AutoHedge, swarms-examples — already in workspace
-   - @GitHubDaily: GenericAgent (self-evolving, 3K LOC), Evolver (prompt evolution engine), cognee (16.5K stars memory), GBrain (Garry Tan second brain), ClawTeam-OpenClaw (multi-agent dev team)
-   - OWASP LLM Top 10 ecosystem: microsoft/agent-governance-toolkit, promptfoo/owasp-llm-top-10, secureclaw, kereva-scanner
-   - n8n community nodes: @coderai/n8n-nodes-claude-agent, letta-ai/n8n-nodes-letta, fredfrom/n8n-nodes-supermemory
-
-### Actions Taken
-- **RD Reports Written:**
-  - `cognee-persistent-memory.md` — 16.5K stars, Apache 2.0, vector+graph memory for AI agents. CRITICAL for Hermes memory layer.
-  - `self-improving-coding-agent-mit.md` — 310 stars, MIT, self-referential benchmark-driven improvement loop. Architecturally significant.
-- **HERMES_CAPABILITIES.md Updated:** Added Memory & Knowledge Graphs section with cognee entry
-- **Already Forked (no action needed):** ouroboros, swarms-rs, AutoHedge (all existed in workspace)
-- **Sync:** Ran sync-to-github.sh successfully
+### Searches Performed
+- GitHub: agent framework 2026, self-improving AI agent, Hermes MCP skills, distributed AI compute P2P, AI security scanner agent, browser automation AI agent, multi-agent deliberation, recurrent transformer MoE
+- X/Twitter: Solomon OS OR Hermes agent, self-improving AI defense, AI agent security vulnerability 2026, distributed AI compute grid
+- Critical repos: @swarms_corp (Kye Gomez / OpenMythos), NousResearch/hermes-agent
 
 ### Key Findings
-1. **🔥 CRITICAL:** Hermes ecosystem exploding — new extensions (hermes-alpha cloud deploy, hermes-skill-factory auto-skill creation, icarus-plugin self-memory, hermes-agent-camel CaMeL trust boundaries) are rapidly turning Hermes from "interesting framework" → production-ready
-2. **🔥 CRITICAL:** OWASP Top 10 for Agentic Applications 2026 just released — prompt injection at tool-call level, Shadow Agent crisis, audit trail fragmentation. AI agents now primary attack vector.
-3. **🔴 CRITICAL:** Cognee (16.5K stars) fills Hermes's #1 gap: persistent cross-session memory with vector+graph. Must integrate.
-4. **🟡 WORTHWHILE:** Self-improving coding agent (MaximeRobeyns) — Docker-isolated benchmark loop shows autonomous self-modification is real. Use as architecture reference.
-5. **🟡 WORTHWHILE:** RECUR protocol on Solana — active defense layer for AI agents on Solana with layered sentinel network (PRIME/WARD/SUB/NANO), milliseconds protection, ZK proofs on-chain
 
-### Next Steps / Follow-up
-- [ ] Integrate cognee as Hermes memory layer (SKILL priority)
-- [ ] Monitor hermes-skill-factory for auto-skill generation
-- [ ] Add icarus-plugin to Hermes for self-memory capability
-- [ ] Review OWASP Top 10 2026 for agentic apps → update Solomon Guardian
-- [ ] Try GenericAgent (GitHubDaily featured, ~3000 LOC self-evolving agent)
+**OpenMythos (Kye Gomez / swarms_corp):**
+- Massive 7,910+ likes announcement — OpenMythos is Kye Gomez's open-source reconstruction of Claude Mythos
+- Looped transformer + MoE routing with Parcae recurrent injection, depth-wise LoRA adapters
+- Already forked at jvanleur2234-glitch/OpenMythos ✅
+
+**Hermes Agent Ecosystem:**
+- Trending heavily on X — Japanese community showing strong adoption via Ollama
+- Resources being compiled and shared widely
+- Multiple posts about Kimi 2.6 model integration
+
+**AI Security — Critical 2026 Alert:**
+- OWASP Top 10 for Agentic Applications 2026 published
+- "Shadow Agent" crisis warned by Google Cybersecurity 2026
+- Real incidents: AI agents being weaponized (Mexican government agencies case)
+- Exploit timeline compressed from weeks to hours
+- Most incidents CANNOT be mapped to CVEs — new vulnerability category
+
+**Distributed AI Compute:**
+- Multiple P2P networks active: hyperspace (2M+ agents), AgentFM, PeerClaw, mycellm, ARIA
+- Hyperspace achieved 32-node collaborative training in 24 hours
+
+### Actions Taken
+1. **Cloned:** `focuslead/ai-council-framework` (new discovery — only repo missing)
+2. **Forked:** https://github.com/jvanleur2234-glitch/ai-council-framework
+3. **RD Report:** Created `/solomon-vault/brain/RD_REPORTS/ai-council-framework.md`
+4. **HERMES_CAPABILITIES.md:** Updated with ai-council-framework entry
+
+### Everything Else Already Forked
+All other promising repos were already present in /home/workspace/:
+- microsoft/agent-framework ✅
+- dapr/dapr-agents ✅
+- opena2a-org/hackmyagent ✅
+- sinewaveai/agent-security-scanner-mcp ✅
+- TrentPierce/Shard ✅
+- spmfrance-cloud/aria-protocol ✅
+- mycellm/mycellm ✅
+- OpenMythos ✅
+- hermes-agent ✅
+- All P2P/distributed AI repos ✅
+- All browser automation repos ✅
+- All security scanner repos ✅
+- All multi-agent deliberation repos ✅
+- All MoE/recurrent transformer repos ✅
+
+### Stats
+- Total forks in workspace: 200+
+- RD reports generated: Full coverage across all categories
+- New discovery this session: 1 (ai-council-framework)
+
+### Next Steps
+- Monitor OpenMythos development closely (7,910+ engagement)
+- Evaluate ai-council-framework for Solomon OS deliberation engine
+- Watch OWASP Agentic Top 10 2026 — build defenses
+- Consider Hermes agent MCP skill expansion

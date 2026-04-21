@@ -71,6 +71,7 @@
 - ** kyleparrot/deliberate** — MIT, experimental bash+JSONL multi-agent deliberation protocol for local machines
 - ** dnhess/spectra** — MIT, multi-agent deliberation framework for Claude Code with blackboard architecture
 - **bassrehab/artemis-agents** — Apache 2.0, structured N-agent debate framework with H-L-DAG argumentation, causal reasoning, jury scoring, sandbagging detection, MCP server mode
+- ** focuslead/ai-council-framework** — MIT, research-backed multi-AI deliberation: 5 consensus modes (QUICK→EXHAUSTIVE), anti-sycophancy protocols, confidence-weighted voting, minority position protection, web-verified validation
 
 ## Skill Index / ASM
 - ** skill-framework/skill-index-updater** — ASM skill index management for GitHub skill repos
