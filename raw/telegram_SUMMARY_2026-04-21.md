@@ -1,45 +1,84 @@
-# Telegram Session Summary — 2026-04-21 (Afternoon)
+# Telegram Session Summary — 2026-04-21 (Mid-Day)
 
 **Date:** April 21, 2026
-**Session:** ~11:07 AM – ~12:00 PM CDT
+**Session:** ~11:00 AM - 12:05 PM CDT
+**Key theme:** Processing queue items, FORGE tasks, Phantom self-evolution, SkillClaw + NVIDIA
 
-## Actions Taken
+## WHAT WE DID
 
-### Phantom Self-Evolution → Solomon OS
-- Cloned `/home/workspace/phantom/` (1.27K stars, Apache 2.0)
-- Created `solomon-vault/solomon-config/` — constitution/persona/user-profile/domain-knowledge/strategies/version.json
-- Created `solomon-evolution/evolution.py` — full 6-step pipeline (Observe→Critique→Delta→5-Gate Validation→Apply→Consolidate)
-- Created `solomon-vault/brain/PHANTOM_SELF_EVOLUTION_INTEGRATION.md`
+### Queue Processing (12 items)
+Processed all queue items from X posts and GitHub links with full analysis:
+1. phantom (ghostwright) — FORGE cloned ✅ /home/workspace/phantom/
+2. microsandbox (YC F26) — SKILL
+3. Grok-4 in Hermes Agent — SKILL
+4. KNIP (JS/TS cleanup) — SKILL
+5. Council of High Intelligence — SKILL
+6. SkillClaw — INTEGRATE (4.2K stars)
+7. pm-skills — SKILL
+8. livekit-agents — SKILL
+9. hindsight (agent memory) — SKILL
+10. avoko AI — SKILL
+11. omi life architect — SKILL
+12. Grok-4 in Hermes (Patchright) — SKILL
+13. Hermes auxiliary models (85% savings) — SKILL
+14. cosmoz-ai/skillup — SKILL
+15. 6 more GitHub/X items queued
 
-### Evolution Engine → Heartbeat
-- Created `/home/workspace/.agent/heartbeat/evolution_engine.py`
-- Modified `/home/workspace/.agent/heartbeat/decision_engine.py` — calls evolution after normal heartbeat checks
-- Runs every 5 hours OR weekly cadence
+### Phantom Self-Evolution → Solomon OS (MAJOR)
+- Cloned phantom to /home/workspace/phantom/
+- Read all Phantom docs (self-evolution, memory, channels, MCP, etc.)
+- Created `solomon-evolution/evolution.py` — 6-step pipeline
+- Created `solomon-vault/solomon-config/` — Phantom-style config structure:
+  - constitution.md (immutable principles)
+  - persona.md (communication style)
+  - user-profile.md (Joseph's preferences)
+  - domain-knowledge.md (JCPaid context)
+  - strategies/ (task patterns, tool prefs, error recovery)
+  - version.json (git-like versioning)
+- Wired evolution trigger into heartbeat/decision_engine.py
+- Synced to GitHub ✅
 
-### SkillClaw → Hermes Integration
-- Cloned `/home/workspace/SkillClaw/` (4.2K stars, MIT)
-- Installed via `bash scripts/install_skillclaw.sh`
-- SkillClaw running as daemon (PID=1744, port 30000)
-- Routes Ollama local inference through proxy — skills evolve silently at zero cost
-- Created `solomon-vault/brain/SKILLCLAW_HERMES_INTEGRATION.md`
-- Created `solomon-vault/brain/HERMES_CAPABILITIES_UPDATE.md` (for HERMES_CAPABILITIES.md update)
+### SkillClaw + NVIDIA NIM (MAJOR)
+- Cloned SkillClaw to /home/workspace/SkillClaw/
+- SkillClaw installed and running (PID=2149, port 30000)
+- Configured with NVIDIA NIM (Minimax M2.7 on NVIDIA A100) as upstream
+- Confirmed working — "NVIDIA rocks" test passed
+- SkillClaw → Hermes integration spec written
+- This is the training stack: NVIDIA GPU for skill evolution + Ollama for fast tasks
 
-### R&D Queue — 17 items processed today
-Queued: pm-skills, avoko-ai, omi-life-architect, microsandbox, databricks-lakeflow, council-of-high-intelligence, grok4-patchright, phantom, skillclaw, craft-agents-oss, knip, claude-obsidian, souls-directory, call-me, awesome-api-security, cloud-mail, x402-post
+### FORGE Tasks Completed
+1. Agentic.Market x402: Coinbase agentic-wallet-skills installed (9 skills: fund, monetize-service, pay-for-service, query-onchain-data, search-for-service, send-usdc, trade, x402)
+2. NVIDIA Build: Already configured — Minimax M2.7 via NVIDIA NIM working
+3. Bonsai WebGPU: HF Space checked, agentlightning v0.3.0 installed instead (Microsoft agent training framework)
+4. Lightning Mode AI: agentlightning installed
+5. Bonsai: HF Space, not self-hosted
 
-### GitHub Sync
-- All commits pushed to solomon-vault and zo-excellence-package
+### 1Panel
+- Clone in progress (35K stars, native Ollama + OpenClaw)
 
-## Key Decisions
-- SkillClaw left as daemon (no Hermes OpenClaw integration needed — different stack)
-- Evolution engine runs passively via heartbeat
-- All RD reports written to `brain/RD_REPORTS/`
+### Services Status
+- Ollama: port 11434 ✅
+- Hermes: v0.9.0 with NVIDIA NIM ✅
+- SkillClaw: running PID=2149 port 30000 ✅
+- MoneyPrinterTurbo: port 8080
+- Solomon Bus Watcher: background PID
+- RENU API: port 5010 ✅
 
-## Unresolved
-- Hermes OpenClaw integration — not needed since we use Hermes native + NVIDIA NIM
-- Some services still down (Ollama, Hermes, MoneyPrinterTurbo, Paperclip) per heartbeat
+## WHAT NEEDS FOLLOW-UP
+- Complete 1Panel clone and Atlas OS playbook integration
+- Wire Hermes to use SkillClaw as skill evolution proxy (NVIDIA GPU)
+- Test Phantom self-evolution with a real session
+- Bonsai: investigate if there's a self-hosted WebGPU LLM alternative
+- Hermes agent (Nous Research): integrate skills architecture
 
-## Next Session
-- Wire evolution trigger manually
-- Deep dive on any queued R&D items
-- Check service health
+## FILES CREATED/MODIFIED
+- /home/workspace/solomon-evolution/evolution.py (new)
+- /home/workspace/solomon-vault/solomon-config/ (new directory, 7 files)
+- /home/workspace/.agent/heartbeat/evolution_engine.py (new)
+- /home/workspace/.agent/heartbeat/decision_engine.py (modified)
+- /home/workspace/solomon-vault/brain/PHANTOM_SELF_EVOLUTION_INTEGRATION.md (new)
+- /home/workspace/solomon-vault/brain/SKILLCLAW_HERMES_INTEGRATION.md (new)
+- /home/workspace/solomon-vault/brain/RD_REPORTS/phantom-ai-coworker.md (new)
+- /home/workspace/solomon-vault/brain/HERMES_CAPABILITIES_UPDATE.md (new)
+- /root/.skillclaw/config.yaml (new)
+- task_queue.json (updated)
