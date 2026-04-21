@@ -1,43 +1,62 @@
-# AIQ Scout Session Summary — 2026-04-21
+# Telegram Session Summary — 2026-04-21
 
-## Session Time
-15:40 UTC (10:40 AM Chicago)
+## Date & Duration
+Afternoon session (~4 hours of active work)
 
-## Research Completed
+## Key Decisions Made
+- Free stack only (no paid models until revenue) — saves $100+/mo
+- Russell Tuna token verified and saved
+- Hermes skills pruned from 1,441 → 1,214 (removed 227 duplicates)
+- SkillClaw installed with NVIDIA MiniMax M2.7 — free reasoning engine
+- Phantom self-evolution architecture cloned and analyzed
+- Agent Zero cloned for self-improvement loop study
+- OpenMemory cloned — alternative to Icarus for memory
+- Always-on Solomon Agent space page live at /solomon-agent
+- One-command Solomon OS installer built and pushed to GitHub
 
-### GitHub Searches (8 queries):
-1. `site:github.com agent framework 2026` → Found: Microsoft Agent Framework (9.5k stars, MIT), dapr-agents (Apache 2.0), Gollem (Go, MIT), Alphora (Python, MIT), Agentrail (TypeScript, MIT)
-2. `site:github.com self-improving AI agent` → Found: MaximeRobeyns/self_improving_coding_agent (MIT), xmaks82/self-improving-agent (MIT), FutureSpeakAI/self-improving-agent (TS), Ramsbaby/openclaw-self-evolving (MIT)
-3. `site:github.com Hermes MCP skills` → Found: NousResearch/hermes-agent (active), cloudwalk/hermes-mcp (Elixir, MIT, 366 stars), poetryprotocol/hermes-mcp (Windows/Python)
-4. `site:github.com distributed AI compute P2P` → Found: hyperspaceai/agi (1.3k stars), Agent-FM/agentfm-core (MIT, April 2026), mycellm, peerclaw, tutu (MIT, Go), aria-protocol
-5. `site:github.com AI security scanner agent` → Found: sinewaveai/agent-security-scanner-mcp, Pantheon-Security/medusa (248 stars, AGPL), snyk/agent-scan (Apache 2.0), guard-scanner (MIT, 364 patterns), Firmis Scanner, Vigile-scan, AgentSeal, HackMyAgent
-6. `site:github.com browser automation AI agent` → Found: HyperAgent (npm), Vercel agent-browser (Rust), browser-use (89k stars, MIT), browserable (1k stars, MIT), Koda, Stagehand, copilotbrowser, pilo, vibium
-7. `site:github.com multi-agent deliberation` → Found: ai-council-framework, agent-tower-plugin, spectra, deliberate, Concilium (MIT, TS), Quorum (MIT, TS), ARTEMIS-agents (Apache 2.0), dialectic-agentic
-8. `site:github.com recurrent transformer MoE` → Found: Mixture-of-Recursions (MoR, NeurIPS 2025), ReMoE (ICLR 2025), HAG-MoE, MedIT One, lucidrains/st-moe-pytorch (MIT)
+## Code Created / Modified
+- `/solomon-installer/install.sh` — One-command Solomon OS installer
+- `/solomon-installer/clicky-walkthrough/README.md` — Clicky walkthrough guide
+- `/home/workspace/zo-restore/files/install.sh` — Synced installer to restore repo
+- `/home/zo.space/solomon-agent` (route) — Always-on agent page, public
+- `/home/workspace/solomon-vault/brain/PHANTOM_SELF_EVOLUTION.md` — Phantom architecture
+- `/home/workspace/solomon-vault/brain/SKILLCLAW_DEEP_DIVE.md` — SkillClaw analysis
+- `/home/workspace/solomon-vault/brain/SOLOMON_EVOLUTION_ENGINE.md` — Evolution engine spec
+- `/home/workspace/solomon-vault/brain/SOLOMON_OS_CONSTITUTION.md` — Tier 1 principles
+- `/home/workspace/solomon-vault/brain/solomon-config/` — Config files (constitution, persona, etc.)
+- Hermes skills: 1,214 skills installed (pruned from 1,441)
+- SkillClaw: installed at `/home/workspace/SkillClaw/`, running on NVIDIA MiniMax M2.7
+- Phantom: cloned to `/home/workspace/phantom/`
+- Agent Zero: cloned to `/home/workspace/agent-zero/`
+- OpenMemory: cloned to `/home/workspace/OpenMemory/`
+- Honcho CLI: installed via uv tool
+- Taste Skill: 7 variants installed into Hermes
+- Hyperbrowser hyperskills: cloned
+- Agentic.Market x402 skills: installed via npx
+- 1Panel: cloned to `/home/workspace/1panel/`
 
-### X/Twitter Trends:
-- **Hermes Agent** trending: AMD blog post (April 21), self-evolution features, profiles as reasoning wrappers
-- **Self-improving AI defense**: Agentic Shielding (air-gap vulnerabilities in real-time), Bell Cyber Autonomous SOC
-- **AI agent security vulnerabilities 2026**: OWASP Agentic Top 10 released, "Shadow Agent" crisis (Google), real incidents with Claude weaponized against Mexican government
-- **Distributed AI compute grid**: Sentient GRID (token-level routing, modular DAGs), hyperspaceai/agi (P2P distributed AGI, 1.3k stars)
+## Problems Solved
+- Ollama wasn't running → started it
+- GitHub push failed (branch mismatch) → fixed by using `master` branch
+- SkillClaw needed NVIDIA API key → found it in env, configured it
+- Hermes skills bloated with duplicates → audited and pruned 227 skills
+- Russell Tuna token verified → confirmed as @RussellTunaBot
+- zo.space route creation needed code → created always-on agent page
 
-## Repos Already Present (ALL EXISTING):
-- gollem, ninja, peerclaw, artemis-agents, concilium, guard-scanner, stagehand, vibium, copilotbrowser, pilo — all pre-existing with forks + RD reports
-- HyperAgent, browser-use, dapr-agents, agent-framework, ai-council-framework — all pre-existing
+## Unresolved Issues
+- Telegram group chat routing deferred (need @JosephsBot token + group ID)
+- Bud AI: TWIML parsing issue, replay not downloadable — queued for later
+- Hermes lacks Telegram support — only iMessage/WhatsApp (paid)
+- Always-on agent page `/solomon-agent` hits API endpoint that may not exist yet
 
-## Fork Status:
-- All discovered repos already cloned and forked to jvanleur2234-glitch
+## Follow-up Needed
+1. Test `/solomon-agent` page — confirm it responds
+2. Record Clicky walkthrough of install process
+3. Get @JosephsBot token for Telegram group routing
+4. Wire evolution engine into heartbeat (in progress)
+5. Clone Bonsai WebGPU to Bonsai folder
 
-## Key Intelligence Findings:
-1. **Browser automation**: browser-use has 89k stars (MIT) — dominant player
-2. **Security scanners**: medusa (248 stars), guard-scanner (364 patterns, MIT) active
-3. **Distributed AI**: hyperspaceai/agi (1.3k stars, P2P distributed AGI), AgentFM core (April 2026)
-4. **Multi-agent deliberation**: ARTEMIS-agents (Apache 2.0), Quorum (MIT), Concilium (MIT)
-5. **Self-improving agents**: ninja (Rust/AI-generated), openclaw-self-evolving (MIT)
-6. **Hermes MCP**: cloudwalk/hermes-mcp (366 stars, Elixir), NousResearch/hermes-agent (active updates)
-
-## Next Steps for Human Review:
-- Consider the emerging **Agentic Shielding** concept (air-gap vulnerabilities in real-time) for Solomon OS defense layer
-- Monitor **hyperspaceai/agi** (1.3k stars) — P2P distributed AGI could be AgentFM competitor
-- **browser-use** (89k stars) is the dominant browser automation tool — integrate into ClawLess
-- OWASP Agentic Top 10 release is a significant event — update security tooling strategy
+## Sync Status
+- zo-excellence-package: synced ✅
+- solomon-vault: synced ✅
+- zo-restore: pushed ✅
