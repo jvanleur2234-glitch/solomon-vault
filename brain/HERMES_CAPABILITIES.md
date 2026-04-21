@@ -28,6 +28,8 @@
 - ** vibiumdev/vibium** — AI-friendly browser automation via WebDriver BiDi, CLI+MCP+lib
 - ** copilotbrowser/copilotbrowser** — Apache 2.0, cross-browser (Chromium/Firefox/WebKit) with MCP + "Follow Me" mode
 - ** trentpierce/koda** — Non-commercial AI browser automation with CV-driven element understanding
+- ** browserbase/stagehand** — MIT, TypeScript hybrid AI+code browser automation with auto-caching, self-healing, action preview, CDP control
+- ** ruvnet/ruvector** — MIT, Rust self-learning vector DB with local AI inference, GNN optimization, SONA engine, graph RAG, Cypher queries, CES 2026 Innovation Award
 
 ## AI Security Scanners (Snyk Competitors)
 - ** sinewaveai/agent-security-scanner-mcp** — MCP security server: prompt injection firewall, package hallucination detection (4.3M+), 1000+ vuln rules with AST/taint analysis
