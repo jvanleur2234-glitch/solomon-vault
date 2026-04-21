@@ -15,6 +15,8 @@
 - ** alphora-ai/alphora** — Full-stack Python agent framework with sandboxing, typed streaming, skills ecosystem
 - ** solace-labs/solace-agent-mesh** — Event-driven multi-agent mesh via Solace Event Mesh, Apache 2.0
 - **fugue-labs/gollem** — Apache 2.0, Go-first type-safe agent framework with compile-time guarantees, multi-provider streaming, guardrails, OpenTelemetry observability
+- ** ddalcu/agent-orcha** — MIT, declarative YAML-based multi-agent framework with P2P encrypted sharing, built-in vector store, browser sandbox, security hardening (SSRF/SQLi), desktop app + Docker
+- ** yai-dev/agentrail** — Apache 2.0, TypeScript agent framework with composable runtime, multi-agent orchestration, Docker sandboxing, profile/plugin system, deep-research addon
 
 ## Browser Automation (ClawLess Competitors)
 - ** vercel-labs/agent-browser** — MIT, native Rust CLI for AI agent browser automation
