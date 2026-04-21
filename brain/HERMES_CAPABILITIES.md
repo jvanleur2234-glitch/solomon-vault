@@ -175,3 +175,19 @@
 
 ## Memory & Knowledge Graphs
 - ** topoteretes/cognee** — Apache 2.0, persistent memory for AI agents via vector+graph knowledge engine, 16.5K stars. ECL pipeline (Extract→Cognify→Load), 30+ data sources, MCP server, CLI+UI. Drop-in memory layer for Hermes agents.
+
+## Security — Offensive/Defensive (AIQ Scout 2026-04-21)
+- ** gadievron/raptor** — MIT, autonomous offensive/defensive security research framework powered by Claude Code. Enables automated reconnaissance, exploit development, adversarial simulation. Forked to jvanleur2234-glitch/raptor.
+- ** blueman82/ai-counsel** — MIT, true deliberative consensus MCP server where AI models debate across multiple rounds. Multi-model (Claude, Codex, Gemini, Ollama), evidence-based deliberation, early convergence, full transcripts. Forked to jvanleur2234-glitch/ai-counsel.
+
+## n8n Integration (AIQ Scout 2026-04-21)
+- ** lauchacarro/n8n-nodes-dynamic-agent** — MIT, flexible AI Agent node for n8n with mixed message config, token tracking, sub-node integration (memory, tools, parsers). Reference for Hermes n8n node.
+
+## Enterprise Multi-Agent (AIQ Scout 2026-04-21)
+- ** kyegomez/swarms** — Apache 2.0, enterprise-grade multi-agent orchestration. 6k+ stars. Hierarchical swarms, MCP, X402 payments, AOP protocol. Kye Gomez's project (OpenMythos author). Study for Solomon OS enterprise architecture.
+
+## OWASP Security Standards (AIQ Scout 2026-04-21)
+- ** OWASP/www-project-agentic-skills-top-10** — OWASP standard for AI agent skills security. Top 10 risks (AAI001-AAI014), MAESTRO mapping, universal skill format, incident response playbooks. Reference baseline for Hermes security hardening.
+
+---
+*Last updated: 2026-04-21 04:35 UTC — AIQ Scout Hourly Session*
