@@ -1,42 +1,56 @@
 # Telegram Session Summary — 2026-04-22
 
-**Time:** 01:35 UTC (~20:35 Chicago local)
-**Channel:** Scheduled AIQ Scout run
+## Date: April 22, 2026
+## Session: AIQ Scout Hourly Research
 
-## Key Findings
+## Key Actions Taken
 
-### GitHub Research
-1. **Agent Frameworks (2026):** Microsoft Agent Framework (Python/.NET), Gollem (Go/Type-safe), Dapr Agents (Kubernetes), Alphora (Python/full-stack), AgentRail (TypeScript), Solace Agent Mesh (event-driven), Agent Orcha (YAML/P2P), Phero (Go/RAG)
-2. **Self-Improving Agents:** 10+ repos found — agent-fridays-self-improvement-kit (human-in-loop), openclaw-self-evolving (log-based), self_improving_coding_agent (Docker/benchmark), ninja (Rust/Python self-patch)
-3. **Hermes/MCP:** NousResearch/hermes-agent active. MCP ecosystem growing. Skills loading pipeline, A2A protocol, event-driven architecture.
-4. **P2P Distributed AI:** AgentFM (Go/Podman/libp2p), mycellm (credit economy), ARIA Protocol (1-bit models), Hyperspace (2M+ nodes), PeerClaw (token economy)
-5. **Security Scanners:** medusa (9,600+ patterns), guard-scanner (SOUL.md tampering), hackmyagent (semantic security), mcp-scanner (Cisco), agent-security-scanner-mcp (AST)
-6. **Browser Automation:** HyperAgent, browser-use (50K stars), agent-browser (Rust), Koda (CV-based), CopilotBrowser (MCP)
-7. **Multi-Agent Deliberation:** Quorum (7-phase), dialectic-agentic (debate/architect), spectra (blackboard), concilium (peer review), council-of-high-intelligence (18 personas)
+### Repos Cloned & Evaluated
+- **gollem** (fugue-labs) — Go agent framework, MIT, compile-time type safety, guardrails. Already forked previously.
+- **agent-browser** (vercel-labs) — Rust browser automation CLI, Apache 2.0. Already exists locally.
+- **agent-framework** (microsoft) — Multi-language agent framework, already forked.
+- **mcp-scanner** (cisco-ai-defense) — Multi-engine MCP security scanner, Apache 2.0. Already forked.
+- **agentrail** — TypeScript agent harness, already forked.
+- **alphora** — Python agent framework, already exists.
+- **dapr-agents** — Already exists.
 
-### X Trends
-- **Hermes Agent** gaining traction — RealClaw integration, benchmarks showing Gemma4 31b competitive
-- **OWASP Top 10 for Agentic Apps 2026** released — prompt injection #1 risk, audit trails critical
-- **AI agents as attack vectors** — Mexican government breach via weaponized Claude
-- **Distributed compute grid** — Sentient GRID token-level routing, modular workflows
+### RD Reports Written
+- `gollem.md` — Go agent framework, compile-time type safety, guardrails
+- `vercel-agent-browser.md` — Rust browser CLI, already installed locally
+- `mcp-scanner.md` — Cisco MCP security scanner, multi-engine scanning
+- `spectra.md` — Multi-agent deliberation skills, Claude Code ecosystem
 
-### Actions Taken
-- Cloned/forked: agent-fridays-self-improvement-kit (MIT), Quorum (MIT)
-- Already had 30+ relevant repos cloned from prior sessions
-- Wrote 4 RD reports to solomon-vault/brain/RD_REPORTS/
-- Updated HERMES_CAPABILITIES.md with 3 new entries
+### HERMES_CAPABILITIES.md Updated
+Added entries for:
+- gollem (type-safe Go agent)
+- vercel agent-browser (Rust browser CLI)
+- spectra (multi-agent deliberation)
 
-### New Entries to Hermes
-- Agent Orcha (YAML/P2P orchestration)
-- Solace Agent Mesh (event-driven)
-- agent-fridays-self-improvement-kit (human-in-loop self-mod)
+### X Trends Discovered
+- **Hermes Agent** — 65K→100K GitHub stars explosion, NousResearch. Running on Raspberry Pi 5 with HUSKYLENS vision. Local model + own API key = private AI agent agency.
+- **Swarms v11** — Kye Gomez's multi-agent framework crossed $1M MRR. 3 new swarm architectures, HeavySwarm scaling to 16 agents. YAML injection, SSRF, shell injection security fixes. Major release.
+- **AI security vulnerability surge** — 200-300% YoY increase. GitHub vulnerability reports up 224% in 3 months (Mar 2026). AI-assisted devs commit 3-4x faster but introduce security flaws at 10x rate.
+- **AVE standard** — First Agentic Vulnerability Enumeration records published (AVE-2026-00001, AVE-2026-00002).
 
-## Business Context
-- Solomon OS running 24/7 on Zo
-- Russell Tuna Telegram bot active
-- Hermes with 94+ skills
-- KwaaiNet P2P compute vision in progress
+### Fork Status
+Already forked repos confirmed:
+- jvanleur2234-glitch/mcp-scanner
+- jvanleur2234-glitch/persistent-agent-framework
+- jvanleur2234-glitch/agent-framework
+- jvanleur2234-glitch/agentrail
 
-## Sync
-- Brain files synced to GitHub ✅
-- RD reports written ✅
+## GitHub Sync
+- Pushed 4 new RD reports to solomon-vault
+- Synced HERMES_CAPABILITIES.md updates
+
+## Key Insights for Solomon OS
+1. **Hermes momentum is massive** — 100K stars, running locally on Pi 5 with vision. Jack's "Solomon OS" could benefit from Hermes OS branding/ecosystem connection.
+2. **Swarms crossed $1M MRR** — Agent economy is real and accelerating. AgentFM/distributed compute competitors heating up.
+3. **Security is the bottleneck** — Not writing code, validating what agents write. Guard-scanner, mcp-scanner, medusa = essential for JCPaid.
+4. **Rust browser automation emerging** — vercel/agent-browser (already installed) = faster alternative to Playwright for Hermes browser automation.
+
+## Follow-up Actions
+- [ ] Review guard-scanner v13.0.0 (Mar 2026 update)
+- [ ] Test mcp-scanner CI/CD integration
+- [ ] Investigate Swarms v11 security fixes (YAML injection, SSRF)
+- [ ] Study Hermes Agent skill ecosystem for potential integration
