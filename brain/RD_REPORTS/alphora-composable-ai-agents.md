@@ -1,30 +1,24 @@
-# RD Report: Alphora
+# alphora — Production Python Agent Framework
 
-**Repo:** `opencmit/alphora`  
-**Stars:** New | **License:** Apache 2.0 | **Lang:** Python  
+**URL:** https://github.com/jvanleur2234-glitch/alphora
+**Forked from:** https://github.com/opencmit/alphora
+**License:** Apache-2.0 | **Stars:** ~500+ | **Language:** Python
 
 ## What It Does
-Full-stack framework for building production AI agents with built-in code sandboxing, typed streaming, memory pipeline, skills ecosystem, and multi-LLM support.
+Full-stack Python framework for production AI agents. Agent orchestration (ReAct, Plan-Execute, hierarchical), tool execution, memory management, secure code sandbox, skills ecosystem, streaming, deployment.
 
-## Why It Matters for Solomon OS
-- **Built-in Sandbox**: No external SaaS needed for code execution — major cost saver
-- **Typed Streaming**: `think`, `result`, `sql`, `chart` events for rich agent output
-- **Skills Ecosystem**: Compatible with agentskills.io marketplace
-- **LLM Load Balancing**: Round-robin/random across multiple providers
-- **Self-Contained**: No plugin sprawl — everything included
-
-## Key Capabilities
+## Key Features
 - Agent orchestration: ReAct, Plan-Execute, hierarchical derivation
-- Built-in tool system with auto-schema generation and parallel execution
-- Memory processing pipeline with pin/tag/undo/redo
+- Built-in tool system with parallel execution, LLM load balancing (round-robin/random)
+- Memory processor pipeline with tagging, undo/redo, observability hooks
 - Secure code sandboxing (local/docker/remote)
-- Jinja2 prompt engine with parallel prompting
-- OpenAI-compatible API deployment in one line
+- Skills ecosystem for extensibility
+- Typed streaming (SSE) for results, charts, SQL outputs
+- Rich prompt engine (Jinja2, parallel prompts, auto-continuation)
+- One-line deployment via `publish_agent_api`, OpenAI-compatible interfaces
 
-## Comparison to What We Have
-vs **LangChain/CrewAI**: Alphora is more self-contained with built-in sandbox and typed streaming. Strong production-readiness argument.
+## Solomon OS Fit
+**SKILL** — alphora's sandbox + skills architecture mirrors Hermes skill system. Plan-Execute pattern is good for complex task decomposition. Apache-2.0 permits code study. Python-based aligns with existing Solomon OS stack.
 
 ## Recommendation
-**SKILL** — The built-in sandbox and typed streaming fill gaps. Evaluate for Solomon OS agent execution layer.
-
-**Category:** #agent-framework #sandbox #streaming
+SKILL — Study sandbox execution and skills ecosystem architecture for Hermes enhancement.

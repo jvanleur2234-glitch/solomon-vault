@@ -110,3 +110,19 @@
 - **Solomon OS fit:** SKILL — DiLoCo compression patterns for distributed training. P2P compute pooling directly competes with AgentFM. Sprint governance informs agent economy tokenomics.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/gonka-decentralized-ai-compute.md
+
+## Ouroboros — Self-Modifying Agent with Git-Based Code Evolution (April 22, 2026)
+- **URL:** https://github.com/razzant/ouroboros
+- **Fork:** Already cloned (`/home/workspace/ouroboros`)
+- **What it does:** Self-modifying AI agent that rewrites its own code via git. Multi-LLM review gate (o3, Gemini, Claude) validates changes. Constitution-based governance (BIBLE.md with 9 principles). Persistent identity across restarts. MIT licensed, ~515 stars.
+- **Solomon OS fit:** SKILL — Multi-LLM review gate pattern for Hermes self-improvement safety. Constitution governance model. Git-based skill versioning concept. Study for Hermes self-evolution architecture.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/ouroboros-self-modifying-agent.md
+
+## dayour/copilotbrowser — Multi-Browser AI Automation with "Follow Me" Mode (April 22, 2026)
+- **URL:** https://github.com/dayour/copilotbrowser
+- **Fork:** Already cloned (`/home/workspace/copilotbrowser`)
+- **What it does:** Node.js multi-browser automation (Chromium, Firefox, WebKit) via single API. Native MCP server. "Follow Me" mode records user browsing and replays exact steps autonomously. VS Code extension. Apache 2.0, ~1 star (nascent).
+- **Solomon OS fit:** SKILL — "Follow Me" recording could auto-generate Hermes browser-based skills from user actions. Multi-browser MCP integration for Claude Desktop/VS Code agent.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/copilotbrowser.md

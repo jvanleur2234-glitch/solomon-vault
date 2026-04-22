@@ -1,26 +1,27 @@
-# RD Report: Agent Orcha
+# agent-orcha — Declarative Multi-Agent YAML Framework
 
-**Date:** 2026-04-22
-**Repo:** ddalcu/agent-orcha
-**License:** MIT
-**Stars:** ~N/A (newer repo)
-**Tech:** Python + TypeScript
+**URL:** https://github.com/jvanleur2234-glitch/agent-orcha
+**Forked from:** https://github.com/ddalcu/agent-orcha
+**License:** MIT | **Language:** TypeScript/Node.js
 
 ## What It Does
-Declarative multi-agent AI framework via YAML configuration. Orchestrates agents, workflows, and knowledge stores with peer-to-peer sharing.
+Declarative YAML-based framework for multi-agent AI systems. Define agents, workflows, knowledge stores in YAML. Native desktop apps (macOS/Windows/Linux), P2P agent sharing, MCP integration, built-in vector store.
 
 ## Key Features
-- YAML-driven agent/workflow definition
-- Model-agnostic (OpenAI, Gemini, Anthropic, local LLMs)
-- MCP (Model Context Protocol) for external tool connections
-- P2P agent sharing (no central API keys, per-peer rate limiting)
-- Native desktop apps (macOS, Windows, Linux) + Docker
-- Built-in SQLite vector store with graph mapping
-- Browser sandbox (Chromium CDP + Xvfb + noVNC)
-- Agent Orcha Studio web dashboard
-- Security: SSRF protection, SQL injection hardening, sandboxed execution
+- Declarative YAML definitions for agents + workflows
+- P2P agent + LLM sharing over encrypted networks (no central API key exposure)
+- Native desktop apps with system tray + auto-updates
+- Model-agnostic: OpenAI, Gemini, Anthropic, local LLMs (Ollama)
+- MCP (Model Context Protocol) for external service integration
+- Built-in SQLite-based vector store + knowledge graph mapping
+- Robust workflow engine: parallel execution, conditional logic, state management
+- ReAct autonomous workflows with multi-turn continuations
+- Browser sandbox: full Chromium with CDP, noVNC, vision-based pixel control
+- Conversation memory with TTL management
+- Security: rate limiting, SSRF protection, SQL injection hardening, sandboxed execution
 
-## For Solomon OS
-YAML-driven orchestration fits Solomon OS declarative style. P2P sharing aligns with KwaaiNet vision. Browser sandbox complements browser-harness.
+## Solomon OS Fit
+**SKILL** — P2P agent sharing is a competitor to AgentFM. Declarative YAML approach is interesting for configuration. Browser sandbox + vision mode parallels HyperAgent. MIT license allows direct adoption.
 
-**VERDICT: FORGE — declarative multi-agent orchestration**
+## Recommendation
+SKILL — Study P2P sharing model and declarative workflow engine for potential Solomon Air integration.

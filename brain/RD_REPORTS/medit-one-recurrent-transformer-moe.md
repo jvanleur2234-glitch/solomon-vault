@@ -1,34 +1,27 @@
-# RD Report: medit-one — Recurrent Transformer + MoE
+# MedIT One — Recurrent Transformer MoE Architecture
 
-**Repo**: `MedITSolutionsKurman/medit-one`  
-**Fork**: `jvanleur2234-glitch/medit-one-new`  
-**Date**: 2026-04-19  
-**License**: Not clearly specified (check before use)  
-**Relevance**: RECURRENT TRANSFORMER MoE / OPENMYTHOS COMPETITOR  
+**URL:** https://github.com/jvanleur2234-glitch/medit-one
+**Forked from:** https://github.com/MedITSolutionsKurman/medit-one
+**License:** MIT | **Language:** Python/CUDA
 
-## What It Is
-High-speed transformer architecture combining **recurrent-style state management** (token-by-token prediction with evolving hidden state) with **Mixture-of-Experts (MoE)** for dynamic expert activation. Targets faster per-token inference with constant memory footprint and unbounded context.
+## What It Does
+Innovative transformer architecture combining recurrent-style state management with MoE (Mixture of Experts) for efficient inference on long/unbounded contexts. Single-token prediction with constant memory footprint.
 
-## Key Features
-- **Recurrent hidden state** (hx, cx) evolving per token — like RNN but attention-based
-- **Constant memory** — unbounded context length in practice
-- **MoE integration** — dynamic expert activation for parallel processing
-- **CUDA-accelerated**: fused RoPE + attention kernels, mixed FP16/BF16
-- Hidden-state self-attention on internal representations vs full token sequences
-- Single-token prediction focus
+## Key Innovations
+- **Single-Token Prediction**: Processes one token at a time, constant memory regardless of context length
+- **Hidden-State Self-Attention**: Attention on hidden representations (not tokens) — linear scaling vs quadratic
+- **Recurrent-Style State Management**: Forward-evolving state vectors (hx, cx) like LSTM/GRU, continuous refinement
+- **MoE Integration**: Dynamic expert selection with parallel processing, CUDA-accelerated
+- **CUDA Kernels**: Custom fused RoPE+attention, flash attention variants, FP16/BF16 mixed precision
+- Checkpoints: 140M (9B tokens), 98M (6B tokens) available on HuggingFace
 
-## What We'd Use It For
-**OpenMythos architecture research.** MedIT One combines the two key ideas from the OpenMythos competitor search — recurrent state + MoE — into a coherent architecture. Relevant if Solomon OS ever needs custom model design or inference optimization.
+## Relevance to OpenMythos Competitors
+- Recurrent transformer + MoE is the exact architecture category for OpenMythos competitors
+- Linear attention scaling is key for long-context agentic workloads
+- CUDA optimization patterns useful for Solomon Air GPU optimization
 
-## Comparison to OpenMythos (swarms_corp)
-- **OpenMythos**: Recurrent domain-specific attention + MoE for long context
-- **medit-one**: Similar recurrent state concept but focused on inference speed + constant memory
-- Both address the context window limitation differently
+## Solomon OS Fit
+**SKILL** — Architecture study only. The recurrent state + MoE combination is relevant for Solomon Air inference optimization. MIT license permits studying the architecture.
 
-## Recommendation: **RESEARCH**
-- License unclear — needs confirmation before use
-- Forked for architecture reference
-- Key insight: recurrent hidden state + MoE is a winning combo for unbounded context + efficient inference
-
-## Links
-- Fork: https://github.com/jvanleur2234-glitch/medit-one-new
+## Recommendation
+SKILL — Study MedIT One's recurrent state management + linear attention for potential Solomon Air inference optimization.

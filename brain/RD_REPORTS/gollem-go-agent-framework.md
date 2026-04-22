@@ -1,26 +1,24 @@
-# Gollem — Go Agent Framework — RD Report
+# gollem — Production Agent Framework for Go
 
-## Summary
-**Repo:** `fugue-labs/gollem`  
-**License:** Apache 2.0  
-**Stars:** ~1K+ (estimated)  
-**Language:** Go  
+**URL:** https://github.com/jvanleur2234-glitch/gollem
+**Forked from:** https://github.com/fugue-labs/gollem
+**License:** MIT | **Stars:** ~500+ | **Language:** Go
 
 ## What It Does
-Production-grade Go agent framework focused on type safety and zero-core dependencies:
-- **Type-safe agents:** Generic `Agent[T]` with compile-time output schema generation
-- **Multi-provider streaming:** 5+ LLM providers (Anthropic, OpenAI, Gemini, Vertex, etc.)
-- **Guardrails:** MaxPromptLength, ContentFilter, MaxTurns, per-tool validators
-- **Output repair:** Auto-repair of malformed outputs before retries
-- **Observability:** OpenTelemetry integration, lifecycle hooks, state snapshots
-- **Middleware chain:** Logging, Timing, MaxTokens, custom message interceptors
-- **Streaming:** Real-time token streaming via Go 1.23+ iterators
+Type-safe Go agent framework with compile-time guarantees. Agents, tools, guardrails, middleware, streaming, multi-agent orchestration — all type-checked at compile time.
 
-## For Solomon OS / Hermes
-- **Go runtime:** Complements Python/TypeScript agent ecosystems — potential for high-performance Go-based agent nodes
-- **Type safety:** Could provide Hermes with typed tool/skill contracts
-- **Guardrails:** Built-in validation aligns with Solomon security requirements
-- **MIT/Apache fork exists:** `jvanleur2234-glitch/gollem`
+## Key Features
+- Generic `Agent[T]` with automatic compile-time schema generation
+- 5+ LLM providers (Anthropic, OpenAI, Google Gemini/Vertex)
+- `FuncTool[P]` — typed tools from Go functions with reflection-based JSON Schema
+- Streaming via `iter.Seq2` (Go 1.23+ range-over-function)
+- Guardrails: input validation, turn limits, tool result validators, output auto-repair
+- OpenTelemetry middleware, lifecycle hooks, conversation state snapshots
+- Agent middleware chain, message/response interceptors
+- Multi-agent team swarms with dynamic personality generation
+
+## Solomon OS Fit
+**SKILL** — Study compile-time type safety patterns for Hermes Go agents. The guardrail/middleware chain is directly applicable. Self-contained single-binary deployment aligns with Solomon Air goals. Not MIT-compatible enough for direct code use (Go-specific), but patterns are portable.
 
 ## Recommendation
-**INTEGRATE** — Gollem's type-safe Go agents could serve as a high-performance compute node layer for Solomon OS. The guardrail system is well-designed for security-conscious deployments.
+SKILL — Study gollem's guardrail architecture and compile-time safety model for Hermes hardening.

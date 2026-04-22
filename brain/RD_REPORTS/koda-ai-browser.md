@@ -1,25 +1,25 @@
-# TrentPierce/Koda — CV-Driven AI Browser Automation
+# Koda — AI-Powered Autonomous Browser Automation
 
-**Date:** 2026-04-21  
-**Category:** Browser Automation (ClawLess Competitor)  
-**License:** Non-commercial  
-**Stars:** ~200  
-**Forked:** `/home/workspace/Koda`
+**URL:** https://github.com/jvanleur2234-glitch/Koda
+**Forked from:** https://github.com/TrentPierce/Koda
+**License:** MIT | **Language:** JavaScript/TypeScript
 
 ## What It Does
-AI-powered browser automation framework using computer vision + multi-LLM intelligence (Gemini, OpenAI, Claude) to understand and interact with web apps like a human. Self-healing selectors that adapt to layout changes.
+AI-powered autonomous browser automation framework that interacts with web apps as a human would. Multi-LLM agents (Gemini/OpenAI/Claude) + computer vision + self-healing selectors. Multi-browser + mobile automation support.
 
 ## Key Features
-- Self-healing selectors — adapts to site changes without breaking
-- Multi-browser: Chrome, Firefox, Safari, Edge + mobile automation
-- Computer vision-driven element understanding
+- Multi-browser: Chrome, Firefox, Safari, Edge
+- Mobile automation: iOS/Android via Appium
+- Multi-LLM: Gemini, OpenAI, Claude with auto-fallback
+- Computer vision for element understanding
+- Self-healing selectors (adapts to changing sites)
 - Stagehand-compatible API
-- REST API rate limiting, safer host binding, strict tool boundaries
+- REST API with rate limiting + safer host binding
+- Hardened tools: APITool, FileTool with strict path checks
+- Production-ready: deterministic CI, robust test/lint/build
 
-## For Solomon OS / ClawLess
-- Computer vision approach = more resilient to UI changes than CSS selectors
-- Multi-LLM intelligence (Gemini/OpenAI/Claude) = fallback chain
-- Self-healing selectors directly address the #1 browser automation pain point
+## Solomon OS Fit
+**SKILL** — Koda's CV-driven element understanding + self-healing selectors are strong differentiators for Solomon Browser. Multi-browser/mobile support expands scope. MIT license permits direct adoption.
 
 ## Recommendation
-**SKILL** — Good CV approach. Self-healing selectors are compelling. Non-commercial license limits enterprise use but fine for personal/internal tools.
+SKILL — Study Koda's self-healing selector mechanism for Solomon Browser resilience.
