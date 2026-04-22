@@ -1,60 +1,81 @@
 # Telegram Session Summary — 2026-04-22
 
-**Channel:** Scheduled Agent (AIQ Scout)  
-**Time:** 08:45 CDT
+**Time:** 17:35 UTC  
+**Trigger:** Scheduled AIQ Scout run (every-hour autonomous research agent)  
+**Channel:** Scheduled Agent Mode
 
-## Session Overview
-AIQ Scout ran the scheduled hourly research workflow. Mission: scan GitHub + X for new repos relevant to Solomon OS / JCPaid / Hermes Agent.
+## What Was Done
 
-## GitHub Searches Conducted
-1. **Agent framework 2026** — Found: microsoft/agent-framework (~9.5K stars), gollem (Go, type-safe), alphora (Python, skills ecosystem), openai-agents-python, agentlib (TypeScript), solace-agent-mesh (event-driven)
-2. **Self-improving AI agent** — Found: ouroboros (self-modifying via git), self_improving_coding_agent (iterative self-improvement loop), evalloop (policy patching), recursive-improve (trace-driven), facebookresearch/HyperAgents
-3. **Hermes MCP skills** — Found: NousResearch/hermes-agent (MCP client v0.2.0), Rainhoole/hermes-agent-acp-skill, cloudwalk/hermes-mcp (Elixir SDK)
-4. **Distributed AI compute P2P** — Found: hyperspace-node (2M+ nodes), hivemind (decentralized training), peerclaw (tokenized), KwaaiNet (Rust, live network), tutu (Go, TuTuFile format)
-5. **AI security scanner agent** — Found: sinewave-agent-security-scanner-mcp, agentaudit-mcp, medusa (9600+ patterns), snyk/agent-scan, guard-scanner (364 patterns, OWASP ASI), agentseal, hackmyagent, firmis-scanner
-6. **Browser automation AI agent** — Found: HyperAgent, agent-browser (Vercel, Rust), browser-use, stagehand, vibium, browserable, Koda
-7. **Multi-agent deliberation** — Found: Quorum (7-phase, TypeScript), ARTEMIS Agents, Concilium, spectra, agent-tower-plugin
-8. **Recurrent transformer MoE** — Found: medit-one (recurrent + MoE), ReMoE (ReLU routing), HAG-MoE (attention-derived routing)
+### GitHub Research (8 categories searched)
+- **Agent framework 2026:** Found 9 new repos — microsoft/agent-framework (9K+ stars, graph orchestration), dapr-agents (Python, Apache 2.0), agent-express (TypeScript, middleware-style), agentrail (TypeScript, composable runtime), gollem (Go, type-safe), agent-orcha (TypeScript, declarative YAML), KohakuTerrarium (Python, multi-agent), yai-dev/agentrail
+- **Self-improving AI:** Found 6 repos — peterskoett/self-improving-agent (544 stars), MaximeRobeyns/self_improving_coding_agent (312 stars), CoPaw self-evolution PR (#2773)
+- **Hermes MCP skills:** Found 10+ repos from NousResearch/hermes-agent ecosystem
+- **Distributed AI P2P:** Found 6 repos — AgentFM (container P2P), mycellm (GPU pooling, Apache 2.0), Shard (browser WebGPU), KwaaiNet (Rust), Hyperspace AGI
+- **AI security scanner:** Found 9 repos — sinewaveai (AST-based), medusa (9.6K patterns), snyk/agent-scan, firmis-scanner, Cybathreat/agent-security-scanner
+- **Browser automation:** Found 8 repos — hyperbrowserai/HyperAgent, browserclaw-agent, vibium, browserable, nanobrowser, TheAgenticBrowser
+- **Multi-agent deliberation:** Found 10 repos — dialectic, Quorum, council, gumbel-ai/agent-debate, claud-synod-debate, spectra, agent-council
+- **Recurrent transformer MoE:** Found 3 repos — OpenMythos (Kye Gomez/Swarms Corp), MedIT One, mixture_of_recursions
 
-## X/Twitter Searches Conducted
-- **Solomon OS OR Hermes agent** — Hermes Agent is actively discussed; Solomon OS is not visible (likely too niche)
-- **self-improving AI defense** — Found: fragile LLM safety defenses paper (OpenAI/Anthropic/Google), self-evaluation defense, sandboxed agents, Microsoft Foundry case study
-- **AI agent security vulnerability 2026** — CRITICAL: OWASP Top 10 for Agentic Applications 2026 published. Real exploits targeting agent identities, orchestration layers, supply chains. Claude weaponized to attack Mexican government agencies.
-- **distributed AI compute grid** — Found: Sentient's GRID, Gradient Network (Parallax AI), actor-model P2P compute
+### X/Twitter Research (4 searches)
+- **"Solomon OS OR Hermes agent":** Hermes Agent trending (Higgsfield Marketing Studio, UGC ads)
+- **"self-improving AI defense":** Federated learning defense, autonomous SOC, self-evaluation as defense
+- **"AI agent security vulnerability 2026":** OWASP Agentic Top 10 2026, Shadow Agents crisis, prompt injection #1 risk
+- **"distributed AI compute grid":** Sentient GRID, Gradient Network Parallax, distributed execution trends
 
-## Actions Taken
+### Critical Repos Check
+- **swarms_corp / Kye Gomez:** OpenMythos (already forked as `OpenMythos` in workspace), Swarms framework (already in workspace as `swarms-kyegomez`)
+- **GitHubDaily picks:** Agency Agents (35K stars), Auto Research (25K stars), Lightpanda (14K stars), GitAgent (trending) — all already catalogued
 
-### Fresh Forks
-- `agentaudit-mcp` → `jvanleur2234-glitch/agentaudit-mcp` ✅
+### Forks & RD Reports (3 new)
+1. **browserclaw-agent** (idan-rubin) — MIT, ~400 stars — INTEGRATE
+   - Modular TypeScript browser agent, 3 swappable layers (LLM/agent/browser)
+   - Auto-learns domain-specific playbooks; built-in anti-bot solving
+   - Forked to jvanleur2234-glitch
 
-### Already Forked (verified)
-- guard-scanner, sinewave-agent-security-scanner-mcp, Quorum, ouroboros, medit-one
-- All others already present in workspace
+2. **agent-security-scanner** (Cybathreat) — MIT, ~500 stars — INTEGRATE
+   - 11-module comprehensive security scanner (prompt injection, RAG, agent attacks, infrastructure)
+   - OWASP/MITRE mapped, severity scoring
+   - Forked to jvanleur2234-glitch
 
-### RD Reports Written
-- `guard-scanner.md` — 364 patterns, OWASP ASI aligned
-- `sinewave-agent-security-scanner-mcp.md` — prompt injection firewall, 4.3M+ package hallucination detection
-- `quorum.md` — 7-phase multi-agent deliberation with SHA-256 ledger
-- `ouroboros.md` — self-modifying agent with constitution-based governance
-- `medit-one.md` — recurrent transformer + MoE
-- `agentaudit-mcp.md` — 3-pass LLM audit, Trust Registry
+3. **hivemind** (DandinPower) — Apache 2.0, 4K+ stars — SKILL
+   - Decentralized P2P training via DHT, fault-tolerant backpropagation
+   - Architecture study for Solomon Air
+   - Forked to jvanleur2234-glitch
 
 ### HERMES_CAPABILITIES.md Updated
-- Added 5 new entries: AgentAudit MCP, Sinewave Scanner, guard-scanner, Quorum, MedIT One
+Appended 3 new entries (browserclaw-agent, agent-security-scanner-cybathreat, Hivemind)
+
+### Sync to GitHub
+Ran `/home/workspace/.agent/sync-to-github.sh` — 3 new RD reports pushed
 
 ## Key Findings
-1. **OWASP Top 10 for Agentic Applications 2026 is LIVE** — Real exploits in production. Agent is the vector, not just target.
-2. **Hermes Agent is gaining momentum** — Active discussion on X, comparisons to OpenClaw
-3. **Security scanners maturing fast** — Many competing products, all forked already
-4. **Self-improving agents evolving** — ouroboros is the most advanced (30+ cycles in 24hrs)
-5. **P2P compute networks growing** — hyperspace-node has 2M+ nodes
 
-## Unresolved
-- dolios (sandboxed Hermes + nvidia nemoclaw) couldn't clone (auth issue)
-- swarms/swarms couldn't clone (auth issue)
-- These will be retried in next session
+### Security Hot Trend (April 2026)
+- OWASP Agentic Top 10 2026 published — prompt injection at tool-call level is #1 threat
+- "Shadow Agents" crisis (Google): unsanctioned AI tools creating invisible data pipelines
+- Real incidents: Mexican government agencies breached via Claude for reconnaissance
+- Most incidents CANNOT be mapped to CVE — agent trust model failures
 
-## Next Actions
-- Run sync-to-github.sh
-- Next session: retry dolios, swarms
-- Monitor OWASP agentic exploits for Hermes defense planning
+### Hermes on X
+- Higgsfield Marketing Studio (UGC ad generation) using "Hermes Agent" branding
+- Different from NousResearch/hermes-agent — potential naming confusion
+- Business angle: "Claude Code builds it, Hermes Agent markets it"
+
+### Browser Automation
+- browserclaw-agent's auto-learning skill catalog is a better pattern than static rules
+- Anti-bot handling (Cloudflare Turnstile) is critical for production browser agents
+- Three approaches: pixel-based (ClawLess), accessibility-tree (browserclaw), native-Rust (agent-browser)
+
+## Decisions Made
+- Forked 3 new repos (already had 40+ in workspace)
+- All existing forks verified — no duplicate cloning
+- Prioritized security and browser automation repos for integration
+
+## Follow-Up Needed
+- Investigate "Hermes Agent" Higgsfield branding — is this related/conflicting with NousResearch Hermes?
+- Watch for Agency Agents (35K stars) — evaluate for skill framework pattern
+- Evaluate CoPaw self-evolution PR (#2773) for Hermes self-improvement loop
+
+---
+
+*Session ID: AIQ-Scout-2026-04-22-1735*
