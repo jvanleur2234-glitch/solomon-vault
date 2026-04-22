@@ -186,3 +186,70 @@
 - **What it does:** PyTorch library for decentralized training across Internet peers. DHT-based peer discovery, fault-tolerant backpropagation, decentralized parameter averaging, MoE layer distribution. Apache 2.0, 4K+ stars.
 - **Solomon OS fit:** SKILL — Architecture study for Solomon Air distributed compute. DHT peer coordination patterns for future agent training workloads.
 - **Status:** SKILL
+
+## HyperAgents (Facebook) — Meta-Agent Self-Improvement Framework (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/HyperAgents
+- **What it does:** Facebook AI Research self-referential, self-improving agents. Meta-agent rewrites its own reasoning strategies based on performance feedback. Hierarchical meta→task agent pattern.
+- **Solomon OS fit:** SKILL — Self-improvement loop architecture study for Hermes autonomous capability growth. Meta→task agent hierarchy applicable to Council of High Intelligence.
+- **Status:** SKILL
+
+## agent-security (empowered-humanity) — Static Analysis + Runtime Security Library (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-security
+- **What it does:** 176+ detection patterns with taint analysis, OWASP ASI + MCP coverage, CWE mappings, SARIF output, SSRF/path traversal guards, 220+ AI-agent patterns. MIT licensed.
+- **Solomon OS fit:** INTEGRATE — Core security gate for Hermes alongside Cybathreat scanner. Defense-in-depth for JCPaid enterprise security needs.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-security-empowered-humanity.md
+
+## SecureVector AI Threat Monitor — Real-Time Agent Security Firewall (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/securevector-ai-threat-monitor
+- **What it does:** Local real-time AI security firewall. Proxy mode across OpenAI/Anthropic/Ollama. Skill Scanner with policy engine, per-agent tool permissions, cost tracking, 28 new threat rules. Apache 2.0.
+- **Solomon OS fit:** INTEGRATE — Real-time enforcement layer for Hermes. Proxy-mode deployment fits Solomon OS architecture. Skill Scanner for third-party Hermes skills.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/securevector-ai-threat-monitor.md
+
+## TheAgenticBrowser — Three-Agent Plan/Execute/Critique Loop (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/TheAgenticBrowser
+- **What it does:** Python/PydanticAI browser automation with Planner→Browser Agent→Critique loop. Cross-domain data correlation, workflow feedback. NOASSERTION license.
+- **Solomon OS fit:** SKILL — Architecture reference for browser automation. Three-agent loop pattern applicable to Solomon Browser. Verify license before integration.
+- **Status:** SKILL
+
+## nanobrowser — Chrome Extension AI Browser Automation (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/nanobrowser
+- **What it does:** Chrome extension + MCP server for AI-powered browser automation. Multi-agent collaboration, local execution, OpenAI/Anthropic/Gemini/Ollama providers. Apache 2.0, 800+ stars.
+- **Solomon OS fit:** SKILL — Study extension deployment model for potential Solomon Browser extension. MCP server integration fits Hermes ecosystem.
+- **Status:** SKILL
+
+## openbrowser — TypeScript Playwright Browser Framework (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/openbrowser
+- **What it does:** MIT-licensed TypeScript browser automation on Playwright. Multi-model support (OpenAI/Anthropic/Google), interactive REPL, stall detection, session management. 600+ stars.
+- **Solomon OS fit:** INTEGRATE — Browser automation for Solomon Browser. MIT license, multi-model support aligns with Hermes strategy. Direct competitor to browserclaw-agent.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/openbrowser-ts-browser-automation.md
+
+## deep-claw — Dream Cycle Self-Improvement Framework (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/deep-claw
+- **What it does:** Dream Cycle for autonomous agents. Nightly Mode (research scanning) + Weekly Mode (performance reflection). Evidence-based improvement with rollback plans, governance separation. MIT licensed.
+- **Solomon OS fit:** SKILL — Self-improvement governance framework for Hermes. Governance separation (autonomous vs human-review-required) critical for safe autonomous growth.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/deep-claw-self-improving-agent.md
+
+## Miguel — Docker-Sandboxed Self-Improving Agent (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/miguel
+- **What it does:** Self-improving agent with Docker sandbox. Coordinator + sub-agents (Coder/Researcher/Analyst). 22 capabilities, auto-commit/push on validation success. MIT licensed.
+- **Solomon OS fit:** SKILL — Docker sandbox architecture study for Hermes self-improvement safety. Sub-agent delegation pattern maps to Hermes skill system.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/miguel-self-improving-agent.md
+
+## self-improving-ai-agent (pratiksangle) — Generator→Critic→Improver Pipeline (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/self-improving-ai-agent-pratik
+- **What it does:** Python multi-agent pipeline: Generator → Critic (5-dimension scoring) → Improver loop. Rule-based or API mode. MIT licensed.
+- **Solomon OS fit:** SKILL — Generator-Critic-Improver loop pattern for Hermes response refinement skills.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/self-improving-ai-agent-pratik.md
+
+## nfh-self-improvement-loop — Adversarial Self-Modification Framework (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/nfh-self-improvement-loop
+- **What it does:** Generator→Evaluator adversarial self-modification. Strict safeguards: no identity/memory edits, no external API calls during modification, rollback plans. MIT licensed.
+- **Solomon OS fit:** SKILL — Adversarial review layer for Hermes self-improvement. Generator/evaluator separation prevents runaway self-modification.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/nfh-self-improvement-loop.md
