@@ -1,74 +1,45 @@
-# AIQ Scout Session Summary — April 22, 2026
+# Telegram Session Summary — 2026-04-22
 
-## Session Time
-06:35 UTC (1 hour autonomous run)
-
-## Actions Taken
+## AIQ Scout Hourly Research Session — 2026-04-22 07:45 UTC
 
 ### GitHub Searches Completed
-1. `site:github.com agent framework 2026` — Found: microsoft/agent-framework, gollem, phero, alphora, agentrail, dapr-agents, agent-orcha
-2. `site:github.com self-improving AI agent` — Found: MaximeRobeyns/self_improving_coding_agent, ikorfale/agent-self-improvement, xmaks82/self-improving-agent, unconst/ninja, Grail-Computer/Self-Improving-Agent
-3. `site:github.com Hermes MCP skills` — Found: NousResearch/hermes-agent, cloudwalk/hermes-mcp, slab/hermes-mcp
-4. `site:github.com distributed AI compute P2P` — Found: hyperspaceai/agi, hyperspaceai/hyperspace-node, Agent-FM/agentfm-core, aria-protocol, peerclaw, mycellm
-5. `site:github.com AI security scanner agent` — Found: sinewaveai/agent-security-scanner-mcp, snyk/agent-scan, koatora20/guard-scanner, opena2a-org/hackmyagent, Pantheon-Security/medusa, raxe-ai/raxe-ce
-6. `site:github.com browser automation AI agent` — Found: hyperbrowserai/HyperAgent, vercel-labs/agent-browser, mozilla/pilo, browser-use/browser-use, browserbase/stagehand
-7. `site:github.com multi-agent deliberation` — Found: S-Abdelnabi/LLM-Deliberation, BayramAnnakov/agent-tower-plugin, dnhess/spectra, Solvely-Colin/Quorum, Concilium, council
-8. `site:github.com recurrent transformer MoE` — Found: Devanik21/HAG-MoE, ZihanWang314/CoE, MedITSolutionsKurman/medit-one, raymin0223/mixture_of_recursions
+- Agent framework 2026: Found microsoft/agent-framework (~9.5k stars), openai-agents-python (~26k stars), fugue-labs/gollem (Go), alphora (Python), solace-agent-mesh (event-driven)
+- Self-improving AI agent: Found MaximeRobeyns/self_improving_coding_agent, ikorfale/agent-self-improvement, yologdev/yoyo-evolve (Rust, MIT, 1.7k stars), oseledets/ouroboros, RangeKing/self-evolving-agent, facebookresearch/HyperAgents
+- Hermes MCP skills: Found Rainhoole/hermes-agent-acp-skill, NousResearch/hermes-agent MCP tool integration, cloudwalk/hermes-mcp (Elixir SDK), mudrii/hermes-agent-docs
+- Distributed AI compute P2P: Found hyperspaceai/hyperspace-node (2M+ agents), learning-at-home/hivemind, Shard (browser WebGPU), tutu (Go), aria-protocol (1-bit inference), peerclaw (Rust), KwaaiNet
+- AI security scanner agent: Found sinewaveai/agent-security-scanner-mcp, snyk/agent-scan, Pantheon-Security/medusa, koatora20/guard-scanner, agentverus/agentverus-scanner, firmis-scanner
+- Browser automation AI agent: Found hyperbrowserai/HyperAgent, vercel-labs/agent-browser (Rust CLI), mozilla/pilo, browser-use/browser-use (89k stars), browserbase/stagehand, AshtonVaughan/agentbrowser
+- Multi-agent deliberation: Found Solvely-Colin/Quorum, matiasdaloia/concilium, dnhess/spectra, BayramAnnakov/agent-tower-plugin, Logikon-AI/awesome-deliberative-prompting
+- Recurrent transformer MoE: Found Devanik21/HAG-MoE, thu-ml/ReMoE, NVIDIA/Megatron-LM MoE layer, lucidrains/st-moe-pytorch
 
-### X/Twitter Searches Completed
-- `Solomon OS OR Hermes agent` — Hermes Agent by NousResearch has massive community momentum (2M+ agents, users migrating from OpenClaw)
-- `self-improving AI defense` — Federated learning defense (April 2026), self-evaluation as LLM defense, offense-defense balance discussion
-- `AI agent security vulnerability 2026` — OWASP Top 10 for Agentic Applications published, "Shadow Agent" crisis, prompt injection #1 risk
-- `distributed AI compute grid` — Sentient GRID orchestration, Hyperspace nodes, KwaaiNet
+### X/Twitter Trends Found
+- Hermes Agent is gaining massive traction (100k+ stars), AMD GPU running, Grok provider integration underway
+- OWASP Top 10 for Agentic Applications 2026 confirms prompt injection as #1 risk
+- "Shadow Agent" crisis — unauthorized deployments causing data leaks
+- Distributed AI compute grid discussions active — Sentient's GRID, robotics intelligence networks
 
-### Forks Completed
-- **clawsecure-openclaw-security** — ClawSecure security scanner for OpenClaw ecosystem. MIT, OWASP ASI Top 10 aligned, 3,000+ skills audited, 41% vulnerable. Forked to jvanleur2234-glitch/clawsecure-openclaw-security
+### Actions Taken
+1. **Cloned:** openai-agents-python (26k stars) → forked to jvanleur2234-glitch
+2. **Cloned:** yoyo-evolve (1.7k stars) → forked to jvanleur2234-glitch
+3. **Already existed** (no clone needed): gollem, alphora, agentverus-scanner, firmis-scanner, agentbrowser, vibium, artemis-agents, quorum, spectra, medusa, guard-scanner, hyperspace-node, peerclaw, aria-protocol, browser-use, agent-browser, stagehand, ours (others)
 
 ### RD Reports Written
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/clawsecure-openclaw-security.md`
+- `openai-agents-python.md` — OpenAI Agents SDK, Sandbox Agents architecture, multi-agent orchestration
+- `yoyo-evolve.md` — Rust self-improving agent, 200→51k lines in 52 days, autonomous evolution
+- `agentverus-scanner.md` — AI agent skill security scanner, trust boundary analysis
 
-### HERMES_CAPABILITIES.md Updated
-- Added ClawSecure entry (INTEGRATE status)
+### Key Insights
+- **Browser-use (89k stars)** is the dominant browser automation tool — already cloned
+- **OpenAI Agents SDK Sandbox** is the architecture Solomon Browser should adopt for long-horizon autonomous tasks
+- **yoyo-evolve** proves autonomous code evolution works at scale — architectural inspiration for Solomon self-improvement
+- **OWASP LLM Top 10 2026** confirms security is the #1 concern for AI agents — all our security scanners are relevant
 
-### Already-Forked / Pre-existing
-Most repos found were already in the workspace or previously forked. Key inventory:
-- All security scanners (guard-scanner, hackmyagent, firmis-scanner, agent-scan, medusa, vigile-scan, sinewave, raxe-ce) — already forked
-- All agent frameworks (gollem, phero, alphora, agentrail, dapr-agents, agent-orcha) — already forked
-- All self-improving agents (xmaks82, RangeKing, ninja, self_improving_coding_agent) — already forked
-- All Hermes-related (hermes-agent, hermes-mcp variants) — already forked
-- All P2P compute (hyperspace-agi, agentfm-core, aria-protocol, peerclaw, mycellm) — already forked
-- Browser automation (HyperAgent, agent-browser, stagehand, browser-use) — already forked
-- Deliberation (Quorum, spectra, Concilium, council) — already forked
+### Next Steps
+- Consider: Study OpenAI's Sandbox Agent container architecture for Solomon Browser
+- Consider: Integrate yoyo-evolve's 8-hour evolution cycle pattern into Solomon's improvement loop
+- Consider: Add OWASP Top 10 for Agentic Applications patterns to AgentArmor Studio
 
-## Key Intelligence Gleaned
-
-### Security Landscape (Critical)
-- **OWASP Top 10 for Agentic Applications 2026 is LIVE** — prompt injection at #1, real incidents confirmed
-- **41% of popular OpenClaw skills have vulnerabilities** — ClawSecure audit
-- **Shadow Agent crisis** — Google Security 2026 Forecast, unauthorized agents creating hidden data pipelines
-- **SANS called it an emergency** — AI agents now primary attack mechanism in confirmed breaches
-
-### Hermes Ecosystem (Hot)
-- Hermes Agent by NousResearch gaining major momentum — users migrating from OpenClaw en masse
-- Step 3.5 Flash integration announced (free via Nous portal)
-- 2M+ agents on network, 3.6M+ downloads
-- Strong community around local-first, open-source agent framework
-
-### Swarms/AgentFM (Competitive Landscape)
-- Kye Gomez (swarms_corp) has 154 repos, AutoHedge (1148 stars), swarms-rs (141 stars)
-- AutoHedge = autonomous hedge fund using swarm intelligence
-- No new significant Swarms repos discovered this session
-
-### n8n Community Nodes
-- nerding-io/n8n-nodes-mcp (~3k stars, very active) — MCP client for n8n
-- Multiple new nodes: better-ai-agent, claude-agent, langfuse-observability, supermemory
-
-## No Duplicates Confirmed
-Ran `gh repo list jvanleur2234-glitch` — all relevant repos already present in fork inventory.
-
-## Next Steps / Unfinished
-None — all new discoveries processed.
-
-## Sync Status
-- Sync to GitHub: `/home/workspace/.agent/sync-to-github.sh` to be run
-- Session summary: saved to this file
+### Sync Status
+- ✅ solomon-vault pushed to GitHub (d9fec2b)
+- ⚠️ openai-agents-python repo created but remote add failed (gh issue)
+- ⚠️ yoyo-evolve repo created but remote add failed (gh issue)
