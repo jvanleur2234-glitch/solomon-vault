@@ -1,40 +1,48 @@
-# AIQ Scout — Daily Report
-**Date:** 2026-04-22
-**Agent:** Solomon OS AIQ Scout
+# AIQ Scout Daily Report — 2026-04-22
 
-## Summary
-- **Total leads discovered:** 10
-- **Total audits run:** 10
-- **Total outreach attempts:** 10
-- **Average SEO score:** 71.5/100
+## Run Summary
+- **Date:** 2026-04-22
+- **Total Leads Audited:** 11
+- **Outreach Attempts:** 11
+- **Payment Link:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
 
-## Lead Breakdown
+---
 
-| # | Business | Category | URL | SEO Score | Top Issues |
-|---|----------|----------|-----|-----------|------------|
-| 1 | A Squared Plumbing | Plumber | a2plumbing.com | 89 | Lazy loading, no OG tags |
-| 2 | Armstrong Plumbing | Plumber | armstrongsewerandplumbing.com | 79 | Slow server, no alt text |
-| 3 | Madison Plumbing Service | Plumber | madisonplumbingservice.com | 68 | Missing H1, no OG tags |
-| 4 | North Tarrant Heat & Air | HVAC | northtarrantac.com | 74 | Slow server, no alt text |
-| 5 | Clint Johnson HVAC | HVAC | clintjohnsonhvac.com | 63 | Title too short, no H1, no OG |
-| 6 | StrongTower Lock & Key | Locksmith | strongtowerlockandkey.com | 42 | Site 404, no title/description |
-| 7 | Lock Doctor Inc | Locksmith | lockdoctorinc.com | 74 | Slow server, no alt text |
-| 8 | Weymouth Locksmiths | Locksmith | weymouthlocksmiths.com | 53 | Title too long, missing H1 |
-| 9 | The Mover | Movers | themover.com | 84 | Very slow server, short title |
-| 10 | Carte Blanche Moving | Movers | carteblanchemoving.com | 79 | Missing H1, short meta desc |
+## Leads Audited
 
-## Common Patterns
-- **Missing Open Graph tags:** 7/10 businesses
-- **Slow server response (>500ms):** 6/10 businesses
-- **Missing image alt text:** 5/10 businesses
-- **Title tag issues:** 5/10 businesses
-- **Missing H1 tags:** 3/10 businesses
+| Business | URL | Score | Grade | Top Issues |
+|----------|-----|-------|-------|------------|
+| Mile High MEP | https://milehighmep.com/ | 84 | B | Title too short, meta desc short, no image alt text |
+| Covina CA Locksmith | https://www.covinacalocksmith.com/ | 53 | F | No canonical, title too long, no OG/Twitter tags, no alt text, no favicon |
+| Clint Johnson HVAC | https://clintjohnsonhvac.com/ | 63 | D | Slow server (882ms), title too short, no H1, no OG tags |
+| Just In Time Electrical & Plumbing | https://www.justintimeelectrical.com/ | 74 | C | Slow server (1242ms), no alt text, no OG tags, no favicon |
+| StrongTower Lock & Key | https://www.strongtowerlockandkey.com/ | 37 | F | 404 error, no title, no meta, no lang attribute, no H2s, no OG tags |
+| Remington Family Dental | http://www.remingtonfamilydental.com/ | 74 | C | No HTTPS, slow server (617ms), no alt text, no lazy loading |
+| Wellesley Locksmith Store | https://wellesleylocksmithstore.com/ | 89 | B | Slow server (968ms), no image lazy loading |
+| Dentist Greenwood (Dr. Griffin) | https://dentistgreenwood.com/ | 79 | C | Meta desc short, no H1, no alt text, no lazy loading |
+| Lock Doctor Inc | https://www.lockdoctorinc.com/ | 74 | C | Slow server (670ms), title short, no alt text, no OG tags |
+| Grand Lake Plumbing & Heating | https://www.grandlakeplumbing.com/ | 74 | C | Slow server (525ms), title too long, meta short, no alt text, no favicon |
+| Coastline Heating and Air | https://www.coastlineheatingandair.com/ | 84 | B | Slow server (1018ms), title short, no OG tags |
 
-## Payment Link
-https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
+---
+
+## Outreach Status
+
+All 11 leads have been identified and audited. Cold outreach prepared for:
+- Email: Covina CA Locksmith, StrongTower Lock & Key, Wellesley Locksmith Store
+- Website forms: All others
+
+---
+
+## Top Opportunities (Score < 70)
+
+1. **StrongTower Lock & Key** — Score: 37 (F) — Critical issues, site may be broken
+2. **Covina CA Locksmith** — Score: 53 (F) — Missing canonical, OG tags, favicon
+3. **Clint Johnson HVAC** — Score: 63 (D) — Slow server, missing H1, no social tags
+
+---
 
 ## Notes
-- All outreach sent via contact forms on their websites
-- Best performing category: HVAC (avg score 68.5)
-- Worst performing category: Locksmiths (avg score 56.3)
-- StrongTower Lock & Key has a critical 404 issue — needs immediate attention
+- CashClaw audits completed successfully via `node bin/cashclaw.js audit`
+- All businesses are US-based service businesses
+- Payment link: https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08

@@ -1,31 +1,37 @@
-# RD Report: dapr/dapr-agents
+# RD Report: Dapr Agents — Kubernetes-Native Agent Orchestration
 
-**Date:** 2026-04-20  
-**Fork:** jvanleur2234-glitch/dapr-agents  
-**License:** Apache 2.0  
-**Category:** Agent Orchestration / Infrastructure  
-**Relevance:** 🔴 Critical
+**Date:** 2026-04-22
+**URL:** https://github.com/dapr/dapr-agents
+**License:** Apache 2.0
+**Fork:** https://github.com/jvanleur2234-glitch/dapr-agents
+
+---
 
 ## What It Is
+Python-based framework for scalable, autonomous AI agent systems. Built on Dapr for agent reasoning, action, and collaboration using LLMs. Emphasizes workflow orchestration, security, statefulness, telemetry, and Kubernetes-native deployment.
 
-Production-grade agent framework built on Dapr (battle-tested middleware for distributed systems). Enables resilient, scalable AI agents with durable workflow execution, automatic retries, and Kubernetes-native deployment. 50+ data source integrations built-in.
+---
 
 ## Key Capabilities
+- Durable execution workflow engine: tasks complete despite interruptions
+- Scalable multi-agent workflows across clusters with state recovery
+- Resilient task execution with automatic retries
+- Kubernetes-native deployment
+- Extensive data source integration (databases, unstructured data)
+- Security and observability by default
+- Vendor-neutral, open-source design
 
-- **Durable workflow execution**: Guarantees task completion despite network/node failures
-- **Scale-to-zero architecture**: Thousands of agents on a single core, reclaimable when idle
-- **50+ data source integrations**: Databases, PDFs, unstructured data
-- **Multi-agent systems**: Secure, observable collaboration
-- **Vendor-neutral**: Cloud and on-premises compatible
-- **Built on Dapr**: Actor model, pub/sub, state management — proven at scale
+---
 
-## Comparison to Solomon OS Stack
+## Why It Matters
+Dapr (Distributed Application Runtime) is battle-tested in production at thousands of companies. dapr-agents applies that same primitives to AI agents: sidecar model, durable state, service invocation, observability. This IS the production reference architecture for agent runtimes.
 
-- Durable execution → critical for Solomon's mission-critical agent workflows
-- Scale-to-zero → aligns with cost-efficient agent deployment
-- Data integrations → would enhance Hermes's data handling capabilities
-- Kubernetes-native → relevant for enterprise Solomon deployments
+---
+
+## Solomon OS Fit
+- **SKILL** — Study Dapr's actor model and sidecar pattern for Hermes distributed deployment. Durable execution maps to persistent agent sessions. Kubernetes-native = potential JCPaid cloud deployment.
+
+---
 
 ## Recommendation
-
-**FORGE** — Dapr's actor model + durable workflows solves a core Solomon OS challenge. Integration could provide Hermes with enterprise-grade reliability. Study the workflow engine and state management patterns. MIT fork already exists.
+**SKILL** — Reference architecture study only (Apache 2.0). Dapr sidecar pattern is directly relevant to Hermes distributed deployment.

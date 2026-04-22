@@ -1,47 +1,51 @@
-# agent-express — Express.js-Style Middleware Framework for AI Agents
+# RD Report: Agent Express — Express.js-Style Agent Framework
 
-**Forked:** jvanleur2234-glitch/agent-express  
-**License:** MIT  
-**Stars:** N/A (new discovery)  
-**Language:** TypeScript
+**Date:** 2026-04-22
+**URL:** https://github.com/agent-express-ai/agent-express
+**License:** MIT
+**Fork:** https://github.com/jvanleur2234-glitch/agent-express
+
+---
 
 ## What It Is
+Minimalist, middleware-based AI agent framework in TypeScript. Applies Express.js `(ctx, next)` pattern to AI agent orchestration. 5-layer middleware onion (agent, session, turn, model, tool). Built-in safety guards, multi-provider routing (12+), memory management, and MCP integration.
 
-Minimalist middleware framework for building AI agents in TypeScript. Applies the Express.js middleware pattern `(ctx, next)` to AI agents. Three concepts: `Agent`, `Session`, `Middleware`. If you've built an Express app, you already know the mental model.
+---
 
-## Key Features
+## Key Capabilities
+- Middleware architecture: 5 hooks (agent/session/turn/model/tool), standard `(ctx, next)` flow
+- Safety: budget guards, I/O validation, timeouts, iteration limits, HITL approval
+- Observability: OpenTelemetry metrics/traces, token tracking, tool recording
+- Multi-provider: Anthropic, OpenAI, Google, Mistral, Groq, Cerebras, Ollama, etc.
+- Model routing: cross-provider decisions based on cost/latency/quality
+- Memory: context window compaction (multiple strategies)
+- MCP: connect MCP servers as tool sources
+- Testing: TestModel, FunctionModel, capture, record/replay, snapshots
+- Structured output: Zod schema validation on model responses
 
-- **Express.js pattern:** `use()`, `(ctx, next)` interface replaces 15-20 concepts in alternatives
-- Built-in safety: budget guards, input/output validation, timeouts, iteration limits, HITL approval
-- Observability: structured logs, OpenTelemetry metrics/traces, token tracking, tool usage recording
-- Multi-provider: 12+ model/providers (Anthropic, OpenAI, Google, Mistral, Groq, etc.)
-- Complexity-based model routing across providers
-- Context window compaction with multiple strategies
-- MCP integration: connects to MCP servers as tool sources
-- HTTP adapter with SSE streaming
-- CLI tooling: dev (hot reload) + test (CI-friendly output)
-- Zod-based schema validation for model outputs
+---
 
-## Architecture
+## Why It Matters
+Express.js middleware is the most proven async composition pattern in server-side JS. Applying it to agents gives a clean, predictable way to add cross-cutting concerns (auth, rate limiting, logging, safety) without modifying core agent code. Contrast with AutoGen/CrewAI which use class inheritance.
 
-```typescript
-const agent = new Agent({
-  model: "anthropic/claude-sonnet-4-6",
-  instructions: "You are a helpful assistant.",
-})
-
-// Middleware pipeline with 5 onion hooks:
-// agent → session → turn → model → tool
-```
+---
 
 ## Solomon OS Fit
+- **SKILL** — Middleware pattern directly maps to Hermes skill pipeline. Study for skill composition architecture.
+- MIT license — can integrate patterns directly.
 
-- **Pattern match:** Lightweight alternative to heavy frameworks
-- **Use for:** Hermes skills that need middleware composition pattern
-- **Why fork:** Express-style mental model for agent middleware is clean and familiar to web devs
-- **Competitive:** vs agent-express (this) vs full frameworks (Dapr agents, Gollem)
+---
 
-## RD Status
+## Comparison
+| Aspect | Agent Express | AutoGen | CrewAI |
+|--------|--------------|---------|--------|
+| Style | Middleware (ctx/next) | Message passing | Role-based |
+| Safety | Built-in guards | Minimal | Minimal |
+| Providers | 12+ | 4 | 4 |
+| MCP | Native | Via tools | Via tools |
+| License | MIT | MIT | Apache |
 
-✅ Forked  
-**Recommendation:** SKILL — middleware pattern for Hermes skill composition
+---
+
+## Recommendation
+**SKILL** — Study middleware composition pattern for Hermes skill pipeline.

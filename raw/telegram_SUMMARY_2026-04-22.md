@@ -1,65 +1,125 @@
-# Telegram Session Summary — 2026-04-22
+# Session Summary — 2026-04-22
 
-**Date:** April 22, 2026
-**Duration:** ~4 hours (7:03 AM - 2:14 PM CDT)
+## Date & Context
+- **Date:** April 22, 2026
+- **Session:** Hourly AIQ Scout research run
+- **Triggered:** Scheduled autonomous agent (scheduled_agent_mode)
 
-## Key Decisions
+## GitHub Searches Performed
 
-### Big Strategic Pivot: JCPaid is the Product
-- **JackConnect** = proof of concept for real estate vertical (first client: Jack Vanleur)
-- **JCPaid** = the actual business: sell AI employee agencies to ANY vertical
-- **Positioning:** "Solomon OS — the AI OS that gives you back your time for the important things"
-- **Arena** = on permanent hold
+### Agent Frameworks
+- **microsoft/agent-framework** — Already cloned, MIT, graph-based orchestration
+- **agent-express-ai/agent-express** — ✅ Forked to jvanleur2234-glitch, MIT TS middleware framework
+- **dapr/dapr-agents** — Already cloned, Python, scalable multi-agent workflows
+- **fugue-labs/gollem** — Already cloned, Go type-safe agent framework
+- **ddalcu/agent-orcha** — Already cloned, YAML-driven multi-agent + P2P
+- **DNLINYJ/KohakuTerrarium** — ✅ Forked, Python creature/terrarium modular framework
+- **yai-dev/agentrail** — Already cloned, Apache 2.0 TS agent harness
 
-### Technology Stack Locked In
-- **BitNet** (Microsoft, 1-bit LLM) — runs 100B model on CPU at 5-7 tokens/s, 82% energy reduction
-- **Paperclip** — orchestration layer (CEO agent managing org chart of agents)
-- **Solomon OS** — the connecting tissue (Watch Once, agents, time tracking, dashboard)
-- **Kimik** — 300 sub-agents in parallel (nice-to-have, not priority)
+### Self-Improving Agents
+- **MaximeRobeyns/self_improving_coding_agent** — Already cloned, MIT
+- **pratiksangle01/self-improving-ai-agent** — Found, MIT
+- **the-keats-ai/deep-claw** — Found, Dream Cycle framework
+- **j-d0g/self-improving-agent** — Found, financial P&L agent
+- **theprint/nfh-self-improvement-loop** — Found, MIT adversarial framework
+- **soulfir/miguel** — Already cloned, self-modifying agent
+- **facebookresearch/HyperAgents** — Already cloned
+- **ikorfale/agent-self-improvement** — Found, MIT, 70-90% cost reduction
+- **Marktechpost/Self_Improving_AI_Agent** — Found, notebook tutorial
 
-### JackConnect v2.0 Built
-- Time Saver Dashboard: https://josephv.zo.space/jackconnect-dashboard
-- Watch Once API: /api/watch-once
-- Paperclip Connect API: /api/paperclip-connect
-- Paperclip Task API: /api/paperclip-task
-- Main JackConnect site: https://josephv.zo.space/jackconnect
+### Hermes MCP Skills
+- **NousResearch/hermes-agent** — Multiple skills found (FastMCP, native MCP client, jMunch MCP)
+- Feature: Hermes as MCP Server (expose tools to MCP ecosystem) — Issue #342
 
-### JCPaid 7 Core Agents Built (all YAML skills)
-- lead-scout.yaml — finds automation-gap businesses by vertical + location
-- client-acquisition.yaml — personalized cold email/DM drafts
-- agent-builder.yaml — deploys custom agent sets for new verticals in 24hrs
-- onboarding.yaml — walks new clients through setup + first Watch Once
-- billing.yaml — Stripe invoicing, MRR tracking, churn alerts
-- content-agent.yaml — LinkedIn/X posts with real dashboard stats
-- pipeline-manager.yaml — daily morning Telegram briefing
+### Distributed AI Compute P2P
+- **hyperspaceai/agi** — Already cloned, DiLoCo distributed training
+- **DandinPower/hivemind** — Already cloned, decentralized PyTorch
+- **TrentPierce/Shard** — Already cloned, browser-based Scout nodes
+- **antonellof/peerclaw** — Already cloned, Rust P2P token economy
+- **mycellm/mycellm** — Already cloned, P2P GPU pooling
+- **Agent-FM/agentfm-core** — Already cloned, Podman container mesh
 
-### Zo2 Setup
-- Created Hermes + MiniMax 2.7 + NVIDIA setup guide for Zo2
-- Created Zo2 Identity & Connection Protocol (so Zo2 remembers he's connected to Zo)
-- Pushed to GitHub: zo-excellence-package
+### AI Security Scanners (Snyk Competitors)
+- **sinewaveai/agent-security-scanner-mcp** — Already cloned, ProofLayer + full version
+- **allinbsv/Aegis** — EDR for AI agents, local monitoring
+- **Pantheon-Security/medusa** — Already cloned, 9600+ patterns
+- **snyk/agent-scan** — Already cloned, MCP + skills scanning
+- **Firmislabs/firmis-scanner** — Already cloned, 268 rules
+- **perfecxion-ai/ai-agent-scanner** — Found, network discovery + vulnerability testing
+- **empowered-humanity/agent-security** — Found, 176+ patterns + taint analysis
+- **Cybathreat/agent-security-scanner** — Found, MIT, comprehensive coverage
+- **Secure-Vector/securevector-ai-threat-monitor** — Found, local real-time security layer
 
-## Files Created/Updated
-- `/home/workspace/solomon-vault/brain/NORTH_STAR.md` (new)
-- `/home/workspace/solomon-vault/brain/PAPERCLIP_INTEGRATION_SPEC.md` (new)
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/2026-04-21-links-shared.md` (new)
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/russell-tuna-honcho-lcm-implementation-plan.md` (new)
-- `/home/workspace/jack-connect/SPEC.md` (updated v2.0)
-- `/home/workspace/jack-connect/install-jackconnect.sh` (updated with JCPaid tier)
-- `/home/workspace/jack-connect/jcpaird-agents/JCPAID_AGENTS.md` (new)
-- `/home/workspace/jack-connect/jcpaird-agents/skills/*.yaml` (7 skill files)
-- `/home/workspace/zo-excellence-package/ZO2_IDENTITY.md` (new)
-- `/home/workspace/zo-excellence-package/SETUP_GUIDES/Hermes_MiniMax_NVIDIA_Zo2.md` (new)
-- `/home/workspace/zo-excellence-package/SHARED_KNOWLEDGE.md` (updated)
-- `/home/workspace/solomon-vault/raw/telegram_SUMMARY_2026-04-22.md` (this file)
+### Browser Automation AI Agents (ClawLess Competitors)
+- **hyperbrowserai/HyperAgent** — Already cloned, Playwright-based
+- **vercel-labs/agent-browser** — Already cloned, Rust CLI
+- **VibiumDev/vibium** — Already cloned, WebDriver BiDi, ~10MB binary
+- **browserable/browserable** — Already cloned, JS/TS, 90.4% Web Voyager
+- **BrainFiber/viyv-browser** — Found, Chrome extension + MCP
+- **idan-rubin/browserclaw-agent** — Found, skill learning per domain
+- **nanobrowser/nanobrowser** — Already cloned, Chrome extension
+- **TheAgenticAI/TheAgenticBrowser** — Found, Python trio (Planner/Browser/Critique)
+- **rkvalandas/browser_agent** — Found, Python Playwright agent
+
+### Multi-Agent Deliberation
+- **slior/dialectic-agentic** — Already cloned, design debate system
+- **2389-research/deliberation** — Found, discernment/clearness/gathered modes
+- **agentscope-ai/agentscope** — Found, EMNLP debate workflow
+- **Solvely-Colin/Quorum** — Already cloned, 7-phase deliberation
+- **gumbel-ai/agent-debate** — Found, evidence-backed code debates
+- **Yash-Awasthi/aibyai** — Found, scored consensus with confidence
+- **dubs3c/council** — Already cloned, 3-persona debate
+- **kyleparrott/deliberate** — Found, lightweight file-based protocol
+- **quantsquirrel/claude-synod-debate** — Found, 3-act Claude/Gemini/OpenAI
+- **kstevica/captain-claw** — Found, Agent Council feature
+
+### Recurrent Transformer MoE (OpenMythos Competitors)
+- **raymin0223/mixture_of_recursions** — Found, NeurIPS 2025, adaptive token-level depth
+- **kyegomez/OpenMythos** — Already cloned multiple times, RDT + MoE
+- **NVIDIA/Megatron-LM** — Already cloned, production MoE training
+
+## X/Twitter Trends
+
+### Hermes Agent Buzz
+- Kye Gomez (@KyeGomezB) — Swarms Corp founder, OpenMythos author, agent capital markets
+- David Solomon (@aitrainingrun) — TrainingRun.ai coverage of Hermes Agent features
+- Solomon Neas (@solomonneas) — Cursor 3.1 + Hermes launch integrations
+- Multiple posts praising Hermes Agent's persistent memory + local execution
+
+### AI Security Vulnerabilities 2026
+- AI agent credential storage vulnerability (April 22, 2026)
+- AI found 27-year-old OpenBSD vulnerability, triggered Treasury/Fed meeting (April 17)
+- OpenAI acquired PromptFoo to fix agentic AI security vulnerabilities
+- Identity governance for AI agents as security risk (April 9)
+
+### Distributed AI Compute Grid
+- Sentient GRID — modular reproducible AI pipelines
+- Gradient Network Parallax AI — distributed execution from localhost to global
+- AgentFM — P2P compute grid with Podman containers
+
+## Key Findings
+
+### New Forks (This Session)
+1. **agent-express** — MIT TS middleware framework, Express.js pattern for agents
+2. **KohakuTerrarium** — Python modular "creature" framework with terrarium composition
+
+### Already Cloned (No Action Needed)
+- microsoft/agent-framework, dapr-agents, gollem, agent-orcha, agentrail
+- HyperAgents, miguel, self_improving_coding_agent
+- hyperspace/agi, hivemind, Shard, peerclaw, mycellm, agentfm-core
+- Multiple security scanners (sinewave, medusa, firmis, snyk/agent-scan)
+- Multiple browsers (hyperbrowser, agent-browser, vibium, browserable, nanobrowser)
+- Multiple deliberation tools (dialectic-agentic, quorum, council)
+
+## RD Reports Written
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/KohakuTerrarium.md`
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/agent-express.md`
 
 ## GitHub Sync
-- jack-connect: pushed (a83e4a8)
-- zo-excellence-package: pushed (84ef91c)
-- solomon-vault: no new commits (already in sync)
+- ✅ Synced to jvanleur2234-glitch/solomon-vault
 
 ## Next Steps
-1. Joseph to set up spare T15 with Ubuntu on WSL2 for JCPaid test install
-2. Jack to test his real estate JackConnect install on his T15
-3. Test Lead Scout → scout "restaurants near Chicago"
-4. Test Pipeline Manager → verify morning briefing arrives at 7 AM CT
-5. Zo2 to read Hermes setup guide and get connected
+1. Complete RD reports for additional high-value repos
+2. Check OWASP LLM Top 10 ecosystem tools specifically
+3. Check n8n community nodes for AI agents
+4. Verify forks on GitHub for agent-express and KohakuTerrarium

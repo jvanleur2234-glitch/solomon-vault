@@ -253,3 +253,57 @@
 - **Solomon OS fit:** SKILL — Adversarial review layer for Hermes self-improvement. Generator/evaluator separation prevents runaway self-modification.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/nfh-self-improvement-loop.md
+
+## Agent Express — Express.js-Style Middleware Agent Framework (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-express
+- **What it does:** Minimalist TypeScript agent framework. Express.js `(ctx, next)` middleware pattern applied to AI agents. 5-layer middleware onion (agent, session, turn, model, tool). Built-in safety guards, 12+ multi-provider routing, memory compaction, MCP integration, Zod structured output.
+- **Solomon OS fit:** SKILL — Middleware composition pattern directly maps to Hermes skill pipeline. Clean way to add cross-cutting concerns (auth, rate limiting, logging, safety) without modifying core agent code. MIT license.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-express.md
+
+## Dapr Agents — Kubernetes-Native Agent Orchestration (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/dapr-agents
+- **What it does:** Python framework for scalable AI agent systems built on Dapr. Durable execution workflow engine, scalable multi-agent workflows across clusters, automatic retries, Kubernetes-native deployment, security + observability by default. Apache 2.0.
+- **Solomon OS fit:** SKILL — Dapr sidecar pattern IS the production reference architecture for agent runtimes. Durable execution = persistent agent sessions. Apache 2.0 for architecture study.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dapr-agents.md
+
+## Snyk Agent Scan — Agent Security Inventory & Scanner (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-scan
+- **What it does:** Auto-discovers + scans agent components (MCP servers, skills) for prompt injections, malware payloads, hardcoded secrets. Supports: Windsurf, Cursor, VS Code, Claude Desktop/Code, Gemini CLI, OpenClaw, Amp, Amazon Q, Kiro, Codex. 15+ distinct security risk categories.
+- **Solomon OS fit:** INTEGRATE — Mandatory pre-flight security audit for every Solomon OS deployment. Client onboarding check. Maps to JCPaid enterprise compliance (SOC2). Already forked.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/snyk-agent-scan.md
+
+## AIBYAI — Multi-Agent Deliberative Council (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/aibyai
+- **What it does:** 4-7 concurrent agents argue, critique, produce scored consensus with numeric confidence. Cold validator catches hallucinations. Confidence formula: `0.6 × Agreement + 0.4 × PeerRanking`. 13+ provider failover, topic graph memory, per-query cost tracking. MCP-compatible. TypeScript/React/Fastify.
+- **Solomon OS fit:** FORGE — Council deliberation pattern IS the "Council of High Intelligence" for Hermes. Numeric confidence scoring gives clients reliability signal on high-stakes decisions. MIT license.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/aibyai.md
+
+## Gollem — Go Agent Framework with Compile-Time Type Safety (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/gollem
+- **What it does:** Go agent framework. Compile-time validation for output schemas, tool parameters, guardrails, event subscriptions. Zero-core dependencies. Multi-provider (Anthropic, OpenAI, Gemini/Vertex). FuncTool[P] with JSON Schema from typed Go functions. OpenTelemetry tracing, time-travel debugging. MIT licensed v0.3.1.
+- **Solomon OS fit:** SKILL — Compile-time type safety is the right direction for Hermes 2.0. Type-safe tool schema generation eliminates runtime errors. MIT license for architecture study.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/gollem.md
+
+## Claude Synod Debate — 3-Act Adversarial Multi-Provider Debate (April 22, 2026)
+- **What it does:** 3-act framework: Gemini proposes Solution A, OpenAI proposes B → cross-critique → Claude synthesizes verdict. Heterogeneous ensemble reduces single-model bias. MIT license.
+- **Solomon OS fit:** SKILL — Lightweight 3-act pattern for Hermes deliberation skill. Cross-provider debate prevents echo chamber. MIT license.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/claude-synod-debate.md
+
+## 2389 Deliberation — Contemplative Decision-Making Skills (April 22, 2026)
+- **What it does:** Skills suite: `discernment` (internal voices), `clearness` (multi-agent committee), `gathered` (user-participatory). Inspired by Quaker business practice. Principles: sense of the meeting, speaking once, intentional silence, standing aside. TDD-developed. MIT license.
+- **Solomon OS fit:** SKILL — Skills-based approach maps directly to Hermes. `clearness` = multi-agent committee we want. MIT license.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/2389-deliberation.md
+
+## Deliberate — Shell-Based Async Agent Deliberation (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/deliberate
+- **What it does:** Experimental Bash+jq protocol for two AI agents to deliberate asynchronously via shared filesystem JSONL logs. `/tmp/deliberation/room-*/.jsonl`. Minimal, zero-dependency. MIT license.
+- **Solomon OS fit:** SKILL — File-based IPC for Hermes sub-agent deliberation. Minimal viable multi-agent communication primitive. MIT license.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/deliberate-shell.md

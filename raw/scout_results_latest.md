@@ -1,104 +1,57 @@
 # AIQ Scout Results — 2026-04-22
 
-## Session Summary
-**Date:** 2026-04-22 | **Time:** 12:30 UTC
-**Total leads processed:** 10
-**Total outreach:** 10
-**Average SEO score:** 71.5/100
+## Session Overview
+**Run Date:** 2026-04-22  
+**Total Leads Audited:** 11  
+**US Businesses Targeted:** 11  
+**Payment Link:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
 
 ---
 
-## Leads
+## Audit Results Summary
 
-### 1. A Squared Plumbing & Drain Cleaning
-- **URL:** https://a2plumbing.com
-- **SEO Score:** 89/100 (B)
-- **Top 3 Issues:** Images missing lazy loading, No Open Graph tags
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 2. Armstrong Plumbing & Sewer Service
-- **URL:** https://armstrongsewerandplumbing.com
-- **SEO Score:** 79/100 (C)
-- **Top 3 Issues:** Slow server response time (702ms), No alt text on images, Meta description too short
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 3. Madison Plumbing Service
-- **URL:** https://madisonplumbingservice.com
-- **SEO Score:** 68/100 (D)
-- **Top 3 Issues:** Missing H1 tag, No Open Graph tags, Images missing alt text and lazy loading
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 4. North Tarrant Heat & Air
-- **URL:** https://northtarrantac.com
-- **SEO Score:** 74/100 (C)
-- **Top 3 Issues:** Slow server response time (1461ms), No Open Graph tags, No alt text on images
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 5. Clint Johnson HVAC
-- **URL:** https://clintjohnsonhvac.com
-- **SEO Score:** 63/100 (D)
-- **Top 3 Issues:** Title too short (25 chars), Meta description too short, No H1 tag, No Open Graph or Twitter Card tags
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 6. StrongTower Lock & Key
-- **URL:** https://strongtowerlockandkey.com
-- **SEO Score:** 42/100 (F)
-- **Top 3 Issues:** Site returns 404, No title tag, No meta description, No Open Graph tags, No H2 tags, No favicon
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 7. Lock Doctor Inc
-- **URL:** https://lockdoctorinc.com
-- **SEO Score:** 74/100 (C)
-- **Top 3 Issues:** Slow server response time (1013ms), No alt text on images, No Open Graph tags
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 8. Weymouth Locksmiths
-- **URL:** https://weymouthlocksmiths.com
-- **SEO Score:** 53/100 (F)
-- **Top 3 Issues:** Title too long (86 chars), Meta description too short, Missing H1 tag, No Open Graph or Twitter Card tags
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 9. The Mover
-- **URL:** https://themover.com
-- **SEO Score:** 84/100 (B)
-- **Top 3 Issues:** Very slow server response (4343ms), Title too short (23 chars), Meta description too short
-- **Contact:** Contact form on website
-- **Status:** Pitched
-
-### 10. Carte Blanche Moving
-- **URL:** https://carteblanchemoving.com
-- **SEO Score:** 79/100 (C)
-- **Top 3 Issues:** Missing H1 tag, Meta description too short, No lazy loading on images
-- **Contact:** Contact form on website
-- **Status:** Pitched
+| # | Business | URL | SEO Score | Grade |
+|---|----------|-----|-----------|-------|
+| 1 | Mile High MEP | https://milehighmep.com/ | 84 | B |
+| 2 | Covina CA Locksmith | https://www.covinacalocksmith.com/ | 53 | F |
+| 3 | Clint Johnson HVAC | https://clintjohnsonhvac.com/ | 63 | D |
+| 4 | Just In Time Electrical & Plumbing | https://www.justintimeelectrical.com/ | 74 | C |
+| 5 | StrongTower Lock & Key | https://www.strongtowerlockandkey.com/ | 37 | F |
+| 6 | Remington Family Dental | http://www.remingtonfamilydental.com/ | 74 | C |
+| 7 | Wellesley Locksmith Store | https://wellesleylocksmithstore.com/ | 89 | B |
+| 8 | Dentist Greenwood (Dr. Griffin) | https://dentistgreenwood.com/ | 79 | C |
+| 9 | Lock Doctor Inc | https://www.lockdoctorinc.com/ | 74 | C |
+| 10 | Grand Lake Plumbing & Heating | https://www.grandlakeplumbing.com/ | 74 | C |
+| 11 | Coastline Heating and Air | https://www.coastlineheatingandair.com/ | 84 | B |
 
 ---
 
-## Common SEO Failure Patterns
-| Issue | Count |
-|-------|-------|
-| Missing Open Graph tags | 7 |
-| Slow server response (>500ms) | 6 |
-| Missing image alt text | 5 |
-| Title tag issues | 5 |
-| Missing H1 tags | 3 |
+## Top 3 Priority Leads (Lowest Scores)
+
+### 1. StrongTower Lock & Key — Score: 37 (F)
+- **URL:** https://www.strongtowerlockandkey.com/
+- **Issues:** Site returns 404, no title tag, no meta description, no canonical, no lang attribute, no H2 tags, content under 300 words
+- **Fix:** Site needs complete rebuild — highest opportunity
+
+### 2. Covina CA Locksmith — Score: 53 (F)
+- **URL:** https://www.covinacalocksmith.com/
+- **Issues:** No canonical tag, title too long, missing Open Graph + Twitter Card tags, images lack alt text and lazy loading, no favicon
+- **Fix:** Technical SEO overhaul needed
+
+### 3. Clint Johnson HVAC — Score: 63 (D)
+- **URL:** https://clintjohnsonhvac.com/
+- **Issues:** Slow server (882ms), title tag too short (25 chars), no H1 tag, missing alt text on images, no Open Graph or Twitter Card tags
+- **Fix:** On-page SEO + performance optimization
 
 ---
 
-## Payment Link
-https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
+## Outreach Prepared
+
+All 11 leads logged to `/home/workspace/solomon-vault/raw/scout_leads_2026-04-22.json`
 
 ---
 
-## Next Actions
-- Await responses from outreach
-- Escalate any replies to Joseph via Telegram
-- Run next session in 24 hours
+## Next Steps
+- Execute cold email outreach to top 5 leads
+- Monitor for Stripe payment conversions
+- If reply received → escalate to Joseph via Telegram immediately

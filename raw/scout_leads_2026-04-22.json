@@ -1,92 +1,160 @@
 [
   {
     "date": "2026-04-22",
-    "business_name": "A Squared Plumbing & Drain Cleaning",
-    "url": "https://a2plumbing.com",
-    "seo_score": 89,
-    "top_issues": ["Images missing lazy loading", "No Open Graph tags"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
+    "business_name": "Mile High MEP",
+    "url": "https://milehighmep.com/",
+    "seo_score": 84,
+    "top_issues": [
+      "Title tag too short (49 chars, should be 50-60)",
+      "Meta description too short (under 150 chars)",
+      "Images missing alt text"
+    ],
+    "contact_method": "website_contact_form",
+    "status": "audited"
   },
   {
     "date": "2026-04-22",
-    "business_name": "Armstrong Plumbing & Sewer Service",
-    "url": "https://armstrongsewerandplumbing.com",
-    "seo_score": 79,
-    "top_issues": ["Slow server response time (702ms)", "No alt text on images", "Meta description too short"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "Madison Plumbing Service",
-    "url": "https://madisonplumbingservice.com",
-    "seo_score": 68,
-    "top_issues": ["Missing H1 tag", "No Open Graph tags", "Images missing alt text and lazy loading"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "North Tarrant Heat & Air",
-    "url": "https://northtarrantac.com",
-    "seo_score": 74,
-    "top_issues": ["Slow server response time (1461ms)", "No Open Graph tags", "No alt text on images"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
+    "business_name": "Covina CA Locksmith",
+    "url": "https://www.covinacalocksmith.com/",
+    "seo_score": 53,
+    "top_issues": [
+      "No canonical tag",
+      "Title tag too long (61 chars)",
+      "No Open Graph tags",
+      "No Twitter Card meta",
+      "Images missing alt text and lazy loading",
+      "No favicon"
+    ],
+    "contact_method": "email",
+    "status": "audited"
   },
   {
     "date": "2026-04-22",
     "business_name": "Clint Johnson HVAC",
-    "url": "https://clintjohnsonhvac.com",
+    "url": "https://clintjohnsonhvac.com/",
     "seo_score": 63,
-    "top_issues": ["Title too short (25 chars)", "Meta description too short", "No H1 tag", "No Open Graph or Twitter Card tags"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
+    "top_issues": [
+      "Slow server response time (882ms)",
+      "Title tag too short (25 chars)",
+      "No H1 tag",
+      "Images missing alt text",
+      "No Open Graph tags",
+      "No Twitter Card meta"
+    ],
+    "contact_method": "website_contact_form",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Just In Time Electrical & Plumbing",
+    "url": "https://www.justintimeelectrical.com/service-areas/boulder/plumber/",
+    "seo_score": 74,
+    "top_issues": [
+      "Slow server response time (1242ms)",
+      "Images missing alt text",
+      "No Open Graph tags",
+      "No favicon"
+    ],
+    "contact_method": "website_contact_form",
+    "status": "audited"
   },
   {
     "date": "2026-04-22",
     "business_name": "StrongTower Lock & Key",
-    "url": "https://strongtowerlockandkey.com",
-    "seo_score": 42,
-    "top_issues": ["Site returns 404", "No title tag", "No meta description", "No Open Graph tags", "No H2 tags", "No favicon"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
+    "url": "https://www.strongtowerlockandkey.com/",
+    "seo_score": 37,
+    "top_issues": [
+      "404 error / page not found",
+      "No canonical tag or lang attribute",
+      "No title tag",
+      "No meta description",
+      "No Open Graph or Twitter Card tags",
+      "No H2 tags",
+      "Content under 300 words"
+    ],
+    "contact_method": "email",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Remington Family Dental",
+    "url": "http://www.remingtonfamilydental.com/",
+    "seo_score": 74,
+    "top_issues": [
+      "No HTTPS (HTTP only)",
+      "Slow server response (617ms)",
+      "Images missing alt text",
+      "Images not using lazy loading"
+    ],
+    "contact_method": "website_contact_form",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Wellesley Locksmith Store",
+    "url": "https://wellesleylocksmithstore.com/fast-reliable-lockout-service.html",
+    "seo_score": 89,
+    "top_issues": [
+      "Slow server response (968ms)",
+      "Images not using lazy loading"
+    ],
+    "contact_method": "email",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Dentist Greenwood (Christopher T. Griffin, DMD)",
+    "url": "https://dentistgreenwood.com/",
+    "seo_score": 79,
+    "top_issues": [
+      "Meta description too short",
+      "No H1 tag",
+      "Images missing alt text",
+      "Images not using lazy loading"
+    ],
+    "contact_method": "website_contact_form",
+    "status": "audited"
   },
   {
     "date": "2026-04-22",
     "business_name": "Lock Doctor Inc",
-    "url": "https://lockdoctorinc.com",
+    "url": "https://www.lockdoctorinc.com/",
     "seo_score": 74,
-    "top_issues": ["Slow server response time (1013ms)", "No alt text on images", "No Open Graph tags"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
+    "top_issues": [
+      "Slow server response (670ms)",
+      "Title tag too short (52 chars)",
+      "Images missing alt text",
+      "No Open Graph tags"
+    ],
+    "contact_method": "website_contact_form",
+    "status": "audited"
   },
   {
     "date": "2026-04-22",
-    "business_name": "Weymouth Locksmiths",
-    "url": "https://weymouthlocksmiths.com",
-    "seo_score": 53,
-    "top_issues": ["Title too long (86 chars)", "Meta description too short", "Missing H1 tag", "No Open Graph or Twitter Card tags"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
+    "business_name": "Grand Lake Plumbing & Heating",
+    "url": "https://www.grandlakeplumbing.com/",
+    "seo_score": 74,
+    "top_issues": [
+      "Slow server response (525ms)",
+      "Title tag too long (99 chars)",
+      "Meta description too short",
+      "Images missing alt text",
+      "No favicon"
+    ],
+    "contact_method": "website_contact_form",
+    "status": "audited"
   },
   {
     "date": "2026-04-22",
-    "business_name": "The Mover",
-    "url": "https://themover.com",
+    "business_name": "Coastline Heating and Air",
+    "url": "https://www.coastlineheatingandair.com/",
     "seo_score": 84,
-    "top_issues": ["Very slow server response (4343ms)", "Title too short (23 chars)", "Meta description too short"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "Carte Blanche Moving",
-    "url": "https://carteblanchemoving.com",
-    "seo_score": 79,
-    "top_issues": ["Missing H1 tag", "Meta description too short", "No lazy loading on images"],
-    "contact_method": "contact form on website",
-    "status": "pitched"
+    "top_issues": [
+      "Slow server response (1018ms)",
+      "Title tag too short (47 chars)",
+      "No Open Graph tags"
+    ],
+    "contact_method": "website_contact_form",
+    "status": "audited"
   }
 ]
