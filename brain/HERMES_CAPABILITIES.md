@@ -168,3 +168,21 @@
 - **Solomon OS fit:** SKILL — Study architecture for Hermes long-context agentic workflows. Recurrent state management for persistent agent memory. MoE for efficient multi-task agent processing.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/medit-one.md
+
+## browserclaw-agent — Auto-Learning Browser Automation Agent (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/browserclaw-agent
+- **What it does:** Modular TypeScript browser agent with 3 swappable layers (LLM/agent/browser). Auto-learns domain-specific playbooks from successful runs. Built-in Cloudflare Turnstile solving, anti-bot bypass, cookie banner dismissal, tab management.
+- **Solomon OS fit:** INTEGRATE — Browser layer for Solomon Browser. Anti-bot handling and auto-learning skill catalog directly applicable.
+- **Status:** INTEGRATE
+
+## agent-security-scanner (Cybathreat) — Comprehensive Agent Security Auditor (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-security-scanner
+- **What it does:** 11-module security scanner for AI agents. Covers: prompt injection, tool boundary violations, RAG pipeline security, agent attacks (memory poisoning, recursive exploitation, planning manipulation), infrastructure security. MIT licensed, OWASP/MITRE mapped.
+- **Solomon OS fit:** INTEGRATE — Core security gate for Hermes. Most comprehensive open-source agent security scanner. Deploy in CI/CD as pre-deployment skill gate.
+- **Status:** INTEGRATE
+
+## Hivemind — Decentralized P2P Deep Learning (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/hivemind
+- **What it does:** PyTorch library for decentralized training across Internet peers. DHT-based peer discovery, fault-tolerant backpropagation, decentralized parameter averaging, MoE layer distribution. Apache 2.0, 4K+ stars.
+- **Solomon OS fit:** SKILL — Architecture study for Solomon Air distributed compute. DHT peer coordination patterns for future agent training workloads.
+- **Status:** SKILL
