@@ -126,3 +126,10 @@
 - **Solomon OS fit:** SKILL — "Follow Me" recording could auto-generate Hermes browser-based skills from user actions. Multi-browser MCP integration for Claude Desktop/VS Code agent.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/copilotbrowser.md
+
+## ClawSecure — OpenClaw Security Scanner & Audit Platform (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/clawsecure-openclaw-security
+- **What it does:** Independent security integrity layer for OpenClaw. 3-Layer Audit Protocol (threat intel → static/behavioral analysis → supply chain), OWASP ASI Top 10 coverage (all 10 categories), 55+ AI agent threat patterns, Watchtower 24/7 hash-drift monitoring, Security Clearance API. Audited 3,000+ skills; 41% contain vulnerabilities.
+- **Solomon OS fit:** INTEGRATE — Study 3-Layer Audit Protocol for Hermes security gate. Watchtower pattern for skill integrity monitoring. Context-Aware Intelligence differentiates real threats from legitimate agent capabilities. SOC2 evidence maps to JCPaid enterprise needs.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/clawsecure-openclaw-security.md

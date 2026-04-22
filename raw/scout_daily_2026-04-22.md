@@ -1,42 +1,40 @@
-# AIQ Scout — Daily Report | 2026-04-22
+# AIQ Scout Daily Report — 2026-04-22
 
-## Run Summary
-- **Businesses audited:** 8
-- **Industries covered:** Plumbing (4), HVAC (1), Locksmith (2), Auto Repair (1)
-- **Average SEO score:** 74.4/100
-- **Outreach attempts:** 8
+## Summary
 
-## Audits Conducted
+| Metric | Value |
+|--------|-------|
+| Businesses Audited | 8 |
+| Avg SEO Score | 74.9 |
+| Best Score | 89 (Chen Plumbing, McCabe's Moving) |
+| Worst Score | 53 (Signature Dental of Lawrence) |
+| Outreach Attempts | 8 |
+| Payment Links Sent | 8 |
 
-| # | Business | URL | Score | Grade |
-|---|----------|-----|-------|-------|
-| 1 | Half Moon Plumbing | halfmoonplumbing.com | 89 | B |
-| 2 | MDHVAC | mdhvac.com | 74 | C |
-| 3 | Joe Bro Plumbing & HVAC | calljoepro.com | 74 | C |
-| 4 | Locksmiths Plantation | locksmithsplantation.com | 79 | C |
-| 5 | StrongTower Lock & Key | strongtowerlockandkey.com | 37 | F |
-| 6 | Al Huss Auto & Truck | alhussauto.com | 74 | C |
-| 7 | Klug Family Repair LLC | klugfamilyrepairllc.com | 74 | C |
-| 8 | Del-Air Plumbing | delair.com | 74 | C |
+## Lead Details
 
-## Top Recurring Issues Found
-1. **Meta descriptions** — 7/8 sites have descriptions under the 150-char threshold
-2. **Images missing alt text** — 6/8 sites
-3. **Images not lazy loaded** — 5/8 sites
-4. **Title tag length** — 5/8 sites have titles outside the 50-60 char sweet spot
-5. **Missing Open Graph tags** — 2/8 sites
+| Business | Category | Score | Top Issues | Status |
+|----------|----------|-------|------------|--------|
+| Murphy's Air Conditioning | HVAC/Plumbing | 68 | Slow server, title too long, no alt text | Pending |
+| Chen Plumbing | Plumbing | 89 | Missing charset, no alt text | Pending |
+| North Tarrant Heat & Air | HVAC | 79 | No alt text, no lazy loading, no OG tags | Pending |
+| Seaton & Duncan | Law Firm | 74 | Title too short, meta desc issues, no alt text | Pending |
+| Dependable Lock Service | Locksmith | 74 | Title too long, meta issues, missing H2s | Pending |
+| McCabe's Moving | Moving | 89 | Missing canonical, short meta desc | Pending |
+| Signature Dental | Dentist | 53 | Very slow server, missing meta, no alt text | Pending |
+| The Lynch Law Group | Law Firm | 63 | Slow server, no compression, no alt text | Pending |
 
-## Outreach
-- **8 cold pitches sent** via email and contact forms
-- **Payment link included:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
-- No replies received during this run
+## Key Patterns
 
-## Revenue Opportunity
-- 8 outreach attempts
-- Best prospects: StrongTower Lock & Key (37/100 — critical), MDHVAC (74/100 — multiple failures)
-- Target: $29/mo per client
+- **Images missing alt text** — 7/8 businesses (87%)
+- **Meta description issues** — 5/8 businesses (62%)
+- **Slow server response** — 3/8 businesses (37%)
+- **Missing Open Graph tags** — 3/8 businesses (37%)
 
-## Notes
-- StrongTower's site is literally 404 — client likely needs full rebuild + SEO
-- Most businesses are local service companies with WordPress/Wix sites that haven't been optimized
-- Common pattern: good-enough tech scores hiding poor on-page optimization
+## Payment Link
+https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
+
+## Next Steps
+- Send outreach emails to all 8 businesses
+- Monitor for replies and escalate to Joseph via Telegram
+- Run more audits tomorrow to expand pipeline

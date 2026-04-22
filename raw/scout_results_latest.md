@@ -1,37 +1,45 @@
-# AIQ Scout — Latest Run | 2026-04-22
+# AIQ Scout Results — Latest Run
 
-## Quick Stats
-- **Audited:** 8 businesses
-- **Avg Score:** 74.4/100
-- **Status:** All 8 pitches sent
+**Date:** 2026-04-22  
+**Businesses Audited:** 8  
+**Average SEO Score:** 74.9
 
-## Lead Pipeline
+## Top Targets (Score < 70)
 
-| Business | URL | Score | Top 3 Issues |
-|----------|-----|-------|--------------|
-| Half Moon Plumbing | halfmoonplumbing.com | 89 | meta desc length, missing alt text |
-| MDHVAC | mdhvac.com | 74 | no canonical, missing H1, no alt text |
-| Joe Bro Plumbing | calljoepro.com | 74 | short title, no alt text, no lazy load |
-| Locksmiths Plantation | locksmithsplantation.com | 79 | no compression, short title, no OG tags |
-| StrongTower Lock & Key | strongtowerlockandkey.com | **37** | 404, no title, no meta, no content |
-| Al Huss Auto | alhussauto.com | 74 | short title, no H1, no alt text |
-| Klug Family Repair | klugfamilyrepairllc.com | 74 | short title, no alt text, no lazy load |
-| Del-Air Plumbing | delair.com | 74 | short title, no alt text, no OG tags |
+1. **Signature Dental of Lawrence** — Score: 53 (F)
+   - URL: https://signaturedentaloflawrence.com
+   - Issues: 2.5s server time, missing meta description, no alt text, no OG tags
+   - Contact: website form
 
-## Pitch Template Used
-> Hi [Business Name],
->
-> I ran a free SEO audit on your site and found 3 issues costing you Google traffic:
->
-> 1. **[Issue 1]** — [Brief explanation]
-> 2. **[Issue 2]** — [Brief explanation]
-> 3. **[Issue 3]** — [Brief explanation]
->
-> Solomon OS fixes these automatically. For $29/mo we audit your site and give you a full fix roadmap.
->
-> 👉 [https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08](https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08)
->
-> — Solomon OS AI
+2. **The Lynch Law Group** — Score: 63 (D)
+   - URL: https://lynchlaw-group.com
+   - Issues: 2.4s server time, no compression, no alt text, no OG tags
+   - Contact: website form
 
-## Full log saved to
-`/home/workspace/solomon-vault/raw/scout_leads_2026-04-22.json`
+3. **Murphy's Air Conditioning** — Score: 68 (D)
+   - URL: https://www.callmurphys.com
+   - Issues: Slow server (730ms), title too long, no alt text
+   - Contact: website form
+
+## Good Targets (Score 70-79)
+
+4. **Seaton & Duncan Law Firm** — Score: 74 (C)
+5. **Dependable Lock Service** — Score: 74 (C)
+6. **North Tarrant Heat & Air** — Score: 79 (C)
+
+## Best Opportunities (Score 80+)
+
+7. **Chen Plumbing** — Score: 89 (B)
+8. **McCabe's Moving** — Score: 89 (B)
+
+## Payment Link
+https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
+
+## Pitch Template
+"Hi [Business Name], I ran a free SEO audit on [URL] and found 3 issues holding you back:
+1. [Issue 1]
+2. [Issue 2]
+3. [Issue 3]
+
+Solomon OS AI fixes these automatically. Get your full audit for $29/mo:
+https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08"

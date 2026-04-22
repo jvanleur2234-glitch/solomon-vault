@@ -1,116 +1,104 @@
 [
   {
     "date": "2026-04-22",
-    "business_name": "Half Moon Plumbing",
-    "url": "https://halfmoonplumbing.com/",
-    "seo_score": 89,
+    "business_name": "Murphy's Air Conditioning, Heating, and Plumbing",
+    "url": "https://www.callmurphys.com",
+    "seo_score": 68,
     "top_issues": [
-      "Meta description too short (under 150 chars)",
+      "Slow server response time (730ms, target <500ms)",
+      "Title tag too long (203 chars, target 50-60)",
       "Images missing alt text"
     ],
-    "contact_method": "contact_form",
-    "status": "pitched"
+    "contact_method": "website contact form",
+    "status": "pending"
   },
   {
     "date": "2026-04-22",
-    "business_name": "MDHVAC",
-    "url": "https://mdhvac.com/",
-    "seo_score": 74,
+    "business_name": "Chen Plumbing",
+    "url": "https://chenplumbing.com",
+    "seo_score": 89,
     "top_issues": [
-      "Missing canonical tag",
-      "Meta description too short",
-      "Missing unique H1 tag",
-      "Images missing alt text",
-      "Images not lazy loaded"
+      "Missing charset declaration",
+      "Images missing alt text"
     ],
-    "contact_method": "contact_form",
-    "status": "pitched"
+    "contact_method": "website contact form",
+    "status": "pending"
   },
   {
     "date": "2026-04-22",
-    "business_name": "Joe Bro Plumbing & HVAC",
-    "url": "https://www.calljoepro.com/",
-    "seo_score": 74,
-    "top_issues": [
-      "Title tag too short (41 chars)",
-      "Meta description too short",
-      "Images missing alt text",
-      "Images not lazy loaded"
-    ],
-    "contact_method": "email",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "Locksmiths Plantation",
-    "url": "https://www.locksmithsplantation.com/",
+    "business_name": "North Tarrant Heat & Air",
+    "url": "https://www.northtarrantac.com",
     "seo_score": 79,
     "top_issues": [
-      "No gzip/br compression enabled",
-      "Title tag slightly short (48 chars)",
-      "Meta description too short",
-      "Images not lazy loaded"
+      "Images missing alt text",
+      "Images not using lazy loading",
+      "Missing Open Graph tags"
     ],
-    "contact_method": "contact_form",
-    "status": "pitched"
+    "contact_method": "website contact form",
+    "status": "pending"
   },
   {
     "date": "2026-04-22",
-    "business_name": "StrongTower Lock & Key",
-    "url": "https://www.strongtowerlockandkey.com/",
-    "seo_score": 37,
+    "business_name": "Seaton & Duncan Law Firm",
+    "url": "https://seatonduncan.com",
+    "seo_score": 74,
     "top_issues": [
-      "Site returning 404 — broken links",
-      "Missing title tag entirely",
+      "Title too short (30 chars)",
+      "Meta description too long",
+      "Images missing alt text"
+    ],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Dependable Lock Service",
+    "url": "https://dependablelock.com",
+    "seo_score": 74,
+    "top_issues": [
+      "Title too long (67 chars)",
+      "Meta description too short",
+      "Missing H2 tags"
+    ],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "McCabe's Moving",
+    "url": "https://www.mccabesmoving.com",
+    "seo_score": 89,
+    "top_issues": [
+      "Missing canonical tag",
+      "Meta description too short"
+    ],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Signature Dental of Lawrence",
+    "url": "https://signaturedentaloflawrence.com",
+    "seo_score": 53,
+    "top_issues": [
+      "Slow server response (2538ms)",
       "Missing meta description",
-      "No canonical or Open Graph tags",
-      "Content under 300 words"
+      "Images missing alt text"
     ],
-    "contact_method": "email",
-    "status": "pitched"
+    "contact_method": "website contact form",
+    "status": "pending"
   },
   {
     "date": "2026-04-22",
-    "business_name": "Al Huss Auto & Truck",
-    "url": "https://www.alhussauto.com/",
-    "seo_score": 74,
+    "business_name": "The Lynch Law Group",
+    "url": "https://lynchlaw-group.com",
+    "seo_score": 63,
     "top_issues": [
-      "Title tag flagged (54 chars — borderline)",
-      "Meta description too short",
-      "Missing unique H1 tag",
-      "Images missing alt text",
-      "Images not lazy loaded"
+      "Slow server response (2412ms)",
+      "No compression enabled",
+      "Images missing alt text"
     ],
-    "contact_method": "email",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "Klug Family Repair LLC",
-    "url": "https://www.klugfamilyrepairllc.com/",
-    "seo_score": 74,
-    "top_issues": [
-      "Title tag too short (48 chars)",
-      "Meta description too short",
-      "Images missing alt text",
-      "Images not lazy loaded"
-    ],
-    "contact_method": "email",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "Del-Air Plumbing",
-    "url": "https://www.delair.com/south-orlando/service-area/poinciana-fl/poinciana-plumbing/",
-    "seo_score": 74,
-    "top_issues": [
-      "Title tag too short (48 chars)",
-      "Meta description too short",
-      "Images missing alt text",
-      "Missing Open Graph tags",
-      "Favicon not configured"
-    ],
-    "contact_method": "contact_form",
-    "status": "pitched"
+    "contact_method": "website contact form",
+    "status": "pending"
   }
 ]
