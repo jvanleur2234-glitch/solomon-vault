@@ -1,41 +1,38 @@
 # RD Report: openai/openai-agents-python
 
-**Slug:** openai-agents-python  
-**URL:** https://github.com/openai/openai-agents-python  
-**Stars:** 21,577 ⭐ | **Forks:** 3,470  
-**License:** MIT  
-**Language:** Python
-
----
+**Fork:** https://github.com/jvanleur2234-glitch/openai-agents-python
+**Date:** 2026-04-22
+**Category:** Agent Framework
+**License:** Apache 2.0
+**Stars:** ~26k (very active)
 
 ## What It Is
-OpenAI's official lightweight multi-agent workflow framework. Zero-boilerplate implementation of multiple AI agents collaborating on tasks. Built by OpenAI — represents the "official" way to do multi-agent orchestration with their models. Part of a broader trend of OpenAI releasing agent infrastructure.
+OpenAI's official Agents SDK — a lightweight, provider-agnostic framework for building multi-agent workflows in Python. Supports OpenAI APIs AND 100+ other LLMs out of the box.
 
-The Chinese post described it as: "零样板代码实现多个 AI 代理无缝协作与任务编排" (zero boilerplate code to achieve seamless multi-agent collaboration and task orchestration).
+## Key Features
+- **Agents:** LLMs with instructions, tools, guardrails, handoffs
+- **Sandbox Agents (v0.14+):** Run real work in configurable containers — filesystem access, long-horizon tasks, state persistence
+- **Tools + Handoffs:** Agents can delegate to other agents or tools
+- **Guardrails:** Input/output safety validation
+- **Human-in-the-loop:** Built-in mechanisms for human oversight
+- **Sessions + Tracing:** Full observability, conversation history, debugging
+- **Realtime/Voice:** gpt-realtime-1.5 support for voice agents
+- **Multi-LLM:** Provider-agnostic — works with 100+ LLMs beyond OpenAI
 
----
+## Why It Matters
+- Most popular open-source agent framework (26k stars, massive ecosystem)
+- Sandbox Agents are a game-changer for long-running autonomous tasks
+- Provider-agnostic = not locked into OpenAI
+- Active development, production-ready
 
-## What We'd Use It For
-- **Russell Tuna Bot** — official OpenAI agent framework for Telegram integration
-- **Solomon OS orchestration** — replace or augment current bus-based agent system with official OpenAI patterns
-- **Scaling the AI Staffing Agency** — professional multi-agent workflow for client task handling
-- **Hermes skill execution** — standardized agent handoffs
+## Fit for Solomon OS
+- **Competitor to Hermes** in agent orchestration
+- **Could integrate** as alternative execution engine
+- **Sandbox Agents** align with Solomon Browser's autonomous web navigation
+- **MIT/Apache compatible** ✅
 
----
+## Recommendation: SKILL
+Study the Sandbox Agent architecture for Solomon Browser. Fork for experimentation. Not a direct Hermes replacement but excellent reference for multi-agent orchestration patterns.
 
-## Comparison to What We Have
-- Solomon OS currently uses: Russell Tuna (Ollama/qwen3) + Solomon Bus (custom message passing) + Hermes (skill registry)
-- OpenAI Agents Python gives us: official patterns, OpenAI model integration, built-in orchestration primitives
-- Could coexist: use OpenAI Agents Python for OpenAI-model tasks, keep Ollama for free/local tasks
-
----
-
-## Critical Context
-This is an **official OpenAI project** — 21K stars in a short time, massive signal. OpenAI just released their official multi-agent framework. This is a paradigm shift.
-
----
-
-## Recommendation: FORGE (Critical)
-**Reason:** Official OpenAI project, massive momentum, directly applicable to Solomon OS core architecture. This is the new standard for OpenAI-based multi-agent systems.
-
-**Action:** Immediately integrate into Solomon OS architecture. Use as the foundation for the AI Staffing Agency workflow. Wire into Russell Tuna Bot for OpenAI model tasks. Study the source code and port relevant patterns to Solomon Bus.
+## Sources
+- https://github.com/openai/openai-agents-python
