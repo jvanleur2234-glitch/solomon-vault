@@ -1,111 +1,92 @@
 [
   {
     "date": "2026-04-22",
-    "business_name": "Murphy's Air Conditioning, Heating, and Plumbing",
-    "url": "https://www.callmurphys.com",
-    "seo_score": 68,
-    "top_issues": [
-      "Slow server response time (730ms, target <500ms)",
-      "Title tag too long (203 chars, target 50-60)",
-      "Images missing alt text"
-    ],
-    "contact_method": "email",
-    "email_sent_to": "info@callmurphys.com",
-    "status": "emailed"
+    "business_name": "A Squared Plumbing & Drain Cleaning",
+    "url": "https://a2plumbing.com",
+    "seo_score": 89,
+    "top_issues": ["Images missing lazy loading", "No Open Graph tags"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
   },
   {
     "date": "2026-04-22",
-    "business_name": "Chen Plumbing",
-    "url": "https://chenplumbing.com",
-    "seo_score": 89,
-    "top_issues": [
-      "Missing charset declaration",
-      "Images missing alt text"
-    ],
-    "contact_method": "email",
-    "email_sent_to": "info@chenplumbing.com",
-    "status": "emailed"
+    "business_name": "Armstrong Plumbing & Sewer Service",
+    "url": "https://armstrongsewerandplumbing.com",
+    "seo_score": 79,
+    "top_issues": ["Slow server response time (702ms)", "No alt text on images", "Meta description too short"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Madison Plumbing Service",
+    "url": "https://madisonplumbingservice.com",
+    "seo_score": 68,
+    "top_issues": ["Missing H1 tag", "No Open Graph tags", "Images missing alt text and lazy loading"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
   },
   {
     "date": "2026-04-22",
     "business_name": "North Tarrant Heat & Air",
-    "url": "https://www.northtarrantac.com",
-    "seo_score": 79,
-    "top_issues": [
-      "Images missing alt text",
-      "Images not using lazy loading",
-      "Missing Open Graph tags"
-    ],
-    "contact_method": "email",
-    "email_sent_to": "service@northtarrantac.com",
-    "status": "emailed"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "Seaton & Duncan Law Firm",
-    "url": "https://seatonduncan.com",
+    "url": "https://northtarrantac.com",
     "seo_score": 74,
-    "top_issues": [
-      "Title too short (30 chars)",
-      "Meta description too long",
-      "Images missing alt text"
-    ],
-    "contact_method": "website contact form",
-    "status": "skipped - no public email found"
+    "top_issues": ["Slow server response time (1461ms)", "No Open Graph tags", "No alt text on images"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
   },
   {
     "date": "2026-04-22",
-    "business_name": "Dependable Lock Service",
-    "url": "https://dependablelock.com",
-    "seo_score": 74,
-    "top_issues": [
-      "Title too long (67 chars)",
-      "Meta description too short",
-      "Missing H2 tags"
-    ],
-    "contact_method": "email",
-    "email_sent_to": "locksmithshop@gmail.com",
-    "status": "emailed"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "McCabe's Moving",
-    "url": "https://www.mccabesmoving.com",
-    "seo_score": 89,
-    "top_issues": [
-      "Missing canonical tag",
-      "Meta description too short"
-    ],
-    "contact_method": "email",
-    "email_sent_to": "info@mccabesmoving.com",
-    "status": "emailed"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "Signature Dental of Lawrence",
-    "url": "https://signaturedentaloflawrence.com",
-    "seo_score": 53,
-    "top_issues": [
-      "Slow server response (2538ms)",
-      "Missing meta description",
-      "Images missing alt text"
-    ],
-    "contact_method": "email",
-    "email_sent_to": "info@sdldds.com",
-    "status": "emailed"
-  },
-  {
-    "date": "2026-04-22",
-    "business_name": "The Lynch Law Group",
-    "url": "https://lynchlaw-group.com",
+    "business_name": "Clint Johnson HVAC",
+    "url": "https://clintjohnsonhvac.com",
     "seo_score": 63,
-    "top_issues": [
-      "Slow server response (2412ms)",
-      "No compression enabled",
-      "Images missing alt text"
-    ],
-    "contact_method": "email",
-    "email_sent_to": "info@lynchlawgroup.com",
-    "status": "emailed"
+    "top_issues": ["Title too short (25 chars)", "Meta description too short", "No H1 tag", "No Open Graph or Twitter Card tags"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "StrongTower Lock & Key",
+    "url": "https://strongtowerlockandkey.com",
+    "seo_score": 42,
+    "top_issues": ["Site returns 404", "No title tag", "No meta description", "No Open Graph tags", "No H2 tags", "No favicon"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Lock Doctor Inc",
+    "url": "https://lockdoctorinc.com",
+    "seo_score": 74,
+    "top_issues": ["Slow server response time (1013ms)", "No alt text on images", "No Open Graph tags"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Weymouth Locksmiths",
+    "url": "https://weymouthlocksmiths.com",
+    "seo_score": 53,
+    "top_issues": ["Title too long (86 chars)", "Meta description too short", "Missing H1 tag", "No Open Graph or Twitter Card tags"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "The Mover",
+    "url": "https://themover.com",
+    "seo_score": 84,
+    "top_issues": ["Very slow server response (4343ms)", "Title too short (23 chars)", "Meta description too short"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-22",
+    "business_name": "Carte Blanche Moving",
+    "url": "https://carteblanchemoving.com",
+    "seo_score": 79,
+    "top_issues": ["Missing H1 tag", "Meta description too short", "No lazy loading on images"],
+    "contact_method": "contact form on website",
+    "status": "pitched"
   }
 ]

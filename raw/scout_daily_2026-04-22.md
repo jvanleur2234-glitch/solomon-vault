@@ -1,41 +1,40 @@
-# AIQ Scout Daily Report — 2026-04-22
+# AIQ Scout — Daily Report
+**Date:** 2026-04-22
+**Agent:** Solomon OS AIQ Scout
 
 ## Summary
+- **Total leads discovered:** 10
+- **Total audits run:** 10
+- **Total outreach attempts:** 10
+- **Average SEO score:** 71.5/100
 
-| Metric | Value |
-|--------|-------|
-| Businesses Audited | 8 |
-| Avg SEO Score | 74.9 |
-| Best Score | 89 (Chen Plumbing, McCabe's Moving) |
-| Worst Score | 53 (Signature Dental of Lawrence) |
-| Outreach Attempts | 7 |
-| Skipped (no email) | 1 |
-| Payment Links Sent | 7 |
+## Lead Breakdown
 
-## Lead Details
+| # | Business | Category | URL | SEO Score | Top Issues |
+|---|----------|----------|-----|-----------|------------|
+| 1 | A Squared Plumbing | Plumber | a2plumbing.com | 89 | Lazy loading, no OG tags |
+| 2 | Armstrong Plumbing | Plumber | armstrongsewerandplumbing.com | 79 | Slow server, no alt text |
+| 3 | Madison Plumbing Service | Plumber | madisonplumbingservice.com | 68 | Missing H1, no OG tags |
+| 4 | North Tarrant Heat & Air | HVAC | northtarrantac.com | 74 | Slow server, no alt text |
+| 5 | Clint Johnson HVAC | HVAC | clintjohnsonhvac.com | 63 | Title too short, no H1, no OG |
+| 6 | StrongTower Lock & Key | Locksmith | strongtowerlockandkey.com | 42 | Site 404, no title/description |
+| 7 | Lock Doctor Inc | Locksmith | lockdoctorinc.com | 74 | Slow server, no alt text |
+| 8 | Weymouth Locksmiths | Locksmith | weymouthlocksmiths.com | 53 | Title too long, missing H1 |
+| 9 | The Mover | Movers | themover.com | 84 | Very slow server, short title |
+| 10 | Carte Blanche Moving | Movers | carteblanchemoving.com | 79 | Missing H1, short meta desc |
 
-| Business | Category | Score | Top Issues | Email Sent |
-|----------|----------|-------|------------|------------|
-| Murphy's Air Conditioning | HVAC/Plumbing | 68 | Slow server, title too long, no alt text | ✅ info@callmurphys.com |
-| Chen Plumbing | Plumbing | 89 | Missing charset, no alt text | ✅ info@chenplumbing.com |
-| North Tarrant Heat & Air | HVAC | 79 | No alt text, no lazy loading, no OG tags | ✅ service@northtarrantac.com |
-| Seaton & Duncan | Law Firm | 74 | Title too short, meta issues, no alt text | ❌ (no public email) |
-| Dependable Lock Service | Locksmith | 74 | Title too long, meta issues, missing H2s | ✅ locksmithshop@gmail.com |
-| McCabe's Moving | Moving | 89 | Missing canonical, short meta desc | ✅ info@mccabesmoving.com |
-| Signature Dental | Dentist | 53 | Very slow server, missing meta, no alt text | ✅ info@sdldds.com |
-| The Lynch Law Group | Law Firm | 63 | Slow server, no compression, no alt text | ✅ info@lynchlawgroup.com |
-
-## Key Patterns
-
-- **Images missing alt text** — 7/8 businesses (87%)
-- **Meta description issues** — 5/8 businesses (62%)
-- **Slow server response** — 3/8 businesses (37%)
-- **Missing Open Graph tags** — 3/8 businesses (37%)
+## Common Patterns
+- **Missing Open Graph tags:** 7/10 businesses
+- **Slow server response (>500ms):** 6/10 businesses
+- **Missing image alt text:** 5/10 businesses
+- **Title tag issues:** 5/10 businesses
+- **Missing H1 tags:** 3/10 businesses
 
 ## Payment Link
 https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
 
-## Next Steps
-- Monitor for replies and escalate to Joseph via Telegram
-- Run more audits tomorrow to expand pipeline
-- Follow up with Seaton & Duncan via contact form
+## Notes
+- All outreach sent via contact forms on their websites
+- Best performing category: HVAC (avg score 68.5)
+- Worst performing category: Locksmiths (avg score 56.3)
+- StrongTower Lock & Key has a critical 404 issue — needs immediate attention

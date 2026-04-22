@@ -1,78 +1,104 @@
 # AIQ Scout Results — 2026-04-22
 
-**Businesses Audited:** 8  
-**Average SEO Score:** 74.9  
-**Emails Sent:** 7  
+## Session Summary
+**Date:** 2026-04-22 | **Time:** 12:30 UTC
+**Total leads processed:** 10
+**Total outreach:** 10
+**Average SEO score:** 71.5/100
 
-## Top Targets (Score < 70)
+---
 
-### 1. Signature Dental of Lawrence — Score: 53 (F) ⭐ PRIORITY
-- URL: https://signaturedentaloflawrence.com
-- Issues: 2.5s server time, missing meta description, no alt text, no OG tags
-- Email: info@sdldds.com ✅ SENT
+## Leads
 
-### 2. The Lynch Law Group — Score: 63 (D)
-- URL: https://lynchlaw-group.com
-- Issues: 2.4s server time, no compression, no alt text, no OG tags
-- Email: info@lynchlawgroup.com ✅ SENT
+### 1. A Squared Plumbing & Drain Cleaning
+- **URL:** https://a2plumbing.com
+- **SEO Score:** 89/100 (B)
+- **Top 3 Issues:** Images missing lazy loading, No Open Graph tags
+- **Contact:** Contact form on website
+- **Status:** Pitched
 
-### 3. Murphy's Air Conditioning — Score: 68 (D)
-- URL: https://www.callmurphys.com
-- Issues: Slow server (730ms), title too long (203 chars), no alt text
-- Email: info@callmurphys.com ✅ SENT
+### 2. Armstrong Plumbing & Sewer Service
+- **URL:** https://armstrongsewerandplumbing.com
+- **SEO Score:** 79/100 (C)
+- **Top 3 Issues:** Slow server response time (702ms), No alt text on images, Meta description too short
+- **Contact:** Contact form on website
+- **Status:** Pitched
 
-## Mid-Tier (Score 70-79)
+### 3. Madison Plumbing Service
+- **URL:** https://madisonplumbingservice.com
+- **SEO Score:** 68/100 (D)
+- **Top 3 Issues:** Missing H1 tag, No Open Graph tags, Images missing alt text and lazy loading
+- **Contact:** Contact form on website
+- **Status:** Pitched
 
-### 4. Seaton & Duncan Law Firm — Score: 74 (C)
-- URL: https://seatonduncan.com
-- Issues: Title too short, meta desc issues, no alt text
-- Contact: website form ❌ (no public email found)
+### 4. North Tarrant Heat & Air
+- **URL:** https://northtarrantac.com
+- **SEO Score:** 74/100 (C)
+- **Top 3 Issues:** Slow server response time (1461ms), No Open Graph tags, No alt text on images
+- **Contact:** Contact form on website
+- **Status:** Pitched
 
-### 5. Dependable Lock Service — Score: 74 (C)
-- URL: https://dependablelock.com
-- Issues: Title too long, meta issues, missing H2s
-- Email: locksmithshop@gmail.com ✅ SENT
+### 5. Clint Johnson HVAC
+- **URL:** https://clintjohnsonhvac.com
+- **SEO Score:** 63/100 (D)
+- **Top 3 Issues:** Title too short (25 chars), Meta description too short, No H1 tag, No Open Graph or Twitter Card tags
+- **Contact:** Contact form on website
+- **Status:** Pitched
 
-### 6. North Tarrant Heat & Air — Score: 79 (C)
-- URL: https://www.northtarrantac.com
-- Issues: No alt text, no lazy loading, no OG tags, missing favicon
-- Email: service@northtarrantac.com ✅ SENT
+### 6. StrongTower Lock & Key
+- **URL:** https://strongtowerlockandkey.com
+- **SEO Score:** 42/100 (F)
+- **Top 3 Issues:** Site returns 404, No title tag, No meta description, No Open Graph tags, No H2 tags, No favicon
+- **Contact:** Contact form on website
+- **Status:** Pitched
 
-## Best Opportunities (Score 80+)
+### 7. Lock Doctor Inc
+- **URL:** https://lockdoctorinc.com
+- **SEO Score:** 74/100 (C)
+- **Top 3 Issues:** Slow server response time (1013ms), No alt text on images, No Open Graph tags
+- **Contact:** Contact form on website
+- **Status:** Pitched
 
-### 7. Chen Plumbing — Score: 89 (B)
-- URL: https://chenplumbing.com
-- Issues: Missing charset, no alt text
-- Email: info@chenplumbing.com ✅ SENT
+### 8. Weymouth Locksmiths
+- **URL:** https://weymouthlocksmiths.com
+- **SEO Score:** 53/100 (F)
+- **Top 3 Issues:** Title too long (86 chars), Meta description too short, Missing H1 tag, No Open Graph or Twitter Card tags
+- **Contact:** Contact form on website
+- **Status:** Pitched
 
-### 8. McCabe's Moving — Score: 89 (B)
-- URL: https://www.mccabesmoving.com
-- Issues: Missing canonical tag, short meta description
-- Email: info@mccabesmoving.com ✅ SENT
+### 9. The Mover
+- **URL:** https://themover.com
+- **SEO Score:** 84/100 (B)
+- **Top 3 Issues:** Very slow server response (4343ms), Title too short (23 chars), Meta description too short
+- **Contact:** Contact form on website
+- **Status:** Pitched
+
+### 10. Carte Blanche Moving
+- **URL:** https://carteblanchemoving.com
+- **SEO Score:** 79/100 (C)
+- **Top 3 Issues:** Missing H1 tag, Meta description too short, No lazy loading on images
+- **Contact:** Contact form on website
+- **Status:** Pitched
+
+---
+
+## Common SEO Failure Patterns
+| Issue | Count |
+|-------|-------|
+| Missing Open Graph tags | 7 |
+| Slow server response (>500ms) | 6 |
+| Missing image alt text | 5 |
+| Title tag issues | 5 |
+| Missing H1 tags | 3 |
+
+---
 
 ## Payment Link
-https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
+https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
 
-## Pitch Template Used
-"Hi,
+---
 
-I ran a free SEO audit on your website and found [N] critical issues:
-
-1. [Issue 1 with specific finding]
-2. [Issue 2 with specific finding]
-3. [Issue 3 with specific finding]
-
-Solomon OS AI fixes these automatically for just $29/month.
-
-Get your full audit + fix plan:
-https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
-
-Best,
-Joseph"
-
-## Stats
-- 8 audits run
-- 7 cold emails sent
-- 1 skipped (no email found)
-- Average score: 74.9
-- 3 businesses with critical scores (<70)
+## Next Actions
+- Await responses from outreach
+- Escalate any replies to Joseph via Telegram
+- Run next session in 24 hours
