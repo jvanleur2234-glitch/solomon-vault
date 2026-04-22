@@ -72,3 +72,27 @@
 - **Solomon OS fit:** SKILL — deliberation pattern for Hermes. Could enhance skill validation with multiple expert agents reviewing decisions.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-council-yogirk.md
+
+## gollem — Type-Safe Go Agent Framework (April 22, 2026)
+- **URL:** https://github.com/fugue-labs/gollem
+- **Fork:** Already forked (Go project, different tech stack)
+- **What it does:** Production-grade Go agent framework with compile-time type safety. Generic Agent[T], 5+ LLM backends, FuncTool with JSON Schema generation, streaming via iter.Seq2, guardrails (input/turn/output validation, auto-repair), OpenTelemetry middleware, state snapshots.
+- **Solomon OS fit:** INTEGRATE — guardrail patterns and middleware architecture useful for Hermes security layer. Type-safe tool pattern worth studying for future Go-based Hermes components.
+- **Status:** MONITOR / REFERENCE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/gollem.md
+
+## vercel/agent-browser — Native Rust Browser Automation CLI (April 22, 2026)
+- **URL:** https://github.com/vercel-labs/agent-browser
+- **Fork:** NO (Apache 2.0, reference only)
+- **What it does:** Native Rust CLI for AI agent browser automation. Accessibility tree + ref-based targeting (@e1, @e2), CSS/role selectors, screenshot, keyboard, multi-browser. Already installed locally at /usr/local/bin/agent-browser.
+- **Solomon OS fit:** MONITOR — Fast Rust implementation. Already available in environment. Could influence Hermes browser tooling architecture.
+- **Status:** MONITOR / REFERENCE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/vercel-agent-browser.md
+
+## dnhess/spectra — Multi-Agent Deliberation Skills (April 22, 2026)
+- **URL:** https://github.com/dnhess/spectra
+- **Fork:** NO (MIT, Claude Code specific ecosystem)
+- **What it does:** 5 deliberation skills using blackboard architecture: deep-design (multi-perspective design review), decision-board (structured debate → ADR), peer-review (code review with reconnaissance), trust-layer (4 adversarial personas), coherence-monitor (metacognitive audit).
+- **Solomon OS fit:** SKILL — trust-layer adversarial verification could enhance Hermes output scanning. Blackbox architecture useful for multi-agent coordination patterns.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/spectra.md

@@ -1,41 +1,42 @@
 # Telegram Session Summary — 2026-04-22
 
-## Date / Time
-April 22, 2026 — AIQ Scout hourly research session (00:35 UTC)
+**Time:** 01:35 UTC (~20:35 Chicago local)
+**Channel:** Scheduled AIQ Scout run
 
-## Key Decisions Made
-- Forked **cisco-ai-defense/mcp-scanner** → jvanleur2234-glitch/mcp-scanner (multi-engine MCP security scanner, Apache 2.0)
-- Forked **yogirk/agent-council** → jvanleur2234-glitch/agent-council (lightweight CLI multi-agent deliberation, MIT)
-- Wrote RD reports for both repos
-- Updated HERMES_CAPABILITIES.md with 2 new entries
+## Key Findings
 
-## Code Created / Modified
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/mcp-scanner-cisco.md` — RD report
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/agent-council-yogirk.md` — RD report
-- `/home/workspace/solomon-vault/brain/HERMES_CAPABILITIES.md` — appended 2 entries
+### GitHub Research
+1. **Agent Frameworks (2026):** Microsoft Agent Framework (Python/.NET), Gollem (Go/Type-safe), Dapr Agents (Kubernetes), Alphora (Python/full-stack), AgentRail (TypeScript), Solace Agent Mesh (event-driven), Agent Orcha (YAML/P2P), Phero (Go/RAG)
+2. **Self-Improving Agents:** 10+ repos found — agent-fridays-self-improvement-kit (human-in-loop), openclaw-self-evolving (log-based), self_improving_coding_agent (Docker/benchmark), ninja (Rust/Python self-patch)
+3. **Hermes/MCP:** NousResearch/hermes-agent active. MCP ecosystem growing. Skills loading pipeline, A2A protocol, event-driven architecture.
+4. **P2P Distributed AI:** AgentFM (Go/Podman/libp2p), mycellm (credit economy), ARIA Protocol (1-bit models), Hyperspace (2M+ nodes), PeerClaw (token economy)
+5. **Security Scanners:** medusa (9,600+ patterns), guard-scanner (SOUL.md tampering), hackmyagent (semantic security), mcp-scanner (Cisco), agent-security-scanner-mcp (AST)
+6. **Browser Automation:** HyperAgent, browser-use (50K stars), agent-browser (Rust), Koda (CV-based), CopilotBrowser (MCP)
+7. **Multi-Agent Deliberation:** Quorum (7-phase), dialectic-agentic (debate/architect), spectra (blackboard), concilium (peer review), council-of-high-intelligence (18 personas)
 
-## Problems Solved
-- Identified 2 new relevant repos to fork (most others already cloned in prior sessions)
-- Synced brain files to GitHub
+### X Trends
+- **Hermes Agent** gaining traction — RealClaw integration, benchmarks showing Gemma4 31b competitive
+- **OWASP Top 10 for Agentic Apps 2026** released — prompt injection #1 risk, audit trails critical
+- **AI agents as attack vectors** — Mexican government breach via weaponized Claude
+- **Distributed compute grid** — Sentient GRID token-level routing, modular workflows
 
-## Unresolved Issues
-- None
+### Actions Taken
+- Cloned/forked: agent-fridays-self-improvement-kit (MIT), Quorum (MIT)
+- Already had 30+ relevant repos cloned from prior sessions
+- Wrote 4 RD reports to solomon-vault/brain/RD_REPORTS/
+- Updated HERMES_CAPABILITIES.md with 3 new entries
 
-## Follow-up Needed
-- None
+### New Entries to Hermes
+- Agent Orcha (YAML/P2P orchestration)
+- Solace Agent Mesh (event-driven)
+- agent-fridays-self-improvement-kit (human-in-loop self-mod)
 
-## X Trends Observed
-- **Hermes Agent** by @NousResearch trending hard — 472 likes, comparisons to OpenClaw showing it's "not even close"
-- **AI agent security** — emergency session US Treasury/Federal Reserve after AI agent found 27-year OpenBSD vuln
-- **OpenAI acquired Promptfoo** (Mar 9) to fix critical agentic AI security vulnerability
-- **Distributed AI compute** — Sentient GRID architecture for reproducible AI runs, 121K views on explainer
+## Business Context
+- Solomon OS running 24/7 on Zo
+- Russell Tuna Telegram bot active
+- Hermes with 94+ skills
+- KwaaiNet P2P compute vision in progress
 
-## GitHub Trends Noted
-- Microsoft Agent Framework (MIT) — graph-based workflows, Python + .NET
-- Gollem — Go type-safe agent framework (MIT)
-- Agent Orcha — YAML-based declarative orchestration, P2P sharing, browser tooling
-- Dapr Agents — Kubernetes-native durable execution (Apache 2.0)
-- Hyperspace AGI — P2P distributed training with DiLoCo compression (NOASSERTION)
-- Multiple security scanners for agents (sinewave, cisco, snyk, koatora, pantheon, opena2a)
-- Multiple browser automation agents (hyperbrowser, vercel-labs agent-browser, browser-use, stagehand)
-- Multiple multi-agent deliberation frameworks (Quorum, council-of-high-intelligence, agent-council, concili
+## Sync
+- Brain files synced to GitHub ✅
+- RD reports written ✅
