@@ -8,6 +8,21 @@ status: active
 
 # Business Ideas Pipeline
 
+## PRIORITY ORDER (Updated 2026-04-22)
+1. **JackConnect** — FIRST. Real estate agent Jack Vanleur as first client. "Do it once. Agent does it forever." Time-saver angle.
+2. **JCPaid (AI Employee Agency)** — SECOND. Package Solomon OS as sellable AI employees. Target: US small businesses with bad SEO. "Your AI employee that works 24/7 and never calls in sick."
+3. **Solomon Browser** — ON DECK. AI-native web browser with persistent memory.
+4. Everything else — only if bandwidth allows.
+
+## POSITIONING
+"**Solomon OS — the AI OS that gives you back your time for the important things.**"
+
+Every product must answer: "How many hours per week does this give back?"
+The Time Saver Dashboard is a core install component — shows hours saved per week.
+
+## Arena
+**PERMANENT HOLD** — Do not work on unless explicitly directed.
+
 ## TOP 10 — Easiest + Fastest to First Dollar
 
 1. **Subscription Trimmer** — DAYS | Zo Space + Russell Tuna. "Netflix renews in 2 days, still using it?" $2.99/mo.
@@ -358,7 +373,7 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
 - **Two plays:**
   1. SHALLOW — Apply formula to SubTrim or RENU. "I made $50 while eating breakfast" → link in bio → affiliate. Volume test.
   2. DEEP — SERVICE. AI SaaS companies pay you to run this playbook for them. Find vibecoding/SaaS products → recruit creators → run Whop-style payment model → take 20-30% of affiliate revenue.
-- **Stack already built:** MoneyPrinterTurbo (video), browser-use (monitoring), zo.space (landing), Russell Tuna (creator outreach)
+- **Stack already built:** MoneyPrinterTurbo (content) + Russell Tuna (app dev) + Zo Space (hosting) + AI influencer (distribution)
 - **Joseph's role:** Bring SaaS clients, leverage creator network
 - **LINK fit:** ★★★★★ — money + deals + new tech/AI + fits golden thread
 - **Revenue ceiling:** $5-30K/mo (shallow), $50K+/mo (deep agency)
@@ -582,160 +597,6 @@ The MASTER_PLAN's "AI Employee Agency" + Phase 1-4 execution can USE Screenpipe 
 **First step:** Verify Airbnb API access (they have a messaging API) + VRBO equivalent. If APIs are blocked, use CloudBrowser stealth automation.
 
 **Difficulty:** 5/10 | **Time to first client:** 4-6 weeks | **MRR ceiling:** $150K/mo+ | **Window:** 18-24 months before Airbnb builds it themselves
-
----
-
-## 🏠 Offline AI Property Management Assistant (Added Apr 17, 2026)
-
-**What it does:** Real estate investors and property managers pay $150–400/month for a local AI that:
-- Handles tenant communication templates (maintenance requests, lease renewals, late rent notices)
-- Lease drafting assistance (pull from state-specific templates)
-- Maintenance request triage (prioritize urgent vs. routine, route to correct vendor)
-- Rent collection reminders (automated texts/emails before due date)
-- Financial summaries (monthly P&L, cash flow, vacancy rates)
-- All processing local — tenant PII never leaves the server
-
-**Why privacy-first wins here:**
-- Tenant data (SSN, income verification, bank info) is highly sensitive
-- Property managers handling Section 8 or government housing have strict compliance requirements
-- AppFolio ($1B+ valuation) and Buildium prove the market — neither is AI-native
-- Landlords pay premium for "can't be hacked, won't be subpoenaed" positioning
-
-**Revenue math:**
-- 40 clients × $250/mo = $10,000/mo
-- 200 clients × $250/mo = $50,000/mo
-
-**Fold into JackConnect:** Add as a "Property Manager" persona/tier at $199-399/mo. Uses same stack as JackConnect real estate agent but with:
-- Property-specific skills (lease templates, rent roll analysis, maintenance triage)
-- Multi-property dashboard (manage 1-50 units per client)
-- Section 8 / government housing compliance mode (optional add-on)
-
-**Stack:** Hermes (skills) + Cabinet (knowledge base for state-specific landlord-tenant law) + CloudBrowser (web tasks) + cognee (property memory graph)
-
-**Difficulty:** 6/10 | **Time to first client:** 6-8 weeks | **MRR ceiling:** $100K/mo+ | **Path:** Start privacy-conscious indie landlords → expand to property management firms
-
----
-
-## 📚 Amazon KDP Low-Content Book Publisher (Added Apr 17, 2026)
-
-**What it does:** AI generates 2-3 KDP low-content books per day (journals, notebooks, puzzle books, activity books, planners). Human reviews and uploads (5 min/day). Royalties stack passively.
-
-**Why books over YouTube:**
-- Evergreen — no algorithm dependency, no audience building required
-- Search-based discovery — Amazon's search is intent-driven, not attention-driven
-- Zero upload automation risk — KDP ToS prohibits automated uploads, so the human-in-the-loop is actually required (clean legal ground)
-- Stacks with YouTube — same AI content engine produces both video scripts and book content
-- Royalty积累 — 2 books/day × $2-5 royalty × 30 days = $120-450/month passive per book after upload
-
-**The workflow:**
-1. Hermes/Claude researches 3 low-competition KDP niches daily (web search + Amazon data)
-2. Generates: interior pages (lined, grid, dotted), back cover, 7 keyword phrases, description, category selection
-3. Stirling-PDF formats to KDP specs (6×9 inches, 120 pages, bleed settings)
-4. Human reviews output (2 min) → uploads to KDP
-5. Repeat daily — royalty statements monthly
-
-**Accounts needed:**
-- Amazon KDP (free)
-- Amazon Associates (cross-promotion, free)
-- Payoneer or direct deposit for royalties
-
-**Our stack:**
-- Hermes — niche research, content generation, keyword research, description writing
-- Stirling-PDF — PDF formatting to KDP specs (already have)
-- Claude — quality control review
-- Daily automation via Job Runner
-
-**Gap to close:** Stirling-PDF needs to be set up as a CLI tool for batch PDF generation. Verify it's installed and working.
-
-**Difficulty:** 3/10 | **Time to first sale:** 2-4 weeks | **MRR ceiling:** $5K/mo at 200+ titles | **Effort:** 5-10 min/day maintenance
-
-**Honest note:** This is 95% hands-off AI automation, not 100%. You spend ~5 min/day clicking upload. That's the legally clean bottleneck — Amazon requires human-initiated submissions.
-
-**Competitor context:** KDP authors using AI are racing to publish 100+ titles. Our advantage isn't volume — it's using Hermes to find underserved niches before they saturate.
-
----
-## EduFlow — Claw-ED + Lume Bridge (Added Apr 17, 2026)
-- **What:** One page that combines Claw-ED (lesson generation) + Lume (grading) — teachers get a full lesson AND auto-grading in one place
-- **Live at:** https://josephv.zo.space/eduflow
-- **Forked:** Claw-ED at jvanleur2234-glitch/Claw-ED (25 stars, MIT, 758 commits, 2081 tests)
-- **How it works:** Teacher types topic → full lesson bundle generated (objective, instruction, practice, assessment, exit ticket) → pastes student work → instant scored feedback with strengths, gaps, and next steps
-- **Why teachers want it:** They describe what they need → get a complete lesson → grade student work in the SAME tool without switching apps
-- **Business model:** Freemium (3 free lessons/week) → $9/mo teacher, $19/mo school/district
-- **LINK fit:** ★★★★★ — wife (teacher) = first customer, validated with real users
-- **Competitive edge:** No competitor combines lesson generation AND grading in one flow. Claw-ED does lessons, Lume does grading — EduFlow is the bridge.
-- **Next step:** Get wife to use it, iterate based on feedback, add more Claw-ED tools (standards dashboard, differentiation, improve_lesson)
-
-## Antigravity Awesome Skills (Added Apr 17, 2026)
-- **Repo:** sickn33/antigravity-awesome-skills — 33.7K stars, MIT, 1,400+ skills, 1481 commits
-- **Forked:** jvanleur2234-glitch/antigravity-awesome-skills
-- **What it is:** World's largest agentic skills library. Skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows.
-- **LINK fit:** ★★★★★ — directly upgrades Hermes and Russell Tuna. 1,400+ skills in one command.
-- **How to use:** `npx @sickn33/antigravity-ai install <skill-name>` or browse catalog and install specific skills into Hermes.
-- **Strategic value:** Solomon OS agents get instant access to 1,400+ battle-tested skills. Agent upgrade path = browse catalog + install.
-- **Key categories:** coding, security, DevOps, data, AI/ML, writing, design, productivity
-
-## Paperclip Docs (Added Apr 17, 2026)
-- **URL:** aronprins.github.io/paperclip-docs/
-- **What:** Official Paperclip documentation just went live. Improved adapter docs, user guides, tutorials.
-- **Relevance:** We already have Paperclip running at localhost:3101. Better docs = better Hermes/Paperclip integration for Solomon OS.
-- **Action:** Read the new docs and improve the Hermes-Paperclip adapter integration.
-## Solomon Browser — AI-Native Web Browser (Added Apr 18, 2026)
-
-**What it is:** A browser designed for AI agents working on your behalf. You tell it what you want. The AI browses, reads, acts, and comes back with done — not a list of links.
-
-**Why a custom browser is worth building:**
-- Zo already has browser tools, but they're generic — no persistent memory, no agent-native DOM access, no product identity
-- Every AI assistant is getting a browser tab. None of them are built for agents. First mover wins.
-- We already have 80% of the primitives: browser session (Zo), Scrapling (stealth scraping), Hermes (reasoning), skills registry
-
-**4 Product Angles:**
-
-1. **Browser with Persistent Memory**
-   AI remembers everything you ever looked at. Automatically surfaces past pages relevant to your current query.
-   - "Find that article I read about AI staffing 3 weeks ago" → done
-   - Surfaces context without re-searching
-   - Differentiator: ChatGPT/Claude forget between sessions. Solomon Browser remembers forever.
-
-2. **Agent-Native Browser**
-   AI gets API access to the page DOM — not just screenshots. Reads, fills, clicks, extracts data reliably.
-   - Current limitation: AI browsers guess at coordinates. This browser gives them a real API.
-   - Paste a link → AI reads site → becomes an agent that can take actions inside it
-   - This is the "SureThing Clone / AI Employee Dashboard" product from Business Ideas — built as a BROWSER instead of a dashboard
-
-3. **Privacy-First Personal Browser**
-   Your browsing data stays yours. AI only sees what you approve.
-   - Good for: professionals with confidentiality concerns (lawyers, doctors, execs)
-   - Sell to: healthcare, legal, finance verticals
-   - Differentiator from Chrome/Firefox: AI capability with privacy guarantees
-
-4. **Business Intelligence Browser**
-   AI scrapes competitor sites, monitors prices, tracks job boards, builds lead lists — automatically, on schedule, while you sleep.
-
-**Tech Option (recommended):**
-Wrap Chromium via Playwright/Puppeteer with a custom UI shell.
-- Moderate dev work: 2-4 weeks for MVP
-- Gives us full DOM access, streaming, persistent sessions
-- We already have Scrapling for the stealth/anti-bot layer
-- Fork: use an open-source browser shell (fre browser, error) and integrate
-
-**Don't build from scratch:** Building a full browser engine (Chromium fork) = 12+ months. Wrap existing tech instead.
-
-**Revenue Model:**
-- Free tier: 10 AI-assisted browses/day
-- Basic: $9/mo unlimited browses
-- Pro: $29/mo + persistent memory + scheduled scraping + API access
-- Enterprise: $99/mo per seat + team features + admin controls
-
-**Fit with Solomon OS:**
-- ✅ Scrapling (already installed) — stealth web scraping
-- ✅ Hermes (already running) — reasoning + skill dispatch
-- ✅ Russell Tuna — Telegram interface for AI results
-- ✅ Zo Space — dashboard + Stripe payments
-- Gap to close: custom browser UI shell + DOM API layer + persistent storage
-
-**First step:** Build a proof-of-concept in Zo Space that wraps Playwright — paste a URL, AI reads the page and summarizes/takes action. Test with real users. Then wrap in a proper browser shell for distribution.
-
-**Difficulty:** 5/10 | **Time to POC:** 2-3 weeks | **MRR ceiling:** $50-100K/mo | **Window:** 12-18 months before incumbents close the gap
 
 ---
 
