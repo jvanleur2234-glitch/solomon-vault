@@ -133,3 +133,38 @@
 - **Solomon OS fit:** INTEGRATE — Study 3-Layer Audit Protocol for Hermes security gate. Watchtower pattern for skill integrity monitoring. Context-Aware Intelligence differentiates real threats from legitimate agent capabilities. SOC2 evidence maps to JCPaid enterprise needs.
 - **Status:** INTEGRATE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/clawsecure-openclaw-security.md
+
+## AgentAudit MCP — Security Scanner for AI Agent Packages (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agentaudit-mcp
+- **What it does:** Security scanner for AI agent packages. CLI and MCP server. Scans MCP servers, AI skills, packages for vulnerabilities, prompt injections, supply chain attacks. Uses regex static analysis + 3-pass LLM deep audits. Trust Registry for audited packages.
+- **Solomon OS fit:** INTEGRATE — Package auditing before skill installation. Trust Registry concept for verifying third-party skills. MCP server for IDE integration (Claude Desktop, Cursor, Windsurf).
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentaudit-mcp.md
+
+## Sinewave Agent Security Scanner MCP — Prompt Injection Firewall (April 22, 2026)
+- **Fork:** Already forked (`sinewave-agent-security-scanner-mcp`)
+- **What it does:** MCP server security scanner for AI coding agents. Prompt injection firewall. Package hallucination detection (4.3M+ packages). 1000+ vulnerability rules with AST & taint analysis. Auto-fix suggestions.
+- **Solomon OS fit:** INTEGRATE — Core security for Hermes agent code generation. Package hallucination detection prevents supply chain attacks. AST/taint analysis for skill code review.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/sinewave-agent-security-scanner-mcp.md
+
+## guard-scanner — Agentic Workflow Security Scanner (April 22, 2026)
+- **Fork:** Already forked (`guard-scanner-new`)
+- **What it does:** Security scanner for agentic workflows. 364 detection patterns across 35 threat categories, 27 runtime checks. Focus on prompt injections, identity hijacking, memory poisoning, A2A contagion. OWASP Agentic Top 10 aligned. SOUL.md locking.
+- **Solomon OS fit:** INTEGRATE — Identity hijack detection for Hermes agent identities. A2A contagion detection for multi-agent communication. SOUL.md protection aligns with Hermes SOUL.md concept.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/guard-scanner.md
+
+## Quorum — Multi-Agent AI Deliberation Framework (April 22, 2026)
+- **Fork:** Already forked (`Quorum`)
+- **What it does:** TypeScript MIT-licensed multi-AI deliberation framework. 7-phase deliberation (Gather→Plan→Formulate→Debate→Adjust→Rebuttal→Vote). Borda/ranked-choice/Condorcet voting. Evidence protocol with citations. SHA-256 ledger for deterministic replay. MCP server compatible.
+- **Solomon OS fit:** SKILL — Structured deliberation for critical Hermes decisions. Evidence protocol adds trust to multi-agent reasoning. Configurable debate topologies (mesh, star, tournament, pipeline) for Council of High Intelligence.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/quorum.md
+
+## MedIT One — Recurrent Transformer with MoE (April 22, 2026)
+- **Fork:** Already forked (`medit-one`, `medit-one-new`)
+- **What it does:** Fast memory-efficient transformer combining recurrent-style state (hx, cx) with MoE. Single-token inference with constant memory footprint. Hidden-state self-attention (linear scaling). CUDA-accelerated with FP16/BF16.
+- **Solomon OS fit:** SKILL — Study architecture for Hermes long-context agentic workflows. Recurrent state management for persistent agent memory. MoE for efficient multi-task agent processing.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/medit-one.md

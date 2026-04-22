@@ -1,31 +1,36 @@
-# RD Report: sinewave-agent-security-scanner-mcp
+# RD Report: Sinewave Agent Security Scanner MCP
+
+**Date:** 2026-04-22  
+**Category:** AI Security / MCP  
+**Source:** web_research (github)  
+**Fork Status:** Already forked (sinewave-agent-security-scanner-mcp)
 
 ## What It Is
-**ProofLayer** — enterprise-grade security scanner for AI coding agents. Detects prompt injection, package hallucination (4.3M+ packages), 1700+ vulnerability rules via AST/taint analysis, LLM-powered semantic code review, SBOM generation, SOC2/GDPR compliance evidence.
+A security scanner MCP server for AI coding agents. Provides a defensive framework to monitor and protect AI agents during code generation and execution.
 
-## License & Stars
-MIT licensed, active repo — no star count in README but high npm download count (v4.x).
+## Key Capabilities
+- **Prompt injection firewall** — guards against prompt-based exploits
+- **Package hallucination detection** — checks 4.3M+ packages for incorrect/malicious refs
+- **1000+ vulnerability rules** using AST & taint analysis
+- **Auto-fix** — suggests/applies fixes for detected issues
+- Designed for AI coding agent ecosystems (validates code before execution)
 
-## Why It Matters for Solomon OS
-- **DIRECT COMPETITOR** to ClawLess (browser automation) and Snyk competitors — this is a security scanner for agentic AI
-- Prompt injection firewall blocks adversarial prompts before execution
-- Package hallucination detection catches fake dependencies agents might install
-- 1700+ security rules with AST + taint analysis = deep code understanding
-- LLM-powered semantic code review understands what the project is *supposed* to do
-- SOC2/GDPR compliance evidence collection for enterprise clients
-- OpenClaw plugin available — matches Solomon's Hermes/OpenClaw stack
-- MCP server for Claude Code, Cursor, Windsurf, Cline = universal agent support
+## Comparison to What We Have
+- Competes with: guard-scanner, AgentSeal, RAXE
+- Unique: Package hallucination detection (checks against 4.3M+ real packages)
+- Deep integration with AI coding agent workflows
 
-## What We'd Use It For
-Integrate into Hermes security layer as a pre-execution gate. Every skill/tool invocation gets scanned before running. The SOC2 compliance evidence feature is directly relevant to JCPaid enterprise client's SOC2 audit needs.
+## Relevance to Solomon OS
+- **CRITICAL** — JCPaid/Hermes needs security for agent code generation
+- Prompt injection firewall is core defense
+- Package hallucination detection prevents supply chain attacks
 
-## Solomon OS Fit
-**INTEGRATE** — core security primitive for the agentic AI stack. The OpenClaw plugin makes this a natural fit for Hermes.
+## Recommendation
+**ALREADY FORKED** — No action needed. Already tracked as `sinewave-agent-security-scanner-mcp`.
 
-## Risk / Caveats
-- Heavy Python dependency for AST analysis
-- LLM-powered review requires API key (Claude CLI supported for zero-key use)
-- May need custom rules for Solomon's specific skill framework
+---
 
-## Action
-Fork to jvanleur2234-glitch ✅ (done). Study AST/taint analysis rules, integrate into Hermes MCP security layer.
+## Stats
+- License: MIT (implied)
+- Language: Python/TypeScript
+- Status: Active development

@@ -1,45 +1,60 @@
 # Telegram Session Summary — 2026-04-22
 
-## AIQ Scout Hourly Research Session — 2026-04-22 07:45 UTC
+**Channel:** Scheduled Agent (AIQ Scout)  
+**Time:** 08:45 CDT
 
-### GitHub Searches Completed
-- Agent framework 2026: Found microsoft/agent-framework (~9.5k stars), openai-agents-python (~26k stars), fugue-labs/gollem (Go), alphora (Python), solace-agent-mesh (event-driven)
-- Self-improving AI agent: Found MaximeRobeyns/self_improving_coding_agent, ikorfale/agent-self-improvement, yologdev/yoyo-evolve (Rust, MIT, 1.7k stars), oseledets/ouroboros, RangeKing/self-evolving-agent, facebookresearch/HyperAgents
-- Hermes MCP skills: Found Rainhoole/hermes-agent-acp-skill, NousResearch/hermes-agent MCP tool integration, cloudwalk/hermes-mcp (Elixir SDK), mudrii/hermes-agent-docs
-- Distributed AI compute P2P: Found hyperspaceai/hyperspace-node (2M+ agents), learning-at-home/hivemind, Shard (browser WebGPU), tutu (Go), aria-protocol (1-bit inference), peerclaw (Rust), KwaaiNet
-- AI security scanner agent: Found sinewaveai/agent-security-scanner-mcp, snyk/agent-scan, Pantheon-Security/medusa, koatora20/guard-scanner, agentverus/agentverus-scanner, firmis-scanner
-- Browser automation AI agent: Found hyperbrowserai/HyperAgent, vercel-labs/agent-browser (Rust CLI), mozilla/pilo, browser-use/browser-use (89k stars), browserbase/stagehand, AshtonVaughan/agentbrowser
-- Multi-agent deliberation: Found Solvely-Colin/Quorum, matiasdaloia/concilium, dnhess/spectra, BayramAnnakov/agent-tower-plugin, Logikon-AI/awesome-deliberative-prompting
-- Recurrent transformer MoE: Found Devanik21/HAG-MoE, thu-ml/ReMoE, NVIDIA/Megatron-LM MoE layer, lucidrains/st-moe-pytorch
+## Session Overview
+AIQ Scout ran the scheduled hourly research workflow. Mission: scan GitHub + X for new repos relevant to Solomon OS / JCPaid / Hermes Agent.
 
-### X/Twitter Trends Found
-- Hermes Agent is gaining massive traction (100k+ stars), AMD GPU running, Grok provider integration underway
-- OWASP Top 10 for Agentic Applications 2026 confirms prompt injection as #1 risk
-- "Shadow Agent" crisis — unauthorized deployments causing data leaks
-- Distributed AI compute grid discussions active — Sentient's GRID, robotics intelligence networks
+## GitHub Searches Conducted
+1. **Agent framework 2026** — Found: microsoft/agent-framework (~9.5K stars), gollem (Go, type-safe), alphora (Python, skills ecosystem), openai-agents-python, agentlib (TypeScript), solace-agent-mesh (event-driven)
+2. **Self-improving AI agent** — Found: ouroboros (self-modifying via git), self_improving_coding_agent (iterative self-improvement loop), evalloop (policy patching), recursive-improve (trace-driven), facebookresearch/HyperAgents
+3. **Hermes MCP skills** — Found: NousResearch/hermes-agent (MCP client v0.2.0), Rainhoole/hermes-agent-acp-skill, cloudwalk/hermes-mcp (Elixir SDK)
+4. **Distributed AI compute P2P** — Found: hyperspace-node (2M+ nodes), hivemind (decentralized training), peerclaw (tokenized), KwaaiNet (Rust, live network), tutu (Go, TuTuFile format)
+5. **AI security scanner agent** — Found: sinewave-agent-security-scanner-mcp, agentaudit-mcp, medusa (9600+ patterns), snyk/agent-scan, guard-scanner (364 patterns, OWASP ASI), agentseal, hackmyagent, firmis-scanner
+6. **Browser automation AI agent** — Found: HyperAgent, agent-browser (Vercel, Rust), browser-use, stagehand, vibium, browserable, Koda
+7. **Multi-agent deliberation** — Found: Quorum (7-phase, TypeScript), ARTEMIS Agents, Concilium, spectra, agent-tower-plugin
+8. **Recurrent transformer MoE** — Found: medit-one (recurrent + MoE), ReMoE (ReLU routing), HAG-MoE (attention-derived routing)
 
-### Actions Taken
-1. **Cloned:** openai-agents-python (26k stars) → forked to jvanleur2234-glitch
-2. **Cloned:** yoyo-evolve (1.7k stars) → forked to jvanleur2234-glitch
-3. **Already existed** (no clone needed): gollem, alphora, agentverus-scanner, firmis-scanner, agentbrowser, vibium, artemis-agents, quorum, spectra, medusa, guard-scanner, hyperspace-node, peerclaw, aria-protocol, browser-use, agent-browser, stagehand, ours (others)
+## X/Twitter Searches Conducted
+- **Solomon OS OR Hermes agent** — Hermes Agent is actively discussed; Solomon OS is not visible (likely too niche)
+- **self-improving AI defense** — Found: fragile LLM safety defenses paper (OpenAI/Anthropic/Google), self-evaluation defense, sandboxed agents, Microsoft Foundry case study
+- **AI agent security vulnerability 2026** — CRITICAL: OWASP Top 10 for Agentic Applications 2026 published. Real exploits targeting agent identities, orchestration layers, supply chains. Claude weaponized to attack Mexican government agencies.
+- **distributed AI compute grid** — Found: Sentient's GRID, Gradient Network (Parallax AI), actor-model P2P compute
+
+## Actions Taken
+
+### Fresh Forks
+- `agentaudit-mcp` → `jvanleur2234-glitch/agentaudit-mcp` ✅
+
+### Already Forked (verified)
+- guard-scanner, sinewave-agent-security-scanner-mcp, Quorum, ouroboros, medit-one
+- All others already present in workspace
 
 ### RD Reports Written
-- `openai-agents-python.md` — OpenAI Agents SDK, Sandbox Agents architecture, multi-agent orchestration
-- `yoyo-evolve.md` — Rust self-improving agent, 200→51k lines in 52 days, autonomous evolution
-- `agentverus-scanner.md` — AI agent skill security scanner, trust boundary analysis
+- `guard-scanner.md` — 364 patterns, OWASP ASI aligned
+- `sinewave-agent-security-scanner-mcp.md` — prompt injection firewall, 4.3M+ package hallucination detection
+- `quorum.md` — 7-phase multi-agent deliberation with SHA-256 ledger
+- `ouroboros.md` — self-modifying agent with constitution-based governance
+- `medit-one.md` — recurrent transformer + MoE
+- `agentaudit-mcp.md` — 3-pass LLM audit, Trust Registry
 
-### Key Insights
-- **Browser-use (89k stars)** is the dominant browser automation tool — already cloned
-- **OpenAI Agents SDK Sandbox** is the architecture Solomon Browser should adopt for long-horizon autonomous tasks
-- **yoyo-evolve** proves autonomous code evolution works at scale — architectural inspiration for Solomon self-improvement
-- **OWASP LLM Top 10 2026** confirms security is the #1 concern for AI agents — all our security scanners are relevant
+### HERMES_CAPABILITIES.md Updated
+- Added 5 new entries: AgentAudit MCP, Sinewave Scanner, guard-scanner, Quorum, MedIT One
 
-### Next Steps
-- Consider: Study OpenAI's Sandbox Agent container architecture for Solomon Browser
-- Consider: Integrate yoyo-evolve's 8-hour evolution cycle pattern into Solomon's improvement loop
-- Consider: Add OWASP Top 10 for Agentic Applications patterns to AgentArmor Studio
+## Key Findings
+1. **OWASP Top 10 for Agentic Applications 2026 is LIVE** — Real exploits in production. Agent is the vector, not just target.
+2. **Hermes Agent is gaining momentum** — Active discussion on X, comparisons to OpenClaw
+3. **Security scanners maturing fast** — Many competing products, all forked already
+4. **Self-improving agents evolving** — ouroboros is the most advanced (30+ cycles in 24hrs)
+5. **P2P compute networks growing** — hyperspace-node has 2M+ nodes
 
-### Sync Status
-- ✅ solomon-vault pushed to GitHub (d9fec2b)
-- ⚠️ openai-agents-python repo created but remote add failed (gh issue)
-- ⚠️ yoyo-evolve repo created but remote add failed (gh issue)
+## Unresolved
+- dolios (sandboxed Hermes + nvidia nemoclaw) couldn't clone (auth issue)
+- swarms/swarms couldn't clone (auth issue)
+- These will be retried in next session
+
+## Next Actions
+- Run sync-to-github.sh
+- Next session: retry dolios, swarms
+- Monitor OWASP agentic exploits for Hermes defense planning
