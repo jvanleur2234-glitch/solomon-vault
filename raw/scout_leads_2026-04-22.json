@@ -9,8 +9,9 @@
       "Title tag too long (203 chars, target 50-60)",
       "Images missing alt text"
     ],
-    "contact_method": "website contact form",
-    "status": "pending"
+    "contact_method": "email",
+    "email_sent_to": "info@callmurphys.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-22",
@@ -21,8 +22,9 @@
       "Missing charset declaration",
       "Images missing alt text"
     ],
-    "contact_method": "website contact form",
-    "status": "pending"
+    "contact_method": "email",
+    "email_sent_to": "info@chenplumbing.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-22",
@@ -34,8 +36,9 @@
       "Images not using lazy loading",
       "Missing Open Graph tags"
     ],
-    "contact_method": "website contact form",
-    "status": "pending"
+    "contact_method": "email",
+    "email_sent_to": "service@northtarrantac.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-22",
@@ -48,7 +51,7 @@
       "Images missing alt text"
     ],
     "contact_method": "website contact form",
-    "status": "pending"
+    "status": "skipped - no public email found"
   },
   {
     "date": "2026-04-22",
@@ -60,8 +63,9 @@
       "Meta description too short",
       "Missing H2 tags"
     ],
-    "contact_method": "website contact form",
-    "status": "pending"
+    "contact_method": "email",
+    "email_sent_to": "locksmithshop@gmail.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-22",
@@ -72,8 +76,9 @@
       "Missing canonical tag",
       "Meta description too short"
     ],
-    "contact_method": "website contact form",
-    "status": "pending"
+    "contact_method": "email",
+    "email_sent_to": "info@mccabesmoving.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-22",
@@ -85,8 +90,9 @@
       "Missing meta description",
       "Images missing alt text"
     ],
-    "contact_method": "website contact form",
-    "status": "pending"
+    "contact_method": "email",
+    "email_sent_to": "info@sdldds.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-22",
@@ -98,7 +104,8 @@
       "No compression enabled",
       "Images missing alt text"
     ],
-    "contact_method": "website contact form",
-    "status": "pending"
+    "contact_method": "email",
+    "email_sent_to": "info@lynchlawgroup.com",
+    "status": "emailed"
   }
 ]
