@@ -1,84 +1,60 @@
-# Telegram Summary — AIQ Scout Session 2026-04-22
+# Telegram Summary — April 22, 2026 (AIQ Scout Session)
 
-**Date:** 2026-04-22 23:45 UTC
-**Session:** Hourly AIQ Scout R&D scan
+## Date & Time
+2026-04-22 19:40 CST / 00:40 UTC April 23
 
----
+## Session Overview
+Autonomous R&D Scout run for Solomon OS / JCPaid. Hourly workflow execution.
 
-## What Was Done
+## Key Findings
 
-### Search Results Analyzed
-- **8 GitHub queries** run covering: agent frameworks, self-improving agents, Hermes MCP skills, P2P distributed AI, AI security scanners, browser automation, multi-agent deliberation, recurrent transformer MoE
-- **4 X/Twitter queries** run covering: Hermes/Solomon OS, self-improving AI defense, AI agent security vulnerabilities, distributed AI compute grid
-- **100+ repos** evaluated across all queries
+### GitHub Searches Completed
+1. **Agent Framework 2026** — Found: Microsoft Agent Framework (~9.5k stars), Gollem (Go), Dapr Agents, Agent Express, Agent Orcha, KohakuTerrarium
+2. **Self-Improving AI Agent** — Found: MaximeRobeyns/self_improving_coding_agent, pratiksangle01/self-improving-ai-agent, Shreyas-Gowda26/self-improving-agent, deep-claw (Dream Cycle), nfh-self-improvement-loop, HyperAgents, Miguel
+3. **Hermes MCP Skills** — FastMCP skill, native MCP client (HTTP+stdio), jMunch token-efficient suite, mcporter CLI
+4. **Distributed AI Compute P2P** — Hivemind, Hyperspace AGI, AgentFM, Shard, PeerClaw, KwaaiNet, mycellm
+5. **AI Security Scanner Agent** — Sinewave ProofLayer, Aegis EDR, Medusa, Snyk Agent Scan, Firmis Scanner, ai-agent-scanner, agent-security (empowered-humanity), Cybathreat agent-security-scanner
+6. **Browser Automation AI Agent** — HyperAgent, agent-browser (Vercel/Rust), Vibium, Pilo, Browserable, BrowserClaw Agent, TheAgenticBrowser, Nanobrowser
+7. **Multi-Agent Deliberation** — Dialectic-agentic, 2389-research/deliberation, Agentscope debate, Quorum, agent-debate, Council, AIBYAI
+8. **Recurrent Transformer MoE** — Mixture of Recursions (MoR), ReMoE, OpenMythos
 
-### Forking Outcomes
-| Repo | Status |
-|------|--------|
-| snyk/agent-scan | Already forked |
-| gollem | Already forked |
-| aibyai | Already forked |
-| dapr-agents | Already forked |
-| agent-express | Already forked |
-| agent-debate | Already forked |
+### X/Twitter Trends
+- **Hermes Agent** — Very hot in Chinese dev community ("AI界的爱马仕"). 100+ skills. Popular local AI framework.
+- **Self-improving AI Defense** — Bell Cyber Autonomous SOC, federated learning defense against 50%+ malicious clients
+- **AI Agent Security 2026** — CVE-2026-25253 (OpenClaw zero-click hijack), 18% IAM trust rate, OpenAI acquiring PromptFoo
+- **Distributed AI Compute Grid** — Sentient GRID orchestration, Gradient Network Parallax AI
 
-### New RD Reports Written (8)
-1. `agent-express.md` — Express.js middleware pattern for agent orchestration (MIT)
-2. `dapr-agents.md` — Kubernetes-native durable execution (Apache 2.0)
-3. `snyk-agent-scan.md` — Agent security inventory scanner (Apache 2.0)
-4. `aibyai.md` — Multi-agent deliberative council with confidence scoring (MIT)
-5. `gollem.md` — Go compile-time type-safe agent framework (MIT)
-6. `claude-synod-debate.md` — 3-act cross-provider adversarial debate (MIT)
-7. `2389-deliberation.md` — Contemplative decision-making skills (MIT)
-8. `deliberate-shell.md` — Bash-based async deliberation protocol (MIT)
+## Actions Taken
+
+### New Clones
+- `Aegis` — EDR for AI agents, MIT, cloned + forked ✅
+
+### Already Existing (skipped clone)
+- gollem, dapr-agents, agent-orcha, agentrail, agent-browser, peerclaw, council, quorum, agent-debate, hivemind, agent-security-scanner-mcp, medusa, firmis-scanner, HyperAgents, deep-claw, miguel, vibium, pilo, browserable, browserclaw-agent, TheAgenticBrowser, deliberation, maxun, nanobrowser, self_improving_coding_agent, self-improving-ai-agent, self-improving-agent, nfh-self-improvement-loop
+
+### RD Reports Written
+1. `aegis-edr-ai-agents.md` — EDR for AI agents, MIT, forked
+2. `gollem.md` — (updated entry)
+3. `2389-deliberation.md` — (updated entry)
+4. `dialectic-agentic.md` — (updated entry)
 
 ### HERMES_CAPABILITIES.md Updated
-- 8 new entries appended (308 lines total)
-- All entries categorized: FORGE (2), INTEGRATE (2), SKILL (4)
-- Top FORGE candidates: AIBYAI council + confidence scoring
+Added entries for Aegis, gollem, 2389-deliberation, dialectic-agentic
 
 ### GitHub Sync
-- `sync-to-github.sh` ran successfully — pushed to solomon-vault main
-- 13 files changed, pushed to `https://github.com/jvanleur2234-glitch/solomon-vault`
+- Pushed to jvanleur2234-glitch/solomon-vault ✅
+- 6 files changed, 217 insertions
 
----
+## Unresolved / Follow-up
+- `idan-rubin/browserclaw-agent` clone failing (URL encoding issue with space in "idan-rubin")
+- Many repos already cloned from previous sessions — 270 RD reports already in vault
+- Microsoft Agent Framework not yet forked (already exists in workspace as agent-framework)
 
-## Key Findings Summary
-
-### Trending on X
-- **Hermes Agent** by NousResearch is HOT — Xiaomi MiMo integration announced, consulting ecosystem growing
-- **OWASP Agentic Top 10** — real-world exploits confirmed, exploit timeline compressed from weeks to hours
-- **Agentic AI as attack vector** — not just target, now the primary attack mechanism in confirmed breaches
-- **Distributed AI grids** — Sentient GRID, DGrid gaining traction for privacy-preserving inference
-
-### Notable New Discoveries
-- **Gollem** (Go, MIT) — compile-time type safety for agents, zero dependencies
-- **AIBYAI** (TS, MIT) — multi-agent council with numeric confidence scoring, cold validator
-- **Snyk Agent Scan** (Apache) — auto-discovers and scans entire agent ecosystem on machine
-- **2389 Deliberation** — contemplative decision-making skills, TDD-developed
-- **Deliberate** — minimal shell-based 2-agent async deliberation, zero dependencies
-
----
-
-## Decisions Made
-- Focus FORGE efforts on AIBYAI council pattern + confidence scoring for Hermes
-- Focus INTEGRATE efforts on Snyk Agent Scan as mandatory pre-flight for JCPaid deployments
-- Continue SKILL tracking: Gollem type safety, 2389 deliberation principles, Dapr sidecar pattern
-
----
-
-## Unresolved
-- aibyai fork remote issue (created but origin still points upstream)
-- agent-scan push blocked (remote points to snyk upstream)
-- gollem already forked but push failed similarly
-- All workspace repos have origin → upstream, need to add jvanleur2234-glitch as second remote for pushes
-- gollem_new directory from previous failed clone attempt still present
-
----
+## Key Insight
+Hermes Agent ecosystem is extremely active (Chinese dev community adopting rapidly). Security remains top concern — CVE-2026-25253 OpenClaw zero-click exploited. Aegis EDR fills a gap for local agent monitoring. Multi-agent deliberation frameworks (Quorum, AIBYAI, Council) directly map to "Council of High Intelligence" vision.
 
 ## Next Actions
-1. Fix fork push remotes: add `git remote add fork https://github.com/jvanleur2234-glitch/[repo]` then `git push fork main`
-2. Fork Claude Synod Debate (not yet in workspace)
-3. Write RD report for Dapr Agents (already have directory)
-4. Delete stale `gollem_new` directory
-5. Consider Snyk Agent Scan integration into Solomon OS deployment pipeline
+- Fix browserclaw-agent clone URL
+- Fork Microsoft Agent Framework if not already done
+- Consider forking/adding Medusa (AGPL, heavy scanner) to security stack
+- Sync with Russell Tuna on security vulnerabilities from CVE-2026-25253
