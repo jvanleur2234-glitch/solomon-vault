@@ -1,39 +1,30 @@
 # RD Report: microsoft/agent-framework
 
-**Date:** 2026-04-22
-**License:** MIT
-**Stars:** ~9,700
-**Language:** Python + .NET/C#
-**Relevance:** 🔴 Critical — Enterprise Agent Orchestration Standard
+**Date:** 2026-04-23  
+**Repo:** microsoft/agent-framework  
+**Fork:** Already cloned (https://github.com/jvanleur2234-glitch/agent-framework)  
+**License:** MIT  
+**Stars:** ~9,700  
+**Category:** Agent Framework
 
-## What It Is
-Microsoft's official multi-language (Python + .NET) agent framework for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based orchestration with streaming, checkpointing, human-in-the-loop, and time-travel capabilities.
+## What It Does
+Cross-language (Python/.NET) framework for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based orchestration with streaming, checkpointing, human-in-the-loop, and time-travel support. Strong enterprise focus.
 
-## Key Capabilities
-- **Graph-based workflows** — connect agents + deterministic functions with data flows
-- **Cross-language parity** — consistent Python + .NET APIs
-- **DevUI** — interactive UI for development, testing, debugging
-- **AF Labs** — experimental features (benchmarking, RL, research)
-- **Streaming + checkpointing** — durable execution with state persistence
-- **Human-in-the-loop + time-travel** — pause, inspect, resume agent workflows
-- **OpenTelemetry** — built-in observability and distributed tracing
-- **Middleware framework** — pluggable request/response pipelines
-- **Multi-provider support** — Anthropic, OpenAI, Azure AI, etc.
+## Key Features
+- Graph-based workflows connecting agents and deterministic functions
+- Streaming, checkpointing, human-in-the-loop, time-travel debugging
+- DevUI: interactive UI for agent development/testing
+- Multi-language: consistent APIs for Python and C#/.NET
+- AF Labs: benchmarking, RL, cutting-edge research
+- Strong docs: quick start, tutorials, migration guides
 
-## Why It Matters
-~9.7K stars makes it one of the most popular agent frameworks. Microsoft's backing = enterprise-grade. The graph-based workflow model + human-in-the-loop + time-travel is directly relevant to Hermes's orchestration needs.
+## For Solomon OS
+- **Use for:** Enterprise agent orchestration. Study graph-based workflow patterns.
+- **Compare to:** Swarms, LangChain, AutoGen
+- **Complements:** Hermes (Microsoft backing = enterprise credibility)
 
-## Comparison
-| Feature | Microsoft AF | Hermes |
-|---------|-------------|--------|
-| Language | Python + .NET | Python |
-| Workflow model | Graph-based | Skill-based |
-| Time-travel | ✅ Yes | ❌ No |
-| Human-in-the-loop | ✅ Yes | Partial |
-| Enterprise backing | Microsoft | Community |
+## LINK Tags
+`#framework` `#multi-agent` `#orchestration` `#enterprise` `#microsoft`
 
-## Solomon OS Fit
-**STUDY** — Graph-based workflow engine + time-travel debugging are advanced features we should consider for Hermes 2.0. The checkpointing model could inspire Hermes session persistence.
-
-## Action
-Already cloned. Study graph orchestration patterns for Hermes workflow engine upgrade.
+## Recommendation
+**STUDY** — High stars, Microsoft backing. Good reference for graph-based agent orchestration.
