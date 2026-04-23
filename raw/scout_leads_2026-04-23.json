@@ -1,10 +1,92 @@
-{"date":"2026-04-23","business_name":"John's Plumbing Heating and Cooling","url":"https://www.johnsplumbingbham.com/","seo_score":68,"top_issues":["Slow server response time (1112ms)","Missing alt text on images","Meta description too short"],"contact_method":"web_form","status":"pending"}
-{"date":"2026-04-23","business_name":"Circle City Lock & Key","url":"https://www.circlecitylockandkey.com/","seo_score":89,"top_issues":["Missing alt text on images","Images not using lazy loading"],"contact_method":"unknown","status":"pending"}
-{"date":"2026-04-23","business_name":"Dentistry of Mountain View","url":"https://dentistryofmountainview.com/","seo_score":68,"top_issues":["Slow server response time (1146ms)","Missing Open Graph tags","Title tag too long"],"contact_method":"unknown","status":"pending"}
-{"date":"2026-04-23","business_name":"911 Houston Movers","url":"https://911houstonmovers.com/","seo_score":68,"top_issues":["Slow server response time (1203ms)","Missing alt text on images","Missing Open Graph tags"],"contact_method":"info@911houstonmovers.com","status":"pending"}
-{"date":"2026-04-23","business_name":"JLM Automotive","url":"https://jlmautomotive.com/","seo_score":84,"top_issues":["Slow server response time (1082ms)","Meta description too short","Missing alt text on images"],"contact_method":"unknown","status":"pending"}
-{"date":"2026-04-23","business_name":"Olmsted Auto Care","url":"https://www.olmstedautocare.com/","seo_score":79,"top_issues":["Title too short (45 chars)","Meta description too short","Images not using lazy loading"],"contact_method":"unknown","status":"pending"}
-{"date":"2026-04-23","business_name":"Hoffman Law Firm","url":"https://www.hoffmanlawfirm.com/areas-we-serve/st-george","seo_score":79,"top_issues":["Slow server response time (694ms)","Missing alt text on images","Title too long"],"contact_method":"unknown","status":"pending"}
-{"date":"2026-04-23","business_name":"Bridgetown Moving","url":"https://bridgetown-moving.com/","seo_score":74,"top_issues":["Very slow server response (2033ms)","No compression enabled","Missing alt text on images"],"contact_method":"unknown","status":"pending"}
-{"date":"2026-04-23","business_name":"Lambert Law","url":"https://www.lambertplc.com/attorney-rochester-hills-mi/","seo_score":74,"top_issues":["Slow server response (689ms)","Title too short","Favicon not configured"],"contact_method":"unknown","status":"pending"}
-{"date":"2026-04-23","business_name":"True Friends Moving Company","url":"https://www.truefriendsmovingcompany.com/murfreesboro-tn-movers/","seo_score":68,"top_issues":["Slow server response (1314ms)","Missing alt text on images","Favicon not configured"],"contact_method":"contact_form","status":"pending"}
+[
+  {
+    "date": "2026-04-23",
+    "business_name": "Half Moon Plumbing & Electric",
+    "url": "https://halfmoonplumbing.com/claremore",
+    "seo_score": 84,
+    "top_issues": [
+      "Title tag too long (113 chars, ideal: 50-60)",
+      "Meta description too long (exceeds 150-160 char ideal)",
+      "Images missing alt text"
+    ],
+    "contact_method": "phone",
+    "contact_detail": "918-205-2487",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-23",
+    "business_name": "ACH Locksmith Madison",
+    "url": "https://achlocksmithmadison.com/",
+    "seo_score": 68,
+    "top_issues": [
+      "Server response time slow (3215ms, target <500ms)",
+      "Missing Open Graph tags",
+      "Images missing alt text",
+      "H1 tag issues"
+    ],
+    "contact_method": "email",
+    "contact_detail": "achlocksmithmadison@gmail.com",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-23",
+    "business_name": "Quick Shift Moving Inc",
+    "url": "https://quickshiftmovinginc.com/local-movers-near-me-in-columbia-heights-mn/",
+    "seo_score": 79,
+    "top_issues": [
+      "Title tag too short (43 chars, ideal: 50-60)",
+      "Meta description too long",
+      "Images missing alt text",
+      "Images not using lazy loading"
+    ],
+    "contact_method": "email",
+    "contact_detail": "quickshiftmovinginc@gmail.com",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-23",
+    "business_name": "Brothers Plumbing Heating Electric",
+    "url": "https://www.brothersplumbing.com/aurora-plumbers-service/",
+    "seo_score": 79,
+    "top_issues": [
+      "Server response time slow (824ms, target <500ms)",
+      "Missing Open Graph tags",
+      "Images missing alt text",
+      "Meta description too long"
+    ],
+    "contact_method": "phone",
+    "contact_detail": "(303) 468-2294",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-23",
+    "business_name": "Turbo Plumbing Tampa",
+    "url": "https://turboplumbingtampa.com/residential-plumbing-services",
+    "seo_score": 63,
+    "top_issues": [
+      "Missing canonical tag",
+      "No H1 tag",
+      "Content too short (<300 words)",
+      "Missing Twitter Card meta"
+    ],
+    "contact_method": "phone",
+    "contact_detail": "(813) 404-8137",
+    "status": "audited"
+  },
+  {
+    "date": "2026-04-23",
+    "business_name": "All Needz Plumbing",
+    "url": "https://www.allneedzplumbing.com/service-area/hillsboro/",
+    "seo_score": 68,
+    "top_issues": [
+      "Server response time slow (1590ms)",
+      "Title too short (46 chars)",
+      "Images missing alt text",
+      "Missing Open Graph tags",
+      "No favicon configured"
+    ],
+    "contact_method": "phone",
+    "contact_detail": "817-674-1925",
+    "status": "audited"
+  }
+]

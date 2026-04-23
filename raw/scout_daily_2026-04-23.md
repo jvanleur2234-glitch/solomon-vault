@@ -1,45 +1,32 @@
-# Scout Agent Daily Report — 2026-04-23
+# Scout Daily Report — 2026-04-23
 
 ## Run Summary
-- **Date:** 2026-04-23 00:35 UTC
-- **Agent:** AIQ Scout (Solomon OS Lead Generation)
-- **Total Leads Audited:** 10
-- **Average SEO Score:** 74.1/100
+- **Date:** 2026-04-23
+- **Businesses Audited:** 6
+- **Payment Link:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo)
 
-## Audit Results
+## Leads Found
 
-| Business | Category | SEO Score | Top Issue |
-|----------|----------|-----------|-----------|
-| John's Plumbing (Birmingham, AL) | Plumber | 68 | Slow server (1112ms), Missing alt text |
-| Circle City Lock & Key (NC) | Locksmith | 89 | Missing alt text, no lazy loading |
-| Dentistry of Mountain View (NC) | Dentist | 68 | Slow server, Missing OG tags |
-| 911 Houston Movers (TX) | Moving | 68 | Slow server (1203ms), No OG tags |
-| JLM Automotive (St George, UT) | Auto Repair | 84 | Slow server, Meta description short |
-| Olmsted Auto Care (OH) | Auto Repair | 79 | Title too short, no lazy loading |
-| Hoffman Law Firm (SC) | Lawyer | 79 | Slow server, Missing alt text |
-| Bridgetown Moving (OR) | Moving | 74 | Very slow (2033ms), No compression |
-| Lambert Law (MI) | Lawyer | 74 | Slow server, No favicon |
-| True Friends Moving (TN) | Moving | 68 | Slow server, No favicon |
+| Business | URL | SEO Score | Top Issues | Contact |
+|----------|-----|----------|------------|---------|
+| ACH Locksmith Madison | achlocksmithmadison.com | 68/100 | Slow server, no OG tags, missing alt text | achlocksmithmadison@gmail.com |
+| All Needz Plumbing | allneedzplumbing.com | 68/100 | Slow server, short title, no OG tags | 817-674-1925 |
+| Quick Shift Moving | quickshiftmovinginc.com | 79/100 | Short title, long meta desc, missing alt text | quickshiftmovinginc@gmail.com |
+| Brothers Plumbing | brothersplumbing.com | 79/100 | Slow server, no OG tags, missing alt text | (303) 468-2294 |
+| Half Moon Plumbing | halfmoonplumbing.com | 84/100 | Long title, long meta desc, missing alt text | 918-205-2487 |
+| Turbo Plumbing Tampa | turboplumbingtampa.com | 63/100 | No canonical, no H1, short content | (813) 404-8137 |
 
-## Top SEO Problems Found
-1. **Slow Server Response** — 8/10 sites exceed 500ms threshold
-2. **Missing Image Alt Text** — 7/10 sites
-3. **Missing Open Graph Tags** — 4/10 sites
-4. **Meta Description Length** — 5/10 sites
-5. **Title Tag Length** — 4/10 sites
+## Common SEO Issues Found
+1. **Images missing alt text** — Found on 6/6 sites
+2. **Slow server response** — Found on 4/6 sites  
+3. **Missing Open Graph tags** — Found on 3/6 sites
+4. **Meta description length issues** — Found on 4/6 sites
 
-## Outreach Log
-- **Total Outreach Attempts:** 2 (email to 911 Houston Movers, web form contact)
-- **Best Leads (Score < 70):** 4 businesses identified
-- **Top Priority:** Bridgetown Moving (74 score, worst server time at 2033ms)
+## Outreach Prepared
+- 6 cold emails prepared with audit findings and Solomon OS pitch
+- Payment link included in all pitches
 
 ## Notes
-- CashClaw v1.6.0 working correctly
-- Found 911 Houston Movers email: info@911houstonmovers.com
-- True Friends Moving uses contact form + phone (615-240-2811)
-- Most local service businesses have poor image optimization and meta tags
-
-## Next Run
-- Target 10-15 more businesses
-- Focus on businesses with scores under 75
-- Attempt outreach via email where contacts found
+- Duncklee Heating & Cooling (dunckleeinc.com) returned 403 — skipped
+- Four Quarters HVAC (fourquartershomeservices.com) scored 68/100 but already has strong web presence
+- Target businesses: plumbing, locksmith, moving — all local service businesses with room for SEO improvement
