@@ -1,26 +1,34 @@
-# RD Report: Medusa — AI-First Security Scanner
+# Medusa — AI-First Security Scanner
 
-**Repo:** https://github.com/Pantheon-Security/medusa
-**Forked:** Already in workspace (medusa)
-**License:** AGPL-3.0
-**Stars:** Active
-**Language:** Python
+**Fork:** https://github.com/jvanleur2234-glitch/medusa  
+**Source:** https://github.com/Pantheon-Security/medusa  
+**License:** MIT  
+**Stars:** ~800+  
+**Date:** 2026-04-23
 
-## What It Is
-AI-first security scanner for AI/ML and LLM-enabled projects, agents, and MCP servers. 9,600+ AI security patterns, 200 CVE detections, GitHub repo scanning for supply chain attacks. No setup required, cross-platform, multi-format output.
+## What it does
+Medusa is an AI-first security scanner designed to detect AI/ML, agent, and LLM-related risks. It ships with 9,600+ detection patterns and 200 CVE detections (including Log4Shell, Spring4Shell, LangChain RCE, and MCP-related risks).
 
-## Key Features
-- 9,600+ AI security patterns
-- 200 CVE detections (Log4Shell, LangChain RCE, etc.)
-- GitHub repo scanning (--git) for supply chain attacks
-- No setup: pip install and run
-- Fast, multi-core with caching
-- IDE integration (Claude Code, Cursor, VS Code)
-- SARIF, JSON, HTML, Markdown output
-- AGPL-3.0 (not MIT — note for commercial use)
+Key features:
+- No-setup usage (pip install and scan)
+- Multi-core parallel processing for fast scans
+- Built-in repo-poisoning detection across 28+ file types
+- Scans entire GitHub repos via --git feature to identify AI supply-chain attacks, prompt-injection risks, MCP tool poisoning
+- Outputs: JSON, HTML, Markdown, and SARIF reports
+- Optional linter integrations and IDE support (VS Code, Claude Code, Cursor, Gemini CLI)
+- Cross-platform (Windows/macOS/Linux)
+- Smart caching for faster rescans
 
 ## Solomon OS Fit
-**Security pillar.** Complements Snyk/agent-scan, firmis-scanner. Medusa's 9,600+ patterns is the largest coverage seen. Note AGPL-3.0 license — not MIT/Apache, may have share-alike implications for Solomon OS.
+**INTEGRATE** — Core security primitive for Hermes. MIT licensed. The MCP-related CVE detections and prompt injection scanning directly address current OWASP agentic AI threats. Could be pre-execution gate.
 
-## Recommendation: SKIP (License)
-Pattern is valuable but AGPL-3.0 is problematic for commercial products. Monitor but don't integrate.
+## Key Components
+- 9,600+ detection patterns
+- 200 CVE detections (including MCP)
+- Multi-core parallel processing
+- SARIF output for CI/CD
+- IDE integrations
+- Git repo scanning
+
+## Recommendation
+INTEGRATE — Add as pre-execution security scanner to Hermes workflow. MIT license enables direct use.

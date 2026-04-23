@@ -282,106 +282,72 @@
 - **Status:** FORGE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/aibyai.md
 
-## Gollem — Go Agent Framework with Compile-Time Type Safety (April 22, 2026)
-- **Fork:** https://github.com/jvanleur2234-glitch/gollem
-- **What it does:** Go agent framework. Compile-time validation for output schemas, tool parameters, guardrails, event subscriptions. Zero-core dependencies. Multi-provider (Anthropic, OpenAI, Gemini/Vertex). FuncTool[P] with JSON Schema from typed Go functions. OpenTelemetry tracing, time-travel debugging. MIT licensed v0.3.1.
-- **Solomon OS fit:** SKILL — Compile-time type safety is the right direction for Hermes 2.0. Type-safe tool schema generation eliminates runtime errors. MIT license for architecture study.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/gollem.md
-
-## Claude Synod Debate — 3-Act Adversarial Multi-Provider Debate (April 22, 2026)
-- **What it does:** 3-act framework: Gemini proposes Solution A, OpenAI proposes B → cross-critique → Claude synthesizes verdict. Heterogeneous ensemble reduces single-model bias. MIT license.
-- **Solomon OS fit:** SKILL — Lightweight 3-act pattern for Hermes deliberation skill. Cross-provider debate prevents echo chamber. MIT license.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/claude-synod-debate.md
-
-## 2389 Deliberation — Contemplative Decision-Making Skills (April 22, 2026)
-- **What it does:** Skills suite: `discernment` (internal voices), `clearness` (multi-agent committee), `gathered` (user-participatory). Inspired by Quaker business practice. Principles: sense of the meeting, speaking once, intentional silence, standing aside. TDD-developed. MIT license.
-- **Solomon OS fit:** SKILL — Skills-based approach maps directly to Hermes. `clearness` = multi-agent committee we want. MIT license.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/2389-deliberation.md
-
-## Deliberate — Shell-Based Async Agent Deliberation (April 22, 2026)
-- **Fork:** https://github.com/jvanleur2234-glitch/deliberate
-- **What it does:** Experimental Bash+jq protocol for two AI agents to deliberate asynchronously via shared filesystem JSONL logs. `/tmp/deliberation/room-*/.jsonl`. Minimal, zero-dependency. MIT license.
-- **Solomon OS fit:** SKILL — File-based IPC for Hermes sub-agent deliberation. Minimal viable multi-agent communication primitive. MIT license.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/deliberate-shell.md
-## Aegis — EDR for AI Agent Monitoring (April 22, 2026)
-- **Fork:** https://github.com/jvanleur2234-glitch/Aegis
-- **What it does:** Local EDR for AI agents. Process monitoring (107 signatures), file protection, network monitoring, 4-axis behavioral anomaly scoring, trust grades A+-F. No cloud telemetry.
-- **Solomon OS fit:** INTEGRATE — Security monitoring layer for Hermes agents. Trust grades for permission tier system.
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/aegis-edr-ai-agents.md
-
-## gollem — Go Type-Safe Agent Framework (April 22, 2026)
-- **Fork:** Already forked (`gollem`)
-- **What it does:** Compile-time type-safe Go agent framework. Generic Agent[T], 5+ LLM backends, FuncTool JSON Schema gen, streaming iterators, guardrails, OpenTelemetry.
-- **Solomon OS fit:** SKILL — Middleware/guardrail patterns for Hermes security layer.
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/gollem.md
-
-## 2389-deliberation — Contemplative Multi-Agent Skills (April 22, 2026)
-- **Fork:** Already forked (`deliberation`)
-- **What it does:** Claude-based skills: discernment (internal voices), clearness (committee), gathered (participatory). MIT licensed.
-- **Solomon OS fit:** SKILL — Skills-based deliberation for Hermes decisions. MIT license.
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/2389-deliberation.md
-
-## dialectic-agentic — Multi-Agent Design Debate (April 22, 2026)
-- **Fork:** Already forked (`dialectic-agentic`)
-- **What it does:** No-code design debate framework. Expert roles → proposals → critiques → synthesis. MIT.
-- **Solomon OS fit:** SKILL — Structured design review for Hermes skill validation.
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dialectic-agentic.md
-
-## Docker Agent (cagent) — Declarative Multi-Agent Runtime (April 23, 2026)
-- **URL:** https://github.com/docker/cagent
-- **Fork:** https://github.com/jvanleur2234-glitch/cagent
-- **What it does:** Docker CLI plugin for declarative YAML-based AI agents. Multi-AI provider support (OpenAI, Anthropic, Gemini, AWS Bedrock, Mistral, xAI, Docker Model Runner). Built-in tools + MCP, RAG with BM25/embeddings/hybrid search/reranking. OCI registry push/pull for agent distribution.
-- **Solomon OS fit:** INTEGRATE — Docker-based container runtime could be Hermes skill execution layer. YAML agent config maps to skill manifests. RAG pipeline for Solomon knowledge base. Registry distribution for skill packages. Apache 2.0.
+## Reflexio — Self-Improving Agent Harness (April 23, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/reflexio
+- **What it does:** Open-source self-improvement harness for AI agents. Learns from user corrections, persists playbooks, reduces repetitive mistakes. Claims ~81% reduction in planning steps, ~72% token savings when benchmarked against Hermes.
+- **Solomon OS fit:** INTEGRATE — The reflexio hub → playbooks → improved behavior loop is exactly what Hermes needs for autonomous capability growth.
 - **Status:** INTEGRATE
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/docker-agent-cagent.md
+- **RD Report:** `/brain/RD_REPORTS/reflexio-self-improvement-harness.md`
 
-## MEDUSA — AI Security Scanner (9,600+ Patterns) (April 23, 2026)
-- **URL:** https://github.com/Pantheon-Security/medusa
+## Quorum — Multi-AI Deliberation Framework (April 23, 2026)
+- **URL:** https://github.com/Solvely-Colin/Quorum
+- **What it does:** TypeScript multi-AI deliberation framework. 7-phase debate process (Gather, Plan, Formulate, Debate, Adjust, Rebuttal, Vote) across multiple providers (OpenAI, Claude, Gemini, DeepSeek, etc.) with confidence scoring and minority reports.
+- **Solomon OS fit:** SKILL — Deliberation/agent council pattern. Could enhance Hermes with multi-agent debate for complex decisions.
+- **Status:** SKILL
+- **RD Report:** `/brain/RD_REPORTS/Quorum-multi-ai-deliberation.md`
+
+## Gollem — Type-Safe Go Agent Framework (April 23, 2026)
+- **URL:** https://github.com/fugue-labs/gollem
+- **What it does:** Production-ready Go agent framework with compile-time type safety, zero-allocation streaming, and 50+ primitives. Multi-provider LLM support, comprehensive guardrails, OpenTelemetry tracing.
+- **Solomon OS fit:** SKILL — Study for type-safe agent architecture patterns. Go's compile-time safety model could inspire Hermes reliability improvements.
+- **Status:** SKILL
+- **RD Report:** `/brain/RD_REPORTS/gollem-go-agent-framework.md`
+
+## deep-claw — Dream Cycle Self-Improvement Framework (April 23, 2026)
+- **URL:** https://github.com/the-keats-ai/deep-claw
+- **What it does:** Self-improvement framework inspired by sleep. Nightly scanning of research/tools, weekly reflection, citation-backed self-assessment, falsifiable improvement proposals with rollback strategies.
+- **Solomon OS fit:** FORGE — The Dream Cycle IS the self-improvement loop for Solomon OS. MIT license permits direct use.
+- **Status:** FORGE
+- **RD Report:** `/brain/RD_REPORTS/deep-claw-dream-cycle-self-improvement.md`
+
+## Medusa — AI-First Security Scanner (April 23, 2026)
 - **Fork:** https://github.com/jvanleur2234-glitch/medusa
-- **What it does:** AI-first security scanner with 9,600+ detection patterns, 200 CVE detections (Log4Shell, Spring4Shell, LangChain RCE). `medusa scan --git` for repo scanning. Multi-core parallel + smart caching. JSON/HTML/Markdown/SARIF output. IDE integrations (Claude Code, Cursor, VS Code, Gemini CLI). Apache 2.0.
-- **Solomon OS fit:** INTEGRATE — Security pre-flight for every Hermes skill/tool. 9,600 patterns >> current coverage. SOC2/GDPR compliance evidence. Apache 2.0.
+- **What it does:** 9,600+ detection patterns, 200 CVE detections including MCP-related risks. No-setup usage, multi-core parallel processing, repo-poisoning detection across 28+ file types, SARIF output.
+- **Solomon OS fit:** INTEGRATE — Core security primitive for Hermes. MIT licensed. MCP CVE detections directly address current OWASP agentic AI threats.
 - **Status:** INTEGRATE
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/medusa-ai-security-scanner.md
+- **RD Report:** `/brain/RD_REPORTS/medusa-ai-security-scanner.md`
 
-## Agent Debate — Shell-Based Multi-Agent Technical Deliberation (April 23, 2026)
-- **URL:** https://github.com/gumbel-ai/agent-debate
-- **Fork:** Already forked (`agent-debate`)
-- **What it does:** Structured technical debate protocol via shared Markdown file editing. Evidence-based with line-referenced citations. Supports Claude Code, Codex, Gemini CLI, Copilot CLI. Auto mode with optional Plan phase. Guardrails via agent-guardrails.md. MIT.
-- **Solomon OS fit:** SKILL — Evidence-based deliberation for Hermes skill validation. Shell-based = zero dependency. Could power "Council of High Intelligence" deliberation layer.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-debate-shell-deliberation.md
-
-## Council — Multi-Agent Persona-Based Discussion (April 23, 2026)
-- **URL:** https://github.com/dubs3c/council
-- **Fork:** Already forked (`council`)
-- **What it does:** Multi-agent discussion with distinct personas (Architect, Critic, AppSec Specialist) debate to reach consensus. ProposalPhase → DebatePhase → Moderator synthesis → Final Report with full transcript. Python, MIT.
-- **Solomon OS fit:** SKILL — Persona-based deliberation for Hermes skill review. Architect/Critic/Security personas map to Hermes multi-agent validation. Markdown transcript = audit trail.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/council-multi-persona-deliberation.md
-
-## Vibium — AI-Native Browser Automation CLI (April 23, 2026)
+## Vibium — Lightweight Browser Automation (April 23, 2026)
 - **URL:** https://github.com/VibiumDev/vibium
-- **What it does:** Lightweight ~10MB binary, auto Chrome download, zero config. Built on WebDriver BiDi. CLI: go, map, find, click, text, screenshot, pdf, eval, wait, record, fill, select, check, press. MCP server + JS/Python/Java client libs. Apache 2.0.
-- **Solomon OS fit:** SKILL — Browser automation primitive for Solomon Browser. Standards-based = cross-browser. Auto Chrome download = zero friction. Apache 2.0.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/vibium-browser-automation.md
+- **What it does:** ~10MB browser automation binary with no runtime deps. Built on WebDriver BiDi standard. Install as skill for zero-config browser control. MCP server mode available.
+- **Solomon OS fit:** INTEGRATE — Browser automation for Solomon Browser POC. Lighter than Playwright for simple tasks.
+- **Status:** INTEGRATE
+- **RD Report:** `/brain/RD_REPORTS/vibium-browser-automation.md`
 
-## Shard — Browser-Powered P2P Distributed Inference (April 23, 2026)
-- **URL:** https://github.com/TrentPierce/Shard
-- **Fork:** Already forked (`Shard`)
-- **What it does:** Browser-powered P2P inference. Scouts (WebGPU) generate drafts, Shards (BitNet 1.58-bit) verify. Proof-of-Compute credits. OpenAI-compatible API. libp2p mesh. MIT.
-- **Solomon OS fit:** SKILL — Architecture study for Solomon Air distributed compute. Browser/WebGPU as compute node is novel. POC credit system for agent economy.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/shard-browser-p2p-inference.md
+## browserclaw-agent — Robust Browser Agent with Skills (April 23, 2026)
+- **URL:** https://github.com/idan-rubin/browserclaw.agent
+- **What it does:** AI browser agent with built-in anti-bot bypass (Cloudflare Turnstile), skill learning (learns successful playbooks per domain), loop detection, tab management. Three-layer architecture.
+- **Solomon OS fit:** FORGE — Robust browser automation with skill learning mechanism. MIT license permits direct use.
+- **Status:** FORGE
+- **RD Report:** `/brain/RD_REPORTS/browserclaw-agent-robust-browser-automation.md`
 
-## Swarms AutoHedge — Swarm Intelligence Market Analysis (April 23, 2026)
-- **URL:** https://github.com/The-Swarm-Corporation/AutoHedge
-- **Fork:** Already forked (`AutoHedge`)
-- **What it does:** Automates market analysis, risk management, and trade execution using swarm intelligence and AI agents for autonomous hedging. 1,148 stars. Python MIT.
-- **Solomon OS fit:** SKILL — Swarm orchestration pattern for Hermes multi-agent workflows. Market analysis use case for Solomon OS business intelligence layer.
+## KwaaiNet — Sovereign P2P AI Infrastructure (April 23, 2026)
+- **URL:** https://github.com/Kwaai-AI-Lab/KwaaiNet
+- **What it does:** Rust-based P2P AI compute with Decentralized Trust Graph (DTG), W3C Verifiable Credentials, Ed25519 identity. Pre-built binaries for all platforms.
+- **Solomon OS fit:** SKILL — P2P trust graph architecture study. Could inspire Solomon Air distributed compute layer.
 - **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/AutoHedge.md
+- **RD Report:** `/brain/RD_REPORTS/kwaiinet-p2p-ai-infrastructure.md`
+
+## VoltAgent — TypeScript AI Agent Platform (April 23, 2026)
+- **URL:** https://github.com/ChengXinDL/voltagent
+- **What it does:** End-to-end TypeScript agent platform with typed agent roles, supervisor/sub-agent orchestration, MCP integration, durable memory adapters, declarative workflow engine, guardrails, and evals.
+- **Solomon OS fit:** SKILL — Study typed agent architecture and MCP patterns for Hermes improvements.
+- **Status:** SKILL
+- **RD Report:** `/brain/RD_REPORTS/voltagent-typescript-agent-framework.md`
+
+## council — Structured Multi-Agent Debate (April 23, 2026)
+- **URL:** https://github.com/dubs3c/council
+- **What it does:** Python framework for structured multi-agent debate. Persona-based agents (Architect, Critic, Security Specialist), 7-phase debate lifecycle, moderator synthesis, Markdown report generation.
+- **Solomon OS fit:** FORGE — Direct implementation candidate for Hermes "Council" mode. MIT license enables direct use.
+- **Status:** FORGE
+- **RD Report:** `/brain/RD_REPORTS/council-multi-agent-debate-framework.md`

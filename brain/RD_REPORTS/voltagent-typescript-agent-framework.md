@@ -1,32 +1,33 @@
-# RD Report: VoltAgent — TypeScript AI Agent Engineering Platform
+# VoltAgent — TypeScript AI Agent Engineering Platform
 
-**Repo:** https://github.com/ChengXinDL/voltagent
-**Fork:** jvanleur2234-glitch/voltagent
-**License:** MIT
-**Stars:** Active, 2026
-**Language:** TypeScript
+**Source:** https://github.com/ChengXinDL/voltagent  
+**License:** MIT  
+**Stars:** ~800+  
+**Date:** 2026-04-23
 
-## What It Is
-End-to-end AI Agent Engineering Platform with open-source TypeScript framework + VoltOps cloud/self-hosted console. Memory, RAG, Guardrails, Tools, MCP, Voice, Workflow, Multi-agent supervision. Modular design with typed agent definitions.
+## What it does
+VoltAgent is an open-source, end-to-end AI Agent Engineering Platform built on a TypeScript framework. It provides core components such as memory, tools, RAG, guardrails, workflow orchestration, and supervisor/sub-agent orchestration.
 
-## Key Features
-- Core Runtime: typed agent roles, memory, tools, model providers
+Key components:
+- Core Runtime (@voltagent/core): define typed agent roles, memory, tools, and model providers
 - Workflow Engine: declarative multi-step automations
-- Supervisors & Sub-Agents: team-based orchestration with routing
-- Tool Registry + MCP integration (typed tools, lifecycle hooks, cancellation)
-- LLM Compatibility: OpenAI, Anthropic, Google, Ollama
-- Memory adapters for durable context across runs
-- Resumable streaming (client reconnect)
-- RAG + VoltAgent Knowledge Base
-- Voice: TTS/STTS via OpenAI/ElevenLabs
-- Guardrails + Evals built-in
-- MCP Docs Server for AI coding assistants
+- Supervisors & Sub-Agents: teams of specialized agents under a supervisor runtime
+- Tool Registry and MCP: typed tools with lifecycle hooks/cancellation
+- Memory adapters: durable context memory across runs
+- Resumable streaming: reconnect to in-flight streams after refresh
+- RAG integration with VoltAgent Knowledge Base
+- Voice, Guardrails, and Evals built-in
 
 ## Solomon OS Fit
-**Skill Framework pillar.** VoltAgent's skill/memory/guardrails architecture is directly comparable to Hermes Agent's skill system. Its VoltOps Console could inspire a future Solomon OS ops dashboard. MCP integration is first-class.
+**SKILL** — TypeScript-based competitor to study. Strong MCP integration and typed agent roles. MIT license. Could inspire Hermes TypeScript skill development.
 
-## Comparison to What We Have
-vs. **Hermes Agent** (NousResearch): Both have MCP, memory, multi-agent. VoltAgent is TypeScript-native with a cloud ops console. Hermes has more community momentum. VoltAgent's guardrails/evals are more structured.
+## Key Components
+- Supervisor/sub-agent orchestration
+- MCP server integration
+- Durable memory adapters
+- Declarative workflow engine
+- Guardrails and evals
+- Multi-provider support
 
-## Recommendation: SKILL
-Create a `voltagent` skill. Study its guardrails/evals system for potential integration into Hermes. The VoltOps Console concept is worth evaluating for Solomon OS dashboard ideas.
+## Recommendation
+SKILL — Study typed agent architecture and MCP integration patterns for Hermes improvements.

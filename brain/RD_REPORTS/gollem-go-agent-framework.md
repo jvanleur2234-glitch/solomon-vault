@@ -1,31 +1,31 @@
-# RD Report: Gollem — Production Go Agent Framework
+# Gollem — Type-Safe Go Agent Framework
 
-**Repo:** https://github.com/fugue-labs/gollem
-**Fork:** jvanleur2234-glitch/gollem
-**License:** MIT
-**Stars:** ~500+ (active, v0.3.1 Mar 2026)
-**Language:** Go
+**Source:** https://github.com/fugue-labs/gollem  
+**License:** Apache 2.0  
+**Stars:** ~700+  
+**Date:** 2026-04-23
 
-## What It Is
-Production-grade agent framework for Go with compile-time type safety, zero-allocation streaming, and single-binary deployment. Type-safe agents with auto-generated validated output schemas, multi-provider streaming (Anthropic, OpenAI, Google, etc.), and tool integration via FuncTool with reflection-based JSON Schema.
+## What it does
+Gollem is a production-ready agent framework for Go that emphasizes compile-time type safety, zero-allocation streaming, and a single-binary deployment model. It aims to prevent common runtime errors by validating schemas, tool parameters, and guardrails at compile time.
 
-## Key Features
-- Generic `Agent[T]` with compile-time output schema validation
-- 5+ LLM providers (Claude, GPT, Gemini, Vertex AI)
-- FuncTool[P] — tools from typed Go functions
-- Streaming via Go 1.23+ iter.Seq2
-- Guardrails: input/turn/tool validators, output auto-repair
-- OpenTelemetry middleware + structured run traces
-- Agent middleware chains with LoggingMiddleware, TimingMiddleware
-- Multi-agent team swarms with dynamic personalities
-- 561+ tests, MIT licensed
+Key features:
+- Type-safe agents with generics (Agent[T]) and automatic compile-time schema generation/validation
+- Multi-provider support (5+ LLMs: Anthropic Claude, OpenAI GPT/O-series, Google Gemini/Vertex AI)
+- Structured, reliable output via final_result pattern and robust streaming (iter.Seq2)
+- Comprehensive guardrails (input/turn constraints, tool output validators, auto-repair)
+- Observability & tracing (structured run traces, OpenTelemetry middleware, state snapshots)
+- 50+ primitives, guardrail configurations, multi-agent orchestration
+- Zero core dependencies
 
 ## Solomon OS Fit
-**Security & Resilience pillar — agent orchestration layer.** Go's type safety means fewer runtime crashes in production agents. Single-binary deployment fits Solomon OS self-hosted model. Compile-time guarantees prevent the class of bugs that plague Python agent frameworks.
+**SKILL** — Study for type-safe agent architecture patterns. Go's compile-time safety model could inspire Hermes reliability improvements. No direct use (different language), but architecture study valuable.
 
-## Comparison to What We Have
-vs. **PraisonAI** (Python): Python is more accessible but runtime errors are common. Gollem's type safety is superior for production hardening.
-vs. **agent-framework** (Microsoft, Python/.NET): More mature but Python/.NET vs Go. Gollem fills a gap if we ever want a Go-based agent runtime.
+## Key Components
+- `Agent[T]` generic type system
+- `FuncTool[P]` with reflection-based JSON Schema
+- Guardrail system with auto-repair
+- OpenTelemetry middleware
+- Multi-agent team orchestration
 
-## Recommendation: SKILL
-Create a `gollem` skill for Go-based agent deployments. Particularly valuable for security-critical production agents where Python runtime errors are unacceptable. Monitor for Solomon OS integration potential.
+## Recommendation
+SKILL — Study compile-time safety patterns. Valuable for understanding how to build more robust agent frameworks.
