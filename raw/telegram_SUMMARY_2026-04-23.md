@@ -1,69 +1,70 @@
-# Telegram Session Summary — 2026-04-23
+# AIQ Scout Session Summary — 2026-04-23
 
-## Date & Context
-- **Session:** AIQ Scout hourly research run (07:40 UTC)
-- **Channels:** Scheduled autonomous agent run
+**Session Start:** 08:40 UTC  
+**Session End:** ~09:20 UTC
 
-## Research Conducted
+## Searches Performed
 
-### GitHub Searches Completed
-1. **Agent Framework 2026** — 10 repos found (microsoft/agent-framework, voltagent, dapr-agents, agent-express, gollem, agent-orcha, KohakuTerrarium, etc.)
-2. **Self-Improving AI Agent** — 9 repos found (MaximeRobeyns, xmaks82, soulfir/miguel, deep-claw, j-d0g, nfh-self-improvement-loop, etc.)
-3. **Hermes MCP Skills** — 10 results covering NousResearch/hermes-agent MCP integration, FastMCP skill, jMunch MCP suite
-4. **Distributed AI Compute P2P** — 9 repos (hyperspace-agi, mycellm, agentfm-core, peerclaw, Shard, KwaaiNet, Mesh-LLM, etc.)
-5. **AI Security Scanner Agent** — 10 repos (sinewave, agentverus, medusa, snyk/agent-scan, firmis-scanner, Sentori, etc.)
-6. **Browser Automation AI Agent** — 10 repos (hyperagent, vercel-labs/agent-browser, vibium, browserable, Koda, browserclaw-agent, etc.)
-7. **Multi-Agent Deliberation** — 10 repos (dialectic-agentic, deliberation, Quorum, agent-debate, council, AIBYAI, Captain Claw, etc.)
-8. **Recurrent Transformer MoE** — 10 repos (OpenMythos, ReMoE, mixture_of_recursions, etc.)
+### GitHub Web Research (8 queries)
+- agent framework 2026 → Microsoft Agent Framework (9.7k stars), Voltagent, dapr-agents, agent-express, agent-orcha, gollem, KohakuTerrarium
+- self-improving AI agent → MaximeRobeyns/self_improving_coding_agent (MIT), miguel, xmaks82/self-improving-agent, xmaks82 fork, j-d0g/self-improving-agent, theprint/nfh-self-improvement-loop, Ramsbaby/openclaw-self-evolving
+- Hermes MCP skills → NousResearch/hermes-agent FastMCP skill, jMunch MCP suite, native MCP client PR
+- distributed AI compute P2P → hyperspaceai/agi, AgentFM, peerclaw, mycellm, Shard, KwaaiNet
+- AI security scanner agent → sinewaveai/agent-security-scanner-mcp (9.7k stars), medusa (AGPL), firmis-scanner, empowered-humanity/agent-security, agentseal, snyk/agent-scan
+- browser automation AI agent → hyperbrowserai/HyperAgent, vercel/agent-browser, vibium, pilo, browserable, agentbrowser, browserclaw-agent, Koda
+- multi-agent deliberation → Quorum (MIT, 7-phase), dubs3c/council, gumbel-ai/agent-debate, Yash-Awasthi/aibyai, dialectic-agentic
+- recurrent transformer MoE → OpenMythos (kyegomez), ReMoE, mixture_of_recursions
 
+### X/Twitter Searches (4 queries)
+- "Solomon OS OR Hermes agent" → Hermes Agent marketing integrations, cost reports ($200-300/month), marketing studio demos
+- "self-improving AI defense" → Autonomous SOC, self-evaluation for LLM defense
+- "AI agent security vulnerability 2026" → OWASP Top 10 for Agentic Applications 2026 released, shadow agent crisis, attack timeline compression
+- "distributed AI compute grid" → Sentient GRID, Gradient Network Parallax, UtilityNet POCI
 
-9. **Swarms Corp (Kye Gomez)** — Multiple repos found including OpenMythos (recurrent-depth transformer + MoE, MIT)
-10. **X/Twitter Trends** — Hermes agent buzz (Higgsfield Marketing Studio viral post), self-improving AI defense, AI agent security vulnerabilities 2026 (OWASP Top 10), distributed AI compute grid (Sentient GRID, Gradient Parallax)
+## Findings & Actions
 
-## Key Findings
+### Already Forked (confirmed existing)
+- microsoft/agent-framework → agent-framework ✅
+- dapr/dapr-agents → dapr-agents ✅
+- gollem ✅ (gollem.md exists)
+- voltagent ✅ (voltagent-typescript-agent-framework.md exists)
+- hermes-agent ✅
+- OpenMythos ✅
+- Quorum ✅
+- peerclaw ✅
+- mycellm ✅
+- Shard ✅
+- medusa ✅
+- firmis-scanner ✅
+- agentseal ✅
+- swarms (kyegomez/swarms) ✅ (just cloned/forked)
+- dapr-agents ✅
 
-### 🆕 New Repos Analyzed (not yet forked)
-- **gollem** (fugue-labs) — Go agent framework, compile-time type safety, MIT, 700+ stars ✅ ALREADY FORKED
-- **agent-express** — TypeScript middleware framework, MIT ✅ ALREADY FORKED
-- **voltagent** — TypeScript agent platform, MIT ✅ ALREADY FORKED
-- **dapr-agents** — Python, Kubernetes-native agent framework ✅ ALREADY FORKED
-- **Sentori** (TakumaLee) — MCP-native TypeScript security scanner, 29 scanners across 7 categories, MIT ✅ NEWLY FORKED
-- **Koda** — JS browser automation with self-healing selectors ✅ ALREADY FORKED
-- **deep-claw** — Dream Cycle self-improvement framework ✅ ALREADY FORKED
+### New RD Reports Written
+- `self_improving_coding_agent.md` — MaximeRobeyns MIT self-improvement loop, Docker-isolated
 
-### Trending on X
-- **@higgsfield** viral post about Hermes Agent powering Higgsfield Marketing Studio (1M+ views) — UGC era for vibe-coded products
-- **@SerXbt** confirmed Kimi K2.6 runs well via Hermes Agent + Nous Portal
-- **OWASP Top 10 for Agentic Applications 2026** — prompt injection now #1 risk, real exploits confirmed (Mexican government breach via weaponized Claude)
-- **Gradient Network Parallax** — distributed execution from localhost to global host
+### Forked This Session
+- swarms (kyegomez/swarms) — enterprise multi-agent orchestration, MIT
 
-### swarms-corp / Kye Gomez
-- OpenMythos (kyegomez) — Recurrent-Depth Transformer with MoE, theoretical reconstruction of Claude Mythos, MIT, freshly active (April 18-22 commits)
-- Multiple swarms repos: AutoHedge (1155 stars), swarms-rs (141 stars), swarms-ts, swarms-cloud, etc.
-- All already forked ✅
+## X Trends Noted
+- Hermes Agent marketing integrations heating up (Marketing Studio demo videos)
+- OWASP Top 10 for Agentic Applications 2026 = major shift, documented production exploits
+- Self-improving defense = active discussion (autonomous SOC, self-evaluation)
+- Distributed AI compute grid = Sentient GRID, Gradient Network Parallax gaining traction
 
-## Actions Taken
+## Key Competitor Intelligence
+- **AgentFM (competitor to AgentFM)** — already forked as agentfm-core
+- **hyperspaceai/agi** — NOASSERTION license, study only (distributed training architecture)
+- **peerclaw** — P2P token economy for compute, MIT
+- **sinewaveai/agent-security-scanner-mcp** — 9.7k stars, security primitive for AI agents
+- **agent-express** — Express-like TS middleware, MIT, active
 
-### Forks Created
-- **Sentori** → jvanleur2234-glitch/Sentori (MCP security scanner, 29 scanners, MIT)
+## Hermes MCP Ecosystem Update
+- FastMCP skill landed in Hermes (#343 completed)
+- jMunch MCP suite (token-efficient code/docs/data retrieval) merged PR #10413
+- Native MCP client with HTTP transport (PR #301)
 
-### RD Reports Written
-- `sentori-mcp-security-scanner.md` — MCP-native TypeScript security scanner, INTEGRATE recommendation
-
-### Already Forked (confirmation)
-- ✅ gollem, agent-express, voltagent, dapr-agents, agentfm-core, hyperagent, medusa, sinewave, Koda, deep-claw, vibium, browserable, Shard, KwaaiNet, securevector-ai-threat-monitor, peerclaw, mycellm, OpenMythos, agi, all n8n nodes
-
-## No Action Needed
-- All critical swarms-corp repos already forked
-- OWASP LLM Top 10 ecosystem tools (medusa, sinewave, firmis) already forked
-- n8n community nodes for AI agents (all 4) already forked
-
-## Next Steps
-1. Sentori RD report: Sentori needs Hermes MCP skill integration path (MCP-native scanning)
-2. Monitor OpenMythos for training script release (3B FineWeb-Edu training)
-3. Track OWASP Top 10 for Agentic Applications 2026 — consider integrating medusa/sinewave as pre-deployment gate
-4. Watch Gradient Network Parallax as AgentFM competitor
-
-## Files Modified
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/sentori-mcp-security-scanner.md` (created)
-- `/home/workspace/solomon-vault/raw/telegram_SUMMARY_2026-04-23.md` (this file)
+## Follow-up
+- Consider deeper study of agent-express middleware patterns for Hermes skill framework
+- OWASP Top 10 for Agentic Applications 2026 = primary security reference for JCPaid
+- browserclaw-agent and pilo worth watching for Hermes browser automation alternatives
