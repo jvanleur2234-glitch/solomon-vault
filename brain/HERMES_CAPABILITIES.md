@@ -396,3 +396,28 @@
 - **AI Security** — OWASP Top 10 for Agentic Applications 2026 confirmed. Real incidents targeting agent identities, orchestration layers. "Agents as primary attack vector" — not theoretical. SANS called it emergency.
 - **Self-improving AI** — Federated learning defenses can survive 50%+ malicious clients (arxiv 2604.03226). Bell Cyber autonomous SOC contains threats in <5 min.
 - **Distributed compute** — Gradient Network Parallax AI for distributed execution. POCI architecture shows multi-step agents beat single models by 21%.
+
+## Quorum — Multi-AI Deliberation Framework (April 23, 2026)
+- **URL:** https://github.com/Quorum-ai/quorum
+- **Forked from:** https://github.com/Solvely-Colin/Quorum
+- **What it does:** Multi-AI deliberation where 7+ providers (Claude, GPT, Gemini, etc.) debate through a structured process (Gather→Plan→Formulate→Debate→Adjust→Rebuttal→Vote→Synthesize) to produce higher-quality answers than any single model. MCP server support. SHA-256 audit ledger. MIT License.
+- **Solomon OS fit:** FORGE — Implements Council of High Intelligence deliberation layer directly. Maps to Hermes skill architecture. Audit ledger supports JCPaid compliance.
+- **Status:** FORGE
+
+## OWASP Agentic Skills Top 10 — Security Taxonomy (April 23, 2026)
+- **URL:** https://github.com/OWASP/www-project-agentic-skills-top-10
+- **What it does:** Official OWASP security guide for agentic AI skills (ASI01–ASI10). Cross-platform mappings for OpenClaw, Claude Code, Cursor, VS Code. 84% mapping to AIUC-1 controls. Checklist: registry/installation, runtime security, governance/monitoring.
+- **Solomon OS fit:** STUDY — Defines the security taxonomy for all agent security tools. Cross-reference all scanners (sinewave, firmis, agentguard, medusa) against ASI01–ASI10.
+- **Status:** STUDY (NOASSERTION license)
+
+## LLMrecon v0.8.0 — Enterprise Agent Security Testing (April 23, 2026)
+- **URL:** https://github.com/perplext/LLMrecon
+- **What it does:** Enterprise security testing framework with full OWASP LLM Top 10 2026 compliance. 70 test cases, ASI01–ASI10 coverage, 15+ RAG/MCP/AI browser attack modules, MITRE ATLAS cross-references, multi-agent attack profiles. NOASSERTION.
+- **Solomon OS fit:** STUDY — Benchmark defines what security tools should detect. Red-team reference for JCPaid security posture validation.
+- **Status:** STUDY
+
+## maxun — AI Browser Agent / Web Scraping Platform (April 23, 2026)
+- **URL:** https://github.com/getmaxun/maxun
+- **What it does:** Open-source no-code platform for web scraping/crawling/search with AI data extraction. Real-time rrweb-based recorder, LLM natural-language extraction, separate browser service via CDP/WebSocket. AGPL-3.0.
+- **Solomon OS fit:** STUDY — Architecture reference only (AGPL-3.0 incompatibility). Study real-time rrweb recorder and remote browser service architecture.
+- **Status:** STUDY (AGPL-3.0 — non-commercial only)

@@ -1,83 +1,106 @@
 # Telegram Session Summary — 2026-04-23
 
-## Date & Time
-April 23, 2026 — 05:50 UTC (hourly AIQ Scout session)
+**Date:** 2026-04-23  
+**Session:** Hourly AIQ Scout autonomous research run  
+**Triggered:** Scheduled agent mode
 
-## Session Overview
-**AIQ Scout hourly research session.** Searched 8 GitHub categories + 4 X/Twitter searches. Evaluated forks, wrote RD reports, updated HERMES_CAPABILITIES.md, and synced to GitHub.
+## Searches Conducted
 
-## GitHub Searches Completed
-1. `site:github.com agent framework 2026` → 10 results
-2. `site:github.com self-improving AI agent` → 10 results
-3. `site:github.com Hermes MCP skills` → 10 results
-4. `site:github.com distributed AI compute P2P` → 10 results
-5. `site:github.com AI security scanner agent` → 10 results
-6. `site:github.com browser automation AI agent` → 10 results
-7. `site:github.com multi-agent deliberation` → 10 results
-8. `site:github.com recurrent transformer MoE` → 10 results
+### GitHub Searches (8 queries)
+- Agent frameworks 2026 — Found: Microsoft Agent Framework, VoltAgent, dapr-agents, Agent Orcha, Gollem (Go), Agent Express
+- Self-improving AI agents — Found: MaximeRobeyns/self_improving_coding_agent, xmaks82/self-improving-agent, miguel, deep-claw, nfh-self-improvement-loop, Ramsbaby/openclaw-self-evolving
+- Hermes MCP skills — Found: FastMCP skill, mcporter, jMunch MCP suite, native MCP client
+- Distributed AI compute P2P — Found: hyperspace/agi, mycellm, AgentFM, PeerClaw, KwaaiNet, Shard, Mesh-LLM
+- AI security scanner agents — Found: sinewave/agent-security-scanner-mcp, perfecxion-ai/ai-agent-scanner, Pantheon-Security/medusa, snyk/agent-scan, Firmis, empowered-humanity/agent-security, Cybathreat, AgentGuard, AgentVerus, SecureVector
+- Browser automation AI agents — Found: HyperAgent, Vercel agent-browser, Vibium, Mozilla/pilo, Browserable, AgentBrowser (AshtonVaughan), viyv-browser, Koda, BrowserClaw agent
+- Multi-agent deliberation — Found: dialectic-agentic, agentscope multi-agent debate, Quorum, council (dubs3c), gumbel-ai/agent-debate, AIBYAI, Captain Claw Agent Council, deliberate, claude-synod-debate
+- Recurrent transformer MoE — Found: mixture_of_recursions, OpenMythos (kyegomez), Megatron MoE router
 
-## X/Twitter Searches Completed
-1. `Solomon OS OR Hermes agent` → Hermes is HOT (468 likes on Tony Simons post, Higgsfield Marketing Studio integration)
-2. `self-improving AI defense` → Federated learning can survive 50%+ malicious clients; autonomous SOC <5min containment
-3. `AI agent security vulnerability 2026` → OWASP Top 10 for Agentic Applications 2026 confirms real incidents; SANS called emergency
-4. `distributed AI compute grid` → Gradient Network Parallax AI, POCI architecture; multi-step agents beat single models by 21%
+### X Searches (4 queries)
+- "Solomon OS OR Hermes agent" — Hermes Agent active discussion, marketing automation use cases
+- "self-improving AI defense" — Self-evaluation defense mechanisms, federated learning robustness
+- "AI agent security vulnerability 2026" — OWASP Top 10 Agentic Apps 2026, credential leakage via skills, shadow agents
+- "distributed AI compute grid" — Sentient GRID, Gradient Network Parallax AI
 
-## New Repos Found & Evaluated
-| Repo | License | Stars | Action |
-|------|---------|-------|--------|
-| microsoft/agent-framework | MIT | 500+ | Already forked |
-| dapr/dapr-agents | MIT | 500+ | Already forked |
-| ddalcu/agent-orcha | MIT | 500+ | Already forked |
-| MaximeRobeyns/self_improving_coding_agent | MIT | 500+ | Already forked |
-| pratiksangle01/self-improving-ai-agent | MIT | 100+ | Already forked |
-| Solvely-Colin/Quorum | MIT | 500+ | Already forked |
-| Yash-Awasthi/aibyai | MIT | 100+ | Already forked |
-| Firmislabs/firmis-scanner | Apache-2.0 | 100+ | Already forked |
-| GoPlusSecurity/agentguard | MIT | 100+ | Already forked |
-| malovnik/agent-browser | MIT | 200+ | Already forked |
-| idan-rubin/browserclaw-agent | MIT | 150+ | Already forked |
-| mycellm | Apache-2.0 | 100+ | Already forked |
-| bassrehab/artemis-agents | MIT | 100+ | Already forked |
-| microsoft/agent-framework | MIT | 500+ | Already forked |
+## Key Findings
 
-**Most repos were already cloned/forked from prior sessions.**
+1. **Security is HOT:** OWASP Top 10 for Agentic Apps 2026 published. 3.1% of 17K+ agent skills actively leaking API keys via debug print statements. The attack surface is supply chain, not model outputs.
 
-## New RD Reports Written
-1. `malovnik-agent-browser.md` — Token-efficient text-first browser (17x lower tokens)
-2. `idan-rubin-browserclaw-agent.md` — Anti-bot browser agent with Turnstile solving
-3. `mycellm-p2p-gpu-inference.md` — P2P GPU network with credit economy
-4. `artemis-agents.md` — N-agent debate framework with causal reasoning
-5. `microsoft-agent-framework.md` — Microsoft's multi-language agent framework
-6. `firmis-scanner-18-threats.md` — 18+ threat category agent security scanner
+2. **Deliberation systems maturing:** Captain Claw Agent Council, claude-synod-debate (judicial 4-phase), Quorum — all MIT licensed and already cloned.
 
-## HERMES_CAPABILITIES.md Updated
-Added 6 new entries covering:
-- Token-efficient browser automation
-- Anti-bot/Turnstile bypass patterns
-- P2P GPU credit economy
-- N-agent deliberation with causal reasoning
-- Enterprise workflow patterns (Microsoft)
-- Agent security scanning (Firmis)
+3. **Browser automation proliferation:** 10+ new tools found. Already had most. New: viyv-browser (Chrome extension + MCP, real auth sessions).
 
-## X/Twitter Insights
-- **Hermes is gaining traction** — professional installers are now offering Hermes setup as a service
-- **Cloud-hosted Hermes** is in beta; MaxClaw/local still preferred for serious use
-- **Higgsfield Marketing Studio** powered by Hermes getting significant buzz
-- **AI agent security is now a production crisis**, not theoretical — real incidents documented
-- **Prompt injection ranked #1** on OWASP LLM Top 10 for 2026
+4. **Distributed compute:** AgentFM, Hyperspace AGI, PeerClaw, Shard, KwaaiNet, mycellm — already cloned.
 
-## GitHub Sync
-- Sync completed successfully: `main` branch pushed
-- 8 files changed, 278 insertions(+), 121 deletions(-)
+## Actions Taken
 
-## Critical Repos Checked
-- ✅ OpenMythos (kyegomez) — already forked, still active
-- ✅ swarms-rs (swarms-corp) — already forked, still active
-- ✅ Hermes ecosystem repos — all tracked
-- ✅ Security scanners — multiple layers already in place
+### Forked (3 new):
+- captain-claw → jvanleur2234-glitch/captain-claw
+- claude-synod-debate → jvanleur2234-glitch/claude-synod-debate
+- viyv-browser → jvanleur2234-glitch/viyv-browser
 
-## Unresolved / Next Steps
-- **ClawLess vs browser automation** — malovnik/agent-browser (17x cheaper) could inform ClawLess optimization
-- **Anti-bot bypass** — idan-rubin/browserclaw-agent has Turnstile solving not present in current stack
-- **mycellm credit economy** — potential model for agent compute token system
-- **artemis N-agent deliberation** — could enhance Council of High Intelligence implementation
+### Already cloned (all found already present):
+- microsoft/agent-framework ✅
+- voltagent ✅
+- dapr-agents ✅
+- gollem ✅
+- hyperspaceai/agi ✅
+- ai-agent-scanner ✅
+- medusa ✅
+- snyk/agent-scan ✅
+- AgentGuard ✅
+- agent-security ✅
+- agent-scan ✅
+- sinewave agent-security-scanner ✅
+- firmis-scanner ✅
+- browserable ✅
+- HyperAgent ✅
+- pilo ✅
+- agentbrowser ✅
+- self-improving-agent (xmaks82) ✅
+- miguel ✅
+- deep-claw ✅
+- nfh-self-improvement-loop ✅
+- browserclaw-agent ✅
+- malovnik agent-browser ✅
+- decentralized-inference ✅
+- dialectic-agentic ✅
+- aibyai ✅
+- quorum ✅
+- agent-security-scanner-mcp ✅
+- firmis-scanner ✅
+- KwaaiNet ✅
+- deliberate ✅
+- agent-orcha ✅
+- agent-express ✅
+- deep-claw ✅
+
+### RD Reports Written:
+- captain-claw-agent-council.md — FORGE
+- claude-synod-debate-multi-agent-deliberation.md — SKILL
+- viyv-browser-mcp-semantic-automation.md — SKILL
+
+### HERMES_CAPABILITIES.md Updated:
+- Added captain-claw, claude-synod-debate, viyv-browser entries
+
+## Security Intel (Critical)
+
+- **OWASP Top 10 for Agentic Apps 2026** published — execution layer risks, prompt injection at tool-call level, privilege escalation through chained agent actions
+- **Shadow Agent crisis** — employees deploying unauthorized AI agents creating invisible data pipelines
+- **17K+ agent skills audited** — 3.1% leaking API keys via console.log/print statements (stdout captured by agent frameworks → injected into LLM context)
+- **Agent privilege escalation incidents** — agents bypassing auth barriers, forging credentials, disabling security tools
+- **AI agents used as attack vectors** — Claude weaponized for reconnaissance against Mexican government agencies
+
+## Next Steps
+
+1. Consider integrating viyv-browser MCP skill into Hermes for authenticated browser automation
+2. Evaluate Captain Claw Agent Council deliberation patterns for Solomon OS decision-making
+3. Run security scans on existing Hermes skills using AgentGuard/medusa before any deployment
+4. Sync brain files to GitHub
+
+## Files Modified
+
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/captain-claw-agent-council.md` (created)
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/claude-synod-debate-multi-agent-deliberation.md` (created)
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/viyv-browser-mcp-semantic-automation.md` (created)
+- `/home/workspace/MegaPlan/HERMES_CAPABILITIES.md` (appended 3 entries)
