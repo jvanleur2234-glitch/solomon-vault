@@ -351,3 +351,48 @@
 - **Solomon OS fit:** FORGE — Direct implementation candidate for Hermes "Council" mode. MIT license enables direct use.
 - **Status:** FORGE
 - **RD Report:** `/brain/RD_REPORTS/council-multi-agent-debate-framework.md`
+## malovnik/agent-browser — Token-Efficient Text-First Browser (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/agent-browser
+- **Forked from:** https://github.com/malovnik/agent-browser
+- **What it does:** Text-first browser for AI agents. Reads pages via accessibility tree (17x lower token cost vs screenshots), semantic action discovery, predictive browsing engine with page diffs.
+- **Solomon OS fit:** SKILL — token-efficient browsing patterns for Hermes/ClawLess. Replace screenshot with text-based semantic interaction.
+- **Status:** SKILL
+
+## idan-rubin/browserclaw-agent — Anti-Bot Browser Agent (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/browserclaw-agent
+- **Forked from:** https://github.com/idan-rubin/browserclaw-agent
+- **What it does:** AI browser agent with built-in anti-bot bypass (CDP), Cloudflare Turnstile solving, domain learning (skill files per site), loop detection. Modular LLM-agnostic architecture.
+- **Solomon OS fit:** SKILL — anti-bot/Turnstile solving fills major gap in ClawLess. MIT license permits study.
+- **Status:** SKILL
+
+## mycellm — P2P GPU Inference Network (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/mycellm
+- **What it does:** Pools GPUs across internet into P2P inference network. OpenAI-compatible API, credit-based economy, private federated networks, no cloud vendors.
+- **Solomon OS fit:** SKILL — credit economy pattern for agent compute marketplace. Competitor to AgentFM with different architecture.
+- **Status:** SKILL
+
+## artemis-agents — Structured Multi-Agent Debates with N Agents (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/artemis-agents
+- **Forked from:** https://github.com/bassrehab/artemis-agents
+- **What it does:** N-agent debate framework with hierarchical argument generation, causal reasoning evaluation, jury scoring, ethical alignment, safety monitoring (sandbagging, deception detection).
+- **Solomon OS fit:** INTEGRATE — deliberation engine for Hermes skill validation. N-agent > Council of High Intelligence. MIT license.
+- **Status:** INTEGRATE
+
+## microsoft/agent-framework — Enterprise Multi-Language Agent Framework (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/agent-framework
+- **What it does:** Microsoft multi-language (Python/.NET) agent framework with graph-based workflows, streaming, checkpointing, human-in-the-loop, time-travel debugging. python-1.1.0 (2026-04-21).
+- **Solomon OS fit:** SKILL — time-travel debugging and enterprise workflow patterns worth studying. MIT license.
+- **Status:** SKILL
+
+## Firmislabs/firmis-scanner — 18+ Threat Categories for Agent Security (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/firmis-scanner
+- **Forked from:** https://github.com/Firmislabs/firmis-scanner
+- **What it does:** AI-runtime security scanner with 268 detection rules across 18+ threat categories (credential harvesting, prompt injection, tool poisoning). Auto-detects LangChain, CrewAI, AutoGen, MetaGPT. Apache-2.0.
+- **Solomon OS fit:** INTEGRATE — adds to security scanning stack alongside ProofLayer/Sinewave. Auto-framework detection is valuable.
+- **Status:** INTEGRATE
+
+## X/Twitter Trends (April 23, 2026)
+- **Hermes Agent** — Growing fast. Tony Simons: "first AI agent platform I'd be willing to market and distribute as a professional install service." Julian Goldie SEO: cloud-hosted Hermes is "beta, not serious replacement." Higgsfield Marketing Studio powered by Hermes getting buzz.
+- **AI Security** — OWASP Top 10 for Agentic Applications 2026 confirmed. Real incidents targeting agent identities, orchestration layers. "Agents as primary attack vector" — not theoretical. SANS called it emergency.
+- **Self-improving AI** — Federated learning defenses can survive 50%+ malicious clients (arxiv 2604.03226). Bell Cyber autonomous SOC contains threats in <5 min.
+- **Distributed compute** — Gradient Network Parallax AI for distributed execution. POCI architecture shows multi-step agents beat single models by 21%.

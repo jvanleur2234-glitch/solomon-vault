@@ -1,30 +1,33 @@
-# RD Report: mycellm
+# RD Report: mycellm — P2P GPU Inference Network
 
-**Repo:** `mycellm/mycellm`  
-**Stars:** Growing | **License:** Apache 2.0 | **Lang:** Python/TypeScript  
+**Repo:** `mycellm/mycellm`
+**License:** Apache-2.0 | **Language:** Python/TypeScript
+**Forked:** Yes (jvanleur2234-glitch/mycellm)
+**Date:** 2026-04-23
 
-## What It Does
-P2P GPU inference network that pools heterogeneous hardware across the internet. OpenAI-compatible API with credit economy, privacy guards, and federation support.
+## What It Is
 
-## Why It Matters for Solomon OS
-- **Credit Economy**: Earn credits by seeding, spend by consuming — bootstrap the network
-- **Privacy-First**: On-device prompt scanning, sensitive queries route to local model
-- **Federation**: Private networks for teams/orgs — enterprise-ready
-- **Drop-in Replacement**: OpenAI-compatible API at /v1/chat/completions
-- **iOS App**: Native iOS peer earning credits on mobile
+Open-source project that pools GPUs across the internet into a P2P inference network. Provides an OpenAI-compatible API, credit-based economy, and private federated networks — without relying on cloud vendors.
 
-## Key Capabilities
-- QUIC transport with NAT traversal across internet
-- Ed25519-signed receipts for credit economy (no blockchain)
-- Sensitive data guard: on-device scanning for API keys/passwords/PII
-- Private federations with fleet management
-- Works with Claude Code, aider, Continue.dev, any OpenAI-compatible tool
-- iOS app for peer participation
+## Key Features
 
-## Comparison to What We Have
-vs **AgentFM**: More focused on inference credits than general compute. Less agent-oriented, more API credits marketplace.
+- **Credit economy** — earn by seeding GPU, spend by consuming; no cryptocurrency
+- **Privacy safeguards** — on-device scanning for API keys/PII; sensitive queries route to local models
+- **Private federated networks** — invite-only federation, NAT traversal for P2P connectivity
+- **OpenAI-compatible API** — drop-in replacement at `/v1/chat/completions`
+- **Cross-device** — iOS app, supports serving on personal hardware (iPad with Metal)
+- Uses QUIC from bootstrap relay to GPU seeders; llama.cpp/vLLM for inference
+
+## Comparison to AgentFM
+
+- **AgentFM** — containerized tasks (Podman), ephemeral sandboxing, libp2p mesh
+- **mycellm** — credit economy, OpenAI-compatible API, privacy-first, no containers
+- Both compete in decentralized GPU compute space
+
+## Solomon OS Fit
+
+**SKILL** — Credit economy and private federated network patterns could enhance AgentFM competitor analysis. The OpenAI-compatible API is a key differentiator.
 
 ## Recommendation
-**INTEGRATE** — Credit economy pattern is useful for KwaaiNet. Could use mycellm as inference layer while AgentFM handles general compute.
 
-**Category:** #distributed-ai #inference #p2p #credits
+**SKILL** — Study credit economy pattern for potential agent compute marketplace.

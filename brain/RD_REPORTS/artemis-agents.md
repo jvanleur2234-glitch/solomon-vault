@@ -1,27 +1,31 @@
-# bassrehab/artemis-agents — Structured N-Agent Debate Framework
+# RD Report: artemis-agents — Structured Multi-Agent Debates
 
-**Date:** 2026-04-21  
-**Category:** Multi-Agent Deliberation  
-**License:** Apache 2.0  
-**Stars:** ~150  
-**Forked:** `/home/workspace/artemis-agents`
+**Repo:** `bassrehab/artemis-agents`
+**License:** MIT | **Language:** Python
+**Forked:** Yes (jvanleur2234-glitch/artemis-agents)
+**Date:** 2026-04-23
 
-## What It Does
-Structured, debate-driven decision-making among multiple AI agents with adaptive evaluation, causal reasoning, and built-in safety monitoring. Hierarchical Argument Generation (H-L-DAG), jury scoring, ethical alignment.
+## What It Is
+
+Open-source framework for structured multi-agent debates with hierarchical argument generation, adaptive evaluation with causal reasoning, and built-in safety/ethics monitoring. Supports N agents (not just few).
 
 ## Key Features
-- Hierarchical argument generation (H-L-DAG)
-- Adaptive evaluation with causal reasoning (L-AE-CR)
-- Jury scoring mechanism
-- Real-time safety monitoring (deception/sandbagging detection)
-- Multi-agent debates with N agents
-- Dynamic weighting of evaluation criteria
-- Streaming, metacognition, multimodal evidence (v2)
 
-## For Solomon OS / Hermes
-- Causal reasoning integration = better debate quality than pure retrieval
-- Safety monitoring catches sandbagging/deception
-- Could power high-stakes decision workflows in Hermes
+- **Hierarchical Argument Generation (H-L-DAG)** — structured, context-aware arguments
+- **Adaptive Evaluation with Causal Reasoning (L-AE-CR)** — dynamic weighting and causal analysis
+- **Jury Scoring Mechanism** — multi-perspective evaluation of arguments
+- **Ethical Alignment** — built-in ethical considerations in generation and evaluation
+- **Safety Monitoring** — detects sandbagging, deception, manipulation; metacognition features
+- v2 options: real-time streaming, hierarchical debates, multimodal evidence, steering vectors, argument verification
+
+## Solomon OS Fit
+
+**INTEGRATE** — Could serve as the deliberation engine for Hermes skill validation. Ethical alignment and safety monitoring align with JCPaid enterprise requirements. MIT license.
+
+## Key Insight
+
+Unlike simple debate (2 agents), ARTEMIS supports N agents with hierarchical arguments and causal reasoning — more sophisticated than Council of High Intelligence patterns.
 
 ## Recommendation
-**SKILL** — Causal reasoning + safety monitoring = high-quality debate outputs. Apache 2.0 licensed.
+
+**INTEGRATE** — Study for Hermes deliberation/skill validation engine.
