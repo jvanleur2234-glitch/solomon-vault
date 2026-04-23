@@ -1,27 +1,28 @@
-# slior/dialectic-agentic — Multi-Agent Design Debate System
+# slior/dialectic-agentic — Multi-Agent Design Debate
 
-**Date:** 2026-04-21  
-**Category:** Multi-Agent Deliberation (Council of High Intelligence Competitor)  
-**License:** MIT  
-**Stars:** ~400  
-**Forked:** `/home/workspace/dialectic-agentic`
+## Metadata
+- **URL:** https://github.com/slior/dialectic-agentic
+- **License:** MIT
+- **Status:** ALREADY FORKED
 
 ## What It Does
-Configurable, self-contained multi-agent design debate system. Runs as skill files + JSON config — no code required. Expert roles (architect, security, performance, simplicity) debate design problems through structured rounds.
+No-code agent-native system for software design debates. Runs as skill files, prompts, and JSON config. Assigns expert roles (architect, security, performance, simplicity) to debate design problems through structured rounds.
 
-## Key Features
-- Role-based agents: architect, security, performance, simplicity, etc.
-- Structured rounds: proposals → critiques → refinements
-- Judge assesses convergence, synthesis final solution
-- Output: debate/synthesis.md + per-round artifacts
-- Agentic platform agnostic (needs Task tool + read/write)
-- No code required — pure config + skill files
+## Workflow
+- Agents propose solutions → critique each other → refine positions across rounds
+- Judge evaluates convergence; debate ends on consensus or round cap
+- Final solution synthesized by judge
 
-## For Solomon OS / Hermes
-- Design review/debate automation for Hermes workflows
-- Could power "Hermes Council" deliberation skill
-- Structured debate → better architecture decisions than single agent
-- Config-only = easy to customize without code
+## Output Artifacts
+- `debate/synthesis.md` — final solution
+- `debate/round-N/proposals/` — each agent's proposal per round
+- `debate/round-N/critiques/` — critiques
+- `debate/round-N/verdict.json` — convergence assessment
 
-## Recommendation
-**SKILL** — Unique approach (debate-as-skill). Could enhance Hermes with structured design review capability. MIT licensed, no dependencies.
+## Solomon OS Fit
+- **SKILL** — Structured design review pattern for Hermes skill development
+- Could validate skill designs with multiple expert perspectives before deployment
+- No-code nature fits Hermes skill framework model
+
+## Action
+Already forked. Study structured debate format for Hermes skill validation workflow.

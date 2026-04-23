@@ -1,48 +1,26 @@
-# RD Report: Gollem — Go Agent Framework with Compile-Time Safety
+# gollem — Type-Safe Go Agent Framework
 
-**Date:** 2026-04-22
-**URL:** https://github.com/fugue-labs/gollem
-**License:** MIT
-**Fork:** https://github.com/jvanleur2234-glitch/gollem
+## Metadata
+- **URL:** https://github.com/fugue-labs/gollem
+- **Fork:** Already forked (`gollem`)
+- **License:** MIT
+- **Tech:** Go, v0.3.1
 
----
+## What It Does
+Production-grade Go agent framework with compile-time type safety. Generic Agent[T], 5+ LLM backends, FuncTool with JSON Schema generation, streaming via iter.Seq2, guardrails (input/turn/output validation, auto-repair), OpenTelemetry middleware, state snapshots.
 
-## What It Is
-Production-grade Go agent framework emphasizing compile-time type safety, zero-allocation streaming, and single-binary deployment. Compile-time validation for output schemas, tool parameters, guardrails, and event subscriptions.
-
----
-
-## Key Capabilities
-- Compile-time validation across entire agent stack
-- Zero-core dependencies, Go-based (type safety, fast binaries)
-- Multi-provider: Anthropic Claude, OpenAI GPT/O, Google Gemini/Vertex, 5+ LLMs
-- FuncTool[P] with JSON Schema from typed Go functions
-- Guardrails: input/turn-level validation, per-tool result validators, auto-repair
-- Observability: OpenTelemetry, structured traces, time-travel debugging
-- Agent middleware: Logging, Timing, MaxTokens interceptors
-- v0.3.1 (Mar 2026), MIT licensed
-
----
-
-## Why It Matters
-Every other agent framework is Python (runtime errors, type chaos). Gollem brings the rigor of Go's type system to agent development. Compile-time validation of tool parameters and output schemas eliminates entire classes of runtime bugs.
-
----
+## Key Features
+- **Compile-time guarantees:** Output schemas, tool parameters, guardrails, middleware, event subscriptions
+- **Multi-provider:** Anthropic Claude, OpenAI GPT/O-series, Google Gemini, Vertex AI
+- **Streaming:** Go 1.23+ iterators, node-by-node agent looping
+- **Guardrails:** MaxPromptLength, ContentFilter, MaxTurns, tool result validators
+- **Observability:** OpenTelemetry traces, JSONFileExporter, ConsoleExporter
 
 ## Solomon OS Fit
-- **SKILL** — Compile-time safety pattern is aspirational for Hermes (Python-based). Study for design guidance even if can't implement directly. MIT license.
+- **MONITOR / REFERENCE** — Architecture study for Hermes 2.0 type-safe patterns
+- Guardrail patterns and middleware architecture useful for Hermes security layer
+- Go-based components could complement Python Hermes
+- MIT license for architecture study
 
----
-
-## Comparison
-| Aspect | Gollem | LangChain | AutoGen |
-|--------|--------|-----------|---------|
-| Language | Go | Python | Python |
-| Type safety | Compile-time | Runtime | Runtime |
-| Dependencies | Zero | Many | Many |
-| License | MIT | MIT | MIT |
-
----
-
-## Recommendation
-**SKILL** — Study for design patterns. Type-safe tool schema generation is the right idea for Hermes 2.0.
+## Action
+Already forked. Study middleware patterns for Hermes security middleware.

@@ -307,3 +307,26 @@
 - **Solomon OS fit:** SKILL — File-based IPC for Hermes sub-agent deliberation. Minimal viable multi-agent communication primitive. MIT license.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/deliberate-shell.md
+## Aegis — EDR for AI Agent Monitoring (April 22, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/Aegis
+- **What it does:** Local EDR for AI agents. Process monitoring (107 signatures), file protection, network monitoring, 4-axis behavioral anomaly scoring, trust grades A+-F. No cloud telemetry.
+- **Solomon OS fit:** INTEGRATE — Security monitoring layer for Hermes agents. Trust grades for permission tier system.
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/aegis-edr-ai-agents.md
+
+## gollem — Go Type-Safe Agent Framework (April 22, 2026)
+- **Fork:** Already forked (`gollem`)
+- **What it does:** Compile-time type-safe Go agent framework. Generic Agent[T], 5+ LLM backends, FuncTool JSON Schema gen, streaming iterators, guardrails, OpenTelemetry.
+- **Solomon OS fit:** SKILL — Middleware/guardrail patterns for Hermes security layer.
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/gollem.md
+
+## 2389-deliberation — Contemplative Multi-Agent Skills (April 22, 2026)
+- **Fork:** Already forked (`deliberation`)
+- **What it does:** Claude-based skills: discernment (internal voices), clearness (committee), gathered (participatory). MIT licensed.
+- **Solomon OS fit:** SKILL — Skills-based deliberation for Hermes decisions. MIT license.
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/2389-deliberation.md
+
+## dialectic-agentic — Multi-Agent Design Debate (April 22, 2026)
+- **Fork:** Already forked (`dialectic-agentic`)
+- **What it does:** No-code design debate framework. Expert roles → proposals → critiques → synthesis. MIT.
+- **Solomon OS fit:** SKILL — Structured design review for Hermes skill validation.
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dialectic-agentic.md
