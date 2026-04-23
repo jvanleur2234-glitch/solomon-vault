@@ -421,3 +421,11 @@
 - **What it does:** Open-source no-code platform for web scraping/crawling/search with AI data extraction. Real-time rrweb-based recorder, LLM natural-language extraction, separate browser service via CDP/WebSocket. AGPL-3.0.
 - **Solomon OS fit:** STUDY — Architecture reference only (AGPL-3.0 incompatibility). Study real-time rrweb recorder and remote browser service architecture.
 - **Status:** STUDY (AGPL-3.0 — non-commercial only)
+
+## Sentori — MCP-Native TypeScript Security Scanner (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/Sentori
+- **Fork:** https://github.com/TakumaLee/Sentori → jvanleur2234-glitch/Sentori
+- **What it does:** TypeScript security scanner purpose-built for MCP ecosystems. 29 scanners across 7 categories: supply chain integrity (postinstall scripts, unsafe serialization, namespace squatting), prompt injection (including visual prompt injection in images), MCP tool description/registry integrity, secret leak detection. Deep scan with OCR for image-based threats.
+- **Solomon OS fit:** INTEGRATE — add as security skill for Hermes MCP integration. Directly addresses OWASP LLM Top 10 risks (prompt injection, tool poisoning, supply chain). MCP-native = natural fit for Hermes MCP server ecosystem.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/sentori-mcp-security-scanner.md
