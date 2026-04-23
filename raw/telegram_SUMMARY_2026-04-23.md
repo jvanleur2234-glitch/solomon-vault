@@ -1,72 +1,66 @@
 # Telegram Session Summary — 2026-04-23
 
-## Date & Time
-2026-04-23, AIQ Scout hourly run
+## Date: April 23, 2026
 
-## Research Conducted
+## Key Decisions Made
 
-### GitHub Searches (8 categories)
-1. **Agent Framework 2026** — Found microsoft/agent-framework (9.7k stars, MIT), voltagent, dapr-agents, gollem, agent-express, agent-orcha, docker-cagent
-2. **Self-Improving AI Agent** — Found self_improving_coding_agent, NFH self-improvement-loop, deep-claw (Dream Cycle), xmaks82/self-improving-agent
-3. **Hermes MCP Skills** — Found FastMCP skill, native-mcp client (HTTP transport), jMunch MCP suite
-4. **Distributed AI Compute P2P** — Found hyperspaceai/agi, LocalAI P2P, agentfm-core, mycellm, Shard, peerclaw
-5. **AI Security Scanner** — Found hackmyagent, firmis-scanner, medusa, snyk-agent-scan, securevector-ai-threat-monitor
-6. **Browser Automation AI Agent** — Found hyperagent, agent-browser, vibium, pilo, browserable, browserclaw-agent, nanobrowser
-7. **Multi-Agent Deliberation** — Found dialectic-agentic, quorum, council, agent-debate, aibyai, artemis-agents
-8. **Recurrent Transformer MoE** — Found OpenMythos (already present), ReMoE, Mixture-of-Recursions
+1. **PetPal app** — Built full pet care app with multi-pet support, photo upload, med/feeding/vet logs, reminders, AI co-parenting agent. Live at https://josephv.zo.space/petpal
 
-### X/Twitter Searches (4 queries)
-1. **Solomon OS OR Hermes agent** — Hermes gaining traction. NVIDIA offering free AI models compatible with Hermes. Voice assistant builds with Hermes + Home Assistant.
-2. **Self-improving AI defense** — Bell Cyber autonomous SOC, self-evaluation as LLM defense, adversarial attacks.
-3. **AI agent security vulnerability 2026** — OWASP Top 10 for Agentic Applications 2026 published. Real incidents confirmed. Prompt injection #1 risk.
-4. **Distributed AI compute grid** — Gradient Network Parallax, DGrid AI resilience, Akamai+NVIDIA AI Grid.
+2. **TimeSaverAI** — Built at https://josephv.zo.space/time-saver-ai. Core AI tools: CLAUDE.md context, deep research, file search, automation creation, AI agent spawning, memory management.
 
-## Actions Taken
+3. **Standalone EXE approach** — No Zo Computer dependency for clients. JackConnect.exe runs on their Windows machine directly. Zo Computer = our build machine only.
 
-### Cloned + Forked (4 new repos)
-| Repo | Fork URL | Status |
-|------|---------|--------|
-| microsoft/agent-framework | jvanleur2234-glitch/microsoft-agent-framework | SKILL |
-| hyperspaceai/agi | jvanleur2234-glitch/hyperspaceai-agi | SKILL |
-| hackmyagent | jvanleur2234-glitch/hackmyagent | INTEGRATE |
+4. **JackConnect v2.3** — Clawd Cursor replaces custom Watch Once. Full stack:
+   - TileLang v2.2 (DeepSeek tile kernels)
+   - BitNet b1.58 (1-bit CPU)
+   - CORAL v0.5 (300-agent orchestrator)
+   - Unsloth Studio (train custom models)
+   - Obscura (6x faster headless browser)
+   - Clawd Cursor v0.8 (OS-level automation, 42 tools)
+   - OpenAuth (self-hosted auth)
+   - 7 prebuilt RE agents
 
-### Already Present (no action needed)
-- hermes-agent, OpenMythos, dapr-agents, medusa, hackmyagent, firmis-scanner, gollem, cagent, agent-express, voltagent, hyperagent, agent-browser, browserable, nanobrowser, dialectic-agentic, quorum, agent-debate, council, shard, mycellm, peerclaw, agentfm-core, hyperspace-agi
+5. **Zo Agent pip package** — Built `/home/workspace/zo-agent/` for `pip install zo-agent` distributable AI agent client
 
-### RD Reports Written
-- `/brain/RD_REPORTS/microsoft-agent-framework.md` — FORGE/SKILL
-- `/brain/RD_REPORTS/hyperspaceai-agi.md` — SKILL  
-- `/brain/RD_REPORTS/hackmyagent-security.md` — INTEGRATE
+6. **Hardware auto-detection** — llmfit integrated, TileRT tier-based model selection
 
-### HERMES_CAPABILITIES Updated
-Appended 4 new entries: microsoft-agent-framework, hyperspaceai-agi, hackmyagent, self_improving_coding_agent
+7. **DeepSeek TileLang** — DISCOVERED: TileLang v2.2 breaks CUDA monopoly. Models compile to ANY hardware backend. Changes what we can run locally.
 
-## Key Insights
+8. **NVIDIA + Claude Code** — Free for dev (1000 credits/month). Production = pay-per-token.
 
-### OWASP Agentic AI Threats (Real Incidents, Q1 2026)
-- Agent identities being targeted
-- Orchestration layers compromised
-- Supply chain attacks via skills/MCP
-- Attack timeline compressed from weeks to hours
-- Most incidents NOT mapped to CVEs
-- "The agent is the vector" — confirmed in large-scale breaches
+## Repos Analyzed This Session
+- CORAL (Human-Agent-Society) — FORGE
+- Unsloth — INTEGRATE
+- Obscura — INTEGRATE
+- Clawd Cursor — FORGE (replaces Watch Once)
+- OpenAuth — SKILL (auth layer)
+- TileLang — FORGE (hardware-agnostic inference)
+- llmfit — FORGE (hardware auto-detection)
 
-### Hermes Ecosystem Growth
-- NVIDIA offering 80+ free AI models compatible with Hermes
-- Growing professional service ecosystem (Julian Goldie: "not serious replacement yet" = opportunity)
-- FastMCP skill building momentum
+## Code Created/Modified
+- `/home/workspace/jack-connect/install-jackconnect.sh` — v2.3
+- `/home/workspace/jack-connect/petpal/` — full app
+- `/home/workspace/jack-connect/zo-agent/` — pip package scaffold
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/clawdcursor-openauth.md`
+- Zo Space routes: `/petpal`, `/time-saver-ai`
 
-### Distributed AI Competitor Landscape
-| Platform | DiLoCo | P2P | Token Economy | License |
-|----------|--------|-----|--------------|---------|
-| AgentFM | ❌ | ✅ | ✅ | MIT |
-| Hyperspace AGI | ✅ (195×) | ✅ | ✅ | MIT |
-| Shard | ❌ | ✅ | PoC | MIT |
-| mycellm | ❌ | ✅ | Credits | MIT |
-| gonka | ✅ | ✅ | ✅ | ? |
+## GitHub Pushes
+- jack-connect: v2.3 "Clawd Cursor replaces custom Watch Once"
+- solomon-vault: session summaries synced
 
-## Follow-Up Needed
-- None at this time
+## Outstanding Tasks
+- [ ] Test JackConnect install on Jack's spare T15
+- [ ] Zo Agent pip package needs full implementation
+- [ ] Remio aApp Challenge signup (jvanleur2234@yahoo.com)
+- [ ] Replit for Startups application (needs company details from Joseph)
+- [ ] PetPal "Watch Once for family" feature
+- [ ] OpenAuth deployment on Zo server as auth.solomon.os
 
-## Sync Status
-✅ Synced to GitHub: solomon-vault brain files + RD reports
+## Business Priorities (Updated)
+1. JackConnect + JCPaid — first dollar
+2. PetPal — $4.99/mo pet care
+3. TimeSaverAI — free tier, premium features
+4. Zo Agent pip — distributable AI agent client
+
+---
+*Session started: Apr 23, 2026 ~8AM CT | Ended: Apr 23, 2026 ~4:30PM CT*
