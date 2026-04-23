@@ -5064,3 +5064,24 @@
 - **Solomon OS fit:** SKILL — Claude Code integration pattern for n8n. Could inform Hermes node for n8n (separate from MCP approach). MIT license permits study.
 - **Status:** SKILL
 - **RD Report:** /brain/RD_REPORTS/n8n-nodes-claude-agent-mycoderai.md
+
+## microsoft/agent-framework — Enterprise Multi-Language Agent Framework (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/microsoft-agent-framework
+- **Forked from:** https://github.com/microsoft/agent-framework
+- **What it does:** Microsoft multi-language (Python/.NET) agent framework. Graph-based workflows, streaming, checkpointing, human-in-the-loop, time-travel debugging, DevUI, AF Labs experimental features. ~9.7k stars, MIT.
+- **Solomon OS fit:** SKILL — Major competitor to Hermes. Graph-based orchestration is a gap. Time-travel debugging worth studying. MIT license.
+- **Status:** SKILL
+
+## hyperspaceai/agi — P2P Distributed AGI with DiLoCo Training (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/hyperspaceai-agi
+- **Forked from:** https://github.com/hyperspaceai/agi
+- **What it does:** Living P2P research repo. 660+ agents, 27k+ experiments. Pods (P2P AI clusters), DiLoCo + SparseLoCo + Parcae = 195× compression for distributed training. A1 blockchain for agent micropayments. MIT.
+- **Solomon OS fit:** SKILL — DiLoCo compression patterns for Solomon Air distributed training. Pod architecture inspires portable brain concept.
+- **Status:** SKILL
+
+## hackmyagent — NanoMind Semantic Security Scanner (April 23, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/hackmyagent
+- **Forked from:** https://github.com/opena2a-org/hackmyagent
+- **What it does:** 209 security checks + 29 semantic NanoMind AST checks + 164 red team payloads. Self-securing binary. Behavioral simulation (20 probes). 44 categories. Apache-2.0.
+- **Solomon OS fit:** INTEGRATE — Best semantic scanner available. NanoMind AST analysis > regex. Install as Hermes skill: `npx hackmyagent secure`. Complements AgentArmor Studio.
+- **Status:** INTEGRATE

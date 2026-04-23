@@ -1,33 +1,33 @@
-# RD Report: microsoft/agent-framework — Multi-Language Agent Framework
+# RD Report: microsoft/agent-framework
 
-**Repo:** `microsoft/agent-framework`
-**License:** MIT | **Language:** Python (50%), C#/.NET (46%)
-**Forked:** Yes (jvanleur2234-glitch/agent-framework)
-**Date:** 2026-04-23
+**Forked:** https://github.com/jvanleur2234-glitch/microsoft-agent-framework  
+**Stars:** ~9.7k  
+**License:** MIT  
+**Language:** Python (50%), C# (46%)
 
 ## What It Is
+Microsoft's official multi-language (Python/.NET) agent framework with graph-based orchestration, streaming, checkpointing, human-in-the-loop, and time-travel capabilities. Supports both .NET and Python with consistent APIs.
 
-Microsoft's multi-language (Python + .NET) framework for building, orchestrating, and deploying AI agents and multi-agent workflows. Latest release python-1.1.0 (2026-04-21) with 74 releases and active development into 2026.
+## Relevance to Solomon OS
+- **Hermes competitor**: Graph-based workflow orchestration directly competes with Hermes skills
+- **Multi-provider support**: Could integrate as a cross-platform orchestration layer
+- **Observability**: Built-in OpenTelemetry aligns with Solomon OS monitoring needs
 
 ## Key Features
+- Graph-based workflows linking agents + deterministic functions
+- AF Labs for experimental features (RL, benchmarking)
+- DevUI for interactive agent development/testing
+- Middleware system for request/response processing
+- Migration guides from Semantic Kernel and AutoGen
 
-- **Cross-language support** — consistent APIs for Python and .NET
-- **Graph-based workflows** — connecting agents and deterministic functions with advanced data flows
-- **Streaming, checkpointing, human-in-the-loop, time-travel capabilities**
-- **AF Labs** — experimental packages for benchmarking, reinforcement learning, research
-- **DevUI** — interactive UI for building, testing, debugging agents/workflows
-- **2026 Python release** — breaking changes guide, major API consolidation (ChatAgent→Agent, etc.)
+## Comparison to What We Have
+| Feature | Microsoft | Hermes |
+|---------|-----------|--------|
+| Multi-language | ✅ Python + C# | Python only |
+| Graph orchestration | ✅ | ❌ |
+| Time-travel debugging | ✅ | ❌ |
+| DevUI | ✅ | ❌ |
+| Microsoft Foundry | ✅ | ❌ |
 
-## Solomon OS Fit
-
-**SKILL** — Microsoft's backing signals enterprise agent framework direction. Time-travel debugging and human-in-the-loop patterns are advanced features worth studying. MIT license.
-
-## Comparison to Hermes
-
-- **Hermes** — NousResearch, Python-first, skill ecosystem, Telegram/social integrations
-- **Microsoft agent-framework** — enterprise focus, multi-language, graph-based workflows, DevUI
-- Both MIT — can study Microsoft's workflow patterns for Hermes enhancements
-
-## Recommendation
-
-**SKILL** — Study time-travel debugging and workflow patterns.
+## Verdict
+**FORGE** — Major competitor to Hermes. Fork for reference architecture. Watch for Microsoft integration opportunities (Azure Foundry, Copilot stack). Graph-based orchestration is a gap in current Hermes design.
