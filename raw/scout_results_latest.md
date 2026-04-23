@@ -1,57 +1,41 @@
-# AIQ Scout Results — 2026-04-22
+# Scout Results — Latest Run
 
-## Session Overview
-**Run Date:** 2026-04-22  
-**Total Leads Audited:** 11  
-**US Businesses Targeted:** 11  
-**Payment Link:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
+**Date:** 2026-04-23  
+**Leads Audited:** 10  
+**Best Opportunities (Score < 70):** 4
 
----
+## Priority Leads for Follow-up
 
-## Audit Results Summary
+### 1. Bridgetown Moving (Portland, OR)
+- **URL:** https://bridgetown-moving.com/
+- **Score:** 74/100 (C)
+- **Issues:** Server response 2033ms (very slow), no compression, missing alt text
+- **Fix Value:** High — slow site loses customers
 
-| # | Business | URL | SEO Score | Grade |
-|---|----------|-----|-----------|-------|
-| 1 | Mile High MEP | https://milehighmep.com/ | 84 | B |
-| 2 | Covina CA Locksmith | https://www.covinacalocksmith.com/ | 53 | F |
-| 3 | Clint Johnson HVAC | https://clintjohnsonhvac.com/ | 63 | D |
-| 4 | Just In Time Electrical & Plumbing | https://www.justintimeelectrical.com/ | 74 | C |
-| 5 | StrongTower Lock & Key | https://www.strongtowerlockandkey.com/ | 37 | F |
-| 6 | Remington Family Dental | http://www.remingtonfamilydental.com/ | 74 | C |
-| 7 | Wellesley Locksmith Store | https://wellesleylocksmithstore.com/ | 89 | B |
-| 8 | Dentist Greenwood (Dr. Griffin) | https://dentistgreenwood.com/ | 79 | C |
-| 9 | Lock Doctor Inc | https://www.lockdoctorinc.com/ | 74 | C |
-| 10 | Grand Lake Plumbing & Heating | https://www.grandlakeplumbing.com/ | 74 | C |
-| 11 | Coastline Heating and Air | https://www.coastlineheatingandair.com/ | 84 | B |
+### 2. 911 Houston Movers (Houston, TX)
+- **URL:** https://911houstonmovers.com/
+- **Score:** 68/100 (D)
+- **Issues:** Slow server, missing OG tags, missing alt text
+- **Contact:** info@911houstonmovers.com
+- **Fix Value:** High — local SEO opportunity
 
----
+### 3. True Friends Moving Company (Nashville, TN)
+- **URL:** https://www.truefriendsmovingcompany.com/
+- **Score:** 68/100 (D)
+- **Issues:** Slow server, no favicon, missing alt text
+- **Contact:** Phone 615-240-2811, contact form
+- **Fix Value:** Medium
 
-## Top 3 Priority Leads (Lowest Scores)
+### 4. John's Plumbing (Birmingham, AL)
+- **URL:** https://www.johnsplumbingbham.com/
+- **Score:** 68/100 (D)
+- **Issues:** Slow server, missing alt text, short meta description
+- **Fix Value:** High — HVAC keywords competitive
 
-### 1. StrongTower Lock & Key — Score: 37 (F)
-- **URL:** https://www.strongtowerlockandkey.com/
-- **Issues:** Site returns 404, no title tag, no meta description, no canonical, no lang attribute, no H2 tags, content under 300 words
-- **Fix:** Site needs complete rebuild — highest opportunity
+## Payment Link
+**https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08** ($29/mo SEO audit)
 
-### 2. Covina CA Locksmith — Score: 53 (F)
-- **URL:** https://www.covinacalocksmith.com/
-- **Issues:** No canonical tag, title too long, missing Open Graph + Twitter Card tags, images lack alt text and lazy loading, no favicon
-- **Fix:** Technical SEO overhaul needed
-
-### 3. Clint Johnson HVAC — Score: 63 (D)
-- **URL:** https://clintjohnsonhvac.com/
-- **Issues:** Slow server (882ms), title tag too short (25 chars), no H1 tag, missing alt text on images, no Open Graph or Twitter Card tags
-- **Fix:** On-page SEO + performance optimization
-
----
-
-## Outreach Prepared
-
-All 11 leads logged to `/home/workspace/solomon-vault/raw/scout_leads_2026-04-22.json`
-
----
-
-## Next Steps
-- Execute cold email outreach to top 5 leads
-- Monitor for Stripe payment conversions
-- If reply received → escalate to Joseph via Telegram immediately
+## Notes
+- Solomon OS can fix: slow server (CDN/hosting), alt text (AI tool), OG tags (automated)
+- Average score across 10 businesses: 74.1 — significant room for improvement
+- Local service businesses consistently under-optimized
