@@ -1,38 +1,49 @@
-# Telegram Session Summary — 2026-04-23 Morning
+# Telegram Session Summary — 2026-04-23
 
 **Date:** April 23, 2026
+**Session Start:** ~2PM CT | **Session End:** ~3:30PM CT
 
 ## Key Decisions Made
 
-1. **PetPal architecture:** Multi-pet support (dogs, cats, birds, fish, reptiles, small mammals), photo upload, natural language logging, Remio aApp Challenge ready
-2. **JackConnect v2.2:** Local WSL2 install (NOT cloud) — client machine runs BitNet/Ollama/screen capture, Zo Computer is coordination layer only
-3. **zo-agent pip package:** Python package that lets any client `pip install zo-agent` and connect to Solomon OS backend. Works on all Zo plans.
-4. **JackConnect.exe:** GitHub Actions CI/CD to build Windows executable. Free tier builds it automatically.
-5. **TileLang v2.2:** DeepSeek tile kernels added to install — hardware-agnostic AI inference. 500-600 tok/sec on B200 GPU.
-6. **Pricing tiers confirmed:**
-   - Lite: $29/mo → 40-60 agents
-   - Pro: $89/mo → 150-200 agents
-   - Enterprise: $199/mo → 600-800 agents
-   - White-label: $499 setup + $99/mo
+1. **PetPal (Dog Co-Parent App) fully rebuilt** — multi-pet support, photo upload, natural language logging, Remind/Alerts tab, health/vet/meds/food/supplies tabs
+2. **TimeSaverAI Remio aApp** — submitted for Remio challenge
+3. **TileLang v2.2 wired into install** — hardware-agnostic tile kernels, 500-600 tok/sec on B200 GPU
+4. **llmfit auto-detection** — hardware detection → best model selection baked into install
+5. **Zo Agent pip package created** — connect any client install to backend
+6. **JackConnect.exe CI/CD** — GitHub Actions auto-builds Windows exe
+7. **Pricing tiers planned** — JCPaid Solo ($19), Pro ($49), Business ($99), Agency ($299), Enterprise (custom)
+8. **Standalone exe confirmed** — client machine only, no server dependency
+9. **CORAL + Unsloth + Obscura added to install** — v2.3 pushed to GitHub
 
-## What We Decided NOT to Do
-- Cloud-hosted AI employees: rejected in favor of local WSL2 install (privacy, latency, local screen capture requirements)
-- Zo Computer as primary AI runtime: Zo Computer is coordination/dashboard layer only
+## New Tools Added to JackConnect Install (v2.3)
+- **CORAL v0.5** — Git-based 300-agent self-evolution orchestrator (LiteLLM gateway, Claude Code/Codex/OpenCode runtimes)
+- **Unsloth Studio** — Train custom vertical agents locally (500+ models, 2x faster, 70% less VRAM)
+- **Obscura** — Rust headless browser (30MB vs 200MB Chrome, 85ms load, anti-detection, Puppeteer/Playwright compatible)
 
-## Code Created
-- `jack-connect/petpal/` — PetPal multi-pet care app (zo.space)
-- `jack-connect/time-saver-dashboard/` — Time Saver Dashboard (zo.space)
-- `jack-connect/desktop-app/` — Tauri desktop scaffold
-- `jack-connect/jcpaird-agents/` — 7 JCPaid business agents
-- `jack-connect/SPEC.md` — Full product spec
-- `install-jackconnect.sh v2.2` — One-command install with llmfit + TileLang
-- `zo-agent/` — pip installable Python package (needs finalizing)
+## What Was Discussed
+- NVIDIA Build free credits + Claude Code = free agents (1K credits/day)
+- Standalone exe vs Zo Computer — confirmed standalone is the move (client isolation, no server dependency, no server cost)
+- Pricing packaging — tiered JCPaid model with room for expansion
+- 300 agents via CORAL + BitNet + TileLang on T15 Lenovo
+- llmfit auto-detects hardware and picks best model
 
-## Push Status
-- GitHub: jack-connect v2.2 (d0d64e5)
-- All brain files synced
+## GitHub Status
+- jack-connect: v2.3 pushed (CORAL + Unsloth + Obscura)
+- solomon-vault: synced
+
+## RD Reports Written
+- RD_REPORT_batch_2026-04-22.md (evening batch)
+- RD_REPORT_batch_2026-04-23.md (latest batch: CORAL, Unsloth, Obscura, TileLang)
+- RD_REPORT_dreamsrv.md, paperclip-company-generator.md, rcli.md, gmai-hack.md, dreamserver.md
+
+## Apps Live on Zo Space
+- https://josephv.zo.space/petpal
+- https://josephv.zo.space/time-saver-ai
+- https://josephv.zo.space/jackconnect
+- https://josephv.zo.space/jackconnect-dashboard
 
 ## Unresolved
-- PetPal photos not showing on live site (zo.space caching issue)
-- zo-agent pip package: needs final publish
-- Remio aApp Challenge: form submitted, awaiting confirmation
+- Testing on Jack's spare T15 (pending physical access)
+- Remio aApp Challenge submission status
+- Zo Agent pip package publish to PyPI
+- JackConnect.exe GitHub Actions build verification
