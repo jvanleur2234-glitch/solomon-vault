@@ -1,69 +1,73 @@
-# Scout Session Summary — April 23, 2026 (16:40 UTC)
+# Telegram Session Summary — 2026-04-23
 
-## Research Conducted
+## Date
+Thursday, April 23, 2026 — 8:06 AM to 4:58 PM CDT
 
-### GitHub Searches (8 categories)
-1. Agent framework 2026 — Microsoft Agent Framework (9.7k stars, MIT), VoltAgent (TypeScript), Dapr Agents (Apache-2.0), Agent Express (MIT), Agent Orcha (MIT), Gollem (Go, MIT)
-2. Self-improving AI agent — MaximeRobeyns/self_improving_coding_agent, xmaks82/self-improving-agent, deep-claw (Dream Cycle), nfh-self-improvement-loop (MIT)
-3. Hermes MCP skills — FastMCP skill merged, jMunch MCP suite (~37x token reduction), native MCP client with HTTP transport
-4. Distributed AI compute P2P — AgentFM (already forked), LocalAI P2P (PR #2343), Shard (browser P2P), Hyperspace (already forked)
-5. AI security scanner — Snyk agent-scan (MCP-focused), ai-agent-scanner (shadow AI discovery), Medusa (9,600+ patterns), Firmis (268 rules)
-6. Browser automation — HyperAgent, agent-browser (Rust), Vibium (WebDriver BiDi), Pilo (Mozilla)
-7. Multi-agent deliberation — Quorum (already forked), agent-debate (already forked), aibyai (already cloned)
-8. Recurrent transformer MoE — OpenMythos (already forked), Mixture-of-Recursions (already cloned), ReMoE (already cloned)
+## Key Decisions Made
 
-### X/Twitter Searches (4 queries)
-1. "Solomon OS OR Hermes agent" — SupraWall x Hermes production-ready, GPT-5.5 in Hermes
-2. "self-improving AI defense" — Autonomous SOC, self-evaluation as LLM defense
-3. "AI agent security vulnerability 2026" — OWASP Top 10 for Agentic Applications 2026 confirms live exploitation
-4. "distributed AI compute grid" — Sentient GRID architecture, Gradient Network Parallax
+### JackConnect v2.x Architecture
+- **JackConnect = standalone .exe + WSL2 backend** — client runs everything locally, no complex install needed
+- **FreeLLMAPI** — 14 free LLM providers via 1 OpenAI-compatible endpoint (port 8080). Agents call localhost, FreeLLMAPI routes to cheapest/fastest available provider. Auto-failover.
+- **TileLang v2.2** — DeepSeek tile kernels, hardware-agnostic inference (NVIDIA/AMD/CPU), 500-600 tok/sec on B200 GPU
+- **CORAL v0.5** — 300-agent orchestration via LiteLLM gateway (Claude Code/Codex/OpenCode)
+- **Unsloth Studio** — local model training (500+ models)
+- **Clawd Cursor** — OS-level "Watch Once" automation (42 tools: mouse/keyboard/screen/browser)
+- **Obscura** — 6x faster headless browser (30MB RAM vs 200MB Chrome, 85ms load vs 500ms)
 
-### Key Findings
+### PetPal App
+- Built at https://josephv.zo.space/petpal
+- Full pet management: name, type, breed, age, weight, photo upload
+- 5 tabs: Dashboard | Medical | Potty Training | Feeding | Activities
+- Dog Co-Parent app — coordination + med tracking + potty training + lost dog
+- Photo upload to capture pet image
 
-#### 🔴 CRITICAL: OWASP Agentic Top 10 2026 — Live Exploitation
-- AI agents are now PRIMARY ATTACK VECTORS (confirmed March 2026 breaches)
-- Mexican government agencies compromised via weaponized Claude
-- Most incidents CANNOT be mapped to CVEs — no framework for "trust model failure"
-- SANS called it an emergency. Exploit timeline: weeks → hours
+### TimeSaverAI App
+- Built at https://josephv.zo.space/time-saver-ai
+- 4 tabs: Dashboard | Automations | Billing | Settings
+- Designed for Remio aApp Challenge
 
-#### 🔴 CRITICAL: SupraWall x Hermes Production-Ready
-- Deterministic ALLOW/DENY gating for Hermes tool calls
-- Local PII scrubbing + RSA-signed audit logs
-- Live on PyPI, green tests
-- SupraWall chose Hermes as first integration target — enterprise validation signal
+### JCPaid Skills
+- New repo: /home/workspace/jcp-aid-skills/ — Agent Skills for AI staffing agency
+- 7 prebuilt RE agents (Transaction Tracker, Market Intel, Lead Qualifier, CMA Generator, Client Nourisher, Follow-Up, Listing Agent)
+- Follows Google Agent Skills format (metadata.yaml + AGENT.md per skill)
+- MIT licensed, our own repo
 
-#### 🟡 Notable: GPT-5.5 in Hermes
-- Via ChatGPT/Codex OAuth provider
-- `hermes update` to access
+### Hardware Auto-Detection
+- JackConnect installer auto-detects hardware (RAM, GPU) on first run
+- TileLang backend selected automatically (CUDA/ROCm/CPU)
+- Tier-based model selection: 3B/8B/14B/27B/72B depending on VRAM
+- llmfit integrated for model fit scoring
 
-## Actions Taken
+### FreeLLMAPI (v1.6)
+- Found via tashfeenahmed/freellmapi
+- Critical for JackConnect — gives clients 14 free providers with zero API key management
+- OpenAI-compatible endpoint means existing code works without changes
 
-### RD Reports Written (4)
-- `suprawall-hermes-agent-integration.md`
-- `localai-p2p-distributed-inference.md`
-- `owasp-agentic-top10-2026-live-exploitation.md`
-- Hermes Agent + GPT-5.5 noted
+## Code Created/Modified
+- /home/workspace/jack-connect/install-jackconnect.sh — v2.5, FreeLLMAPI integrated
+- /home/workspace/jack-connect/SPEC.md — updated
+- /home/workspace/zo-agent/ — pip installable AI agent package
+- /home/workspace/jcp-aid-skills/ — JCPaid Agent Skills repo (7 RE agents)
+- /home/workspace/zo-excellence-package/SHARED_KNOWLEDGE.md — updated
 
-### HERMES_CAPABILITIES.md Updated
-- SupraWall entry
-- LocalAI P2P entry
-- OWASP Agentic Top 10 entry
-- GPT-5.5 integration entry
+## Problems Solved
+- Rust installation on sandbox (needed for Tauri builds) — installed via rustup to /tmp/rustust
+- Tauri build blocked by missing WebKitGTK — noted, build requires full dev environment
+- JackConnect desktop app scaffold built (Tauri + React), can compile when WebKitGTK available
 
-### Fork Attempts
-- LocalAI: ✅ Forked (https://github.com/jvanleur2234-glitch/LocalAI)
-- OpenMoonViT: ❌ Does not exist or is private (Kye Gomez repo search failed)
-- suprawall: ❌ GitHub repo not found (wiserautomatio not accessible via curl)
-- ai-agent-scanner: Already forked
-- agent-security: Already forked
+## Unresolved Issues
+- Tauri desktop build requires GTK/WebKit on server — can't fully compile .exe from sandbox
+- Remio aApp Challenge signup — browser automation failed (502 error), need to complete manually
+- Zo1→Zo2 coordination test — SPEC written but not executed
 
-## Unresolved
-- SupraWall actual GitHub repo location — need to search directly on GitHub
-- OpenMoonViT — Kye Gomez repo doesn't resolve (case sensitivity? renamed?)
-- LocalAI P2P feature not fully explored (PR #2343 only, not main branch feature)
+## Follow-up Needed
+- Test JackConnect install on Jack's T15
+- Complete Remio signup manually at https://josephv.zo.space/remio
+- Test FreeLLMAPI locally to verify 14 providers work
+- Push JCPaid Skills to GitHub (created locally, not yet pushed)
 
-## Next Steps (Next Session)
-1. Locate SupraWall repo via direct GitHub search
-2. Verify OpenMoonViT — check Kye Gomez's actual repo list
-3. Explore LocalAI P2P PR #2343 for integration potential
-4. Run agentarmor-studio integration check for OWASP Top 10 alignment
+## GitHub
+- jack-connect: https://github.com/jvanleur2234-glitch/jack-connect (v2.5 pushed)
+- solomon-vault: synced
+- zo-excellence-package: synced
+- jcp-aid-skills: created locally, not yet pushed
