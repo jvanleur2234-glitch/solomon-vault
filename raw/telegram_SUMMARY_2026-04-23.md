@@ -1,98 +1,55 @@
-# Scout Session Summary — April 23, 2026
+# Telegram Session Summary — 2026-04-23 Morning
 
-## Date & Time
-2026-04-23 11:45 UTC
+**Date:** April 23, 2026
+**Key Theme:** JackConnect build-out + hardware auto-detection
 
-## Repos Cloned This Session
-- None (all target repos already existed in workspace)
+## What We Decided
 
-## Repos Forked This Session
-- `deliberation` (2389-research/deliberation) — multi-agent contemplative deliberation framework
-- All other targets were already forked
+1. **PetPal app** — fully built at https://josephv.zo.space/petpal
+   - Multi-pet support (dogs, cats, birds, fish, rabbits, horses, hamsters)
+   - Natural language logging ("I walked buddy" → auto-logs walk)
+   - Photo upload per pet
+   - Care log, health, schedule, co-parent tabs
+   - Lost dog alert button
+   - Coming: Watch Once for family members
 
-## Key Findings
+2. **TimeSaverAI** — Remio aApp Challenge entry built at https://josephv.zo.space/time-saver-ai
+   - 5 time categories, streak tracking, weekly summary
+   - Telegram bot for logging
+   - Share to social
 
-### 1. AGENT FRAMEWORKS (2026)
-- **microsoft/agent-framework** — ~9.7k stars, MIT, graph-based orchestration, time-travel, Python/.NET
-- **dapr/dapr-agents** — Apache-2.0, Kubernetes-native AI agents, durable workflow execution
-- **gollem** (fugue-labs) — Go agent framework, compile-time type safety, zero deps, multi-provider
-- **voltagent** — TypeScript, multi-agent, memory/RAG/MCP, voice support
-- **kohaku** (DNLINYJ/KohakuTerrarium) — Python, creatures + terrariums, persistent memory
-- **ddalcu/agent-orcha** — TypeScript, YAML-based orchestration, P2P agent sharing
-- **agent-express** — TypeScript, middleware-style, 12+ providers, observability
+3. **Qwen3.6-27B integration** — added to JackConnect install
+   - Claude Code-level coding agent
+   - 27B params runs on laptop (beats models 15X larger)
+   - Auto-detects hardware → picks best model tier
 
-### 2. SELF-IMPROVING AGENTS
-- **MaximeRobeyns/self_improving_coding_agent** — MIT, iterative self-improvement loop, Docker
-- **xmaks82/self-improving-agent** — 16-agent pipeline, prompt versioning from feedback
-- **theprint/nfh-self-improvement-loop** — MIT, adversarial evaluator separates generation/judgment
-- **Ramsbaby/openclaw-self-evolving** — Bash+Python, weekly log analysis, human-in-loop proposals
-- **Grail-Computer/Self-Improving-Agent** — AGENTS.md persistence + meta-skill template
-- **j-d0g/self-improving-agent** — Financial QA, Learner+Improver cross-session learning
+4. **Hardware auto-detection** — integrated llmfit/whichllm into install script
+   - Detects RAM, GPU, VRAM automatically
+   - Tier-based model selection (24GB VRAM → Qwen3.6-27B, etc.)
+   - No manual model picking needed
 
-### 3. HERMES MCP SKILLS
-- **NousResearch/hermes-agent** — FastMCP skill merged (PR #10413), jMunch MCP suite (code/doc/data retrieval)
-- Native MCP client with HTTP transport, reconnection, security — 1186 tests passing
-- mcporter CLI for discovering/calling MCP servers
-- Hermes-as-MCP-server proposal (expose tools to MCP ecosystem)
+5. **DeepSeek TileLang Tile Kernels** — open sourced April 23, 2026
+   - Breaks CUDA dependency, supports NVIDIA + Huawei Ascend
+   - TileRT: 500-600 tokens/sec on B200 GPU
+   - Integrate into JackConnect v2.2 as kernel optimization layer
+   - Decision: add to install script as v2.2 upgrade
 
-### 4. DISTRIBUTED AI COMPUTE P2P
-- **hyperspaceai/agi** — MIT, P2P DiLoCo training, 195x compression, blockchain economics
-- **mycellm** — Apache-2.0, P2P GPU federation, QUIC NAT traversal, credit economy
-- **Agent-FM/agentfm-core** — Go/libp2p, zero-config P2P, Podman sandboxing, GossipSub load balancing
-- **Shard** (TrentPierce) — Browser WebGPU scouts + verifier nodes, BitNet 1.58-bit
-- **KwaaiNet** — MIT, Rust/TypeScript, decentralized trust graph, live network v0.3.24
-- **mycellm** — P2P inference with OpenAI-compatible API
+6. **Replit for Startups** — needs Joseph's info (name, company, website, X handle, what building)
 
-### 5. AI SECURITY SCANNERS
-- **sinewaveai/agent-security-scanner-mcp** — 1,700+ rules, AST/taint analysis, prompt injection firewall
-- **pantheon-security/medusa** — 9,600+ patterns, repo poisoning detection, 200 CVE detections
-- **snyk/agent-scan** — MCP server inventory, 15+ risk categories
-- **empowered-humanity/agent-security** — OWASP ASI Top 10, 220+ patterns, TypeScript/MIT
-- **firmis-scanner** — 268 detection rules, code + instruction surface analysis
-- **agentverus/agentverus-scanner** — SKILL.md trust boundary scanning, behavioral risk scoring
-- **securevector-ai-threat-monitor** — Local real-time firewall, per-agent budgets, skill scanner
+7. **Remio aApp Challenge** — registered, building TimeSaverAI
 
-### 6. BROWSER AUTOMATION
-- **hyperbrowserai/hyperagent** — TypeScript, Playwright+AI, natural language, action caching
-- **vercel-labs/agent-browser** — Rust CLI, accessibility tree, screenshot, keyboard input
-- **VibiumDev/vibium** — WebDriver BiDi, zero-config, ~10MB binary, multi-language libs
-- **mozilla/pilo** — Tabstack, natural language browser control, guardrails
-- **idan-rubin/browserclaw-agent** — Anti-bot bypass, Cloudflare Turnstile, per-domain skill learning
-- **AshtonVaughan/agentbrowser** — Semantic actions, 95% lower token cost vs HTML
-- **sired/browser-use** — Python, memory-enabled, LangChain integration
+## Code Created/Modified
+- `/jackconnect-dashboard` — live Zo Space route
+- `/petpal` — full multi-pet care app (multi-pet, photo upload, natural language log)
+- `/time-saver-ai` — Remio challenge app
+- `install-jackconnect.sh` v2.1 — auto hardware detection + Qwen3.6-27B
 
-### 7. MULTI-AGENT DELIBERATION
-- **slior/dialectic-agentic** — YAML-free, skill-file driven, architect/security/performance debate
-- **2389-research/deliberation** — Claude skills, discernment/cleverness/gathered phases
-- **Solvely-Colin/Quorum** — TypeScript, 7-phase deliberation, Borda voting, audit ledger
-- **dubs3c/council** — Python, Architect/Critic/AppSec personas, consensus report
-- **gumbel-ai/agent-debate** — Evidence-based, file:line citations, adversarial refinement
-- **Yash-Awasthi/aibyai** — Conflict detector + synthesizer + cold validator, confidence scoring
-- **kstevica/captain-claw** — Agent Council (debate/brainstorm/review/planning), voting, TL;DR
+## GitHub Pushes
+- jack-connect repo: pushed (811d65a, then v2.2 TileLang update)
+- solomon-vault: synced
 
-### 8. RECURRENT TRANSFORMER MoE
-- **kyegomez/OpenMythos** — Recurrent-Depth Transformer, looped layers, MoE sparse experts
-- **raymin0223/mixture_of_recursions** — Per-token recursion depth routing, MoR framework
-- **thu-ml/ReMoE** — Differentiable MoE routing, ReLU-based, adaptive L1 regularization
-
-## X/Twitter Trends
-- **Hermes Agent** = 113k+ stars, learning loops, membase plugin, Higgsfield Marketing Studio
-- **OWASP Top 10 for Agentic Applications 2026** — prompt injection #1, execution layer exploits
-- **"Shadow Agent" crisis** — Google's warning on unauthorized AI deployments
-- **Claude weaponized** for exploit development against Mexican government agencies
-- **Sentient GRID** — orchestration layer for agents, token-level routing, reproducibility
-
-## Actions Taken
-- Forked `deliberation` to jvanleur2234-glitch
-- All other target repos already cloned + forked
-- 326 RD reports in vault
-- HERMES_CAPABILITIES.md already includes relevant entries
-
-## Unresolved / Follow-up
-- OpenMythos (kyegomez) already forked but RD report may need updating for latest branch
-- Some deliberation repos (Quorum, council, agent-debate) — check if RD reports are current
-
-## Next Session
-- Check for new repos from @swarms_corp (Kye Gomez)
-- Monitor OWASP LLM Top 10 ecosystem tools
-- Check n8n community nodes for AI agents
+## Unresolved
+- Tauri desktop app build (needs WebView2/GTK libs on cloud server — can't compile Windows .exe here)
+- Replit application (waiting on Joseph's info)
+- PetPal "Watch Once for family" feature (next session)
+- TileLang v2.2 integration (decision pending Joseph's approval)
