@@ -1,30 +1,37 @@
-# RD Report: HyperAgent
+# RD Report: hyperbrowserai/HyperAgent
 
-**Repo:** `hyperbrowserai/HyperAgent`  
-**License:** MIT | **Lang:** TypeScript  
+**Date:** 2026-04-22
+**License:** MIT (estimated)
+**Stars:** ~1,300
+**Language:** TypeScript
+**Relevance:** 🟡 High — AI Browser Automation Competitor
 
-## What It Does
-AI-augmented browser automation built on Playwright. Natural language commands drive browser interactions with stealth mode and cloud scaling.
-
-## Why It Matters for Solomon OS
-- **Playwright Supercharged**: Natural language AI commands on top of reliable browser automation
-- **Stealth Mode**: Built-in anti-bot patches reduce detection
-- **Cloud Ready**: Scale to hundreds of sessions via Hyperbrowser
-- **MCP Client**: Integration with Composio for end-to-end workflows
-- **Action Caching**: Record/replay workflows deterministically
+## What It Is
+AI-augmented Playwright extension for browser automation with natural language commands. Augments traditional Playwright with AI-driven actions (page.ai(), page.extract(), executeTask()).
 
 ## Key Capabilities
-- `page.ai()`, `page.extract()`, `executeTask()` APIs
-- Fallback to regular Playwright when AI isn't needed
-- Stealth mode anti-bot patches
-- Cloud scaling via Hyperbrowser
-- MCP client for Composio integration
-- CLI and library usage
+- **Natural language automation** — describe tasks in plain English
+- **AI + traditional fallbacks** — page.ai() for complex tasks, page.perform() for reliable single actions
+- **Stealth mode** — built-in anti-bot patches to reduce detection
+- **Cloud-ready** — scales via Hyperbrowser infrastructure
+- **MCP client** — integrates with Composio for full workflows
+- **Action caching** — record/replay deterministic workflows without LLM calls
+- **Structured extraction** — extract structured data with Zod schemas
 
-## Comparison to What We Have
-vs **browser-use**: HyperAgent is TypeScript/Playwright-based, browser-use is Python. Both strong. HyperAgent's cloud scaling is differentiated.
+## Why It Matters
+1,300 stars, active development, TypeScript-native. Strong competitor to browser-use and our own browser automation plans.
 
-## Recommendation
-**SKILL** — Consider for TypeScript-based Solomon OS browser automation. Hyperbrowser cloud could replace self-hosted for scale.
+## Comparison
+| Feature | HyperAgent | HyperBrowser (existing) |
+|---------|-----------|----------------------|
+| Language | TypeScript | Python |
+| AI integration | Built-in | External |
+| Anti-bot stealth | ✅ | ❌ |
+| Action caching | ✅ | ❌ |
+| MCP support | ✅ | ❌ |
 
-**Category:** #browser-automation #typescript #playwright
+## Solomon OS Fit
+**SKILL** — Anti-bot stealth + action caching patterns worth studying. MCP integration aligns with Hermes skill ecosystem.
+
+## Action
+Already cloned. Study stealth browser + action caching for Solomon Browser implementation.
