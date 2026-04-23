@@ -330,3 +330,58 @@
 - **What it does:** No-code design debate framework. Expert roles → proposals → critiques → synthesis. MIT.
 - **Solomon OS fit:** SKILL — Structured design review for Hermes skill validation.
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dialectic-agentic.md
+
+## Docker Agent (cagent) — Declarative Multi-Agent Runtime (April 23, 2026)
+- **URL:** https://github.com/docker/cagent
+- **Fork:** https://github.com/jvanleur2234-glitch/cagent
+- **What it does:** Docker CLI plugin for declarative YAML-based AI agents. Multi-AI provider support (OpenAI, Anthropic, Gemini, AWS Bedrock, Mistral, xAI, Docker Model Runner). Built-in tools + MCP, RAG with BM25/embeddings/hybrid search/reranking. OCI registry push/pull for agent distribution.
+- **Solomon OS fit:** INTEGRATE — Docker-based container runtime could be Hermes skill execution layer. YAML agent config maps to skill manifests. RAG pipeline for Solomon knowledge base. Registry distribution for skill packages. Apache 2.0.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/docker-agent-cagent.md
+
+## MEDUSA — AI Security Scanner (9,600+ Patterns) (April 23, 2026)
+- **URL:** https://github.com/Pantheon-Security/medusa
+- **Fork:** https://github.com/jvanleur2234-glitch/medusa
+- **What it does:** AI-first security scanner with 9,600+ detection patterns, 200 CVE detections (Log4Shell, Spring4Shell, LangChain RCE). `medusa scan --git` for repo scanning. Multi-core parallel + smart caching. JSON/HTML/Markdown/SARIF output. IDE integrations (Claude Code, Cursor, VS Code, Gemini CLI). Apache 2.0.
+- **Solomon OS fit:** INTEGRATE — Security pre-flight for every Hermes skill/tool. 9,600 patterns >> current coverage. SOC2/GDPR compliance evidence. Apache 2.0.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/medusa-ai-security-scanner.md
+
+## Agent Debate — Shell-Based Multi-Agent Technical Deliberation (April 23, 2026)
+- **URL:** https://github.com/gumbel-ai/agent-debate
+- **Fork:** Already forked (`agent-debate`)
+- **What it does:** Structured technical debate protocol via shared Markdown file editing. Evidence-based with line-referenced citations. Supports Claude Code, Codex, Gemini CLI, Copilot CLI. Auto mode with optional Plan phase. Guardrails via agent-guardrails.md. MIT.
+- **Solomon OS fit:** SKILL — Evidence-based deliberation for Hermes skill validation. Shell-based = zero dependency. Could power "Council of High Intelligence" deliberation layer.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-debate-shell-deliberation.md
+
+## Council — Multi-Agent Persona-Based Discussion (April 23, 2026)
+- **URL:** https://github.com/dubs3c/council
+- **Fork:** Already forked (`council`)
+- **What it does:** Multi-agent discussion with distinct personas (Architect, Critic, AppSec Specialist) debate to reach consensus. ProposalPhase → DebatePhase → Moderator synthesis → Final Report with full transcript. Python, MIT.
+- **Solomon OS fit:** SKILL — Persona-based deliberation for Hermes skill review. Architect/Critic/Security personas map to Hermes multi-agent validation. Markdown transcript = audit trail.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/council-multi-persona-deliberation.md
+
+## Vibium — AI-Native Browser Automation CLI (April 23, 2026)
+- **URL:** https://github.com/VibiumDev/vibium
+- **What it does:** Lightweight ~10MB binary, auto Chrome download, zero config. Built on WebDriver BiDi. CLI: go, map, find, click, text, screenshot, pdf, eval, wait, record, fill, select, check, press. MCP server + JS/Python/Java client libs. Apache 2.0.
+- **Solomon OS fit:** SKILL — Browser automation primitive for Solomon Browser. Standards-based = cross-browser. Auto Chrome download = zero friction. Apache 2.0.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/vibium-browser-automation.md
+
+## Shard — Browser-Powered P2P Distributed Inference (April 23, 2026)
+- **URL:** https://github.com/TrentPierce/Shard
+- **Fork:** Already forked (`Shard`)
+- **What it does:** Browser-powered P2P inference. Scouts (WebGPU) generate drafts, Shards (BitNet 1.58-bit) verify. Proof-of-Compute credits. OpenAI-compatible API. libp2p mesh. MIT.
+- **Solomon OS fit:** SKILL — Architecture study for Solomon Air distributed compute. Browser/WebGPU as compute node is novel. POC credit system for agent economy.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/shard-browser-p2p-inference.md
+
+## Swarms AutoHedge — Swarm Intelligence Market Analysis (April 23, 2026)
+- **URL:** https://github.com/The-Swarm-Corporation/AutoHedge
+- **Fork:** Already forked (`AutoHedge`)
+- **What it does:** Automates market analysis, risk management, and trade execution using swarm intelligence and AI agents for autonomous hedging. 1,148 stars. Python MIT.
+- **Solomon OS fit:** SKILL — Swarm orchestration pattern for Hermes multi-agent workflows. Market analysis use case for Solomon OS business intelligence layer.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/AutoHedge.md
