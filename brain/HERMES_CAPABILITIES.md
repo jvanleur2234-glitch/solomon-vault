@@ -429,3 +429,19 @@
 - **Solomon OS fit:** INTEGRATE — add as security skill for Hermes MCP integration. Directly addresses OWASP LLM Top 10 risks (prompt injection, tool poisoning, supply chain). MCP-native = natural fit for Hermes MCP server ecosystem.
 - **Status:** INTEGRATE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/sentori-mcp-security-scanner.md
+
+## thu-ml/ReMoE — Fully Differentiable MoE with ReLU Routing (April 23, 2026)
+- **URL:** https://github.com/thu-ml/remoe
+- **Fork:** jvanleur2234-glitch/remoe
+- **What it does:** Fully differentiable Mixture-of-Experts built on NVIDIA Megatron-LM. ReLU activation replaces TopK softmax routing for continuous, dynamic expert allocation. Adaptive L1 regularization controls sparsity.
+- **Solomon OS fit:** SKILL — MoE architecture reference. If Hermes ever needs task routing across expert models (coding vs. creative vs. analysis), ReMoE's differentiable routing is worth studying. Apache 2.0 allows code reference.
+- **Status:** SKILL — architecture study only
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/remoe-differentiable-moe.md
+
+## TrentPierce/Shard — Receipt-First Multi-Topology Agent Runtime (April 23, 2026)
+- **URL:** https://github.com/TrentPierce/Shard
+- **Fork:** NO (FSL-1.1-ALv2 license — proprietary)
+- **What it does:** Agent execution runtime with receipt-chain provenance. Every workflow step emits durable receipt with routing, trust, cost, latency, failure details. Three topology tiers: personal (local), private (team mesh), public (shared specialist capacity). OpenAI-compatible API.
+- **Solomon OS fit:** SKILL — Receipt/provenance pattern directly applicable to Solomon OS operation logging. Every skill execution should emit verifiable receipt. Multi-topology routing (personal→private→public) maps to Solomon's local Ollama → Hermes hosted → external API tier. FSL license prevents code use but concept is valuable.
+- **Status:** SKILL — provenance pattern study; do NOT use code (FSL license)
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/shard-receipt-first-runtime.md
