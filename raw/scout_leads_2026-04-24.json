@@ -1,0 +1,133 @@
+[
+  {
+    "date": "2026-04-24",
+    "business_name": "Saint Petersburg 24/7 Locksmith",
+    "url": "https://www.saintpetersburg247locksmith.com",
+    "seo_score": 53,
+    "top_issues": [
+      "Missing meta description entirely",
+      "No H1 tag on homepage",
+      "No Open Graph tags — social sharing dead",
+      "9 SEO failures total"
+    ],
+    "contact_method": "admin@saintpetersburg247locksmith.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Pure Air Heating & Air Conditioning",
+    "url": "https://www.pure-comfort.com",
+    "seo_score": 63,
+    "top_issues": [
+      "Slow server response time (887ms)",
+      "Images lack alt text — accessibility fail",
+      "No Open Graph tags — social sharing dead"
+    ],
+    "contact_method": "info@pure-comfort.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Mayfield Heating & Air Services",
+    "url": "https://mayfieldhvac.com",
+    "seo_score": 68,
+    "top_issues": [
+      "Slow server response time (1113ms)",
+      "Images lack alt text",
+      "No Open Graph tags"
+    ],
+    "contact_method": "info@mayfieldhvac.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Atlasta Lock & Safe Company",
+    "url": "https://atlastalock.com",
+    "seo_score": 68,
+    "top_issues": [
+      "No meta description",
+      "No Open Graph tags",
+      "No Twitter Card tags"
+    ],
+    "contact_method": "info@atlastalock.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Southwest Family Dentistry",
+    "url": "https://www.southwestdentistry.com",
+    "seo_score": 68,
+    "top_issues": [
+      "Missing H1 tag",
+      "Images lack alt text",
+      "No Open Graph tags"
+    ],
+    "contact_method": "contact@southwestdentistry.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "TALIC Locksmith Hartford CT",
+    "url": "https://talic-locksmith.com",
+    "seo_score": 68,
+    "top_issues": [
+      "Missing meta description",
+      "Missing H1 tag",
+      "Title too short (28 chars)"
+    ],
+    "contact_method": "TALICLOCKTR@Gmail.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Black Mountain Plumbing Inc",
+    "url": "https://blackmountainplumbing.com",
+    "seo_score": 79,
+    "top_issues": [
+      "Slow server response (1151ms)",
+      "Images lack alt text",
+      "No Open Graph tags"
+    ],
+    "contact_method": "info@blackmountainplumbing.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Family 1st Dental LeMars",
+    "url": "https://ffdlemars.com",
+    "seo_score": 74,
+    "top_issues": [
+      "Slow server response (1109ms)",
+      "Title too short",
+      "Meta description too short"
+    ],
+    "contact_method": "info@ffdlemars.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Priority One Heating & Air",
+    "url": "https://priorityoneheating.com",
+    "seo_score": 84,
+    "top_issues": [
+      "Title too long",
+      "Images lack alt text",
+      "No Open Graph tags"
+    ],
+    "contact_method": "info@priorityoneheating.com",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Bluewater Plumbing Heating & Air",
+    "url": "https://www.bluewaterplumbingnc.com",
+    "seo_score": 79,
+    "top_issues": [
+      "Slow server response (511ms)",
+      "Title too short",
+      "Images lack alt text"
+    ],
+    "contact_method": "info@bluewaterplumbingnc.com",
+    "status": "pitched"
+  }
+]
