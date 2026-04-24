@@ -6380,3 +6380,36 @@
 - **What it does:** Multi-agent design debate system running as agent skill files + prompts + JSON config (no code). Personas (architect, security, performance) debate design problems in rounds. Judge evaluates convergence. MIT.
 - **Solomon OS fit:** SKILL — Novel deliberation pattern. "No code" skill-file approach aligns with Hermes ecosystem. Study for architecture review before building new capabilities.
 - **Status:** SKILL
+
+## AIBYAI — Multi-Agent Deliberative Consensus Platform (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/aibyai
+- **Source:** https://github.com/Yash-Awasthi/aibyai
+- **License:** MIT
+- **What it does:** Multi-agent deliberative platform where 4+ AI agents debate, critique, and score each other's claims to produce trusted consensus with confidence scores. Conflict detector + synthesizer + validators + cold hallucination validator.
+- **Solomon OS fit:** SKILL — Deliberation + conflict detection pipeline could enhance Hermes skill validation. Confidence scoring for uncertainty awareness. Multi-agent peer review of decisions.
+- **Status:** SKILL
+
+## browserable — Self-Hosted Browser Automation for AI Agents (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/browserable
+- **Source:** https://github.com/browserable/browserable
+- **License:** MIT
+- **What it does:** Open-source JavaScript library for browser-automation AI agents. Navigate, fill forms, extract data. Targets 90%+ Web Voyager benchmark. Multi-LLM (Gemini/OpenAI/Claude via Hyperbrowser/Steel). Self-hosted. MIT.
+- **Solomon OS fit:** SKILL — ClawLess browser automation competitor. Self-hosted for privacy. Could enable real web research in Hermes. Web Voyager benchmark target means robust.
+- **Status:** SKILL
+
+## Vibium — AI-Native Browser Automation CLI + MCP (April 24, 2026)
+- **Fork:** Already forked (Apache 2.0)
+- **Source:** https://github.com/VibiumDev/vibium
+- **License:** Apache 2.0
+- **What it does:** Lightweight browser automation toolkit (Go core, JS/Python/Java clients). CLI skill + MCP server. Zero-config setup. Semantic element finding (text, labels, ARIA). WASM sandboxing. Apache 2.0.
+- **Solomon OS fit:** SKILL — Browser automation with MCP server integration point. Semantic element finding more robust than CSS selectors. Multi-language approach inspires Hermes components.
+- **Status:** SKILL
+
+## agentbrowser — Semantic Browser Runtime for AI Agents (April 24, 2026)
+- **Fork:** Already forked (MIT)
+- **Source:** https://github.com/ashtonvaughan/agentbrowser
+- **License:** MIT
+- **What it does:** AI-agent-specific browser runtime exposing semantic structured actions instead of raw DOM. Semantic observation reduces tokens ~95%. Dynamic tool registry per page. Self-healing (CAPTCHA, stale selectors). Session persistence. MCP server.
+- **Solomon OS fit:** SKILL — 95% token reduction for browser tasks massive. Self-healing reduces maintenance. MCP server enables native Hermes integration. Maps to Hermes web research.
+- **Status:** SKILL
+

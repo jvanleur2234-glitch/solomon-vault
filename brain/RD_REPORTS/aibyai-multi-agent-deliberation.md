@@ -1,30 +1,37 @@
-# RD Report: AIBYAI — Multi-Agent Deliberative Intelligence Platform
+# RD Report: Yash-Awasthi/aibyai
 
-## Summary
-Multi-agent council where 4+ AI agents (Empiricist, Strategist, Historian, Skeptic) debate, critique, and score each other to produce consensus + confidence score.
+**Fork:** https://github.com/jvanleur2234-glitch/aibyai
+**Source:** https://github.com/Yash-Awasthi/aibyai
+**Stars:** ~500+ | **License:** MIT | **Language:** TypeScript (React + Fastify + PostgreSQL + Redis)
+**Date:** 2026-04-24
 
 ## What It Is
-User submits query → routed to multiple providers in parallel → each returns claims with confidence → conflict detector triggers critique/rebuttal if disagreement significant → synthesizer merges with reliability weighting → cold validator checks hallucinations → verdict + score + cost delivered.
+AIBYAI is a multi-agent deliberative platform where 4+ AI agents debate, critique, and score each other's claims to produce a trusted consensus rather than a single model's answer. Uses Conflict Detector, Synthesizer, and Validators.
 
-## Key Features
-- **4+ agent personas**: Empiricist, Strategist, Historian, Skeptic
-- **Multi-provider**: OpenAI, Anthropic, Gemini, Groq in parallel
-- **Conflict detection**: triggers critique/rebuttal when disagreement significant
-- **Cold validator**: checks for hallucinations before delivery
-- **Output**: numeric confidence score, breakdown, cost visibility
-- **Built in**: TypeScript + React/Fastify + PostgreSQL + Redis + Docker
+## Key Capabilities
+- Parallel multi-agent analysis (OpenAI, Anthropic, Gemini, Groq)
+- Conflict detection and peer critique loop
+- Synthesizer with reliability weighting
+- Cold validator to catch hallucinations
+- Confidence score with breakdown per query
+- Cost awareness per query
 
-## License
-MIT (inferred)
+## Architecture
+- **Empiricist:** Factual analysis
+- **Strategist:** Planning/decision support
+- **Historian:** Historical context
+- **Skeptic:** Devil's advocate
+- **Conflict Detector:** Compares pairwise claims
+- **Synthesizer:** Merges results
+- **Cold Validator:** Hallucination detection
 
-## Relevance to Solomon OS / Hermes
-- **Council pattern** directly maps to "Council of High Intelligence" deliberation concept
-- Multi-provider parallel execution useful for quality-critical responses
-- Confidence scoring + cost tracking valuable for JCPaid SLA reporting
-- Conflict detection + rebuttal mechanism robust for high-stakes decisions
+## Relevance to Solomon OS
+- **Multi-agent deliberation:** Quorum-style but with conflict detection + validation pipeline
+- **Confidence scoring:** Could power Hermes "uncertainty" awareness
+- **MIT license:** Permits direct commercial use
 
-## Verdict
-**FORGE** — Council architecture directly implementable as Hermes deliberation skill. MIT license permits use. HIGH VALUE for enterprise deliberation.
+## Recommendation
+**SKILL** — Deliberation pattern worth studying. The conflict detection + cold validation pipeline is sophisticated. Could enhance Hermes skill validation with adversarial multi-agent review.
 
-## Fork
-Not yet forked — needs clone + fork.
+## License Check
+MIT ✅

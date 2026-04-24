@@ -1,23 +1,30 @@
-# browserable — Self-Hosted Browser Automation Library
+# RD Report: browserable/browserable
+
+**Fork:** https://github.com/jvanleur2234-glitch/browserable
+**Source:** https://github.com/browserable/browserable
+**Stars:** ~1K+ | **License:** MIT | **Language:** JavaScript/TypeScript
+**Date:** 2026-04-24
 
 ## What It Is
-MIT-licensed JavaScript library for AI agents to navigate web pages, fill forms, click elements, extract data. 90% on Web Voyager benchmark.
+Open-source, self-hosted JavaScript library to build browser-automation AI agents. Enables agents to navigate sites, fill forms, click elements, and extract data. Designed for integration with LLM providers and remote browser services.
 
-## Key Signals
-- **License:** MIT
-- **Lang:** JavaScript/TypeScript
-- **Docker-based deployment**
-- **Fork:** https://github.com/jvanleur2234-glitch/browserable
+## Key Capabilities
+- Self-hosted browser automation
+- Web Voyager benchmark targeting 90%+
+- Multi-LLM support (Gemini, OpenAI, Claude via Hyperbrowser/Steel)
+- Local UI at port 2001, docs at 2002, tasks at 2003
+- MongoDB, Redis, MinIO backend
+- JavaScript SDK (browserable-js)
+- Demo: Amazon product search automation
 
-## Core Features
-- AI-assisted browser tasks via LLM + remote browser integration
-- One-line setup: `npx browserable`
-- Local UI at localhost:2001, docs at localhost:2002
-- Example: Amazon search task with filtering
-
-## Solomon OS Fit
-- **SKILL** — ClawLess/browser automation stack reference. MIT license permits code use.
-- Docker-based deployment pattern useful for Solomon Browser
+## Relevance to Solomon OS
+- **Browser automation:** ClawLess competitor
+- **Self-hosted:** Privacy-respecting browser automation
+- **MIT license:** Permits commercial use
+- Could integrate with Hermes browser skill for web research
 
 ## Recommendation
-SKILL — Architecture reference for browser automation in Solomon Browser POC.
+**SKILL** — Study architecture for self-hosted browser automation. Reference for Hermes browser tool implementation. Could replace external browser APIs.
+
+## License Check
+MIT ✅

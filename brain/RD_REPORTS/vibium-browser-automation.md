@@ -1,30 +1,29 @@
-# Vibium — Lightweight Browser Automation for AI Agents
+# RD Report: VibiumDev/vibium
 
-**Source:** https://github.com/VibiumDev/vibium  
-**License:** Apache 2.0  
-**Stars:** ~400+  
-**Date:** 2026-04-23
+**Fork:** Already forked
+**Source:** https://github.com/VibiumDev/vibium
+**Stars:** ~500+ | **License:** Apache-2.0 | **Language:** Go (core), JS/Python/Java clients
+**Date:** 2026-04-24
 
-## What it does
-Vibium is a browser automation toolkit designed for AI agents and humans. It provides a lightweight, zero-config solution that lets agents control a browser with no extra setup.
+## What It Is
+Lightweight, AI-friendly browser automation toolkit. Runs as CLI skill, MCP server, and client libraries. Built on WebDriver BiDi with zero-config setup.
 
-Key features:
-- AI-native: Install as a skill; enables agents to control a browser with no extra setup
-- Zero config: One install with automatic browser download (Chrome)
-- Standards-based: Built on WebDriver BiDi rather than proprietary protocols
-- Lightweight: ~10 MB binary with no runtime dependencies
-- Flexible deployment: CLI skill, MCP server, or available as JavaScript/TypeScript, Python, and Java libraries
-- CLI commands: go, map, click, find, text, screenshot, pdf, fill, select, check, press, wait, record
+## Key Capabilities
+- Navigate, click, fill forms, select, checkboxes, read text, screenshots, PDFs
+- Semantic element finding (by text, labels, placeholders, ARIA roles)
+- Zero-config with auto browser download
+- Multi-language: Go core, JS/Python/Java clients
+- Skills CLI integration (npx workflows)
+- WASM sandboxing
 
-## Solomon OS Fit
-**INTEGRATE** — Browser automation for Solomon Browser POC. Apache 2.0 license. WebDriver BiDi standard means better compatibility than Playwright for some tasks. Could replace/reduce Playwright dependency.
-
-## Key Components
-- CLI tool with natural commands
-- MCP server mode
-- WebDriver BiDi protocol
-- ~10MB binary, no runtime deps
-- Multi-language client libraries
+## Relevance to Solomon OS
+- **Browser automation:** ClawLess competitor with Apache 2.0
+- **MCP server:** Could integrate with Hermes MCP ecosystem
+- **Skills CLI:** Maps to Hermes skill system
+- **Multi-language:** Go core could inspire Hermes components
 
 ## Recommendation
-INTEGRATE — Test for Solomon Browser POC. Apache 2.0 license enables direct use. Lighter than Playwright for simple tasks.
+**SKILL** — Study for browser automation architecture. MCP server integration with Hermes could enable web research capabilities. Semantic element finding is more robust than CSS selectors.
+
+## License Check
+Apache-2.0 ✅
