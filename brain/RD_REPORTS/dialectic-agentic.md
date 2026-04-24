@@ -1,28 +1,29 @@
-# slior/dialectic-agentic — Multi-Agent Design Debate
+# RD Report: dialectic-agentic
 
-## Metadata
-- **URL:** https://github.com/slior/dialectic-agentic
-- **License:** MIT
-- **Status:** ALREADY FORKED
+**Fork Status:** Already forked  
+**License:** MIT  
+**Stars:** ~40 (multi-agent debate design tool, no-code)  
+**Relevance:** MEDIUM — multi-agent deliberation, design reasoning
 
-## What It Does
-No-code agent-native system for software design debates. Runs as skill files, prompts, and JSON config. Assigns expert roles (architect, security, performance, simplicity) to debate design problems through structured rounds.
+## What It Is
+No-code design debate tool enabling multiple AI agents (architect, security, performance, simplicity) to debate design problems in structured rounds with judge evaluating convergence.
 
-## Workflow
-- Agents propose solutions → critique each other → refine positions across rounds
-- Judge evaluates convergence; debate ends on consensus or round cap
-- Final solution synthesized by judge
+## Key Capabilities
+- No-code design debates: runs with skill files, prompts, JSON config
+- Roles: agents propose, critique, refine in rounds
+- Judge: assesses convergence after each round
+- Final synthesis in debate/synthesis.md
+- State stored in markdown/JSON within local debate workspace
 
-## Output Artifacts
-- `debate/synthesis.md` — final solution
-- `debate/round-N/proposals/` — each agent's proposal per round
-- `debate/round-N/critiques/` — critiques
-- `debate/round-N/verdict.json` — convergence assessment
+## Relevance to Hermes/Solomon
+- Structured deliberation pattern could inspire Solomon OS agent council mechanism
+- No-code approach aligns with skill-based Hermes architecture
+- Could be adapted for client requirement validation workflows
 
-## Solomon OS Fit
-- **SKILL** — Structured design review pattern for Hermes skill development
-- Could validate skill designs with multiple expert perspectives before deployment
-- No-code nature fits Hermes skill framework model
+## Integration Recommendation
+**NOTE** — Interesting deliberation pattern but lower priority than security/self-improvement repos. Store for future multi-agent reasoning capabilities.
 
-## Action
-Already forked. Study structured debate format for Hermes skill validation workflow.
+## Notes
+- MIT licensed
+- Platform-agnostic (requires agentic platform with Task tool)
+- Design reasoning through structured debate

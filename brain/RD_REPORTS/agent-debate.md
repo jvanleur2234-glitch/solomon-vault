@@ -1,23 +1,29 @@
-# agent-debate — Evidence-Grounded Multi-Agent Debate
+# RD Report: agent-debate
 
-**Repo:** `gumbel-ai/agent-debate` | **License:** MIT | **Lang:** Python/Shell
+**Fork Status:** Already forked  
+**License:** MIT  
+**Stars:** ~200 (structured adversarial debate protocol for AI coding agents)  
+**Relevance:** MEDIUM — multi-agent deliberation, evidence-based technical decisions
 
 ## What It Is
-Enables 2-4 AI agents (Claude, Codex, Gemini, Copilot) to collaboratively edit and debate a shared Markdown document. Claims must cite evidence (file:line references + logs).
+Implements structured, adversarial debate protocol for AI coding agents (Claude, Codex, Gemini, Copilot) to collaboratively review and debate technical decisions by editing a shared Markdown document.
 
 ## Key Capabilities
-- **Adversarial-but-structured debate** using shared Markdown with strikethroughs for disagreement
-- Evidence-backed claims: every statement must cite `file:line` references
-- Living-document style debates for technical decisions
-- Modes: Manual (terminal switching) or Auto (round-robin until convergence)
-- **Plan phase control:** `--no-plan`, `--plan-rounds N`
-- Human participation option: `--skip-provider` for human-in-the-loop
+- Multi-agent debate: 2–4 agents simultaneously edit shared file
+- Evidence-based claims: cite file:line references
+- Tracking disputes and convergence toward recommendation
+- Deterministic replay with SHA-256 ledger
+- CI/CD integration, policy guardrails, red-team adversarial testing
 
-## Solomon OS Fit
-- **Technical decision-making:** Claude Code + Hermes debate architecture choices — fits Solomon OS R&D workflow
-- **Evidence-grounded:** Unlike pure deliberation, this requires code-level citations — rigorous
-- **Competitor context:** Part of gumbel-ai ecosystem for agent collaboration
-- **LINK fit:** ★★★☆☆ — #debate #evidence #code-review #technical-decisions
+## Relevance to Hermes/Solomon
+- Debate protocol could enable Hermes agents to reason through complex client decisions
+- Evidence-based approach aligns with Solomon OS "show your work" philosophy
+- Could be used for multi-agent architecture review sessions
 
-## Action
-Already forked. Write RD report. Add to HERMES_CAPABILITIES as technical debate tool.
+## Integration Recommendation
+**SKILL** — Lower priority but useful for complex technical decisions. Consider as a Hermes skill for architecture review workflows.
+
+## Notes
+- MIT licensed
+- Supports multiple agents: Claude Code, Codex, Gemini CLI, Copilot CLI
+- Evidence citation format enables grounded technical reasoning

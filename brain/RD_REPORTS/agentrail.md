@@ -1,32 +1,36 @@
-# RD Report: Agentrail
+# RD Report: agentrail
 
-## Summary
-Agentrail is a TypeScript-based open-source framework for building, hosting, and orchestrating tool-using AI agents. It provides a composable runtime core, multi-agent orchestration, session memory, knowledge retrieval, sandboxed execution, and optional plugins/workflows.
+**Fork Status:** Already forked  
+**License:** Apache-2.0  
+**Stars:** Not immediately available (TypeScript agent framework)  
+**Relevance:** HIGH — skill framework, multi-agent orchestration, sandboxed execution
 
-## Key Findings
+## What It Is
+TypeScript-based agent harness framework for building, hosting, and orchestrating tool-using AI agents. Full runtime core with hosted server layer, prompt SDK, multi-agent orchestration, memory, and Docker sandbox isolation.
 
-### What it does
-- Composable runtime core (@agentrail/core): agent definition, execution loop, tool contracts, prompt SDK, session types, LLM providers
-- Capabilities (@agentrail/capabilities): sandboxing, knowledge, skills, orchestration, browser automation, built-in tools
-- Hosted server layer (@agentrail/app): request lifecycle, profiles, session management, plugins, config, events
-- Deep research workflow (standalone addon)
-- Scaffolding CLI: `npx create-agentrail-app`
-- Multi-agent orchestration with mailboxing, structured waits, failure recovery
-- Docker-based sandbox isolation for safe code execution
-- Profile/plugin extension model for behavior packaging
-- Session memory + knowledge base indexing and retrieval
+## Key Capabilities
+- Composable runtime core and prompt SDK
+- Hosted request lifecycle with profiles, session management, plugins, events
+- Multi-agent orchestration including mailboxing, structured waits, failure recovery
+- Session memory, knowledge indexing, retrieval
+- Docker sandbox isolation for safe, isolated code execution
+- Pluggable LLM providers (Anthropic, OpenAI, etc.)
 
-### Relevance to Solomon OS
-- **Profile/plugin model** → similar to Hermes skills ecosystem; could inform skill packaging
-- **Multi-agent orchestration with failure recovery** → robust architecture reference
-- **Sandboxed execution** → Docker isolation patterns for Hermes skill execution
-- **Deep research addon** → could complement Solomon OS research workflows
+## Packages
+- `@agentrail/core`: agent definitions, execution loop, tool contracts
+- `@agentrail/capabilities`: sandboxing, knowledge, skills, orchestration, browser automation
+- `@agentrail/app`: hosted request lifecycle, profiles, session management
+- `@agentrail/deep-research`: deep research workflow addon
 
-### License
-Apache-2.0
+## Relevance to Hermes/Solomon
+- Strong overlap with Hermes's skill ecosystem and sandbox execution
+- Could inform Hermes skill packaging and multi-agent coordination patterns
+- Docker sandbox approach aligns with Solomon OS security requirements
 
-### Status
-Forked to jvanleur2234-glitch/agentrail ✅
+## Integration Recommendation
+**SKILL** — Study agentrail's sandbox implementation and skill packaging patterns. Could inform Hermes skill development tooling.
 
-### Action
-**INTEGRATE** — Study Agentrail's profile/plugin extension model for enhancing Hermes skills packaging. Its sandboxed execution model could improve skill isolation in Hermes.
+## Notes
+- Pre-GA (public APIs may change)
+- Roadmap at agentrail.run
+- Apache-2.0 licensed

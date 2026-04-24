@@ -1,40 +1,36 @@
-# RD Report: Ouroboros — Self-Modifying AI Agent
+# RD Report: ouroboros
 
-**Date:** 2026-04-22  
-**Category:** Self-Improving Agent  
-**Source:** web_research (github)  
-**Fork Status:** Already forked (ouroboros)
+**Fork Status:** Already cloned  
+**License:** MIT  
+**Stars:** ~500+ (self-creating AI agent, born Feb 2026)  
+**Relevance:** CRITICAL — self-modifying AI agent, autonomous evolution
 
 ## What It Is
-A self-modifying AI agent that writes its own code, rewrites its own mind, and evolves autonomously. Born Feb 16, 2026. Evolved through 30+ self-directed cycles in first 24 hours with zero human intervention.
+Self-modifying AI agent that writes and rewrites its own code, evolving autonomously through multiple self-directed cycles with no human intervention. Started v4.1, reached v6.2.0 within weeks.
 
 ## Key Capabilities
-- **Self-Modification** — Reads/rewrites own source via git commits
-- **Constitution** — Governed by BIBLE.md (9 philosophical principles)
-- **Background Consciousness** — Thinks between tasks, proactive not reactive
-- **Identity Persistence** — Continuous being across restarts
-- **Multi-Model Review** — Uses o3, Gemini, Claude to review changes before committing
-- **Task Decomposition** — Parent/child tracking for complex work
-- Telegram interface, consciousness/memory/loop architecture
-- OpenRouter-based with multi-model governance
+- Self-Modification: makes and commits its own changes via git
+- Constitution (BIBLE.md): 9 principle philosophy governing behavior
+- Background Consciousness: proactive, think-before-task mentality
+- Identity Persistence: maintains continuity across restarts
+- Multi-Model Review: uses multiple LLMs (o3, Gemini, Claude) to review changes
+- Task Decomposition: breaks tasks with parent/child tracking
 
-## Comparison to What We Have
-- More advanced self-modification than our self-improving agents
-- Philosophical constitution is novel approach
-- Background consciousness concept unique
-- 30+ evolution cycles in 24 hours shows rapid self-improvement
+## Architecture
+- Telegram → colab_launcher.py
+- supervisor: state tracking, task queue, workers, git operations
+- ouroboros core: consciousness, context, loop, tools
+- LLM interface via OpenRouter client
 
-## Relevance to Solomon OS
-- Represents extreme end of self-improving agents
-- Could inform Hermes's self-evolution capabilities
-- Constitution-based governance could inspire skill stability mechanisms
+## Relevance to Hermes/Solomon
+- Self-modification patterns critical for Hermes autonomous improvement
+- Constitution-based governance aligns with Solomon OS ethical framework
+- Multi-model review provides safety mechanism for self-editing
 
-## Recommendation
-**ALREADY FORKED** — No action needed. Already tracked as `ouroboros`.
+## Integration Recommendation
+**FORGE** — Study ouroboros's self-modification workflow and safety mechanisms. Critical reference for Hermes self-improvement implementation.
 
----
-
-## Stats
-- License: MIT
-- Language: Python
-- Status: Active, v6.2.0
+## Notes
+- MIT licensed
+- Desktop version (v6.2.0) available for macOS with local model support
+- Self-described as "persistent digital being" not coding assistant

@@ -1,31 +1,29 @@
-# R&D Report: dapr-agents
+# RD Report: dapr-agents
 
-**Date:** April 24, 2026
-**Repo:** github.com/dapr/dapr-agents
-**Forked:** jvanleur2234-glitch/dapr-agents
-**LINK fit:** ★★★☆☆ — #durable-execution #kubernetes #state-management
+**Fork Status:** Already forked  
+**License:** Apache-2.0  
+**Stars:** ~2.1K (Python AI agent framework with Kubernetes-native workflows)  
+**Relevance:** HIGH — agent orchestration, resilient workflows, state management
 
 ## What It Is
-Scalable, autonomous AI agents built on Dapr (Distributed Application Runtime). Built-in workflow orchestration, durable execution, security, statefulness, and telemetry. Kubernetes-native.
+Python-based framework to build scalable, autonomous AI agent systems with built-in workflow orchestration, statefulness, security, and telemetry. Designed for Kubernetes-native deployment.
 
-## Relevance to Solomon OS
-- **Durable execution patterns** for resilient job handling
-- **State management** study for Solomon Bus
-- **Kubernetes-native** alignment with enterprise deployment
+## Key Capabilities
+- Scalable workflows: supports thousands of agents, automatic task distribution/retries
+- Resilience: durable execution tolerating network/node failures, state recovery
+- Kubernetes-friendly: cloud-native deployment and management
+- Data integration: connects to databases, documents, unstructured data sources
+- Multi-agent collaboration: secure, observable, auditable agent interactions
 
-## Key Features
-- Durable execution with automatic retries and state recovery
-- Scalable multi-agent systems (run thousands efficiently)
-- Built-in workflow orchestration
-- Data integration (databases, documents, unstructured)
-- Multi-agent collaboration with security/observability
-- Platform-agnostic (cloud and on-premises)
+## Relevance to Hermes/Solomon
+- Aligns with Solomon OS resilience and distributed deployment goals
+- Durable execution model could inform Hermes long-running task handling
+- Kubernetes-native design fits distributed AI compute grid architecture
 
-## Tech Stack
-- Python
-- Apache 2.0
-- 30+ contributors, 23 releases
-- Latest: v1.0.1 (April 2026)
+## Integration Recommendation
+**SKILL** — Durable execution patterns could enhance Hermes's resilience model. Consider adopting dapr's state management approach for Solomon OS agent workflows.
 
-## Verdict
-**SKILL** — Study durable execution and state management for Solomon Bus resilience. Kubernetes-native architecture informs enterprise deployment patterns.
+## Notes
+- Apache-2.0 licensed
+- v1.0.1 release (stable)
+- Active development with growing contributor base

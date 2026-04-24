@@ -1,25 +1,29 @@
-# vibium — Lightweight AI-Native Browser Automation
+# RD Report: vibium
 
-**URL:** https://github.com/jvanleur2234-glitch/vibium
-**Forked from:** https://github.com/VibiumDev/vibium
-**License:** MIT | **Language:** TypeScript/JavaScript/Python/Java
+**Fork Status:** Already cloned  
+**License:** Apache-2.0  
+**Stars:** ~150 (AI-native browser automation, WebDriver BiDi standard)  
+**Relevance:** MEDIUM — browser automation, CLI-based, multi-language SDKs
 
-## What It Does
-Lightweight, zero-config browser automation for AI agents and humans. WebDriver BiDi-based (standards-based), ~10MB binary, MCP server mode, language-specific libraries (JS/TS, Python, Java).
+## What It Is
+Lightweight, AI-native browser automation tool enabling AI agents to control browsers via simple CLI commands.
 
-## Key Features
-- Zero-config setup: one install downloads browser automatically
-- WebDriver BiDi-based (standards-based, not Playwright)
-- Multi-platform: CLI, MCP server, language libraries
-- ~10MB binary, minimal dependencies
-- Semantic element finding (text, label, placeholder, ARIA role)
-- Screenshot capture, PDF export, JS evaluation
-- Wait conditions (element, URL, text)
-- Session recording with screenshots
-- AI agent integration: install as skill for direct browser control
+## Key Capabilities
+- Navigate, interact, fill forms, click, extract text, screenshot, PDF, record sessions
+- CLI skill, MCP server, and client libraries (JS, Python, Java)
+- Built on WebDriver BiDi (no vendor lock-in)
+- Lightweight binary (~10MB)
+- Automatic browser download
 
-## Solomon OS Fit
-**SKILL** — vibium's zero-config + ~10MB footprint is ideal for lightweight browser automation in Solomon Air. WebDriver BiDi standard compliance is good for interoperability. MIT license permits adoption.
+## Relevance to Hermes/Solomon
+- Browser automation aligns with ClawLess competitor analysis
+- CLI approach fits Hermes skill system architecture
+- WebDriver BiDi standard ensures cross-browser compatibility
 
-## Recommendation
-SKILL — Consider vibium as lightweight alternative to HyperAgent for resource-constrained Solomon Air nodes.
+## Integration Recommendation
+**SKILL** — CLI-based browser automation useful for simple tasks. Less feature-rich than viyv-browser but lighter weight. Consider for Hermes basic browser needs.
+
+## Notes
+- Apache-2.0 licensed
+- Quick start guides for JS, Python, Java
+- Zero-config installation

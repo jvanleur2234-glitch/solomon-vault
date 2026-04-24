@@ -1,38 +1,29 @@
 # RD Report: nfh-self-improvement-loop
 
-**Fork:** https://github.com/jvanleur2234-glitch/nfh-self-improvement-loop  
-**Original:** https://github.com/theprint/nfh-self-improvement-loop  
-**Date:** 2026-04-22  
+**Fork Status:** Already forked  
 **License:** MIT  
-**Stars:** ~50  
-**Relevance:** Self-improving agent, adversarial framework
+**Stars:** ~50 (adversarial self-improvement framework with separation of generation/evaluation)  
+**Relevance:** HIGH — self-improvement, safety, adversarial validation
 
-## What It Does
+## What It Is
+Minimal adversarial framework enabling an AI agent to modify its own codebase with a separate evaluator agent assessing changes. Strict separation prevents biased self-modification.
 
-Minimal adversarial framework for AI self-modification with separate generator + evaluator and strict safeguards.
+## Key Capabilities
+- Pre-flight checks: timers, fresh dev branch, state.json, prompts, verification script
+- Generator: inspects workspace using TOOLS.md, Learnings.md, USER.md, MEMORY.md
+- Evaluator: judges diffs for value, non-duplication, safety
+- Constraints: no identity/memory edits, no external API calls, no pushes to main, one improvement per cycle
+- Rollback plans for safe iteration
 
-**Categories of Self-Modification:**
-- New Capabilities
-- Optimization
-- Discovery
+## Relevance to Hermes/Solomon
+- Safety constraints for self-modification align with Solomon OS security requirements
+- Generator/evaluator separation pattern critical for Hermes self-improvement safety
+- Could enable safe autonomous capability growth for Hermes agents
 
-**Safeguards:**
-- Pre-flight checks: timers, fresh dev branch, state.json, prompts, executable verifier
-- No edits to identity/memory files
-- No external API calls during self-modification
-- No direct pushes to main
-- Fresh cycles without evaluator feedback shaping future proposals
+## Integration Recommendation
+**SKILL** — Apply nfh's separation pattern to Hermes self-improvement safety. Essential for enabling autonomous skill growth without unintended consequences.
 
-## Solomon OS Fit
-
-**SKILL** — Adversarial self-improvement framework for Hermes. Generator→Evaluator separation + strict safeguards critical for safe autonomous modification. MIT license.
-
-## Risk Assessment
-
-- MIT licensed — clean for commercial use
-- Strong safeguards built-in
-- Early stage but principled approach
-
-## Recommendation
-
-SKILL — Implement adversarial review layer for Hermes self-improvement. The generator/evaluator separation prevents runaway self-modification.
+## Notes
+- MIT licensed
+- v1.0.0 released 2026-04-13
+- Single contributor (theprint)
