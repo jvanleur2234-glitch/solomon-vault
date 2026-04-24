@@ -1,32 +1,26 @@
-# RD Report: gollem — Go Agent Framework
+# RD Report: Gollem — Type-Safe Go Agent Framework
 
-**Date:** 2026-04-23
-**Repo:** github.com/fugue-labs/gollem
-**License:** MIT
-**Stars:** ~low (new project)
-**Forked:** Already in workspace ✅
+## Summary
+Production-grade Go agent framework with compile-time type safety, zero-allocation streaming, and single-binary deployment. Compile-time schema validation prevents runtime errors.
 
 ## What It Is
-Production-grade Go agent framework with compile-time type safety, zero-core-dependency single binaries, and compile-time guarantees. Targets robust multi-provider AI agents with structured output and streaming.
+Generic `Agent[T]` with compile-time schema generation/validation. Multi-provider (Claude, GPT, Gemini, Vertex). Structured + streaming outputs. Guardrails with input/turn validation + auto-repair. OpenTelemetry middleware. 50+ primitives. MIT.
 
-## Key Capabilities
-- **Compile-time type safety** across agent output schemas, tool parameters, guardrails, middleware, event bus subscriptions
-- **Zero-allocation streaming** with Go 1.23+ iterators (iter.Seq2) and node-by-node agent looping
-- **Multi-provider LLM support:** Anthropic Claude, OpenAI GPT/O-series, Google Gemini/Vertex AI
-- **Structured output** via final_result tool pattern; reliable typed extraction
-- **Rich guardrails:** input/turn guardrails, tool result validators, output auto-repair
-- **Observability:** structured run traces, OpenTelemetry middleware, lifecycle hooks, state snapshots
-- **Single binary deployment** — no Python dependencies
+## Key Features
+- **Type-safe agents**: Generic Agent[T], compile-time schema validation
+- **Multi-provider**: Claude, GPT-O, Gemini, Vertex AI
+- **Structured + streaming**: final_result pattern + iter.Seq2 for real-time
+- **Guardrails**: input/turn validation, tool output validation, auto-repair
+- **Observability**: OpenTelemetry middleware, trace exporters, lifecycle hooks
+- **Zero core dependencies**
 
 ## Relevance to Solomon OS / Hermes
-- **Language:** Go (not Python) — different from Hermes but could inspire Go-based microservices
-- **Compile-time safety** pattern — could inspire safer tool schemas in Hermes
-- **Guardrails & validation** — directly relevant to agent-armor-studio security layer
-- **Single binary** — good deployment model for edge services
+- Type-safe pattern valuable for Hermes tool schema validation
+- Go implementation could complement Hermes (which is Python)
+- Guardrails + validation directly maps to Hermes security requirements
 
 ## Verdict
-**RESEARCH** — Watch for language-agnostic security patterns. Not immediately actionable since Hermes is Python. Could inspire Go-based Solomon Bus components.
+**SKILL** — Study type-safe validation patterns for Hermes tool security. MIT license.
 
----
-**Priority:** 🟡 Worthwhile
-**Category:** Agent Framework / Security / Language (Go)
+## Fork
+Already forked: `jvanleur2234-glitch/gollem` ✅

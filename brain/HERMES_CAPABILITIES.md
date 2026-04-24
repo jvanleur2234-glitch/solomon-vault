@@ -6290,3 +6290,69 @@
 - **Solomon OS fit:** FORGE — Quality Dashboard metric tracking → Solomon OS heartbeat reporting. Self-learn pattern → Hermes /self-review equivalent. Experiment chain → autonomous testing for Solomon Browser/JackConnect.
 - **Status:** FORGE
 - **RD Report:** /brain/RD_REPORTS/m2star-self-learning-claude.md
+
+## Agent Orcha — Declarative Multi-Agent with P2P Sharing (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-orcha
+- **What it does:** TypeScript declarative multi-agent framework. Define agents/workflows/knowledge in YAML. Built-in workflow engine (parallelism, conditional logic, state). Model-agnostic (OpenAI/Gemini/Anthropic/local LLMs). MCP support. P2P encrypted sharing without central keys. SQLite vector store + knowledge graph. Browser sandbox with CDP. Apache 2.0.
+- **Solomon OS fit:** SKILL — P2P sharing architecture study for distributed Hermes. Knowledge graph + vector store combo could enhance Hermes memory system.
+- **Status:** SKILL
+
+## SecureVector AI Threat Monitor — Local Agent Security Toolkit (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/securevector-ai-threat-monitor
+- **What it does:** Local proxy security toolkit between agents and LLM providers. 28+ threat detection rules, skill scanner with AI-assisted review, policy engine (risk scoring, trusted publishers, allow/block rules), tool permissions, per-agent cost tracking. All local, no data leaves infrastructure. Apache 2.0.
+- **Solomon OS fit:** INTEGRATE — Pre-execution security gate for every Hermes tool invocation. Policy engine maps to JCPaid enterprise requirements. OWASP LLM Top 10 aligned.
+- **Status:** INTEGRATE
+
+## HyperAgent — AI-Powered Browser Automation on Playwright (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/hyperagent
+- **What it does:** AI-driven browser automation built on Playwright. `page.ai()`, `page.extract()`, `executeTask()` for natural language automation. Falls back to standard Playwright. Built-in anti-bot stealth. Action caching (record/replay for cost reduction). Cloud-ready via Hyperbrowser. MCP client for Composio. MIT.
+- **Solomon OS fit:** SKILL — Browser automation skill for Hermes. ClawLess competitor. Action caching could reduce Hermes browser costs. MCP integration pattern.
+- **Status:** SKILL
+
+## agent-express — Express.js-Style Middleware for AI Agents (April 24, 2026)
+- **Fork:** Already forked (MIT)
+- **What it does:** TypeScript middleware framework: `agent.use(middleware)` pattern with 5-layer onion (agent→session→turn→model→tool). Safety controls (validation, timeouts, HITL), OpenTelemetry observability, 12+ multi-provider routing, context compaction, MCP integration, Zod output validation, test toolkit.
+- **Solomon OS fit:** FORGE — Middleware architecture directly implementable in Hermes pipeline. MIT permits direct use. Safety middleware + complexity routing + context compaction patterns all valuable.
+- **Status:** FORGE
+
+## dialectic-agentic — Multi-Agent Design Debate Framework (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/dialectic-agentic
+- **What it does:** No-code multi-agent debate system. Define design problems via Markdown + JSON config. Specialized agents (architect, security, performance, simplicity) propose/critique/refine via structured rounds. Judge evaluates convergence. Runs on any agentic platform (Cursor, Claude Code). MIT.
+- **Solomon OS fit:** SKILL — Could be Hermes deliberation skill for architectural decisions. Maps to "Council of High Intelligence" concept.
+- **Status:** SKILL
+
+## AIBYAI — Multi-Agent Deliberative Intelligence Platform (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/aibyai
+- **What it does:** Multi-agent council (Empiricist, Strategist, Historian, Skeptic) that debate, critique, score each other → consensus + confidence score. Multi-provider (OpenAI/Anthropic/Gemini/Groq in parallel). Conflict detection triggers critique/rebuttal. Cold validator checks hallucinations. TypeScript + React + Fastify + PostgreSQL + Redis. MIT.
+- **Solomon OS fit:** FORGE — Council pattern directly maps to "Council of High Intelligence." Confidence scoring + cost tracking valuable for JCPaid SLA reporting. HIGH VALUE for enterprise deliberation.
+- **Status:** FORGE
+
+## AI Council Framework — 6-Step Research-Backed Multi-Model Deliberation (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/ai-council-framework
+- **What it does:** 6-step protocol: DISTRIBUTE → COLLECT → SYNTHESIZE → DEBATE (up to 3 rounds) → VERIFY (web search) → DELIVER with confidence scores. User-controlled consensus depth (QUICK to EXHAUSTIVE). Anti-Sycophancy Protocol. MIT.
+- **Solomon OS fit:** SKILL — 6-step deliberation protocol for Hermes. Anti-sycophancy mechanisms critical for enterprise trust. Web verification step adds real-world grounding.
+- **Status:** SKILL
+
+## Microsoft Agent Framework — Enterprise Multi-Language Agent Orchestration (April 24, 2026)
+- **Fork:** Already forked (MIT)
+- **What it does:** Multi-language (Python/.NET) agent framework with graph-based orchestration, streaming, checkpointing, human-in-the-loop, time-travel debugging. 74 releases, ~120 contributors. AF Labs for experimental features. DevUI for in-app development. Migration guides from Semantic Kernel and AutoGen.
+- **Solomon OS fit:** SKILL — Time-travel debugging concept valuable for Hermes DevEx. Graph-based orchestration paradigm interesting for Hermes workflow system.
+- **Status:** SKILL
+
+## Dapr Agents — Durable Workflow AI Agent Framework (April 24, 2026)
+- **Fork:** Already forked (Apache 2.0)
+- **What it does:** Python durable-execution workflow engine for AI agents. Built on Dapr for Kubernetes-native resilience. Automatic retries, fault tolerance, state recovery. Runs thousands of agents with transparent distribution. Built-in telemetry. Apache 2.0.
+- **Solomon OS fit:** SKILL — Study durable execution patterns for Hermes session resilience. Kubernetes-native design targets enterprise deployment. Self-healing fault tolerance aligns with JCPaid SLA.
+- **Status:** SKILL
+
+## Gollem — Type-Safe Go Agent Framework (April 24, 2026)
+- **Fork:** Already forked (MIT)
+- **What it does:** Production-grade Go agent framework with compile-time type safety (Agent[T]). Multi-provider (Claude, GPT-O, Gemini, Vertex). Structured + streaming outputs. Guardrails (input/turn/output validation + auto-repair). OpenTelemetry middleware. 50+ primitives. Zero core dependencies. MIT.
+- **Solomon OS fit:** SKILL — Study type-safe validation patterns for Hermes tool security. Go implementation could complement Hermes Python/TypeScript.
+- **Status:** SKILL
+
+## Medusa — 9,600+ Pattern AI Security Scanner (April 24, 2026)
+- **Fork:** Already forked (MIT)
+- **What it does:** AI-first security scanner with 9,600+ detection patterns, 200 CVE checks (Log4Shell, LangChain RCE). Repo-wide scans with `--git` for AI supply chain risk. 10-40x faster multi-core. Zero-setup pip install. JSON/HTML/Markdown/SARIF output. OWASP/MITRE aligned.
+- **Solomon OS fit:** INTEGRATE — Security scanning layer for Hermes. Snyk competitor. Pattern density exceeds other scanners. SARIF for CI integration.
+- **Status:** INTEGRATE

@@ -1,28 +1,29 @@
-# RD Report: dialectic-agentic
+# RD Report: dialectic-agentic — Multi-Agent Design Debate Framework
 
-**Date:** 2026-04-23  
-**URL:** https://github.com/slior/dialectic-agentic  
-**Fork:** `jvanleur2234-glitch/dialectic-agentic` (already forked)  
-**License:** MIT  
+## Summary
+No-code multi-agent debate system for design problems. Uses separate agent skill files, JSON config, Markdown state — runs on any agentic platform (Cursor, Claude Code).
 
-## What It Does
-Self-contained multi-agent debate system for software system design. Runs as skill files + prompts + JSON config — no traditional code required. Multiple agents (architect, security, performance, simplicity) take turns proposing, critiquing, and refining. Judge evaluates convergence. Outputs full debate transcript + synthesis.
+## What It Is
+Defines a design problem, engages specialized agents (architect, security, performance, simplicity) to propose/critique/refine via structured debate rounds. Judge evaluates convergence. Ends when agreement reached or round limit hit.
 
-## Core Components
-- `problem.md` — design problem statement
-- `debate/round-N/proposals` — each agent's proposal per round
-- `debate/round-N/critiques` — critiques of proposals  
-- `debate/synthesis.md` — final synthesized solution
-- `debate-config.json` — agent config, convergence criteria, tools
+## Key Features
+- **No-code**: define debates via Markdown problem statement + JSON config
+- **Agent roles**: architect, security, performance, simplicity (configurable)
+- **Judge-based convergence**: evaluates after each round
+- **Debate phases**: proposal → critique → refinement → verdict → synthesis
+- **Runs on any agentic platform** with subagent dispatch + file I/O
+- **Optional tools**: web_search, MCP servers configurable per-agent
 
-## Key Patterns
-- 7-phase debate: propose → critique → refine → converge
-- Agents are personas (architect, security, critic, etc.)
-- Judge evaluates convergence or round limit reached
-- Works inside agentic platforms (Cursor, Claude Code) via Task tool
+## License
+MIT (inferred)
 
-## Solomon OS Fit
-**FORGE** — Deliberation pattern directly maps to "Council of High Intelligence" concept. MIT license permits direct use. Skill-file based architecture is compatible with Hermes skill ecosystem.
+## Relevance to Solomon OS / Hermes
+- Could be Hermes skill for architectural decision-making
+- No-code debate definition maps to Hermes SKILL.md format
+- Could power "Council of High Intelligence" deliberation layer
 
-## Status
-**FORGE** — Implement deliberation pattern for Hermes skill validation and architectural decisions.
+## Verdict
+**SKILL** — Study for Hermes deliberation/synthesis capability. No-code format adaptable to skill definition.
+
+## Fork
+Not yet forked — needs clone + fork.

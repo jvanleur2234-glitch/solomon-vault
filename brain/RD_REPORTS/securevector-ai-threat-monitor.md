@@ -1,36 +1,30 @@
-# RD Report: SecureVector AI Threat Monitor
+# RD Report: SecureVector AI Threat Monitor — Local Agent Security Toolkit
 
-**Fork:** https://github.com/jvanleur2234-glitch/securevector-ai-threat-monitor  
-**Original:** https://github.com/Secure-Vector/securevector-ai-threat-monitor  
-**Date:** 2026-04-22  
-**License:** Apache 2.0  
-**Stars:** ~400  
-**Relevance:** Real-time AI agent security firewall, skill scanning
+## Summary
+Real-time security toolkit for AI agents sitting between agents and LLM providers. Enforces tool permissions, tracks costs, detects prompt injections and data leaks.
 
-## What It Does
+## What It Is
+Local proxy that intercepts agent→LLM provider traffic. Performs threat detection, enforces tool permissions, enforces per-agent budgets. Runs entirely on-device.
 
-Local real-time AI security firewall that sits between AI agents and LLM providers. Protects against prompt injection, data leaks, and tool abuse with enforcement capabilities.
+## Key Features
+- **Threat detection rules** (28 new rules in v3.2.0) + static/dynamic risk assessment
+- **Skill Scanner**: analyzes AI agent capabilities with optional AI-assisted review
+- **Skill Scan Policy Engine**: risk scoring, trusted publishers, per-category allow/block
+- **Tool Permissions**: allow/block specific agent tool calls
+- **Cost tracking**: global daily budget enforcement, per-agent spend monitoring
+- **Local-only**: no data leaves infrastructure
 
-**Key Features (v3.2.0):**
-- Real-time threat detection + enforcement
-- Multi-provider proxy (OpenAI, Anthropic, Ollama)
-- Skill Scanner with static AI agent skill analysis
-- Skill Scan Policy Engine with risk scoring, trusted publishers
-- Per-agent tool permissions and cost tracking
-- Budget limits (per-agent spend, global daily budget)
-- 28 new threat detection rules
-- Fully local, no cloud dependencies
+## License
+Apache 2.0
 
-## Solomon OS Fit
+## Relevance to Solomon OS / Hermes
+- **DIRECT INTEGRATION** — pre-execution security gate for every Hermes tool invocation
+- OWASP LLM Top 10 aligned
+- Fills gap: runtime threat monitoring + tool permission enforcement
+- Could be Hermes skill: `guard-scanner` equivalent for runtime protection
 
-**INTEGRATE** — Real-time enforcement layer for Hermes. Proxy-mode deployment fits Solomon OS architecture. Skill Scanner for third-party Hermes skills. Policy Engine for enterprise deployments. Apache 2.0 license.
+## Verdict
+**INTEGRATE** — Deploy as security layer for Hermes. Policy engine pattern directly maps to JCPaid enterprise security requirements.
 
-## Risk Assessment
-
-- Apache 2.0 — clean for commercial use
-- Local deployment only — no telemetry risk
-- Competes with SineWave ProofLayer and Snyk agent-scan
-
-## Recommendation
-
-INTEGRATE — Deploy as Hermes real-time security proxy. Particularly valuable for multi-tenant Hermes deployments with skill marketplace.
+## Fork
+Not yet forked — needs clone + fork.

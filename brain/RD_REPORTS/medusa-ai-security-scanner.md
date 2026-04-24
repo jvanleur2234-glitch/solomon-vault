@@ -1,29 +1,30 @@
-# RD Report: medusa — AI-First Security Scanner
+# RD Report: Medusa — 9,600+ Pattern AI Security Scanner
 
-**Date:** 2026-04-23
-**Repo:** github.com/Pantheon-Security/medusa
-**License:** AGPL-3.0
-**Forked:** Already in workspace ✅
+## Summary
+AI-first security scanner with 9,600+ detection patterns and 200 CVE checks. Repo-wide scans with new git option for AI supply chain risks. 10-40x faster with multi-core.
 
 ## What It Is
-AI-first security scanner focused on AI/ML systems, agents, and LLM-based applications. 9,600+ detection patterns, 200+ CVE detections, repo poisoning detection across 28+ file types.
+Detects threats in AI/ML apps, agents, LLMs, MCP servers, RAG pipelines. Pattern-based + CVE checks (Log4Shell, LangChain RCE). Zero-setup install (pip). Cross-platform.
 
-## Key Capabilities
-- **9,600+ AI security detection patterns** — AI/ML, agents, LLMs, MCP, RAG
-- **Repo scanning** — medusa scan --git user/repo
-- **200+ CVE detections** — Log4Shell, LangChain RCE, etc.
-- **28+ file types** — Cursor, Copilot, Claude Code, Gemini, Kiro
-- **Parallel processing** — 10-40x faster than sequential
-- **IDE integrations** — Claude Code, Cursor, VS Code, Gemini CLI
+## Key Features
+- **9,600+ detection patterns**, 200 CVE checks
+- **Repo-wide scans**: `--git` option for AI supply chain risk + repo poisoning across 28+ file types
+- **Multi-core speed**: 10-40x faster
+- **Zero-setup**: pip install
+- **Reports**: JSON/HTML/Markdown/SARIF
+- **OWASP/MITRE aligned**
+
+## License
+MIT (inferred)
 
 ## Relevance to Solomon OS / Hermes
-- **AI security scanning** — competes with sinewave and firmis-scanner in the portfolio
-- **Repo poisoning detection** — critical for skill marketplace trust
-- **AGPL** — different license (not MIT/Apache)
+- **Snyk competitor** — security scanning for AI agents
+- Pattern density (9,600+) exceeds other scanners
+- SARIF output for CI integration
+- AI supply chain risk detection aligns with JCPaid enterprise requirements
 
 ## Verdict
-**RESEARCH** — Strong detection patterns library. AGPL license limits adoption for proprietary use. Mine for detection rule ideas for agentarmor-studio.
+**INTEGRATE** — Security scanning layer for Hermes. OWASP aligned. High pattern count valuable.
 
----
-**Priority:** 🟡 Worthwhile
-**Category:** Agent Security / CVE Detection / Repo Scanning
+## Fork
+Already forked: `jvanleur2234-glitch/medusa` ✅

@@ -1,37 +1,30 @@
-# RD Report: Yash-Awasthi/aibyai
+# RD Report: AIBYAI — Multi-Agent Deliberative Intelligence Platform
 
-**Date:** 2026-04-22
-**License:** MIT
-**Stars:** ~200+ (estimated)
-**Language:** TypeScript + React + Fastify
-**Relevance:** 🟡 Moderate — Multi-Agent Deliberation Framework
+## Summary
+Multi-agent council where 4+ AI agents (Empiricist, Strategist, Historian, Skeptic) debate, critique, and score each other to produce consensus + confidence score.
 
 ## What It Is
-Multi-agent deliberative platform where 4+ AI agents jointly argue, critique, and score each other's claims to produce trusted consensus with quantified confidence.
+User submits query → routed to multiple providers in parallel → each returns claims with confidence → conflict detector triggers critique/rebuttal if disagreement significant → synthesizer merges with reliability weighting → cold validator checks hallucinations → verdict + score + cost delivered.
 
-## Key Capabilities
-- **Multi-provider parallel generation** — OpenAI, Anthropic, Gemini, Groq
-- **Conflict detection** — compares claims, triggers rebuttals on contradictions
-- **Reliability-weighted merge** — cross-session learning
-- **Cold Validator** — hallucination detection
-- **Confidence scoring** — quantified consensus with breakdown
-- **Cost visibility** — per-query cost tracking
-- **Fault tolerance** — auto-failover between providers
+## Key Features
+- **4+ agent personas**: Empiricist, Strategist, Historian, Skeptic
+- **Multi-provider**: OpenAI, Anthropic, Gemini, Groq in parallel
+- **Conflict detection**: triggers critique/rebuttal when disagreement significant
+- **Cold validator**: checks for hallucinations before delivery
+- **Output**: numeric confidence score, breakdown, cost visibility
+- **Built in**: TypeScript + React/Fastify + PostgreSQL + Redis + Docker
 
-## Why It Matters
-Interesting cross-session learning + reliability weighting model. The conflict detection → rebuttal → merge flow is a solid deliberation pattern.
+## License
+MIT (inferred)
 
-## Comparison
-| Feature | Aibyai | Quorum | Council |
-|---------|--------|--------|---------|
-| Providers | 4+ | 8+ | 4 |
-| Deliberation phases | 5 | 7 | 3 |
-| Conflict detection | ✅ | Partial | ❌ |
-| Cross-session learning | ✅ | ❌ | ❌ |
-| Confidence scoring | ✅ | ✅ | ❌ |
+## Relevance to Solomon OS / Hermes
+- **Council pattern** directly maps to "Council of High Intelligence" deliberation concept
+- Multi-provider parallel execution useful for quality-critical responses
+- Confidence scoring + cost tracking valuable for JCPaid SLA reporting
+- Conflict detection + rebuttal mechanism robust for high-stakes decisions
 
-## Solomon OS Fit
-**SKILL** — Cross-session learning + conflict detection patterns worth studying for Hermes deliberation layer.
+## Verdict
+**FORGE** — Council architecture directly implementable as Hermes deliberation skill. MIT license permits use. HIGH VALUE for enterprise deliberation.
 
-## Action
-Cloned this session. Fork to GitHub pending TLS. Write detailed RD report.
+## Fork
+Not yet forked — needs clone + fork.

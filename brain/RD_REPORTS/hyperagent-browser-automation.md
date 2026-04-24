@@ -1,37 +1,30 @@
-# RD Report: hyperbrowserai/HyperAgent
+# RD Report: HyperAgent — AI-Powered Browser Automation on Playwright
 
-**Date:** 2026-04-22
-**License:** MIT (estimated)
-**Stars:** ~1,300
-**Language:** TypeScript
-**Relevance:** 🟡 High — AI Browser Automation Competitor
+## Summary
+AI-driven browser automation built on Playwright. Natural language commands + traditional Playwright fallback + stealth mode + cloud scaling.
 
 ## What It Is
-AI-augmented Playwright extension for browser automation with natural language commands. Augments traditional Playwright with AI-driven actions (page.ai(), page.extract(), executeTask()).
+`page.ai()`, `page.extract()`, `executeTask()` for AI-driven automation. Falls back to standard Playwright. Built-in anti-bot patches. Cloud-ready via Hyperbrowser infrastructure. MCP client for Composio integration.
 
-## Key Capabilities
-- **Natural language automation** — describe tasks in plain English
-- **AI + traditional fallbacks** — page.ai() for complex tasks, page.perform() for reliable single actions
-- **Stealth mode** — built-in anti-bot patches to reduce detection
-- **Cloud-ready** — scales via Hyperbrowser infrastructure
-- **MCP client** — integrates with Composio for full workflows
-- **Action caching** — record/replay deterministic workflows without LLM calls
-- **Structured extraction** — extract structured data with Zod schemas
+## Key Features
+- **AI commands**: `page.ai()` for natural language, `page.extract()` for structured data, `executeTask()` for end-to-end
+- **Fallback to Playwright**: granular `page.perform()` for precise, fast, cheap actions
+- **Stealth mode**: anti-bot patches built-in
+- **Action caching**: record/replay workflows deterministically — reduces LLM usage
+- **Cloud-ready**: scale sessions via Hyperbrowser cloud infrastructure
+- **MCP Client**: integrate with Composio for multi-tool pipelines (e.g., write to Google Sheets)
 
-## Why It Matters
-1,300 stars, active development, TypeScript-native. Strong competitor to browser-use and our own browser automation plans.
+## License
+MIT (inferred from open-source)
 
-## Comparison
-| Feature | HyperAgent | HyperBrowser (existing) |
-|---------|-----------|----------------------|
-| Language | TypeScript | Python |
-| AI integration | Built-in | External |
-| Anti-bot stealth | ✅ | ❌ |
-| Action caching | ✅ | ❌ |
-| MCP support | ✅ | ❌ |
+## Relevance to Solomon OS / Hermes
+- **ClawLess competitor** — browser automation for AI agents
+- Action caching is novel — could reduce Hermes browser automation costs
+- MCP integration pattern — could be Hermes MCP skill for browser control
+- Stealth mode useful for web scraping without bot detection
 
-## Solomon OS Fit
-**SKILL** — Anti-bot stealth + action caching patterns worth studying. MCP integration aligns with Hermes skill ecosystem.
+## Verdict
+**SKILL** — Browser automation skill for Hermes. Study action caching for cost optimization.
 
-## Action
-Already cloned. Study stealth browser + action caching for Solomon Browser implementation.
+## Fork
+Not yet forked — needs clone + fork.
