@@ -1,43 +1,45 @@
-# AIQ Scout — Daily Report | 2026-04-24
+# AIQ Scout Daily Report — 2026-04-24
 
 ## Run Summary
-- **Leads Found:** 16 businesses across 8 categories
-- **Audits Completed:** 16 via CashClaw v1.6.0
-- **Outreach Sent:** 16 cold pitches (email + web contact forms)
-- **Target Industries:** Plumbing (5), Dentistry (5), Auto Repair (3), Locksmith (2), Moving (1)
+**Date:** 2026-04-24  
+**Leads Discovered:** 7  
+**Average SEO Score:** 74.9/100  
+**Businesses Audited:** 7  
+**Payment Link:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
 
-## Top Targets by SEO Score
+---
 
-| Business | URL | Score | Top Issue |
-|---|---|---|---|
-| Fairfield Dentistry & Implant Center | fairfielddentalimplantcenter.com | 47/100 | No meta description, no headings, 403 page |
-| St Charles Locksmiths | stcharleslocksmiths.com | 68/100 | Missing OG tags, slow server, no alt text |
-| Top Flight Plumbing | topflight-plumbing.com | 68/100 | No heading structure, low content |
-| Bay Area Point S Tire & Auto | bayareapointstire.com | 71/100 | No OG tags, missing alt text |
-| JC Auto Repair | jcautosrepairs.com | 74/100 | Slow server (1643ms), no compression |
-| Comfort Air (Tracy, CA) | comfortairstocktonca.com | 74/100 | Slow server, missing alt text |
-| Dental Wellness Florida | dentalwellnessflorida.com | 71/100 | No H2 tags, slow server |
+## Leads Audited Today
 
-## Common SEO Issues Found
-1. **Images missing alt text** — 10/16 businesses
-2. **Meta description length wrong** — 12/16 businesses
-3. **Images not using lazy loading** — 10/16 businesses
-4. **Slow server response (>500ms)** — 10/16 businesses
-5. **No Open Graph tags** — 5/16 businesses
-6. **Title tag length issues** — 5/16 businesses
+| # | Business | URL | Score | Top Issue |
+|---|----------|-----|-------|-----------|
+| 1 | Silsby Family Dental | silsbydental.com | 63/100 | Missing H2, no favicon, thin content |
+| 2 | Just Better HVAC | justbetterhvac.com | 68/100 | Missing canonical, no alt text, thin content |
+| 3 | Bay Area Air Conditioning | bayareacool.com | 68/100 | Slow server (1905ms), no OG/Twitter tags |
+| 4 | Duck's Locksmithing | duckslocksmithing.com | 74/100 | Slow server, missing title tag |
+| 5 | Sutton Brothers Plumbing | suttonbros.com | 74/100 | Missing H1, no alt text, slow server |
+| 6 | Total Comfort HVAC | totalcomfortfl.com | 79/100 | Long title, no OG/Twitter tags |
+| 7 | Skokie Locksmith Store | skokielocksmithstore.com | 84/100 | Short title, thin content |
 
-## Pitch Strategy
-All 16 businesses received outreach highlighting:
-1. Their specific 3 SEO failures from CashClaw audit
-2. How Solomon OS AI fixes each issue
-3. Payment link: https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo)
+---
 
-## Status
-- Awaiting replies from all 16 targets
-- If any respond → escalate to Joseph via Telegram immediately
-- Next run: 2026-04-25
+## Common Issues Found
+- Missing/poor image alt text: 5/7 businesses
+- Slow server response (>500ms): 4/7 businesses
+- Meta description length issues: 5/7 businesses
+- Missing Open Graph/Twitter Card: 3/7 businesses
+- Thin content (<300 words): 3/7 businesses
+- No favicon: 2/7 businesses
 
-## Notes
-- CashClaw CLI invoked via `node bin/cashclaw.js` (not in PATH directly)
-- All businesses confirmed US-based
-- Average SEO score across all leads: 75/100
+---
+
+## Outreach Status
+- 7 outreach attempts ready to send
+- Payment link active: $29/mo SEO audit
+
+---
+
+## Next Steps
+- Send cold emails to all 7 businesses
+- Monitor for replies and escalate to Joseph via Telegram
+- Target more local services in underserved markets
