@@ -6009,3 +6009,17 @@
 - **What it does:** Auto-inventories AI agents via static code analysis + runtime eBPF. Classifies: CONFIRMED/UNKNOWN/SHADOW AI/ZOMBIE/GHOST. AIBOM compliance. GPL-3.0.
 - **Solomon OS fit:** INTEGRATE — GHOST detection for enterprise governance. Discovers "what is actually running" vs code-only. GPL-3.0 — code reference only.
 - **Status:** INTEGRATE
+
+## agentic_security — AI Red Teaming Toolkit (April 24, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/agentic_security
+- **Forked from:** https://github.com/msoedov/agentic_security
+- **What it does:** Enterprise vulnerability scanner for LLM agents. Multimodal attacks, RL-based adaptive probes, multi-step jailbreaks, CI integration. OWASP Top 10 for LLMs. MIT. 1849 stars.
+- **Solomon OS fit:** INTEGRATE — Pre-deployment security gate for Hermes skills. Red-team baseline for Agent Armor Studio. Complements firmis-scanner with dynamic/adaptive testing.
+- **Status:** INTEGRATE
+
+## mcps-audit — OWASP MCP Security Scanner (April 24, 2026)
+- **URL:** (OWASP official tool, not forked)
+- **Source:** https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/issues/805
+- **What it does:** Scans MCP server code against OWASP Agentic AI Top 10 (AS-001 to AS-012). PDF reports with MITRE ATT&CK mappings. npx mcps-audit ./my-agent.
+- **Solomon OS fit:** FORGE — Pre-installation security gate for all Hermes MCP servers. CI/CD integration. SOC 2 compliance evidence. OWASP-authoritative.
+- **Status:** FORGE
