@@ -6234,3 +6234,45 @@
 - **Solomon OS fit:** SKILL — MIT permits use. Swarm intelligence algorithms could enhance Hermes task routing. MoE merging for local model ensemble management.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/swarms-pytorch-kyegomez.md
+
+## llmcouncil — Multi-Protocol LLM Deliberation Council (April 24, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/llmcouncil
+- **Forked from:** https://github.com/rachittshah/llmcouncil
+- **What it does:** MCP server + Claude Code skill with 6 deliberation protocols: vote, debate (KS adaptive stopping), synthesize (chairman), critique, red-team, MAV. Fan-out to GPT-5.4, Gemini 2.5, Claude Sonnet 4.6 in parallel.
+- **Solomon OS fit:** INTEGRATE — Council of High Intelligence implementation. MAV protocol for adversarial skill validation.
+- **Status:** INTEGRATE
+
+## multi-agent-council — Perplexity Pro Multi-LLM Debate (April 24, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/multi-agent-council
+- **Forked from:** https://github.com/gabrielcnb/multi-agent-council
+- **What it does:** Claude Code plugin using single Perplexity Pro subscription to access GPT/Gemini/Claude/Nemotron/Sonar. P2P debate → SQLite FTS5 memory → real-time dashboard. MIT license.
+- **Solomon OS fit:** SKILL — Novel Perplexity browser-auth cost model. Study for multi-model deliberation without per-token API costs.
+- **Status:** SKILL
+
+## council-ai — 14-Persona Advisory Council (April 24, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/council-ai
+- **Forked from:** https://github.com/doronpers/council-ai
+- **What it does:** Python + React advisory council with 14 personas, 15 domain presets, multi-provider (OpenAI/Anthropic/Gemini/Ollama/LM Studio). Modes: debate, vote, synthesis, individual, sequential. MIT license.
+- **Solomon OS fit:** SKILL — Extract 14 persona definitions for Hermes personality system.
+- **Status:** SKILL
+
+## agent-bom — AI Supply Chain Blast Radius Scanner (April 24, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/agent-bom
+- **Forked from:** https://github.com/agent-bom/agent-bom
+- **What it does:** CVE → package → MCP server → agent → credentials → tools blast radius mapping. 10-framework compliance (OWASP/NIST/EU AI Act/ATLAS). Auto-discovers agents, MCP servers, GPU workloads, cloud configs. Apache 2.0.
+- **Solomon OS fit:** INTEGRATE — Replace sinewave scanner. Core security gate for Hermes with credential blast mapping.
+- **Status:** INTEGRATE
+
+## Meshcore — Hybrid P2P Compute Architecture Blueprint (April 24, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/Meshcore
+- **Forked from:** https://github.com/elyawhoo/Meshcore
+- **What it does:** Architectural blueprint: centralized/federated control plane + P2P compute plane. WASM sandboxing, auditor nodes with shadow prompts + logit consensus. AGPL-3.0.
+- **Solomon OS fit:** SKILL — Architectural reference only. Auditor node concept for distributed inference validation.
+- **Status:** SKILL (architecture study only)
+
+## agent_council — 5-Step GPT-5.1 Council Framework (April 24, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/agent_council
+- **Forked from:** https://github.com/ma-serra/agent_council
+- **What it does:** 5-step council: ingest (files) → build (Architect Agent proposes) → edit (refine) → execute (parallel) → review (peer + chairman). GPT-5.1 with reasoning effort. Web UI + CLI. MIT license.
+- **Solomon OS fit:** SKILL — Architect Agent → diverse council composition pattern.
+- **Status:** SKILL
