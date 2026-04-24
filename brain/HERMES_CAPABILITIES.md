@@ -6356,3 +6356,27 @@
 - **What it does:** AI-first security scanner with 9,600+ detection patterns, 200 CVE checks (Log4Shell, LangChain RCE). Repo-wide scans with `--git` for AI supply chain risk. 10-40x faster multi-core. Zero-setup pip install. JSON/HTML/Markdown/SARIF output. OWASP/MITRE aligned.
 - **Solomon OS fit:** INTEGRATE — Security scanning layer for Hermes. Snyk competitor. Pattern density exceeds other scanners. SARIF for CI integration.
 - **Status:** INTEGRATE
+
+## Reflexio — Self-Improving Agent Harness (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/reflexio-new
+- **Source:** https://github.com/ReflexioAI/reflexio
+- **License:** Apache 2.0
+- **What it does:** Python harness enabling AI agents to self-improve by learning from real user interactions. Captures corrections, publishes expert responses, persists proven playbooks. Transfer learning propagates improvements to all users.
+- **Solomon OS fit:** INTEGRATE — Directly enhances Hermes self-improvement. Playbook/strategy persistence system maps to Solomon learning from Joseph's corrections. Apache 2.0 permits integration.
+- **Status:** INTEGRATE
+
+## gumbel-ai/agent-debate — Multi-Agent Technical Debate (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-debate-new
+- **Source:** https://github.com/gumbel-ai/agent-debate
+- **License:** MIT
+- **What it does:** Protocol for multi-agent technical debates on code decisions. 2-4 agents (Claude, Codex, Gemini, Copilot) edit shared Markdown with file:line evidence citations. Strikethroughs show disagreement. Debates converge or escalate. MIT.
+- **Solomon OS fit:** FORGE — Deliberation engine for Hermes. Evidence-grounded debate format for skill validation and architecture decisions. Multi-provider validation via debate format.
+- **Status:** FORGE
+
+## slior/dialectic-agentic — Skill-File Design Debate System (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/dialectic-agentic-new
+- **Source:** https://github.com/slior/dialectic-agentic
+- **License:** MIT
+- **What it does:** Multi-agent design debate system running as agent skill files + prompts + JSON config (no code). Personas (architect, security, performance) debate design problems in rounds. Judge evaluates convergence. MIT.
+- **Solomon OS fit:** SKILL — Novel deliberation pattern. "No code" skill-file approach aligns with Hermes ecosystem. Study for architecture review before building new capabilities.
+- **Status:** SKILL
