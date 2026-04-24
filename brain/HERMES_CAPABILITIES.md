@@ -6276,3 +6276,17 @@
 - **What it does:** 5-step council: ingest (files) → build (Architect Agent proposes) → edit (refine) → execute (parallel) → review (peer + chairman). GPT-5.1 with reasoning effort. Web UI + CLI. MIT license.
 - **Solomon OS fit:** SKILL — Architect Agent → diverse council composition pattern.
 - **Status:** SKILL
+
+## ai-agent-blueprint — Claude Code Orchestrator + PDCA Self-Improvement (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/ai-agent-blueprint
+- **What it does:** Blueprint for autonomous AI agents using Claude Code sub-agent architecture. Main orchestrator delegates to specialized sub-agents (Research, File Ops, Coding). PDCA cycles for continuous self-improvement. SOUL.md + MEMORY.md + TASKS.md pattern.
+- **Solomon OS fit:** SKILL — PDCA loop pattern directly applicable to Hermes self-improvement. SOUL.md + MEMORY.md mirrors Hermes soul/brain files. Orchestrator/sub-agent pattern maps to Solomon OS architecture.
+- **Status:** SKILL
+- **RD Report:** /brain/RD_REPORTS/ai-agent-blueprint.md
+
+## m2star — Self-Learning Claude Code with Quality Dashboard (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/m2star
+- **What it does:** Self-learning skill pack for Claude Code. /self-learn, /self-review, /discover-conventions, /chain, /reflect, /escalate, /quality-dashboard commands. Sessions.tsv tracks success rate, correction rate, trends over time. Experiment chain for autonomous overnight testing.
+- **Solomon OS fit:** FORGE — Quality Dashboard metric tracking → Solomon OS heartbeat reporting. Self-learn pattern → Hermes /self-review equivalent. Experiment chain → autonomous testing for Solomon Browser/JackConnect.
+- **Status:** FORGE
+- **RD Report:** /brain/RD_REPORTS/m2star-self-learning-claude.md
