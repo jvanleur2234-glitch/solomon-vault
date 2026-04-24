@@ -6127,3 +6127,19 @@
 - **Solomon OS fit:** SKILL — middleware patterns for extensibility. Safety/governance built-in aligns with enterprise requirements.
 - **Status:** SKILL — middleware architecture patterns
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-express.md
+
+## Magnitude — Vision-First Browser Agent (April 24, 2026)
+- **URL:** https://github.com/magnitudedev/magnitude
+- **Fork:** jvanleur2234-glitch/browser-agent
+- **What it does:** Vision-grounded browser automation using Claude Sonnet 4 or Qwen-2.5VL. 94% on WebVoyager. Natural language control, Zod schema extraction, built-in test runner with visual assertions.
+- **Solomon OS fit:** SKILL — vision-first browser automation alternative to HyperAgent. Aligns with Solomon Browser project.
+- **Status:** SKILL — browser automation
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/magnitudedev-browser-agent.md
+
+## Deliberation — Contemplative Multi-Agent Decision Framework (April 24, 2026)
+- **URL:** https://github.com/2389-research/deliberation
+- **Fork:** jvanleur2234-glitch/deliberation
+- **What it does:** Contemplative decision-making framework (Quaker-inspired). Convenes multiple perspectives to seek clarity/unity. Discernment, clearness, and gathered modes for different decision contexts.
+- **Solomon OS fit:** SKILL — contemplative decision-making for critical business choices. Different from Quorum's structured debate — more reflective approach for ethical/trade-off decisions.
+- **Status:** SKILL — contemplative decision patterns
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/deliberation-2389-research.md
