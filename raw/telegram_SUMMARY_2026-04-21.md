@@ -43,3 +43,21 @@
 - Check on the "stuck in a loop" issue Joseph mentioned — may need to investigate logs or suggest reboot
 - GBrain/Hermes patterns identified — need to plan implementation in Hermes skill system
 - Fortnite Creator opportunity — determine if Joseph wants to pursue this as a business idea
+---
+
+## Session 2 (Later Evening — Apr 21, 2026)
+
+### Message from Joseph
+Asked about:
+1. Other games that pay creators for UGC maps
+2. How easy it is for me to build a map
+3. What maps make people stay longer (player retention)
+
+### Response Sent
+- Listed other paying platforms: Roblox ($1.5B paid 2025), Minecraft Marketplace, Core (Epic), Overwolf
+- Key retention map types: horror/survival, obby, social hangout, RPG/adventure
+- Clarified my capabilities: can write game logic code (Verse/Lua) but can't run the visual editors (UEFN/Roblox Studio) — those require Windows/Mac locally
+- Key insight: retention mechanic = give players a reason to come back tomorrow
+
+### Follow-Up Needed
+- Fortnite/UGC opportunity — Joseph is researching this as a potential business idea
