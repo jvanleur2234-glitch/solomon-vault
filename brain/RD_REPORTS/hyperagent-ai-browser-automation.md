@@ -1,30 +1,29 @@
-# RD Report: HyperAgent (hyperbrowserai/HyperAgent)
+# RD Report: HyperAgent (hyperbrowserai) — AI Browser Automation
+
+**Date:** 2026-04-23
+**Repo:** github.com/hyperbrowserai/hyperagent
+**License:** NOASSERTION
+**Forked:** Already in workspace ✅
 
 ## What It Is
-TypeScript-based AI-enhanced browser automation framework built on Playwright with natural-language driven automation, anti-bot stealth mode, action caching, and MCP client integration.
-
-## License & Stars
-- **License:** MIT (inferred — no explicit license visible)
-- **Stars:** Not yet polled; project appears active
+AI-powered extension of Playwright for browser automation using natural language. Combines AI-driven commands with fallback to regular Playwright for reliability and scalability.
 
 ## Key Capabilities
-- **page.ai() / page.extract() / executeTask()** — AI-assisted browser tasks via natural language
-- **Standard Playwright fallback** when AI isn't needed — graceful degradation
-- **Stealth mode** built-in anti-bot patches to avoid detection
-- **Cloud-ready**: scales via Hyperbrowser to many sessions
-- **MCP client integration** — connect to tools like Composio
-- **Action caching**: record/replay workflows deterministically without repeated LLM calls
-- **Two modes**: page.perform() for granular actions; page.ai for AI-guided actions
+- **AI commands:** page.ai(), page.extract(), executeTask() — natural language automation
+- **Two modes:** page.perform() (granular, fast, cheap) + page.ai() (complex orchestration)
+- **Stealth mode** — built-in anti-bot patches
+- **Cloud-ready** — scale via Hyperbrowser cloud infrastructure
+- **MCP Client integration** — Composio, external tools
+- **Action caching** — record/replay without re-running LLM calls
 
-## Relevance to Solomon OS
-- **Browser automation (ClawLess competitor)**: Strong alternative with AI-guided actions
-- **Security**: Stealth mode + deterministic caching could be integrated into ClawLess
-- **Skill frameworks**: MCP integration fits Hermes skill ecosystem
+## Relevance to Solomon OS / Solomon Browser
+- **Browser automation** — directly competes with Solomon Browser POC
+- **Natural language commands** — could inspire Solomon Browser UX
+- **MCP integration** — could be Solomon Browser MCP server
 
-## Decision
-**SKILL** — Clone to workspace, fork to `jvanleur2234-glitch/HyperAgent`, add to HERMES_CAPABILITIES.md. Direct competitor to ClawLess; study the action caching + stealth mechanisms.
+## Verdict
+**RESEARCH** — Well-established browser automation. Solomon Browser should differentiate on: persistent memory, authenticated sessions (viyv-browser pattern), and multi-tab orchestration.
 
-## Notes
-- Closest to ClawLess in the browser automation space with AI guidance
-- Hyperbrowser cloud scaling is a different angle from our local-first approach
-- Action caching is novel — deterministic replay without repeated API calls
+---
+**Priority:** 🟡 Worthwhile
+**Category:** Browser Automation / AI / TypeScript

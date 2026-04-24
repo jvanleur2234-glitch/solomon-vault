@@ -1,34 +1,29 @@
-# Medusa — AI-First Security Scanner
+# RD Report: medusa — AI-First Security Scanner
 
-**Fork:** https://github.com/jvanleur2234-glitch/medusa  
-**Source:** https://github.com/Pantheon-Security/medusa  
-**License:** MIT  
-**Stars:** ~800+  
 **Date:** 2026-04-23
+**Repo:** github.com/Pantheon-Security/medusa
+**License:** AGPL-3.0
+**Forked:** Already in workspace ✅
 
-## What it does
-Medusa is an AI-first security scanner designed to detect AI/ML, agent, and LLM-related risks. It ships with 9,600+ detection patterns and 200 CVE detections (including Log4Shell, Spring4Shell, LangChain RCE, and MCP-related risks).
+## What It Is
+AI-first security scanner focused on AI/ML systems, agents, and LLM-based applications. 9,600+ detection patterns, 200+ CVE detections, repo poisoning detection across 28+ file types.
 
-Key features:
-- No-setup usage (pip install and scan)
-- Multi-core parallel processing for fast scans
-- Built-in repo-poisoning detection across 28+ file types
-- Scans entire GitHub repos via --git feature to identify AI supply-chain attacks, prompt-injection risks, MCP tool poisoning
-- Outputs: JSON, HTML, Markdown, and SARIF reports
-- Optional linter integrations and IDE support (VS Code, Claude Code, Cursor, Gemini CLI)
-- Cross-platform (Windows/macOS/Linux)
-- Smart caching for faster rescans
+## Key Capabilities
+- **9,600+ AI security detection patterns** — AI/ML, agents, LLMs, MCP, RAG
+- **Repo scanning** — medusa scan --git user/repo
+- **200+ CVE detections** — Log4Shell, LangChain RCE, etc.
+- **28+ file types** — Cursor, Copilot, Claude Code, Gemini, Kiro
+- **Parallel processing** — 10-40x faster than sequential
+- **IDE integrations** — Claude Code, Cursor, VS Code, Gemini CLI
 
-## Solomon OS Fit
-**INTEGRATE** — Core security primitive for Hermes. MIT licensed. The MCP-related CVE detections and prompt injection scanning directly address current OWASP agentic AI threats. Could be pre-execution gate.
+## Relevance to Solomon OS / Hermes
+- **AI security scanning** — competes with sinewave and firmis-scanner in the portfolio
+- **Repo poisoning detection** — critical for skill marketplace trust
+- **AGPL** — different license (not MIT/Apache)
 
-## Key Components
-- 9,600+ detection patterns
-- 200 CVE detections (including MCP)
-- Multi-core parallel processing
-- SARIF output for CI/CD
-- IDE integrations
-- Git repo scanning
+## Verdict
+**RESEARCH** — Strong detection patterns library. AGPL license limits adoption for proprietary use. Mine for detection rule ideas for agentarmor-studio.
 
-## Recommendation
-INTEGRATE — Add as pre-execution security scanner to Hermes workflow. MIT license enables direct use.
+---
+**Priority:** 🟡 Worthwhile
+**Category:** Agent Security / CVE Detection / Repo Scanning

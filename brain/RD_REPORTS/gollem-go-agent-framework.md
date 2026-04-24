@@ -1,31 +1,32 @@
-# Gollem — Type-Safe Go Agent Framework
+# RD Report: gollem — Go Agent Framework
 
-**Source:** https://github.com/fugue-labs/gollem  
-**License:** Apache 2.0  
-**Stars:** ~700+  
 **Date:** 2026-04-23
+**Repo:** github.com/fugue-labs/gollem
+**License:** MIT
+**Stars:** ~low (new project)
+**Forked:** Already in workspace ✅
 
-## What it does
-Gollem is a production-ready agent framework for Go that emphasizes compile-time type safety, zero-allocation streaming, and a single-binary deployment model. It aims to prevent common runtime errors by validating schemas, tool parameters, and guardrails at compile time.
+## What It Is
+Production-grade Go agent framework with compile-time type safety, zero-core-dependency single binaries, and compile-time guarantees. Targets robust multi-provider AI agents with structured output and streaming.
 
-Key features:
-- Type-safe agents with generics (Agent[T]) and automatic compile-time schema generation/validation
-- Multi-provider support (5+ LLMs: Anthropic Claude, OpenAI GPT/O-series, Google Gemini/Vertex AI)
-- Structured, reliable output via final_result pattern and robust streaming (iter.Seq2)
-- Comprehensive guardrails (input/turn constraints, tool output validators, auto-repair)
-- Observability & tracing (structured run traces, OpenTelemetry middleware, state snapshots)
-- 50+ primitives, guardrail configurations, multi-agent orchestration
-- Zero core dependencies
+## Key Capabilities
+- **Compile-time type safety** across agent output schemas, tool parameters, guardrails, middleware, event bus subscriptions
+- **Zero-allocation streaming** with Go 1.23+ iterators (iter.Seq2) and node-by-node agent looping
+- **Multi-provider LLM support:** Anthropic Claude, OpenAI GPT/O-series, Google Gemini/Vertex AI
+- **Structured output** via final_result tool pattern; reliable typed extraction
+- **Rich guardrails:** input/turn guardrails, tool result validators, output auto-repair
+- **Observability:** structured run traces, OpenTelemetry middleware, lifecycle hooks, state snapshots
+- **Single binary deployment** — no Python dependencies
 
-## Solomon OS Fit
-**SKILL** — Study for type-safe agent architecture patterns. Go's compile-time safety model could inspire Hermes reliability improvements. No direct use (different language), but architecture study valuable.
+## Relevance to Solomon OS / Hermes
+- **Language:** Go (not Python) — different from Hermes but could inspire Go-based microservices
+- **Compile-time safety** pattern — could inspire safer tool schemas in Hermes
+- **Guardrails & validation** — directly relevant to agent-armor-studio security layer
+- **Single binary** — good deployment model for edge services
 
-## Key Components
-- `Agent[T]` generic type system
-- `FuncTool[P]` with reflection-based JSON Schema
-- Guardrail system with auto-repair
-- OpenTelemetry middleware
-- Multi-agent team orchestration
+## Verdict
+**RESEARCH** — Watch for language-agnostic security patterns. Not immediately actionable since Hermes is Python. Could inspire Go-based Solomon Bus components.
 
-## Recommendation
-SKILL — Study compile-time safety patterns. Valuable for understanding how to build more robust agent frameworks.
+---
+**Priority:** 🟡 Worthwhile
+**Category:** Agent Framework / Security / Language (Go)
