@@ -6143,3 +6143,73 @@
 - **Solomon OS fit:** SKILL — contemplative decision-making for critical business choices. Different from Quorum's structured debate — more reflective approach for ethical/trade-off decisions.
 - **Status:** SKILL — contemplative decision patterns
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/deliberation-2389-research.md
+
+## microsoft/agent-framework — Graph-Based Multi-Agent Orchestration (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-framework
+- **What it does:** Microsoft cross-language (Python/.NET) platform for AI agents and multi-agent workflows. Graph-based orchestration with streaming, checkpointing, human-in-the-loop, time-travel debugging. ~9.7k stars.
+- **Solomon OS fit:** FORGE — study graph-based orchestration patterns. Microsoft backing ensures longevity. Direct competitor to Hermes orchestration.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/microsoft-agent-framework.md
+
+## dapr/dapr-agents — Kubernetes-Native Durable AI Agents (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/dapr-agents
+- **What it does:** Python framework for scalable AI agents with built-in workflow orchestration, security, statefulness, telemetry. Durable-execution engine guarantees task completion. Built on Dapr primitives.
+- **Solomon OS fit:** FORGE — durability primitives enhance Hermes 24/7 operation. Kubernetes-native = enterprise deployment ready.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dapr-agents.md
+
+## ai-in-pm/Recursive-Self-Improvement-AI-Agent — Gödel-Inspired Self-Modifying Agents (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/Recursive-Self-Improvement-AI-Agent
+- **What it does:** Python framework for self-modifying autonomous agents guided by Gödel's incompleteness. Dynamic runtime code modification, recursive policy improvement. MIT licensed.
+- **Solomon OS fit:** INTEGRATE — most advanced self-improvement framework found. Self-modification at runtime directly enables autonomous capability growth.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/recursive-self-improvement-ai-agent.md
+
+## ikorfale/agent-self-improvement — Cost-Optimizing Self-Improving Loop (April 24, 2026)
+- **Fork:** Already forked (jvanleur2234-glitch/agent-self-improvement)
+- **What it does:** ACT→MEASURE→LEARN→ADAPT closed loop. Claims 70-90% LLM cost reduction. Task Performance Tracker + Learning Extractor + Unified Orchestrator.
+- **Solomon OS fit:** SKILL — cost optimization critical for 24/7 agent operation.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-self-improvement.md
+
+## awaaate/Hyrm — Persistent Multi-Agent with Memory (April 24, 2026)
+- **Fork:** Already forked (jvanleur2234-glitch/Hyrm)
+- **What it does:** Experimental autonomous self-improving AI agent system on OpenCode. Persistent orchestrator + specialized workers. Memory layer persists across sessions.
+- **Solomon OS fit:** SKILL — memory persistence patterns for Hermes.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hyrm.md
+
+## theprint/nfh-self-improvement-loop — Adversarial Self-Modification Safety (April 24, 2026)
+- **Fork:** Already forked (jvanleur2234-glitch/nfh-self-improvement-loop)
+- **What it does:** AI modifies own code while separate evaluator decides if change is beneficial. Strict separation prevents unchecked self-modification. MIT licensed.
+- **Solomon OS fit:** INTEGRATE — safety/evaluator pattern for Hermes autonomous self-improvement. Most rigorous safety framework found.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/nfh-self-improvement-loop.md
+
+## cwijayasundara/auto_research_self_improving_agents — Three-Layer Evolution (April 24, 2026)
+- **Fork:** Already forked (jvanleur2234-glitch/auto_research_self_improving_agents)
+- **What it does:** Karpathy autoresearch outer loop + LangChain harness + Letta continual learning. Sleep-time compute, skill extraction, failure pattern detection.
+- **Solomon OS fit:** STUDY — three-layer approach most complete self-improvement architecture. Sleep-time compute concept novel.
+- **Status:** STUDY
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/auto-research-self-improving-agents.md
+
+## snyk/agent-scan — Snyk AI Agent Security Scanner (April 24, 2026)
+- **Fork:** Already forked (jvanleur2234-glitch/agent-scan)
+- **What it does:** Scans AI agent components (MCP servers, tools, skills) for 15+ risk types. Snyk CVE database integration.
+- **Solomon OS fit:** INTEGRATE — production security monitoring. Snyk brand credibility.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/snyk-agent-scan.md
+
+## mycellm — P2P GPU Inference Network (April 24, 2026)
+- **Fork:** Already forked (jvanleur2234-glitch/mycellm)
+- **What it does:** Pools GPUs into P2P inference network. Credit-based economy, OpenAI-compatible API, QUIC NAT traversal.
+- **Solomon OS fit:** MONITOR — direct AgentFM competitor.
+- **Status:** MONITOR
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/mycellm.md
+
+## TrentPierce/Shard — Browser-Powered P2P Distributed Inference (April 24, 2026)
+- **Fork:** Already forked (jvanleur2234-glitch/Shard)
+- **What it does:** Browser-powered distributed inference via Scouts (WebGPU) + Shards (BitNet). Speculative decoding, zero marginal cost.
+- **Solomon OS fit:** STUDY — browser compute concept for future Hermes deployment.
+- **Status:** STUDY
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/shard-p2p-inference.md

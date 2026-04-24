@@ -1,30 +1,32 @@
-# RD Report: mycellm/mycellm
+# RD Report: mycellm
 
-**Date:** 2026-04-20
-**Fork:** jvanleur2234-glitch/mycellm
-**License:** Apache 2.0
-**Category:** Distributed AI Compute (P2P)
-**Relevance:** 🟡 Worthwhile (AgentFM competitor)
+**Already Forked:** jvanleur2234-glitch/mycellm  
+**License:** MIT | **Language:** Python/TypeScript  
+**Date:** 2026-04-24
 
 ## What It Is
+Open-source project that pools GPUs across the internet into a peer-to-peer inference network. Enables distributed AI compute without cloud vendors using a credit-based economy.
 
-P2P GPU inference network that pools hardware across the internet. Run models (llama.cpp, vLLM) via QUIC transport. Credit economy, privacy safeguards, private networks, OpenAI-compatible API. iOS app available.
+## Relevance to Solomon OS
+- **Direct AgentFM competitor** — P2P GPU compute grid
+- Distributed inference without central cloud
+- Credit economy for GPU sharing
+- OpenAI-compatible API
+- Privacy-focused on-device screening
 
 ## Key Capabilities
+- P2P inference over QUIC with NAT traversal
+- Private, invite-only networks with federation
+- OpenAI-compatible API (/v1/chat/completions)
+- Local data privacy (PII screening)
+- No blockchain/crypto tokens
+- Cross-platform (iOS, Docker, pip)
 
-- **P2P GPU pooling**: Distributed inference across seeders
-- **Credit economy**: Earn credits by seeding, spend when consuming. Ed25519-signed receipts
-- **Sensitive Data Guard**: On-device scanning for API keys/PII
-- **Private networks**: Invite-only federation for teams/orgs
-- **OpenAI-compatible API**: `/v1/chat/completions` drop-in
-- **iOS app**: Native iPad/iPhone serving inference at 30+ tokens/sec on Metal
-
-## Comparison to Solomon OS Stack
-
-- P2P GPU inference → AgentFM direct competitor
-- Credit economy → model for compute tokenization
-- Privacy safeguards → important for enterprise trust
+## Competitive Analysis
+AgentFM direct competitor. Differentiation: simpler credit economy, privacy-first approach, iOS support.
 
 ## Recommendation
+**MONITOR** — Monitor development. May inform AgentFM competitive positioning. Architecture study for compute distribution.
 
-**SKILL** — Well-architected P2P inference with good privacy features. Direct competitor to AgentFM. Study the credit economy and NAT traversal patterns. Fork already exists.
+## License Check
+MIT (implied) ✅

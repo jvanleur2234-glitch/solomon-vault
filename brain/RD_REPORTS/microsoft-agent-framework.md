@@ -1,33 +1,30 @@
 # RD Report: microsoft/agent-framework
 
-**Forked:** https://github.com/jvanleur2234-glitch/microsoft-agent-framework  
-**Stars:** ~9.7k  
-**License:** MIT  
-**Language:** Python (50%), C# (46%)
+**Fork:** https://github.com/jvanleur2234-glitch/agent-framework  
+**Stars:** ~9,700 | **License:** MIT | **Language:** Python + C#/.NET  
+**Date:** 2026-04-24
 
 ## What It Is
-Microsoft's official multi-language (Python/.NET) agent framework with graph-based orchestration, streaming, checkpointing, human-in-the-loop, and time-travel capabilities. Supports both .NET and Python with consistent APIs.
+Microsoft's cross-language (Python/.NET) platform for building, orchestrating, and deploying AI agents and multi-agent workflows. Offers graph-based workflows, streaming, checkpointing, human-in-the-loop, and time-travel debugging.
 
 ## Relevance to Solomon OS
-- **Hermes competitor**: Graph-based workflow orchestration directly competes with Hermes skills
-- **Multi-provider support**: Could integrate as a cross-platform orchestration layer
-- **Observability**: Built-in OpenTelemetry aligns with Solomon OS monitoring needs
+- Multi-agent orchestration with graph-based workflows
+- Security + resilience (checkpointing, human-in-the-loop)
+- Cross-language support (Python + .NET) for skill portability
+- ~9.7k stars — major ecosystem player
 
-## Key Features
-- Graph-based workflows linking agents + deterministic functions
-- AF Labs for experimental features (RL, benchmarking)
-- DevUI for interactive agent development/testing
-- Middleware system for request/response processing
-- Migration guides from Semantic Kernel and AutoGen
+## Key Capabilities
+- Graph-based workflow orchestration with deterministic functions
+- Streaming, checkpointing, human-in-the-loop, time-travel features
+- DevUI for interactive development/testing/debugging
+- AF Labs for cutting-edge features (benchmarking, RL)
+- Migration paths from Semantic Kernel and AutoGen
 
-## Comparison to What We Have
-| Feature | Microsoft | Hermes |
-|---------|-----------|--------|
-| Multi-language | ✅ Python + C# | Python only |
-| Graph orchestration | ✅ | ❌ |
-| Time-travel debugging | ✅ | ❌ |
-| DevUI | ✅ | ❌ |
-| Microsoft Foundry | ✅ | ❌ |
+## Competitive Analysis
+Direct competitor to Hermes agent orchestration. Microsoft backing ensures longevity. Graph-based approach vs Hermes's skill-based approach.
 
-## Verdict
-**FORGE** — Major competitor to Hermes. Fork for reference architecture. Watch for Microsoft integration opportunities (Azure Foundry, Copilot stack). Graph-based orchestration is a gap in current Hermes design.
+## Recommendation
+**FORGE** — Clone and study graph-based orchestration patterns. Consider integration with Hermes skill system.
+
+## License Check
+MIT ✅

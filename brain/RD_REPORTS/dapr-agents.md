@@ -1,29 +1,31 @@
-# RD Report: dapr-agents
+# RD Report: dapr/dapr-agents
 
-**Fork Status:** Already forked  
-**License:** Apache-2.0  
-**Stars:** ~2.1K (Python AI agent framework with Kubernetes-native workflows)  
-**Relevance:** HIGH — agent orchestration, resilient workflows, state management
+**Fork:** https://github.com/jvanleur2234-glitch/dapr-agents  
+**Stars:** Active | **License:** Apache-2.0 | **Language:** Python  
+**Date:** 2026-04-24
 
 ## What It Is
-Python-based framework to build scalable, autonomous AI agent systems with built-in workflow orchestration, statefulness, security, and telemetry. Designed for Kubernetes-native deployment.
+Dapr Agents is a Python-based framework for building scalable, autonomous AI agents with built-in workflow orchestration, security, statefulness, and telemetry. Built on Dapr's proven distributed systems primitives.
+
+## Relevance to Solomon OS
+- Kubernetes-native deployment for resilient 24/7 agents
+- Durable workflow execution with automatic retries
+- Multi-agent collaboration with vendor-neutral design
+- Fault-tolerant, observable distributed AI
 
 ## Key Capabilities
-- Scalable workflows: supports thousands of agents, automatic task distribution/retries
-- Resilience: durable execution tolerating network/node failures, state recovery
-- Kubernetes-friendly: cloud-native deployment and management
-- Data integration: connects to databases, documents, unstructured data sources
-- Multi-agent collaboration: secure, observable, auditable agent interactions
+- Durable-execution workflow engine (guarantees task completion)
+- Transparent distribution across clusters
+- Supports thousands of agents per core
+- Wide data-source and LLM integration
+- Secure and observable multi-agent collaboration
+- Built on Dapr (battle-tested in production)
 
-## Relevance to Hermes/Solomon
-- Aligns with Solomon OS resilience and distributed deployment goals
-- Durable execution model could inform Hermes long-running task handling
-- Kubernetes-native design fits distributed AI compute grid architecture
+## Competitive Analysis
+Addresses the "agent resilience" problem that Hermes lacks natively. Dapr's sidecar pattern maps well to Hermes's skill architecture.
 
-## Integration Recommendation
-**SKILL** — Durable execution patterns could enhance Hermes's resilience model. Consider adopting dapr's state management approach for Solomon OS agent workflows.
+## Recommendation
+**FORGE** — Durability primitives could enhance Hermes's 24/7 operation. Fork for architectural study.
 
-## Notes
-- Apache-2.0 licensed
-- v1.0.1 release (stable)
-- Active development with growing contributor base
+## License Check
+Apache-2.0 ✅

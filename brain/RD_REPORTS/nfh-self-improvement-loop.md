@@ -1,29 +1,30 @@
-# RD Report: nfh-self-improvement-loop
+# RD Report: theprint/nfh-self-improvement-loop
 
-**Fork Status:** Already forked  
-**License:** MIT  
-**Stars:** ~50 (adversarial self-improvement framework with separation of generation/evaluation)  
-**Relevance:** HIGH — self-improvement, safety, adversarial validation
+**Already Forked:** jvanleur2234-glitch/nfh-self-improvement-loop  
+**License:** MIT | **Language:** Shell  
+**Date:** 2026-04-24
 
 ## What It Is
-Minimal adversarial framework enabling an AI agent to modify its own codebase with a separate evaluator agent assessing changes. Strict separation prevents biased self-modification.
+Minimal adversarial framework where an AI agent modifies its own codebase while a separate evaluator decides if the change is beneficial. Strict separation between generator and evaluator prevents unchecked self-modification.
+
+## Relevance to Solomon OS
+- Safe self-modification with evaluator oversight
+- Structured improvement loop (one improvement per cycle)
+- Automated safety checks and rollback capabilities
+- Governance rules for autonomous vs human-in-the-loop actions
 
 ## Key Capabilities
-- Pre-flight checks: timers, fresh dev branch, state.json, prompts, verification script
-- Generator: inspects workspace using TOOLS.md, Learnings.md, USER.md, MEMORY.md
-- Evaluator: judges diffs for value, non-duplication, safety
-- Constraints: no identity/memory edits, no external API calls, no pushes to main, one improvement per cycle
-- Rollback plans for safe iteration
+- Pre-flight safety checks
+- Generator → Evaluator separation (anti-narcissism)
+- Three improvement categories: New Capabilities, Optimization, Discovery
+- Branch-per-cycle workflow with state tracking
+- Strict constraints (no edits to identity/memory files, no external API calls)
 
-## Relevance to Hermes/Solomon
-- Safety constraints for self-modification align with Solomon OS security requirements
-- Generator/evaluator separation pattern critical for Hermes self-improvement safety
-- Could enable safe autonomous capability growth for Hermes agents
+## Competitive Analysis
+Addresses the " runaway self-improvement" problem with adversarial evaluation. Most rigorous safety framework found.
 
-## Integration Recommendation
-**SKILL** — Apply nfh's separation pattern to Hermes self-improvement safety. Essential for enabling autonomous skill growth without unintended consequences.
+## Recommendation
+**INTEGRATE** — Safety/evaluator pattern for Hermes autonomous self-improvement. Could be the governance layer Solomon OS needs.
 
-## Notes
-- MIT licensed
-- v1.0.0 released 2026-04-13
-- Single contributor (theprint)
+## License Check
+MIT ✅
