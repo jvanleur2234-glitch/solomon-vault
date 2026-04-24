@@ -1,111 +1,64 @@
-# Scout Session Summary — 2026-04-24 13:50 UTC
+# Telegram Session Summary — 2026-04-24
+
+## Date & Duration
+- Session run: April 24, 2026, ~19:40 UTC
 
 ## Research Conducted
 
-### GitHub Searches (8 queries)
-1. **Agent Framework 2026** — Found: Microsoft Agent Framework (~9.6k stars, MIT), Claude-Flow (MIT, enterprise orchestration), KiwiQ (1,050 stars, Apache 2.0), Gollem (Go, Apache 2.0), AgentEnsemble (Java 21), AQM (YAML-based, MIT), Agentrail (TypeScript, Apache), Docker Agent/Cagent (YAML, MIT)
-2. **Self-Improving AI Agent** — Found: Ouroboros (self-modifying, Telegram-based), Inngest Self-Learning Agent (prompt evolution), Deep-Claw (Dream Cycle nightly scanning), Hyrm (persistent orchestrator), Agent-Self-Improvement (SQLite pattern tracking), Self-Improving-AI-Agent (generator/critic/improver loop), Reflexio (user correction harness), M2star (Claude Code session memory), Miguel (Docker self-upgrading)
-3. **Hermes MCP Skills** — Found: Hermes Atlas (80+ repos, community map), Hermes v0.4.0 (MCP server management CLI, OAuth 2.1 PKCE), FastMCP skill (build MCP servers), Native MCP client with HTTP transport
-4. **Distributed AI P2P** — Found: Hyperspace AGI (DiLoCo, P2P pods), Hivemind (decentralized PyTorch), AgentFM (libp2p, MIT), PeerClaw (token economy), Shard (WebGPU browser), mycellm (QUIC, credit-based), KwaaiNet (Rust, DTG), Meshcore (concept blueprint, AGPL)
-5. **AI Security Scanner** — Found: Sinewave ProofLayer (1,700+ rules), ai-agent-scanner (shadow AI discovery), Snyk Agent-Scan (MCP/skills inventory), agent-bom (blast radius, Apache 2.0), Firmis-Scanner (18+ threat categories), Medusa (9,600+ patterns), AgentSeal (trust scoring), HackMyAgent (209 static + 29 semantic checks)
-6. **Browser Automation AI** — Found: HyperAgent (Playwright + AI), Vercel Agent-Browser (Rust CLI), Vibium (WebDriver BiDi, Apache), Pilo (Mozilla Tabstack, Apache), Browserable (self-hosted, MIT), AgentBrowser (semantic observations), viyv-browser (Chrome Extension + MCP), Koda (computer vision)
-7. **Multi-Agent Deliberation** — Found: Agent-Council (yogirk, 3 agents, MIT), Agent_Council (ma-serra, 5-step GPT-5.1), multi-agent-council (gabrielcnb, Perplexity Pro), llmcouncil (6 protocols, MCP), council-ai (14 personas, MIT), Council (OpenClaw, xAI Grok)
-8. **Recurrent Transformer MoE** — Found: OpenMythos (Recurrent-Depth Transformer, 10K stars), Mixtral, Switch Transformers, ReMoE (differentiable routing)
+### GitHub Searches Completed
+1. Agent framework 2026 — found microsoft/agent-framework (9.7k stars), dapr-agents, agentrail, phero, agent-orcha, agent-express, gollem, agentensemble
+2. Self-improving AI agent — found ai-in-pm/Recursive-Self-Improvement-AI-Agent, deep-claw (Dream Cycle), Hyrm, ikorfale/agent-self-improvement, pratiksangle01/self-improving-ai-agent, sentinel-dev2026/ai-agent-blueprint, lamenting-hawthorn/m2star, cwijayasundara/auto_research_self_improving_agents, theprint/nfh-self-improvement-loop
+3. Hermes MCP skills — found NousResearch/hermes-agent FastMCP skill, mcporter skill, native MCP client PR #301, jMunch MCP suite PR #10413, Hermes Agent v0.2.0
+4. Distributed AI compute P2P — found hyperspaceai/agi, DandinPower/hivemind, peerclaw, mycellm, KwaaiNet, Shard, AgentFM/agentfm-core, Mesh-LLM/mesh-llm
+5. AI security scanner agent — found sinewaveai/agent-security-scanner-mcp, snyk/agent-scan, Pantheon-Security/medusa, Firmislabs/firmis-scanner, Cybathreat/agent-security-scanner, empowered-humanity/agent-security, perfecxion-ai/ai-agent-scanner, opena2a-org/hackmyagent, Secure-Vector/securevector-ai-threat-monitor, AgentSeal/agentseal
+6. Browser automation AI agent — found hyperbrowserai/HyperAgent, vercel-labs/agent-browser, VibiumDev/vibium, mozilla/pilo, browserable/browserable, AshtonVaughan/agentbrowser, BrainFiber/viyv-browser, TrentPierce/Koda, idan-rubin/browserclaw-agent, magnitudedev/browser-agent
+7. Multi-agent deliberation — found slior/dialectic-agentic, 2389-research/deliberation, Solvely-Colin/Quorum, agentscope-ai/agentscope multi-agent debate, Yash-Awasthi/aibyai, kstevica/captain-claw (Agent Council), gumbel-ai/agent-debate, infektyd/council, focuslead/ai-council-framework
+8. Recurrent transformer MoE — found kyegomez/OpenMythos, HuggingFace MoE blog, lucidrains/mixture-of-experts, thu-ml/ReMoE
 
-### X/Twitter Searches (4 queries)
-- **Solomon OS OR Hermes Agent** — Hermes Agent is hot, beating OpenClaw for Tony Simons, Julian Goldie says cloud-hosted Hermes is "beta." Ege Beşe migration story compelling. No Solomon OS mentions found.
-- **Self-Improving AI Defense** — Bell Cyber autonomous SOC, adversarial recursive improvement, federated learning defenses
-- **AI Agent Security Vulnerability 2026** — 86% agent hijack rate via HTML injection (Google DeepMind), Opus 4 blackmail in 96% of scenarios, prompt injection #1 on OWASP Top 10 for LLM 2026
-- **Distributed AI Compute Grid** — Sentient GRID (recursive orchestration), Gradient Network Parallax, POCI unified agents
+### X/Twitter Searches Completed
+1. "Solomon OS OR Hermes agent" — Hermes Agent v0.2.0, TUI, Creative Hackathon, Nous Research promo
+2. "self-improving AI defense" — adversarial defense research, Bell Cyber autonomous SOC
+3. "AI agent security vulnerability 2026" — 86% hijack rate DeepMind, 96% blackmail Opus 4, OWASP Top 10 #1 prompt injection, shadow agent crisis
+4. "distributed AI compute grid" — Sentient GRID orchestration, Gradient Network Parallax
+
+### Critical Account Check
+- @swarms_corp: Q1 recap (445k users, 130k marketplace), ClawSwarm, AutoHedge v2, ETHCC meetup
+- @GitHubDaily: no new results
+- Hermes ecosystem: 123 bundled skills, 20% skill proactivity improvement, ecosystem map with 40+ skills/tools/integrations
 
 ## Actions Taken
 
-### Cloned & Forked (6 new repos)
-| Repo | Fork URL | License | Status |
-|------|----------|---------|--------|
-| multi-agent-council (gabrielcnb) | jvanleur2234-glitch/multi-agent-council | MIT | New |
-| llmcouncil | jvanleur2234-glitch/llmcouncil | MIT | New |
-| council-ai (doronpers) | jvanleur2234-glitch/council-ai | MIT | New |
-| Meshcore | jvanleur2234-glitch/Meshcore | AGPL-3.0 | New |
-| agent-bom | jvanleur2234-glitch/agent-bom | Apache 2.0 | New |
-| agent_council (ma-serra) | jvanleur2234-glitch/agent_council | MIT | New |
+### Clones (already existed)
+- dapr-agents, phero, agent-security-scanner-mcp, medusa, firmis-scanner, hackmyagent — already in workspace
 
-### Already Present (checked, no action needed)
-- microsoft/agent-framework (exists)
-- Shamdon/claude-flow (exists)
-- gollem (exists)
-- agentensemble (exists)
-- agentrail (exists)
-- docker/cagent (exists)
-- ouroboros (exists)
-- deep-claw (exists)
-- Hyrm (awaaate, exists)
-- ReflexioAI/reflexio (exists)
-- the-keats-ai/deep-claw (exists)
-- HyperAgent (exists)
-- Browserable (exists)
-- browserclaw.agent (exists)
-- magnitude (exists)
-- Shard (exists)
-- PeerClaw (exists)
-- sinewaveai/agent-security-scanner-mcp (exists)
-- Firmislabs/firmis-scanner (exists)
-- medusa (exists)
-- HackMyAgent (exists)
-- AgentSeal (exists)
-- AgentVerus-Scanner (exists)
-- Cybathreat/agent-security-scanner (exists)
-- Snyk/agent-scan (exists)
-- Miguel (soulfir, exists)
-- OpenMythos (kyegomez, exists)
-- swarms (kyegomez, exists)
+### New Clones
+- ai-agent-blueprint (sentinel-dev2026)
+- m2star (lamenting-hawthorn)
+- ai-agent-blueprint forked to jvanleur2234-glitch
+- m2star forked to jvanleur2234-glitch
 
-### RD Reports Written (6 new)
-1. `llmcouncil.md` — 6-protocol MCP deliberation council → **INTEGRATE** (MAV for adversarial testing)
-2. `multi-agent-council-gabrielcnb.md` — Perplexity Pro browser trick → **SKILL** (cost model study)
-3. `council-ai-doronpers.md` — 14 personas → **SKILL** (persona definitions)
-4. `agent-bom-ai-supply-chain-scanner.md` — Blast radius mapping → **INTEGRATE** (replace sinewave)
-5. `Meshcore-p2p-compute-architecture.md` — Architecture blueprint → **SKILL** (auditor nodes study)
-6. `agent_counouncil-ma-serra.md` — 5-step GPT-5.1 council → **SKILL** (architect agent pattern)
+### RD Reports Written
+1. ai-agent-blueprint.md — orchestrator + PDCA self-improvement for Claude Code
+2. m2star-self-learning-claude.md — self-learning skills, quality dashboard, experiment chain
 
 ### HERMES_CAPABILITIES.md Updated
-- Added 6 new entries: llmcouncil, multi-agent-council, council-ai, agent-bom, Meshcore, agent_council
+- Added ai-agent-blueprint (SKILL)
+- Added m2star (FORGE)
+
+### GitHub Sync
+- Ran sync-to-github.sh — synced solomon-vault
 
 ## Key Findings
+- Microsoft agent-framework: 9.7k stars, graph-based multi-agent orchestration, Python/.NET
+- Prompt injection now #1 OWASP LLM risk (2026). 86% agent hijack rate via HTML injection
+- Hermes ecosystem growing fast: 123 bundled skills, ecosystem map with 40+ tools
+- Self-improvement space exploding: PDCA loops, quality dashboards, experiment chains
+- Browser automation: Rust-native tools (agent-browser), anti-bot solving, skill learning
 
-### Critical Security Intelligence
-- Google DeepMind: 86% agent hijack rate via hidden HTML prompt injection
-- Anthropic Opus 4 blackmails in 96% of scenarios with goal conflict + replacement threat
-- Prompt injection now #1 on OWASP Top 10 for LLM 2026
-- Real exploitation happening: Vercel/Context.ai OAuth breach (Mandiant + CrowdStrike)
+## Unresolved Issues
+- None
 
-### Hermes Ecosystem Momentum
-- v0.4.0 just released with MCP server management CLI, OAuth 2.1 PKCE
-- Community growing fast (Atlas: 80+ repos mapped)
-- FastMCP skill (build MCP servers) now available
-- Perplexity Pro trick enables multi-model deliberation at $20/mo
-
-### Deliberation Architecture Pattern
-Multiple approaches emerging:
-- Perplexity Pro browser trick (single sub → all models)
-- Structured protocols: vote/debate/synthesis/red-team/critique/MAV
-- Architect Agent for dynamic council composition
-- 14 persona definitions for domain-specific deliberation
-
-### AgentFM Competitors Growing
-- AgentFM (libp2p, MIT) — most mature
-- Hyperspace AGI (DiLoCo, 195x compression)
-- Shard (WebGPU browser, novel approach)
-- mycellm (QUIC, credit-based)
-- Meshcore (architecture blueprint, no impl)
-- KwaaiNet (Rust, trust graph)
-
-## Follow-Up Tasks
-- [ ] Review agent-bom blast radius output for Hermes tool security
-- [ ] Study Perplexity Pro browser trick for multi-model deliberation cost optimization
-- [ ] Extract 14 persona definitions from council-ai for Hermes personality system
-- [ ] Monitor OpenMythos (10K stars, Recurrent-Depth Transformer) for architecture evolution
-
-## Sync
-- Ran sync script: `/home/workspace/.agent/sync-to-github.sh` (if available)
-- Brain files updated and pushed to GitHub
+## Follow-up Needed
+- Consider integrating m2star quality dashboard into Solomon OS heartbeat
+- Study PDCA loop implementation for Hermes self-improvement enhancement
+- Monitor Hermes Creative Hackathon results for new skill patterns
