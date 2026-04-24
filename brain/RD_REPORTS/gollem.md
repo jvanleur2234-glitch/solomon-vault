@@ -1,26 +1,40 @@
-# gollem — Type-Safe Go Agent Framework
+# RD Report: Gollem
 
-## Metadata
-- **URL:** https://github.com/fugue-labs/gollem
-- **Fork:** Already forked (`gollem`)
-- **License:** MIT
-- **Tech:** Go, v0.3.1
+**Date:** 2026-04-24  
+**Slug:** gollem  
+**Tags:** #agent-framework #go #type-safety #compile-time  
 
-## What It Does
-Production-grade Go agent framework with compile-time type safety. Generic Agent[T], 5+ LLM backends, FuncTool with JSON Schema generation, streaming via iter.Seq2, guardrails (input/turn/output validation, auto-repair), OpenTelemetry middleware, state snapshots.
+## What It Is
+Production-grade Go agent framework focused on type safety and zero-dependency deployment. Compile-time guarantees for agent outputs, tool schemas, guardrails, and middleware.
 
-## Key Features
-- **Compile-time guarantees:** Output schemas, tool parameters, guardrails, middleware, event subscriptions
-- **Multi-provider:** Anthropic Claude, OpenAI GPT/O-series, Google Gemini, Vertex AI
-- **Streaming:** Go 1.23+ iterators, node-by-node agent looping
-- **Guardrails:** MaxPromptLength, ContentFilter, MaxTurns, tool result validators
-- **Observability:** OpenTelemetry traces, JSONFileExporter, ConsoleExporter
+## Relevance to Solomon OS / Hermes
+- **Go ecosystem** — potential for high-performance agent components
+- **Type safety** — compile-time validation aligns with Hermes security-first approach
+- **Single-binary deployment** — resource-efficient edge deployment
+- **Observability** — OpenTelemetry middleware, structured run traces
+- **Guardrails** — input/turn guardrails, MaxPromptLength, ContentFilter, MaxTurns
 
-## Solomon OS Fit
-- **MONITOR / REFERENCE** — Architecture study for Hermes 2.0 type-safe patterns
-- Guardrail patterns and middleware architecture useful for Hermes security layer
-- Go-based components could complement Python Hermes
-- MIT license for architecture study
+## License
+MIT
 
-## Action
-Already forked. Study middleware patterns for Hermes security middleware.
+## Stars
+Niche but active — trevorprater sole contributor
+
+## Key Capabilities
+- Type safety at compile time: Generics-Driven Agent[T]
+- Multi-provider streaming: Anthropic Claude, OpenAI GPT/O, Google Gemini/Vertex
+- FuncTool[P] via reflection-based JSON Schema
+- Guardrails: input/turn guardrails, output validation, automatic repair
+- OpenTelemetry middleware
+- Streaming with Go 1.23+ iter.Seq2
+- Agent.Iter with explicit Close() handling
+- Time-travel debugging via serializable conversation state snapshots
+
+## Competitive Position
+Go-based alternative to Python/TypeScript frameworks. Niche but valuable for high-performance compute nodes. Single-binary deployment is ideal for distributed edge.
+
+## Recommendation
+**SKILL** — Reference for Go-based agent components. Study guardrails and type-safety patterns.
+
+## Links
+- https://github.com/fugue-labs/gollem

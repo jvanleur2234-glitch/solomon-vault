@@ -1,27 +1,40 @@
-# agent-orcha — Declarative Multi-Agent YAML Framework
+# RD Report: Agent-Orcha
 
-**URL:** https://github.com/jvanleur2234-glitch/agent-orcha
-**Forked from:** https://github.com/ddalcu/agent-orcha
-**License:** MIT | **Language:** TypeScript/Node.js
+**Date:** 2026-04-24  
+**Slug:** agent-orcha  
+**Tags:** #agent-framework #typescript #declarative #p2p #mcp  
 
-## What It Does
-Declarative YAML-based framework for multi-agent AI systems. Define agents, workflows, knowledge stores in YAML. Native desktop apps (macOS/Windows/Linux), P2P agent sharing, MCP integration, built-in vector store.
+## What It Is
+Declarative, end-to-end TypeScript framework for building, managing, and scaling multi-agent AI systems. YAML-defined agents, workflows, and knowledge stores.
 
-## Key Features
-- Declarative YAML definitions for agents + workflows
-- P2P agent + LLM sharing over encrypted networks (no central API key exposure)
-- Native desktop apps with system tray + auto-updates
-- Model-agnostic: OpenAI, Gemini, Anthropic, local LLMs (Ollama)
-- MCP (Model Context Protocol) for external service integration
-- Built-in SQLite-based vector store + knowledge graph mapping
-- Robust workflow engine: parallel execution, conditional logic, state management
-- ReAct autonomous workflows with multi-turn continuations
-- Browser sandbox: full Chromium with CDP, noVNC, vision-based pixel control
-- Conversation memory with TTL management
-- Security: rate limiting, SSRF protection, SQL injection hardening, sandboxed execution
+## Relevance to Solomon OS / Hermes
+- **Declarative YAML** — could complement Hermes skill definitions
+- **P2P sharing** — agent/LLM engine sharing without central servers
+- **MCP support** — Model Context Protocol integration
+- **Knowledge graphs** — built-in SQLite vector store with optional graph mapping
+- **Desktop clients** — macOS/Windows/Linux native apps
 
-## Solomon OS Fit
-**SKILL** — P2P agent sharing is a competitor to AgentFM. Declarative YAML approach is interesting for configuration. Browser sandbox + vision mode parallels HyperAgent. MIT license allows direct adoption.
+## License
+MIT
+
+## Stars
+Active declarative orchestration framework
+
+## Key Capabilities
+- Declarative orchestration: YAML-defined agents, workflows, infrastructure
+- Model-agnostic: OpenAI, Gemini, Anthropic, local LLMs (Ollama, LM Studio)
+- MCP integration
+- Built-in SQLite vector store with semantic search
+- P2P sharing of agents and LLM engines without central servers
+- Per-peer rate limiting and private keys
+- Security: auth, rate limits, SSRF/SQL injection hardening, sandboxed execution
+- Agent Orcha Studio: web dashboard with visual composition
+
+## Competitive Position
+Declarative alternative to imperative agent frameworks. P2P sharing directly competes with AgentFM. Knowledge graph integration is advanced.
 
 ## Recommendation
-SKILL — Study P2P sharing model and declarative workflow engine for potential Solomon Air integration.
+**INTEGRATE** — P2P sharing patterns for AgentFM integration. Study declarative skill definition format.
+
+## Links
+- https://github.com/ddalcu/agent-orcha
