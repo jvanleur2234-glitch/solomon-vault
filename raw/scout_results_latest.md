@@ -1,54 +1,44 @@
-# AIQ Scout Results — 2026-04-24
+# AIQ Scout — Latest Results | 2026-04-24
 
-## Run Complete
-- **10 US businesses** discovered, audited, and pitched
-- **All audits via CashClaw** (v1.6.0)
-- **Payment link:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
+## 16 Leads Audited & Pitched
 
-## Top Targets (Lowest SEO Scores = Best Opportunities)
+### HIGH PRIORITY (Score < 70)
 
-### 1. Saint Petersburg 24/7 Locksmith — Score: 53 (F)
-**URL:** https://www.saintpetersburg247locksmith.com
-**Contact:** admin@saintpetersburg247locksmith.com
-**3 Top Issues:**
-1. No meta description (Google shows blank in search)
-2. No H1 tag — Google doesn't know what the page is about
-3. No Open Graph tags — links shared on social media show broken previews
+**Fairfield Dentistry & Implant Center** — 47/100
+- URL: https://www.fairfielddentalimplantcenter.com/
+- Issues: No meta description, no H1/H2 heading structure, no Open Graph tags, short title, low content
+- Contact: info@fairfielddentalimplantcenter.com
 
-### 2. Pure Air Heating & Air Conditioning — Score: 63 (D)
-**URL:** https://www.pure-comfort.com
-**Contact:** info@pure-comfort.com
-**3 Top Issues:**
-1. Slow server response (887ms) — Google penalizes page speed
-2. Images lack alt text — 0 accessibility for screen readers
-3. No Open Graph tags — social shares are dead
+**St Charles Locksmiths** — 68/100
+- URL: https://www.stcharleslocksmiths.com/
+- Issues: Slow server (780ms), missing alt text, no OG tags, no Twitter Card meta
+- Contact: contact form
 
-### 3. Mayfield Heating & Air — Score: 68 (D)
-**URL:** https://mayfieldhvac.com
-**Contact:** info@mayfieldhvac.com
-**3 Top Issues:**
-1. Server response 1113ms — kills Google ranking
-2. Images missing alt text
-3. No Open Graph tags
+**Top Flight Plumbing (Bakersfield, CA)** — 68/100
+- URL: https://topflight-plumbing.com/
+- Issues: No heading structure, slow server, low content, title too long
+- Contact: contact form
 
-### 4. Southwest Family Dentistry — Score: 68 (D)
-**URL:** https://www.southwestdentistry.com
-**Contact:** contact@southwestdentistry.com
-**3 Top Issues:**
-1. Missing H1 tag
-2. Images lack alt text
-3. No Open Graph tags
+### MEDIUM PRIORITY (Score 70-84)
 
-### 5. TALIC Locksmith Hartford — Score: 68 (D)
-**URL:** https://talic-locksmith.com
-**Contact:** TALICLOCKTR@Gmail.com
-**3 Top Issues:**
-1. No meta description
-2. No H1 tag
-3. Title too short (28 chars vs 50-60 optimal)
+- Bay Area Point S Tire & Auto (Glen Burnie, MD) — 71/100
+- JC Auto Repair (Lewisville, TX) — 74/100
+- Comfort Air (Tracy, CA) — 74/100
+- Dental Wellness Florida (Brandon) — 71/100
+- M180 Plumbing (Oklahoma City) — 77/100
+- LiteMovers (Chester County, PA) — 79/100
+- 616 Auto Repair (Grand Rapids, MI) — 79/100
+- Ruffalo & Whitford Family Dentistry (MI) — 79/100
+- Splash Plumbing (Anaheim) — 79/100
+- Auto Surgeon Inc (Lansing, MI) — 82/100
+- Discount Locksmith MN — 84/100
+- Plumbing 360 Tucson — 84/100
+- Loudoun Family & Cosmetic Dentistry (VA) — 84/100
 
-## All Leads Logged
-`/home/workspace/solomon-vault/raw/scout_leads_2026-04-24.json`
+## Payment Link Used
+https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08 ($29/mo SEO audit)
 
-## Daily Report
-`/home/workspace/solomon-vault/raw/scout_daily_2026-04-24.md`
+## Next Steps
+- Monitor for responses
+- Escalate any replies to Joseph via Telegram
+- Continue daily lead discovery

@@ -1,133 +1,226 @@
 [
   {
     "date": "2026-04-24",
-    "business_name": "Saint Petersburg 24/7 Locksmith",
-    "url": "https://www.saintpetersburg247locksmith.com",
-    "seo_score": 53,
+    "business_name": "Fairfield Dentistry and Implant Center",
+    "url": "https://www.fairfielddentalimplantcenter.com/",
+    "seo_score": 47,
     "top_issues": [
-      "Missing meta description entirely",
-      "No H1 tag on homepage",
-      "No Open Graph tags — social sharing dead",
-      "9 SEO failures total"
+      "No meta description (critical for search visibility)",
+      "No H1/H2 heading structure (poor content hierarchy)",
+      "No Open Graph tags (social sharing disabled)",
+      "Short title tag (16 chars, should be 50-60)",
+      "Low content length (<300 words)"
     ],
-    "contact_method": "admin@saintpetersburg247locksmith.com",
+    "contact_method": "info@fairfielddentalimplantcenter.com",
     "status": "pitched"
   },
   {
     "date": "2026-04-24",
-    "business_name": "Pure Air Heating & Air Conditioning",
-    "url": "https://www.pure-comfort.com",
-    "seo_score": 63,
-    "top_issues": [
-      "Slow server response time (887ms)",
-      "Images lack alt text — accessibility fail",
-      "No Open Graph tags — social sharing dead"
-    ],
-    "contact_method": "info@pure-comfort.com",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-24",
-    "business_name": "Mayfield Heating & Air Services",
-    "url": "https://mayfieldhvac.com",
-    "seo_score": 68,
-    "top_issues": [
-      "Slow server response time (1113ms)",
-      "Images lack alt text",
-      "No Open Graph tags"
-    ],
-    "contact_method": "info@mayfieldhvac.com",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-24",
-    "business_name": "Atlasta Lock & Safe Company",
-    "url": "https://atlastalock.com",
-    "seo_score": 68,
-    "top_issues": [
-      "No meta description",
-      "No Open Graph tags",
-      "No Twitter Card tags"
-    ],
-    "contact_method": "info@atlastalock.com",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-24",
-    "business_name": "Southwest Family Dentistry",
-    "url": "https://www.southwestdentistry.com",
-    "seo_score": 68,
-    "top_issues": [
-      "Missing H1 tag",
-      "Images lack alt text",
-      "No Open Graph tags"
-    ],
-    "contact_method": "contact@southwestdentistry.com",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-24",
-    "business_name": "TALIC Locksmith Hartford CT",
-    "url": "https://talic-locksmith.com",
-    "seo_score": 68,
-    "top_issues": [
-      "Missing meta description",
-      "Missing H1 tag",
-      "Title too short (28 chars)"
-    ],
-    "contact_method": "TALICLOCKTR@Gmail.com",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-24",
-    "business_name": "Black Mountain Plumbing Inc",
-    "url": "https://blackmountainplumbing.com",
-    "seo_score": 79,
-    "top_issues": [
-      "Slow server response (1151ms)",
-      "Images lack alt text",
-      "No Open Graph tags"
-    ],
-    "contact_method": "info@blackmountainplumbing.com",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-24",
-    "business_name": "Family 1st Dental LeMars",
-    "url": "https://ffdlemars.com",
-    "seo_score": 74,
-    "top_issues": [
-      "Slow server response (1109ms)",
-      "Title too short",
-      "Meta description too short"
-    ],
-    "contact_method": "info@ffdlemars.com",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-24",
-    "business_name": "Priority One Heating & Air",
-    "url": "https://priorityoneheating.com",
+    "business_name": "Discount Locksmith MN",
+    "url": "https://discountlocksmithmn.com/",
     "seo_score": 84,
     "top_issues": [
-      "Title too long",
-      "Images lack alt text",
-      "No Open Graph tags"
+      "Title tag too short (28 chars)",
+      "No meta description",
+      "Meta description length not optimal"
     ],
-    "contact_method": "info@priorityoneheating.com",
+    "contact_method": "info@discountlocksmithmn.com",
     "status": "pitched"
   },
   {
     "date": "2026-04-24",
-    "business_name": "Bluewater Plumbing Heating & Air",
-    "url": "https://www.bluewaterplumbingnc.com",
+    "business_name": "Splash Plumbing (Anaheim 24-Hour)",
+    "url": "https://www.splashplumbing.com/24-hour-plumber-anaheim/",
     "seo_score": 79,
     "top_issues": [
-      "Slow server response (511ms)",
-      "Title too short",
-      "Images lack alt text"
+      "Images missing alt text",
+      "Images not using lazy loading",
+      "Meta description length not optimal"
     ],
-    "contact_method": "info@bluewaterplumbingnc.com",
+    "contact_method": "https://www.splashplumbing.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Plumbing 360 Tucson",
+    "url": "https://www.plumbingtucson.com/emergency-plumbing",
+    "seo_score": 84,
+    "top_issues": [
+      "Images missing alt text",
+      "Images not using lazy loading",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://www.plumbingtucson.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Loudoun Family & Cosmetic Dentistry",
+    "url": "https://www.loudounfamilydentistry.com/",
+    "seo_score": 84,
+    "top_issues": [
+      "Title tag too long (70 chars)",
+      "Images missing alt text",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://www.loudounfamilydentistry.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "616 Auto Repair (Grand Rapids, MI)",
+    "url": "https://www.616autorepair.com/auto-repair/",
+    "seo_score": 79,
+    "top_issues": [
+      "Slow server response time (1064ms)",
+      "Images missing alt text",
+      "Images not using lazy loading",
+      "No Open Graph tags"
+    ],
+    "contact_method": "https://www.616autorepair.com/contact-us/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "JC Auto Repair (Lewisville, TX)",
+    "url": "https://jcautosrepairs.com/",
+    "seo_score": 74,
+    "top_issues": [
+      "Slow server response (1643ms)",
+      "No gzip compression",
+      "Title tag too short",
+      "Images missing alt text",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://jcautosrepairs.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Comfort Air (Tracy, CA)",
+    "url": "https://www.comfortairstocktonca.com/tracy-ca",
+    "seo_score": 74,
+    "top_issues": [
+      "Slow server response (1035ms)",
+      "Images missing alt text",
+      "Images not using lazy loading",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://www.comfortairstocktonca.com/contact-us/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Auto Surgeon Inc (Lansing, MI)",
+    "url": "https://www.autorepairlansingmi.com/",
+    "seo_score": 82,
+    "top_issues": [
+      "Slow server response (866ms)",
+      "Meta description length not optimal",
+      "Images not using lazy loading"
+    ],
+    "contact_method": "https://www.autorepairlansingmi.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Ruffalo & Whitford Family Dentistry (Shelby Township, MI)",
+    "url": "https://www.rwfamilydentistry.com/",
+    "seo_score": 79,
+    "top_issues": [
+      "Slow server response (950ms)",
+      "Title too long",
+      "Images not using lazy loading",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://www.rwfamilydentistry.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Top Flight Plumbing (Bakersfield, CA)",
+    "url": "https://topflight-plumbing.com/",
+    "seo_score": 68,
+    "top_issues": [
+      "Slow server response (952ms)",
+      "No H1/H2 heading tags",
+      "Title too long",
+      "Meta description length not optimal",
+      "Low content length (<300 words)"
+    ],
+    "contact_method": "https://topflight-plumbing.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "M180 Plumbing (Oklahoma City)",
+    "url": "https://m180plumbing.com/emergency-plumber/",
+    "seo_score": 77,
+    "top_issues": [
+      "Images missing alt text",
+      "Images not using lazy loading",
+      "No H1 heading structure",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://m180plumbing.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Bay Area Point S Tire & Auto (Glen Burnie, MD)",
+    "url": "https://www.bayareapointstire.com/glen-burnie/",
+    "seo_score": 71,
+    "top_issues": [
+      "Title too long",
+      "Images missing alt text",
+      "No Open Graph tags",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://www.bayareapointstire.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "Dental Wellness Florida (Brandon)",
+    "url": "https://dentalwellnessflorida.com/dentist-in-brandon/",
+    "seo_score": 71,
+    "top_issues": [
+      "Slow server response (810ms)",
+      "No H2 heading tags",
+      "Images not using lazy loading",
+      "No Twitter Card meta",
+      "No favicon configured"
+    ],
+    "contact_method": "https://dentalwellnessflorida.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "St Charles Locksmiths (Maryland)",
+    "url": "https://www.stcharleslocksmiths.com/",
+    "seo_score": 68,
+    "top_issues": [
+      "Slow server response (780ms)",
+      "Images missing alt text",
+      "Images not using lazy loading",
+      "No Open Graph tags",
+      "No Twitter Card meta",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://www.stcharleslocksmiths.com/contact/",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-24",
+    "business_name": "LiteMovers (Chester County, PA)",
+    "url": "https://litemovers.com/",
+    "seo_score": 79,
+    "top_issues": [
+      "Slow server response (802ms)",
+      "Images missing alt text",
+      "Meta description length not optimal"
+    ],
+    "contact_method": "https://litemovers.com/contact/",
     "status": "pitched"
   }
 ]

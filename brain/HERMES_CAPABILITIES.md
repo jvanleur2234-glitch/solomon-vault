@@ -6213,3 +6213,24 @@
 - **Solomon OS fit:** STUDY — browser compute concept for future Hermes deployment.
 - **Status:** STUDY
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/shard-p2p-inference.md
+
+## swarms-tools — Production-Grade Agent Tool Library (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/swarms-tools
+- **What it does:** Pre-built Python tools for finance (HTX, CoinGecko, DeFi), social media (Telegram), logging. MIT licensed.
+- **Solomon OS fit:** INTEGRATE — Telegram tool maps to Solomon messaging. Finance tools = trading agent primitives. Tool schema patterns for Hermes SKILL.md format.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/swarms-tools-kyegomez.md
+
+## swarms-core — Rust Backend for Swarms Orchestration (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/swarms-core
+- **What it does:** Rust execution engine for multi-agent orchestration. Memory-safe concurrency, Python bindings.
+- **Solomon OS fit:** SKILL (architecture study only) — CC BY-NC-ND license. Study Rust patterns for high-throughput agent execution.
+- **Status:** SKILL — architecture study only
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/swarms-core-kyegomez.md
+
+## swarms-torch — PyTorch Swarm Intelligence & MoE (April 24, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/swarms-pytorch
+- **What it does:** PSO-Transformers, Ant Colony, Swarmalator, Switch MoE, model merging techniques. MIT licensed.
+- **Solomon OS fit:** SKILL — MIT permits use. Swarm intelligence algorithms could enhance Hermes task routing. MoE merging for local model ensemble management.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/swarms-pytorch-kyegomez.md
