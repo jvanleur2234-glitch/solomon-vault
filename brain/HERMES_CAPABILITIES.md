@@ -6023,3 +6023,107 @@
 - **What it does:** Scans MCP server code against OWASP Agentic AI Top 10 (AS-001 to AS-012). PDF reports with MITRE ATT&CK mappings. npx mcps-audit ./my-agent.
 - **Solomon OS fit:** FORGE — Pre-installation security gate for all Hermes MCP servers. CI/CD integration. SOC 2 compliance evidence. OWASP-authoritative.
 - **Status:** FORGE
+
+## Agent Orcha — Declarative Multi-Agent Framework (April 24, 2026)
+- **URL:** https://github.com/ddalcu/agent-orcha
+- **Fork:** jvanleur2234-glitch/agent-orcha
+- **What it does:** Declarative YAML-based multi-agent orchestration with P2P agent sharing, MCP integration, built-in vector store, browser sandbox (Chromium/CDP/Xvfb), ReAct support, and Agent Orcha Studio web UI.
+- **Solomon OS fit:** FORGE — Declarative YAML config for agents/workflows maps to Hermes skill format. P2P sharing aligns with agent economy vision. Built-in browser sandbox competes with Solomon Browser POC.
+- **Status:** SKILL — study YAML orchestration pattern, P2P sharing model
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-orcha.md
+
+## Gollem — Go Agent Framework (April 24, 2026)
+- **URL:** https://github.com/fugue-labs/gollem
+- **Fork:** jvanleur2234-glitch/gollem
+- **What it does:** Production Go agent framework with compile-time type safety, zero-allocation streaming, multi-provider LLM support (Anthropic, OpenAI, Google), typed FuncTool, structured output, guardrails, middleware, and OpenTelemetry tracing.
+- **Solomon OS fit:** SKILL — study type-safe agent patterns for potential Go-based Solomon components. Guardrails implementation is reference-quality.
+- **Status:** SKILL — architecture study only
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/gollem.md
+
+## Phero — Go Multi-Agent Framework (April 24, 2026)
+- **URL:** https://github.com/henomis/phero
+- **Fork:** jvanleur2234-glitch/phero
+- **What it does:** Go-based multi-agent AI with A2A protocol (HTTP inter-agent communication), agent handoffs, skills system (SKILL.md), MCP integration, multimodal input, memory management, and tracing. Requires Go 1.25.5+.
+- **Solomon OS fit:** SKILL — A2A protocol design study. Skills system (SKILL.md) aligns with Hermes skills. Go-based for high-performance scenarios.
+- **Status:** SKILL — protocol/skills architecture study
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/phero-go-multi-agent.md
+
+## Agentrail — TypeScript Agent Framework (April 24, 2026)
+- **URL:** https://github.com/yai-dev/agentrail
+- **Fork:** jvanleur2234-glitch/agentrail
+- **What it does:** TypeScript framework for production-ready tool-using agents. Composable runtime core, hosted server layer, multi-agent orchestration, session memory, knowledge retrieval, sandboxed execution, and Docker isolation.
+- **Solomon OS fit:** SKILL — study TypeScript agent patterns for browser-based agents. Docker sandbox aligns with security requirements.
+- **Status:** SKILL — architecture study
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentrail.md
+
+## Agent Security Scanner — Critical Finding (April 24, 2026)
+- **URL:** https://github.com/sinewaveai/agent-security-scanner-mcp
+- **Fork:** jvanleur2234-glitch/sinewave-agent-security-scanner-mcp
+- **What it does:** Enterprise security scanner for AI coding agents. Prompt injection firewall, package hallucination detection (4.3M+ packages), 1700+ vulnerability rules via AST/taint analysis, LLM semantic code review, SBOM generation, SOC2/GDPR compliance evidence. ClawHub integration available.
+- **Solomon OS fit:** INTEGRATE — core security primitive for every skill/tool invocation. SOC2 evidence maps to JCPaid enterprise clients. Active development with latest release April 22, 2026.
+- **Status:** INTEGRATE — install as pre-execution gate
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/sinewave-agent-security-scanner-mcp.md
+
+## Browserable — AI Browser Automation (April 24, 2026)
+- **URL:** https://github.com/browserable/browserable
+- **Fork:** jvanleur2234-glitch/browserable
+- **What it does:** Open-source browser automation for AI agents (90.4% Web Voyager benchmark). Self-hosted with Docker, JS SDK, remote browser API integration (Hyperbrowser, Steel), MongoDB/Redis/MinIO backend.
+- **Solomon OS fit:** SKILL — alternative to Playwright for Solomon Browser. Docker-based deployment aligns with infra patterns.
+- **Status:** SKILL — benchmark against current Playwright setup
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/browserable-browser-automation.md
+
+## Vibium — Browser Automation Toolkit (April 24, 2026)
+- **URL:** https://github.com/VibiumDev/vibium
+- **Fork:** jvanleur2234-glitch/vibium
+- **What it does:** AI-friendly browser automation via simple CLI commands. Built on WebDriver BiDi (open standard). Available as CLI skill, MCP server, and JS/Python/Java libraries. ~10MB binary, zero-config, auto-downloads browser.
+- **Solomon OS fit:** SKILL — lightweight alternative to heavy browser stacks. MCP server available for Hermes integration.
+- **Status:** SKILL — lightweight browser automation option
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/vibium.md
+
+## AI Agent Scanner — Asset Discovery + Security (April 24, 2026)
+- **URL:** https://github.com/perfecxion-ai/ai-agent-scanner
+- **Fork:** jvanleur2234-glitch/ai-agent-scanner
+- **What it does:** Discovers AI agents across network, code, traffic, and cloud surfaces. Security testing, risk scoring, and compliance mapping (GDPR, SOC2, HIPAA, NIST, EU AI Act). SARIF output for CI/CD.
+- **Solomon OS fit:** SKILL — asset discovery for enterprise security posture. Compliance mapping aligns with JCPaid audit needs.
+- **Status:** SKILL — enterprise security discovery
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/ai-agent-scanner.md
+
+## Claude Synod Debate — Multi-Agent Deliberation (April 24, 2026)
+- **URL:** https://github.com/quantsquirrel/claude-synod-debate
+- **Fork:** jvanleur2234-glitch/claude-synod-debate
+- **What it does:** Three-act adversarial debate among Gemini, OpenAI, Claude models. Critique-driven refinement for higher-quality decisions. Reduces overconfidence and bias through cross-examination.
+- **Solomon OS fit:** SKILL — deliberation pattern for complex decisions. Study adversarial refinement mechanism.
+- **Status:** SKILL — deliberation architecture study
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/claude-synod-debate.md
+
+## AI Council Framework — Structured Multi-Agent Deliberation (April 24, 2026)
+- **URL:** https://github.com/focuslead/ai-council-framework
+- **Fork:** jvanleur2234-glitch/ai-council-framework
+- **What it does:** 6-phase deliberation (Distribute → Collect → Synthesize → Debate → Verify → Deliver) with anti-sycophancy protocol, configurable consensus depth, confidence scores, and minority report preservation.
+- **Solomon OS fit:** SKILL — structured deliberation for enterprise decisions. Anti-sycophancy protocol valuable for critical business decisions.
+- **Status:** SKILL — deliberation process study
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/ai-council-framework.md
+
+## Agent Debate — Shell-based Multi-Agent Code Review (April 24, 2026)
+- **URL:** https://github.com/gumbel-ai/agent-debate
+- **Fork:** jvanleur2234-glitch/agent-debate
+- **What it does:** Structured technical decision debates via shared Markdown file, strikethrough disagreements, concrete file:line evidence citations, dispute logs, and evidence-backed convergence. Supports Claude Code, Codex, Gemini, Copilot.
+- **Solomon OS fit:** SKILL — code review deliberation for engineering decisions. Evidence-based debate pattern valuable for technical reviews.
+- **Status:** SKILL — engineering decision debates
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-debate.md
+
+## Dapr Agents — Scalable Python Agent Framework (April 24, 2026)
+- **URL:** https://github.com/dapr/dapr-agents
+- **Fork:** jvanleur2234-glitch/dapr-agents
+- **What it does:** Scalable, autonomous AI agents with built-in workflow orchestration, durable execution, security, statefulness, and telemetry. Kubernetes-native, multi-agent collaboration, data integration. Apache 2.0.
+- **Solomon OS fit:** SKILL — study durable execution and state management patterns. Kubernetes-native aligns with enterprise deployment needs.
+- **Status:** SKILL — resilient agent architecture
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dapr-agents.md
+
+## AgentExpress — TypeScript Middleware Agent Framework (April 24, 2026)
+- **URL:** https://github.com/agent-express-ai/agent-express
+- **Fork:** jvanleur2234-glitch/agent-express
+- **What it does:** Express.js-style middleware framework for AI agents (ctx, next pattern). 12+ model providers, rich middleware system (agent/session/turn/model/tool hooks), built-in safety/governance (budget limits, validation, timeouts), OpenTelemetry, memory management.
+- **Solomon OS fit:** SKILL — middleware patterns for extensibility. Safety/governance built-in aligns with enterprise requirements.
+- **Status:** SKILL — middleware architecture patterns
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-express.md

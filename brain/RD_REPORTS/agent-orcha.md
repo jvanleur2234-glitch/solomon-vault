@@ -1,40 +1,43 @@
-# RD Report: Agent-Orcha
+# R&D Report: agent-orcha
 
-**Date:** 2026-04-24  
-**Slug:** agent-orcha  
-**Tags:** #agent-framework #typescript #declarative #p2p #mcp  
+**Date:** April 24, 2026
+**Repo:** github.com/ddalcu/agent-orcha
+**Forked:** jvanleur2234-glitch/agent-orcha
+**LINK fit:** ★★★★☆ — #multi-agent #p2p #yaml-orchestration #MCP
 
 ## What It Is
-Declarative, end-to-end TypeScript framework for building, managing, and scaling multi-agent AI systems. YAML-defined agents, workflows, and knowledge stores.
+Declarative YAML-based multi-agent orchestration framework. Define agents, workflows, and knowledge stores in YAML — Orcha handles execution. Supports local bare metal, Docker, or native desktop apps.
 
-## Relevance to Solomon OS / Hermes
-- **Declarative YAML** — could complement Hermes skill definitions
-- **P2P sharing** — agent/LLM engine sharing without central servers
-- **MCP support** — Model Context Protocol integration
-- **Knowledge graphs** — built-in SQLite vector store with optional graph mapping
-- **Desktop clients** — macOS/Windows/Linux native apps
+## Relevance to Solomon OS
+- **YAML orchestration** competitor to Hermes skills (SKILL.md format)
+- **P2P agent sharing** aligns with agent economy vision
+- **Built-in browser sandbox** with Chromium/CDP/Xvfb — competes with Solomon Browser POC
+- **MCP integration** first-class citizen
 
-## License
-MIT
+## Key Features
+- Declarative YAML config for agents/workflows
+- P2P encrypted agent sharing (no central server, per-peer rate limiting)
+- Built-in SQLite vector store with graph mapping
+- ReAct autonomous multi-turn workflows
+- Browser sandbox (Chromium, Xvfb, noVNC) + Vision Browser
+- Agent Orcha Studio web UI (monitoring, IDE, visual composer)
+- Security: SSRF protection, SQL injection hardening, rate limiting
 
-## Stars
-Active declarative orchestration framework
+## Tech Stack
+- TypeScript (CLI, Studio)
+- Node.js for orchestration
+- Docker for containerized deployment
+- SQLite for vector storage
 
-## Key Capabilities
-- Declarative orchestration: YAML-defined agents, workflows, infrastructure
-- Model-agnostic: OpenAI, Gemini, Anthropic, local LLMs (Ollama, LM Studio)
-- MCP integration
-- Built-in SQLite vector store with semantic search
-- P2P sharing of agents and LLM engines without central servers
-- Per-peer rate limiting and private keys
-- Security: auth, rate limits, SSRF/SQL injection hardening, sandboxed execution
-- Agent Orcha Studio: web dashboard with visual composition
+## Comparison to Hermes
+| Feature | Agent Orcha | Hermes |
+|---------|-------------|--------|
+| Config format | YAML | SKILL.md |
+| P2P sharing | ✅ native | ❌ |
+| Browser sandbox | ✅ built-in | ❌ |
+| Studio UI | ✅ full IDE | minimal |
+| MCP | ✅ first-class | ✅ |
+| Local models | ✅ Ollama, LM Studio, Omni | via OpenRouter |
 
-## Competitive Position
-Declarative alternative to imperative agent frameworks. P2P sharing directly competes with AgentFM. Knowledge graph integration is advanced.
-
-## Recommendation
-**INTEGRATE** — P2P sharing patterns for AgentFM integration. Study declarative skill definition format.
-
-## Links
-- https://github.com/ddalcu/agent-orcha
+## Verdict
+**FORGE** — Declarative YAML pattern is worth studying for potential Hermes skill format evolution. P2P sharing is a gap in current Solomon OS. Browser sandbox is direct competition to Solomon Browser.

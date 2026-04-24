@@ -1,36 +1,31 @@
-# RD Report: dapr/dapr-agents
+# R&D Report: dapr-agents
 
-**Date:** 2026-04-22
-**License:** MIT
-**Stars:** ~655
-**Language:** Python
-**Relevance:** 🟡 High — Production-Grade Agent Orchestration
+**Date:** April 24, 2026
+**Repo:** github.com/dapr/dapr-agents
+**Forked:** jvanleur2234-glitch/dapr-agents
+**LINK fit:** ★★★☆☆ — #durable-execution #kubernetes #state-management
 
 ## What It Is
-Build scalable, autonomous AI agents with built-in workflow orchestration, security, statefulness, and telemetry. Built on top of Dapr for distributed system primitives.
+Scalable, autonomous AI agents built on Dapr (Distributed Application Runtime). Built-in workflow orchestration, durable execution, security, statefulness, and telemetry. Kubernetes-native.
 
-## Key Capabilities
-- **Scales to thousands of agents** — efficient single-core execution with Dapr-managed distribution
-- **Durable workflow engine** — guaranteed task completion despite interruptions
-- **Kubernetes-native** — declarative deployment, auto-scaling
-- **Data-source integration** — 50+ data sources (databases, documents, unstructured)
-- **Multi-agent collaboration** — secure, observable inter-agent communication
-- **OpenTelemetry** — built-in tracing, metrics, logging
-- **v1.0.0 released** — March 19, 2026, production-ready
+## Relevance to Solomon OS
+- **Durable execution patterns** for resilient job handling
+- **State management** study for Solomon Bus
+- **Kubernetes-native** alignment with enterprise deployment
 
-## Why It Matters
-Dapr's proven distributed system primitives (state management, pub/sub, bindings) applied to AI agents. The durable workflow guarantee + Kubernetes-native deployment fills a gap in our current stack.
+## Key Features
+- Durable execution with automatic retries and state recovery
+- Scalable multi-agent systems (run thousands efficiently)
+- Built-in workflow orchestration
+- Data integration (databases, documents, unstructured)
+- Multi-agent collaboration with security/observability
+- Platform-agnostic (cloud and on-premises)
 
-## Comparison
-| Feature | Dapr Agents | Hermes |
-|---------|-------------|--------|
-| Workflow durability | Built-in Dapr | Custom |
-| Scaling model | Kubernetes-native | Process-based |
-| State management | Dapr state stores | SQLite |
-| Agent discovery | Dapr service invocation | Manual |
+## Tech Stack
+- Python
+- Apache 2.0
+- 30+ contributors, 23 releases
+- Latest: v1.0.1 (April 2026)
 
-## Solomon OS Fit
-**STUDY** — Durable workflow + Dapr state management patterns could enhance Hermes reliability. The Kubernetes deployment model is relevant for Solomon OS enterprise scaling.
-
-## Action
-Already cloned. Study Dapr state management + durable workflow patterns.
+## Verdict
+**SKILL** — Study durable execution and state management for Solomon Bus resilience. Kubernetes-native architecture informs enterprise deployment patterns.

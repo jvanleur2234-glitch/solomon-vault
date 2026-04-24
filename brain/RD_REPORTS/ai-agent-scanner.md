@@ -1,21 +1,31 @@
-# ai-agent-scanner — AI Asset Discovery & Security
+# R&D Report: ai-agent-scanner
 
-**Repo:** `perfecxion-ai/ai-agent-scanner` | **License:** GPL-3.0 | **Lang:** Python
+**Date:** April 24, 2026
+**Repo:** github.com/perfecxion-ai/ai-agent-scanner
+**Forked:** jvanleur2234-glitch/ai-agent-scanner
+**LINK fit:** ★★★★☆ — #security #discovery #compliance
 
 ## What It Is
-First open-source tool for **discovering AI agents in production** (not just testing known endpoints). Asset inventory + vulnerability testing + compliance mapping.
+Asset inventory and security assessment platform that discovers AI agents across network, code, traffic, and cloud surfaces, then tests for vulnerabilities and maps to compliance frameworks.
 
-## Key Capabilities
-- **Discovery across 4 surfaces:** Network (exposed endpoints), Code (SDK usage, keys, configs), Traffic (AI calls in logs/HAR), Cloud (SaaS AI services)
-- **Vulnerability testing** on discovered agents
-- **Risk scoring** per agent to prioritize remediation
-- **Compliance mapping:** GDPR, SOC2, HIPAA, NIST AI RMF, EU AI Act
-- SARIF output for CI/CD
+## Relevance to Solomon OS
+- **Enterprise security discovery** for JCPaid audit needs
+- **Compliance mapping** (GDPR, SOC2, HIPAA, NIST AI RMF, EU AI Act)
+- **Discovers agents across surfaces** — asset management for AI deployments
 
-## Solomon OS Fit
-- **Agent FM competitor:** Discovers agents across infrastructure — useful for JCPaid agent fleet management
-- **Compliance automation:** SOC2/HIPAA mapping directly relevant for enterprise JCPaid deployments
-- **LINK fit:** ★★★☆☆ — #discovery #compliance #agent-fleet
+## Key Features
+- **Discovery across 4 surfaces:**
+  - Network (endpoints)
+  - Code (SDK usage, keys, configs)
+  - Traffic (API calls in logs/HAR)
+  - Cloud (SageMaker, Bedrock, Azure OpenAI, Vertex AI)
+- Security vulnerability scanning
+- Risk scoring with severity levels
+- SARIF output for CI/CD integration
 
-## Action
-Already forked. Write RD report. Add to HERMES_CAPABILITIES as discovery/compliance tool.
+## Tech Stack
+- Python
+- GPL-3.0 license
+
+## Verdict
+**SKILL** — Asset discovery for enterprise security posture. Compliance mapping aligns with JCPaid audit requirements. Good addition to security toolkit.
