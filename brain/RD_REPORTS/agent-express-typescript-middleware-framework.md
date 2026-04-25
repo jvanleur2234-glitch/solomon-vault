@@ -1,32 +1,37 @@
-# RD Report: agent-express
+# RD Report: agent-express — TypeScript Middleware Agent Framework
+
+**Date:** 2026-04-25  
+**Category:** Agent Framework  
+**Status:** SKILL  
 
 ## What It Is
-Minimalist TypeScript middleware framework for building AI agents. Applies Express.js `use()` pattern to AI agent development — three concepts: Agent, Session, Middleware.
 
-## License
-MIT
-
-## Relevance to Solomon OS
-- **Agent Orchestration**: Clean middleware model for Hermes-style skill chaining
-- **TypeScript/Node.js Ecosystem**: Could power Hermes MCP server implementations
-- **Multi-Provider**: 12+ model providers, complexity-based routing
-- **Observability**: OpenTelemetry built-in, structured logging
+A minimalist, middleware-driven TypeScript framework for building AI agents. Applies an Express-like middleware pattern with a simple `(ctx, next)` interface, centered on three concepts: Agent, Session, and Middleware.
 
 ## Key Features
-- 5 onion hooks: agent, session, turn, model, tool
-- Built-in guards: budget caps, input/output validation, timeouts, iteration limits, HITL approval
-- 12+ model providers via provider/model syntax
-- Model routing by complexity
-- Context window compaction strategies
-- MCP integration (connect to MCP servers as tool sources)
-- SSE streaming out of the box
-- Testing toolkit: TestModel, FunctionModel, capture, record/replay
 
-## Stars/Status
-Active, 2026 release
+- **Middleware architecture:** 5 onion hooks — agent, session, turn, model, tool
+- **Built-in guards:** Budget, input/output validation, timeouts, iteration limits, HITL approval
+- **Observability:** Structured logging, OpenTelemetry metrics/traces, token tracking, tool recording
+- **Model support:** 12+ providers (Anthropic, OpenAI, Google, Mistral, Groq, etc.)
+- **Model routing:** Based on task complexity
+- **Memory management:** Context window compaction with multiple strategies
+- **Testing toolkit:** TestModel, FunctionModel, capture, record/replay, snapshots
+- **MCP integration:** For tool sources
+- **Output validation:** Zod-based schema validation for model responses
+- **CLI:** dev (hot reload) and test (CI-style output)
 
-## Action
-**SKILL** — Evaluate for Hermes Agent's middleware/skill chain architecture. Good reference for `hermes-skill-factory` design patterns.
+## License
 
----
-*Generated: 2026-04-24 by AIQ Scout*
+MIT
+
+## Why It Matters for Solomon OS
+
+- **Middleware pattern:** Express-style middleware could inspire Hermes skill chaining
+- **Guardrails:** Built-in budget/time/validation guards map to Hermes safety requirements
+- **Observability:** OpenTelemetry integration aligns with Solomon OS monitoring needs
+- **Lightweight:** Could serve as reference for Hermes TypeScript skill development
+
+## Source
+
+- https://github.com/agent-express-ai/agent-express

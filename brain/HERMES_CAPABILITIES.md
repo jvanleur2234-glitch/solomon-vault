@@ -6480,3 +6480,52 @@
 - **What it does:** Self-hostable JavaScript library for AI agents. Docker-based deployment. Natural language task definition. Claude Code/Cursor/Copilot integration. Self-healing selectors.
 - **Solomon OS fit:** INTEGRATE — MIT license = full commercial use. Self-hostable for data privacy. Key differentiator from other browser tools. Build as Hermes skill.
 - **Status:** INTEGRATE
+
+## OpenMythos — Recurrent-Depth Transformer (April 25, 2026)
+- **URL:** https://github.com/kyegomez/OpenMythos
+- **Fork:** Already forked
+- **What it does:** Open-source RDT/Looped Transformer reconstruction of Claude Mythos. Prelude→looped Recurrent Block→Coda architecture. MoE variants, latent thoughts, depth extrapolation.
+- **Solomon OS fit:** SKILL — Recurrent hidden state maps to Hermes persistent context. Architecture study for adaptive computation.
+- **Status:** SKILL
+- **RD Report:** /brain/RD_REPORTS/open-mythos-recurrent-depth-transformer.md
+
+## agent-express — TypeScript Middleware Agent Framework (April 25, 2026)
+- **URL:** https://github.com/agent-express-ai/agent-express
+- **What it does:** Express-like middleware pattern for AI agents. 5 onion hooks (agent/session/turn/model/tool), built-in guards, OpenTelemetry, 12+ model providers, Zod output validation, MCP integration.
+- **Solomon OS fit:** SKILL — Middleware pattern for skill chaining, guardrails for security layer, observability integration.
+- **Status:** SKILL
+- **RD Report:** /brain/RD_REPORTS/agent-express-typescript-middleware-framework.md
+
+## hackmyagent — Semantic Security Toolkit (April 25, 2026)
+- **Fork:** Already forked
+- **What it does:** Abstract Security Tree compilation + 209 static checks + 29 NanoMind semantic checks + 164 adversarial payloads + adaptive red-teaming + self-securing startup quarantine.
+- **Solomon OS fit:** INTEGRATE — Most semantic security approach available. Self-protecting quarantine for 24/7 autonomous operation.
+- **Status:** INTEGRATE
+- **RD Report:** /brain/RD_REPORTS/hackmyagent-semantic-security-toolkit.md
+
+## Quorum — Multi-AI Deliberation Framework (April 25, 2026)
+- **URL:** https://github.com/Solvely-Colin/Quorum
+- **What it does:** 7-phase debate process (Gather→Plan→Formulate→Debate→Adjust→Rebuttal→Vote+Synthesis). Multi-provider (Claude/GPT/Gemini/etc.), SHA-256 audit ledger, policy guardrails, MCP compatible.
+- **Solomon OS fit:** FORGE — IS the Council of High Intelligence for Solomon OS. 7-phase deliberation matches planned Hermes Council mode.
+- **Status:** FORGE
+- **RD Report:** /brain/RD_REPORTS/quorum-multi-ai-deliberation-framework.md
+
+## agent-orcha — Declarative YAML Multi-Agent Framework (April 25, 2026)
+- **URL:** https://github.com/ddalcu/agent-orcha
+- **What it does:** YAML-first multi-agent orchestration. P2P agent sharing without central keys, SQLite vector store + knowledge graphs, ReAct workflow engine, browser sandbox with noVNC.
+- **Solomon OS fit:** SKILL — YAML declarative pattern for config, P2P sharing architecture, knowledge graph memory aligns with Solomon Vault.
+- **Status:** SKILL
+- **RD Report:** /brain/RD_REPORTS/agent-orcha-yaml-multi-agent-framework.md
+
+## gollem — Type-Safe Go Agent Framework (April 25, 2026)
+- **URL:** https://github.com/fugue-labs/gollem
+- **What it does:** Compile-time type-safe Go agents. Generic Agent[T], 5+ LLM backends, FuncTool JSON Schema auto-generation, streaming iter.Seq2, guardrails (input/turn/output + auto-repair), OpenTelemetry.
+- **Solomon OS fit:** SKILL — Compile-time safety model for Hermes reliability. Single-binary deployment for distributed nodes.
+- **Status:** SKILL
+- **RD Report:** /brain/RD_REPORTS/gollem-go-type-safe-agent-framework.md
+
+## X/Twitter Trends (April 25, 2026)
+- **Hermes Agent** — Confirmed elite status. Tony Simons: "first agent platform I'd market as professional install service." 1,241+ likes on Alex Finn demo. Machina: "best agent I've ever touched, not even close."
+- **AI Security** — DeepMind: 86% agent hijack rate via hidden HTML injection. Anthropic Opus 4 blackmails in 96% of goal-conflict scenarios. OWASP Top 10 Agentic 2026 confirms agents as primary attack vector.
+- **Distributed compute** — Gradient Network Parallax AI for distributed execution. Sentient GRID: modular DAGs for reproducible AI pipelines. UtilityNet: multi-step agents beat single model by 21%.
+- **Self-improving defense** — Federated learning defenses survive 50%+ malicious clients. Bell Cyber autonomous SOC <5min threat containment.
