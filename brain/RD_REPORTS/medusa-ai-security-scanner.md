@@ -1,30 +1,31 @@
-# RD Report: Medusa — 9,600+ Pattern AI Security Scanner
+# MEDUSA — 9,600+ Pattern Security Scanner for AI/ML Agents
 
-## Summary
-AI-first security scanner with 9,600+ detection patterns and 200 CVE checks. Repo-wide scans with new git option for AI supply chain risks. 10-40x faster with multi-core.
+**URL:** https://github.com/jvanleur2234-glitch/medusa
+**Forked from:** https://github.com/Pantheon-Security/medusa
+**License:** AGPL-3.0 ⚠️
+**Stars:** Unknown (new discovery)
 
-## What It Is
-Detects threats in AI/ML apps, agents, LLMs, MCP servers, RAG pipelines. Pattern-based + CVE checks (Log4Shell, LangChain RCE). Zero-setup install (pip). Cross-platform.
+## What It Does
+AI-first security scanner with 9,600+ AI security patterns, 200+ CVE detections (Log4Shell, Spring4Shell, LangChain RCE), repo poisoning detection across 28+ file types, cursor/copilot/claude/gemini editor weaponization detection. Zero-setup, parallel processing, SARIF/JSON/HTML/Markdown output.
 
-## Key Features
-- **9,600+ detection patterns**, 200 CVE checks
-- **Repo-wide scans**: `--git` option for AI supply chain risk + repo poisoning across 28+ file types
-- **Multi-core speed**: 10-40x faster
-- **Zero-setup**: pip install
-- **Reports**: JSON/HTML/Markdown/SARIF
-- **OWASP/MITRE aligned**
+## Why It Matters
+- Largest known pattern library for AI/ML security
+- Specifically targets AI agent attack surfaces (MCP servers, RAG pipelines, agent frameworks)
+- Cross-platform (Windows/macOS/Linux), CI/CD ready
+- Detects weaponized AI editor configurations
 
-## License
-MIT (inferred)
+## Solomon OS Fit
+- SKILL — Security scanning for Hermes skill marketplace
+- AGPL-3.0 license restricts commercial use — cannot integrate directly into JCPaid
+- Valuable as reference for pattern development or self-hosted deployment
 
-## Relevance to Solomon OS / Hermes
-- **Snyk competitor** — security scanning for AI agents
-- Pattern density (9,600+) exceeds other scanners
-- SARIF output for CI integration
-- AI supply chain risk detection aligns with JCPaid enterprise requirements
+## Competitive Analysis
+- **vs. ProofLayer/Sinewave:** 9,600+ patterns vs. 1,700+ — more comprehensive
+- **vs. Firmis-scanner:** Broader CVE coverage, editor weaponization detection
+- **vs. AgentSeal:** Pattern volume vs. OWASP Agentic Top 10 alignment
 
-## Verdict
-**INTEGRATE** — Security scanning layer for Hermes. OWASP aligned. High pattern count valuable.
+## Recommendation
+**SKILL** — Reference for security pattern development. Cannot use AGPL code in JCPaid commercial product directly.
 
-## Fork
-Already forked: `jvanleur2234-glitch/medusa` ✅
+## Status
+Already forked to jvanleur2234-glitch/medusa

@@ -6413,3 +6413,43 @@
 - **Solomon OS fit:** SKILL — 95% token reduction for browser tasks massive. Self-healing reduces maintenance. MCP server enables native Hermes integration. Maps to Hermes web research.
 - **Status:** SKILL
 
+
+## Gollem — Production Agent Framework for Go (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/gollem
+- **Source:** https://github.com/fugue-labs/gollem
+- **License:** MIT
+- **What it does:** Go-based production agent framework with compile-time type safety, zero-core dependencies, single-binary deployment. Typed `Agent[T]`, multi-provider streaming (Anthropic/OpenAI/Gemini/Vertex), guardrails, middleware chains, OpenTelemetry tracing, cost tracking, multi-agent team orchestration via ext/team.
+- **Solomon OS fit:** SKILL — Study for type-safe agent design patterns. Go agent for compute-intensive Hermes workloads. MIT permits direct use of patterns.
+- **Status:** SKILL
+
+## Agent-Express — Express-Style Middleware AI Agent Framework (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-express
+- **Source:** https://github.com/agent-express-ai/agent-express
+- **License:** MIT
+- **What it does:** Minimalist TypeScript framework with 3 concepts: Agent, Session, Middleware. 5 onion hooks (agent/session/turn/model/tool). Built-in guards: budget, validation, timeouts, iteration limits, HITL approval. 12+ model providers, model routing, memory compaction, MCP integration, Zod validation, CLI with hot-reload.
+- **Solomon OS fit:** INTEGRATE — Express.js pattern maps directly to Hermes. HITL approval middleware for enterprise workflows. MIT allows direct use of patterns.
+- **Status:** INTEGRATE
+
+## Docker Agent (cagent) — YAML-Driven Multi-Agent Orchestration (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/cagent
+- **Source:** https://github.com/docker/cagent
+- **License:** Apache 2.0
+- **What it does:** Docker CLI plugin for declarative YAML agent definitions. Multi-agent teams, any MCP server, model-agnostic (OpenAI/Anthropic/Gemini/Bedrock/Mistral/xAI/Docker Model Runner), built-in think/todo/memory tools, RAG with BM25+embeddings+hybrid search+reranking, OCI registry push/pull for agent distribution.
+- **Solomon OS fit:** INTEGRATE — YAML config maps to Hermes skill manifests. RAG pipeline could replace/enhance knowledge retrieval. Docker packaging for agent distribution. Apache 2.0 permits direct code use.
+- **Status:** INTEGRATE
+
+## Dapr Agents — Resilient Workflow Orchestration (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/dapr-agents
+- **Source:** https://github.com/dapr/dapr-agents
+- **License:** Apache 2.0
+- **What it does:** Python-based AI agent framework built on Dapr's durable workflow engine. Tasks complete even amid failures. Automatic retries and recovery, Kubernetes-native deployment, multi-agent collaboration, data-driven workflow orchestration, built-in security and observability.
+- **Solomon OS fit:** FORGE — Durable execution model for Hermes autonomous operations. Workflow orchestration directly implementable. Kubernetes-native for JCPaid enterprise. Apache 2.0 allows direct use.
+- **Status:** FORGE
+
+## MEDUSA — 9,600+ Pattern Security Scanner for AI/ML (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/medusa
+- **Source:** https://github.com/Pantheon-Security/medusa
+- **License:** AGPL-3.0 ⚠️
+- **What it does:** AI-first security scanner with 9,600+ patterns, 200+ CVEs (Log4Shell, Spring4Shell, LangChain RCE), repo poisoning detection across 28+ file types, cursor/copilot/claude/gemini editor weaponization detection. Zero-setup, parallel processing, SARIF/JSON/HTML/Markdown output.
+- **Solomon OS fit:** SKILL — Reference for security pattern development. AGPL-3.0 restricts commercial use in JCPaid.
+- **Status:** SKILL (license restricted)

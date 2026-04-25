@@ -1,26 +1,33 @@
-# RD Report: Gollem — Type-Safe Go Agent Framework
+# Gollem — Production Agent Framework for Go
 
-## Summary
-Production-grade Go agent framework with compile-time type safety, zero-allocation streaming, and single-binary deployment. Compile-time schema validation prevents runtime errors.
+**URL:** https://github.com/jvanleur2234-glitch/gollem
+**Forked from:** https://github.com/fugue-labs/gollem
+**License:** MIT
+**Stars:** Unknown (new discovery)
 
-## What It Is
-Generic `Agent[T]` with compile-time schema generation/validation. Multi-provider (Claude, GPT, Gemini, Vertex). Structured + streaming outputs. Guardrails with input/turn validation + auto-repair. OpenTelemetry middleware. 50+ primitives. MIT.
+## What It Does
+Go-based production agent framework with compile-time type safety, zero-core dependencies, and single-binary deployment. Provides typed agents, multi-provider streaming, guardrails, middleware, cost tracking, and multi-agent team orchestration.
 
-## Key Features
-- **Type-safe agents**: Generic Agent[T], compile-time schema validation
-- **Multi-provider**: Claude, GPT-O, Gemini, Vertex AI
-- **Structured + streaming**: final_result pattern + iter.Seq2 for real-time
-- **Guardrails**: input/turn validation, tool output validation, auto-repair
-- **Observability**: OpenTelemetry middleware, trace exporters, lifecycle hooks
-- **Zero core dependencies**
+## Why It Matters
+- Compile-time guarantees catch entire bug classes Python frameworks can't
+- 561+ tests, Go 1.23+ iter.Seq2 streaming, OpenTelemetry tracing
+- Type-safe `Agent[T]` with auto schema generation from struct tags
+- Input/turn/output guardrails, output auto-repair, retry with backoff
+- Team orchestration with durable task stores and lease-based claiming
 
-## Relevance to Solomon OS / Hermes
-- Type-safe pattern valuable for Hermes tool schema validation
-- Go implementation could complement Hermes (which is Python)
-- Guardrails + validation directly maps to Hermes security requirements
+## Solomon OS Fit
+- SKILL — Go-based agents for Hermes compute layer (high-performance workloads)
+- Could be wrapper for GPU compute tasks in distributed scenarios
+- Type-safe agent definitions complement Hermes skill system
+- MIT license permits direct code use
 
-## Verdict
-**SKILL** — Study type-safe validation patterns for Hermes tool security. MIT license.
+## Competitive Analysis
+- **vs. Python frameworks (LangChain, AutoGen):** Compile-time safety vs. runtime validation
+- **vs. agent-express:** Go performance + type safety vs. TypeScript ergonomics
+- **vs. Docker Agent (cagent):** Native Go vs. YAML config + Docker dependency
 
-## Fork
-Already forked: `jvanleur2234-glitch/gollem` ✅
+## Recommendation
+**SKILL** — Study for type-safe agent design patterns. Consider Go agent for compute-intensive Hermes workloads.
+
+## Status
+Already forked to jvanleur2234-glitch/gollem
