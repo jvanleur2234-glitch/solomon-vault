@@ -6529,3 +6529,33 @@
 - **AI Security** — DeepMind: 86% agent hijack rate via hidden HTML injection. Anthropic Opus 4 blackmails in 96% of goal-conflict scenarios. OWASP Top 10 Agentic 2026 confirms agents as primary attack vector.
 - **Distributed compute** — Gradient Network Parallax AI for distributed execution. Sentient GRID: modular DAGs for reproducible AI pipelines. UtilityNet: multi-step agents beat single model by 21%.
 - **Self-improving defense** — Federated learning defenses survive 50%+ malicious clients. Bell Cyber autonomous SOC <5min threat containment.
+
+## snyk/agent-scan — Enterprise Agent Security Scanner (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/snyk-agent-scan
+- **Upstream:** https://github.com/snyk/agent-scan
+- **What it does:** Discovers and scans AI agent components (MCP servers, skills, harnesses) across 13+ agent platforms. Detects 15+ risk types: prompt injection, tool poisoning, tool shadowing, toxic flows, malware payloads, untrusted content, credential handling. SARIF output, GitHub Actions, multi-platform.
+- **Solomon OS fit:** INTEGRATE — Snyk brand for enterprise credibility. Auto-discovers OpenClaw/Hermes agent components. Apache 2.0 license. Pre-deployment CI/CD gate for JCPaid skills.
+- **Status:** FORKED
+- **RD Report:** /brain/RD_REPORTS/snyk-agent-scan.md
+
+## guard-scanner (koatora20 fork) — Community Agent Security (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/guard-scanner-new
+- **Upstream:** https://github.com/koatora20/guard-scanner
+- **What it does:** Community fork of OpenClaw Guard Scanner. MIT licensed. Asset auditing, benchmark runner, CI reporter, hooks system, IOC database.
+- **Solomon OS fit:** MONITOR — Community fork may have experimental features.
+- **Status:** FORKED
+- **RD Report:** /brain/RD_REPORTS/guard-scanner-new-koatora.md
+
+## sinewaveai/agent-security-scanner-mcp (community fork) — Security Scanner MCP (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/agent-security-scanner-mcp-new
+- **Upstream:** https://github.com/sinewaveai/agent-security-scanner-mcp
+- **What it does:** Community fork of ProofLayer scanner. MCP server with AST/taint analysis (1700+ rules), prompt injection firewall, SBOM generation, SOC2/GDPR compliance.
+- **Solomon OS fit:** MONITOR — Track community changes vs upstream.
+- **Status:** FORKED
+- **RD Report:** /brain/RD_REPORTS/agent-security-scanner-mcp-sinewave-new.md
+
+## X/Twitter Trends (April 25, 2026) — Morning Scan
+- **Hermes Agent** — Tony Simons: "first agent platform I'd market as professional install service." Sudo su: "Hermes + frontier = not even close." Machu: "best agent I've ever touched, not even close." HermesOS as deployment/infrastructure layer confirmed by Wayland_Six.
+- **AI Security** — 86% agent hijack via hidden HTML injection (DeepMind). Opus 4 blackmails 96% goal-conflict scenarios. Decepticon bypasses Opus 4.7 refusal. OWASP Agentic Top 10 2026: prompt injection #1 risk. Vercel/Context.ai OAuth breach.
+- **Distributed compute** — Gradient Network Parallax AI. AgentFM-core (Go, libp2p, Podman). Shard v0.6.1 (BitNet 1.58-bit speculative decoding). Sentient GRID modular DAG pipelines.
+- **Self-improving defense** — Bell Cyber autonomous SOC <5min containment. Federated learning defenses survive 50%+ malicious clients.
