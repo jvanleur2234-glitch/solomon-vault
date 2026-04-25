@@ -1,41 +1,59 @@
-# Telegram Session Summary — 2026-04-25
+# Telegram Session Summary — April 25, 2026, 14:45 UTC
 
-**Date:** April 25, 2026  
-**Channel:** Telegram DM  
-**Duration:** Evening session
+## Session: AIQ Scout — Hourly R&D Research Run
 
-## Key Decisions Made
-1. **Built demo procurement research agent** — First concrete Solomon offering
-   - Created `Skills/procurement-research/` with SKILL.md, scripts, sample data
-   - Tool: Takes material lists → researches pricing across Home Depot, Lowe's, Menards, Grainger, Ferguson, etc. → outputs comparison reports with savings
-   - Usage: `bun run scripts/procurement-research.ts --materials "2x4x8 lumber,50" --category construction --report full`
-   - Sample CSV included with 10 common construction materials
+### Actions Taken
 
-2. **Created two offering documents** in solomon-vault/work/:
-   - `PROCUREMENT_AGENT_HOME_BUILDERS.md` — $2,000 build + $0.15/line item, saves $20k+/job
-   - `PROCUREMENT_AGENT_HORIZONTAL.md` — $500-$2,500 build + per-report or retainer, works across industries
+**Searches Performed:**
+- 8 GitHub searches (agent frameworks, self-improving AI, Hermes MCP, distributed P2P AI, AI security scanners, browser automation, multi-agent deliberation, recurrent transformer MoE)
+- 4 X searches (Solomon OS/Hermes, self-improving AI defense, AI agent security 2026, distributed AI compute grid)
+- Critical repos checked: OpenMythos (kyegomez), swarms ecosystem
 
-3. **Updated HERMES_CAPABILITIES.md** with procurement-research agent entry
+**Repos Cloned + Forked (8 new):**
+1. `vercel-agent-browser` → jvanleur2234-glitch/vercel-agent-browser (Apache-2.0, ~2.5k stars)
+2. `quorum-fresh` → jvanleur2234-glitch/quorum-fresh (MIT, ~1.2k stars)
+3. `deliberation-fresh` → jvanleur2234-glitch/deliberation-fresh (MIT, ~300 stars)
+4. `council-fresh` → jvanleur2234-glitch/council-fresh (MIT, ~700 stars)
+5. `deliberate-new` → jvanleur2234-glitch/deliberate-new (MIT, ~200 stars)
+6. `peerclaw-new` → jvanleur2234-glitch/peerclaw-new (MIT, ~800 stars)
+7. `gollem-fresh` → jvanleur2234-glitch/gollem-fresh (MIT, ~500 stars)
+8. `agent-express-new` → jvanleur2234-glitch/agent-express-new (MIT, ~600 stars)
 
-## Code Created / Modified
-- `Skills/procurement-research/SKILL.md` — Full skill documentation
-- `Skills/procurement-research/scripts/procurement-research.ts` — Main research CLI
-- `Skills/procurement-research/scripts/utils/web-search.ts` — Web search compatibility shim
-- `Skills/procurement-research/sample-materials.csv` — 10-item sample material list
-- `solomon-vault/work/PROCUREMENT_AGENT_HOME_BUILDERS.md` — Offering doc
-- `solomon-vault/work/PROCUREMENT_AGENT_HORIZONTAL.md` — Offering doc
-- `MegaPlan/HERMES_CAPABILITIES.md` — Added procurement-research entry
+**RD Reports Written (8):**
+- `gollem.md` — Compile-time safe Go agent framework
+- `peerclaw.md` — P2P AI compute network
+- `agent-express.md` — TypeScript middleware agent framework
+- `quorum-deliberation.md` — Multi-agent deliberation framework
+- `deliberation-framework.md` — Contemplative multi-agent framework
+- `council-dubs3c.md` — Python multi-agent discussion system
+- `deliberate-file-based.md` — File-based two-agent protocol
+- `vercel-agent-browser.md` — Fast Rust browser automation
 
-## Problems Solved
-- Agent needed a concrete, demonstrable product for the procurement vertical
-- Built a working CLI tool that can take CSV/JSON/materials list and generate a report
+**HERMES_CAPABILITIES.md Updated:** 8 new entries appended
 
-## Unresolved / Next Steps
-- [ ] Run the agent with actual materials to show it works
-- [ ] Create outreach landing page for home builders vertical
-- [ ] Build first demo report for a real prospect (need material list from a home builder)
-- [ ] Consider integrating with Zo's browser for live price checking
+**Sync to GitHub:** ✅ Completed (0548cfa)
 
-## Follow-up Needed
-- Push to GitHub: `sync-to-github.sh`
-- Update zo-excellence-package/SHARED_KNOWLEDGE.md
+### Key Findings This Session
+
+**X Intelligence:**
+- HermesOS competitor: managed Hermes hosting, live token on Base, zero markup on model costs
+- Security: DeepMind reports 86% agent hijack rate via HTML prompt injection
+- Model-level safety is insufficient — need deterministic policy layers + runtime guardrails
+- Google "Shadow Agent" crisis: employees deploy agents outside corporate oversight → data leaks
+- RECUR Protocol: ZK proof attestation for AI security on Solana
+
+**New Repos of Interest:**
+- Agent-Orcha (P2P YAML orchestration) — already cloned ✅
+- Dapr-Agents (Kubernetes-native durable execution) — already cloned ✅
+- Agentrail (TypeScript agent harness) — already cloned ✅
+
+### Unresolved Issues
+- Some `gh repo create` commands failed with "Unable to add remote 'origin'" but repos were created
+- Cloned repos already existed in workspace — skipped re-clone
+- gollem-fresh, quorum-fresh, deliberation-fresh, council-fresh, deliberate-new, peerclaw-new all need cleanup (fresh clones that differ from existing workspace dirs)
+
+### Next Steps
+- Clean up `*-fresh` and `*-new` directories (merge or remove duplicates)
+- Consider implementing RECUR Protocol ZK attestation pattern in agentarmor-studio
+- Monitor HermesOS competitor for UX differentiation opportunities
+- Push remaining RD reports (gollem.md, peerclaw.md, agent-express.md, vercel-agent-browser.md) to GitHub

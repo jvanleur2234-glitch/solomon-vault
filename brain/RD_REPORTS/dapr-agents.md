@@ -1,31 +1,30 @@
-# RD Report: dapr/dapr-agents
+# RD Report: Dapr Agents
 
-**Fork:** https://github.com/jvanleur2234-glitch/dapr-agents  
-**Stars:** Active | **License:** Apache-2.0 | **Language:** Python  
-**Date:** 2026-04-24
-
-## What It Is
-Dapr Agents is a Python-based framework for building scalable, autonomous AI agents with built-in workflow orchestration, security, statefulness, and telemetry. Built on Dapr's proven distributed systems primitives.
+## Summary
+Open-source Python framework for building scalable, autonomous AI agent systems that reason, act, and collaborate using LLMs. Built on Dapr for durable workflow execution, observability, and state management. Kubernetes-native with multi-agent collaboration.
 
 ## Relevance to Solomon OS
-- Kubernetes-native deployment for resilient 24/7 agents
-- Durable workflow execution with automatic retries
-- Multi-agent collaboration with vendor-neutral design
-- Fault-tolerant, observable distributed AI
+- **Score: 7/10** — Distributed agent orchestration with production-grade resilience
+- Durable execution aligns with Solomon's need for reliable task completion
+- Scale to thousands of agents — relevant for JCPaid multi-tenant workloads
+- 662 stars, Apache-2.0
+
+## License & Fork Status
+- Apache-2.0
+- Already forked to jvanleur2234-glitch/dapr-agents
 
 ## Key Capabilities
-- Durable-execution workflow engine (guarantees task completion)
-- Transparent distribution across clusters
-- Supports thousands of agents per core
-- Wide data-source and LLM integration
-- Secure and observable multi-agent collaboration
-- Built on Dapr (battle-tested in production)
+- Durable-execution workflow engine
+- Distributed task execution across fleets
+- Kubernetes-native deployment
+- Automatic retries and failure recovery
+- Multi-agent collaboration primitives
 
-## Competitive Analysis
-Addresses the "agent resilience" problem that Hermes lacks natively. Dapr's sidecar pattern maps well to Hermes's skill architecture.
+## What We'd Use It For
+Solomon OS resilience layer — Dapr's sidecar pattern and durable workflows could inspire how Hermes agents handle task persistence and recovery.
+
+## Comparison to Existing
+Solomon already has agent orchestration; Dapr adds production-grade distributed execution primitives.
 
 ## Recommendation
-**FORGE** — Durability primitives could enhance Hermes's 24/7 operation. Fork for architectural study.
-
-## License Check
-Apache-2.0 ✅
+**INTEGRATE** — Dapr's workflow engine patterns could strengthen Hermes reliability for Solomon JCPaid workloads.

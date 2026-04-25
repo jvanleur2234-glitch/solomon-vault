@@ -6582,3 +6582,57 @@
 - **AI Security** — DeepMind: 86% agent hijack via hidden HTML injection. Opus 4 blackmails 96% goal-conflict scenarios. Google "Shadow Agent" crisis: employees deploying agents without oversight causing data leaks. OWASP Top 10 2026 confirms prompt injection as #1 risk.
 - **Distributed Compute** — Gradient Network Parallax AI for distributed execution. Sentient GRID: modular DAG pipelines for reproducible AI runs. Bell Cyber autonomous SOC <5min threat containment.
 - **Self-Improving Defense** — Federated learning defenses survive 50%+ malicious clients.
+
+## Microsoft Agent Framework — Graph-Based Workflow Orchestration (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/microsoft-agent-framework
+- **Fork:** https://github.com/microsoft/agent-framework → jvanleur2234-glitch/microsoft-agent-framework
+- **What it does:** Multi-language (Python/.NET) platform for AI agent workflows. Graph-based orchestration with streaming, checkpointing, human-in-the-loop, time-travel capabilities. AF Labs for benchmarking and RL research. 9812 stars, MIT.
+- **Solomon OS fit:** SKILL — graph-based workflow model aligns with Solomon task orchestration. Microsoft backing = enterprise-grade reference. Time-travel/checkpointing directly relevant to Hermes long-running task resilience.
+- **Status:** SKILL — study architecture for Hermes workflow patterns
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/microsoft-agent-framework.md
+
+## Dapr Agents — Durable Multi-Agent Workflow Engine (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/dapr-agents
+- **Fork:** https://github.com/dapr/dapr-agents → jvanleur2234-glitch/dapr-agents
+- **What it does:** Python framework for scalable autonomous AI agents built on Dapr. Durable workflow execution, distributed task execution, Kubernetes-native, automatic retries. 662 stars, Apache-2.0.
+- **Solomon OS fit:** INTEGRATE — Dapr's sidecar pattern and durable workflows could strengthen Hermes reliability for JCPaid production workloads.
+- **Status:** INTEGRATE — study for production resilience patterns
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dapr-agents.md
+
+## Snyk Agent Scan — MCP/Skills Security Scanner (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/snyk-agent-scan
+- **Fork:** https://github.com/snyk/agent-scan → jvanleur2234-glitch/snyk-agent-scan
+- **What it does:** Auto-discovers MCP servers, agent tools, skills on host. Detects 15+ risk types: Prompt Injection, Tool Poisoning, Tool Shadowing, Toxic Flows, malware payloads, hardcoded secrets. 2249 stars, Apache-2.0.
+- **Solomon OS fit:** FORGE — essential security layer for JCPaid trust. Integrate into AgentArmor Studio as OWASP-aligned scanning engine for every deployment.
+- **Status:** FORGE — integrate with AgentArmor Studio
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/snyk-agent-scan.md
+
+## NFH Self-Improvement Loop — Adversarial Generator/Evaluator (April 25, 2026)
+- **URL:** https://github.com/theprint/nfh-self-improvement-loop
+- **What it does:** Split-brain self-improvement: Generator proposes one improvement per cycle, SEPARATE Evaluator judges merit without seeing rationale. Pre-flight checks, rollback on failure, MIT license.
+- **Solomon OS fit:** FORGE — cleaner than Miguel for Hermes self-evolution. Generator/Evaluator separation prevents self-review bias. Exactly the pattern Hermes self-improvement needs.
+- **Status:** FORGE — fork and implement
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/nfh-self-improvement-loop.md
+
+## Agentrail — TypeScript Agent Harness Framework (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/agentrail
+- **Fork:** https://github.com/yai-dev/agentrail → jvanleur2234-glitch/agentrail
+- **What it does:** TypeScript agent harness with multi-agent orchestration, mailboxing, session memory/knowledge indexing, Docker sandbox for LLM-generated code. Apache-2.0, early-stage.
+- **Solomon OS fit:** SKILL — study sandbox and memory patterns. Docker isolation approach could enhance Hermes safety model.
+- **Status:** SKILL — architecture study
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentrail.md
+
+## Agent Security Scanner MCP (Sinewave) — Code-Level Vulnerability Detection (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/agent-security-scanner-mcp
+- **Fork:** https://github.com/sinewaveai/agent-security-scanner-mcp → jvanleur2234-glitch/agent-security-scanner-mcp
+- **What it does:** Prompt injection firewall, 4.3M+ package hallucination detection, AST/taint analysis, LLM semantic review, SBOM generation, SOC2/GDPR compliance evidence. MCP server integration. 96 stars, MIT.
+- **Solomon OS fit:** INTEGRATE — pairs with Snyk Agent Scan for full security coverage. MCP-first architecture aligns with Hermes skill ecosystem.
+- **Status:** INTEGRATE — pair with Snyk for comprehensive security
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-security-scanner-mcp.md
+
+## Multi-Agent Deliberation Frameworks — Council Patterns (April 25, 2026)
+- **Quorum:** TypeScript, 7-phase deliberation (Gather→Plan→Formulate→Debate→Adjust→Rebuttal→Vote), multi-provider, SHA-256 ledger. MIT. /home/workspace/Quorum
+- **Council (dubs3c):** Python, persona-based (Architect/Critic/AppSec), moderator synthesis. MIT. /home/workspace/council
+- **Solomon OS fit:** SKILL — Quorum's architecture most aligned with Solomon multi-LLM decision layer. Already cloned.
+- **Status:** SKILL — study Quorum deliberation architecture
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/council-frameworks.md

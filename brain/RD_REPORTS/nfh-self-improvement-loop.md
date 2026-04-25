@@ -1,30 +1,31 @@
-# RD Report: theprint/nfh-self-improvement-loop
+# RD Report: NFH Self-Improvement Loop
 
-**Already Forked:** jvanleur2234-glitch/nfh-self-improvement-loop  
-**License:** MIT | **Language:** Shell  
-**Date:** 2026-04-24
-
-## What It Is
-Minimal adversarial framework where an AI agent modifies its own codebase while a separate evaluator decides if the change is beneficial. Strict separation between generator and evaluator prevents unchecked self-modification.
+## Summary
+Minimal adversarial framework enabling an AI agent to modify its own codebase, with a SEPARATE evaluator judging changes. Generator proposes one improvement per cycle; evaluator validates merit without seeing rationale. Pre-flight checks ensure safe cycling. MIT License.
 
 ## Relevance to Solomon OS
-- Safe self-modification with evaluator oversight
-- Structured improvement loop (one improvement per cycle)
-- Automated safety checks and rollback capabilities
-- Governance rules for autonomous vs human-in-the-loop actions
+- **Score: 8/10** — Elegant split-brain self-improvement pattern directly relevant to Hermes self-evolution
+- Generator/Evaluator separation prevents self-review bias
+- Three improvement categories: New Capabilities, Optimization, Discovery
+- Only one improvement per cycle with automatic rollback
+- 6 stars, MIT License
+
+## License & Fork Status
+- MIT License
+- Not yet forked
 
 ## Key Capabilities
-- Pre-flight safety checks
-- Generator → Evaluator separation (anti-narcissism)
-- Three improvement categories: New Capabilities, Optimization, Discovery
-- Branch-per-cycle workflow with state tracking
-- Strict constraints (no edits to identity/memory files, no external API calls)
+- Adversarial self-modification: generator proposes, evaluator judges
+- Pre-flight checks: timers, fresh dev branch, state validation
+- Rollback on validation failure
+- No external API calls during cycling
+- Clear governance: what can/cannot be changed autonomously
 
-## Competitive Analysis
-Addresses the " runaway self-improvement" problem with adversarial evaluation. Most rigorous safety framework found.
+## What We'd Use It For
+Hermes self-improvement loop — NFH's split-brain approach is cleaner than Miguel's single-agent self-edit. Could inspire Hermes agent evolution primitives.
+
+## Comparison to Existing
+Miguel (CC BY-NC, non-commercial) is similar but NFH is MIT and uses cleaner generator/evaluator separation.
 
 ## Recommendation
-**INTEGRATE** — Safety/evaluator pattern for Hermes autonomous self-improvement. Could be the governance layer Solomon OS needs.
-
-## License Check
-MIT ✅
+**FORGE** — Fork and study. The adversarial self-improvement pattern is exactly what Hermes self-evolution needs.

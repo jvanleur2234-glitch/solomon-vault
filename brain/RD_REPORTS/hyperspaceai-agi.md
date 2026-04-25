@@ -1,32 +1,32 @@
-# RD Report: hyperspaceai/agi
+# RD Report: Hyperspace AGI (Distributed P2P AI)
 
-**Forked:** https://github.com/jvanleur2234-glitch/hyperspaceai-agi  
-**License:** MIT  
-**Language:** Python + Rust (blockchain)
-
-## What It Is
-Living research repo for distributed AGI on Hyperspace P2P network. Agents collaboratively train models, share experiments via gossip, and push results. First distributed training run: 32 nodes, 24 hours.
+## Summary
+Fully peer-to-peer distributed AI system with autonomous agents that train models, share experiments via P2P gossip, and publish results. Includes pods (private AI clusters), distributed inference, shared provider pools, and blockchain-based economy with Mysticeti consensus.
 
 ## Relevance to Solomon OS
-- **AgentFM/swarms competitor**: P2P compute grid for AI workloads
-- **Distributed training**: DiLoCo + SparseLoCo + Parcae = 195× compression for weight deltas
-- **Blockchain component**: A1 chain for agent-to-agent micropayments
-- **Solomon Air alignment**: Decentralized AI infra vision matches
+- **Score: 8/10** — P2P distributed compute model directly competes with AgentFM
+- DiLoCo-based distributed training with 32-node proof-of-concept
+- SparseLoCo: 45x compression for weight deltas
+- BitTorrent-sidecar for decentralized weight distribution
+- Token economy for autonomous AI agents
+- MIT License, 1469 stars
 
-## Key Innovations
-- **Pods**: Private AI clusters with distributed inference across mesh
-- **Distributed training**: 32-node collaborative training in 24hrs (no trusted infra)
-- **BitTorrent sidecar**: P2P model weight distribution
-- **5 research domains**: ML, Search, Finance, Skills, Causes
-- **CRDT leaderboards**: GossipSub → CRDT → GitHub pipeline
+## License & Fork Status
+- MIT License
+- Already cloned at /home/workspace/hyperspaceai-agi
 
-## Comparison to Solomon Air
-| Aspect | Hyperspace | Solomon Air (Bonsai/Thoth) |
-|--------|------------|---------------------------|
-| P2P training | ✅ DiLoCo | ❌ |
-| Token economy | ✅ Points | ❌ |
-| Browser agent | ✅ WebGPU | ❌ |
-| Blockchain | ✅ Mysticeti DAG | ❌ |
+## Key Capabilities
+- P2P gossip network for experiment sharing
+- Distributed inference across pod mesh
+- Pod VM: perpetual agent across multiple clouds
+- Blockchain: microtransactions between agents
+- Docker-based pod encapsulation
 
-## Verdict
-**SKILL** — P2P distributed training is ahead of our current Solomon Air implementation. Bonsai + Thoth could integrate DiLoCo-style compression. Fork for architecture reference on P2P AI compute.
+## What We'd Use It For
+AgentFM competitor analysis and potential P2P compute distribution for Solomon OS — could enable idle GPU sharing across JCPaid nodes.
+
+## Comparison to Existing
+AgentFM (86 stars) is similar but less mature. Hyperspace AGI has active blockchain economy and proven distributed training.
+
+## Recommendation
+**SKILL** — Study for P2P compute distribution architecture. Monitor for AgentFM competitive differentiation.

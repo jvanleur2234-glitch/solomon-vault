@@ -1,31 +1,28 @@
-# RD Report: sinewaveai/agent-security-scanner-mcp
+# RD Report: Agent Security Scanner MCP (Sinewave)
 
-**Date:** 2026-04-20
-**Fork:** jvanleur2234-glitch/agent-security-scanner-mcp
-**License:** MIT
-**Category:** AI Security
-**Relevance:** 🔴 Critical (Snyk competitor)
+## Summary
+Security scanning suite for AI coding agents. Two versions: ProofLayer (lightweight, regex-based, 400+ rules, MIT) and Full Version (AST analysis, 1700+ rules, taint tracking, LLM semantic review). Covers prompt injection firewall, package hallucination detection, vulnerability scanning, auto-fix.
 
-## What It Is
-
-Security scanner MCP server for AI coding agents. Detects prompt injection, package hallucination (4.3M+ packages), 1700+ vulnerability rules with AST + taint analysis, auto-fix capabilities. 97.7% precision benchmark.
+## Relevance to Solomon OS
+- **Score: 8/10** — Comprehensive agent security scanning layer
+- MIT License, 96 stars
+- MCP server integration
+- SOC2/GDPR compliance evidence collection
+- Already forked to jvanleur2234-glitch/agent-security-scanner-mcp
 
 ## Key Capabilities
+- Prompt injection firewall
+- Package hallucination detection (4.3M+ packages)
+- AST & taint analysis
+- SBOM generation (CycloneDX)
+- LLM-powered semantic code review
+- Compliance evidence for SOC2 and GDPR
 
-- **Prompt injection firewall**: Blocks unsafe agent behavior
-- **Package hallucination detection**: 4.3M+ package bloom filters
-- **AST + Taint analysis**: Deep code understanding across 12 languages
-- **1700+ security rules**: Cross-file data flow tracking
-- **Auto-fix**: Automatic vulnerability remediation
-- **MCP tools**: 11 MCP tools for AI agent integration
-- **LLM semantic review**: Intent profiling for security analysis
+## What We'd Use It For
+Hermes/Solomon security layer — integrate into AgentArmor Studio as a comprehensive scanning capability for JCPaid deployments.
 
-## Comparison to Solomon OS Stack
-
-- Security scanning → critical for Solomon's agent trust layer
-- Prompt injection detection → core defense for Hermes
-- AST analysis → could enhance Hermes's code understanding capabilities
+## Comparison to Existing
+Snyk Agent Scan covers MCP/skills inventory. Sinewave covers code-level vulnerabilities and compliance. Complementary tools.
 
 ## Recommendation
-
-**FORGE** — Snyk competitor with superior precision (97.7%). This is a strategic security capability for Solomon OS. Fork for integration into Hermes security layer. Fork already exists.
+**INTEGRATE** — Pair with Snyk Agent Scan for full security coverage. Fork already exists.
