@@ -6,7 +6,8 @@
     "seo_score": 74,
     "top_issues": ["Slow server response (508ms)", "Missing image alt text", "No lazy loading images"],
     "contact_method": "email",
-    "status": "pending"
+    "contact_email": "info@duckslocksmithing.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-25",
@@ -33,7 +34,8 @@
     "seo_score": 74,
     "top_issues": ["Slow server response (504ms)", "Missing image alt text", "No Open Graph tags"],
     "contact_method": "email",
-    "status": "pending"
+    "contact_email": "info@lockdoctorinc.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-25",
@@ -42,7 +44,8 @@
     "seo_score": 32,
     "top_issues": ["Very slow server response (1150ms)", "Missing mobile viewport meta", "No canonical tag", "No H1 tag", "Missing image alt text"],
     "contact_method": "email",
-    "status": "pending"
+    "contact_email": "info@murray-locksmiths.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-25",
@@ -51,7 +54,8 @@
     "seo_score": 42,
     "top_issues": ["Slow server response (679ms)", "No canonical tag", "No meta description", "No H1 tag", "No Open Graph tags"],
     "contact_method": "email",
-    "status": "pending"
+    "contact_email": "info@toughguysmoving.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-25",
@@ -78,7 +82,8 @@
     "seo_score": 68,
     "top_issues": ["Slow server response (908ms)", "Title too short (45 chars)", "Missing image alt text"],
     "contact_method": "email",
-    "status": "pending"
+    "contact_email": "Contact@FourQuartersInc.com",
+    "status": "emailed"
   },
   {
     "date": "2026-04-25",
@@ -141,6 +146,7 @@
     "seo_score": 68,
     "top_issues": ["No H1 tag", "Missing image alt text", "No Open Graph tags", "No lazy loading"],
     "contact_method": "email",
-    "status": "pending"
+    "contact_email": "contact@wrenchtree.com",
+    "status": "emailed"
   }
 ]
