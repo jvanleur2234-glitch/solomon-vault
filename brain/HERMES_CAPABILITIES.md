@@ -6691,3 +6691,74 @@
 - **Solomon OS fit:** INTEGRATE — compliance mapping schema for JCPaid enterprise security reports. Discovery patterns inform Hermes audit trail.
 - **Status:** INTEGRATE — extract compliance schema
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/ai-agent-scanner-discovery.md
+
+## Mesh LLM — Distributed P2P GPU Inference Pool (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/mesh-llm
+- **Fork:** https://github.com/Mesh-LLM/mesh-llm → jvanleur2234-glitch/mesh-llm
+- **What it does:** Pool spare GPU capacity across machines into one OpenAI-compatible API. Dense models use pipeline parallelism; MoE models use expert sharding with zero cross-node inference traffic. Multi-model collaboration during inference. Apache-2.0 licensed.
+- **Solomon OS fit:** DIRECT COMPETITOR to AgentFM / P2P compute grid. Single endpoint per node (`http://localhost:9337/v1`) = drop-in for any agent wanting LLM inference. Expert sharding for MoE = relevant for OpenMythos-style architectures.
+- **Status:** SKILL — study architecture for AgentFM/PeerClaw competitive analysis
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/mesh-llm-distributed-inference-pool.md
+
+## Agentrail — TypeScript Production Agent Framework (April 25, 2026)
+- **URL:** https://github.com/yai-dev/agentrail (already in workspace, not forked)
+- **What it does:** TypeScript agent framework with full runtime core, hosted server layer, multi-agent delegation with mailboxing and failure recovery, sandboxed execution (Docker isolation), memory/knowledge indexing, pluggable LLM providers. Apache-2.0 licensed.
+- **Solomon OS fit:** INTEGRATE — sandbox architecture and failure recovery patterns for Hermes resilience layer. Multi-agent delegation with mailboxing = resilient task routing.
+- **Status:** INTEGRATE — study sandbox and failure recovery for Hermes
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentrail-typescript-agent-framework.md
+
+## Medusa — AI Security Scanner (9,600+ Patterns) (April 25, 2026)
+- **URL:** https://github.com/Pantheon-Security/medusa (already in workspace, not forked)
+- **What it does:** AI-first security scanner with 9,600+ detection patterns for AI/ML applications, agents, and LLM systems. Scans GitHub repos via `--git` flag. 200+ AI/ML CVEs. Parallel fast scanning. IDE integrations. AGPL-3.0 licensed.
+- **Solomon OS fit:** SKILL — study detection patterns for security skill development. 9,600 patterns vs sinewave's 1,700 = broader coverage. Copyleft license prevents direct code use.
+- **Status:** SKILL — pattern study for Hermes security skills
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/medusa-ai-security-scanner-9600-patterns.md
+
+## Agent Express — Express.js-Style TypeScript Agent Middleware (April 25, 2026)
+- **URL:** https://github.com/agent-express-ai/agent-express (already in workspace, not forked)
+- **What it does:** Minimalist middleware-style TypeScript framework applying Express.js `(ctx, next)` pattern. 5-layer onion model (agent/session/turn/model/tool). Built-in guards: budgets, validation, timeouts, iterations, human-in-the-loop. 12+ LLM providers. MCP integration. MIT licensed.
+- **Solomon OS fit:** FORGE — Express.js middleware pattern is exactly how Solomon Bus/Odin should work. Guard rails (budget, validation, timeout) = core security primitives for Hermes.
+- **Status:** FORGE — apply 5-layer middleware architecture to Hermes. Guards directly implementable.
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-express-typescript-middleware-framework.md
+
+## Dapr Agents — Durable Multi-Agent Workflow Engine (April 25, 2026)
+- **URL:** https://github.com/dapr/dapr-agents (already in workspace, not forked)
+- **What it does:** Python-based scalable agent framework on Dapr. Durable execution workflow engine guarantees task completion despite interruptions. Kubernetes-native deployment. Data-driven design. Apache-2.0 licensed.
+- **Solomon OS fit:** SKILL — durable execution model for resilient task completion in Hermes. How does Dapr workflow handle interruptions and retries? Maps to Solomon OS self-hosting.
+- **Status:** SKILL — study Dapr workflow patterns for Hermes task resilience
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dapr-agents-resilient-workflow.md
+
+## Koda — Self-Healing AI Browser Automation (April 25, 2026)
+- **URL:** https://github.com/TrentPierce/Koda (already in workspace, not forked)
+- **What it does:** AI-powered browser automation with multi-LLM support (Gemini, OpenAI, Claude), computer vision, and self-healing selectors. Multi-browser + mobile. Stagehand-compatible API. REST API hardening. MIT licensed.
+- **Solomon OS fit:** INTEGRATE — self-healing browser automation fills ClawLess gap. Multi-LLM provider flexibility. ClawLess should have Koda-style self-healing as differentiator.
+- **Status:** INTEGRATE — self-healing browser automation for ClawLess
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/koda-ai-browser-automation.md
+
+## HyperAgent — AI-Driven Playwright Automation (April 25, 2026)
+- **URL:** https://github.com/hyperbrowserai/HyperAgent (already in workspace, not forked)
+- **What it does:** AI-augmented Playwright wrapper with natural language commands (`page.ai()`, `page.extract()`, `executeTask()`). Stealth anti-bot mode. Cloud-ready via Hyperbrowser. Action caching for deterministic replay. MIT licensed.
+- **Solomon OS fit:** SKILL — natural language + action caching pattern for Hermes browser skill. Stealth mode differentiates from standard Playwright.
+- **Status:** SKILL — natural language browser automation for Hermes/ClawLess
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hyperagent-ai-browser-automation.md
+
+## AgentBrowser — Semantic Browser Runtime for AI Agents (April 25, 2026)
+- **URL:** https://github.com/ashtonvaughan/agentbrowser (already in workspace, not forked)
+- **What it does:** TypeScript browser runtime exposing semantic/task-oriented actions (not raw DOM). Semantic observation returns structured model (page type, data, available actions) = massive token reduction. Dynamic tool registry adapts to page. Site memory for zero-LLM-cost reloads. MCP compatible. MIT licensed.
+- **Solomon OS fit:** FORGE — semantic observation + dynamic tool registry = major token efficiency. Site memory = persistent context for browser tasks. Directly maps to ClawLess/Hermes browser layer.
+- **Status:** FORGE — apply semantic observation to ClawLess. Dynamic tool registry based on page type is novel.
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentbrowser-semantic-browser.md
+
+## AIBYAI — Multi-Agent Deliberative Council (April 25, 2026)
+- **URL:** https://github.com/Yash-Awasthi/aibyai (already in workspace, not forked)
+- **What it does:** Multi-agent council (Empiricist, Strategist, Historian, Skeptic) debating to scored consensus with transparent confidence scores. Conflict Detector + Cold Validator. MIT licensed.
+- **Solomon OS fit:** SKILL — confidence scoring and persona-specific critique patterns for Hermes deliberation skill. Maps to Quorum framework we already have.
+- **Status:** SKILL — study confidence scoring for Hermes deliberation
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/aibyai-multi-agent-council.md
+
+## KwaaiNet — Decentralized P2P AI Infrastructure (Rust) (April 25, 2026)
+- **URL:** https://github.com/Kwaai-AI-Lab/KwaaiNet (already in workspace, not forked)
+- **What it does:** Rust-first decentralized AI infrastructure. Decentralized Trust Graph (DTG) using W3C Verifiable Credentials + did:peer DIDs. Persistent node identity (Ed25519). Cross-platform CLI. MIT licensed.
+- **Solomon OS fit:** FORGE — DTG trust model for verifiable P2P compute. DIRECT COMPETITOR to AgentFM. MIT permits direct code use.
+- **Status:** FORGE — DTG/VC-based trust layer for distributed compute marketplace
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/kwaainet-decentralized-p2p-ai-infrastructure.md

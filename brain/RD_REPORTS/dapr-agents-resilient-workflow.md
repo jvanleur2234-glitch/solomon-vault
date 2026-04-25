@@ -1,29 +1,33 @@
-# dapr-agents — Dapr-Powered Resilient AI Agent Framework
+# Dapr Agents — Resilient Multi-Agent Workflow Engine
 
-**URL:** https://github.com/dapr/dapr-agents
-**Forked:** Already in workspace (/home/workspace/dapr-agents)
-**License:** Apache 2.0
+**Fork:** `dapr/dapr-agents` → already in workspace
+**Source:** https://github.com/dapr/dapr-agents (Apache-2.0)
+**Date:** 2026-04-25
+
+---
 
 ## What It Does
-Python framework for building production-grade resilient AI agents on Dapr. Durable workflow execution, automatic retries, Kubernetes-native deployment, multi-agent systems with built-in observability, 50+ data source integrations.
 
-## Key Features
-- Durable execution workflow engine (guarantees task completion)
-- Scale-to-zero architecture (actors pattern, thousands of agents on single core)
-- Multi-agent communications with Dapr pub/sub
-- Built-in connectivity to 50+ enterprise data sources
-- Structured outputs, multi-agent orchestration
-- Kubernetes-native deployment
-- Python-first, Apache 2.0 licensed
+Python-based framework for scalable, autonomous AI agent systems with built-in workflow orchestration, security, statefulness, and telemetry. Built on Dapr for distributed, fault-tolerant operation with durable execution workflow engine.
 
-## Why It Matters
-Dapr's battle-tested infrastructure combined with AI agent patterns provides production-grade resilience. The actor-based scale-to-zero design is particularly elegant — agents run on-demand, retain state, and are reclaimed when unused. This is production architecture that Hermes should study.
+Key capabilities:
+- Kubernetes-native deployment and lifecycle management
+- Data-driven design: connects to databases, documents, unstructured data
+- Secure and observable by default
+- Efficient on single core, transparent distribution across fleets
+- Durable execution: guarantees task completion despite interruptions
+
+## Key Stats
+
+- Latest release: v1.0.1 (2026-04-14)
+- License: Apache-2.0
+- PyPI: `dapr-agents`
+- 120+ contributors across Dapr ecosystem
 
 ## Solomon OS Fit
-**INTEGRATE / SKILL** — Dapr workflow patterns (automatic retry, stateful durability) are directly applicable to Solomon Bus task execution. Kubernetes deployment story maps to enterprise client needs. Workflow engine patterns inform Hermes fault tolerance design. Already cloned for study.
 
-## License
-Apache 2.0 (unlike HyperSpace AGI's NOASSERTION, this IS usable)
+**SKILL** — durable execution model (Dapr workflow engine) is what Hermes needs for resilient task completion. Kubernetes-native deployment maps to Solomon OS self-hosting model. Study for task persistence and recovery. Apache-2.0 permits code study.
 
-## RD Report
-/home/workspace/dapr-agents/
+## Status
+
+**SKILL** — study Dapr workflow patterns for Hermes task resilience. Specifically: how does durable execution handle interruptions and retries?

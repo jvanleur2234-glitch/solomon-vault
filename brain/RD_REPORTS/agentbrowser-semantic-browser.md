@@ -1,36 +1,28 @@
-# RD Report: AshtonVaughan/agentbrowser
+# AgentBrowser — Semantic Browser Runtime for AI Agents
 
-**Fork:** Already forked
-**Source:** https://github.com/ashtonvaughan/agentbrowser
-**Stars:** ~500+ | **License:** MIT | **Language:** TypeScript
-**Date:** 2026-04-24
+**Fork:** `AshtonVaughan/agentbrowser` → already in workspace
+**Source:** https://github.com/ashtonvaughan/agentbrowser (MIT?)
+**Date:** 2026-04-25
 
-## What It Is
-AI agent-specific browser runtime. Inverts traditional browser automation by exposing semantic, structured actions and page-state information rather than raw DOM. Semantic observation reduces tokens ~95%.
+---
 
-## Key Capabilities
-- **Semantic observation:** Structured page model (page type, data, available actions)
-- **Dynamic tool registry:** Actions adapt to current page context
-- **Site memory:** Persistent caching + LLM-augmented analysis
-- **Self-healing:** CAPTCHA detection, stale selector recovery, state verification
-- **Bot-detection bypass:** Playwright Extra stealth mode
-- **Session persistence:** Save/restore/branch browser state
-- **MCP server:** Ships as MCP server for easy agent integration
+## What It Does
 
-## Architecture
-- Semantic layer: exposes meaningful actions instead of raw DOM
-- Tool registry: per-page action sets
-- Memory: persistent site knowledge
-- Recovery: automatic handling of common failures
+TypeScript-based browser runtime designed for AI agents (not humans). Exposes semantic, task-oriented actions rather than raw DOM operations.
 
-## Relevance to Solomon OS
-- **Browser automation:** ClawLess competitor with MIT
-- **95% token reduction:** Huge win for web research tasks
-- **Self-healing:** Reduces maintenance burden
-- **MCP server:** Native Hermes integration point
+Key innovations:
+- **Semantic observation**: page navigation returns structured model (page type, data, available actions) — reduces token cost
+- **Dynamic tool registry**: available actions adapt to current page
+- **Site memory**: first visit analyzed fully; future visits faster, zero-LLM-cost reloads
+- **Self-healing**: CAPTCHA handling, stale selector recovery, state verification
+- **Bot detection bypass**: stealth integration
+- **MCP server compatible**: integrates with Claude Code, LangChain, AutoGen
+- Parallel task management
 
-## Recommendation
-**SKILL** — Study semantic observation pattern. 95% token reduction for browser tasks is significant. Self-healing reduces operational burden. MCP server enables native Hermes integration.
+## Solomon OS Fit
 
-## License Check
-MIT ✅
+**FORGE** — semantic observation + dynamic tool registry is a major token efficiency innovation. Site memory = persistent context for browser tasks. Maps to ClawLess/Hermes browser layer. MIT license permits direct use.
+
+## Status
+
+**FORGE** — apply semantic observation pattern to ClawLess. Dynamic tool registry based on page type is novel and valuable.

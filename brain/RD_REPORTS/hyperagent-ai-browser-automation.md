@@ -1,29 +1,27 @@
-# RD Report: HyperAgent (hyperbrowserai) — AI Browser Automation
+# HyperAgent — AI-Driven Playwright Automation
 
-**Date:** 2026-04-23
-**Repo:** github.com/hyperbrowserai/hyperagent
-**License:** NOASSERTION
-**Forked:** Already in workspace ✅
-
-## What It Is
-AI-powered extension of Playwright for browser automation using natural language. Combines AI-driven commands with fallback to regular Playwright for reliability and scalability.
-
-## Key Capabilities
-- **AI commands:** page.ai(), page.extract(), executeTask() — natural language automation
-- **Two modes:** page.perform() (granular, fast, cheap) + page.ai() (complex orchestration)
-- **Stealth mode** — built-in anti-bot patches
-- **Cloud-ready** — scale via Hyperbrowser cloud infrastructure
-- **MCP Client integration** — Composio, external tools
-- **Action caching** — record/replay without re-running LLM calls
-
-## Relevance to Solomon OS / Solomon Browser
-- **Browser automation** — directly competes with Solomon Browser POC
-- **Natural language commands** — could inspire Solomon Browser UX
-- **MCP integration** — could be Solomon Browser MCP server
-
-## Verdict
-**RESEARCH** — Well-established browser automation. Solomon Browser should differentiate on: persistent memory, authenticated sessions (viyv-browser pattern), and multi-tab orchestration.
+**Fork:** `hyperbrowserai/HyperAgent` → already in workspace  
+**Source:** https://github.com/hyperbrowserai/HyperAgent (MIT?)
+**Date:** 2026-04-25
 
 ---
-**Priority:** 🟡 Worthwhile
-**Category:** Browser Automation / AI / TypeScript
+
+## What It Does
+
+AI-augmented wrapper around Playwright enabling browser automation via natural language commands. Combines AI-driven actions with traditional Playwright control.
+
+Key capabilities:
+- AI commands: `page.ai()`, `page.extract()`, `executeTask()` for natural-language automation
+- Fallback to regular Playwright for precise interactions
+- **Stealth mode**: built-in anti-bot patches
+- **Cloud-ready**: scalable sessions via Hyperbrowser
+- MCP client integration (Composio)
+- **Action caching**: record/replay workflows deterministically
+
+## Solomon OS Fit
+
+**INTEGRATE** — natural language browser automation. Stealth mode is a differentiator vs standard Playwright. Maps to ClawLess browser capability. MIT license allows study.
+
+## Status
+
+**SKILL** — natural language + action caching pattern for browser automation skill in Hermes.

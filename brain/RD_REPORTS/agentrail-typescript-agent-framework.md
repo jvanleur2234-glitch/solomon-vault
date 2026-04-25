@@ -1,24 +1,37 @@
-# agentrail — TypeScript Agent Harness Framework
+# Agentrail — TypeScript Production Agent Framework
 
-**URL:** https://github.com/jvanleur2234-glitch/agentrail
-**Forked from:** https://github.com/yai-dev/agentrail
-**License:** Apache-2.0 | **Stars:** ~200+ | **Language:** TypeScript
+**Fork:** `yai-dev/agentrail` → already in workspace (not yet forked to GitHub)
+**Source:** https://github.com/yai-dev/agentrail (Apache-2.0)
+**Date:** 2026-04-25
+
+---
 
 ## What It Does
-Open-source agent harness framework for building, hosting, and orchestrating tool-using AI agents. Composable runtime core, hosted server layer, prompt SDK, multi-agent orchestration, filesystem-backed memory, sandboxed execution.
 
-## Key Features
-- `@agentrail/core`: agent definition, execution loop, tool contracts, prompt SDK, session types
-- `@agentrail/capabilities`: sandbox, knowledge, skills, orchestration, browser automation
-- `@agentrail/app`: hosted request lifecycle, profiles, session management, plugins
-- `@agentrail/deep-research`: deep research workflow addon
-- Multi-agent delegation with mailboxing, structured waits, failure recovery
-- Session memory + knowledge-base indexing + retrieval
-- Docker sandbox isolation for safe LLM-generated code execution
-- pnpm workspace, TypeScript ESM, Vitest testing
+Agentrail is a TypeScript-based framework for building, hosting, and orchestrating tool-using AI agents. It provides:
+- Full runtime core (@agentrail/core): agent definition, execution loop, tool contracts, session types
+- Capabilities package: sandbox, knowledge, skills, orchestration, browser automation
+- Hosted server layer with profiles and plugins
+- Multi-agent delegation with mailboxing and failure recovery
+- Memory and knowledge indexing with retrieval
+- Pluggable LLM providers (Anthropic, OpenAI, etc.)
+
+## Key Components
+
+- `@agentrail/core` — Agent definition, execution loop, tool contracts, LLM providers
+- `@agentrail/capabilities` — Sandbox, knowledge, skills, orchestration, browser automation
+- `@agentrail/app` — Hosted request lifecycle, profiles, session management, plugins
+- `@agentrail/deep-research` — Deep research workflow addon
 
 ## Solomon OS Fit
-**SKILL** — agentrail's sandbox isolation + multi-agent delegation patterns are directly relevant. The deep-research workflow is a good reference for Hermes research agents. Apache-2.0 license allows studying and adapting.
 
-## Recommendation
-SKILL — Study sandbox isolation architecture and multi-agent delegation for Solomon OS.
+**INTEGRATE** — TypeScript framework with production-grade architecture. Key patterns:
+- Multi-agent delegation with failure recovery = resilience for Hermes
+- Sandbox execution = security isolation
+- Plugin extension model = maps to Hermes skills ecosystem
+- Memory/knowledge indexing = fits gbrain pattern
+- Apache-2.0 license permits code reference
+
+## Status
+
+**INTEGRATE** — study sandbox architecture and failure recovery patterns for Hermes resilience layer.

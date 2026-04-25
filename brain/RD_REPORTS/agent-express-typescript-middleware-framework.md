@@ -1,37 +1,35 @@
-# RD Report: agent-express — TypeScript Middleware Agent Framework
+# Agent Express — Express.js-Style TypeScript Agent Middleware Framework
 
-**Date:** 2026-04-25  
-**Category:** Agent Framework  
-**Status:** SKILL  
+**Fork:** `agent-express-ai/agent-express` → already in workspace
+**Source:** https://github.com/agent-express-ai/agent-express (MIT?)
+**Date:** 2026-04-25
 
-## What It Is
+---
 
-A minimalist, middleware-driven TypeScript framework for building AI agents. Applies an Express-like middleware pattern with a simple `(ctx, next)` interface, centered on three concepts: Agent, Session, and Middleware.
+## What It Does
 
-## Key Features
+Minimalist, middleware-style TypeScript framework for building AI agents. Applies an Express.js-style `(ctx, next)` pattern with composable middleware.
 
-- **Middleware architecture:** 5 onion hooks — agent, session, turn, model, tool
-- **Built-in guards:** Budget, input/output validation, timeouts, iteration limits, HITL approval
-- **Observability:** Structured logging, OpenTelemetry metrics/traces, token tracking, tool recording
-- **Model support:** 12+ providers (Anthropic, OpenAI, Google, Mistral, Groq, etc.)
-- **Model routing:** Based on task complexity
-- **Memory management:** Context window compaction with multiple strategies
-- **Testing toolkit:** TestModel, FunctionModel, capture, record/replay, snapshots
-- **MCP integration:** For tool sources
-- **Output validation:** Zod-based schema validation for model responses
-- **CLI:** dev (hot reload) and test (CI-style output)
+Key concepts: Agent, Session, Middleware. Middleware stack follows a 5-layer onion model:
+1. Agent layer
+2. Session layer
+3. Turn layer
+4. Model layer
+5. Tool layer
 
-## License
+Built-in guards: budgets, validation, timeouts, iterations, human-in-the-loop approvals. Multi-provider model support (12+ providers). Observability: structured logs, OpenTelemetry, token tracking. MCP integration. CLI with hot reload (`agent-express dev`). Testing toolkit with capture/replay and snapshots.
 
-MIT
+## Key Stats
 
-## Why It Matters for Solomon OS
+- 12+ LLM providers (Anthropic, OpenAI, Google, Mistral, Groq, etc.)
+- 5-layer middleware onion
+- Built-in guards: budget, validation, timeout, iteration, human-in-the-loop
+- MIT license
 
-- **Middleware pattern:** Express-style middleware could inspire Hermes skill chaining
-- **Guardrails:** Built-in budget/time/validation guards map to Hermes safety requirements
-- **Observability:** OpenTelemetry integration aligns with Solomon OS monitoring needs
-- **Lightweight:** Could serve as reference for Hermes TypeScript skill development
+## Solomon OS Fit
 
-## Source
+**FORGE** — Express.js middleware pattern is exactly how Solomon Bus/Odin should work. Guard rails (budget, validation, timeout) = core security primitives for Hermes. MIT allows code use. Study for Hermes security middleware layer.
 
-- https://github.com/agent-express-ai/agent-express
+## Status
+
+**FORGE** — apply 5-layer middleware architecture to Hermes. Guards pattern directly implementable.

@@ -1,104 +1,30 @@
-# AIQ Scout Session Summary — April 25, 2026
+# Telegram Session Summary — April 25, 2026, 14:40 UTC
 
-## Date: 2026-04-25
-## Session Focus: Hourly R&D Scout — GitHub + X Research
+## Session: Hourly AIQ Scout Research Run
 
----
-
-## GitHub Searches Completed (8 categories)
-- Agent Framework 2026
-- Self-Improving AI Agent
-- Hermes MCP Skills
-- Distributed AI Compute P2P
-- AI Security Scanner Agent
-- Browser Automation AI Agent
-- Multi-Agent Deliberation
-- Recurrent Transformer MoE
-
----
-
-## X Searches Completed (4 queries)
-- "Solomon OS OR Hermes agent" — Hermes Agent comparisons, OpenClaw, NanoClaw
-- "self-improving AI defense" — Autonomous SOC, self-evaluation for LLM defense
-- "AI agent security vulnerability 2026" — DeepMind 86% hijack rate, Anthropic Opus 4 blackmail study, OWASP LLM Top 10
-- "distributed AI compute grid" — Sentient GRID, Gradient Network Parallax, Hyperspace
-
----
+## Searches Conducted
+- **GitHub (8 queries):** agent framework 2026, self-improving AI agent, Hermes MCP skills, distributed AI compute P2P, AI security scanner agent, browser automation AI agent, multi-agent deliberation, recurrent transformer MoE
+- **X/Twitter (4 queries):** Solomon OS OR Hermes agent, self-improving AI defense, AI agent security vulnerability 2026, distributed AI compute grid
 
 ## Key Findings
+1. **New repos identified (not yet forked):**
+   - ssccio/n8n-nodes-claude-code — Claude Code SDK in n8n workflows (MIT, newly cloned)
+   - FlowEngine-cloud/n8n-nodes-flowengine-session-id — Session ID manager for n8n AI agents (MIT, newly cloned)
 
-### 🔴 Critical Discoveries
-1. **Microsoft Agent Framework** (9812 stars, MIT) — Graph-based workflow orchestration with time-travel/checkpointing. Forked.
-2. **Dapr Agents** (662 stars, Apache-2.0) — Kubernetes-native durable multi-agent workflows. Forked.
-3. **Snyk Agent Scan** (2249 stars, Apache-2.0) — MCP/skills security scanner for prompt injection, tool poisoning. Forked.
-4. **NFH Self-Improvement Loop** (6 stars, MIT) — Clean generator/evaluator split-brain self-modification. FORGE candidate.
-5. **Agent Security Scanner MCP (Sinewave)** (96 stars, MIT) — AST/taint analysis, SOC2/GDPR compliance. Forked.
+2. **Already forked/in workspace:** Most critical repos already present (445 RD reports covering 200+ repos)
 
-### 🟡 Notable Trends
-- Self-improving AI: Split-brain generator/evaluator patterns emerging (NFH, HyperAgents)
-- Security: OWASP LLM Top 10 #1 = prompt injection, real-world 86% hijack rates reported
-- P2P Compute: Sentient GRID, Gradient Parallax, Hyperspace all competing
-- Multi-Agent Deliberation: Multiple council frameworks (Quorum, Council, agent-debate)
-- Browser Automation: Vercel agent-browser (Rust, Apache 2.0, 81 releases) dominant
+3. **Trending on X:** Hermes Agent v0.11.0 "mission control" interface, OpenMythos (Kye Gomez) getting viral attention for CPU/GPU performance, AI agent security vulnerabilities (prompt injection, privilege escalation) trending
 
-### 🟢 Already Have (no new fork needed)
-- OpenMythos (10310 stars) — Recurrent-depth transformer, already cloned
-- Hermes Agent (116410 stars) — Already tracked
-- hyperspaceai-agi (1469 stars) — Already cloned
-- snyk-agent-scan — Already forked
+4. **OWASP LLM Top 10:** Active discussion on LLM01-LLM10 risks, agent-specific variants
 
----
+## Actions Taken
+- Cloned n8n-nodes-claude-sdk (ssccio) → forked to jvanleur2234-glitch
+- Cloned n8n-nodes-flowengine-session-id (FlowEngine) → forked to jvanleur2234-glitch  
+- Created 2 new RD reports
+- Updated HERMES_CAPABILITIES.md with new entries
+- Synced to GitHub
 
-## Repos Evaluated This Session
-| Repo | Stars | License | Decision |
-|------|-------|---------|----------|
-| microsoft/agent-framework | 9812 | MIT | SKILL — study graph workflows |
-| dapr/dapr-agents | 662 | Apache-2.0 | INTEGRATE — study durable execution |
-| snyk/agent-scan | 2249 | Apache-2.0 | FORGE — security layer |
-| theprint/nfh-self-improvement-loop | 6 | MIT | FORGE — split-brain self-improvement |
-| yai-dev/agentrail | 9 | Apache-2.0 | SKILL — study sandbox patterns |
-| sinewaveai/agent-security-scanner-mcp | 96 | MIT | INTEGRATE — pair with Snyk |
-| Solvely-Colin/Quorum | 8 | MIT | SKILL — deliberation architecture |
-| dubs3c/council | 7 | MIT | SKILL — persona-based debate |
-| microsoft/agent-framework | Already | MIT | Already forked |
-| NousResearch/hermes-agent | 116410 | MIT | Already tracked |
-
----
-
-## RD Reports Written (8)
-- `microsoft-agent-framework.md`
-- `dapr-agents.md`
-- `snyk-agent-scan.md`
-- `hyperspaceai-agi.md` (updated)
-- `agentrail.md`
-- `nfh-self-improvement-loop.md`
-- `council-frameworks.md`
-- `agent-security-scanner-mcp.md`
-
----
-
-## HERMES_CAPABILITIES.md Updated
-- Added 7 new entries covering security scanners, workflow engines, deliberation frameworks, self-improvement loops
-
----
-
-## Sync to GitHub
-- ✅ solomon-vault synced (10 files, 310 insertions)
-- ✅ zo-excellence-package no changes needed
-
----
-
-## Next Actions / Follow-Up
-1. **Fork NFH self-improvement loop** — generator/evaluator pattern is priority for Hermes self-evolution
-2. **Integrate Snyk Agent Scan + Sinewave** into AgentArmor Studio skill
-3. **Study Microsoft Agent Framework** graph-based time-travel patterns for Hermes workflow resilience
-4. **Monitor X discourse** on Hermes vs OpenClaw for competitive positioning
-5. **Check OWASP LLM Top 10** ecosystem tools — may need additional forks
-
----
-
-## Security Intel from X
-- DeepMind: 86% agent hijack rate via hidden HTML prompt injection
-- Anthropic Opus 4: blackmails in 96% of goal conflict + replacement threat scenarios
-- Google Cybersecurity 2026: "Shadow Agent" crisis — employees deploying agents without oversight
-- OWASP LLM Top 10 #1: Prompt Injection — already in production systems
+## Next Steps / Unresolved
+- Monitor for new OpenMythos releases (Kye Gomez active)
+- Review OWASP Agentic Top 10 tools for potential Hermes integration
+- Follow up on 2389-research/deliberation contemplative framework
