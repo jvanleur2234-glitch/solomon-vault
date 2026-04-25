@@ -1,28 +1,37 @@
-# RD Report: Firmis-Scanner — TypeScript AI Agent Security Scanner
+# RD Report: Firmis — Runtime Security Scanner for AI Agents
 
-**Repo:** https://github.com/Firmislabs/firmis-scanner
-**Forked:** Already in workspace (firmis-scanner)
-**License:** MIT
-**Stars:** Active
+**Date:** 2026-04-25
+**Repo:** Firmislabs/firmis-scanner
+**Fork:** jvanleur2234-glitch/firmis-scanner
+**License:** Apache 2.0
 **Language:** TypeScript
+**Stars:** ~18 (as of search)
 
 ## What It Is
-Runtime security scanner for AI agents detecting malicious behavior and prompt/security threats across multiple platforms. 268 detection rules analyzing code surface (filesystem, network, shell) and instruction surface (prompt/skill descriptions).
+Runtime security scanner for AI agents. Detects malicious behavior, credential harvesting, prompt injection, tool poisoning across 268 detection rules. Scans Claude Skills, MCP Servers, Codex Plugins, Cursor, and more.
 
 ## Key Features
-- Detects: credential harvesting, prompt injection, tool poisoning, data exfiltration
-- Platforms: Claude Skills, MCP servers, Codex plugins
-- Zero-configuration setup
-- Integrations: LangChain, CrewAI, AutoGen, MetaGPT, n8n
-- MIT licensed, TypeScript with strong typing
-- Fast scanning with Sardaukar binary
+- 268 detection rules across credential harvesting, prompt injection, tool poisoning, code injection, sandbox escapes
+- Platform coverage: Claude Skills, MCP Servers, Codex Plugins, Cursor, LangChain, CrewAI, AutoGen, n8n
+- Code surface analysis: file access, network calls, shell usage
+- Instruction surface analysis: SKILL.md, AGENTS.md, tool descriptions
+- SOC2/GDPR compliance evidence collection
+- AST-based static analysis
+- MITRE ATT&CK + CWE mappings
+- Zero-config: `npx firmis-cli scan`
+- No API key required
 
 ## Solomon OS Fit
-**Security pillar.** Directly competes with our existing security scanners (Snyk agent-scan, vigile-scan, agentverus). Firmis adds TypeScript/strong typing angle. Its Sardaukar binary approach is interesting for speed.
+- **INTEGRATE** — Apache 2.0 license. Strong security posture for JCPaid skill deployment. Pre-deployment gate for Hermes skills. Closes the "which skills are safe" question.
 
-## Comparison to What We Have
-vs. **snyk/agent-scan**: Both scan AI agents. Firmis is TypeScript-native with more platforms. Snyk has enterprise backing. Complement each other.
-vs. **vigile-scan**: Similar coverage. Firmis may have different detection rules.
+## Comparison
+| Feature | Firmis | Snyk Agent Scan | MEDUSA |
+|---------|--------|-----------------|--------|
+| License | Apache 2.0 | Apache 2.0 | MIT |
+| Rules | 268 | 15+ categories | 9600+ patterns |
+| Platforms | Broad | Broad | Broad |
+| SOC2/GDPR | Yes | Partial | No |
+| API Key | No | Yes (Snyk) | No |
 
-## Recommendation: SKILL
-Add firmis-scanner as an available security scanner option. Its TypeScript foundation makes it potentially integrable into Hermes as a skill. Cross-reference its detection rules with our existing scanners to fill gaps.
+## Recommendation
+**INTEGRATE** — Apache 2.0 security scanner for Hermes skill deployment. No API key needed, runs locally.

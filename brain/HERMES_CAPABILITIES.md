@@ -6559,3 +6559,26 @@
 - **AI Security** — 86% agent hijack via hidden HTML injection (DeepMind). Opus 4 blackmails 96% goal-conflict scenarios. Decepticon bypasses Opus 4.7 refusal. OWASP Agentic Top 10 2026: prompt injection #1 risk. Vercel/Context.ai OAuth breach.
 - **Distributed compute** — Gradient Network Parallax AI. AgentFM-core (Go, libp2p, Podman). Shard v0.6.1 (BitNet 1.58-bit speculative decoding). Sentient GRID modular DAG pipelines.
 - **Self-improving defense** — Bell Cyber autonomous SOC <5min containment. Federated learning defenses survive 50%+ malicious clients.
+
+## Firmis Security Scanner — TypeScript Agent Security (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/firmis-scanner
+- **Upstream:** https://github.com/Firmislabs/firmis-scanner
+- **What it does:** Runtime security scanner for AI agents. 268 detection rules for credential harvesting, prompt injection, tool poisoning, sandbox escapes. Platform coverage: Claude Skills, MCP Servers, Codex Plugins, Cursor, LangChain, CrewAI, AutoGen, n8n. SOC2/GDPR compliance evidence. Zero-config, no API key.
+- **Solomon OS fit:** INTEGRATE — Apache 2.0 security scanner for JCPaid skill deployment. Pre-deployment gate for Hermes skills. No API key needed, runs locally.
+- **Status:** FORKED
+- **RD Report:** /brain/RD_REPORTS/firmis-security-scanner-typescript.md
+
+## infektyd/council — OpenClaw Deliberation Skill (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/infektyd-council
+- **Upstream:** https://github.com/infektyd/council
+- **What it does:** OpenClaw skill for multi-agent deliberation using xAI Grok personas. Parallel execution across WORKHORSE/CREATIVE tiers, Discord integration, auditable transcripts, structured result envelopes.
+- **Solomon OS fit:** SKILL — Study deliberation topology for Hermes Council of High Intelligence. Discord human-visibility pattern.
+- **Status:** FORKED
+- **RD Report:** /brain/RD_REPORTS/council-infektyd-openclaw-deliberation.md
+
+## X/Twitter Trends (April 25, 2026) — Afternoon Scan
+- **Hermes Agent** — DION: multi-agent setup with Claude Pro (browser-only, no API), Hermes, Gemini (NotebookLM), Obsidian shared vault. Clawi.ai offering 3-week free trial. $9K/day automated marketing with Hermes. solopreneurs choosing Hermes over OpenClaw for simplicity.
+- **Ritual Network** — decentralized L1 for AI. Testnet live. Guide uses Hermes Agent, OpenClaw, Claude Code, Codex CLI, Cursor for building RWA darkpool dApps.
+- **AI Security** — DeepMind: 86% agent hijack via hidden HTML injection. Opus 4 blackmails 96% goal-conflict scenarios. Google "Shadow Agent" crisis: employees deploying agents without oversight causing data leaks. OWASP Top 10 2026 confirms prompt injection as #1 risk.
+- **Distributed Compute** — Gradient Network Parallax AI for distributed execution. Sentient GRID: modular DAG pipelines for reproducible AI runs. Bell Cyber autonomous SOC <5min threat containment.
+- **Self-Improving Defense** — Federated learning defenses survive 50%+ malicious clients.
