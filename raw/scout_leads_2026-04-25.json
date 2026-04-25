@@ -1,11 +1,146 @@
 [
-  {"date":"2026-04-25","business_name":"Fox Lake Locksmith","url":"https://foxlakelocksmith.com","seo_score":63,"top_issues":["No H1 tag","Slow server response (675ms)","Missing Twitter Card meta","No Open Graph tags","Title too long (63 chars)"],"contact_method":"email","status":"pending"},
-  {"date":"2026-04-25","business_name":"All Around Town Lock And Key","url":"https://allaroundtownlockandkey.com","seo_score":74,"top_issues":["No canonical tag","Meta description too short","Missing image alt text","No lazy loading images","No favicon"],"contact_method":"email","status":"pending"},
-  {"date":"2026-04-25","business_name":"Ron's Repair","url":"https://ronsrepairowatonna.com","seo_score":84,"top_issues":["Slow server response (778ms)","Title tag too short","Meta description too short"],"contact_method":"email","status":"pending"},
-  {"date":"2026-04-25","business_name":"Knowell's Lock & Safe","url":"https://knowellslockandsafe.com","seo_score":84,"top_issues":["Title too long (67 chars)","No H1 tag","Missing image alt text"],"contact_method":"email","status":"pending"},
-  {"date":"2026-04-25","business_name":"Moore's Automotive Repair LLC","url":"https://mooresautomotiverepair.com","seo_score":84,"top_issues":["Slow server response (786ms)","Title tag too short (56 chars)","Meta description too short"],"contact_method":"email","status":"pending"},
-  {"date":"2026-04-25","business_name":"South Valley Automotive & Customs","url":"https://svautorepaireugene.com","seo_score":74,"top_issues":["Very slow server response (2124ms)","Title too long (68 chars)","No H1 tag","Missing image alt text"],"contact_method":"email","status":"pending"},
-  {"date":"2026-04-25","business_name":"Carl E Sears Law Office","url":"https://carlsearsattorney.com","seo_score":74,"top_issues":["Very slow server response (3815ms)","Title too long (64 chars)","No meta description","No Open Graph tags"],"contact_method":"email","status":"pending"},
-  {"date":"2026-04-25","business_name":"Vayner Emergency Dentistry Reseda","url":"https://resedaemergencydentist.com","seo_score":74,"top_issues":["Title too long (96 chars)","No meta description","Missing image alt text","No lazy loading"],"contact_method":"email","status":"pending"},
-  {"date":"2026-04-25","business_name":"Southside Moving and Storage","url":"https://southsidemoving.com","seo_score":84,"top_issues":["Title too short (35 chars)","Meta description too short","No H1 tag"],"contact_method":"email","status":"pending"}
+  {
+    "date": "2026-04-25",
+    "business_name": "Duck's Locksmithing Inc",
+    "url": "https://duckslocksmithing.com",
+    "seo_score": 74,
+    "top_issues": ["Slow server response (508ms)", "Missing image alt text", "No lazy loading images"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Bilco Lock & Safe Inc",
+    "url": "https://bilcolockandsafe.com",
+    "seo_score": 89,
+    "top_issues": ["Missing image alt text", "Slow server response (433ms)"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Village Ace Hardware Locksmith",
+    "url": "https://villageace.com/locksmith/",
+    "seo_score": 79,
+    "top_issues": ["Slow server response (894ms)", "Title too short (48 chars)", "No lazy loading images"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Lock Doctor Inc",
+    "url": "https://lockdoctorinc.com",
+    "seo_score": 74,
+    "top_issues": ["Slow server response (504ms)", "Missing image alt text", "No Open Graph tags"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Murray Locksmiths",
+    "url": "https://murray-locksmiths.com/midvale-utah.html",
+    "seo_score": 32,
+    "top_issues": ["Very slow server response (1150ms)", "Missing mobile viewport meta", "No canonical tag", "No H1 tag", "Missing image alt text"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Tough Guys Moving",
+    "url": "https://toughguysmoving.com",
+    "seo_score": 42,
+    "top_issues": ["Slow server response (679ms)", "No canonical tag", "No meta description", "No H1 tag", "No Open Graph tags"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Let's Get Moving - Arlington VA",
+    "url": "https://letsgetmovingusa.com/locations/va/arlington-movers/",
+    "seo_score": 89,
+    "top_issues": ["Meta description too short", "Missing image alt text"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Chen Plumbing",
+    "url": "https://chenplumbing.com",
+    "seo_score": 84,
+    "top_issues": ["Slow server response (633ms)", "Missing image alt text", "No charset declaration"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Four Quarters HVAC",
+    "url": "https://fourquartershomeservices.com/hvac-contractor/",
+    "seo_score": 68,
+    "top_issues": ["Slow server response (908ms)", "Title too short (45 chars)", "Missing image alt text"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Belton Locksmith",
+    "url": "https://beltonlocksmith254.com",
+    "seo_score": 79,
+    "top_issues": ["Title too short (42 chars)", "Missing image alt text", "No lazy loading images"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "India Heating - Glen Ellyn",
+    "url": "https://indiaheating.com/hvac-services-glen-ellyn/",
+    "seo_score": 89,
+    "top_issues": ["Missing image alt text", "No Open Graph tags"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Bernhard Auto Works",
+    "url": "https://www.bernhardautoworks.com",
+    "seo_score": 89,
+    "top_issues": ["Meta description length too short"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Stellar Auto Works",
+    "url": "https://stellar-autoworks.com",
+    "seo_score": 89,
+    "top_issues": ["Title too short (24 chars)", "No lazy loading images"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Crofton Auto Repair",
+    "url": "https://www.croftonautorepair.com",
+    "seo_score": 89,
+    "top_issues": ["Meta description length too short"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "EQ Autoworks",
+    "url": "https://www.eqautoworks.com",
+    "seo_score": 95,
+    "top_issues": ["Title tag duplicate"],
+    "contact_method": "email",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "WrenchTree Auto",
+    "url": "https://www.wrenchtree.com",
+    "seo_score": 68,
+    "top_issues": ["No H1 tag", "Missing image alt text", "No Open Graph tags", "No lazy loading"],
+    "contact_method": "email",
+    "status": "pending"
+  }
 ]

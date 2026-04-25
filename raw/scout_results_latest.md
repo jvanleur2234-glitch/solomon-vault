@@ -1,49 +1,39 @@
-# AIQ Scout Results - Latest Run
+# Scout Results - 2026-04-25
 
-## Date: 2026-04-25
+## Session Summary
+- **Total leads discovered**: 16 US small businesses
+- **Total audits run**: 16
+- **Top targets** (score < 70): Murray Locksmiths (32), Tough Guys Moving (42), WrenchTree Auto (68), Four Quarters HVAC (68)
+- **Outreach**: Pending email collection
 
-### Leads Audited (9 total)
+## Hot Leads (SEO Score < 50)
+1. **Murray Locksmiths** — 32/100 — 5 critical failures
+2. **Tough Guys Moving** — 42/100 — 5 critical failures
 
-1. **Fox Lake Locksmith** (foxlakelocksmith.com) - Score: 63/100 (D)
-   - Issues: No H1, slow server, missing OG/Twitter tags
-   
-2. **All Around Town Lock And Key** (allaroundtownlockandkey.com) - Score: 74/100 (C)
-   - Issues: No canonical, missing alt text, no favicon
-   
-3. **Ron's Repair** (ronsrepairowatonna.com) - Score: 84/100 (B)
-   - Issues: Slow server, short title/meta
-   
-4. **Knowell's Lock & Safe** (knowellslockandsafe.com) - Score: 84/100 (B)
-   - Issues: Title too long, no H1, missing alt text
-   
-5. **Moore's Automotive Repair LLC** (mooresautomotiverepair.com) - Score: 84/100 (B)
-   - Issues: Slow server, short title/meta
-   
-6. **South Valley Automotive & Customs** (svautorepaireugene.com) - Score: 74/100 (C)
-   - Issues: Very slow server (2.1s), no H1, missing alt text
-   
-7. **Carl E Sears Law Office** (carlsearsattorney.com) - Score: 74/100 (C)
-   - Issues: Very slow server (3.8s), no meta desc, no OG tags
-   
-8. **Vayner Emergency Dentistry Reseda** (resedaemergencydentist.com) - Score: 74/100 (C)
-   - Issues: Title too long, no meta desc, no lazy loading
-   
-9. **Southside Moving and Storage** (southsidemoving.com) - Score: 84/100 (B)
-   - Issues: Title too short, no H1, short meta
+## All Audited Businesses
+| Business | Score | Key Issue 1 | Key Issue 2 | Key Issue 3 |
+|----------|-------|-------------|-------------|-------------|
+| Murray Locksmiths | 32 | No mobile viewport | No canonical tag | No H1 tag |
+| Tough Guys Moving | 42 | No meta description | No H1 tag | No Open Graph |
+| WrenchTree Auto | 68 | No H1 tag | No Open Graph | Missing alt text |
+| Four Quarters HVAC | 68 | Slow server (908ms) | Title too short | Missing alt text |
+| Duck's Locksmithing | 74 | Slow server (508ms) | Missing alt text | No lazy loading |
+| Lock Doctor Inc | 74 | Slow server (504ms) | No Open Graph | Missing alt text |
+| Village Ace Hardware | 79 | Slow server (894ms) | Title too short | No lazy loading |
+| Belton Locksmith | 79 | Title too short | Missing alt text | No lazy loading |
+| Chen Plumbing | 84 | Slow server (633ms) | Missing alt text | No charset |
+| Let's Get Moving | 89 | Meta desc short | Missing alt text | — |
+| Bilco Lock & Safe | 89 | Missing alt text | Slow server | — |
+| Bernhard Auto Works | 89 | Meta desc short | — | — |
+| Stellar Auto Works | 89 | Title too short | No lazy loading | — |
+| Crofton Auto Repair | 89 | Meta desc short | — | — |
+| India Heating | 89 | Missing alt text | No OG tags | — |
+| EQ Autoworks | 95 | Minor title dup | — | — |
 
-### Pitch Template
-Subject: Free SEO Analysis for [Business Name]
+## Next Steps
+- Collect contact emails via web search or WHOIS lookup
+- Set up automated email outreach via Gmail or SMTP
+- Escalate any replies to Joseph via Telegram
 
-Hi [Name],
-
-I ran a free SEO audit on [Business Name] and found 3 issues hurting your Google visibility:
-
-1. **[Issue 1]** - This costs you local customers searching for your services
-2. **[Issue 2]** - Your competitors outrank you because of this
-3. **[Issue 3]** - Mobile users leave before calling because of this
-
-Solomon OS fixes these automatically. Get your full audit + fix plan for $29/mo:
+## Payment Link for All Pitches
 https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
-
-Best,
-Solomon OS Scout

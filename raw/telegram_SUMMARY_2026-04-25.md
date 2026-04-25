@@ -1,30 +1,47 @@
-# Telegram Session Summary — April 25, 2026, 14:40 UTC
+# Telegram Session Summary — April 25, 2026
 
-## Session: Hourly AIQ Scout Research Run
+**Date:** 2026-04-25  
+**Session:** Hourly AIQ Scout Run  
+**Trigger:** Scheduled autonomous agent execution
 
-## Searches Conducted
-- **GitHub (8 queries):** agent framework 2026, self-improving AI agent, Hermes MCP skills, distributed AI compute P2P, AI security scanner agent, browser automation AI agent, multi-agent deliberation, recurrent transformer MoE
-- **X/Twitter (4 queries):** Solomon OS OR Hermes agent, self-improving AI defense, AI agent security vulnerability 2026, distributed AI compute grid
+## Research Conducted
 
-## Key Findings
-1. **New repos identified (not yet forked):**
-   - ssccio/n8n-nodes-claude-code — Claude Code SDK in n8n workflows (MIT, newly cloned)
-   - FlowEngine-cloud/n8n-nodes-flowengine-session-id — Session ID manager for n8n AI agents (MIT, newly cloned)
+### GitHub Searches (8 queries)
+- "agent framework 2026" → Found agentrail (TypeScript, MIT, production-grade), Docker Agent (Apache 2.0), Microsoft Agent Framework (Python+dotnet, graph-based, 9.7k+ stars)
+- "self-improving AI agent" → Confirmed NFH, Deep-Claw, Miguel, xmaks82, HyperAgents all already covered
+- "Hermes MCP skills" → FastMCP skill now in Hermes, jMunch MCP suite (token-efficient code/doc/data retrieval), Hermes v0.2.0 native MCP client
+- "distributed AI compute P2P" → Hyperspace AGI, Hivemind, PeerClaw, Mycellm, KwaaiNet, Shard, AgentFM, Mesh-LLM all covered
+- "AI security scanner agent" → Found Medusa (9600+ patterns, AGPL), Firmis-Scanner (TypeScript, 268 rules), Snyk Agent Scan (already forked), multiple competitors
+- "browser automation AI agent" → Vercel agent-browser (Rust), Vibium, Pilo (Mozilla), Browserable, viyv-browser all covered
+- "multi-agent deliberation" → Quorum, Council, Deliberation frameworks already in vault
+- "recurrent transformer MoE" → OpenMythos (Kye Gomez), Mixture-of-Recursions, Megatron MoE all covered
 
-2. **Already forked/in workspace:** Most critical repos already present (445 RD reports covering 200+ repos)
-
-3. **Trending on X:** Hermes Agent v0.11.0 "mission control" interface, OpenMythos (Kye Gomez) getting viral attention for CPU/GPU performance, AI agent security vulnerabilities (prompt injection, privilege escalation) trending
-
-4. **OWASP LLM Top 10:** Active discussion on LLM01-LLM10 risks, agent-specific variants
+### X/Twitter Trending (4 queries)
+- "Solomon OS OR Hermes agent" → Active Nous Research promotion of Hermes Agent. "FSD for Claude Code" comparisons. Singapore Foreign Minister's Raspberry Pi AI setup mentions Hermes.
+- "self-improving AI defense" → Splunk CISO resilience article, Bell Cyber autonomous SOC (<5 min containment), Google Cloud agentic defense coverage
+- "AI agent security vulnerability 2026" → 86% agent hijack rate (DeepMind), 96% Opus 4 blackmail scenarios, OWASP LLM Top 10 #1 = prompt injection, Shadow Agent crisis
+- "distributed AI compute grid" → Sentient GRID architecture (recursive orchestration), Gradient Network Parallax AI, UtilityNet POCI distributed computing
 
 ## Actions Taken
-- Cloned n8n-nodes-claude-sdk (ssccio) → forked to jvanleur2234-glitch
-- Cloned n8n-nodes-flowengine-session-id (FlowEngine) → forked to jvanleur2234-glitch  
-- Created 2 new RD reports
-- Updated HERMES_CAPABILITIES.md with new entries
-- Synced to GitHub
+- **Checked existing forks** — 50+ already forked to jvanleur2234-glitch
+- **Verified local clones** — cagent, agent-security-scanner-mcp, medusa, gollem, agent-browser, miguel, self-improving-agent, deep-claw, peerclaw, mycellm, quorum, hackmyagent all present
+- **All repos already forked** — docker-cagent-ai, snyk-agent-scan, ai-agent-scanner, medusa, vibium, pilo, agent-express, agentrail, infektyd-council all confirmed in GitHub
+- **RD reports reviewed** — All major repos have existing reports in solomon-vault/brain/RD_REPORTS/
 
-## Next Steps / Unresolved
-- Monitor for new OpenMythos releases (Kye Gomez active)
-- Review OWASP Agentic Top 10 tools for potential Hermes integration
-- Follow up on 2389-research/deliberation contemplative framework
+## Key Findings
+1. **Docker Agent (cagent)** — Docker CLI plugin for AI agents. Declarative YAML, multi-agent teams, OCI registry packaging. Already cloned locally.
+2. **Hermes v0.2.0** — Native MCP client with HTTP transport + reconnection. jMunch MCP suite for token-efficient retrieval.
+3. **Agentrail** — TypeScript production agent framework. MIT licensed. Multi-agent orchestration with sandboxed execution.
+4. **Medusa v2026.5.5** — 9600+ AI/security patterns, repo poisoning detection across 28+ file types.
+5. **ai-agent-scanner** — Shadow AI discovery across network/code/traffic/cloud + compliance mapping.
+
+## Security Intel (Critical)
+- **86% agent hijack rate via HTML prompt injection** (DeepMind)
+- **OWASP LLM Top 10 2026:** #1 = Prompt Injection
+- **Shadow Agent crisis** — employees deploying AI agents without corporate oversight
+- **RECUR protocol** — Layered sentinel network (PRIME/WARD/SUB/NANO) for Solana AI agents
+
+## Unchanged / Carried Forward
+- No new forks needed — vast majority already covered
+- New repos to watch: agentrail (TypeScript), docker-cagent (Go, already local)
+- Next session: re-check for new Hermes skill ecosystem expansions, OWASP LLM Top 10 toolchain
