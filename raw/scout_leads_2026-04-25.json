@@ -1,74 +1,11 @@
 [
-  {
-    "date": "2026-04-25",
-    "business_name": "TruePros HVAC",
-    "url": "https://truepros.com/payson/",
-    "seo_score": 84,
-    "top_issues": ["Slow server response (1773ms)", "Title too short (43 chars)", "Images missing alt text"],
-    "contact_method": "website contact form",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-25",
-    "business_name": "All Around Town Lock And Key",
-    "url": "https://allaroundtownlockandkey.com/",
-    "seo_score": 74,
-    "top_issues": ["Missing canonical tag", "Meta description too short", "Images missing alt text", "No lazy loading on images", "No favicon configured"],
-    "contact_method": "website contact form",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-25",
-    "business_name": "Fox Lake Locksmith",
-    "url": "https://www.foxlakelocksmith.com/",
-    "seo_score": 68,
-    "top_issues": ["Title too long (63 chars)", "Meta description too short", "No H1 tag", "No lazy loading on images", "No Open Graph tags", "No Twitter Card meta"],
-    "contact_method": "website contact form",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-25",
-    "business_name": "Fishers HVAC",
-    "url": "https://www.fishershvac.com/",
-    "seo_score": 79,
-    "top_issues": ["Title too short (31 chars)", "No meta description", "No favicon configured"],
-    "contact_method": "website contact form",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-25",
-    "business_name": "Central Air",
-    "url": "https://www.centralairpdx.com/happy-valley/",
-    "seo_score": 84,
-    "top_issues": ["Meta description too short", "Images missing alt text", "No lazy loading on images"],
-    "contact_method": "website contact form",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-25",
-    "business_name": "Ward Plumbing Heating Air",
-    "url": "https://www.wardph.com/areas-we-serve/whittier/",
-    "seo_score": 84,
-    "top_issues": ["Title too long (64 chars)", "Meta description too short", "Images missing alt text"],
-    "contact_method": "website contact form",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-25",
-    "business_name": "Mechanical Enterprise",
-    "url": "https://mechanicalenterprise.com/blog/hvac-contractor-newark-nj",
-    "seo_score": 63,
-    "top_issues": ["Slow server response (1529ms)", "No H1 tag", "No H2 tags", "No Open Graph tags", "Content under 300 words", "No favicon configured"],
-    "contact_method": "website contact form",
-    "status": "pending"
-  },
-  {
-    "date": "2026-04-25",
-    "business_name": "Vasquez DDS",
-    "url": "https://www.vasquezdds.com/",
-    "seo_score": 58,
-    "top_issues": ["Missing canonical tag", "No HTML lang attribute", "Title too long (76 chars)", "Meta description too short", "No H1 tag", "Images missing alt text", "No lazy loading", "No favicon configured"],
-    "contact_method": "website contact form",
-    "status": "pending"
-  }
+  {"date":"2026-04-25","business_name":"Fox Lake Locksmith","url":"https://foxlakelocksmith.com","seo_score":63,"top_issues":["No H1 tag","Slow server response (675ms)","Missing Twitter Card meta","No Open Graph tags","Title too long (63 chars)"],"contact_method":"email","status":"pending"},
+  {"date":"2026-04-25","business_name":"All Around Town Lock And Key","url":"https://allaroundtownlockandkey.com","seo_score":74,"top_issues":["No canonical tag","Meta description too short","Missing image alt text","No lazy loading images","No favicon"],"contact_method":"email","status":"pending"},
+  {"date":"2026-04-25","business_name":"Ron's Repair","url":"https://ronsrepairowatonna.com","seo_score":84,"top_issues":["Slow server response (778ms)","Title tag too short","Meta description too short"],"contact_method":"email","status":"pending"},
+  {"date":"2026-04-25","business_name":"Knowell's Lock & Safe","url":"https://knowellslockandsafe.com","seo_score":84,"top_issues":["Title too long (67 chars)","No H1 tag","Missing image alt text"],"contact_method":"email","status":"pending"},
+  {"date":"2026-04-25","business_name":"Moore's Automotive Repair LLC","url":"https://mooresautomotiverepair.com","seo_score":84,"top_issues":["Slow server response (786ms)","Title tag too short (56 chars)","Meta description too short"],"contact_method":"email","status":"pending"},
+  {"date":"2026-04-25","business_name":"South Valley Automotive & Customs","url":"https://svautorepaireugene.com","seo_score":74,"top_issues":["Very slow server response (2124ms)","Title too long (68 chars)","No H1 tag","Missing image alt text"],"contact_method":"email","status":"pending"},
+  {"date":"2026-04-25","business_name":"Carl E Sears Law Office","url":"https://carlsearsattorney.com","seo_score":74,"top_issues":["Very slow server response (3815ms)","Title too long (64 chars)","No meta description","No Open Graph tags"],"contact_method":"email","status":"pending"},
+  {"date":"2026-04-25","business_name":"Vayner Emergency Dentistry Reseda","url":"https://resedaemergencydentist.com","seo_score":74,"top_issues":["Title too long (96 chars)","No meta description","Missing image alt text","No lazy loading"],"contact_method":"email","status":"pending"},
+  {"date":"2026-04-25","business_name":"Southside Moving and Storage","url":"https://southsidemoving.com","seo_score":84,"top_issues":["Title too short (35 chars)","Meta description too short","No H1 tag"],"contact_method":"email","status":"pending"}
 ]

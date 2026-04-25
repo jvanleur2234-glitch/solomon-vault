@@ -1,30 +1,27 @@
-# RD Report: Microsoft Agent Framework
+# Microsoft Agent Framework — Graph-Based Multi-Agent Orchestration (Apr 25, 2026)
 
-## Summary
-Multi-language (Python/.NET) platform for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based workflows with streaming, checkpointing, human-in-the-loop, and time-travel capabilities. AF Labs for benchmarking and RL research.
+**Fork:** `jvanleur2234-glitch/microsoft-agent-framework` (MIT)
+**Source:** https://github.com/microsoft/agent-framework
 
-## Relevance to Solomon OS
-- **Score: 8/10** — Direct competitor/inspiration for Hermes agent orchestration layer
-- Graph-based workflow model aligns with Solomon's task orchestration needs
-- Microsoft backing suggests enterprise-grade stability
-- Multi-agent orchestration is core to JCPaid's value proposition
+## What It Does
+Microsoft's multi-language (Python + .NET) agent framework with:
+- Graph-based workflows: connect agents + deterministic functions with data flows
+- DevUI: interactive development/testing/debugging UI
+- AF Labs: RL + benchmarking experimental packages
+- Cross-language parity (Python + .NET)
+- Human-in-the-loop, streaming, checkpointing, time-travel debugging
+- Latest: Python 1.1.0 (Apr 2026), .NET RC1
 
-## License & Fork Status
-- MIT License
-- Already forked to jvanleur2234-glitch/microsoft-agent-framework
+## Why It Matters for Solomon OS
+- Graph-based orchestration is the RIGHT mental model for Hermes skill workflows
+- Time-travel debugging directly solves "why did the agent do that?" for enterprise clients
+- Cross-language parity means Python skills work alongside .NET tooling
+- Active: 9.7k+ stars, Microsoft-backed = long-term maintenance
 
-## Key Capabilities
-- Graph-based agent workflows with deterministic functions
-- Time-travel / checkpointing for workflow recovery
-- Human-in-the-loop support
-- DevUI for interactive debugging
-- Consistent Python + .NET APIs
+## Fit: INTEGRATE
+MIT licensed. Graph workflow model should map directly to Hermes skill orchestration. Time-travel debugging is a premium enterprise feature worth stealing.
 
-## What We'd Use It For
-Solomon OS workflow orchestration layer — study their graph-based approach for potential integration into Hermes/Solomon agent execution model.
-
-## Comparison to Existing
-Already cloned locally. Python package available via pip.
-
-## Recommendation
-**SKILL** — Study architecture, potentially integrate concepts into Hermes agent execution patterns.
+## Action Items
+- [ ] Study graph-based workflow implementation
+- [ ] Evaluate time-travel debugging for Hermes self-correction logs
+- [ ] Consider as orchestration layer vs native Hermes implementation

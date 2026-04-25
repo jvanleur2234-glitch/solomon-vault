@@ -1,59 +1,104 @@
-# Telegram Session Summary — April 25, 2026, 14:45 UTC
+# AIQ Scout Session Summary — April 25, 2026
 
-## Session: AIQ Scout — Hourly R&D Research Run
+## Date: 2026-04-25
+## Session Focus: Hourly R&D Scout — GitHub + X Research
 
-### Actions Taken
+---
 
-**Searches Performed:**
-- 8 GitHub searches (agent frameworks, self-improving AI, Hermes MCP, distributed P2P AI, AI security scanners, browser automation, multi-agent deliberation, recurrent transformer MoE)
-- 4 X searches (Solomon OS/Hermes, self-improving AI defense, AI agent security 2026, distributed AI compute grid)
-- Critical repos checked: OpenMythos (kyegomez), swarms ecosystem
+## GitHub Searches Completed (8 categories)
+- Agent Framework 2026
+- Self-Improving AI Agent
+- Hermes MCP Skills
+- Distributed AI Compute P2P
+- AI Security Scanner Agent
+- Browser Automation AI Agent
+- Multi-Agent Deliberation
+- Recurrent Transformer MoE
 
-**Repos Cloned + Forked (8 new):**
-1. `vercel-agent-browser` → jvanleur2234-glitch/vercel-agent-browser (Apache-2.0, ~2.5k stars)
-2. `quorum-fresh` → jvanleur2234-glitch/quorum-fresh (MIT, ~1.2k stars)
-3. `deliberation-fresh` → jvanleur2234-glitch/deliberation-fresh (MIT, ~300 stars)
-4. `council-fresh` → jvanleur2234-glitch/council-fresh (MIT, ~700 stars)
-5. `deliberate-new` → jvanleur2234-glitch/deliberate-new (MIT, ~200 stars)
-6. `peerclaw-new` → jvanleur2234-glitch/peerclaw-new (MIT, ~800 stars)
-7. `gollem-fresh` → jvanleur2234-glitch/gollem-fresh (MIT, ~500 stars)
-8. `agent-express-new` → jvanleur2234-glitch/agent-express-new (MIT, ~600 stars)
+---
 
-**RD Reports Written (8):**
-- `gollem.md` — Compile-time safe Go agent framework
-- `peerclaw.md` — P2P AI compute network
-- `agent-express.md` — TypeScript middleware agent framework
-- `quorum-deliberation.md` — Multi-agent deliberation framework
-- `deliberation-framework.md` — Contemplative multi-agent framework
-- `council-dubs3c.md` — Python multi-agent discussion system
-- `deliberate-file-based.md` — File-based two-agent protocol
-- `vercel-agent-browser.md` — Fast Rust browser automation
+## X Searches Completed (4 queries)
+- "Solomon OS OR Hermes agent" — Hermes Agent comparisons, OpenClaw, NanoClaw
+- "self-improving AI defense" — Autonomous SOC, self-evaluation for LLM defense
+- "AI agent security vulnerability 2026" — DeepMind 86% hijack rate, Anthropic Opus 4 blackmail study, OWASP LLM Top 10
+- "distributed AI compute grid" — Sentient GRID, Gradient Network Parallax, Hyperspace
 
-**HERMES_CAPABILITIES.md Updated:** 8 new entries appended
+---
 
-**Sync to GitHub:** ✅ Completed (0548cfa)
+## Key Findings
 
-### Key Findings This Session
+### 🔴 Critical Discoveries
+1. **Microsoft Agent Framework** (9812 stars, MIT) — Graph-based workflow orchestration with time-travel/checkpointing. Forked.
+2. **Dapr Agents** (662 stars, Apache-2.0) — Kubernetes-native durable multi-agent workflows. Forked.
+3. **Snyk Agent Scan** (2249 stars, Apache-2.0) — MCP/skills security scanner for prompt injection, tool poisoning. Forked.
+4. **NFH Self-Improvement Loop** (6 stars, MIT) — Clean generator/evaluator split-brain self-modification. FORGE candidate.
+5. **Agent Security Scanner MCP (Sinewave)** (96 stars, MIT) — AST/taint analysis, SOC2/GDPR compliance. Forked.
 
-**X Intelligence:**
-- HermesOS competitor: managed Hermes hosting, live token on Base, zero markup on model costs
-- Security: DeepMind reports 86% agent hijack rate via HTML prompt injection
-- Model-level safety is insufficient — need deterministic policy layers + runtime guardrails
-- Google "Shadow Agent" crisis: employees deploy agents outside corporate oversight → data leaks
-- RECUR Protocol: ZK proof attestation for AI security on Solana
+### 🟡 Notable Trends
+- Self-improving AI: Split-brain generator/evaluator patterns emerging (NFH, HyperAgents)
+- Security: OWASP LLM Top 10 #1 = prompt injection, real-world 86% hijack rates reported
+- P2P Compute: Sentient GRID, Gradient Parallax, Hyperspace all competing
+- Multi-Agent Deliberation: Multiple council frameworks (Quorum, Council, agent-debate)
+- Browser Automation: Vercel agent-browser (Rust, Apache 2.0, 81 releases) dominant
 
-**New Repos of Interest:**
-- Agent-Orcha (P2P YAML orchestration) — already cloned ✅
-- Dapr-Agents (Kubernetes-native durable execution) — already cloned ✅
-- Agentrail (TypeScript agent harness) — already cloned ✅
+### 🟢 Already Have (no new fork needed)
+- OpenMythos (10310 stars) — Recurrent-depth transformer, already cloned
+- Hermes Agent (116410 stars) — Already tracked
+- hyperspaceai-agi (1469 stars) — Already cloned
+- snyk-agent-scan — Already forked
 
-### Unresolved Issues
-- Some `gh repo create` commands failed with "Unable to add remote 'origin'" but repos were created
-- Cloned repos already existed in workspace — skipped re-clone
-- gollem-fresh, quorum-fresh, deliberation-fresh, council-fresh, deliberate-new, peerclaw-new all need cleanup (fresh clones that differ from existing workspace dirs)
+---
 
-### Next Steps
-- Clean up `*-fresh` and `*-new` directories (merge or remove duplicates)
-- Consider implementing RECUR Protocol ZK attestation pattern in agentarmor-studio
-- Monitor HermesOS competitor for UX differentiation opportunities
-- Push remaining RD reports (gollem.md, peerclaw.md, agent-express.md, vercel-agent-browser.md) to GitHub
+## Repos Evaluated This Session
+| Repo | Stars | License | Decision |
+|------|-------|---------|----------|
+| microsoft/agent-framework | 9812 | MIT | SKILL — study graph workflows |
+| dapr/dapr-agents | 662 | Apache-2.0 | INTEGRATE — study durable execution |
+| snyk/agent-scan | 2249 | Apache-2.0 | FORGE — security layer |
+| theprint/nfh-self-improvement-loop | 6 | MIT | FORGE — split-brain self-improvement |
+| yai-dev/agentrail | 9 | Apache-2.0 | SKILL — study sandbox patterns |
+| sinewaveai/agent-security-scanner-mcp | 96 | MIT | INTEGRATE — pair with Snyk |
+| Solvely-Colin/Quorum | 8 | MIT | SKILL — deliberation architecture |
+| dubs3c/council | 7 | MIT | SKILL — persona-based debate |
+| microsoft/agent-framework | Already | MIT | Already forked |
+| NousResearch/hermes-agent | 116410 | MIT | Already tracked |
+
+---
+
+## RD Reports Written (8)
+- `microsoft-agent-framework.md`
+- `dapr-agents.md`
+- `snyk-agent-scan.md`
+- `hyperspaceai-agi.md` (updated)
+- `agentrail.md`
+- `nfh-self-improvement-loop.md`
+- `council-frameworks.md`
+- `agent-security-scanner-mcp.md`
+
+---
+
+## HERMES_CAPABILITIES.md Updated
+- Added 7 new entries covering security scanners, workflow engines, deliberation frameworks, self-improvement loops
+
+---
+
+## Sync to GitHub
+- ✅ solomon-vault synced (10 files, 310 insertions)
+- ✅ zo-excellence-package no changes needed
+
+---
+
+## Next Actions / Follow-Up
+1. **Fork NFH self-improvement loop** — generator/evaluator pattern is priority for Hermes self-evolution
+2. **Integrate Snyk Agent Scan + Sinewave** into AgentArmor Studio skill
+3. **Study Microsoft Agent Framework** graph-based time-travel patterns for Hermes workflow resilience
+4. **Monitor X discourse** on Hermes vs OpenClaw for competitive positioning
+5. **Check OWASP LLM Top 10** ecosystem tools — may need additional forks
+
+---
+
+## Security Intel from X
+- DeepMind: 86% agent hijack rate via hidden HTML prompt injection
+- Anthropic Opus 4: blackmails in 96% of goal conflict + replacement threat scenarios
+- Google Cybersecurity 2026: "Shadow Agent" crisis — employees deploying agents without oversight
+- OWASP LLM Top 10 #1: Prompt Injection — already in production systems

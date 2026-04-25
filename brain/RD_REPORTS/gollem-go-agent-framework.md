@@ -1,33 +1,28 @@
-# Gollem — Production Agent Framework for Go
+# Gollem — Go Production Agent Framework (Apr 25, 2026)
 
-**URL:** https://github.com/jvanleur2234-glitch/gollem
-**Forked from:** https://github.com/fugue-labs/gollem
-**License:** MIT
-**Stars:** Unknown (new discovery)
+**Fork:** `jvanleur2234-glitch/gollem-fresh` (MIT)
+**Source:** https://github.com/fugue-labs/gollem
 
 ## What It Does
-Go-based production agent framework with compile-time type safety, zero-core dependencies, and single-binary deployment. Provides typed agents, multi-provider streaming, guardrails, middleware, cost tracking, and multi-agent team orchestration.
+Go-based production agent framework:
+- Type-safe agents with compile-time schema validation (Agent[T])
+- 5+ LLM providers (Claude, OpenAI, Gemini)
+- FuncTool with reflection-based JSON Schema
+- Zero-allocation streaming via Go iterators
+- Guardrails: input/turn/tool validators + auto-output repair
+- OpenTelemetry middleware + time-travel state snapshots
+- Zero core dependencies, single binary deployment
 
-## Why It Matters
-- Compile-time guarantees catch entire bug classes Python frameworks can't
-- 561+ tests, Go 1.23+ iter.Seq2 streaming, OpenTelemetry tracing
-- Type-safe `Agent[T]` with auto schema generation from struct tags
-- Input/turn/output guardrails, output auto-repair, retry with backoff
-- Team orchestration with durable task stores and lease-based claiming
+## Why It Matters for Solomon OS
+- Go = single binary = perfect for edge/device deployment (Solomon Connect)
+- Compile-time type safety prevents runtime errors in production agents
+- Time-travel snapshots align with persistent agent state concept
+- Zero-dependency model ideal for constrained environments
 
-## Solomon OS Fit
-- SKILL — Go-based agents for Hermes compute layer (high-performance workloads)
-- Could be wrapper for GPU compute tasks in distributed scenarios
-- Type-safe agent definitions complement Hermes skill system
-- MIT license permits direct code use
+## Fit: SKILL
+MIT licensed. Architecture study for Go-based Solomon OS components. Single-binary model is aspirational for edge deployment.
 
-## Competitive Analysis
-- **vs. Python frameworks (LangChain, AutoGen):** Compile-time safety vs. runtime validation
-- **vs. agent-express:** Go performance + type safety vs. TypeScript ergonomics
-- **vs. Docker Agent (cagent):** Native Go vs. YAML config + Docker dependency
-
-## Recommendation
-**SKILL** — Study for type-safe agent design patterns. Consider Go agent for compute-intensive Hermes workloads.
-
-## Status
-Already forked to jvanleur2234-glitch/gollem
+## Action Items
+- [ ] Study compile-time schema validation pattern
+- [ ] Evaluate Go port of core Hermes concepts for edge deployment
+- [ ] Note: primarily reference architecture, not immediate integration target

@@ -6636,3 +6636,58 @@
 - **Solomon OS fit:** SKILL — Quorum's architecture most aligned with Solomon multi-LLM decision layer. Already cloned.
 - **Status:** SKILL — study Quorum deliberation architecture
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/council-frameworks.md
+
+## Microsoft Agent Framework — Graph-Based Orchestration (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/microsoft-agent-framework
+- **Fork:** https://github.com/microsoft/agent-framework → jvanleur2234-glitch/microsoft-agent-framework
+- **What it does:** Graph-based multi-agent workflows, DevUI debugging, time-travel checkpointing, Python + .NET parity, 9.7k+ stars, MIT.
+- **Solomon OS fit:** INTEGRATE — graph workflow model maps to Hermes skill orchestration. Time-travel debugging = enterprise feature for JCPaid. Cross-language parity means Python skills work with .NET tooling.
+- **Status:** INTEGRATE — study graph workflow + time-travel patterns
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/microsoft-agent-framework.md
+
+## Docker cagent — Declarative Multi-Agent Runtime (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/docker-cagent-ai
+- **Fork:** https://github.com/docker/cagent → jvanleur2234-glitch/docker-cagent-ai
+- **What it does:** Declarative YAML agent config, MCP support, multi-provider, RAG (BM25+embeddings+rerank), OCI registry agent sharing, Apache 2.0.
+- **Solomon OS fit:** SKILL — study RAG pipeline for Hermes knowledge layer. OCI packaging aligns with Solomon Brain bundle. YAML model maps to Hermes skill definition.
+- **Status:** SKILL — architecture study only
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/docker-cagent-ai-agent.md
+
+## Gollem — Go Type-Safe Agent Framework (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/gollem-fresh
+- **Fork:** https://github.com/fugue-labs/gollem → jvanleur2234-glitch/gollem-fresh
+- **What it does:** Compile-time type-safe agents, zero-allocation streaming, OpenTelemetry, time-travel snapshots, single binary, MIT.
+- **Solomon OS fit:** SKILL — architecture reference for Go-based edge deployment. Compile-time safety model aspirational for Hermes.
+- **Status:** SKILL — architecture reference
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/gollem-go-agent-framework.md
+
+## Vibium — Go Browser Automation Framework (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/vibium
+- **Fork:** Already forked (Apache 2.0)
+- **What it does:** WebDriver BiDi standard, zero-config, ~10MB binary, MCP server mode, JS/Python/Java wrappers, semantic element finding.
+- **Solomon OS fit:** SKILL — lighter weight than Playwright for simple automation. MCP mode = Hermes integration path.
+- **Status:** SKILL — evaluate as browser skill layer
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/vibium-go-browser-automation.md
+
+## HyperAgent — Natural Language Browser Automation (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/HyperAgent
+- **Fork:** Already forked (MIT)
+- **What it does:** Playwright + natural language, Zod schema extraction, action caching, stealth mode, cloud-ready, MCP client.
+- **Solomon OS fit:** INTEGRATE — natural language + structured extraction ideal for Hermes browser skill. Action caching enables deterministic replay.
+- **Status:** INTEGRATE — evaluate as primary browser automation
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/HyperAgent-browser-automation.md
+
+## Pantheon-Security/medusa — AI Security Scanner (April 25, 2026)
+- **URL:** https://github.com/Pantheon-Security/medusa
+- **What it does:** 9,600+ patterns, 200 CVE detections, supply chain/repo poisoning/prompt injection detection, `medusa scan --git`, SARIF/JSON/HTML output, AGPL-3.0.
+- **Solomon OS fit:** SKILL — study pattern taxonomy for Hermes security layer. Can't use code directly (AGPL).
+- **Status:** SKILL — architecture reference, build compatible scanner
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/medusa-ai-security-scanner.md
+
+## AI Agent Scanner — Discovery-First Security (April 25, 2026)
+- **URL:** https://github.com/jvanleur2234-glitch/ai-agent-scanner
+- **Fork:** https://github.com/perfecxion-ai/ai-agent-scanner → jvanleur2234-glitch/ai-agent-scanner
+- **What it does:** Discovers shadow AI agents across network/code/traffic/cloud, risk scoring, compliance mapping (GDPR/SOC2/HIPAA/NIST/EU AI Act), SARIF output, GPL v3.
+- **Solomon OS fit:** INTEGRATE — compliance mapping schema for JCPaid enterprise security reports. Discovery patterns inform Hermes audit trail.
+- **Status:** INTEGRATE — extract compliance schema
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/ai-agent-scanner-discovery.md
