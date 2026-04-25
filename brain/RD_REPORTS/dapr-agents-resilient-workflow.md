@@ -1,35 +1,29 @@
-# Dapr Agents — Resilient Workflow Orchestration for AI Agents
+# dapr-agents — Dapr-Powered Resilient AI Agent Framework
 
-**URL:** https://github.com/jvanleur2234-glitch/dapr-agents
-**Forked from:** https://github.com/dapr/dapr-agents
+**URL:** https://github.com/dapr/dapr-agents
+**Forked:** Already in workspace (/home/workspace/dapr-agents)
 **License:** Apache 2.0
-**Stars:** Unknown (new discovery)
 
 ## What It Does
-Python-based framework for scalable, autonomous AI agents with built-in workflow orchestration, statefulness, security, and observability. Built on Dapr's durable workflow engine — tasks complete even amid failures. Kubernetes-native, multi-agent collaboration, data-driven.
-
-## Why It Matters
-- Durable workflow engine ensures task completion despite failures (critical for autonomous agents)
-- Automatic retries and recovery out of the box
-- Kubernetes-native deployment for production-scale agent systems
-- Vendor-neutral, open-source design
-- Integrates Dapr's actor model with AI agent patterns
-
-## Solomon OS Fit
-- FORGE — durable execution model for Hermes autonomous operations
-- Workflow orchestration pattern directly implementable in Hermes
-- Kubernetes-native = production deployment for JCPaid enterprise clients
-- Apache 2.0 permits direct use
+Python framework for building production-grade resilient AI agents on Dapr. Durable workflow execution, automatic retries, Kubernetes-native deployment, multi-agent systems with built-in observability, 50+ data source integrations.
 
 ## Key Features
-- Scalable workflows with automatic retries
-- State persistence across restarts
-- Built-in security and observability
-- Multi-agent collaboration primitives
-- Database and data source integrations
+- Durable execution workflow engine (guarantees task completion)
+- Scale-to-zero architecture (actors pattern, thousands of agents on single core)
+- Multi-agent communications with Dapr pub/sub
+- Built-in connectivity to 50+ enterprise data sources
+- Structured outputs, multi-agent orchestration
+- Kubernetes-native deployment
+- Python-first, Apache 2.0 licensed
 
-## Recommendation
-**FORGE** — Durable workflow engine pattern essential for autonomous operation. Apache 2.0 allows direct code use.
+## Why It Matters
+Dapr's battle-tested infrastructure combined with AI agent patterns provides production-grade resilience. The actor-based scale-to-zero design is particularly elegant — agents run on-demand, retain state, and are reclaimed when unused. This is production architecture that Hermes should study.
 
-## Status
-Already forked to jvanleur2234-glitch/dapr-agents
+## Solomon OS Fit
+**INTEGRATE / SKILL** — Dapr workflow patterns (automatic retry, stateful durability) are directly applicable to Solomon Bus task execution. Kubernetes deployment story maps to enterprise client needs. Workflow engine patterns inform Hermes fault tolerance design. Already cloned for study.
+
+## License
+Apache 2.0 (unlike HyperSpace AGI's NOASSERTION, this IS usable)
+
+## RD Report
+/home/workspace/dapr-agents/

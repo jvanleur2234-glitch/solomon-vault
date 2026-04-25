@@ -1,29 +1,30 @@
-# RD Report: gollem
+# gollem — Type-Safe Go Agent Framework
 
-**Fork Status:** Already forked  
-**License:** MIT  
-**Stars:** ~120 (Go agent framework, v0.3.1 released Feb 2026)  
-**Relevance:** MEDIUM — typed agent construction, guardrails, observability
+**URL:** https://github.com/fugue-labs/gollem
+**Forked:** Already in workspace (/home/workspace/gollem) — Go project, different tech stack from Hermes
+**License:** MIT
 
-## What It Is
-Production-grade agent framework for Go emphasizing compile-time safety and zero-core dependencies. Strong type guarantees and structured outputs.
+## What It Does
+Production-grade Go agent framework with compile-time type safety for agent outputs, tool parameters, guardrails, middleware, and event subscriptions. Zero core dependencies, single-binary deployment.
 
-## Key Capabilities
-- Type safety: generic Agent[T] with automatic schema generation, validation, deserialization at compile time
-- Multi-provider support: Anthropic Claude, OpenAI GPT/O-series, Google Gemini, Vertex AI
-- Streaming: real-time token streaming via iter.Seq2, node-by-node iteration
-- Tools and guardrails: FuncTool[P] auto-generates tool schemas, input/turn guardrails, output validators
-- Observability: full structured run traces, OpenTelemetry middleware, time-travel debugging
+## Key Features
+- Generic `Agent[T]` with automatic schema generation/validation
+- 5+ LLM providers (Anthropic, OpenAI, Google Gemini, Vertex AI)
+- `FuncTool[P]` with JSON Schema generation from Go structs
+- Streaming via Go 1.23+ iter.Seq2
+- Guardrails: input validation, turn limits, output validators, auto-repair
+- OpenTelemetry middleware with lifecycle hooks
+- State snapshots for time-travel debugging
+- 561+ tests, active CI
 
-## Relevance to Hermes/Solomon
-- Type-safe patterns could inform Hermes's tool schema generation
-- Guardrail implementations relevant to Solomon OS security scanner capabilities
-- Compile-time safety aligns with Solomon OS reliability goals
+## Why It Matters
+Go's type system provides compile-time guarantees that Python frameworks can't. Entire categories of bugs (ValidationError, TypeError) are eliminated before code ever runs. The middleware architecture and guardrail patterns are production-proven.
 
-## Integration Recommendation
-**INTEGRATE** — Study gollem's guardrail patterns and type-safe tool schemas. Could inform AgentArmor Studio's security layer design.
+## Solomon OS Fit
+**MONITOR / REFERENCE** — Different tech stack (Go vs Python), but guardrail patterns, middleware chain architecture, and type-safe tool design are worth studying for future Go-based Hermes components. Already in workspace for reference.
 
-## Notes
-- MIT licensed
-- Single top contributor (trevorprater)
-- Zero-core-dependency Go deployment
+## License
+MIT
+
+## RD Report
+/home/workspace/gollem/
