@@ -6453,3 +6453,30 @@
 - **What it does:** AI-first security scanner with 9,600+ patterns, 200+ CVEs (Log4Shell, Spring4Shell, LangChain RCE), repo poisoning detection across 28+ file types, cursor/copilot/claude/gemini editor weaponization detection. Zero-setup, parallel processing, SARIF/JSON/HTML/Markdown output.
 - **Solomon OS fit:** SKILL — Reference for security pattern development. AGPL-3.0 restricts commercial use in JCPaid.
 - **Status:** SKILL (license restricted)
+
+## Magnitude Browser Agent — Vision-First Browser Automation (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/browser-agent
+- **Source:** https://github.com/magnitudedev/browser-agent
+- **License:** Apache 2.0
+- **Stars:** 4,026
+- **What it does:** Vision-first browser automation using computer vision + LLM. Pixel-based actions generalize across complex UIs. Self-healing selectors. Multi-browser (Chrome/Firefox/Safari/Edge) + mobile (iOS/Android). Stagehand-compatible API.
+- **Solomon OS fit:** INTEGRATE — Alternative browser engine for Solomon Browser. Vision approach more resilient than DOM selectors. Mobile automation extends browser reach. Apache 2.0 allows direct integration.
+- **Status:** INTEGRATE
+
+## Vibium — Standards-Based Browser Automation (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/vibium
+- **Source:** https://github.com/VibiumDev/vibium
+- **License:** Apache 2.0
+- **Stars:** 2,784
+- **What it does:** ~10MB binary using WebDriver BiDi standard. Semantic element mapping (no CSS selectors), session recording/replay, MCP server, CLI, JS/Python/Java libs. Zero-config browser download.
+- **Solomon OS fit:** INTEGRATE — Most standards-compliant option. Install as Hermes MCP skill. Complements Magnitude (vision) and Browserable (self-hosted MIT).
+- **Status:** INTEGRATE
+
+## Browserable — Self-Hostable Browser Automation (April 25, 2026)
+- **Fork:** https://github.com/jvanleur2234-glitch/browserable
+- **Source:** https://github.com/browserable/browserable
+- **License:** MIT
+- **Stars:** 1,182
+- **What it does:** Self-hostable JavaScript library for AI agents. Docker-based deployment. Natural language task definition. Claude Code/Cursor/Copilot integration. Self-healing selectors.
+- **Solomon OS fit:** INTEGRATE — MIT license = full commercial use. Self-hostable for data privacy. Key differentiator from other browser tools. Build as Hermes skill.
+- **Status:** INTEGRATE

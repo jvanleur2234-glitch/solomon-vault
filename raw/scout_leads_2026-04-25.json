@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-04-25",
+    "business_name": "TruePros HVAC",
+    "url": "https://truepros.com/payson/",
+    "seo_score": 84,
+    "top_issues": ["Slow server response (1773ms)", "Title too short (43 chars)", "Images missing alt text"],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "All Around Town Lock And Key",
+    "url": "https://allaroundtownlockandkey.com/",
+    "seo_score": 74,
+    "top_issues": ["Missing canonical tag", "Meta description too short", "Images missing alt text", "No lazy loading on images", "No favicon configured"],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Fox Lake Locksmith",
+    "url": "https://www.foxlakelocksmith.com/",
+    "seo_score": 68,
+    "top_issues": ["Title too long (63 chars)", "Meta description too short", "No H1 tag", "No lazy loading on images", "No Open Graph tags", "No Twitter Card meta"],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Fishers HVAC",
+    "url": "https://www.fishershvac.com/",
+    "seo_score": 79,
+    "top_issues": ["Title too short (31 chars)", "No meta description", "No favicon configured"],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Central Air",
+    "url": "https://www.centralairpdx.com/happy-valley/",
+    "seo_score": 84,
+    "top_issues": ["Meta description too short", "Images missing alt text", "No lazy loading on images"],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Ward Plumbing Heating Air",
+    "url": "https://www.wardph.com/areas-we-serve/whittier/",
+    "seo_score": 84,
+    "top_issues": ["Title too long (64 chars)", "Meta description too short", "Images missing alt text"],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Mechanical Enterprise",
+    "url": "https://mechanicalenterprise.com/blog/hvac-contractor-newark-nj",
+    "seo_score": 63,
+    "top_issues": ["Slow server response (1529ms)", "No H1 tag", "No H2 tags", "No Open Graph tags", "Content under 300 words", "No favicon configured"],
+    "contact_method": "website contact form",
+    "status": "pending"
+  },
+  {
+    "date": "2026-04-25",
+    "business_name": "Vasquez DDS",
+    "url": "https://www.vasquezdds.com/",
+    "seo_score": 58,
+    "top_issues": ["Missing canonical tag", "No HTML lang attribute", "Title too long (76 chars)", "Meta description too short", "No H1 tag", "Images missing alt text", "No lazy loading", "No favicon configured"],
+    "contact_method": "website contact form",
+    "status": "pending"
+  }
+]

@@ -1,29 +1,41 @@
-# RD Report: vibium
+# RD Report: Vibium — Standards-Based Browser Automation for AI Agents
 
-**Fork Status:** Already cloned  
-**License:** Apache-2.0  
-**Stars:** ~150 (AI-native browser automation, WebDriver BiDi standard)  
-**Relevance:** MEDIUM — browser automation, CLI-based, multi-language SDKs
+**Date:** 2026-04-25
+**Repo:** VibiumDev/vibium
+**Fork:** jvanleur2234-glitch/vibium
+**License:** Apache 2.0
+**Stars:** 2,784
+**Category:** Browser Automation / AI Agent
 
 ## What It Is
-Lightweight, AI-native browser automation tool enabling AI agents to control browsers via simple CLI commands.
+Lightweight browser automation framework (~10MB binary) using WebDriver BiDi standard. AI-native: install as Hermes skill. Zero-config browser download. Semantic element mapping (no CSS selectors needed), screenshot capture, PDF export.
 
-## Key Capabilities
-- Navigate, interact, fill forms, click, extract text, screenshot, PDF, record sessions
-- CLI skill, MCP server, and client libraries (JS, Python, Java)
-- Built on WebDriver BiDi (no vendor lock-in)
-- Lightweight binary (~10MB)
-- Automatic browser download
+## Key Features
+- WebDriver BiDi (not proprietary) — standards-based
+- ~10MB binary, zero-config setup
+- Semantic element finding (text/labels/placeholders/ARIA)
+- Session recording + replay
+- MCP server + CLI + JS/Python/Java libraries
+- Screenshot capture with annotations
+- PDF export
+- Apache 2.0 licensed
 
-## Relevance to Hermes/Solomon
-- Browser automation aligns with ClawLess competitor analysis
-- CLI approach fits Hermes skill system architecture
-- WebDriver BiDi standard ensures cross-browser compatibility
+## For Solomon OS
+- **Use for:** Browser automation skill. One of 3 good options (with Magnitude + agent-browser).
+- **Advantage:** Standards-based (WebDriver BiDi) means better longevity and cross-tool compatibility.
+- **Install as skill:** `npm install -g vibium; npx skills add https://github.com/VibiumDev/vibium`
 
-## Integration Recommendation
-**SKILL** — CLI-based browser automation useful for simple tasks. Less feature-rich than viyv-browser but lighter weight. Consider for Hermes basic browser needs.
+## Comparison with Alternatives
+| Feature | Vibium | Magnitude | agent-browser |
+|---------|--------|-----------|---------------|
+| Approach | WebDriver BiDi | Vision | Rust CLI |
+| Size | ~10MB | Node.js | Rust binary |
+| Mobile | Yes | Yes | No |
+| License | Apache 2.0 | Apache 2.0 | Apache 2.0 |
+| Stars | 2,784 | 4,026 | 30,517 |
 
-## Notes
-- Apache-2.0 licensed
-- Quick start guides for JS, Python, Java
-- Zero-config installation
+## LINK Tags
+`#browser-automation` `#webdriver-bidi` `#standards-based` `#mcp-server` `#semantic`
+
+## Recommendation
+**INTEGRATE** — Already forked. WebDriver BiDi standard makes it the most standards-compliant option. Install as Hermes MCP skill.
