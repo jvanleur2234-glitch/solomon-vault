@@ -1,33 +1,32 @@
-# RD Report: Vercel agent-browser
+# RD Report: Vercel Agent Browser — Fast Rust Browser Automation
 
-**Repo:** `vercel-labs/agent-browser` | **Stars:** ~2.8K | **License:** Apache 2.0 | **Updated:** Apr 2026
+**Fork:** `jvanleur2234-glitch/vercel-agent-browser` | **Original:** `vercel-labs/agent-browser` | **License:** Apache 2.0 | **Stars:** ~2.5K | **Lang:** Rust
 
 ## What It Is
-Native Rust CLI for browser automation designed specifically for AI agents. Fast, lightweight, with accessibility tree and ref-based element targeting.
+Fast native Rust CLI for browser automation designed for AI agents. Controls Chrome/Chromium programmatically. Zero Python/Node dependency for the core daemon.
 
-## Core Value for Solomon OS
-- **Native Rust performance** — much faster than Node-based Playwright/Puppeteer approaches
-- **AI agent-native** — built for AI agents to control browsers programmatically
-- **Snapshot/ref system** — `@e1`, `@e2` element refs for reliable targeting
-- **Supports CSS selectors, role/name-based selectors**
-- **Screenshot, keyboard, multi-browser support**
-- **Already installed locally** as `/usr/local/bin/agent-browser`
-- Apache 2.0 licensed ✓
+## Key Capabilities
+- Navigation, click, dblclick, hover, type, fill, press keys
+- Snapshot/inspection: accessibility tree + element refs
+- Screenshot capture
+- CSS + role-based selectors
+- Tab management, form/element manipulation
+- Global install: `npm install -g agent-browser`
+- Works with existing Chrome/Brave/Playwright/Puppeteer
 
-## Security Relevance
-Browser automation is a core Hermes capability (OpenClaw/ClawLess competitor). This is a competitor worth watching — faster Rust implementation could influence Hermes browser tooling.
+## Relevance to Solomon OS
+- **Browser Automation:** ClawLess competitor
+- **Performance:** Rust-based = fastest browser automation for agents
+- **Hermes Integration:** Could replace Playwright-based browser tools
 
-## Integration Potential
-- **Already integrated** in this environment
-- Could be exposed as Hermes MCP skill for browser automation
-- Reference architecture for Hermes native browser automation
+## Threat Analysis
+- Apache 2.0 licensed, Vercel Labs backing
+- Actively maintained (v0.26.0)
 
-## Comparison vs OpenClaw/ClawLess
-- **agent-browser:** Rust-native, CLI-first, accessibility tree, refs
-- **OpenClaw:** TypeScript, Node ecosystem, broader AI agent integration
-- Both are legitimate competitors in browser automation for AI agents
+## Integration Path
+```
+TOOL: agent-browser → Rust-based browser automation for Hermes
+USE CASE: Fast, reliable web browsing for agent tasks
+```
 
-## Verdict: **MONITOR / REFERENCE**
-- Fork: NO (Vercel-owned, Apache licensed — reference only)
-- RD tracking: YES
-- Hermes integration: Potential future MCP skill
+**Recommendation:** INTEGRATE — Fork as high-performance browser automation skill for Hermes. Vercel backing = credible.

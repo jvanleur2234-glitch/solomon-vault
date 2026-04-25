@@ -1,31 +1,32 @@
-# RD Report: agent-express
+# RD Report: Agent Express — TypeScript Middleware Agent Framework
 
-**Fork Status:** Already forked  
-**License:** MIT  
-**Stars:** ~300 (TypeScript middleware framework for AI agents)  
-**Relevance:** HIGH — skill framework, middleware architecture, multi-provider routing
+**Fork:** `jvanleur2234-glitch/agent-express-new` | **Original:** `agent-express-ai/agent-express` | **License:** MIT | **Stars:** ~600 | **Lang:** TypeScript
 
 ## What It Is
-Minimalist, TypeScript-based middleware framework for building AI agents. Applies Express.js middleware pattern with (ctx, next) flow centered on Agent, Session, Middleware concepts.
+Minimalist, middleware-based TypeScript framework for AI agents. Models after Express.js with `(ctx, next)` pattern. Centers on Agent, Session, and Middleware concepts.
 
 ## Key Capabilities
 - Middleware architecture with 5 onion hooks: agent, session, turn, model, tool
-- Built-in safeguards: budget/input/output validation, timeouts, iteration limits, HITL approval
-- Observability: structured logging, OpenTelemetry metrics/traces, token/tool tracking
-- Multi-provider model support: 12+ providers via provider/model pattern
-- Model routing and memory management: complexity-based routing, context window compaction
-- MCP integration and HTTP adapter
-- CLI tools: agent-express dev (hot reload) and test (CI-friendly output)
+- Built-in guards: budgets, validation, timeouts, iteration limits, human-in-the-loop
+- Observability: structured logs, OpenTelemetry metrics/traces, token tracking
+- 12+ LLM providers via provider/model string routing
+- Memory management with context window compaction strategies
+- Testing toolkit: TestModel, FunctionModel, capture/replay, snapshots
+- MCP integration, Zod schema validation, HTTP adapter with SSE streaming
 
-## Relevance to Hermes/Solomon
-- Middleware architecture directly maps to Hermes skill system
-- Could serve as inspiration for Hermes Agent's skill chaining mechanism
-- HITL approval patterns relevant for Solomon OS business workflows
+## Relevance to Solomon OS
+- **Skill Framework:** TypeScript native — aligns with Hermes ACP skill model
+- **Security:** Built-in guards for budgets, timeouts, approvals
+- **Observability:** OpenTelemetry tracing for agent audit trails
 
-## Integration Recommendation
-**SKILL** — Middleware composition patterns could enhance Hermes skill chaining. Study agent-express's provider routing for multi-model Hermes configurations.
+## Threat Analysis
+- MIT licensed, early-stage but active
+- Express-inspired middleware is well-understood pattern
 
-## Notes
-- MIT licensed
-- Active development
-- Strong overlap with Hermes's design philosophy
+## Integration Path
+```
+SKILL: agent-express → TypeScript agent harness for Hermes ACP
+USE CASE: Lightweight agent with strong safety guards for production
+```
+
+**Recommendation:** SKILL — Fork for TypeScript agent tooling, potentially as Hermes ACP skill template.
