@@ -185,3 +185,75 @@
 - **Solomon OS fit:** INTEGRATE — Council of High Intelligence core engine. 7-phase deliberation + deterministic replay for compliance audits. Could power Solomon OS governance decisions.
 - **Status:** INTEGRATE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/quorum.md
+
+## AIBYAI — Multi-Agent Deliberative Platform with Confidence Scoring (April 26, 2026)
+- **URL:** https://github.com/Yash-Awasthi/aibyai
+- **Fork:** Already forked (`jvanleur2234-glitch/aibyai`)
+- **What it does:** 4+ AI agents argue, critique, consensus with quantified confidence score. Modules: Empiricist, Strategist, Historian, Skeptic. Conflict Detector analyzes pairwise claims. Cold Validator checks hallucinations. Cross-topic memory via topic graph. TypeScript/React/Fastify.
+- **Solomon OS fit:** SKILL — Study conflict detection + confidence scoring for Hermes deliberation. Cold Validator hallucination check valuable for agent reliability verification. MIT licensed.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/aibyai.md
+
+## Agent Express — TypeScript Middleware Agent Framework (April 26, 2026)
+- **URL:** https://github.com/agent-express-ai/agent-express
+- **Fork:** Already forked (`jvanleur2234-glitch/agent-express-typescript-agent-framework`)
+- **What it does:** Express-like middleware `(ctx, next)` pattern. Built-in guards: budget, validation, timeouts, iteration limits, HITL approval. 12+ model providers, memory compaction, MCP integration, CLI with hot reload. OpenTelemetry observability. MIT.
+- **Solomon OS fit:** SKILL — Middleware guard pattern for Hermes skill security. OpenTelemetry observability fills production monitoring gap. TypeScript aligns with Hermes ACP. MIT.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-express-typescript-agent-framework.md
+
+## Inngest Self-Learning Agent — Durable Prompt Evolution (April 26, 2026)
+- **URL:** https://github.com/inngest/inngest-self-learning-agent
+- **Fork:** Already forked (`jvanleur2234-glitch/inngest-self-learning-agent`)
+- **What it does:** Durable self-learning agent with think/act/observe loop. Scheduled evaluation jobs rewrite and promote better prompts. Prompt versioning + A/B testing with weighted traffic routing. Guardrails prevent prompt gaming. Multi-channel (Slack, Telegram). TypeScript/Node.
+- **Solomon OS fit:** FORGE — Study durable execution + prompt versioning for Hermes self-evolution. A/B testing framework for prompts is sophisticated and directly applicable. MIT licensed.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/inngest-self-learning-agent-durable.md
+
+## PeerClaw — P2P AI Agent Network with Token Economy (April 26, 2026)
+- **URL:** https://github.com/antonellof/peerclaw
+- **Fork:** Already forked (`jvanleur2234-glitch/peerclaw`)
+- **What it does:** P2P AI agent network. Single static binary, local GGUF models (GPU acceleration). SKILL.md-based skill system with trust levels. P2P job marketplace (request→bid→execute→settle). Token economy with micro-payments. WASM sandbox. Web dashboard. Go + TypeScript.
+- **Solomon OS fit:** INTEGRATE — Skills trust levels directly relevant to Hermes skill security. P2P marketplace is AgentFM competitor. Token economy model for compute distribution. MIT licensed.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/peerclaw-p2p-ai-network.md
+
+## Agent Orcha — Declarative YAML Multi-Agent Framework (April 26, 2026)
+- **URL:** https://github.com/ddalcu/agent-orcha
+- **Fork:** Already forked (`jvanleur2234-glitch/agent-orcha-yaml-multi-agent-framework`)
+- **What it does:** Declarative TypeScript framework for multi-agent AI using YAML. Agents, workflows, knowledge stores defined in YAML. P2P agent sharing (encrypted, no central server). SQLite vector store, session memory with TTL. Vision Browser sandbox. Agent Orcha Studio web dashboard. TypeScript.
+- **Solomon OS fit:** INTEGRATE — P2P agent sharing mechanism for distributed Hermes deployment. YAML declarative approach could inspire Hermes skill definition DSL. MIT licensed.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-orcha-yaml-multi-agent-framework.md
+
+## Shard v0.6.6 — Browser-Powered P2P Distributed Inference (April 26, 2026)
+- **URL:** https://github.com/TrentPierce/Shard
+- **Fork:** Already forked (`jvanleur2234-glitch/shard`)
+- **What it does:** Browser-powered distributed inference. Scouts (browser WebGPU) generate drafts, Shards (BitNet server) verify. Proof-of-Compute (PoC) receipts for network priority. 1.58-bit ternary quantization. OpenAI-compatible API. Libp2p mesh with hole punching.
+- **Solomon OS fit:** INTEGRATE — Browser compute is future distributed AI infrastructure. PoC incentive model directly relevant to AgentFM/compute grid. MIT licensed.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/shard-p2p-browser-inference.md
+
+## Shreyas Self-Improving Agent — Permanent Prompt Evolution (April 26, 2026)
+- **URL:** https://github.com/Shreyas-Gowda26/self-improving-agent
+- **Fork:** Not yet forked
+- **What it does:** Python agent that permanently evolves its own system prompt (v1→v2→v3). User feedback triggers improved version. Free LLM providers (Groq, SambaNova, Cerebras, Zhipu, Anthropic). 5 sub-agents: CodeReviewer, TestWriter, Debugger, Researcher, Refactorer. Human-in-the-loop with diff previews.
+- **Solomon OS fit:** FORGE — Fork and adapt as Hermes self-improvement skill. Versioned prompt evolution + sub-agent architecture maps well to Hermes skills. MIT licensed.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/shreyas-gowda-self-improving-agent.md
+
+## Agent Friday Self-Improvement Kit — Human-in-the-Loop Safety (April 26, 2026)
+- **URL:** https://github.com/FutureSpeakAI/agent-fridays-self-improvement-kit
+- **Fork:** Not yet forked
+- **What it does:** TypeScript framework-agnostic module. SelfImproveEngine reads files, generates diffs via `proposeChange()`, requires human approval before writes. ApprovalHandler gates all modifications. Safety-first: reads autonomous, writes require approval. Zero external dependencies.
+- **Solomon OS fit:** SKILL — Adopt human-in-the-loop approval pattern for Hermes self-evolution safety. MIT, framework-agnostic, clean architecture.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-fridays-self-improvement-kit.md
+
+## Microsoft Agent Framework — Graph-Based Orchestration (April 26, 2026)
+- **URL:** https://github.com/microsoft/agent-framework
+- **Fork:** Not yet forked
+- **What it does:** Cross-language (Python + C#/.NET) graph-based agent orchestration. Data flows, streaming, checkpointing, human-in-the-loop, time-travel. AF Labs for RL research. DevUI for interactive debugging. 120+ contributors, 74 releases. python-1.1.0 (2026-04-21). MIT.
+- **Solomon OS fit:** WATCH — Graph-based orchestration fundamentally different from Hermes. Microsoft-backed, highly active. Study for Hermes architecture evolution. MIT licensed.
+- **Status:** WATCH
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/microsoft-agent-framework-2026.md

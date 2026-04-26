@@ -1,26 +1,28 @@
-# microsoft/agent-framework — Cross-Language AI Agent Platform
+# Microsoft Agent Framework — Graph-Based Agent Orchestration
 
-## SLUG: microsoft-agent-framework
-## Date: 2026-04-26
-## Tags: #agent-framework #microsoft #python #dotnet #multi-agent #MIT
-## Status: FORGE
+**Date:** 2026-04-26  
+**Slug:** microsoft-agent-framework-2026  
+**Category:** Agent Framework  
+**License:** MIT  
+**Language:** Python + C#/.NET  
+**Stars:** ~5,000+  
+**Latest Release:** python-1.1.0 (2026-04-21)  
 
----
+## What it is
+Cross-language (Python + .NET) platform for building, orchestrating, and deploying AI agents with **graph-based workflows**. Data flows, streaming, checkpointing, human-in-the-loop, time-travel. AF Labs for benchmarking/RL research. DevUI for interactive debugging.
 
-## What It Is
-Microsoft Agent Framework is a cross-language platform (Python and .NET/C#) for building, orchestrating, and deploying AI agents and multi-agent workflows. Features graph-based orchestration, streaming, checkpoints, human-in-the-loop, and time-travel capabilities.
-
-## Key Capabilities
-- **Graph-based workflows**: connect agents and deterministic functions
-- **Python + .NET unified API surface**
-- **AF Labs**: benchmarking, reinforcement learning, experimental features
-- **DevUI**: interactive UI for development, testing, and debugging
-- **MIT License** — python-1.1.0 (Apr 2026)
+## Key Features
+- **Graph-based orchestration**: agents as nodes in a directed graph
+- **Multi-language**: Python and C#/.NET with consistent APIs
+- **AF Labs**: benchmarking, reinforcement learning, research initiatives
+- **DevUI**: interactive development/testing/debugging UI
+- **Python 1.1.0** (2026-04-21) — very recent
+- **120+ contributors**, 74 releases
+- **Migration guides** from Semantic Kernel and AutoGen
+- **Community office hours + Discord**
 
 ## Relevance to Solomon OS / Hermes
-- Graph-based orchestration patterns applicable to Hermes skill composition
-- Microsoft's scale and backing make this a serious competitor
-- Human-in-the-loop and time-travel are advanced resilience features
+Graph-based orchestration is a fundamentally different paradigm from Hermes's current approach. Microsoft's framework handles persistence, checkpointing, and time-travel — features Hermes could adopt via skills.
 
-## Recommendation
-**FORGE** — watch for competitive intelligence, extract graph-based orchestration patterns.
+## Verdict
+**WATCH** — MIT licensed, highly active, Microsoft-backed. Graph-based orchestration is worth studying for Hermes architecture evolution. Fork for deep evaluation.

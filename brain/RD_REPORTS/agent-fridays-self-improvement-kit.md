@@ -1,29 +1,29 @@
-# RD Report: agent-fridays-self-improvement-kit
+# Agent Friday Self-Improvement Kit (FutureSpeakAI)
 
-**Date:** 2026-04-22
-**Repo:** FutureSpeakAI/agent-fridays-self-improvement-kit
-**Forked:** jvanleur2234-glitch/agent-fridays-self-improvement-kit
-**License:** MIT
-**Stars:** ~N/A (newer repo)
-**Tech:** TypeScript
+**Date:** 2026-04-26  
+**Slug:** agent-fridays-self-improvement-kit  
+**Category:** Self-Improvement  
+**License:** MIT  
+**Language:** TypeScript  
+**Forked:** No (npm package)
 
-## What It Does
-A controlled self-modification engine for AI agents. The agent reads its own source, proposes targeted code changes, and requires explicit human approval before writing any change.
+## What it is
+TypeScript framework-agnostic module for self-improving AI agents. Agent reads own source, generates diffs via `proposeChange()`, but requires human approval before writes. Extracted from Agent Friday project.
 
 ## Key Features
-- Framework-agnostic, zero dependencies
-- Human-in-the-loop workflow (no changes without approval)
-- Diff generation for proposed changes
-- Hot-reload support after approval
-- Rollback safety (nothing written without approval)
+- **SelfImproveEngine**: read-only introspection + diff proposal
+- **ApprovalHandler**: human-in-the-loop gate for all writes
+- **Safety-first**: reads are autonomous, writes require approval
+- **Framework-agnostic**: zero external dependencies
+- **Install**: `npm install self-improving-agent`
 
-## Security Model
-- Reading and listing: no approval required
-- Proposing changes: requires human approval
-- Writing and hot-reloads: only after explicit approval
-- All modifications go through human review gate
+## Key Architecture
+```
+SelfImproveEngine → proposeChange() → ApprovalHandler → (approve/deny) → hot-reload
+```
 
-## For Solomon OS
-Pattern matches JCPaid philosophy — human approval required before behavioral changes. Study as template for Hermes self-improvement with safety gates.
+## Relevance to Solomon OS / Hermes
+Human-in-the-loop safety pattern is directly applicable to Hermes self-evolution. Could be a Hermes skill for supervised self-modification. TypeScript aligns with Hermes agent-core if rewritten in Python.
 
-**VERDICT: SKILL — worth studying for Evolver human-in-loop pattern**
+## Verdict
+**SKILL** — Adopt the human-in-the-loop approval pattern for Hermes self-evolution. MIT licensed, clean safety architecture.

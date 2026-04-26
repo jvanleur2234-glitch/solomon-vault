@@ -1,37 +1,27 @@
-# RD Report: agent-orcha — Declarative YAML Multi-Agent Framework
+# Agent Orcha (ddalcu) — Declarative YAML Multi-Agent Framework
 
-**Date:** 2026-04-25  
-**Category:** Agent Orchestration  
-**Status:** SKILL  
+**Date:** 2026-04-26  
+**Slug:** agent-orcha-yaml-multi-agent  
+**Category:** Agent Framework  
+**License:** MIT (est.)  
+**Language:** TypeScript  
+**Stars:** ~600 (est.)  
+**Forked:** Yes (`jvanleur2234-glitch/agent-orcha-yaml-multi-agent-framework`)
 
-## What It Is
-
-A declarative, TypeScript-based framework (with Svelte, Swift, and other tech) for building, managing, and scaling multi-agent AI systems. Agents, workflows, and knowledge stores are defined in YAML, while orchestration, memory, security, and tooling are handled via MCP.
+## What it is
+Declarative TypeScript framework for multi-agent AI systems using YAML. Define agents, workflows, knowledge stores in YAML. Supports parallelism, conditional logic, ReAct. Built-in SQLite vector store, session memory with TTL. P2P agent sharing with encryption.
 
 ## Key Features
+- **YAML-based declarative workflows**: agents, workflows, knowledge stores defined in YAML
+- **P2P sharing**: encrypted peer-to-peer agent sharing without central servers
+- **Per-peer rate limiting + security**: SSRF protection, SQL injection hardening
+- **Knowledge + memory**: SQLite vector store + session memory with TTL
+- **Vision Browser**: browser sandbox with vision LLM support
+- **Agent Orcha Studio**: web dashboard for testing, monitoring, in-browser IDE
+- **Deployment**: local, Docker, desktop apps (macOS/Windows/Linux), GPU/direct inference
 
-- **Declarative agent/workflow definitions in YAML**
-- **Model-agnostic LLM support** (OpenAI, Gemini, Anthropic, local LLMs)
-- **P2P sharing of agents/LLMs without central keys**, with per-peer rate limiting
-- **Universal tooling via MCP** to connect to external services, APIs, or databases
-- **Built-in knowledge stores** (SQLite vector store) with support for knowledge graphs and semantic search
-- **Robust workflow engine** with parallelism, conditional logic, multi-turn prompts (ReAct)
-- **Browser sandbox** with noVNC, CDP, Xvfb; Vision Browser for vision LLMs
-- **Security features:** Auth, rate limiting, SSRF protection, SQL hardening, sandboxed execution
-- **Native desktop apps and Docker/NPM usage**
-- **Web dashboard** (Agent Orcha Studio) for testing, monitoring, in-browser IDE
+## Relevance to Solomon OS / Hermes
+Declarative YAML config aligns with Hermes skill definition approach. P2P agent sharing without central servers is novel and relevant to the AgentFM compute grid vision.
 
-## License
-
-MIT
-
-## Why It Matters for Solomon OS
-
-- **YAML-first:** Declarative config could complement Hermes skill definitions
-- **P2P agent sharing:** Per-peer rate limiting could inspire distributed Hermes node concept
-- **Knowledge graph + vector store:** Built-in memory aligns with Solomon Vault approach
-- **Browser sandbox:** In-browser IDE pattern for Agent Orcha Studio maps to Solomon Browser dashboard
-
-## Source
-
-- https://github.com/ddalcu/agent-orcha
+## Verdict
+**INTEGRATE** — Study P2P agent sharing mechanism for distributed Hermes deployment. YAML declarative approach could inspire skill definition DSL. MIT licensed.

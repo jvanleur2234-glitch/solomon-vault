@@ -1,31 +1,28 @@
-# RD Report: agent-express — Express-style TypeScript Agent Framework
+# Agent Express — Minimalist TypeScript Agent Framework
 
-**Date:** April 26, 2026  
-**Author:** AIQ Scout  
-**Status:** SKILL  
+**Date:** 2026-04-26  
+**Slug:** agent-express-typescript  
+**Category:** Agent Framework  
 **License:** MIT  
-**Stars:** Active, recent releases  
+**Language:** TypeScript  
+**Stars:** ~1,500 (est.)  
+**Forked:** Yes (`jvanleur2234-glitch/agent-express-typescript-agent-framework`)
 
-## What It Is
-Minimalist, middleware-driven TypeScript framework for building AI agents. Express-like `use()` pattern for orchestrating AI workflows. 12+ model providers, model routing, built-in safeguards, MCP integration.
+## What it is
+Express-like middleware framework for AI agents in TypeScript. `(ctx, next)` pattern with built-in guards (budget, input/output validation, timeouts, iteration limits, HITL approval). 12+ model providers, memory management, MCP integration, CLI with hot reload.
 
 ## Key Features
-- 5 onion middleware hooks: agent, session, turn, model, tool
-- Budget/input/output validation, timeouts, iteration limits, HITL approval
-- OpenTelemetry observability, token tracking, tool usage recording
-- Model routing based on complexity
-- Context window compaction with multiple strategies
-- Zod-based output validation
-- CLI: `agent-express dev` (hot reload), `agent-express test` (CI output)
-- MCP integration for tool sources
+- **Middleware architecture**: agent, session, turn, model, tool hooks
+- **Built-in guards**: budget, validation, timeouts, iteration limits, HITL approval
+- **Observability**: structured logs, OpenTelemetry, token tracking
+- **12+ model providers**: Anthropic, OpenAI, Google, Mistral, Groq, etc.
+- **Memory management**: context window compaction strategies
+- **MCP integration**: tool sources via MCP
+- **CLI**: `agent-express dev` with hot reload, `agent-express test` for CI
+- **Testing toolkit**: TestModel, FunctionModel, capture, record/replay
 
-## Solomon OS Fit
-STUDY — Middleware architecture clean and well-designed. Observability patterns worth studying for Hermes monitoring. Model routing for complexity-based delegation aligns with Solomon OS multi-model strategy.
+## Relevance to Solomon OS / Hermes
+Express-like middleware pattern is clean and could inspire Hermes ACP skill architecture. Built-in observability (OpenTelemetry) is important for production monitoring. TypeScript aligns with Hermes ACP.
 
-## Action
-- Clone and study: `git clone --depth 1 https://github.com/agent-express-ai/agent-express`
-- No fork (not critical priority)
-- Study middleware + observability for Hermes enhancement
-
-## Links
-- https://github.com/agent-express-ai/agent-express
+## Verdict
+**INTEGRATE** — Study the middleware guard pattern for Hermes skill security. OpenTelemetry observability is a gap in current Hermes. MIT licensed, actively maintained.
