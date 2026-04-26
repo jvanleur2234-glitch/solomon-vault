@@ -1,30 +1,45 @@
-# RD Report: agentverus/agentverus-scanner
+# AgentVerus Scanner — AI Agent Trust Boundary Security
 
-**Date:** 2026-04-22
-**Category:** AI Security Scanner
-**License:** MIT
-**Type:** TypeScript
+## Quick Summary
+TypeScript security scanner for AI agent skills. Evaluates trust boundaries, detects prompt injections, data exfiltration, and 10 threat categories. Analyzes agent skill files for security and behavioral risks. MIT licensed.
 
 ## What It Is
-Security scanner that analyzes AI agent skills for trust and safety. Performs structured scans to detect prompt injections, data exfiltration, and broad risk signals across 10 threat categories.
+- Open-source security tool (TypeScript/JavaScript) for evaluating AI agent skills
+- Focus: trust boundaries between agent skills and the workspace
+- Targets prompt injection, instruction override, relay attacks
+- Detects workspace/config tampering (AGENTS.md, TOOLS.md, CLAUDE.md)
+- Version 0.7.x with refined severity calibrations
 
 ## Key Features
-- **Permission/capability checks:** filesystem/network/exec vs declared vs inferred
-- **Injection + exfiltration risk detection**
-- **Dependency + content analysis:** external URLs, downloads, obfuscation
-- **Behavioral risk scoring:** escalation, stealth, exfiltration
-- **Workspace tampering detection:** AGENTS.md, TOOLS.md, CLAUDE.md, .claude/**
-- **Code safety checks:** dangerous eval/exec, exfil patterns
+- **Permission/capability contract checks**
+- **Injection detection**: prompt injection, instruction override, relay
+- **Dependency/content analysis**: external URLs, suspicious downloads, obfuscated content
+- **Behavioral risk scoring**: exfiltration, escalation, stealth patterns
+- **Code safety**: dangerous blocks, eval/exec, exfil patterns
+- **Workspace tampering detection**: flags attempts to modify trust files
+- Structured trust reports with risk signals
 
-## Why It Matters
-- Direct competitor to our AgentArmor Studio skill
-- Open-source alternative to commercial agent security products
-- Focuses on trust boundary analysis
+## Threat Categories (10+)
+1. Prompt Injection
+2. Tool Poisoning/Shadowing
+3. Toxic Flows
+4. Credential Exposure
+5. Workspace Tampering
+6. External URL Access
+7. Obfuscated Content
+8. Eval/Exec Abuse
+9. Data Exfiltration
+10. Privilege Escalation
 
-## Fit for Solomon OS
-- **INTEGRATE** — study patterns for Solomon's own security scanner
-- **MIT license** ✅
-- Could enhance AgentArmor with additional detection rules
+## Solomon OS Fit
+- **FORGE** — Critical security primitive for Hermes skill verification
+- Trust boundary analysis should run on every skill before Hermes loads it
+- MIT license permits direct integration into AgentArmor
+- Maps to OWASP LLM Top 10 compliance
 
-## Sources
-- https://github.com/agentverus/agentverus-scanner
+## Links
+- Repo: https://github.com/agentverus/agentverus-scanner
+- License: MIT
+
+## Recommendation
+**FORGE** — add to AgentArmor security layer. Should be a pre-flight check for skill loading.
