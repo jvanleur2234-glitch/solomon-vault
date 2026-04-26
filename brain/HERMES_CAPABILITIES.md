@@ -47,3 +47,36 @@
 - **Status:** FORGE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hermes-vault-v0.4.0.md
 
+
+## GenericAgent — Minimal Self-Evolving Autonomous Agent (April 26, 2026)
+- **URL:** https://github.com/lsdefine/GenericAgent
+- **Fork:** https://github.com/jvanleur2234-glitch/GenericAgent
+- **What it does:** ~3K line self-evolving agent framework. Each solved task crystallizes into a reusable skill, building a personal skill tree over time. 9 atomic tools for browser, terminal, filesystem, keyboard/mouse, screen vision, ADB mobile. Self-bootstrapping proof. Cross-model: Claude, Gemini, Kimi, MiniMax.
+- **Key features:** Self-evolving skill tree from execution path crystallization, real browser injection (preserves sessions), <30K context window with layered memory, self-bootstrapping: autonomous Git setup and commits
+- **Solomon OS fit:** SKILL — Study skill tree evolution mechanism for Hermes skills ecosystem. MIT, 5.4K stars. Self-bootstrapping directly applicable to AgentFM autonomous improvement.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/genericagent-self-evolving-agent.md
+
+## Cognee — Vector + Graph Unified Memory for AI Agents (April 26, 2026)
+- **URL:** https://github.com/topoteretes/cognee
+- **Fork:** https://github.com/jvanleur2234-glitch/cognee
+- **What it does:** 6-line ECL pipeline (Extract→Cognify→Load) to build persistent memory. Combines vector search with graph database for unified memory layer. 30+ data sources, Pythonic, CLI+local UI, Ollama compatible.
+- **Key features:** Vector + graph dual-memory architecture, 30+ data source connectors, 6-line setup for agent memory, 15.9K stars = high community trust
+- **Solomon OS fit:** SKILL — Vector+graph approach solves context fragmentation in Hermes. ECL pipeline could inform Hermes memory storage. MIT, massive community adoption.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/cognee-vector-graph-memory.md
+
+## Hermes HUD UI — Browser-Based Hermes Consciousness Monitor (April 26, 2026)
+- **URL:** https://github.com/joeynyc/hermes-hudui
+- **Fork:** https://github.com/jvanleur2234-glitch/hermes-hudui
+- **What it does:** Real-time WebSocket dashboard for Hermes Agent. 10+ tabs: identity, memory, skills, sessions, health, costs, patterns, corrections, governance, live chat. 4 themes (Neural Awakening, Blade Runner, fsociety, Anime). Per-model token cost tracking. MIT, 1.2K stars.
+- **Solomon OS fit:** INTEGRATE — Standard monitoring tool for Hermes-based Solomon OS. Skill health tracking + cost monitoring aligns with JCPaid billing. MIT license enables clean bundling.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hermes-hudui-browser-consciousness-monitor.md
+
+## Evolver — GEP-Powered Self-Evolution Engine (April 26, 2026)
+- **URL:** https://github.com/evomap/evolver
+- **What it does:** Genome Evolution Protocol engine for AI agents. Converts ad hoc prompt tweaks into auditable Genes/Capsules/Events. Auto-log analysis, strategy presets (balanced/innovate/harden/repair-only), human-in-the-loop review. Source-available (GPL), MIT-era releases available.
+- **Solomon OS fit:** SKILL — Extract protocol design + audit trail concepts for Hermes self-improvement loop. Not MIT for direct code use, but structured evolution framework worth studying.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/evolver-self-evolution-engine.md
