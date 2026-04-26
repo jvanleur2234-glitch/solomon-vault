@@ -447,3 +447,12 @@
 - **What it does:** Durable AI agent with think/act/observe loop, post-response scoring, scheduled evaluation jobs to rewrite/ promoting prompts. Guardrails against gaming. MIT.
 - **Solomon OS fit:** SKILL — Study durable self-improvement loop for Hermes evolution.
 - **Status:** SKILL
+
+
+## ClawSwarm — Kye Gomez Multi-Agent OS (April 26, 2026)
+- **URL:** https://github.com/The-Swarm-Corporation/ClawSwarm
+- **Fork:** jvanleur2234-glitch/ClawSwarm
+- **What it does:** Lightweight multi-agent OS for Telegram/Discord/WhatsApp via gRPC gateway. Hierarchical swarm: director agent plans + delegates to workers (Response, Search, TokenLaunch, Developer w/ Claude Code). Persistent markdown + RAG memory. Built by Kye Gomez (OpenMythos author). Apache 2.0, 2 stars.
+- **Solomon OS fit:** SKILL — Study gRPC gateway + hierarchical swarm for Solomon Bus. Claude Code as tool for Hermes Developer mode.
+- **Status:** SKILL
+
