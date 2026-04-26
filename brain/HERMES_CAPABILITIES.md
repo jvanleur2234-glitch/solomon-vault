@@ -161,3 +161,27 @@
 - **Solomon OS fit:** SKILL — Study sandbox + memory + tools triad for Hermes architecture. ClawLess competitors category. Lean design validates Hermes direction.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/clawagents-py.md
+
+## Deliberation — Multi-Agent Discernment Framework (April 26, 2026)
+- **URL:** https://github.com/2389-research/deliberation
+- **Fork:** Not yet forked
+- **What it does:** Claude-based multi-agent framework for structured decision-making. Three core skills: discernment (internal multi-voice), clearness (committee), gathered (participatory). Grounded in contemplative decision-making. MIT.
+- **Solomon OS fit:** SKILL — Council of High Intelligence competitor. Structured deliberation for major Solomon Browser decisions. Contemplative model fits wisdom-over-speed use case.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/deliberation.md
+
+## Dapr Agents — Scalable Resilient Agent Framework (April 26, 2026)
+- **URL:** https://github.com/dapr/dapr-agents
+- **Fork:** Already forked (`jvanleur2234-glitch/dapr-agents`)
+- **What it does:** Python agent framework built on Dapr. Durable workflow execution, automatic retries, stateful orchestration. Kubernetes-native, multi-agent workflows, data source integration, observable. v1.0.1 (April 2026).
+- **Solomon OS fit:** SKILL — Study Dapr's durable execution model for Hermes resilience. The Dapr building blocks (state, pub/sub, bindings) could enhance Hermes reliability patterns.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dapr-agents.md
+
+## Quorum — 7-Phase Multi-Provider Deliberation (April 26, 2026)
+- **URL:** https://github.com/Solvely-Colin/Quorum
+- **Fork:** Already forked (`jvanleur2234-glitch/Quorum`)
+- **What it does:** TypeScript deliberation framework. 7-phase process (Gather→Plan→Formulate→Debate→Adjust→Rebuttal→Vote). Multi-provider (Claude, GPT, Gemini, DeepSeek, Ollama). SHA-256 audit ledger, YAML guardrails, MCP server, human-in-the-loop pauses. MIT, v0.13.0.
+- **Solomon OS fit:** INTEGRATE — Council of High Intelligence core engine. 7-phase deliberation + deterministic replay for compliance audits. Could power Solomon OS governance decisions.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/quorum.md
