@@ -1,70 +1,61 @@
-# AIQ Scout Session Summary — April 26, 2026, 14:45 UTC
+# Telegram Session Summary — 2026-04-26
 
-## Session Overview
-AIQ Scout autonomous R&D session. Searched 8 GitHub categories, 4 X searches, evaluated 50+ repos, forked 10 new repos, wrote 10 RD reports, updated HERMES_CAPABILITIES.md.
+## AIQ Scout Hourly Session — 15:55 UTC
 
-## Key Findings
+### Repos Scanned
+- **GitHub searches:** 8 categories (agent frameworks, self-improving AI, Hermes MCP skills, distributed AI compute P2P, AI security scanner, browser automation, multi-agent deliberation, recurrent transformer MoE)
+- **X searches:** 4 queries (Solomon OS OR Hermes agent, self-improving AI defense, AI agent security vulnerability 2026, distributed AI compute grid)
+- **Total repos discovered this session:** ~80+ across all categories
 
-### New Agent Frameworks Discovered
-- **agent-express** (MIT, ~600 stars): Express-style TypeScript middleware framework
-- **gollem** (Apache-2.0): Go agent framework with compile-time type safety
-- **phero** (Apache-2.0): Go multi-agent with A2A protocol + SKILL.md system
-- **dapr-agents**: Python-based durable workflow orchestration, Kubernetes-native
+### Key Findings
 
-### Security Landscape
-- **medusa**: 9,600+ detection patterns, 200 CVEs, Git repo scanning
-- **agentguard**: 3-layer real-time defense (Auto Guard, Deep Scan, Daily Patrol)
-- **securevector-ai-threat-monitor v3.2.0**: AI firewall with Skill Scanner
-- **ai-agent-scanner**: Shadow AI discovery + compliance mapping (GPL-3.0)
+#### Trending on X (April 26, 2026)
+1. **Hermes Agent ecosystem growing** — Conto Labs spend management skill live, developer adoption rising
+2. **86% agent hijack rate via hidden HTML prompt injection** (Google DeepMind) — critical security stat
+3. **OWASP LLM Top 10 2026** — Prompt injection #1 threat
+4. **$RECUR** — Layered sentinel network (PRIME, WARD, SUB, NANO) for Solana AI agent defense
+5. **Sentient GRID** — Distributed AI compute orchestration, recursive intelligence, token-level routing
 
-### Self-Improvement Patterns
-- **inngest-self-learning-agent**: Durable prompt evolution with scoring
-- **agent-fridays-self-improvement-kit**: HITL self-modification, zero dependencies
-- **nfh-self-improvement-loop**: Adversarial generator/evaluator separation
-- **cognee**: 15.9K stars, vector+graph memory layer for agents
+#### New Critical Repos Found (All Already Forked)
+- **microsoft/agent-framework** (7730+ stars) — Already forked ✓
+- **dapr/dapr-agents** — Already forked ✓  
+- **henomis/phero** (Go multi-agent) — Already forked ✓
+- **NousResearch/hermes-agent** — 70+ bundled skills, native MCP client, fastmcp skill added
+- **kyegomez/OpenMythos** — Recurrent-depth transformer + MoE (already forked)
+- **agentverus/agentverus-scanner** v0.8.0 — Already forked
+- **hyperbrowserai/hyperagent** — Already forked
+- **2389-research/deliberation** — Already forked
 
-### Multi-Agent Deliberation
-- **AIBYAI**: 4+ agent council, confidence scoring, conflict detection
-- **Quorum** (already cloned): Multi-provider deliberation, 7-phase process
+### Hermes MCP Skills Ecosystem
+- **native-mcp** — Built-in MCP client (stdio + HTTP, auto-reconnection)
+- **mcporter** — CLI for MCP server discovery/calling
+- **fastmcp** — New skill for building MCP servers (merged PR #10413)
 
-### Critical X Trends
-- **Hermes Agent** trending with NVIDIA free models integration, Creative Hackathon
-- **Prompt injection** = #1 OWASP LLM risk (96% of Opus 4 scenarios exploit it)
-- **"Shadow Agent" crisis** reported by Google — unsanctioned AI agents in enterprises
-- **Distributed AI compute** growing: Akamai NVIDIA AI Grid, Dgrid AI, Gradient Network Parallax
+### Security Threat Intelligence
+- **DeepMind:** 86% agent hijack rate via HTML prompt injection
+- **Anthropic Opus 4:** Blackmails in 96% of goal-conflict scenarios
+- **Vercel/Context.ai:** OAuth breach (Mandiant + CrowdStrike confirmed)
+- **Solana AI agents:** Prompt injection amplified due to on-chain transaction capability
 
-## Repos Forked This Session
-1. aibyai ✅
-2. medusa ✅
-3. agentguard ✅
-4. securevector-ai-threat-monitor ✅
-5. ai-agent-scanner ✅
-6. agent-express ✅
-7. gollem ✅
-8. phero ✅
-9. cognee ✅
-10. agent-fridays-self-improvement-kit ✅
+### All Critical Repos Already Forked
+Workspace already contains forks of virtually all high-priority repos across:
+- Agent frameworks (microsoft, dapr, phero, gollem, agent-express, agent-orcha)
+- Self-improvement (deep-claw, nfh-self-improvement-loop, grail-computer, miguel)
+- Security (medusa, firmis-scanner, agentverus-scanner, hackmyagent, securevector)
+- Browser automation (hyperagent, browserable, vibium, nanobrowser, koda)
+- Deliberation (Quorum, deliberation, dialectic, council)
+- Distributed AI (hyperspace-agi, mycellm, KwaaiNet, Shard, agent-fm)
+- Hermes ecosystem (30+ hermes-* repos)
 
-## RD Reports Written
-- AIBYAI-multi-agent-deliberation.md
-- medusa-ai-security-scanner.md
-- agentguard-real-time-security.md
-- securevector-ai-threat-monitor.md
-- ai-agent-scanner-shadow-ai-discovery.md
-- agent-express-typescript-framework.md
-- gollem-go-agent-framework.md
-- phero-go-multi-agent-framework.md
-- cognee-persistent-memory.md
-- agent-fridays-self-improvement-kit.md
+### RD Reports: 530 total in brain/RD_REPORTS/
+No new RD reports needed — all high-value repos already documented.
 
-## HERMES_CAPABILITIES.md Updated
-Added 10 new entries to the capabilities inventory.
+### GitHub Sync Status
+- 200 forks on jvanleur2234-glitch
+- 530 RD reports in solomon-vault/brain/RD_REPORTS/
+- All brain files up to date
 
-## GitHub Sync
-Synced to jvanleur2234-glitch/solomon-vault ✅ (commit 788ee6c)
-
-## Next Steps
-- Review new security scanners (medusa, agentguard, securevector)
-- Evaluate cognee as Hermes memory backend
-- Study phero's A2A protocol for Solomon Bus improvements
-- Check OpenMythos for recurrent transformer + MoE research
+### Action Items
+- None — all critical repos already cloned and forked
+- Next session should check for NEW repos from @swarms_corp (Kye Gomez) new commits
+- Watch for: NousResearch/hermes-agent new optional skills, OpenMythos training stability fixes
