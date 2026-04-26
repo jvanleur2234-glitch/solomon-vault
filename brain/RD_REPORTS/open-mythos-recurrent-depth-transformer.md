@@ -1,36 +1,39 @@
-# RD Report: OpenMythos — Recurrent-Depth Transformer (RDT)
+# OpenMythos — Recurrent-Depth Transformer (Looped Transformer) + MoE
 
-**Date:** 2026-04-25  
-**Category:** Architecture Study  
-**Status:** SKILL  
+## Quick Summary
+Open-source reconstruction of Claude Mythos as a Recurrent-Depth Transformer (RDT). Reuses a fixed set of layers by looping them multiple times per forward pass with input injection. Combines with sparse MoE for compute-adaptive reasoning.
 
 ## What It Is
+OpenMythos implements a looped transformer architecture where a subset of layers (Recurrent Block) recycle across multiple forward passes, maintaining a constant weight set while increasing effective depth through loops. Input embedding `e` is injected at every loop to prevent signal drift.
 
-OpenMythos is an open-source reconstruction of Claude Mythos as a Recurrent-Depth Transformer (RDT), also called a Looped Transformer (LT). Instead of stacking hundreds of unique transformer layers, a subset is reused across multiple loop iterations per forward pass — same weights, deeper effective computation.
+## Architecture
+- **Prelude (P)**: Standard transformer layers, run once
+- **Recurrent Block (R)**: Looped T times. Hidden state update: `h_{t+1} = A·h_t + B·e + Transformer(h_t, e)`
+- **Coda (C)**: Standard transformer layers, run once after looping
 
-## Key Architecture
+## Key Capabilities
+- **Looped depth**: Deeper reasoning without stacking more parameters
+- **Input injection**: Prevents drift, preserves original signal across recurrence
+- **MoE support**: Sparse mixture-of-experts with routed + shared experts
+- **Attention options**: MLA (Multi-Head Local Attention) or GQA (Global-Query Attention)
+- **Systematic generalization**: Better at novel compositions when trained with loops
+- **Depth extrapolation**: More inference-time loops = longer reasoning chains (e.g., 5-hop training, 10-hop testing)
+- **Latent thoughts**: Continuous latent iterations act like implicit chain-of-thought
 
-- **Prelude (P):** Standard transformer layers, run once at input
-- **Recurrent Block (R):** Looped T times with hidden state `h_{t+1} = A·h_t + B·e + Transformer(h_t, e)`. Input embedding `e` injected at every loop to prevent drift.
-- **Coda (C):** Standard transformer layers, run once at output
-- **MoE variant:** Supports sparse Mixture-of-Experts with configurable `n_experts`, `n_shared_experts`, `n_experts_per_tok`
-- **Attention variants:** MLA (multi-head local attention) or GQA (global question attention)
+## Relevance to Solomon OS
+- **SKILL** — Study for potential Hermes reasoning engine enhancement
+- The looped transformer approach could enable deeper reasoning without larger models
+- OpenMythos + Hermes integration could give Solomon OS a state-of-the-art reasoning core
+- Kye Gomez (OpenMythos author) is the same person behind OpenClaw — key ecosystem player
 
-## Key Claims
+## License & Fork Status
+- **License:** MIT
+- **Stars:** ~500 (estimated, active project)
+- **Forked:** Already forked to jvanleur2234-glitch/OpenMythos
 
-1. **Depth extrapolation:** More inference-time loops → deeper reasoning without larger model
-2. **Latent thoughts:** Each loop acts as implicit CoT step in continuous latent space
-3. **Systematic generalization:** Looped transformers generalize to OOD compositions better than vanilla
-4. **No parameter explosion:** Same parameter count; increased depth via loops
+## Verdict
+**SKILL** — Architecture study for Hermes reasoning enhancement. The looped transformer + MoE combination is cutting-edge. Monitor Kye Gomez (author) for ecosystem integration opportunities. OpenMythos + OpenClaw + Hermes = potentially powerful stack.
 
-## Why It Matters for Solomon OS
-
-- **Recurrent agent memory:** Loop-based hidden state update maps directly to Hermes persistent context over long conversations
-- **Adaptive computation:** Token-level routing for depth (like MoR paper) enables efficient agent processing
-- **Competitive intelligence:** OpenMythos is the closest open implementation of Claude Mythos architecture — critical for understanding where Hermes should evolve
-
-## Source
-
+## Links
 - https://github.com/kyegomez/OpenMythos
-- License: MIT
-- Author: Kye Gomez (@kyegomez, swarms-corp)
+- Fork: https://github.com/jvanleur2234-glitch/OpenMythos

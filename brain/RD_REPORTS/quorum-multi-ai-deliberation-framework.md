@@ -1,46 +1,47 @@
-# RD Report: Quorum — Multi-AI Deliberation Framework
+# Quorum — Multi-AI Deliberation Framework (7-Phase Debate)
 
-**Date:** 2026-04-25  
-**Category:** Multi-Agent Deliberation  
-**Status:** FORGE  
+## Quick Summary
+Multi-AI deliberation framework that engages multiple AI providers (Claude, GPT, Gemini, DeepSeek, etc.) to debate, critique, and converge on synthesized answers via a 7-phase process. Includes evidence protocol, code review/CI integration, and deterministic replay.
 
 ## What It Is
+Quorum runs a structured 7-phase deliberation: Gather → Plan → Formulate → Debate → Adjust → Rebuttal → Vote. Produces synthesized answers with confidence scores. Supports evidence citation and cross-validation. Ideal for complex decisions requiring multi-model validation.
 
-Quorum is a multi-AI deliberation framework that pits multiple AI providers against each other to debate, critique, and refine answers, then produces a synthesized result with confidence scores.
+## 7-Phase Process
+1. **Gather**: Each provider responds in isolation
+2. **Plan**: Providers see others' takes and plan positions
+3. **Formulate**: Formal position statements
+4. **Debate**: Providers critique all positions
+5. **Adjust**: Revisions based on critiques
+6. **Rebuttal**: Final rebuttals or concessions (auto-skipped if consensus)
+7. **Vote**: Ranking via Borda, ranked-choice, approval, or Condorcet methods
 
-## 7-Phase Process Per Query
+## Key Capabilities
+- **Multi-provider**: Claude, GPT, Gemini, Kimi, DeepSeek, Mistral, Ollama
+- **Adaptive debate**: Auto-skip or extend rounds based on disagreement
+- **Evidence protocol**: Providers cite sources; cross-validation of claims
+- **Code review + CI/CD**: Code diffs, PRs, structured outputs with exit codes
+- **Policy guardrails**: YAML-based rules to block/warn/pause deliberations
+- **Deterministic replay**: SHA-256 hash-chained ledger for auditability
+- **Human-in-the-loop**: Allow pausing to inject guidance
+- **Flexible topologies**: Mesh, star, tournament, pipeline
+- **MCP server**: Compatible with Claude Desktop, Cursor, MCP clients
+- **Red team analysis**: Adversarial testing packs
 
-1. **Gather:** Independent responses from multiple providers
-2. **Plan:** Participants anticipate others' takes
-3. **Formulate:** Formal position statements
-4. **Debate:** Cross-critique of positions
-5. **Adjust:** Revise based on critiques
-6. **Rebuttal:** Final push unless consensus
-7. **Vote:** Ranked-voting (Borda, ranked-choice, Condorcet)
-- **Synthesis phase:** Merges top thinking into final answer + minority report
+## Relevance to Solomon OS
+- **INTEGRATE** — Multi-agent deliberation is core to Solomon OS intelligence layer
+- 7-phase process maps to our Quorum deliberation patterns already in use
+- SHA-256 audit trail aligns with enterprise compliance needs
+- Code review + CI integration is valuable for JCPaid development workflows
+- Policy guardrails YAML pattern could unify our existing rule system
 
-## Key Features
+## License & Fork Status
+- **License:** MIT
+- **Stars:** ~300 (estimated, active deliberation framework)
+- **Forked:** Already forked (multiple versions: quorum, quorum-fresh, quorum-new)
 
-- Multi-provider support (Claude, GPT, Gemini, Kimi, DeepSeek, Mistral, Ollama, etc.)
-- Adaptive debating (auto-skip/extend on disagreement)
-- Evidence protocol (sources cited, cross-validated)
-- Policy guardrails (YAML rules to block/warn/pause)
-- Deterministic replay with SHA-256 ledger for auditability
-- Human-in-the-loop control
-- MCP server compatibility
+## Verdict
+**INTEGRATE** — Our Quorum fork is well-established. The 7-phase process and SHA-256 audit trail are strong differentiators for enterprise clients. CI/CD integration expands Quorum beyond deliberation into development workflows.
 
-## License
-
-MIT
-
-## Why It Matters for Solomon OS
-
-- **Council of High Intelligence:** This IS the deliberation engine for Solomon OS. 7-phase debate maps directly to our planned "Council" mode.
-- **Multi-model synthesis:** Handles Claude + Gemini + others in structured debate
-- **Auditability:** SHA-256 ledger + deterministic replay = compliance-grade deliberation
-- **Minority reports:** Captures dissenting views — important for quality decisions
-
-## Source
-
+## Links
 - https://github.com/Solvely-Colin/Quorum
-- TypeScript-based, MIT licensed, active 2026
+- Fork: https://github.com/jvanleur2234-glitch/Quorum

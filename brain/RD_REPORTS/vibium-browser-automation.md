@@ -1,29 +1,33 @@
-# RD Report: VibiumDev/vibium
+# Vibium — Cross-Language Browser Automation with MCP Server
 
-**Fork:** Already forked
-**Source:** https://github.com/VibiumDev/vibium
-**Stars:** ~500+ | **License:** Apache-2.0 | **Language:** Go (core), JS/Python/Java clients
-**Date:** 2026-04-24
+## Quick Summary
+AI-friendly browser automation toolkit (≈10MB binary) with WebDriver BiDi standard, optional MCP server, and libraries for JavaScript, Python, and Java.
 
 ## What It Is
-Lightweight, AI-friendly browser automation toolkit. Runs as CLI skill, MCP server, and client libraries. Built on WebDriver BiDi with zero-config setup.
+Vibium provides a lightweight, cross-platform browser automation solution with a small binary footprint. Uses WebDriver BiDi standard (W3C browser automation protocol). Includes MCP server for AI agent integration. Supports natural language command mapping for AI-native use.
 
 ## Key Capabilities
-- Navigate, click, fill forms, select, checkboxes, read text, screenshots, PDFs
-- Semantic element finding (by text, labels, placeholders, ARIA roles)
-- Zero-config with auto browser download
-- Multi-language: Go core, JS/Python/Java clients
-- Skills CLI integration (npx workflows)
-- WASM sandboxing
+- **Small binary**: ~10MB, no heavy dependencies
+- **WebDriver BiDi**: Standards-based, future-proof browser control
+- **Cross-language**: JavaScript/TypeScript, Python, Java libraries
+- **MCP server**: Optional Model Context Protocol server for AI integration
+- **Commands**: go, map, click, find (by text/label/placeholder/role), text, screenshot, pdf, eval, wait, record
+- **Zero-config**: Browser downloads automatically
+- **AI-native**: Designed for AI agents, natural language task mapping
 
 ## Relevance to Solomon OS
-- **Browser automation:** ClawLess competitor with Apache 2.0
-- **MCP server:** Could integrate with Hermes MCP ecosystem
-- **Skills CLI:** Maps to Hermes skill system
-- **Multi-language:** Go core could inspire Hermes components
+- **SKILL** — Alternative to agent-browser, HyperAgent, ClawLess for browser automation
+- MCP server integration is directly compatible with Hermes MCP tooling
+- The small binary footprint (~10MB) is impressive vs browser automation alternatives
+- WebDriver BiDi is W3C standard = long-term stability
 
-## Recommendation
-**SKILL** — Study for browser automation architecture. MCP server integration with Hermes could enable web research capabilities. Semantic element finding is more robust than CSS selectors.
+## License & Fork Status
+- **License:** Apache 2.0
+- **Stars:** 2784 (high!)
+- **Cloned:** Already at /home/workspace/vibium
 
-## License Check
-Apache-2.0 ✅
+## Verdict
+**SKILL** — Browser automation alternative worth evaluating against our existing options. The MCP server integration and small footprint are notable. WebDriver BiDi standard is good for long-term compatibility.
+
+## Links
+- https://github.com/VibiumDev/vibium
