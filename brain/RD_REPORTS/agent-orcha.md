@@ -1,32 +1,32 @@
-# RD Report: agent-orcha
+# RD Report: Agent-Orcha — Declarative YAML Multi-Agent Framework
 
-**Fork Status:** Already cloned  
-**License:** MIT  
-**Stars:** ~800 (YAML-driven multi-agent orchestration with P2P sharing)  
-**Relevance:** HIGH — declarative orchestration, P2P compute sharing, skill frameworks
+**Repo:** `ddalcu/agent-orcha`  
+**URL:** https://github.com/ddalcu/agent-orcha  
+**License:** Unknown (verify)  
+**Stars:** Unknown  
+**Date:** 2026-04-26
 
 ## What It Is
-Declarative YAML-based framework for building, coordinating, and scaling multi-agent AI systems. Features peer sharing and P2P agent/LLM sharing.
+Declarative framework for building, managing, and scaling multi-agent AI systems using YAML. Supports parallelism, conditional logic, state management, multi-turn ReAct-style prompts, SQLite vector store, MCP tooling, and P2P agent sharing.
 
 ## Key Capabilities
-- YAML-based design: define agents, workflows, knowledge stores
-- Model-agnostic: OpenAI, Gemini, Anthropic, local LLMs
-- MCP integration for tool interoperability
-- Parallel workflows, conditional logic, multi-turn memory
-- Built-in SQLite vector store with optional knowledge-graph mapping
-- P2P agent sharing: encryption, rate limiting, private network keys
-- Desktop app ecosystem: Agent Orcha Studio
+- YAML-first agent/workflow/knowledge definitions
+- Model-agnostic: OpenAI, Gemini, Anthropic, Omni, Ollama, LM Studio
+- Built-in SQLite vector store with graph mappings
+- P2P encrypted agent sharing with per-peer rate limits
+- Chromium browser sandbox with CDP/Xvfb/noVNC
+- Vision Browser for vision-LM workflows
+- Desktop apps: macOS, Windows, Linux + Docker
+- In-browser Studio dashboard
 
-## Relevance to Hermes/Solomon
-- **P2P sharing directly competes with AgentFM** — critical for distributed AI compute
-- YAML orchestration aligns with declarative Hermes skill design
-- P2P LLM sharing could enable Solomon OS compute grid
+## Relevance to Solomon OS
+**MEDIUM** — YAML orchestration is a competitor pattern to Hermes's skill-based approach. The P2P sharing model is interesting for AgentFM competitor analysis. Browser sandbox is relevant to ClawLess.
 
-## Integration Recommendation
-**INTEGRATE** — P2P sharing is AgentFM competitor. Study for distributed compute grid architecture. Declarative patterns align with Hermes skill definitions.
+## Use Case for JCPaid
+Inform Hermes dashboard/Studio development. P2P sharing model could inspire Hermes's own skill marketplace P2P layer.
 
-## Notes
-- MIT licensed
-- v2026.409 (Apr 2026)
-- Active development with recent releases
-- Strong P2P/distributed AI compute positioning
+## Verdict
+**STUDY** — Fork for competitive intelligence. Monitor development.
+
+## Action Taken
+Already cloned in workspace.

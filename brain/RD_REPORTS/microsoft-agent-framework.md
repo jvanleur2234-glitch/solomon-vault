@@ -1,28 +1,31 @@
-# RD Report: microsoft/agent-framework
+# RD Report: Microsoft Agent Framework
 
-**Date:** April 26, 2026  
-**Author:** AIQ Scout  
-**Status:** SKILL  
+**Repo:** `microsoft/agent-framework`  
+**URL:** https://github.com/microsoft/agent-framework  
 **License:** MIT  
-**Stars:** ~9.7k  
+**Stars:** 120+ contributors, active  
+**Date:** 2026-04-26
 
 ## What It Is
-Microsoft's multi-language (Python + .NET/C#) framework for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based orchestration with time-travel data flows.
+Multi-language framework (Python + .NET/C#) for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based orchestration with streaming, checkpointing, human-in-the-loop, and time-travel support.
 
-## Key Features
-- Graph-based workflows with data flows, streaming, checkpointing, human-in-the-loop, time-travel
-- Cross-language parity (Python == .NET APIs)
-- AF Labs: benchmarking, RL, research features
-- DevUI for development/testing/debugging
-- Weekly office hours + Discord community
+## Key Capabilities
+- Graph-based workflows with streaming and checkpointing
+- Human-in-the-loop and time-travel support
+- DevUI for interactive development/testing/debugging
+- Cross-language: consistent Python + .NET APIs
+- AF Labs for benchmarking, RL, research features
+- MIT licensed
+- Latest release: Python-1.1.0 (Apr 2026)
 
-## Solomon OS Fit
-STUDY — Graph-based orchestration pattern could inform Hermes mission workflows. Time-travel debugging is unique. NOT MIT license compatible for direct code use, but architecture worth studying.
+## Relevance to Solomon OS
+**MEDIUM** — Microsoft's official agent framework. Large-scale enterprise adoption potential. Graph-based orchestration pattern is relevant for Hermes multi-agent workflows.
 
-## Action
-- No fork (not MIT)
-- Study architecture for potential Hermes integration
-- Watch for MIT-licensed alternatives in same space
+## Use Case for JCPaid
+Enterprise customers may want Microsoft Agent Framework compatibility. Hermes could expose MCP interface to Microsoft AF workflows.
 
-## Links
-- https://github.com/microsoft/agent-framework
+## Verdict
+**MONITOR** — Watch for enterprise adoption trends. Not immediate priority for fork.
+
+## Action Taken
+Already cloned in workspace.

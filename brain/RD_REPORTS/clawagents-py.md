@@ -1,28 +1,33 @@
-# RD Report: x1jiang/clawagents_py
+# RD Report: ClawAgents_py v6
 
-**Date:** April 26, 2026  
-**Author:** AIQ Scout  
-**Status:** SKILL  
-**License:** MIT  
-**Stars:** ~2.5K LOC (no star count but production-ready)  
+**Repo:** `x1jiang/clawagents_py`  
+**URL:** https://github.com/x1jiang/clawagents_py  
+**License:** MIT License  
+**Stars:** Unknown  
+**Date:** 2026-04-26
 
 ## What It Is
-Python agent framework giving LLMs ability to read, write, execute code. Built-in planning, memory, sandboxing, gateway server. Pluggable LLM providers (OpenAI GPT-5, Gemini, Claude, Ollama, vLLM, Bedrock).
+Production-ready, full-stack Python agent framework with built-in planning, memory, sandboxing, and gateway server. Provider-agnostic with OpenAI, Gemini, Anthropic support. ~2,500 LOC, lean and pluggable.
 
-## Key Features
-- Provider architecture for multi-LLM support
-- Memory + sandboxing for safe code execution
-- Gateway server for orchestration
-- Minimal ~100 line agent creation
-- CLI: `clawagents --task "..."`
+## Key Capabilities
+- End-to-end agent lifecycle: memory, tools/tool integration, sandboxed execution, gateway server
+- Multi-provider: OpenAI, Gemini, Azure, Ollama, vLLM via simple config
+- CLI: `clawagents --task "..."` for quick tasks
+- Sandbox execution for code write operations
+- MIT licensed, v6.0.0 (April 2026)
 
-## Solomon OS Fit
-STUDY — Provider abstraction pattern useful for Hermes multi-model routing. Sandbox + gateway architecture could inform Solomon Bus design.
+## Relevance to Solomon OS
+**MEDIUM** — Alternative agent framework. Could inform Hermes internal architecture. ClawLess competitors category. Not directly competing with Hermes (different role) but validates the "lean agent framework" design space.
 
-## Action
-- Already in workspace as clawagents_py
-- No fork needed (already have it)
-- Study provider architecture for Hermes multi-provider support
+## Use Case for JCPaid
+Reference architecture for Hermes's own agent execution patterns. The sandbox + memory + tools triad is directly applicable.
 
-## Links
-- https://github.com/x1jiang/clawagents_py
+## Comparison to Existing
+- Leaner than AutoGen/CrewAI — good reference point
+- MIT licensed — safe to study and derive patterns from
+
+## Verdict
+**STUDY** — Fork for architectural reference. Extract sandbox/memory patterns for Hermes v3.
+
+## Action Taken
+Already cloned in workspace.

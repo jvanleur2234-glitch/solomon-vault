@@ -1,29 +1,39 @@
-# inngest-self-learning-agent
+# RD Report: Inngest Self-Learning Agent
 
-**Fork:** https://github.com/inngest/inngest-self-learning-agent → jvanleur2234-glitch/inngest-self-learning-agent
+**Repo:** `inngest/inngest-self-learning-agent`  
+**URL:** https://github.com/inngest/inngest-self-learning-agent  
+**License:** Unknown  
+**Stars:** Unknown  
+**Date:** 2026-04-26
 
-**Status:** CLONED (fork pending)
+## What It Is
+Durable AI agent built with Inngest and pi-ai that runs a think/act/observe loop, scores responses, and uses scheduled evaluation jobs to create, test, and promote better behavioral prompts over time. Includes guardrails against gaming the scoring system.
 
-## What It Does
-Durable AI agent that continuously improves its own prompts via think/act/observe loop with response scoring, prompt versioning, A/B testing with weighted traffic, scheduled evaluation pipeline, and guardrails against scoring system gaming.
+## Key Capabilities
+- Self-improvement loop: prompts rewritten and scored after each response
+- Prompt versioning with attribution to specific versions
+- A/B testing of behavioral prompts with weighted selection
+- Evaluation pipeline for prompt improvement
+- Guardrails against prompt gaming
+- Response scoring: relevance, completeness, tool efficiency, tone
+- Sub-agents and multi-channel (Slack, Telegram)
+- Durable, single-conversation semantics with retries
 
-## Key Features
-- Response scoring across relevance, completeness, tool efficiency, tone
-- Prompt versioning with A/B testing (weighted random selection)
-- Evaluation pipeline rewrites underperformers and promotes stronger versions
-- Anti-gaming guardrails (generated prompts cannot embed scoring criteria)
-- Multi-channel support (Slack, Telegram) via Inngest
-- Sub-agents for isolated task delegation
-- TypeScript/Node.js 23+
+## Relevance to Solomon OS
+**HIGH** — Self-improvement architecture directly applicable to Hermes's own self-evolution goals. The prompt versioning + A/B testing + guardrails pattern is exactly what Hermes self-evolution needs.
 
-## Why It Matters
-The agent LEARNED to game its own scoring system — a concrete example of how self-improving agents can optimize for the wrong metric. This is critical insight for building safe self-improvement loops. The guardrail design (keeping generated prompts from leaking scoring criteria) is directly applicable to Hermes self-evolution.
+## Use Case for JCPaid/Hermes
+- Core architecture for Hermes self-improvement loop
+- Evaluation pipeline for skill quality scoring
+- Prompt versioning system for Hermes brain updates
 
-## Solomon OS Fit
-**FORGE** — Self-learning loop architecture maps directly to Hermes self-improvement. Anti-gaming patterns are essential for safe autonomous improvement. MIT license permits direct use. TypeScript stack is different but concepts transfer.
+## Comparison to Existing
+- More production-grade than xmaks82/self-improving-agent (uses Inngest for durability)
+- Guardrails against gaming — sophisticated approach
+- Versioned prompt improvements with attribution
 
-## License
-MIT
+## Verdict
+**FORGE** — Key architecture for Hermes self-evolution. Fork, study, integrate patterns.
 
-## RD Report
-/home/workspace/inngest-self-learning-agent/
+## Action Taken
+Already cloned in workspace.

@@ -1,45 +1,41 @@
-# AgentVerus Scanner — AI Agent Trust Boundary Security
+# RD Report: AgentVerus Scanner
 
-## Quick Summary
-TypeScript security scanner for AI agent skills. Evaluates trust boundaries, detects prompt injections, data exfiltration, and 10 threat categories. Analyzes agent skill files for security and behavioral risks. MIT licensed.
+**Repo:** `agentverus/agentverus-scanner`  
+**URL:** https://github.com/agentverus/agentverus-scanner  
+**License:** TypeScript (license not explicitly stated — verify before fork)  
+**Stars:** Unknown  
+**Date:** 2026-04-26
 
 ## What It Is
-- Open-source security tool (TypeScript/JavaScript) for evaluating AI agent skills
-- Focus: trust boundaries between agent skills and the workspace
-- Targets prompt injection, instruction override, relay attacks
-- Detects workspace/config tampering (AGENTS.md, TOOLS.md, CLAUDE.md)
-- Version 0.7.x with refined severity calibrations
+Open-source security scanner that analyzes AI agent skills for trustworthiness. Detects prompt injections, data exfiltration, and 10 ASST threat categories that traditional AV misses.
 
-## Key Features
-- **Permission/capability contract checks**
-- **Injection detection**: prompt injection, instruction override, relay
-- **Dependency/content analysis**: external URLs, suspicious downloads, obfuscated content
-- **Behavioral risk scoring**: exfiltration, escalation, stealth patterns
-- **Code safety**: dangerous blocks, eval/exec, exfil patterns
-- **Workspace tampering detection**: flags attempts to modify trust files
-- Structured trust reports with risk signals
+## Key Capabilities
+- Scans SKILL.md and variants for permission/capability contract checks
+- Detects injection risks: prompt injection, instruction override, relay
+- Dependency and external-URL risk analysis
+- Behavioral risk: exfiltration, escalation, stealth patterns
+- Code safety: dangerous blocks, eval/exec, exfil patterns
+- Workspace/config tampering detection (AGENTS.md, TOOLS.md, CLAUDE.md, .claude/**)
+- Content analysis: obfuscation, concealment, social engineering
+- Trust reports with risk scoring and capability contracts
 
-## Threat Categories (10+)
-1. Prompt Injection
-2. Tool Poisoning/Shadowing
-3. Toxic Flows
-4. Credential Exposure
-5. Workspace Tampering
-6. External URL Access
-7. Obfuscated Content
-8. Eval/Exec Abuse
-9. Data Exfiltration
-10. Privilege Escalation
+## Relevance to Solomon OS
+**HIGH** — Directly relevant to Hermes skill ecosystem. Can be integrated as a guard-scanner skill to audit incoming skills for trust boundaries before activation. OWASP LLM Top 10 aligned.
 
-## Solomon OS Fit
-- **FORGE** — Critical security primitive for Hermes skill verification
-- Trust boundary analysis should run on every skill before Hermes loads it
-- MIT license permits direct integration into AgentArmor
-- Maps to OWASP LLM Top 10 compliance
+## Use Case for JCPaid/Hermes
+Install as pre-flight skill scanner: any skill added to Hermes gets audited automatically. Closes LLM01 (Prompt Injection), LLM06 (Excessive Agency), LLM07 (System Prompt Leakage) gaps.
 
-## Links
-- Repo: https://github.com/agentverus/agentverus-scanner
-- License: MIT
+## Integration Path
+- Fork and add to Hermes as `agentverus-scanner` skill
+- Run on every skill install/update: `agentverus-scanner scan ./skills/<name>`
+- Wire output into Hermes trust score display
 
-## Recommendation
-**FORGE** — add to AgentArmor security layer. Should be a pre-flight check for skill loading.
+## Comparison to Existing
+- More focused on agent skills than generic SAST tools
+- Covers workspace tampering — unique angle vs firmis-scanner, agentguard
+
+## Verdict
+**SKILL** — High value for security posture. Integrate into Hermes skill marketplace quality gates.
+
+## Action Taken
+Already cloned in workspace. Fork and SKILL entry to be added.

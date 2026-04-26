@@ -118,3 +118,46 @@
 - **Solomon OS fit:** SKILL — Extract protocol design + audit trail concepts for Hermes self-improvement loop. Not MIT for direct code use, but structured evolution framework worth studying.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/evolver-self-evolution-engine.md
+
+## AgentGuard — Real-Time 3-Tier Security Layer (April 26, 2026)
+- **URL:** https://github.com/GoPlusSecurity/agentguard
+- **Fork:** Already forked (`jvanleur2234-glitch/agentguard`)
+- **What it does:** Real-time security layer for AI agents. Layer 1: automatic guard hooks (blocks destructive cmds, prevents writes to .env/.ssh/.credentials, detects exfiltration webhooks). Layer 2: 24 detection rules, auto-scan new skills at session start, static analysis for secrets/backdoors/prompt injection. Layer 3: daily automated patrol with tamper detection, audit log analysis, trust registry. MIT, TypeScript.
+- **Solomon OS fit:** FORGE — Core security layer for Hermes. The 3-tier model (guard→scan→patrol) fills the real-time protection gap. Layer 1 prevents `rm -rf /` type attacks. Layer 2 audits new skills. Layer 3 provides daily posture reports. MIT license.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentguard.md
+
+## NFH Self-Improvement Loop — Adversarial Generator/Evaluator (April 26, 2026)
+- **URL:** https://github.com/theprint/nfh-self-improvement-loop
+- **What it does:** Minimal adversarial framework. Generator proposes changes, separate evaluator judges. Pre-flight checks (timers, fresh branch, state.json, verifier script). One improvement per cycle. Evaluator sees only git diff, not rationale (anti-gaming). MIT, Shell, v1.0.0.
+- **Solomon OS fit:** FORGE — Blueprint for Hermes self-improvement with adversarial safety. Generator/evaluator separation prevents self-approval. Exactly what Hermes self-evolution needs for safe code modification.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/nfh-self-improvement-loop.md
+
+## Inngest Self-Learning Agent — Durable Prompt Evolution (April 26, 2026)
+- **URL:** https://github.com/inngest/inngest-self-learning-agent
+- **What it does:** Durable AI agent with think/act/observe loop. Prompts rewritten and scored after each response. A/B testing of behavioral prompts with weighted selection. Scheduled evaluation pipeline. Guardrails against prompt gaming. Versioned prompt improvements with attribution. Multi-channel (Slack, Telegram). MIT.
+- **Solomon OS fit:** FORGE — Key architecture for Hermes self-evolution. The prompt versioning + A/B testing + guardrails pattern is exactly what Hermes needs for autonomous improvement. More production-grade than simple self-improvers (uses Inngest for durability).
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/inngest-self-learning-agent.md
+
+## Snyk Agent Scan — Enterprise Security Scanner (April 26, 2026)
+- **URL:** https://github.com/snyk/agent-scan
+- **What it does:** Snyk's open-source scanner for AI agents, MCP servers, agent skills. Auto-discovers MCP configs, agent tools, skills. 15+ risk types: prompt injection, malware payloads, credential handling, hardcoded secrets. Supports 15+ agents (Windsurf, Cursor, Claude, Claude Code, Gemini CLI, etc.). Apache 2.0, v0.4.17.
+- **Solomon OS fit:** INTEGRATE — CI/CD security gate for Hermes skill submissions. Snyk brand + CVDB gives enterprise customers confidence. Apache 2.0 — fully open.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/snyk-agent-scan.md
+
+## AgentVerus Scanner — Trust Boundary Scanner for Agent Skills (April 26, 2026)
+- **URL:** https://github.com/agentverus/agentverus-scanner
+- **What it does:** Open-source security scanner for AI agent skills. Detects prompt injections, data exfiltration, 10 ASST threat categories. Scans SKILL.md for permission/capability contracts, injection risks, dependency risks, behavioral risk, code safety, workspace tampering (AGENTS.md, TOOLS.md, CLAUDE.md). Trust reports with risk scoring.
+- **Solomon OS fit:** SKILL — Pre-flight skill scanner for Hermes. OWASP LLM Top 10 aligned. Workspace tampering detection (LLM06 Excessive Agency, LLM07 System Prompt Leakage) fills gaps in Hermes security posture.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentverus-scanner.md
+
+## ClawAgents Py v6 — Lean Production Agent Framework (April 26, 2026)
+- **URL:** https://github.com/x1jiang/clawagents_py
+- **What it does:** Production-ready Python agent framework. Built-in planning, memory, sandboxing, gateway server. Provider-agnostic (OpenAI, Gemini, Anthropic, Azure, Ollama, vLLM). ~2,500 LOC, lean and pluggable. MIT, v6.0.0.
+- **Solomon OS fit:** SKILL — Study sandbox + memory + tools triad for Hermes architecture. ClawLess competitors category. Lean design validates Hermes direction.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/clawagents-py.md

@@ -1,31 +1,38 @@
 # RD Report: NFH Self-Improvement Loop
 
-## Summary
-Minimal adversarial framework enabling an AI agent to modify its own codebase, with a SEPARATE evaluator judging changes. Generator proposes one improvement per cycle; evaluator validates merit without seeing rationale. Pre-flight checks ensure safe cycling. MIT License.
+**Repo:** `theprint/nfh-self-improvement-loop`  
+**URL:** https://github.com/theprint/nfh-self-improvement-loop  
+**License:** MIT  
+**Stars:** v1.0.0 (2026-04-13)  
+**Date:** 2026-04-26
 
-## Relevance to Solomon OS
-- **Score: 8/10** — Elegant split-brain self-improvement pattern directly relevant to Hermes self-evolution
-- Generator/Evaluator separation prevents self-review bias
-- Three improvement categories: New Capabilities, Optimization, Discovery
-- Only one improvement per cycle with automatic rollback
-- 6 stars, MIT License
-
-## License & Fork Status
-- MIT License
-- Not yet forked
+## What It Is
+Minimal adversarial framework enabling an AI agent to modify its own codebase while a separate evaluator judges changes. Prevents self-approval by separating generator and evaluator agents.
 
 ## Key Capabilities
-- Adversarial self-modification: generator proposes, evaluator judges
-- Pre-flight checks: timers, fresh dev branch, state validation
-- Rollback on validation failure
-- No external API calls during cycling
-- Clear governance: what can/cannot be changed autonomously
+- Generator-Evaluator separation (no self-approval)
+- Pre-flight checks: timers, fresh dev branch, state.json, prompts, verifier script
+- Three improvement categories per cycle: New Capabilities, Optimization, Discovery
+- One improvement per cycle rule
+- Anti-gaming: evaluator sees only git diff, not rationale
+- No direct pushes to main, no feedback loop within cycle
+- MIT licensed, Shell-based
 
-## What We'd Use It For
-Hermes self-improvement loop — NFH's split-brain approach is cleaner than Miguel's single-agent self-edit. Could inspire Hermes agent evolution primitives.
+## Relevance to Solomon OS
+**HIGH** — Clean adversarial self-improvement architecture. The generator/evaluator separation is key to safe self-modification. Directly applicable to Hermes self-evolution.
+
+## Use Case for JCPaid/Hermes
+- Architecture for Hermes's own self-improvement with adversarial safety
+- Formalize the "propose vs evaluate" separation
+- Anti-gaming controls for prompt evolution
 
 ## Comparison to Existing
-Miguel (CC BY-NC, non-commercial) is similar but NFH is MIT and uses cleaner generator/evaluator separation.
+- Simpler than inngest-self-learning-agent — more explicit adversarial framing
+- Shell-based, minimal dependencies
+- Good baseline for Hermes self-improvement implementation
 
-## Recommendation
-**FORGE** — Fork and study. The adversarial self-improvement pattern is exactly what Hermes self-evolution needs.
+## Verdict
+**FORGE** — Clean architecture. Fork and use as blueprint for Hermes self-improvement.
+
+## Action Taken
+Already cloned in workspace.

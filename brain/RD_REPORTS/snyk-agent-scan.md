@@ -1,31 +1,37 @@
 # RD Report: Snyk Agent Scan
 
-## Summary
-Python-based security scanner that inventories and analyzes AI agent components (MCP servers, harnesses/tools, agent skills) for prompt injections, malware, and sensitive data handling. Detects 15+ security risk types across MCP servers and skills.
+**Repo:** `snyk/agent-scan`  
+**URL:** https://github.com/snyk/agent-scan  
+**License:** Apache License 2.0  
+**Stars:** Unknown  
+**Date:** 2026-04-26
 
-## Relevance to Solomon OS
-- **Score: 9/10** — Direct Snyk competitor for AI agent security — core to JCPaid trust layer
-- OWASP LLM Top 10 aligned scanning
-- Auto-discovers MCP configurations, agent tools, skills
-- Scans popular agents: Windsurf, Cursor, Claude Desktop/Code, Gemini CLI, OpenClaw, Codex, etc.
-- Apache-2.0, 2249 stars
-
-## License & Fork Status
-- Apache-2.0
-- Already forked to jvanleur2234-glitch/snyk-agent-scan
+## What It Is
+Snyk's open-source security scanner for AI agents, MCP servers, and agent skills. Inventories installed agent components and scans for prompt injections, malware, sensitive data handling, and 15+ risk types.
 
 ## Key Capabilities
-- Auto-discovers MCP configurations and agent skills on host
-- Detects: Prompt Injection, Tool Poisoning, Tool Shadowing, Toxic Flows
-- Malware payload detection for skills
-- Hardcoded secrets / credential handling scanning
-- SARIF output for GitHub Code Scanning integration
+- Auto-discovers MCP configurations, agent tools, and skills
+- Scans 15+ risk types across MCP servers and skills
+- Supports multiple agents: Windsurf, Cursor, Claude, Claude Code, Gemini CLI, Amp, Amazon Q, OpenClaw, Kiro, Codex
+- Cross-platform: macOS, Linux, Windows
+- Issue taxonomy: E001, E004, E006, W007, W008, ToxicFlows, etc.
+- SARIF output for CI/CD integration
 
-## What We'd Use It For
-Hermes/Solomon security scanning pipeline — integrate into AgentArmor Studio skill for OWASP-aligned agent security audits on JCPaid deployments.
+## Relevance to Solomon OS
+**HIGH** — Enterprise-grade security scanning for the entire agent ecosystem. Complements Hermes's own security tooling with Snyk's vulnerability database.
+
+## Use Case for JCPaid/Hermes
+- CI/CD security gate for Hermes skill submissions
+- Periodic security audits of installed skills
+- Supply chain risk detection for MCP servers
 
 ## Comparison to Existing
-ClawLess/AgentArmor covers browser automation; Snyk Agent Scan covers the MCP/server attack surface — complementary.
+- Snyk brand trust and CVDB integration
+- Broader agent support matrix than most competitors
+- Apache 2.0 — fully open
 
-## Recommendation
-**FORGE** — Essential security layer for JCPaid. Fork already exists. Integrate with AgentArmor Studio.
+## Verdict
+**INTEGRATE** — Enterprise security tooling. Fork, document, add to HERMES_CAPABILITIES.
+
+## Action Taken
+Already cloned in workspace.
