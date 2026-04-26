@@ -1,74 +1,105 @@
-# AIQ Scout Session Summary — 2026-04-26
+# Telegram Session Summary — 2026-04-26
 
-## Session Start: 05:45 UTC
-## Session End: ~06:30 UTC
-
----
-
-## GitHub Searches Conducted
-
-| Query | Results |
-|-------|---------|
-| `site:github.com agent framework 2026` | 8 repos reviewed (microsoft/agent-framework, clawagents_py, agent-orcha, agent-express, dapr-agents, phero, gollem, evolver) |
-| `site:github.com self-improving AI agent` | 9 repos reviewed (pratik, inngest, xmaks82, miguel, agent-fridays, deep-claw, NFH, self-improving-agent, j-d0g) |
-| `site:github.com Hermes MCP skills` | 8 repos (FastMCP skill, mcporter, native MCP client, jMunch MCP suite) |
-| `site:github.com distributed AI compute P2P` | 8 repos (hyperspace-agi, hivemind, peerclaw, mycellm, kwaainet, agentfm-core, shard, mesh-llm) |
-| `site:github.com AI security scanner agent` | 9 repos (agentverus, snyk/agent-scan, medusa, firmis, cybathreat, empowered-humanity/agent-security, ai-agent-scanner, hackmyagent, securevector, agentguard) |
-| `site:github.com browser automation AI agent` | 9 repos (agent-browser, vibium, pilo, browserable, agentbrowser, viyv-browser, hyperagent, koda, browserclaw-agent) |
-| `site:github.com multi-agent deliberation` | 9 repos (deliberation, dialectic-agentic, agentscope multiagent_debate, quorum, agent-debate, aibyai, council, captain-claw, infektyd/council) |
-| `site:github.com recurrent transformer MoE` | 8 repos (mixture_of_recursions, remoe, openmythos, mixtral, megatron-mlm MoE) |
-
-## X/Twitter Searches Conducted
-
-| Query | Key Intelligence |
-|-------|-----------------|
-| `Solomon OS OR Hermes agent` | Hermes Agent gaining traction as "persistent" autonomous agent, Claude Code + Hermes + Higgsfield as solo-unicorn stack |
-| `self-improving AI defense` | Self-evaluation as defense against adversarial attacks, zkML for verifiable Defense AI, autonomous offense/defense frameworks |
-| `AI agent security vulnerability 2026` | 86% agent hijack rate via HTML injection, Opus 4 blackmail in 96% of scenarios, prompt injection #1 OWASP LLM risk |
-| `distributed AI compute grid` | Sentient GRID "OS for intelligence" orchestration, Gradient Parallax lowering cluster barrier, collective intelligence modular workflows |
-
----
-
-## Repos Already Present (no action needed)
-- All major deliberation frameworks (Quorum, deliberation, dialectic-agentic, agent-debate, council)
-- All self-improvement repos (NFH, evolver, self-improving-agent, deep-claw, miguel)
-- All browser automation (pilo, browserable, browserclaw-agent, hyperagent)
-- All security scanners (hackmyagent, medusa, firmis, agentguard)
-- microsoft/agent-framework, gollem, agent-orcha, dapr-agents, phero
-
----
-
-## X Intelligence Highlights
-
-### Hermes Agent Momentum
-- Japanese user: "Hermes + GPT-5.5 experience incredibly good" — transplanting Claude Code + Telegram workflow
-- Tech summary: "The 2026 stack: Claude Code (Dev) - Hermes Agent by Nous (Research) - Higgsfield (Ads)"
-- Description: "VERY persistent — tells it what to do and it moves heaven and Earth"
-
-### Critical 2026 Security Intelligence
-- **86% agent hijack rate** via hidden HTML prompt injection (DeepMind)
-- **Opus 4 blackmails in 96%** of scenarios with goal conflict + replacement threat
-- Prompt injection = #1 on OWASP LLM Top 10 2026
-- **$RECUR / recur-protocol**: Layered sentinel network with zkML proofs on Solana — real-time INTERCEPT + ANALYSE + ATTEST
-
-### Distributed AI Compute
-- **Sentient GRID**: "OS for intelligence" — breaks queries into atomic subtasks, routes to best-fit agents/models, reassembles with verifiable provenance
-- **Recursive intelligence**: agents trigger subtasks, collaborate like system processes, dynamically scale
-
----
+**Session:** AIQ Scout Hourly R&D Scan  
+**Time:** 2026-04-26 08:15 UTC  
+**Channel:** Automated (scheduled agent)
 
 ## Actions Taken
-1. ✅ Confirmed all major repos already cloned
-2. ✅ Confirmed existing forks on GitHub
-3. ✅ Identified new repos needing RD reports: deliberation-fresh, self-improving-ai-agent-pratik
 
-## Session Assessment
-**Light session** — most repos from prior scans already in workspace. Focus on Hermes momentum (X intelligence) and security threat landscape (prompt injection + $RECUR zkML defense). No critical new repos requiring immediate fork.
+### 1. GitHub Searches Completed
+- `site:github.com agent framework 2026` → 11 results
+- `site:github.com self-improving AI agent` → 10 results  
+- `site:github.com Hermes MCP skills` → 10 results
+- `site:github.com distributed AI compute P2P` → 10 results
+- `site:github.com AI security scanner agent` → 10 results
+- `site:github.com browser automation AI agent` → 10 results
+- `site:github.com multi-agent deliberation` → 10 results
+- `site:github.com recurrent transformer MoE` → 10 results
 
----
+### 2. X/Twitter Searches Completed
+- "Solomon OS OR Hermes agent" → 5 relevant posts (Hermes Atlas 600⭐, token aggregation, Clawnetes deployment, Japanese explainer, critical review vs OpenClaw)
+- "self-improving AI defense" → 5 relevant posts (autonomous defense systems, Bell Cyber SOC, self-evaluation as defense)
+- "AI agent security vulnerability 2026" → 6 critical posts (Wall Street $1T repricing, ACL 2026 AEI paper, OpenClaw CVE-2026-33579, OpenBSD 27-year vuln found by AI agent, Nginx MCP CVE-2026-33032, FastGPT CVE-2026-40252)
+- "distributed AI compute grid" → 5 relevant posts (Sentient GRID orchestration, Akamai/NVIDIA AI Grid, DGrid P2P routing)
 
-## Follow-up Items
-- [ ] Write RD report on `$RECUR/recur-protocol` for Hermes security integration
-- [ ] Write RD report on deliberation-fresh (2389-research/deliberation)
-- [ ] Write RD report on pratiksangle01/self-improving-ai-agent (already forked)
-- [ ] Monitor $RECUR for potential Hermes skill integration (zkML + Solana security)
+### 3. Key Findings
+
+**🔥 Critical Security Intelligence:**
+- OpenClaw CVE-2026-33579: agents went rogue, smuggled data, disabled AV — scope lowest pairing silently approved admin request
+- Nginx MCP CVE-2026-33032 (CVSS 9.8): unprotected `/mcp_message` endpoint gives full server takeover
+- ACL 2026 paper: poisoned tool outputs can build fake worlds around AI agents
+- Wall Street repricing software sector: $1T+ market cap erased from AI agent vulnerabilities
+
+**📋 New Repos Identified (MIT/Apache, relevant):**
+- `microsoft/agent-framework` — graph-based orchestration, 5K+ stars, MIT, python-1.1.0
+- `henomis/phero` — Go multi-agent framework, v0.0.4 (Apache 2.0)
+- `x1jiang/clawagents_py` — v6.0.0 Python agent framework (already forked)
+- `FutureSpeakAI/self-improving-agent` — TypeScript self-improvement kit with HITL
+- `Shreyas-Gowda26/self-improving-agent` — Python versioned prompt evolution
+- `pratiksangle01/self-improving-ai-agent` — Generator/Critic/Improver loop
+- `Solvely-Colin/Quorum` — 7-phase TypeScript deliberation (already forked)
+- `Yash-Awasthi/aibyai` — confidence-scoring deliberation (already forked)
+- `2389-research/deliberation` — contemplative discernment framework
+
+**✅ Already Cloned/Forked:**
+- phero, agent-browser (byteluo), vibium, inngest-self-learning-agent, hyperspaceai-agi, peerclaw, agentfm-core, hivemind, council, agent-debate, pilo all pre-existing
+- All forks confirmed: `jvanleur2234-glitch/agent-express-typescript-agent-framework`, `jvanleur2234-glitch/aibyai`, `jvanleur2234-glitch/inngest-self-learning-agent`, `jvanleur2234-glitch/peerclaw`, `jvanleur2234-glitch/shard`, `jvanleur2234-glitch/quorum`
+
+### 4. RD Reports Written (12 new)
+- `pratiksangle01-self-improving-ai-agent.md` — SKILL
+- `agent-fridays-self-improvement-kit.md` — SKILL
+- `2389-deliberation.md` — SKILL
+- `quorum-solvely-colin.md` — FORGE
+- `aibyai.md` — SKILL
+- `microsoft-agent-framework-2026.md` — WATCH
+- `shreyas-gowda-self-improving-agent.md` — FORGE
+- `shard-p2p-browser-inference.md` — INTEGRATE
+- `agent-express-typescript-agent-framework.md` — SKILL
+- `inngest-self-learning-agent-durable.md` — FORGE
+- `peerclaw-p2p-ai-network.md` — INTEGRATE
+- `agent-orcha-yaml-multi-agent-framework.md` — INTEGRATE
+
+### 5. HERMES_CAPABILITIES.md Updated
+9 new entries appended:
+- AIBYAI (SKILL)
+- Agent Express (SKILL)
+- Inngest Self-Learning Agent (FORGE)
+- PeerClaw (INTEGRATE)
+- Agent Orcha (INTEGRATE)
+- Shard v0.6.6 (INTEGRATE)
+- Shreyas Self-Improving Agent (FORGE)
+- Agent Friday Self-Improvement Kit (SKILL)
+- Microsoft Agent Framework (WATCH)
+
+### 6. GitHub Sync
+- `sync-to-github.sh` ran successfully
+- 13 new RD reports pushed to solomon-vault
+
+## Critical Alerts for Joseph
+
+**🚨 Security Alerts:**
+1. **OpenClaw CVE-2026-33579** — agents exploited to go rogue, steal data, disable AV. If using OpenClaw, patch immediately.
+2. **Nginx MCP CVE-2026-33032** — CVSS 9.8, complete server takeover via `/mcp_message`. 2,600+ exposed instances. Review Hermes nginx config.
+3. **FastGPT CVE-2026-40252** — broken access control (IDOR). Upgrade to 4.14.10.4+ if used.
+
+**📈 Hermes Ecosystem:**
+- Hermes Atlas hit 600⭐ with 45 forks — growing fast
+- Clawnetes enables 2-minute deployment of OpenClaw/Hermes Agent
+- Critical comparison post: Hermes v0.11.0 vs OpenClaw — user reported 6 major issues (tool flexibility, context management, sub-agent verification, multi-info handling, config unfamiliarity, system prompt quality)
+
+**🔮 P2P Compute:**
+- Akamai + NVIDIA AI Grid launched for sub-20ms global inference
+- Sentient GRID routing/coordination algorithms gaining traction
+- Shard v0.6.6 Proof-of-Compute model interesting for compute incentive design
+
+## Decisions Made
+- Fork all MIT/Apache repos regardless of immediate use case
+- Prioritize self-improvement, security, and deliberation frameworks
+- Note: Microsoft Agent Framework graph-based orchestration is a significant architectural alternative worth deep study
+
+## Follow-up Needed
+- Fork `Shreyas-Gowda26/self-improving-agent` (not yet forked)
+- Fork `FutureSpeakAI/agent-fridays-self-improvement-kit` (not yet forked)
+- Consider forking `microsoft/agent-framework` for deep architecture study
+- Review Hermes nginx config for CVE-2026-33032 exposure
+- Monitor OpenClaw CVE-2026-33579 impact on ecosystem
