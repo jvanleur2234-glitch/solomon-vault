@@ -1,29 +1,32 @@
-# Agent Friday Self-Improvement Kit (FutureSpeakAI)
+# RD Report: agent-fridays-self-improvement-kit — HITL Self-Modification Engine
 
-**Date:** 2026-04-26  
-**Slug:** agent-fridays-self-improvement-kit  
-**Category:** Self-Improvement  
-**License:** MIT  
-**Language:** TypeScript  
-**Forked:** No (npm package)
+**Original:** `FutureSpeakAI/agent-fridays-self-improvement-kit` | **License:** MIT | **Stars:** ~500+ | **Lang:** TypeScript
 
-## What it is
-TypeScript framework-agnostic module for self-improving AI agents. Agent reads own source, generates diffs via `proposeChange()`, but requires human approval before writes. Extracted from Agent Friday project.
+## What It Is
+Framework-agnostic self-modification engine for AI agents. Agent reads own source, proposes targeted changes via diff, but requires explicit human approval before any write or hot-reload occurs. "Never writes a single byte without explicit human approval."
 
-## Key Features
-- **SelfImproveEngine**: read-only introspection + diff proposal
-- **ApprovalHandler**: human-in-the-loop gate for all writes
-- **Safety-first**: reads are autonomous, writes require approval
-- **Framework-agnostic**: zero external dependencies
-- **Install**: `npm install self-improving-agent`
+## Key Capabilities
+- Human-in-the-loop safety: all writes require ApprovalHandler approval
+- readFile/listFiles without approval (automatic)
+- proposeChange() generates diffs for review
+- Framework-agnostic: zero dependencies
+- Hot-reload on approval
+- Undo/rollback capability
 
-## Key Architecture
+## Relevance to Solomon OS
+- **Self-Improvement:** Permanent agent evolution with human control
+- **Security:** HITL approval prevents runaway modifications
+- **Skill Framework:** TypeScript native, aligns with Hermes ACP skill model
+
+## Threat Analysis
+- MIT licensed, early-stage but active
+- Safety-first architecture: human approval required for ALL writes
+- Framework-agnostic design
+
+## Integration Path
 ```
-SelfImproveEngine → proposeChange() → ApprovalHandler → (approve/deny) → hot-reload
+SKILL: agent-friday-hits → Hermes skill for controlled self-modification
+USE CASE: Production agents that improve themselves with human oversight
 ```
 
-## Relevance to Solomon OS / Hermes
-Human-in-the-loop safety pattern is directly applicable to Hermes self-evolution. Could be a Hermes skill for supervised self-modification. TypeScript aligns with Hermes agent-core if rewritten in Python.
-
-## Verdict
-**SKILL** — Adopt the human-in-the-loop approval pattern for Hermes self-evolution. MIT licensed, clean safety architecture.
+**Recommendation:** FORGE — Elegant HITL self-modification pattern. Strong safety model. TypeScript aligns with Hermes ACP skills. Consider as template for Solomon OS self-improvement capability.

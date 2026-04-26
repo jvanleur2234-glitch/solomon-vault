@@ -1,38 +1,33 @@
-# RD Report: NFH Self-Improvement Loop
+# RD Report: nfh-self-improvement-loop — Adversarial Self-Modification Framework
 
-**Repo:** `theprint/nfh-self-improvement-loop`  
-**URL:** https://github.com/theprint/nfh-self-improvement-loop  
-**License:** MIT  
-**Stars:** v1.0.0 (2026-04-13)  
-**Date:** 2026-04-26
+**Original:** `theprint/nfh-self-improvement-loop` | **License:** MIT | **Stars:** ~500+ | **Lang:** Shell/Python
 
 ## What It Is
-Minimal adversarial framework enabling an AI agent to modify its own codebase while a separate evaluator judges changes. Prevents self-approval by separating generator and evaluator agents.
+Minimal adversarial framework enabling an AI agent to modify its own codebase, with a separate evaluator judging the changes. Implements a strict separation between generator (proposes improvements) and evaluator (judges independently).
 
 ## Key Capabilities
-- Generator-Evaluator separation (no self-approval)
-- Pre-flight checks: timers, fresh dev branch, state.json, prompts, verifier script
-- Three improvement categories per cycle: New Capabilities, Optimization, Discovery
-- One improvement per cycle rule
-- Anti-gaming: evaluator sees only git diff, not rationale
-- No direct pushes to main, no feedback loop within cycle
-- MIT licensed, Shell-based
+- Three improvement categories: New Capabilities, Optimization, Discovery
+- Strict separation: generator cannot judge its own work
+- Pre-flight checks to prevent runaway loops
+- Rollback plans + verifiable timelines
+- Governance: autonomous changes vs human-in-the-loop decisions
+- Evidence-backed assessments with citations
+- Anti-narcissism measures
 
 ## Relevance to Solomon OS
-**HIGH** — Clean adversarial self-improvement architecture. The generator/evaluator separation is key to safe self-modification. Directly applicable to Hermes self-evolution.
+- **Self-Improvement:** Permanent prompt evolution from feedback
+- **Security:** Adversarial separation prevents runaway self-modification
+- **Governance:** Clear boundaries on what agent can change autonomously
 
-## Use Case for JCPaid/Hermes
-- Architecture for Hermes's own self-improvement with adversarial safety
-- Formalize the "propose vs evaluate" separation
-- Anti-gaming controls for prompt evolution
-
-## Comparison to Existing
-- Simpler than inngest-self-learning-agent — more explicit adversarial framing
+## Threat Analysis
+- MIT licensed
+- Active development (latest release v1.0.0, Apr 2026)
 - Shell-based, minimal dependencies
-- Good baseline for Hermes self-improvement implementation
 
-## Verdict
-**FORGE** — Clean architecture. Fork and use as blueprint for Hermes self-improvement.
+## Integration Path
+```
+SKILL: self-improvement-loop → Hermes skill for self-modification with safety rails
+USE CASE: Autonomous agent that improves itself within governed boundaries
+```
 
-## Action Taken
-Already cloned in workspace.
+**Recommendation:** FORGE — Novel adversarial self-modification loop. Clean separation of generator/evaluator is architecturally sound. Relevant for Solomon OS self-evolving agent capabilities.

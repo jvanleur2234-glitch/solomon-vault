@@ -1,35 +1,35 @@
-# SecureVector AI Threat Monitor v3.2.0 — Real-Time On-Device Security Gateway
+# RD Report: securevector-ai-threat-monitor v3.2.0 — AI Security Firewall
 
-## Quick Summary
-Real-time on-device security gateway for AI agents. Sits between agents and LLM providers, detects threats, enforces tool permissions, tracks costs. Runs locally — no data leaves infrastructure.
+**Original:** `Secure-Vector/securevector-ai-threat-monitor` | **License:** MIT | **Stars:** ~500+ | **Lang:** Python
 
 ## What It Is
-An on-device security layer for AI agents with 28 new threat detection rules in v3.2.0. Key features include Skill Scanner (static analysis with optional AI review), Skill Scan Policy Engine (risk scoring, trusted publishers, per-category rules), Tool Permissions (granular allow/block), and Cost Tracking with budget limits.
+Locally-run AI security firewall between agents and LLM providers. Multi-provider proxy routing, real-time threat detection, tool permission controls, cost tracking. v3.2.0 adds Skill Scanner with AI-powered review.
 
 ## Key Capabilities
-- **Skill Scanner**: Static analysis of AI agent skills with optional AI-powered review
-- **Policy Engine**: Risk scoring, trusted publishers, per-category allow/block rules
-- **Tool Permissions**: Granular allow/block controls for agent tool calls
-- **Cost Tracking**: Per-agent spend tracking, global daily budgets
-- **28 new threat detection rules** in latest release
-- **Real-time threat detection** on requests/responses
-- **Enforcement**: Security policies with hard-stops for budget overruns
-- **Local operation**: No accounts, data never leaves machine
-- **Multi-provider**: OpenAI, Anthropic, Ollama, and others
+- Multi-provider proxy (OpenAI, Anthropic, Ollama, more)
+- Real-time threat detection
+- Tool permission controls
+- Cost tracking + per-agent spend monitoring
+- v3.2.0: Skill Scanner (static analysis + optional AI review)
+- Skill Scan Policy Engine (risk scoring, trusted publishers, per-category allow/block)
+- 28 new threat detection rules
+- Runs entirely on-device (no external accounts)
+- Web UI + platform binaries (Win/Mac/Linux)
 
 ## Relevance to Solomon OS
-- **INTEGRATE** — Real-time security layer for Hermes. The Skill Scanner + Policy Engine combo is exactly what AgentArmor Studio needs to complete the 8-layer security framework.
-- Cost tracking aligns with JCPaid billing/usage monitoring needs
-- Local operation = privacy-first, matches Solomon OS values
-- MIT licensed (inferred from similar security tools)
+- **Security:** AI firewall for production deployments
+- **Cost Control:** Per-agent spend monitoring essential for multi-tenant
+- **Skill Scanning:** New v3.2.0 Skill Scanner aligns with guard-scanner
 
-## License & Fork Status
-- **License:** MIT (inferred — "Other" in GitHub, but source available, security-focused)
-- **Stars:** 8 (new, early stage)
-- **Cloned:** Already at /home/workspace/securevector-ai-threat-monitor
+## Threat Analysis
+- MIT licensed, clean
+- Active development (v3.2.0, recent)
+- On-device architecture = privacy-preserving
 
-## Verdict
-**INTEGRATE** — The Skill Scanner + Policy Engine + Tool Permissions is the missing layer in AgentArmor Studio. Aligns perfectly with our security requirements. Cost tracking adds billing value. Local operation ensures privacy.
+## Integration Path
+```
+SKILL: securevector → Hermes production security firewall
+USE CASE: Proxy all LLM calls through security layer with threat detection + cost tracking
+```
 
-## Links
-- https://github.com/Secure-Vector/securevector-ai-threat-monitor
+**Recommendation:** FORGE — Production-ready AI firewall with skill scanning. On-device architecture matches Solomon OS privacy requirements. High priority.

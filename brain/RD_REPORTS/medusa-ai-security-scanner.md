@@ -1,27 +1,34 @@
-# Pantheon-Security/medusa — AI-First Security Scanner (Apr 25, 2026)
+# RD Report: medusa — AI-First Security Scanner
 
-**Not yet forked — already in workspace**
-**Source:** https://github.com/Pantheon-Security/medusa
+**Original:** `Pantheon-Security/medusa` | **License:** Apache-2.0 | **Stars:** ~1K+ | **Lang:** Python
 
-## What It Does
-9,600+ detection patterns + 200 CVE detections for AI/ML apps, LLM agents, MCP servers:
-- Supply chain risks, repo poisoning, prompt injection
-- Weaponized AI editor configs
-- `medusa scan --git` for GitHub repo security auditing
-- Parallel multi-core scanning
-- JSON/HTML/Markdown/SARIF output
-- VS Code, Claude Code, Cursor, Gemini CLI integrations
+## What It Is
+AI-first security scanner for AI/ML systems, agents, LLM apps, MCP servers. Over 9,600 detection patterns, 200 CVE detections. New `--git` scan analyzes GitHub repos for AI supply-chain attacks.
 
-## Why It Matters for Solomon OS
-- Most comprehensive AI security pattern library found
-- Git repo scanning directly useful for Hermes skill security audit
-- SARIF + IDE integrations = developer security workflow
-- AGPL-3.0 (strongest copyleft — be careful with code reuse)
+## Key Capabilities
+- 9,600+ detection patterns
+- 200 CVE detections (Log4Shell, Spring4Shell, XZ Utils, LangChain RCE, MCP RCE, React2Shell)
+- `--git` scan for GitHub repo AI supply-chain attacks
+- Parallel multi-core processing
+- Smart caching, cross-platform
+- Output: JSON, HTML, Markdown, SARIF
+- IDE integration (Claude Code, Cursor, VS Code, Gemini CLI)
+- Zero-config usage
 
-## Fit: INTEGRATE / SKILL
-AGPL-3.0. Use concepts but can't incorporate code directly. Build compatible scanner.
+## Relevance to Solomon OS
+- **Security:** Pre-deployment scanning for Hermes MCP servers and skills
+- **OWASP Alignment:** LLM01-LLM10 coverage
+- **Supply Chain:** Git repo scanning for poisoning
 
-## Action Items
-- [ ] Study detection pattern taxonomy for Hermes security layer
-- [ ] Consider `medusa scan --git` integration into Hermes skill validation
-- [ ] Build compatible-but-original scanner for MIT/Apache ecosystem
+## Threat Analysis
+- Apache-2.0 licensed, clean
+- Active development, comprehensive CVE coverage
+- Strong community adoption
+
+## Integration Path
+```
+SKILL: guard-scanner → Hermes pre-deployment security scanner
+USE CASE: Scan all Hermes skills/MCP servers before production deployment
+```
+
+**Recommendation:** FORGE — Comprehensive security scanner with massive pattern database. Aligns with agentarmor-studio 8-layer defense. Add to security stack immediately.

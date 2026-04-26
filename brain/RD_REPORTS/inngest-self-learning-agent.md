@@ -1,28 +1,34 @@
-# inngest-self-learning-agent — Durable Self-Learning AI Agent
+# RD Report: inngest-self-learning-agent — Durable Self-Learning Agent
 
-## SLUG: inngest-self-learning-agent
-## Date: 2026-04-26
-## Tags: #self-improvement #durable #prompt-evolution #scoring #guardrails
-## Status: FORGE
-
----
+**Original:** `inngest/inngest-self-learning-agent` | **License:** MIT | **Stars:** ~500+ | **Lang:** TypeScript
 
 ## What It Is
-inngest/inngest-self-learning-agent is a durable AI agent built with Inngest and pi-ai that experiments with its own prompts over time. Runs think/act/observe loop, scores responses, and uses scheduled evaluation jobs to promote better behavioral prompts.
+Durable self-learning AI agent built with Inngest + pi-ai. Think/act/observe loop, scores responses (relevance, completeness, tool efficiency, tone), automated evaluation pipeline rewrites and promotes better prompts.
 
 ## Key Capabilities
-- **Self-improving prompts**: rewrites/optimizes own prompts based on scores
-- **Score-driven evolution**: relevance, completeness, tool efficiency, tone
-- **A/B testing**: weighted randomized prompt variants
-- **Evaluation pipeline**: scheduled processes to rewrite underperforming prompts
-- **Guardrails**: prevents prompt embedding scoring criteria or exploiting tests
-- **Multi-channel**: Slack, Telegram, and other channels
-- **MIT License** — Node.js
+- Self-improving prompts with versioning + A/B testing
+- Post-response scoring + attribution to prompt versions
+- Guardrails to prevent gaming scoring system
+- Evaluation pipeline: rewrites underperforming prompts, promotes stronger ones
+- Blocking mechanisms to avoid prompt optimization for the test itself
+- Sub-agents + multi-channel (Slack, Telegram, etc.)
+- Durable, async workflow with retries + singleton concurrency
+- Local processing via Inngest-driven orchestration
 
-## Relevance to Solomon OS / Hermes
-- Durable execution model aligns with Hermes session persistence
-- Self-improving prompts directly applicable to Hermes autonomous improvement
-- Guardrails concept critical for safe self-modification
+## Relevance to Solomon OS
+- **Self-Improvement:** Automated prompt evolution from feedback
+- **Scoring:** Multi-dimensional quality scoring for agent outputs
+- **A/B Testing:** Prompt version experimentation
 
-## Recommendation
-**FORGE** — fork for Hermes self-improvement engine, study prompt versioning and scoring system.
+## Threat Analysis
+- MIT licensed, Inngest (credible vendor)
+- TypeScript, active development
+- Durable execution pattern = production-grade
+
+## Integration Path
+```
+SKILL: self-learning-agent → Hermes self-improvement with scoring + evaluation
+USE CASE: Agents that learn from every interaction and improve prompts automatically
+```
+
+**Recommendation:** FORGE — Self-learning pattern with scoring + evaluation. Inngest provides durable execution. Aligns with Evolver patterns. Add to self-evolution stack.
