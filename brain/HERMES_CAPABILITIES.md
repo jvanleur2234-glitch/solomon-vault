@@ -304,3 +304,57 @@
 - **Solomon OS fit:** SKILL — Study P2P compute distribution. DiLoCo pattern for distributed Hermes training. Blockchain microtransaction model for AgentFM-style compute marketplace.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hyperspace-agi-distributed-p2p.md
+
+## nanobrowser — AI-Powered Chrome Extension Automation (April 26, 2026)
+- **URL:** https://github.com/nanobrowser/nanobrowser
+- **What it does:** Chrome extension for AI agent browser automation with authenticated sessions. Multi-agent, multi-LLM, MCP server. 12,781 stars. Apache 2.0.
+- **Solomon OS fit:** INTEGRATE — Browser automation core to Solomon Browser. Study authenticated-session + multi-agent patterns.
+- **Status:** INTEGRATE
+
+## microsoft/agent-framework — Multi-Language Agent Framework (April 26, 2026)
+- **URL:** https://github.com/microsoft/agent-framework
+- **What it does:** Graph-based multi-language (Python/.NET) agent framework. DevUI, AF Labs, streaming, session management. 9,700+ stars. MIT.
+- **Solomon OS fit:** SKILL — Study graph orchestration + DevUI for Hermes management. Multi-language parity for cross-stack.
+- **Status:** SKILL
+
+## phero — Go Multi-Agent Framework with A2A Protocol (April 26, 2026)
+- **URL:** https://github.com/henomis/phero
+- **What it does:** Go framework with A2A protocol, LLM abstraction, RAG, skills via SKILL.md, MCP, tool guardrails. Apache 2.0.
+- **Solomon OS fit:** SKILL — A2A protocol for Solomon Bus. SKILL.md ecosystem parallels Hermes skills.
+- **Status:** SKILL
+
+## dapr-agents — Durable Workflows for AI Agents (April 26, 2026)
+- **URL:** https://github.com/dapr/dapr-agents
+- **What it does:** Python framework with durable execution, multi-agent coordination, Kubernetes-native. 662 stars. Apache 2.0.
+- **Solomon OS fit:** SKILL — Durable execution pattern for Hermes mission-critical workflows. Dapr sidecar pattern.
+- **Status:** SKILL
+
+## agentverus-scanner — Trust Boundary Security Scanner (April 26, 2026)
+- **URL:** https://github.com/agentverus/agentverus-scanner
+- **What it does:** Detects prompt injection, data exfiltration, 10 ASST threat categories. Trust reports for skills. MIT.
+- **Solomon OS fit:** SKILL — Security scanning for Hermes skills. Trust-boundary approach for AgentArmor Studio.
+- **Status:** SKILL
+
+## nfh-self-improvement-loop — Generator/Evaluator Self-Improvement (April 26, 2026)
+- **URL:** https://github.com/theprint/nfh-self-improvement-loop
+- **What it does:** Adversarial self-improvement: generator proposes, evaluator judges. Strict separation, pre-flight checks. MIT.
+- **Solomon OS fit:** SKILL — Generator/evaluator pattern for safe Hermes autonomous improvement.
+- **Status:** SKILL
+
+## HyperAgent — Playwright Natural Language Browser Automation (April 26, 2026)
+- **URL:** https://github.com/hyperbrowserai/hyperagent
+- **What it does:** page.ai(), page.extract(), executeTask(). Action caching, stealth anti-bot, MCP client. ClawLess competitor.
+- **Solomon OS fit:** SKILL — Study for Solomon Browser. Action caching for LLM cost reduction.
+- **Status:** SKILL
+
+## Hyrm — Persistent Orchestrator Multi-Agent System (April 26, 2026)
+- **URL:** https://github.com/awaaate/Hyrm
+- **What it does:** Persistent orchestrator + Code/Memory/Analysis workers. Closed-loop self-improvement, watchdog. NOASSERTION license.
+- **Solomon OS fit:** SKILL — Study persistent orchestrator pattern. License is ambiguous — do not commercialize without legal review.
+- **Status:** SKILL (license caution)
+
+## Recursive-Self-Improvement-AI-Agent — Gödel-Inspired Self-Modification (April 26, 2026)
+- **URL:** https://github.com/ai-in-pm/Recursive-Self-Improvement-AI-Agent
+- **What it does:** Runtime code modification, recursive optimization, adaptive environment. Multi-API (OpenAI, Anthropic, etc). MIT.
+- **Solomon OS fit:** SKILL — Runtime self-modification patterns for Hermes evolution loop.
+- **Status:** SKILL
