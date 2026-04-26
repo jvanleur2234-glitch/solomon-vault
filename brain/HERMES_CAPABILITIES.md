@@ -34,3 +34,16 @@
 - **Solomon OS fit:** SKILL — Study looped transformer + MoE architecture for Hermes reasoning engine enhancement. Kye Gomez = key ecosystem player.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/open-mythos-recurrent-depth-transformer.md
+## Hermes Vault v0.4.0 — Tony Simons — AI Agent Observability Layer (April 25, 2026)
+- **URL:** https://github.com/asimons81/hermes-vault
+- **What it does:** Local-first credential broker for AI agents. Gives agents "a pair of glasses" for observability — credential health tracking (stale/expiring keys), cryptographic audit logs (SHA-256 hash-chained), secrets isolation (1Password-style, secrets never leave vault), verification reports.
+- **Key features:**
+  - Credential health tracking — proactive alerting before keys expire
+  - Audit logs + verification reports — full visibility into agent access
+  - Secrets never leave vault — agent gets placeholder/proxy, never raw secret
+  - Cryptographic audit trail — tamper-evident, append-only, queryable
+- **Ecosystem context:** Hermes Agent (NousResearch) has telemetry (#6642), session tracing (#6741), PII redaction, and Hermes Katana (7-layer security: taint tracking, flow analysis, input scanner 30+ patterns, policy engine, SHA-256 audit trail)
+- **Solomon OS fit:** FORGE — directly applicable. Solomon OS runs on Hermes. Credential health alone is worth it — proactive alerting before keys break is a genuine enterprise selling point. Audit logs solve compliance requirements for regulated industries.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hermes-vault-v0.4.0.md
+
