@@ -358,3 +358,92 @@
 - **What it does:** Runtime code modification, recursive optimization, adaptive environment. Multi-API (OpenAI, Anthropic, etc). MIT.
 - **Solomon OS fit:** SKILL — Runtime self-modification patterns for Hermes evolution loop.
 - **Status:** SKILL
+
+## Pilo — Mozilla's AI Browser Automation (April 26, 2026)
+- **URL:** https://github.com/mozilla/pilo
+- **What it does:** Mozilla Tabstack's AI agent infrastructure for natural-language browser automation. Works with Playwright, supports cloud AI (OpenAI, OpenRouter) and local providers. Guardrails to constrain actions. MPL 2.0, v0.18.0.
+- **Solomon OS fit:** SKILL — Mozilla brand adds credibility. Alternative to Browserable/HyperAgent for Solomon Browser. Guardrails approach aligns with AgentArmor Studio.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/pilo-mozilla-ai-browser.md
+
+## ClawAgents_py — Lean Python Agent Framework ~2500 LOC (April 26, 2026)
+- **URL:** https://github.com/x1jiang/clawagents_py
+- **What it does:** Production-ready Python agentic framework with planning, memory, sandboxing, gateway server. Multi-provider (OpenAI, Gemini, Claude). MIT, v6.6.0.
+- **Solomon OS fit:** SKILL — Lightweight alternative to OpenClaw. Study for Hermes skill patterns. ACP adapter bridges to Zed Agent Client Protocol.
+- **Status:** SKILL
+
+## Phero — Go Agent Framework with A2A + MCP (April 26, 2026)
+- **URL:** https://github.com/henomis/phero
+- **Fork:** Already forked (`jvanleur2234-glitch/phero`)
+- **What it does:** Modern Go multi-agent framework with A2A protocol, MCP integration, role-based handoffs, vector store support. Apache 2.0, v0.0.4.
+- **Solomon OS fit:** SKILL — Study A2A protocol for Solomon Bus v2 inter-agent communication spec. Go aligns with RustDesk/Thoth stack.
+- **Status:** SKILL
+
+## Gollem — Compile-Time Safe Go Agent Framework (April 26, 2026)
+- **URL:** https://github.com/fugue-labs/gollem
+- **Fork:** Already forked (`jvanleur2234-glitch/gollem-fresh`)
+- **What it does:** Go agent framework with type-safe Generic Agent[T], typed FuncTool[P], 5+ LLM providers, guardrails, OpenTelemetry tracing. MIT, ~500 stars.
+- **Solomon OS fit:** SKILL — Strong compile-time guarantees prevent runtime prompt injection. High-performance agent nodes for distributed compute mesh.
+- **Status:** SKILL
+
+## Agent Express — TypeScript Middleware Agent Framework (April 26, 2026)
+- **URL:** https://github.com/agent-express-ai/agent-express
+- **Fork:** Already forked (`jvanleur2234-glitch/agent-express-new`)
+- **What it does:** Express-style middleware-based TypeScript agent framework with 5 hooks (agent/session/turn/model/tool), built-in guards (budgets, validation, timeouts), 12+ LLM providers, MCP integration. MIT, ~600 stars.
+- **Solomon OS fit:** SKILL — TypeScript native aligns with Hermes ACP skill model. OpenTelemetry for audit trails.
+- **Status:** SKILL
+
+## Shard — Browser-Powered P2P Distributed AI Inference (April 26, 2026)
+- **URL:** https://github.com/TrentPierce/Shard
+- **Fork:** Already forked (`jvanleur2234-glitch/Shard`)
+- **What it does:** Browser + desktop P2P inference network using WebGPU scouts and BitNet verifiers. 1.58-bit ternary quantization, PoC receipts, OAI-compatible API. FSL-1.1-ALv2, v0.6.1.
+- **Solomon OS fit:** SKILL — P2P compute for Solomon Air. Zero-cost community inference endpoints.
+- **Status:** SKILL
+
+## hypmerspaceai/agi — Distributed P2P AGI Training (April 26, 2026)
+- **URL:** https://github.com/hyperspaceai/agi
+- **What it does:** P2P distributed AGI system. Pods (private AI clusters), DiLoCo distributed training with BitTorrent weight sharing, 195x compression on LoRA deltas. A1 blockchain for agent micropayments. MIT.
+- **Solomon OS fit:** SKILL — Study P2P training + token economy for AgentFM/Hermes P2P compute layer.
+- **Status:** SKILL
+
+## Hivemind — Decentralized P2P Deep Learning (April 26, 2026)
+- **URL:** https://github.com/DandinPower/hivemind
+- **What it does:** PyTorch-based P2P training without central master. DHT peer discovery, fault-tolerant backprop, Decentralized MoE. Apache 2.0.
+- **Solomon OS fit:** SKILL — Volunteer distributed training aligns with decentralized compute vision.
+- **Status:** SKILL
+
+## Medusa — AI Security Scanner 9600+ Patterns (April 26, 2026)
+- **URL:** https://github.com/Pantheon-Security/medusa
+- **What it does:** AI-first security scanner for AI/ML apps, agents, MCP servers, RAG pipelines. 9,600+ AI security patterns, 200 CVE detections. --git scans GitHub repos. AGPL 3.0, v2026.5.5.
+- **Solomon OS fit:** SKILL — Supply-chain scanning for Hermes skills. Alternative to agentverus-scanner.
+- **Status:** SKILL
+
+## Firmis-Scanner — AI Agent Runtime Security (April 26, 2026)
+- **URL:** https://github.com/Firmislabs/firmis-scanner
+- **What it does:** Security scanner for Claude Skills, MCP servers, Codex plugins, Cursor. 268 detection rules, zero-config, auto-detects LangChain/CrewAI/AutoGen/MetaGPT. MIT.
+- **Solomon OS fit:** SKILL — Runtime behavior analysis for agent skills. Integrates via MCP config.
+- **Status:** SKILL
+
+## AIBYAI — Multi-Provider Council with Conflict Detection (April 26, 2026)
+- **URL:** https://github.com/Yash-Awasthi/aibyai
+- **What it does:** Council of 4+ AI agents (Empiricist, Strategist, Historian, Skeptic) with Conflict Detector + Synthesizer. Numeric confidence scoring, cost breakdown, cold validation. TypeScript, MIT.
+- **Solomon OS fit:** SKILL — Cross-provider critique mechanism for Solomon OS decisions.
+- **Status:** SKILL
+
+## Deliberation — Multi-Voice Quorum-Style Deliberation (April 26, 2026)
+- **URL:** https://github.com/2389-research/deliberation
+- **What it does:** Claude-based multi-voice deliberation (discernment, clearness, gathered). Quaker-inspired sense-of-meeting process. MIT.
+- **Solomon OS fit:** SKILL — Ethical trade-off deliberation for Solomon OS governance.
+- **Status:** SKILL
+
+## Dialectic-Agentic — Multi-Agent Design Debate (April 26, 2026)
+- **URL:** https://github.com/slior/dialectic-agentic
+- **What it does:** No-code multi-agent debate system via SKILL.md + JSON config. Agents propose → critique → refine → judge verdict. JSON output + Markdown synthesis. MIT.
+- **Solomon OS fit:** SKILL — Structured design debates for architecture decisions.
+- **Status:** SKILL
+
+## Inngest Self-Learning Agent — Durable Self-Improving Prompts (April 26, 2026)
+- **URL:** https://github.com/inngest/inngest-self-learning-agent
+- **What it does:** Durable AI agent with think/act/observe loop, post-response scoring, scheduled evaluation jobs to rewrite/ promoting prompts. Guardrails against gaming. MIT.
+- **Solomon OS fit:** SKILL — Study durable self-improvement loop for Hermes evolution.
+- **Status:** SKILL
