@@ -288,3 +288,19 @@
 - **Solomon OS fit:** FORGE — Fork xmaks82 or Shreyas version as Hermes self-improvement skill. NFH generator/evaluator separation = key security pattern. Free LLM providers = cheap Solomon OS agents.
 - **Status:** FORGE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/self-improving-ai-agent-roundup-2026.md
+
+## Phero — Go Multi-Agent Framework (April 26, 2026)
+- **URL:** https://github.com/henomis/phero
+- **Fork:** `jvanleur2234-glitch/phero`
+- **What it does:** Go-first multi-agent AI framework. A2A protocol, SKILL.md pattern (Hermes-compatible), MCP/RAG support, memory management, tool guardrails, multi-modal. Apache 2.0.
+- **Solomon OS fit:** SKILL — Study Go agent patterns for Hermes backend. A2A + SKILL.md aligns with multi-agent orchestration. RAG/memory useful for Hermes knowledge layer.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/phero.md
+
+## HyperspaceAI/agi — Distributed P2P AGI System (April 26, 2026)
+- **URL:** https://github.com/hyperspaceai/agi
+- **Fork:** Already forked
+- **What it does:** First distributed AGI system. Pods (private AI clusters), P2P gossip training (DiLoCo), 32-node model training demo, A1 blockchain for agent microtransactions, 695+ live agents. MIT.
+- **Solomon OS fit:** SKILL — Study P2P compute distribution. DiLoCo pattern for distributed Hermes training. Blockchain microtransaction model for AgentFM-style compute marketplace.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hyperspace-agi-distributed-p2p.md
