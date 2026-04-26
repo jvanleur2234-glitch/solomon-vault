@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2026-04-26",
+    "business_name": "Fox Lake Locksmith",
+    "url": "https://www.foxlakelocksmith.com/",
+    "seo_score": 68,
+    "top_issues": ["Missing H1 tag", "No Open Graph tags", "Meta description too long"],
+    "contact_method": "website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "Clint Johnson HVAC",
+    "url": "https://clintjohnsonhvac.com/",
+    "seo_score": 68,
+    "top_issues": ["Title too short (25 chars)", "No Open Graph tags", "Images missing alt text"],
+    "contact_method": "website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "Lock Doctor Inc",
+    "url": "https://www.lockdoctorinc.com/",
+    "seo_score": 79,
+    "top_issues": ["Images missing alt text", "No lazy loading", "No Open Graph tags"],
+    "contact_method": "website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "Joe Hillman Plumbers",
+    "url": "https://joehillmanplumbers.com/",
+    "seo_score": 89,
+    "top_issues": ["Title too long (75 chars)", "No lazy loading on images"],
+    "contact_method": "website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "Chen Plumbing",
+    "url": "https://chenplumbing.com/service-areas/plumber-duluth-ga/",
+    "seo_score": 89,
+    "top_issues": ["Missing charset declaration", "Images missing alt text"],
+    "contact_method": "website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "The Land Auto Repair",
+    "url": "https://thelandautorepair.com/best-auto-repair-near-me-prices-in-cleveland-transparent-rates-fast-turnarounds-and-trusted-technicians-at-cleveland-auto-repair/",
+    "seo_score": 74,
+    "top_issues": ["Slow server response (722ms)", "Title too long", "Meta description too long"],
+    "contact_method": "website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "Brian's North End Automotive",
+    "url": "https://briansnorthendautomotive.com/",
+    "seo_score": 26,
+    "top_issues": ["No mobile viewport", "No canonical tag", "No H1/H2 tags", "No meta description", "No Open Graph tags", "Slow server response (1514ms)"],
+    "contact_method": "website",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "Southside Moving and Storage",
+    "url": "https://southsidemoving.com/best-movers-near-me-outer-banks-nc-top-rated-obx-moving-company/",
+    "seo_score": 79,
+    "top_issues": ["Title too long (96 chars)", "Meta description too long", "No H1 tag", "Slow server response (800ms)"],
+    "contact_method": "website",
+    "status": "pitched"
+  }
+]

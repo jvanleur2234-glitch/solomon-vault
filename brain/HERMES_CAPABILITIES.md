@@ -1,3 +1,48 @@
+## vercel-labs/agent-browser — Rust CLI Browser Automation (April 26, 2026)
+- **URL:** https://github.com/vercel-labs/agent-browser
+- **What it does:** Fast, native Rust CLI tool for AI agent browser automation. CSS + ARIA selectors, snapshot/accessibility tree, screenshot. Apache 2.0, v0.26.0.
+- **Solomon OS fit:** SKILL — Study for Solomon Browser Playwright alternative. ClawLess competitor.
+- **Status:** SKILL
+
+## browserable — Self-Hostable Browser Automation SDK (April 26, 2026)
+- **URL:** https://github.com/browserable/browserable
+- **What it does:** JS/TS library for AI agent browser automation. SDK pattern, multi-LLM, Docker Compose dev setup. 90.4% Web Voyager benchmark. MIT.
+- **Solomon OS fit:** SKILL — SDK pattern for Solomon Browser API. Self-hostable aligns with privacy-first.
+- **Status:** SKILL
+
+## Quorum — Multi-AI Deliberation Framework (April 26, 2026)
+- **URL:** https://github.com/Solvely-Colin/Quorum
+- **What it does:** TypeScript 7-phase deliberation (Gather→Plan→Formulate→Debate→Adjust→Rebuttal→Vote). Multi-provider (Claude, GPT, Gemini, etc.), SHA-256 audit ledger, YAML guardrails, MCP server. MIT, v0.13.0.
+- **Solomon OS fit:** INTEGRATE — Council of High Intelligence competitor. Deterministic replay for compliance. Structured deliberation for Solomon Browser decisions.
+- **Status:** INTEGRATE
+
+## ai-in-pm/Recursive-Self-Improvement-AI-Agent (April 26, 2026)
+- **URL:** https://github.com/ai-in-pm/Recursive-Self-Improvement-AI-Agent
+- **What it does:** Python framework for autonomous self-improving agents that modify own code at runtime. Inspired by Gödel's incompleteness. MIT.
+- **Solomon OS fit:** SKILL — Study self-improvement + safety mechanisms for Hermes evolution loop.
+- **Status:** SKILL
+
+## gumbel-ai/agent-debate — Adversarial Code Review as Debate (April 26, 2026)
+- **URL:** https://github.com/gumbel-ai/agent-debate
+- **What it does:** 2-4 AI agents (Claude, Codex, Gemini, Copilot) collaboratively edit files with evidence citations, strikethroughs, dispute log. MIT.
+- **Solomon OS fit:** SKILL — Evidence-based debate protocol for Solomon OS governance. Adversarial review for Hermes skills.
+- **Status:** SKILL
+
+## OpenMythos — Recurrent-Depth Transformer + MoE (April 26, 2026)
+- **URL:** https://github.com/kyegomez/OpenMythos
+- **Fork:** Already forked (`jvanleur2234-glitch/OpenMythos`)
+- **What it does:** Open-source reconstruction of Claude Mythos as RDT. Fixed layers looped T times per forward pass. Sparse MoE with routed + shared experts. Author: Kye Gomez (OpenClaw creator).
+- **Solomon OS fit:** SKILL — Study looped transformer + MoE for Hermes reasoning. Kye Gomez = key ecosystem player.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/open-mythos-recurrent-depth-transformer.md
+
+## hackmyagent — AI Agent Security Toolkit (April 26, 2026)
+- **URL:** https://github.com/opena2a-org/hackmyagent
+- **What it does:** Converts skills/MCP configs/prompts into Abstract Security Tree. 209 static checks, 29 semantic checks, 164 adversarial payloads, adaptive red team. v0.19.0. MIT.
+- **Solomon OS fit:** SKILL — Red-teaming framework for Hermes. 44 categories inform AgentArmor Studio.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hackmyagent-ai-agent-security-toolkit.md
+
 ## dapr-agents — Durable AI Agent Workflows on Dapr (April 26, 2026)
 - **URL:** https://github.com/dapr/dapr-agents
 - **Fork:** Already forked (`jvanleur2234-glitch/dapr-agents`)
@@ -27,13 +72,6 @@
 - **Status:** INTEGRATE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/securevector-ai-threat-monitor.md
 
-## OpenMythos — Recurrent-Depth Transformer + MoE by Kye Gomez (April 26, 2026)
-- **URL:** https://github.com/kyegomez/OpenMythos
-- **Fork:** Already forked (`jvanleur2234-glitch/OpenMythos`)
-- **What it does:** Open-source reconstruction of Claude Mythos as a Recurrent-Depth Transformer (RDT). Fixed layers looped T times per forward pass. Input injection prevents signal drift. Sparse MoE with routed + shared experts. Systematic generalization, depth extrapolation, latent thoughts. Author: Kye Gomez (OpenClaw creator).
-- **Solomon OS fit:** SKILL — Study looped transformer + MoE architecture for Hermes reasoning engine enhancement. Kye Gomez = key ecosystem player.
-- **Status:** SKILL
-- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/open-mythos-recurrent-depth-transformer.md
 ## Hermes Vault v0.4.0 — Tony Simons — AI Agent Observability Layer (April 25, 2026)
 - **URL:** https://github.com/asimons81/hermes-vault
 - **What it does:** Local-first credential broker for AI agents. Gives agents "a pair of glasses" for observability — credential health tracking (stale/expiring keys), cryptographic audit logs (SHA-256 hash-chained), secrets isolation (1Password-style, secrets never leave vault), verification reports.

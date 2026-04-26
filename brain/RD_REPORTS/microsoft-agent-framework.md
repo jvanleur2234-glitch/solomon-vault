@@ -1,27 +1,28 @@
-# Microsoft Agent Framework — Graph-Based Multi-Agent Orchestration (Apr 25, 2026)
+# RD Report: microsoft/agent-framework
 
-**Fork:** `jvanleur2234-glitch/microsoft-agent-framework` (MIT)
-**Source:** https://github.com/microsoft/agent-framework
+**Date:** April 26, 2026  
+**Author:** AIQ Scout  
+**Status:** SKILL  
+**License:** MIT  
+**Stars:** ~9.7k  
 
-## What It Does
-Microsoft's multi-language (Python + .NET) agent framework with:
-- Graph-based workflows: connect agents + deterministic functions with data flows
-- DevUI: interactive development/testing/debugging UI
-- AF Labs: RL + benchmarking experimental packages
-- Cross-language parity (Python + .NET)
-- Human-in-the-loop, streaming, checkpointing, time-travel debugging
-- Latest: Python 1.1.0 (Apr 2026), .NET RC1
+## What It Is
+Microsoft's multi-language (Python + .NET/C#) framework for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based orchestration with time-travel data flows.
 
-## Why It Matters for Solomon OS
-- Graph-based orchestration is the RIGHT mental model for Hermes skill workflows
-- Time-travel debugging directly solves "why did the agent do that?" for enterprise clients
-- Cross-language parity means Python skills work alongside .NET tooling
-- Active: 9.7k+ stars, Microsoft-backed = long-term maintenance
+## Key Features
+- Graph-based workflows with data flows, streaming, checkpointing, human-in-the-loop, time-travel
+- Cross-language parity (Python == .NET APIs)
+- AF Labs: benchmarking, RL, research features
+- DevUI for development/testing/debugging
+- Weekly office hours + Discord community
 
-## Fit: INTEGRATE
-MIT licensed. Graph workflow model should map directly to Hermes skill orchestration. Time-travel debugging is a premium enterprise feature worth stealing.
+## Solomon OS Fit
+STUDY — Graph-based orchestration pattern could inform Hermes mission workflows. Time-travel debugging is unique. NOT MIT license compatible for direct code use, but architecture worth studying.
 
-## Action Items
-- [ ] Study graph-based workflow implementation
-- [ ] Evaluate time-travel debugging for Hermes self-correction logs
-- [ ] Consider as orchestration layer vs native Hermes implementation
+## Action
+- No fork (not MIT)
+- Study architecture for potential Hermes integration
+- Watch for MIT-licensed alternatives in same space
+
+## Links
+- https://github.com/microsoft/agent-framework
