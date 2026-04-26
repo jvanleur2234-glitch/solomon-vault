@@ -14,6 +14,28 @@ status: active
 3. **Solomon Browser** — ON DECK. AI-native web browser with persistent memory.
 4. Everything else — only if bandwidth allows.
 
+## PARALLEL TRACK — Agent Operator (Added Apr 26, 2026)
+**Source:** https://x.com/ZabihullahAtal/status/2048049033718223196
+
+A new professional role: **Agent Operator**. You operate a fleet of agents ON BEHALF of clients who don't want to learn the tech. They describe what they need → you operate Solomon OS to execute → they pay for the service.
+
+**Key insight:** Aaron Levie (Box CEO) describes this as a future enterprise role. Harry Stebbings (20VC) predicts 500K-1M jobs for agent operators. This is the HELP DESK model for AI.
+
+**How it works:**
+1. Client has a need → describes it in plain English
+2. You operate the agent fleet (Hermes + Russell Tuna + JackConnect) to execute
+3. Client pays for the service (subscription or per-task)
+
+**This is BUILT INTO what we're already doing.** Solomon OS is the platform, YOU (Joseph) are the operator. This runs parallel to JCPaid — JCPaid sells "AI employees" as software, Agent Operator SELLS THE SERVICE of operating AI on behalf of clients.
+
+**Tech stack for remote client access:**
+- RustDesk — open-source remote desktop
+- Tailscale — VPN mesh for network-level access
+
+**Skills you need:** MCPs, CLIs, clear instruction writing, agents.md fluency, business acumen.
+
+**Revenue model:** AI-powered help desk. Subscription ($99-499/mo per client) or per-task pricing. One operator can handle 20-50 clients.
+
 ## POSITIONING
 "**Solomon OS — the AI OS that gives you back your time for the important things.**"
 
