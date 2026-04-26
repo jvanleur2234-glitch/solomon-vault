@@ -257,3 +257,34 @@
 - **Solomon OS fit:** WATCH — Graph-based orchestration fundamentally different from Hermes. Microsoft-backed, highly active. Study for Hermes architecture evolution. MIT licensed.
 - **Status:** WATCH
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/microsoft-agent-framework-2026.md
+
+## KohakuTerrarium — Modular Agent Framework (April 26, 2026)
+- **URL:** https://github.com/DNLINYJ/KohakuTerrarium
+- **Fork:** `jvanleur2234-glitch/KohakuTerrarium`
+- **What it does:** Framework for "real agents" (creatures) not LLM wrappers. Each creature has controller, input, output, tools, triggers, sub-agents, memory. Compose into terrarium (horizontal multi-agent wiring). Session persistence + resume, scratchpad, vector + FTS memory, auto-compaction. CLI/TUI/web/desktop runtimes. MIT-like license.
+- **Solomon OS fit:** SKILL — Creature/Terrarium model for Hermes skill encapsulation. Session persistence = mission-critical task resume. kt-defaults OOTB creatures study.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/kohaku-terrarium-modular-agent-framework.md
+
+## Agent Express — Express-Style TypeScript Agent Middleware (April 26, 2026)
+- **URL:** https://github.com/agent-express-ai/agent-express
+- **Fork:** Already forked
+- **What it does:** Minimalist TypeScript middleware framework. Express.js `use()` pattern for agents (Agent/Session/Middleware). Safety: budget/input/output guards, timeouts, HITL approval. Multi-provider (12+), complexity-based routing, context compaction, MCP integration, Zod validation. MIT.
+- **Solomon OS fit:** SKILL — Middleware pattern for Hermes skill composition. HITL approval = enterprise safety. Complexity routing = JCPaid cost optimization.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-express-typescript-middleware-agent-framework.md
+
+## Agent Orcha — P2P Multi-Agent YAML Framework (April 26, 2026)
+- **URL:** https://github.com/ddalcu/agent-orcha
+- **Fork:** Already forked
+- **What it does:** Declarative YAML multi-agent framework. Built-in SQLite vector store, MCP, P2P encrypted sharing (per-peer rate limits, private keys), browser sandbox (Chromium CDP + Xvfb + noVNC). Security: SSRF protection, SQL injection hardening, sandboxed execution. MIT.
+- **Solomon OS fit:** SKILL — P2P sharing model (rate limits, key exchange) for AgentFM/Hermes distributed compute. Browser sandbox aligns with Solomon Browser. YAML authoring = low-code agent builder.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-orcha-p2p-multi-agent-orchestration.md
+
+## Self-Improving Agent Roundup — Prompt Evolution (April 26, 2026)
+- **URLs:** xmaks82/self-improving-agent, Shreyas-Gowda26/self-improving-agent, inngest/inngest-self-learning-agent, theprint/nfh-self-improvement-loop, soulfir/miguel
+- **What:** Versioned system prompt evolution (v1→v2→v3), multi-agent pipelines, generator/evaluator separation, Docker sandbox self-modification, durable think/act/observe loops.
+- **Solomon OS fit:** FORGE — Fork xmaks82 or Shreyas version as Hermes self-improvement skill. NFH generator/evaluator separation = key security pattern. Free LLM providers = cheap Solomon OS agents.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/self-improving-ai-agent-roundup-2026.md
