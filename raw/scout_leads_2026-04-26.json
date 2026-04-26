@@ -1,74 +1,83 @@
 [
   {
     "date": "2026-04-26",
-    "business_name": "Fox Lake Locksmith",
-    "url": "https://www.foxlakelocksmith.com/",
-    "seo_score": 68,
-    "top_issues": ["Missing H1 tag", "No Open Graph tags", "Meta description too long"],
-    "contact_method": "website",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-26",
-    "business_name": "Clint Johnson HVAC",
-    "url": "https://clintjohnsonhvac.com/",
-    "seo_score": 68,
-    "top_issues": ["Title too short (25 chars)", "No Open Graph tags", "Images missing alt text"],
-    "contact_method": "website",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-26",
-    "business_name": "Lock Doctor Inc",
-    "url": "https://www.lockdoctorinc.com/",
+    "business_name": "Half Moon Plumbing",
+    "url": "https://halfmoonplumbing.com/claremore",
     "seo_score": 79,
-    "top_issues": ["Images missing alt text", "No lazy loading", "No Open Graph tags"],
-    "contact_method": "website",
+    "top_issues": ["Slow server response time (849ms)", "Title tag too long (113 chars)", "Meta description too long", "Missing alt text on images"],
+    "contact_method": "website contact form",
     "status": "pitched"
   },
   {
     "date": "2026-04-26",
-    "business_name": "Joe Hillman Plumbers",
-    "url": "https://joehillmanplumbers.com/",
-    "seo_score": 89,
-    "top_issues": ["Title too long (75 chars)", "No lazy loading on images"],
-    "contact_method": "website",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-26",
-    "business_name": "Chen Plumbing",
-    "url": "https://chenplumbing.com/service-areas/plumber-duluth-ga/",
-    "seo_score": 89,
-    "top_issues": ["Missing charset declaration", "Images missing alt text"],
-    "contact_method": "website",
-    "status": "pitched"
-  },
-  {
-    "date": "2026-04-26",
-    "business_name": "The Land Auto Repair",
-    "url": "https://thelandautorepair.com/best-auto-repair-near-me-prices-in-cleveland-transparent-rates-fast-turnarounds-and-trusted-technicians-at-cleveland-auto-repair/",
+    "business_name": "Duck's Locksmithing Inc",
+    "url": "https://www.duckslocksmithing.com/",
     "seo_score": 74,
-    "top_issues": ["Slow server response (722ms)", "Title too long", "Meta description too long"],
-    "contact_method": "website",
+    "top_issues": ["Slow server response time (838ms)", "No meta description length", "Missing alt text on images", "Images not lazy loaded"],
+    "contact_method": "website contact form",
     "status": "pitched"
   },
   {
     "date": "2026-04-26",
-    "business_name": "Brian's North End Automotive",
-    "url": "https://briansnorthendautomotive.com/",
-    "seo_score": 26,
-    "top_issues": ["No mobile viewport", "No canonical tag", "No H1/H2 tags", "No meta description", "No Open Graph tags", "Slow server response (1514ms)"],
-    "contact_method": "website",
+    "business_name": "Colorado Premier Moving",
+    "url": "https://coloradopremiermoving.com/aurora-co/",
+    "seo_score": 89,
+    "top_issues": ["Slow server response time (2923ms)", "Missing alt text on images"],
+    "contact_method": "website contact form",
     "status": "pitched"
   },
   {
     "date": "2026-04-26",
-    "business_name": "Southside Moving and Storage",
-    "url": "https://southsidemoving.com/best-movers-near-me-outer-banks-nc-top-rated-obx-moving-company/",
+    "business_name": "Crown Plumbing Service",
+    "url": "https://crownplumbingservice.com/",
+    "seo_score": 74,
+    "top_issues": ["Slow server response time (1178ms)", "Title tag too long (79 chars)", "Meta description too long", "Missing alt text on images"],
+    "contact_method": "website contact form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "University Park Dental",
+    "url": "https://dentistparkcitiestx.com/",
+    "seo_score": 74,
+    "top_issues": ["Title too short (44 chars)", "Meta description too long", "H1 issue", "Missing alt text on images"],
+    "contact_method": "website contact form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "SNZ Locksmith Inc",
+    "url": "https://www.snzlocksmith.com/",
     "seo_score": 79,
-    "top_issues": ["Title too long (96 chars)", "Meta description too long", "No H1 tag", "Slow server response (800ms)"],
-    "contact_method": "website",
+    "top_issues": ["Meta description too long", "Missing alt text on images", "Images not lazy loaded", "Title tag exists (55 chars)"],
+    "contact_method": "website contact form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "World's Best Movers",
+    "url": "https://worldsbestmoversinc.com/south-barrington-il-movers/",
+    "seo_score": 68,
+    "top_issues": ["Title too long (169 chars)", "Meta description too long", "H1 issue", "No Open Graph tags"],
+    "contact_method": "website contact form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "Remington Family Dental",
+    "url": "https://www.remingtonfamilydental.com/",
+    "seo_score": 79,
+    "top_issues": ["Slow server response time (781ms)", "Missing alt text on images", "Images not lazy loaded", "Title at 59 chars"],
+    "contact_method": "website contact form",
+    "status": "pitched"
+  },
+  {
+    "date": "2026-04-26",
+    "business_name": "The Mover",
+    "url": "https://themover.com/",
+    "seo_score": 42,
+    "top_issues": ["HTTP 403 error - site blocking", "Missing canonical tag", "No meta description", "No H1/H2 tags", "No Open Graph tags", "No content"],
+    "contact_method": "website contact form",
     "status": "pitched"
   }
 ]

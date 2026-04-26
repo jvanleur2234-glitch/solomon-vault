@@ -1,26 +1,27 @@
-# dapr-agents — Python Agent Framework on Dapr
+# dapr-agents — Durable Multi-Agent AI Framework
+
+## SLUG: dapr-agents
+## Date: 2026-04-26
+## Tags: #agent-framework #python #multi-agent #durable-execution #Kubernetes #Apache-2.0
+## Status: FORGE
+
+---
 
 ## What It Is
-Apache-2.0 Python framework for scalable, autonomous AI agents built on Dapr. Provides workflow orchestration, statefulness, security, and telemetry at scale.
+`dapr-agents` (dapr/dapr-agents) is a Python-based framework for building scalable, autonomous AI agent systems with built-in workflow orchestration, security, stateful execution, and telemetry. Built on Dapr.
 
-## Key Signals
-- **License:** Apache-2.0
-- **Stars:** growing
-- **Lang:** Python
-- **Latest:** v1.0.1 (Apr 2026)
-- **Fork:** https://github.com/jvanleur2234-glitch/dapr-agents
+## Key Capabilities
+- **Durable execution workflow engine**: fault-tolerant across network/node failures
+- **Kubernetes-native deployment**
+- **Multi-agent orchestration** with stateful execution
+- **Telemetry and observability** built-in
+- **Data-source integrations**
+- **Apache-2.0 License** — v1.0.1 (Apr 2026)
 
-## Core Features
-- Built on Dapr (Distributed Application Runtime) for Kubernetes-native deployment
-- Workflow orchestration with durable, retryable workflows
-- Multi-agent collaboration and reasoning/acting
-- Telemetry + observability built-in
-- Vendor-neutral cloud/on-prem deployments
-- Data-source integration
-
-## Solomon OS Fit
-- **SKILL** — Dapr integration architecture for enterprise-grade resilience. Dapr state + pub-sub primitives could underpin Solomon Bus reliability.
-- Workflow durability patterns worth studying for Job Runner persistence
+## Relevance to Solomon OS / Hermes
+- Durable execution model is directly relevant to Hermes session persistence
+- Kubernetes-native design useful for JCPaid cloud infrastructure
+- Security-first design aligns with AgentArmor requirements
 
 ## Recommendation
-SKILL — Architecture study only. Apache-2.0 permits code reference.
+**FORGE** — durable execution patterns valuable for Hermes resilience and JCPaid scaling.

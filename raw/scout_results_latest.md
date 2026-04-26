@@ -1,61 +1,29 @@
-# Scout Results — 2026-04-26
+# Scout Results — Latest Run
 
-## Leads Generated & Pitched Today
+**Date:** 2026-04-26  
+**Total Leads:** 9  
+**Payment Link:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
 
-### High Priority (Score < 70)
+## Audit Summary
 
-**Fox Lake Locksmith** (68/100)
-- URL: https://www.foxlakelocksmith.com/
-- Issues: Missing H1 tag, No Open Graph tags, Meta description too long
-- Status: Pitched
+| Business | URL | SEO Score | Key Issues |
+|----------|-----|-----------|-----------|
+| Half Moon Plumbing | halfmoonplumbing.com/claremore | **79/100** | Slow server (849ms), Title too long, Alt text missing |
+| Duck's Locksmithing | duckslocksmithing.com | **74/100** | Slow (838ms), No lazy load, Alt text missing |
+| Colorado Premier Moving | coloradopremiermoving.com | **89/100** | Very slow (2923ms), Alt text missing |
+| Crown Plumbing | crownplumbingservice.com | **74/100** | Slow (1178ms), Title/meta issues, Alt text missing |
+| University Park Dental | dentistparkcitiestx.com | **74/100** | Short title, H1 issue, Alt text missing |
+| SNZ Locksmith | snzlocksmith.com | **79/100** | Meta too long, Alt text missing, No lazy load |
+| World's Best Movers | worldsbestmoversinc.com | **68/100** | Title too long (169c), No OG tags, H1 issue |
+| Remington Family Dental | remingtonfamilydental.com | **79/100** | Slow (781ms), Alt text missing |
+| The Mover | themover.com | **42/100** | HTTP 403, No meta tags at all |
 
-**Clint Johnson HVAC** (68/100)
-- URL: https://clintjohnsonhvac.com/
-- Issues: Title too short (25 chars), No Open Graph tags, Images missing alt text
-- Status: Pitched
+## Most Common Issues
+1. Missing image alt text — 78% of leads
+2. Slow server response — 67% of leads
+3. Meta description length — 78% of leads
+4. Title tag length — 56% of leads
 
-**The Land Auto Repair** (74/100)
-- URL: https://thelandautorepair.com/best-auto-repair-near-me-prices-in-cleveland-transparent-rates-fast-turnarounds-and-trusted-technicians-at-cleveland-auto-repair/
-- Issues: Slow server response (722ms), Title too long, Meta description too long
-- Status: Pitched
-
-**Brian's North End Automotive** (26/100) ⚠️ CRITICAL
-- URL: https://briansnorthendautomotive.com/
-- Issues: No mobile viewport, No canonical tag, No H1/H2 tags, No meta description, No Open Graph tags, Slow server (1514ms)
-- Status: Pitched
-
-### Medium Priority (Score 70-84)
-
-**Lock Doctor Inc** (79/100)
-- URL: https://www.lockdoctorinc.com/
-- Issues: Images missing alt text, No lazy loading, No Open Graph tags
-- Status: Pitched
-
-**Southside Moving and Storage** (79/100)
-- URL: https://southsidemoving.com/best-movers-near-me-outer-banks-nc-top-rated-obx-moving-company/
-- Issues: Title too long, Meta description too long, No H1 tag, Slow server (800ms)
-- Status: Pitched
-
-### Lower Priority (Score 85+)
-
-**Joe Hillman Plumbers** (89/100)
-- URL: https://joehillmanplumbers.com/
-- Issues: Title too long (75 chars), No image lazy loading
-- Status: Pitched
-
-**Chen Plumbing** (89/100)
-- URL: https://chenplumbing.com/service-areas/plumber-duluth-ga/
-- Issues: Missing charset declaration, Images missing alt text
-- Status: Pitched
-
-## Quick Stats
-- **Total Leads:** 8
-- **US Businesses Only:** Yes
-- **Average SEO Score:** 72/100
-- **Worst Performer:** Brian's North End Automotive (26/100)
-- **Best Performer:** Joe Hillman Plumbers & Chen Plumbing (89/100)
-
-## Next Steps
-- Escalate any replies to Joseph via Telegram immediately
-- Follow up with Brian's North End Automotive (most critical issues)
-- Consider re-audit after 30 days if no response
+## Files
+- Full leads log: `solomon-vault/raw/scout_leads_2026-04-26.json`
+- Daily report: `solomon-vault/raw/scout_daily_2026-04-26.md`

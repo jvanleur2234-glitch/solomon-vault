@@ -1,28 +1,26 @@
-# RD Report: nfh-self-improvement-loop — Adversarial Self-Improvement
+# NFH Self-Improvement Loop — Adversarial Self-Modification
 
-**Date:** 2026-04-23  
-**URL:** https://github.com/theprint/nfh-self-improvement-loop  
-**Fork:** `jvanleur2234-glitch/nfh-self-improvement-loop` (already forked)  
-**License:** MIT  
+## SLUG: nfh-self-improvement-loop
+## Date: 2026-04-26
+## Tags: #self-improvement #adversarial #generator #evaluator #MIT
+## Status: FORGE
 
-## What It Does
-Minimal adversarial framework separating generator (builder) from evaluator (judge). Generator proposes one improvement per cycle; evaluator independently validates merit. Prevents self-delusion. No silent modifications — all changes require approval.
+---
 
-## Core Loop
-1. **Pre-flight checks** — timers, fresh dev branch, state.json, verification script
-2. **Generator** — proposes one improvement (New Capabilities / Optimization / Discovery)
-3. **Evaluator** — judges git diff independently (no rationale from generator)
-4. **Governance** — changes requiring human review separated from autonomously-implementable ones
+## What It Is
+theprint/nfh-self-improvement-loop is a minimal adversarial framework enabling an AI agent to modify its own codebase with a separate evaluator judging changes. Key separation: generator (proposes) vs evaluator (judges) prevents self-delusion.
 
-## Key Constraints
-- No edits to identity/memory files
-- No external API calls
-- No pushes to main
-- No evaluator feedback to generator
-- Each cycle starts fresh
+## How It Works
+- **Pre-flight checks**: duration timer, fresh dev branch, state.json, prompts present
+- **Generator**: reads TOOLS.md, Learnings.md, USER.md, MEMORY.md, proposes one improvement per cycle
+- **Evaluator**: receives only git diff + repo context (no rationale), checks viability/safety
+- **Categories**: New Capabilities, Optimization, Discovery
+- **MIT License** — Shell-based
 
-## Solomon OS Fit
-**FORGE** — Adversarial self-improvement with separation of concerns is critical for safe autonomous growth. MIT license permits direct use. Governance separation pattern essential for Hermes self-evolution safety.
+## Relevance to Solomon OS / Hermes Self-Improvement
+- Adversarial loop prevents self-deception — critical for autonomous improvement
+- Separation of proposal and evaluation is a key architectural pattern
+- Minimal implementation can be integrated into Hermes self-improvement pipeline
 
-## Status
-**FORGE** — Implement adversarial improvement gate for Hermes. Generator/evaluator separation prevents capability drift.
+## Recommendation
+**FORGE** — fork and integrate into Hermes autonomous self-improvement skill.

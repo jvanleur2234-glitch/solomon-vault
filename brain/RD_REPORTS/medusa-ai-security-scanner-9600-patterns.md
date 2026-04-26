@@ -1,32 +1,27 @@
-# Medusa — AI Security Scanner (9600+ Patterns)
+# MEDUSA — AI-First Security Scanner
 
-**Fork:** `Pantheon-Security/medusa` → already in workspace (not yet forked to GitHub)
-**Source:** https://github.com/Pantheon-Security/medusa (AGPL-3.0)
-**Date:** 2026-04-25
+## SLUG: medusa
+## Date: 2026-04-26
+## Tags: #AI-security #scanner #LLM #agent #supply-chain #AGPL-3.0
+## Status: SKIP (AGPL)
 
 ---
 
-## What It Does
+## What It Is
+MEDUSA (Pantheon-Security/medusa) is an AI-first security scanner focused on AI/ML, agents, and LLM applications. Features 9,600+ detection patterns and 200+ CVE detections including Log4Shell, LangChain RCE.
 
-AI-first security scanner with 9,600+ detection patterns focused on AI/ML applications, agents, and LLM systems. New `--git` feature scans GitHub repos for AI supply chain risks, repo poisoning, and MCP tool poisoning across 28+ file types.
+## Key Capabilities
+- **9,600+ detection patterns**, 200+ CVE detections
+- **Git repository scanning**: `medusa scan --git` for AI supply chain risks
+- **Multi-core parallel scanning**: 10-40x faster
+- **Smart caching** for fast rescans
+- **Export formats**: JSON, HTML, Markdown, SARIF
+- **AGPL-3.0 License** (not MIT/Apache)
 
-Key capabilities:
-- 200+ CVEs relevant to AI/ML (Log4Shell, LangChain RCE, MCP RCE, React2Shell)
-- Parallel fast scanning with smart caching
-- IDE integrations (VS Code, Claude Code, Cursor, Gemini CLI)
-- Outputs: JSON, HTML, Markdown, SARIF
+## Relevance to Solomon OS / AgentArmor
+- Impressive pattern count for security scanning
+- Repo poisoning detection valuable for skill supply chain
+- NOT MIT/Apache — AGPL limits commercial use
 
-## Key Stats
-
-- 9,600+ detection patterns
-- 28+ file types scanned
-- Multi-core parallel execution (10-40x faster than sequential)
-- Zero-setup: `pip install medusa`
-
-## Solomon OS Fit
-
-**INTEGRATE** — Security scanner for pre-execution gate. 9,600 patterns vs sinewave's 1,700 = broader coverage but less agent-specific. AGPL-3.0 (copyleft) — can study patterns but not use code directly in MIT projects.
-
-## Status
-
-**SKILL** — study detection patterns for security skill development. Copyleft license prevents direct code integration.
+## Recommendation
+**SKIP** — non-permissive license makes this unsuitable for JCPaid commercial product.

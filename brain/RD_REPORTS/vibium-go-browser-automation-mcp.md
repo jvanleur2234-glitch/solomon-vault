@@ -1,32 +1,28 @@
-# vibium — Go-Based AI-Native Browser Automation
+# vibium — AI-Friendly Browser Automation Platform
 
-**Fork:** Already forked to `jvanleur2234-glitch/vibium`  
-**License:** Apache 2.0  
-**Language:** Go
+## SLUG: vibium
+## Date: 2026-04-26
+## Tags: #browser-automation #MCP #skills #WebDriver-BiDi #Go
+## Status: SKILL
+
+---
 
 ## What It Is
-A lightweight, cross-language browser automation framework built on WebDriver BiDi. Provides a binary CLI, an MCP server, and client libraries for JavaScript/TypeScript, Python, and Java. AI-native, zero-config, standard-based.
+Vibium (VibiumDev/vibium) is an AI-friendly browser automation platform that lets AI agents control a web browser via simple CLI commands. Built as a CLI, MCP server, and multi-language library (JS, Python, Java).
 
-## Key Features
-- **WebDriver BiDi** standard — no vendor lock-in
-- **~10MB binary** — lightweight
-- **CLI + MCP server + client libraries** (JS, Python, Java)
-- **Semantic element discovery**: find by visible text, label, placeholder, ARIA role — no CSS selectors needed
-- **Commands**: go, map, click, find, text, screenshot, pdf, eval, wait, record, fill, select, check, press
-- **Auto browser download** — zero config
-- AI-native design for agent integration
+## Key Capabilities
+- **Navigate, click, fill forms, select options, screenshots, PDFs**
+- **JavaScript execution** and text extraction
+- **Session recording** with annotated outputs
+- **WebDriver BiDi standard** (not proprietary)
+- **Skills framework integration** (npx-based workflow)
+- **Apache-2.0 License** — Go-based
 
-## Comparison to BrowserUse / AgentBrowser / Stagehand
+## Relevance to Solomon OS / ClawLess Competitor
+- Direct competitor to ClawLess browser automation
+- Standards-based (WebDriver BiDi) ensures compatibility
+- MCP server integration aligns with Hermes MCP ecosystem
+- Skills framework integration fits Hermes skill format
 
-| Feature | Vibium | BrowserUse | AgentBrowser (Rust) |
-|---|---|---|---|
-| Language | Go | Python | Rust |
-| License | Apache 2.0 | MIT | Apache 2.0 |
-| Size | ~10MB | Python | ~40MB |
-| Standard | WebDriver BiDi | Playwright | Custom |
-| MCP server | ✅ | ❌ | ❌ |
-| JS/Python/Java clients | ✅ | Python only | No |
-| Semantic discovery | ✅ | ❌ | ✅ (snapshot) |
-
-## Verdict
-**SKILL** — The Go-based lightweight design + MCP server + multi-language clients makes this a strong candidate for Hermes browser automation skill. Compare to existing browser-use integration.
+## Recommendation
+**SKILL** — install as Hermes skill for browser automation capability.

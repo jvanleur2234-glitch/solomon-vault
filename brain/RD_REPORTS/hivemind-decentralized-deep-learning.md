@@ -1,27 +1,27 @@
-# RD Report: Hivemind — Decentralized Deep Learning
+# hivemind — Decentralized Deep Learning in PyTorch
 
-**Fork:** https://github.com/jvanleur2234-glitch/hivemind  
-**Source:** https://github.com/DandinPower/hivemind  
-**Date:** 2026-04-22  
-**License:** Apache 2.0  
-**Stars:** 4,000+  
-**Language:** Python/PyTorch  
+## SLUG: hivemind
+## Date: 2026-04-26
+## Tags: #distributed-AI #P2P #training #volunteer-computing #PyTorch
+## Status: FORGE
 
-## What It Does
-PyTorch library for decentralized, peer-to-peer training of neural networks across the Internet. Connects machines from different universities, companies, and volunteers without a master node. Used in production for training large models via collaborative computing.
+---
 
-## Key Features
-- **Distributed Hash Table (DHT):** Decentralized peer discovery and coordination
-- **Fault-tolerant backpropagation:** Training continues even with unresponsive/slow peers
-- **Decentralized parameter averaging:** Aggregates model updates without global synchronization
-- **Decentralized Mixture-of-Experts:** Distributes layer portions across participants
-- **Production users:** Petals (100B+ LLM inference/fine-tuning), Transformers Together, CALM, sahajBERT
+## What It Is
+hivemind (DandinPower/hivemind) is a PyTorch library for decentralized AI training across a P2P network. Enables training large models on thousands of volunteer machines without a central master node.
 
-## Solomon OS Fit
-**SKILL** — Architecture study for Solomon Air (decentralized compute). DiLoCo-style distributed training patterns useful for future agent training workloads. DHT peer discovery is battle-tested. Apache 2.0 permits direct code reference.
+## Key Capabilities
+- **DHT-based peer discovery**: distributed hash table for connectivity
+- **Fault-tolerant backpropagation**: tolerates slow/unresponsive nodes
+- **Decentralized parameter averaging**: aggregate updates without global sync
+- **MoE support**: Decentralized Mixture-of-Experts for large models
+- **PyTorch Lightning integration**
+- **Apache-2.0 / MIT License**
 
-## Competitor Notes
-Direct competitor: AgentFM (container-based P2P), Hyperspace AGI (P2P training), gonka (P2P compute with Sprint governance). Hivemind is the most mature (6+ years) with academic backing.
+## Relevance to Solomon OS / JCPaid
+- Volunteer computing model fits JCPaid distributed compute concept
+- Proven academic backing (used for research training)
+- Fault-tolerant design essential for resilient agent training
 
 ## Recommendation
-SKILL — Study DHT-based peer coordination for Solomon Air. No code adoption needed (Apache 2.0), but architecture patterns Inform future distributed training design.
+**FORGE** — fork for distributed training layer, integrate with JCPaid compute sharing.

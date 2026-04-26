@@ -1,34 +1,28 @@
-# agent-orcha — Declarative YAML Multi-Agent Orchestration
+# agent-orcha — Declarative Multi-Agent YAML Framework
 
-## Quick Summary
-YAML-based declarative framework for building, coordinating, and scaling multi-agent AI systems. Includes visual Studio, P2P encrypted sharing, and browser sandbox.
+## SLUG: agent-orcha
+## Date: 2026-04-26
+## Tags: #agent-framework #multi-agent #yaml #orchestration #p2p #MIT
+## Status: FORGE
+
+---
 
 ## What It Is
-Agent Orcha lets you define agents, workflows, and knowledge stores in YAML, then executes the orchestration. Supports local, Docker, or native desktop runtimes. Built-in SQLite vector store, MCP integration, and P2P agent sharing over encrypted networks.
+`agent-orcha` (ddalcu/agent-orcha) is a TypeScript-first declarative multi-agent AI framework that defines agents, workflows, and knowledge stores in YAML. Supports parallelism, conditional logic, state management, and P2P encrypted sharing of agents.
 
 ## Key Capabilities
-- **Declarative YAML design**: Define once, run anywhere
-- **Multi-environment**: Local, Docker, macOS/Windows/Linux desktop apps
-- **Model-agnostic**: OpenAI, Gemini, Anthropic, local LLMs
-- **MCP integration**: Universal tooling via Model Context Protocol
-- **Built-in vector store**: SQLite-based semantic search + graph mapping
-- **P2P encrypted sharing**: Share agents/LLMs over encrypted P2P networks with per-peer rate limits
-- **Browser sandbox**: Chromium CDP + Xvfb + noVNC for automation
-- **Agent Orcha Studio**: Visual dashboard for testing, monitoring, in-browser IDE
+- **YAML-driven orchestration**: define entire agent ecosystems in YAML configs
+- **Model-agnostic**: OpenAI, Gemini, Anthropic, Ollama, LM Studio
+- **Built-in vector store (SQLite)** + knowledge graphs
+- **P2P encrypted sharing**: share agents/LLMs without central keys
+- **Security**: rate limiting, SSRP protection, SQL injection hardening, sandboxed execution
+- **Browser sandbox**: Chrome CDP, noVNC, vision-enabled
+- **MIT License** — v2026.409 (Apr 2026)
 
-## Relevance to Solomon OS
-- **SKILL** — The P2P sharing model (per-peer rate limits, private keys, sandboxing) is directly applicable to AgentFM/Hermes P2P compute
-- YAML orchestration is similar to the declarative skill patterns we're already using
-- Browser sandbox (Chromium + CDP) could enhance Hermes browser tooling
-- MIT licensed — can reference patterns directly
+## Relevance to Solomon OS / Hermes
+- Declarative YAML config aligns with Hermes skill format
+- P2P agent sharing is competitive with AgentFM / distributed compute
+- Built-in security features (SSRF protection) are directly relevant to AgentArmor
 
-## License & Fork Status
-- **License:** MIT
-- **Stars:** 11 (low but novel P2P + YAML approach)
-- **Forked:** Already cloned to /home/workspace/agent-orcha
-
-## Verdict
-**SKILL** — Study P2P sharing model (rate limits, key exchange, sandboxing). The YAML orchestration pattern is already well-established in our ecosystem. Browser sandbox is useful for Hermes browser automation expansion.
-
-## Links
-- https://github.com/ddalcu/agent-orcha
+## Recommendation
+**FORGE** — fork for skill ecosystem, P2P compute layer, and declarative orchestration patterns.

@@ -1,33 +1,30 @@
-# 2389-Deliberation — Multi-Agent Voice Deliberation
+# deliberation — Multi-Agent Decision Support Framework
 
-## Quick Summary
-Claude-based framework for structured multi-agent decision-making. Three deliberation modes: DISCERNMENT (internal voices), CLEARNESS (parallel specialist committee), GATHERED (participatory with user). Emphasizes unity over voting, structured speaking rules. Apache 2.0.
+## SLUG: 2389-deliberation
+## Date: 2026-04-26
+## Tags: #multi-agent #deliberation #decision-support #discernment
+## Status: FORGE
+
+---
 
 ## What It Is
-- A "council" framework where multiple AI voices surface tensions and synthesize toward clarity
-- Three modes: discernment, clearness, gathered
-- Built with test-driven development to fix failure modes iteratively
-- Claude-centric (uses Claude for all agent voices)
+2389-research/deliberation is a multi-agent decision-support approach for weighty choices where consensus debates are slow or risky. Reframes problem-solving as gathering diverse perspectives (voices) to discern the right path.
 
-## Key Features
-- **Deliberation:Discernment**: internal voices each speak once, clerk synthesizes toward unity
-- **Deliberation:Clearness**: parallel specialist committee for deep analysis (code review, architecture, research)
-- **Deliberation:Gathered**: participatory with user, structured speaking rules, iterative check-ins
-- Principles: sense of the meeting, speaking once, purposeful silence, standing aside
-- Claude Plugin suite format: `deliberation@2389-research`
+## Key Skills
+- **deliberation:discernment**: internal voices discuss context-relevant perspectives; clerk synthesizes toward unity
+- **deliberation:clearness**: multi-agent committee for parallel, deep analysis (code/architecture decisions)
+- **deliberation:gathered**: participatory discernment with user engagement
 
-## Solomon OS Fit
-- **INTEGRATE** — This is directly applicable to Council of High Intelligence deliberation in Solomon OS
-- Could power the multi-agent review layer for complex business decisions
-- MIT/Apache compatible
+## Principles
+- Sense of the meeting (seek unity, not votes)
+- Speaking once (each perspective contributes once, then listens)
+- Standing aside (disagree without blocking)
+- Way opens (clarity emerges without forcing decisions)
 
-## Stars / Activity
-- New project (2026)
-- Structured methodology is novel — not a simple debate framework
-
-## Links
-- Repo: https://github.com/2389-research/deliberation
-- RD: deliberation-2026-04-25.md (existing)
+## Relevance to Solomon OS / Council of High Intelligence
+- Deliberation framework directly applicable to Council of High Intelligence concept
+- Structured decision-making aligns with Hermes business logic workflows
+- Multi-perspective synthesis valuable for complex client decisions
 
 ## Recommendation
-**INTEGRATE** — deliberation methodology maps well to Solomon business decision workflows. Study and adapt to Hermes.
+**FORGE** — fork for Council of High Intelligence implementation.
