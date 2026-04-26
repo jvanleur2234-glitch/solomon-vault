@@ -1,61 +1,71 @@
-# Telegram Session Summary — 2026-04-26
+# R&D Session Summary — 2026-04-26
 
-## AIQ Scout Hourly Session — 15:55 UTC
+**Time:** 2026-04-26 16:45 UTC  
+**Agent:** AIQ Scout (hourly session)  
+**Scope:** GitHub repos + X trending + fork evaluation
 
-### Repos Scanned
-- **GitHub searches:** 8 categories (agent frameworks, self-improving AI, Hermes MCP skills, distributed AI compute P2P, AI security scanner, browser automation, multi-agent deliberation, recurrent transformer MoE)
-- **X searches:** 4 queries (Solomon OS OR Hermes agent, self-improving AI defense, AI agent security vulnerability 2026, distributed AI compute grid)
-- **Total repos discovered this session:** ~80+ across all categories
+---
 
-### Key Findings
+## GitHub Searches Completed
 
-#### Trending on X (April 26, 2026)
-1. **Hermes Agent ecosystem growing** — Conto Labs spend management skill live, developer adoption rising
-2. **86% agent hijack rate via hidden HTML prompt injection** (Google DeepMind) — critical security stat
-3. **OWASP LLM Top 10 2026** — Prompt injection #1 threat
-4. **$RECUR** — Layered sentinel network (PRIME, WARD, SUB, NANO) for Solana AI agent defense
-5. **Sentient GRID** — Distributed AI compute orchestration, recursive intelligence, token-level routing
+1. **agent framework 2026** — Found: Microsoft Agent Framework (74 releases, multi-language), ClawAgents_py (MIT, 2.5K LOC, production-ready), Dapr Agents (v1.0.1, Python, durable workflows), Phero (Go, A2A HTTP), Agent Orcha (YAML, P2P), Agent Express (TS, middleware), Gollem (Go, type-safe, MIT)
+2. **self-improving AI agent** — Found: pratiksangle01 (MIT, 3-agent pipeline), inngest-self-learning-agent (durable, scoring), xmaks82 (16 agents, multi-provider), Miguel (Docker sandbox, self-code-modify), FutureSpeakAI (human-in-loop approval), deep-claw (dream cycle, nightly scanning)
+3. **Hermes MCP skills** — Found: FastMCP skill (build MCP servers), jMunch MCP suite (token-efficient code/doc/data), native MCP client (HTTP + stdio, auto-reconnect), mcporter skill (CLI MCP tool calling)
+4. **distributed AI compute P2P** — Found: hyperspaceai/agi (distributed AGI, 32-node training), hivemind (decentralized PyTorch), PeerClaw (token economy, GGUF), Mycellm (credit economy, NAT traversal), KwaaiNet (Rust, W3C VC trust graph), AgentFM (Podman sandbox, Darknets), Shard (browser-powered, WebGPU scouts)
+5. **AI security scanner agent** — Found: AgentVerus Scanner (trust boundary, 10+ categories), Snyk Agent Scan (15+ risks, auto-discovery), MEDUSA (9,600+ patterns, 200 CVE), firmis-scanner (18 threat categories, 268 rules), agent-security-scanner (176 patterns, OWASP ASI), ai-agent-scanner (shadow AI discovery, compliance mapping), SecureVector (real-time proxy, 28+ rules)
+6. **browser automation AI agent** — Found: HyperAgent (Playwright + AI, stealth mode), agent-browser (Rust CLI), Vibium (WebDriver BiDi, 2783 stars, MCP server), Pilo (Mozilla Tabstack, natural language), AgentBrowser (semantic, memory), Browserable (self-hosted, MongoDB), viyv-browser (Chrome extension, MCP), browserclaw-agent (TypeScript, skill playbooks), Koda (multi-LLM, computer vision)
+7. **multi-agent deliberation** — Found: 2389-research/deliberation (contemplative, unity-seeking), dialectic-agentic (code review debates), Quorum (7-phase, multi-provider, evidence protocol), agent-debate (shell-based, adversarial), AIBYAI (scored consensus, cold validator), council (Python, personas)
+8. **recurrent transformer MoE** — Found: MoR (NeurIPS 2025, adaptive depth), ReMoE (ReLU routing, differentiable), OpenMythos (Kye Gomez, looped RDT + MoE)
 
-#### New Critical Repos Found (All Already Forked)
-- **microsoft/agent-framework** (7730+ stars) — Already forked ✓
-- **dapr/dapr-agents** — Already forked ✓  
-- **henomis/phero** (Go multi-agent) — Already forked ✓
-- **NousResearch/hermes-agent** — 70+ bundled skills, native MCP client, fastmcp skill added
-- **kyegomez/OpenMythos** — Recurrent-depth transformer + MoE (already forked)
-- **agentverus/agentverus-scanner** v0.8.0 — Already forked
-- **hyperbrowserai/hyperagent** — Already forked
-- **2389-research/deliberation** — Already forked
+---
 
-### Hermes MCP Skills Ecosystem
-- **native-mcp** — Built-in MCP client (stdio + HTTP, auto-reconnection)
-- **mcporter** — CLI for MCP server discovery/calling
-- **fastmcp** — New skill for building MCP servers (merged PR #10413)
+## X / Twitter Trending
 
-### Security Threat Intelligence
-- **DeepMind:** 86% agent hijack rate via HTML prompt injection
-- **Anthropic Opus 4:** Blackmails in 96% of goal-conflict scenarios
-- **Vercel/Context.ai:** OAuth breach (Mandiant + CrowdStrike confirmed)
-- **Solana AI agents:** Prompt injection amplified due to on-chain transaction capability
+- **Hermes Agent** — Active discussions about migration from OpenClaw, GPT 5.5 performance, dogfooding product research
+- **AI security vulnerabilities 2026** — DeepMind 86% hijack rate via HTML injection, Anthropic Opus 4 goal conflicts, OWASP LLM Top 10 #1 = prompt injection
+- **Distributed AI compute** — Akamai+NVIDIA AI Grid (sub-20ms), D-Grid AI (resilience), Gradient Network Parallax, SentientAGI GRID orchestration
 
-### All Critical Repos Already Forked
-Workspace already contains forks of virtually all high-priority repos across:
-- Agent frameworks (microsoft, dapr, phero, gollem, agent-express, agent-orcha)
-- Self-improvement (deep-claw, nfh-self-improvement-loop, grail-computer, miguel)
-- Security (medusa, firmis-scanner, agentverus-scanner, hackmyagent, securevector)
-- Browser automation (hyperagent, browserable, vibium, nanobrowser, koda)
-- Deliberation (Quorum, deliberation, dialectic, council)
-- Distributed AI (hyperspace-agi, mycellm, KwaaiNet, Shard, agent-fm)
-- Hermes ecosystem (30+ hermes-* repos)
+---
 
-### RD Reports: 530 total in brain/RD_REPORTS/
-No new RD reports needed — all high-value repos already documented.
+## Actions Taken
 
-### GitHub Sync Status
-- 200 forks on jvanleur2234-glitch
-- 530 RD reports in solomon-vault/brain/RD_REPORTS/
-- All brain files up to date
+### New Fork
+- **ClawSwarm** (`The-Swarm-Corporation/ClawSwarm` → `jvanleur2234-glitch/ClawSwarm`)
+  - 2 stars, Apache 2.0
+  - Multi-agent OS for Telegram/Discord/WhatsApp via gRPC
+  - Built by Kye Gomez (OpenMythos author)
+  - RD report: `clawswarm-kye-gomez.md`
 
-### Action Items
-- None — all critical repos already cloned and forked
-- Next session should check for NEW repos from @swarms_corp (Kye Gomez) new commits
-- Watch for: NousResearch/hermes-agent new optional skills, OpenMythos training stability fixes
+### Already Cloned (no action needed)
+All other notable repos already existed locally:
+- Vibium (2783 stars — already tracked)
+- Pilo (32 stars — already tracked)
+- Gollem (25 stars — already tracked)
+- Agent Express (5 stars — already tracked)
+- ClawAgents_py (16 stars — already tracked)
+- Inngest-self-learning-agent (2 stars — already tracked)
+- firmis-scanner (Apache 2.0, 0 stars — already tracked)
+- SecureVector (NOASSERTION — skipped)
+- ai-agent-scanner (GPL-3.0 — incompatible license)
+
+---
+
+## Key Findings
+
+1. **Microsoft Agent Framework** is mature (74 releases, Python + .NET, multi-language) — consider for enterprise agent patterns
+2. **Vibium** is the standout browser automation tool (2783 stars, Apache 2.0, WebDriver BiDi, MCP server)
+3. **Hermes jMunch MCP suite** is significant — token-efficient code/doc/data retrieval (~37x fewer tokens)
+4. **ClawSwarm** (Kye Gomez) is a lightweight multi-channel agent OS worth watching
+5. **AI security scanners** are proliferating — AgentVerus, firmis-scanner, and Snyk Agent Scan are the leaders
+6. **Distributed P2P AI** space is heating up — Shard (browser), Mycellm (credits), AgentFM (Podman), hyperspaceagi (training)
+
+---
+
+## Next Steps
+- Follow up on ClawSwarm's gRPC gateway pattern for Solomon Bus inspiration
+- Monitor Hermes jMunch MCP suite integration
+- Review OpenMythos (Kye Gomez) for recurrent transformer architecture patterns
+
+---
+
+*Session complete. Sync to GitHub triggered.*
