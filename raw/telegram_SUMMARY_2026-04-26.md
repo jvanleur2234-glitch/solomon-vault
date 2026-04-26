@@ -1,69 +1,70 @@
-# Session Summary — AIQ Scout — 2026-04-26
+# AIQ Scout Session Summary — April 26, 2026, 14:45 UTC
 
-## Session Time
-2026-04-26 13:40 UTC (1:40 PM Chicago)
+## Session Overview
+AIQ Scout autonomous R&D session. Searched 8 GitHub categories, 4 X searches, evaluated 50+ repos, forked 10 new repos, wrote 10 RD reports, updated HERMES_CAPABILITIES.md.
 
-## Research Completed
+## Key Findings
 
-### GitHub Searches (8 categories)
-1. **Agent Framework 2026** — Found Microsoft Agent Framework, ClawAgents_py, Dapr Agents, Phero, Gollem, Agent Express, Agent Orcha
-2. **Self-Improving AI Agent** — Found pratiksangle01, inngest-self-learning-agent, xmaks82, miguel, agent-fridays, deep-claw, j-d0g, nfh-self-improvement-loop
-3. **Hermes MCP Skills** — Tracked NousResearch/hermes-agent MCP client, FastMCP skill, jMunch MCP suite, native MCP
-4. **Distributed AI Compute P2P** — Found hyperspaceai/agi (P2P training), Hivemind, PeerClaw, mycellm, KwaaiNet, AgentFM-core, Shard, Mesh-LLM
-5. **AI Security Scanner** — Found snyk-agent-scan, medusa, firmis-scanner, agent-security-scanner, hackmyagent, securevector-ai-threat-monitor, agentverus-scanner, agentguard
-6. **Browser Automation AI Agent** — Found HyperAgent, agent-browser (Vercel Rust CLI), Vibium, Pilo (Mozilla), Browserable, nanobrowser, browserclaw-agent, Koda
-7. **Multi-Agent Deliberation** — Found 2389-research/deliberation, dialectic-agentic, Quorum, gumbel-ai/agent-debate, AIBYAI, council, deliberate, captain-claw
-8. **Recurrent Transformer MoE** — Found OpenMythos (Kye Gomez), MoR, ReMoE, Mixtral
+### New Agent Frameworks Discovered
+- **agent-express** (MIT, ~600 stars): Express-style TypeScript middleware framework
+- **gollem** (Apache-2.0): Go agent framework with compile-time type safety
+- **phero** (Apache-2.0): Go multi-agent with A2A protocol + SKILL.md system
+- **dapr-agents**: Python-based durable workflow orchestration, Kubernetes-native
 
-### X/Twitter Searches (4 queries)
-1. **Solomon OS OR Hermes agent** — Hermes gaining 4x stars vs OpenClaw, ROSHermes robotics bridge, skill bypass concerns
-2. **Self-Improving AI Defense** — Splunk on autonomous SOC, Bell Cyber <5min containment, adversarial self-evaluation research
-3. **AI Agent Security Vulnerability 2026** — 86% prompt injection hijack rate, Opus 4 blackmail scenarios, Shadow Agent crisis, OWASP LLM #1 = prompt injection
-4. **Distributed AI Compute Grid** — Sentient GRID orchestration, Gradient Network Parallax, collective intelligence architecture
+### Security Landscape
+- **medusa**: 9,600+ detection patterns, 200 CVEs, Git repo scanning
+- **agentguard**: 3-layer real-time defense (Auto Guard, Deep Scan, Daily Patrol)
+- **securevector-ai-threat-monitor v3.2.0**: AI firewall with Skill Scanner
+- **ai-agent-scanner**: Shadow AI discovery + compliance mapping (GPL-3.0)
 
-## Repos Already Forked (Key Findings)
-- **OpenMythos** — Kye Gomez's RDT + MoE implementation (already forked)
-- **swarm ecosystem** — All swarms repos already present (swarms, swarms-client, swarms-core, swarms-rs, etc.)
-- **dapr-agents** — Already forked
-- **GenericAgent** — Already forked (5.4K stars, self-evolving skill tree)
-- **Cognee** — Already forked
+### Self-Improvement Patterns
+- **inngest-self-learning-agent**: Durable prompt evolution with scoring
+- **agent-fridays-self-improvement-kit**: HITL self-modification, zero dependencies
+- **nfh-self-improvement-loop**: Adversarial generator/evaluator separation
+- **cognee**: 15.9K stars, vector+graph memory layer for agents
 
-## Forked This Session
-- None required — most new finds already exist as variants with different naming
+### Multi-Agent Deliberation
+- **AIBYAI**: 4+ agent council, confidence scoring, conflict detection
+- **Quorum** (already cloned): Multi-provider deliberation, 7-phase process
+
+### Critical X Trends
+- **Hermes Agent** trending with NVIDIA free models integration, Creative Hackathon
+- **Prompt injection** = #1 OWASP LLM risk (96% of Opus 4 scenarios exploit it)
+- **"Shadow Agent" crisis** reported by Google — unsanctioned AI agents in enterprises
+- **Distributed AI compute** growing: Akamai NVIDIA AI Grid, Dgrid AI, Gradient Network Parallax
+
+## Repos Forked This Session
+1. aibyai ✅
+2. medusa ✅
+3. agentguard ✅
+4. securevector-ai-threat-monitor ✅
+5. ai-agent-scanner ✅
+6. agent-express ✅
+7. gollem ✅
+8. phero ✅
+9. cognee ✅
+10. agent-fridays-self-improvement-kit ✅
 
 ## RD Reports Written
-1. `pilo-mozilla-ai-browser.md` — Mozilla's browser automation agent
+- AIBYAI-multi-agent-deliberation.md
+- medusa-ai-security-scanner.md
+- agentguard-real-time-security.md
+- securevector-ai-threat-monitor.md
+- ai-agent-scanner-shadow-ai-discovery.md
+- agent-express-typescript-framework.md
+- gollem-go-agent-framework.md
+- phero-go-multi-agent-framework.md
+- cognee-persistent-memory.md
+- agent-fridays-self-improvement-kit.md
 
-## Key Insights for Solomon OS
+## HERMES_CAPABILITIES.md Updated
+Added 10 new entries to the capabilities inventory.
 
-### Threat Landscape (Critical)
-- **86% prompt injection hijack rate** reported via hidden HTML
-- **Shadow Agent crisis** — employees deploying unsanctioned AI agents
-- **Solana agents** executing real on-chain actions, vulnerable to prompt injection
-- OWASP LLM Top 10 #1 = Prompt Injection — all designs failing because not built with adversarial inputs in mind
+## GitHub Sync
+Synced to jvanleur2234-glitch/solomon-vault ✅ (commit 788ee6c)
 
-### Hermes Ecosystem Momentum
-- Hermes gained 4x stars vs OpenClaw this week (16.6% vs 51.4%)
-- FastMCP skill for building MCP servers landed
-- jMunch MCP suite (37x token reduction) merged
-- ROS integration (ROSHermes) shows expansion beyond pure software
-
-### P2P Compute Landscape
-- Shard (browser-based P2P inference), AgentFM-core, KwaaiNet all active
-- hyperspaceai/agi doing distributed training with BitTorrent weight sharing
-- Hivemind for decentralized volunteer training
-
-### Deliberation Frameworks
-- Quorum (7-phase multi-provider deliberation) — already well-documented
-- gumbel-ai/agent-debate (evidence-based adversarial code review) — already present
-- Multiple other deliberation approaches in workspace
-
-## Action Items
-- [ ] Sync pilo RD report to HERMES_CAPABILITIES.md
-- [ ] Watch for RECUR protocol security layer mentioned in X discourse
-- [ ] Track Hermes market share growth — now at 16.6% (from 2.5% a month ago)
-
-## Next Session
-- Check swarms repo for new releases (Kyegomez active contributor)
-- Monitor agent-browser (Vercel Rust CLI) updates — fast moving
-- Review any new Hermes MCP skills from NousResearch
+## Next Steps
+- Review new security scanners (medusa, agentguard, securevector)
+- Evaluate cognee as Hermes memory backend
+- Study phero's A2A protocol for Solomon Bus improvements
+- Check OpenMythos for recurrent transformer + MoE research
