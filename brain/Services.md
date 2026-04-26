@@ -124,3 +124,12 @@ ESP32-CAM (Solomon Agent) ←→ Local Network ←→ Solomon NAS (storage + AI)
 
 **Privacy moat:** Footage NEVER leaves the home network. Even if someone hacks "Solomon" company, there's nothing to access — all data is local.
 
+## Agent Planning Architecture — Full-Plan-in-Advance (DFS)
+- **Source:** AI Planning Framework for LLM-Based Web Agents (arXiv:2603.12710)
+- **Strategy:** Three planning modes: Step-by-Step (BFS, 38% success), Tree Search (Best-First), Full-Plan-in-Advance (DFS, 89% accuracy)
+- **Solomon Bus:** Now uses Full-Plan-in-Advance for well-defined jobs — generates complete plan BEFORE execution, strictly follows it, replans on divergence
+- **Guardian Gate:** Validates goal BEFORE any task execution — eliminates "misread intent → wrong goal" failure mode
+- **5 Quality Metrics:** Recovery Rate, Trajectory Efficiency, Plan Coherence, Action Validity, Goal Alignment
+- **Plan-as-External-Memory:** For long-horizon tasks, writes plan to disk and re-reads at each step — prevents context drift
+- **Files:** brain/AGENT_PLANNING_ARCHITECTURE.md, brain/SOLOMON_GUARDIAN.md, brain/AGENT_METRICS.md, brain/PLAN_MEMORY.md
+
