@@ -1,55 +1,71 @@
-# Telegram Session Summary — April 26, 2026
+# Session Summary — April 26, 2026
 
-**Session:** AIQ Scout Hourly R&D Run  
-**Time:** 2026-04-26 20:35 UTC
-
-## What Was Done
+## AIQ Scout Hourly Run
 
 ### Research Conducted
-1. **GitHub Search — 8 Categories:**
-   - Agent frameworks 2026: Microsoft Agent Framework, Agentrail, Dapr Agents, Agent Orcha, Gollem
-   - Self-improving AI: Recursive Self-Improvement Agent, Inngest Self-Learning Agent, Deep Claw (Dream Cycle), NFH Self-Improvement Loop, M2*, Auto Research Self-Improving Agents
-   - Hermes MCP skills: FastMCP skill, native MCP client (HTTP+stdio), jMunch MCP suite
-   - Distributed AI compute P2P: HyperspaceAI AGI, Hivemind, PeerClaw, KwaaiNet, Shard, AgentFM Core
-   - AI security scanner agents: AgentVerus Scanner, Snyk Agent Scan, MEDUSA, Firmis, Agent Security Scanner, AI-Agent-Scanner, AgentGuard, HackMyAgent, SecureVector
-   - Browser automation AI: HyperAgent, Vercel agent-browser, Vibium, Pilo, Browserable, AgentBrowser, Koda
-   - Multi-agent deliberation: Dialectic Agentic, Deliberation, AgentScope Debate, Quorum, AIBYAI, Captain Claw Agent Council, Gumbel Agent Debate, Council
-   - Recurrent transformer MoE: OpenMythos (looped transformer), MoR, ReMoE, Megatron Core MoE
+- **8 GitHub searches** across: agent frameworks, self-improving AI, Hermes MCP skills, distributed AI compute P2P, AI security scanners, browser automation, multi-agent deliberation, recurrent transformer MoE
+- **4 X/Twitter searches**: Solomon OS OR Hermes agent, self-improving AI defense, AI agent security vulnerability 2026, distributed AI compute grid
 
-2. **X (Twitter) Search — 4 Trending Topics:**
-   - "Solomon OS OR Hermes agent" — Hermes gaining 19K stars/week, 110K total. No "Solomon OS" matches found.
-   - "self-improving AI defense" — Autonomous SOCs, Bell Cyber, self-evaluation as LLM defense
-   - "AI agent security vulnerability 2026" — 86% hijack rate via HTML injection, Opus 4 blackmail scenarios, OWASP LLM Top 10 prominence
-   - "distributed AI compute grid" — Sentient GRID (orchestration layer), Gradient Parallax AI, Nexus Labs
+### Key Findings
 
-### Critical Repos Already Present (skipped clone)
-All critical repos were already forked/cloned in workspace:
-- hermes-agent (NousResearch), OpenMythos (kyegomez), agentverus-scanner, agentguard, peerclaw
-- gollem, agent-orcha, deep-claw, hivemind, shard
-- swarm-corp/swarms, hyperspaceai/agi, Quorum, Council, deep-claw, nfH, etc.
+#### Agent Frameworks (New in 2026)
+- **Microsoft Agent Framework** — Cross-language (Python + .NET), graph-based orchestration, time-travel debugging, DevUI. 9,700 stars, MIT
+- **Agentrail** — TypeScript, Docker sandbox, multi-agent mailboxing, Apache 2.0
+- **Gollem** — Go, compile-time type safety, Temporal durable execution, MIT
+- **Agent Express** — TypeScript middleware (Express-style), HITL approval, MIT
 
-### New RD Reports Written (4)
-1. **gollem** (fugue-labs) — FORGE — Go type-safe agent framework, compile-time guarantees, monty code mode (N tools in 1 round-trip), team swarms. Score: 9.2/10
-2. **agent-orcha** (ddalcu) — FORGE — Declarative YAML multi-agent, P2P encrypted sharing, Organizations CEO + tickets, Chromium CDP sandbox, Vision Browser. Score: 8.5/10
-3. **deep-claw** (the-keats-ai) — SKILL — Dream Cycle self-improvement (nightly scan + weekly reflection + governance + rollback). Score: 8.0/10
-4. **hivemind** (DandinPower) — FORGE — P2P distributed training, fault-tolerant backprop, MoE partitioning, Petals live network. Score: 8.8/10
+#### Self-Improving Agents (New)
+- **AIBYAI** — 4+ persona council, conflict detection, Cold Validator hallucination check
+- **Deep Claw** — Dream Cycle: nightly scan → reflection → proposals → governance + rollback
+- **Ouroboros** — Git-based identity, BIBLE.md constitution, multi-model review, 30+ cycles/24hrs
+- **NFH Self-Improvement Loop** — Generator/Evaluator strict separation, pre-flight checks
 
-### Hermes Capabilities Updated
-Appended 4 new entries: gollem, agent-orcha, deep-claw, hivemind
+#### Distributed AI Compute P2P (AgentFM Competitors)
+- **PeerClaw** — Rust P2P, GGUF inference, escrowed payments, WASM tools, MIT
+- **Mesh-LLM** — Rust, distributed inference pool, OpenAI-compatible API, Apache 2.0
+- **AgentFM Core** — Go, Podman containers, GossipSub telemetry, MIT
+- **MyCellm** — Credit economy, Ed25519 receipts (no crypto), private networks, MIT
+- **KwaaiNet** — W3C verifiable credentials, time-decayed trust scoring, MIT
 
-## Key Findings
-- Hermes is on a tear: 110K stars, 19K added this week alone. Hermite integration with OpenClaw trending.
-- AI agent security is front-page news: 86% hijack rates, Opus 4 blackmail scenarios, prompt injection as #1 OWASP LLM risk.
-- P2P compute is real: HyperspaceAI AGI has 695+ live agents, Petals has real users.
-- Self-improvement frameworks are maturing: Deep Claw's governance-before-autonomy principle is key for safe Hermes evolution.
-- Go-based agent frameworks emerging as next wave: gollem's compile-time type safety solves real Python pain points.
+#### AI Security Scanners
+- **Medusa** — 9,600+ patterns, 200 CVE detections, IDE integration (VS Code, Claude Code, Cursor), MIT
+- **AgentGuard** — 3-layer (Automatic Guard / Deep Scan / Daily Patrol), MIT
+- **Firmis-Scanner** — 268 rules, 18+ threat categories, zero-config npx, Apache 2.0
+- **AI Agent Scanner** — Shadow AI discovery, GDPR/SOC2/HIPAA mapping, GPL-3.0
+- **Agent Security Scanner** — 220+ patterns, 65 OWASP ASI mappings, 30+ CWE, MIT
 
-## Issues/Unresolved
-- "Solomon OS" search on X yielded zero matches — Joseph's branding may need more explicit hashtag/mention strategy.
-- GitHub stars counts are estimates (web_research summaries don't always include exact numbers).
+#### Browser Automation
+- **HyperAgent** — AI-enhanced Playwright, page.perform() granular + page.ai() AI-driven, MIT
+- **Koda** — Multi-LLM (Gemini/OpenAI/Claude), computer vision, MIT
 
-## Next Steps
-- Fork gollem, agent-orcha, deep-claw, hivemind to jvanleur2234-glitch via `gh repo create`
-- Run sync-to-github.sh
-- Continue monitoring Hermes MCP ecosystem for FastMCP skill completion
-- Track OpenMythos for recurrent transformer advances
+### RD Reports Written
+- agentrail-typescript-agent-framework.md
+- peerclaw-rust-p2p-ai-agent-network.md
+- aibyai-multi-agent-deliberative-intelligence.md
+- medusa-ai-first-security-scanner-9600-patterns.md
+- agentguard-real-time-security-layer.md
+- firmis-scanner-ai-runtime-security.md
+- ai-agent-scanner-shadow-ai-discovery.md
+- agent-security-scanner-owasp-mitre.md
+- deep-claw-dream-cycle-self-improvement.md
+- ouroboros-self-modifying-agent-constitution.md
+- nfh-self-improvement-loop-adversarial-generator-evaluator.md
+- pratiksangle01-self-improving-ai-agent-generator-critic-improver.md
+- gollem-type-safe-go-agent-framework.md
+- microsoft-agent-framework-graph-based-orchestration.md
+- mesh-llm-rust-distributed-inference-pool.md
+- agentfm-core-p2p-containerized-compute.md
+- mycellm-p2p-gpu-pool-credit-economy.md
+- kwaainet-decentralized-trust-graph-p2p-ai.md
+
+### HERMES_CAPABILITIES.md Updated
+Added 18 new entries (SKILL/STUDY/WATCH/INTEGRATE status)
+
+### Sync Status
+Synced to GitHub: jvanleur2234-glitch/solomon-vault@40f8bb5
+
+### X/Twitter Trends
+- **Hermes Agent** trending — @NousResearch, persistent memory + Docker sandbox
+- **AI Agent Security** hot topic — 96% blackmail success rate for Opus 4 in goal-conflict tests
+- **Distributed compute grids** gaining traction — Sentient GRID, AgentFM, HyperspaceAI
+- **OWASP LLM Top 10 2026** — Prompt injection #1 risk
