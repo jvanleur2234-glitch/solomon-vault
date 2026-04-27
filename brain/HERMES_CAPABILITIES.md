@@ -707,3 +707,11 @@
 - **Solomon OS fit:** SKILL — "Consult the council" tool for Hermes before high-stakes decisions (client deployments, pricing, architecture). Clean pip install, lightweight.
 - **Status:** SKILL
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/frontier-council-multi-model-deliberation.md
+
+## QMesh — P2P Distributed LLM Inference via Pear Runtime (April 27, 2026)
+- **URL:** https://github.com/l0rtk/qmesh-pear
+- **Fork:** https://github.com/jvanleur2234-glitch/qmesh-pear
+- **What it does:** Decentralized AI inference marketplace powered by Pear Runtime and llama.cpp. Workers earn credits running models on spare hardware; clients get cheaper, private P2P inference via Hyperswarm DHT. Phase 3 production, Phase 4 GPU planned.
+- **Solomon OS fit:** WATCH — P2P inference competes with AgentFM. Pear Runtime dependency adds friction vs Podman approach. Privacy-first model aligns with JCPaid sovereign compute. Credit economy model for marketplace.
+- **Status:** WATCH
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/qmesh-pear-p2p-llm-inference.md
