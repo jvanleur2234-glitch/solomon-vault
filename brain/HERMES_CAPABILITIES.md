@@ -528,3 +528,31 @@
 - **Status:** FORGE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/xmaks82-self-improving-agent.md
 >>>>>>> 5f9d0e9 (Auto-sync 2026-04-27 00:46)
+
+## Gollem — Type-Safe Go Agent Framework (April 26, 2026)
+- **URL:** https://github.com/fugue-labs/gollem
+- **What it does:** Compile-time type-safe Go agent framework. Generic Agent[T], multi-provider (Anthropic/OpenAI/Vertex/Gemini), structured output, N-tool-call-in-1-roundtrip via monty WASM, guardrails, cost tracking, middleware chain, team swarms, graph workflows, MCP client, Temporal durable execution. MIT.
+- **Solomon OS fit:** FORGE — Core agent runtime for Solomon OS backend. Go single-binary = zero-dependency Hermes tools. Type safety prevents runtime crashes. Multi-agent team swarms map to Solomon Bus orchestration.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/fugue-labs-gollem.md
+
+## Agent Orcha — Declarative YAML Multi-Agent Framework (April 26, 2026)
+- **URL:** https://github.com/ddalcu/agent-orcha
+- **What it does:** YAML-declarative multi-agent AI. P2P encrypted agent/LLM sharing, Organizations + CEO agent + tickets, MCP integration, SQLite+vec knowledge graph, Chromium CDP browser sandbox, Vision Browser for pixel-coordinate control. MIT.
+- **Solomon OS fit:** FORGE — Declarative workflow engine for AI Employee Agency deliverables. P2P sharing = AgentFM competitor. Organizations CEO mirrors Solomon Heartbeat. Browser sandbox = Solomon Browser foundation.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/ddalcu-agent-orcha.md
+
+## Deep Claw — Dream Cycle Self-Improvement Framework (April 26, 2026)
+- **URL:** https://github.com/the-keats-ai/deep-claw
+- **What it does:** Structured autonomous self-improvement. Dream Cycle: nightly scan → weekly reflection → citation-backed proposals → governance + rollback. Production-grade, running in production for weeks. MIT.
+- **Solomon OS fit:** SKILL — Study for Hermes self-improvement skill architecture. Governance layer = core for autonomous skill evolution. Citation-based reflection prevents hallucinated self-assessment.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/the-keats-ai-deep-claw.md
+
+## Hivemind — Decentralized P2P Deep Learning (April 26, 2026)
+- **URL:** https://github.com/DandinPower/hivemind
+- **What it does:** PyTorch P2P distributed training across thousands of nodes. DHT peer discovery, fault-tolerant backprop, decentralized averaging, MoE model partitioning. Powers Petals live network. MIT.
+- **Solomon OS fit:** FORGE — Solomon Air distributed inference foundation. P2P volunteer compute grid matches AgentFM. DiLoCo compression for distributed Hermes model training. Live Petals proves viability.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/DandinPower-hivemind.md
