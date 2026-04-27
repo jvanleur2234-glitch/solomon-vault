@@ -1,33 +1,28 @@
-# RD Report: gollem — Compile-Time Safe Go Agent Framework
+# Gollem — Production Agent Framework for Go (Apr 27, 2026)
 
-**Original:** `fugue-labs/gollem` | **License:** Apache-2.0 | **Stars:** ~500+ | **Lang:** Go
+**Fork:** `jvanleur2234-glitch/gollem-fresh` (MIT)
+**Source:** https://github.com/fugue-labs/gollem
 
-## What It Is
-Production-grade Go agent framework emphasizing compile-time type safety and zero-cost abstractions. Built for type-safe agents with structured output, multi-provider streaming, guardrails, and multi-agent orchestration.
+## What It Does
+Production-grade Go agent framework with compile-time type safety and zero core dependencies.
 
-## Key Capabilities
-- Compile-time guarantees: output schemas, tool parameters, guardrails, middleware, event subscriptions
-- Streaming: real-time token streaming via iter.Seq2, node-by-node agent looping
-- Tooling: FuncTool[P] for typed tools from Go functions, 50+ composable primitives
-- Guardrails: input/turn guards, tool result validators, output repair
-- Observability: structured run traces, pluggable exporters, OpenTelemetry integration
-- Multi-provider: Anthropic, OpenAI, Google, Vertex AI
-- Single binary, no runtime dependencies
+**Key features:**
+- Generic `Agent[T]` with compile-time output schema validation
+- 5+ LLM providers (Anthropic, OpenAI, Google Gemini, Vertex AI)
+- `FuncTool[P]` — tools from typed Go functions with reflection-based JSON Schema
+- Streaming via Go 1.23+ `iter.Seq2`
+- Guardrails: input validation, turn limits, tool result validators, output auto-repair
+- OpenTelemetry middleware + structured run traces
+- Agent middleware chains (Logging, Timing, MaxTokens)
 
-## Relevance to Solomon OS
-- **Infrastructure:** Go-based agent for high-performance needs
-- **Security:** Compile-time safety prevents production errors
-- **Performance:** Zero-cost abstractions, efficient streaming
+## Why It Matters for Solomon OS
+- Go = single binary deployment, no runtime errors — fits JCPaid infrastructure needs
+- Compile-time type safety eliminates Python-class runtime bugs in production
+- Multi-provider routing matches Hermes model-agnostic design
 
-## Threat Analysis
-- Apache-2.0 licensed, clean
-- Go = excellent for production services
-- Compile-time safety is architecturally sound
+## Fit: INTEGRATE
+MIT licensed. Good architectural reference for Go-based Hermes tools or standalone agents. 561+ tests, active development (v0.3.1 March 2026).
 
-## Integration Path
-```
-RESEARCH: gollem → Study compile-time safety patterns for Hermes improvements
-USE CASE: High-performance agent components in Go for compute-intensive tasks
-```
-
-**Recommendation:** SKILL — Study Go patterns for high-performance agent components. Not immediate priority for Hermes (Python), but gollem's compile-time safety philosophy is valuable.
+## Action Items
+- [ ] Already forked — confirm gollem-fresh is current
+- [ ] Study guardrail implementation for Hermes security layer

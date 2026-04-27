@@ -677,3 +677,17 @@
 - **Solomon OS fit:** WATCH — Trust graph for distributed AI compute selection. W3C credentials for enterprise compliance.
 - **Status:** WATCH
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/kwaainet-decentralized-trust-graph-p2p-ai.md
+
+## Agent Orcha — Declarative YAML Multi-Agent + P2P Sharing (April 27, 2026)
+- **URL:** https://github.com/ddalcu/agent-orcha
+- **Fork:** Already forked (`jvanleur2234-glitch/agent-orcha-fresh`)
+- **What it does:** Declarative YAML orchestration. Model-agnostic (OpenAI/Gemini/Anthropic/local). P2P agent/LLM sharing — encrypted, no central server. Native desktop apps + browser Studio. MCP native. MIT v2026.409.
+- **Solomon OS fit:** INTEGRATE — P2P sharing competes with AgentFM. YAML config = operator-friendly for JCPaid clients. Desktop app + browser studio for multiple UX options.
+- **Status:** INTEGRATE
+
+## AIBYAI — Multi-Agent Deliberative Platform with Confidence Metrics (April 27, 2026)
+- **URL:** https://github.com/Yash-Awasthi/aibyai
+- **Fork:** Already forked (`jvanleur2234-glitch/aibyai-fresh`)
+- **What it does:** 4+ agents (Empiricist, Strategist, Historian, Skeptic) argue/critique with consensus scoring (0.6×Agreement + 0.4×PeerRanking). Conflict detection, Cold Validator for hallucinations, topic graph memory with decay. TypeScript, MIT.
+- **Solomon OS fit:** INTEGRATE — Confidence metrics on deliberation outputs. Topic graph memory aligns with Hermes persistent memory. Conflict detection for tool-calling consistency.
+- **Status:** INTEGRATE

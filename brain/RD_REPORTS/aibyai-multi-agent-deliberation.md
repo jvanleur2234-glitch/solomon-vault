@@ -1,37 +1,27 @@
-# RD Report: Yash-Awasthi/aibyai
+# AIBYAI — Multi-Agent Deliberative Intelligence Platform (Apr 27, 2026)
 
-**Fork:** https://github.com/jvanleur2234-glitch/aibyai
+**Fork:** `jvanleur2234-glitch/aibyai-fresh` (MIT)
 **Source:** https://github.com/Yash-Awasthi/aibyai
-**Stars:** ~500+ | **License:** MIT | **Language:** TypeScript (React + Fastify + PostgreSQL + Redis)
-**Date:** 2026-04-24
 
-## What It Is
-AIBYAI is a multi-agent deliberative platform where 4+ AI agents debate, critique, and score each other's claims to produce a trusted consensus rather than a single model's answer. Uses Conflict Detector, Synthesizer, and Validators.
+## What It Does
+TypeScript platform where 4+ AI agents (Empiricist, Strategist, Historian, Skeptic) actively argue, critique, and score consensus with interpretable confidence metrics.
 
-## Key Capabilities
-- Parallel multi-agent analysis (OpenAI, Anthropic, Gemini, Groq)
-- Conflict detection and peer critique loop
-- Synthesizer with reliability weighting
-- Cold validator to catch hallucinations
-- Confidence score with breakdown per query
-- Cost awareness per query
+**Key features:**
+- Multi-provider orchestration (OpenAI, Anthropic, Gemini, Groq)
+- Conflict detection + resolution between agents
+- Cold Validator checks for hallucinations
+- Topic graph memory with decay
+- Consensus scoring: 0.6 × Agreement + 0.4 × PeerRanking
 
-## Architecture
-- **Empiricist:** Factual analysis
-- **Strategist:** Planning/decision support
-- **Historian:** Historical context
-- **Skeptic:** Devil's advocate
-- **Conflict Detector:** Compares pairwise claims
-- **Synthesizer:** Merges results
-- **Cold Validator:** Hallucination detection
+## Why It Matters for Solomon OS
+- Confidence metric on multi-agent outputs = higher trust for JCPaid client deliverables
+- Topic graph memory aligns with Hermes persistent memory architecture
+- Conflict detection could prevent tool-calling conflicts in Hermes
 
-## Relevance to Solomon OS
-- **Multi-agent deliberation:** Quorum-style but with conflict detection + validation pipeline
-- **Confidence scoring:** Could power Hermes "uncertainty" awareness
-- **MIT license:** Permits direct commercial use
+## Fit: INTEGRATE
+MIT licensed. Strong fit for Hermes deliberation layer. Quorum and Council already forked — this adds a 3rd deliberation variant.
 
-## Recommendation
-**SKILL** — Deliberation pattern worth studying. The conflict detection + cold validation pipeline is sophisticated. Could enhance Hermes skill validation with adversarial multi-agent review.
-
-## License Check
-MIT ✅
+## Action Items
+- [ ] Fork to jvanleur2234-glitch
+- [ ] Compare with Quorum and Council implementations
+- [ ] Extract conflict detection pattern for Hermes
