@@ -1,30 +1,39 @@
-# RD Report: xmaks82-self-improving-agent
+# RD Report: xmaks82/self-improving-agent
+
+**Date:** April 26, 2026  
+**Fork:** Check workspace  
+**License:** MIT  
+**Language:** Python  
 
 ## What It Is
-**Self-Improving AI Agent** — 16-agent pipeline that permanently evolves prompts based on user feedback. AnalyzerAgent + VersionerAgent generate improved system prompts (v1→v2→v3). 5 auto-selected sub-agents (CodeReviewer, TestWriter, Debugger, Researcher, Refactorer). VerificationAgent runs adversarial testing after 3+ file edits. 6 free LLM providers (Groq, SambaNova, Cerebras, OpenRouter, Zhipu, Anthropic).
+Self-improving multi-agent system that permanently evolves from user feedback. 16 interconnected agents in a pipeline. System prompts versioned (v1 → v2 → v3) based on continuous feedback.
 
-## License & Stars
-MIT licensed. ~200 stars estimated from badge reference.
+## Architecture (16 agents)
+- MainAgent, AnalyzerAgent, VersionerAgent
+- 5 sub-agents: CodeReviewer, TestWriter, Debugger, Researcher, Refactorer
+- VerificationAgent, ExploreAgent, PlanAgent
+- ForkManager, AgentOrchestrator
+- SessionMemory, ContextCompactor, FeedbackDetector
 
-## Why It Matters for Solomon OS
-- **DIRECT COMPETITOR** to OpenMythos self-evolution — both are self-improving agents
-- 16-agent architecture for specialized task delegation = matches Solomon's multi-agent orchestration vision
-- Permanent prompt evolution (not just logging) = true self-improvement
-- 6 free LLM providers = cost-effective for client deployments
-- VerificationAgent (adversarial testing after edits) = quality gate before output
-- Secret Scanner for team memory = security for shared context
-- Permission system with auto-approve reads = safe bash execution
+## Core Loop
+1. User feedback triggers FeedbackDetector
+2. Analyzer analyzes logs and hypotheses
+3. Versioner creates improved system prompt
+4. New prompt version saved and used
 
-## What We'd Use It For
-The self-improvement loop (Analyzer→Versioner→prompt evolution) is the core pattern to steal for Hermes self-evolution. The VerificationAgent adversarial testing model maps to JCPaid's quality assurance workflow. Secret scanner in team memory = security feature for Solomon's shared brain.
+## Key Features
+- **6 free LLM providers:** Groq, SambaNova, Cerebras, OpenRouter, Zhipu, Anthropic
+- **13 core tools:** Filesystem, git, shell, search, web
+- **6-layer Bash security:** Read-before-edit discipline
+- **Secret scanner:** Detects credentials before sharing
 
 ## Solomon OS Fit
-**FORGE** — the self-improvement loop is directly implementable in Hermes. Clone the 16-agent architecture patterns and adapt for Solomon's skill framework. MIT license permits direct use.
+**SKILL** — 16-agent pipeline architecture is ambitious. The VersionerAgent (creates improved system prompt) is exactly what our Hermes evolution loop needs. Free LLM providers means it can run without expensive API keys.
 
-## Risk / Caveats
-- Python 3.12+ required
-- Multiple LLM providers needed for full functionality
-- 16-agent pipeline may be complex to integrate piecemeal
+## Unique Value
+- Permanent prompt evolution (v1 → v2 → v3)
+- 16 interconnected agents show complex orchestration
+- Secret scanner for security
 
 ## Action
-Fork to jvanleur2234-glitch ✅ (done). Extract the Analyzer→Versioner self-improvement loop pattern. Integrate into Hermes self-evolution system.
+Clone. Write RD report. Study VersionerAgent for Hermes evolution loop.

@@ -1,34 +1,27 @@
-# RD Report: inngest-self-learning-agent — Durable Self-Learning Agent
+# RD Report: inngest/inngest-self-learning-agent
 
-**Original:** `inngest/inngest-self-learning-agent` | **License:** MIT | **Stars:** ~500+ | **Lang:** TypeScript
+**Date:** April 26, 2026  
+**Fork:** Check workspace  
+**License:** MIT  
+**Language:** TypeScript/Node.js  
 
 ## What It Is
-Durable self-learning AI agent built with Inngest + pi-ai. Think/act/observe loop, scores responses (relevance, completeness, tool efficiency, tone), automated evaluation pipeline rewrites and promotes better prompts.
+A durable AI agent built with Inngest and pi-ai that experiments with its own prompts over time. Runs think/act/observe loop, scores responses after the fact, uses scheduled evaluation jobs to create/test/promote better behavioral prompts.
 
-## Key Capabilities
-- Self-improving prompts with versioning + A/B testing
-- Post-response scoring + attribution to prompt versions
-- Guardrails to prevent gaming scoring system
-- Evaluation pipeline: rewrites underperforming prompts, promotes stronger ones
-- Blocking mechanisms to avoid prompt optimization for the test itself
-- Sub-agents + multi-channel (Slack, Telegram, etc.)
-- Durable, async workflow with retries + singleton concurrency
-- Local processing via Inngest-driven orchestration
+## Key Features
+- **Self-evaluation loop:** Think → Act → Observe → Score
+- **Prompt versioning:** A/B testing of behavioral prompts
+- **Automated evaluation pipeline:** Promotes stronger prompt versions
+- **Guardrails:** Prevents scoring criteria from leaking into behavior
+- **Multi-channel:** Telegram/Slack → Inngest Cloud → WebSocket → Local Worker → LLM
+- **Sub-agents:** Task delegation, multi-channel support
+- **LLM compatibility:** Anthropic/OpenAI/Google
 
-## Relevance to Solomon OS
-- **Self-Improvement:** Automated prompt evolution from feedback
-- **Scoring:** Multi-dimensional quality scoring for agent outputs
-- **A/B Testing:** Prompt version experimentation
+## Key Innovation
+Agent can rewrite prompts and embed scoring criteria into outputs, with guardrails preventing test-target gaming.
 
-## Threat Analysis
-- MIT licensed, Inngest (credible vendor)
-- TypeScript, active development
-- Durable execution pattern = production-grade
+## Solomon OS Fit
+**SKILL** — Self-learning agent with prompt versioning directly applicable to Hermes evolution loop. The guardrails preventing "scoring criteria leakage" is a critical insight for safe self-improvement. The Inngest event-driven architecture could inspire our agent workflow design.
 
-## Integration Path
-```
-SKILL: self-learning-agent → Hermes self-improvement with scoring + evaluation
-USE CASE: Agents that learn from every interaction and improve prompts automatically
-```
-
-**Recommendation:** FORGE — Self-learning pattern with scoring + evaluation. Inngest provides durable execution. Aligns with Evolver patterns. Add to self-evolution stack.
+## Action
+Clone. Write RD report. Add to HERMES_CAPABILITIES.md.

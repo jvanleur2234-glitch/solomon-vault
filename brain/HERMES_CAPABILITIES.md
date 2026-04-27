@@ -448,6 +448,7 @@
 - **Solomon OS fit:** SKILL — Study durable self-improvement loop for Hermes evolution.
 - **Status:** SKILL
 
+<<<<<<< HEAD
 
 ## ClawSwarm — Kye Gomez Multi-Agent OS (April 26, 2026)
 - **URL:** https://github.com/The-Swarm-Corporation/ClawSwarm
@@ -456,3 +457,74 @@
 - **Solomon OS fit:** SKILL — Study gRPC gateway + hierarchical swarm for Solomon Bus. Claude Code as tool for Hermes Developer mode.
 - **Status:** SKILL
 
+=======
+## Microsoft Agent Framework — Graph-Based Multi-Language Orchestration (April 26, 2026)
+- **URL:** https://github.com/microsoft/agent-framework
+- **What it does:** Cross-language (Python + .NET/C#) graph-based agent orchestration. Streaming, checkpointing, human-in-the-loop, time-travel. DevUI interactive debugger. AF Labs experimental features. 120+ contributors, 74 releases. MIT.
+- **Solomon OS fit:** SKILL — Study graph-based orchestration for Hermes workflow design. Microsoft's scale makes this influential for industry standards.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/microsoft-agent-framework.md
+
+## Phero — Go Multi-Agent Framework with A2A Protocol (April 26, 2026)
+- **URL:** https://github.com/henomis/phero
+- **What it does:** Go-first multi-agent AI. A2A protocol for inter-agent HTTP, SKILL.md pattern (Hermes-compatible), MCP, RAG (Qdrant/pgvector/Weaviate), memory management, tool guardrails (blocklist/allowlist/timeouts). Apache 2.0.
+- **Solomon OS fit:** SKILL — Go patterns for high-performance Hermes backend. A2A protocol for Solomon Bus v2. SKILL.md ecosystem alignment.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/phero-go-multi-agent-framework.md
+
+## Snyk Agent Scan v0.4.17 — Enterprise AI Agent Security Scanner (April 26, 2026)
+- **URL:** https://github.com/snyk/agent-scan
+- **What it does:** Auto-discovers + scans MCP servers, agent skills across 15+ risk types (Prompt Injection, Tool Poisoning, Malware Payloads, Hardcoded Secrets). Scans: Windsurf, Cursor, Claude Desktop/Code, Gemini CLI, OpenClaw, Amazon Q, Codex. MIT, v0.4.17.
+- **Solomon OS fit:** INTEGRATE — Enterprise security scanner. Snyk brand = credibility. Risk taxonomy validates AgentArmor Studio categories.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/snyk-agent-scan-security-scanner.md
+
+## AgentVerus Scanner v0.7.1 — Trust Boundary Security Scanner (April 26, 2026)
+- **URL:** https://github.com/agentverus/agentverus-scanner
+- **What it does:** Security + behavioral trust scanner for AI agent skills. Detects prompt injection, data exfiltration, 10 threat categories. Capability contract checks (declared vs inferred). Workspace config tampering detection (AGENTS.md/CLAUDE.md modification). MIT, v0.7.1.
+- **Solomon OS fit:** INTEGRATE — Trust contract checking for AgentArmor Studio Layer 3. Workspace tampering detection aligns with Hermes hardening.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentverus-agentverus-scanner.md
+
+## HyperspaceAI/agi — First Distributed P2P AGI System (April 26, 2026)
+- **URL:** https://github.com/hyperspaceai/agi
+- **What it does:** P2P AGI with 695+ live agents. DiLoCo training (195x compression), Pods (private AI clusters), A1 blockchain for micropayments, BitTorrent weight distribution. 32-node model training demo. MIT.
+- **Solomon OS fit:** FORGE — AgentFM competitor with live network. DiLoCo compression for distributed Hermes training. Blockchain micropayment model for JCPaid compute marketplace.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/hyperspaceai-agi-distributed-agid.md
+
+## Pratiksangle Self-Improving AI Agent — Generator/Critic/Improver Loop (April 26, 2026)
+- **URL:** https://github.com/pratiksangle01/self-improving-ai-agent
+- **What it does:** Python multi-agent self-improvement loop. Generator→Critic→Improver pipeline. 5-dimension scoring (Completeness 30%, Clarity 25%, Logic 20%, Specificity 15%, Tone 10%). Rule-based or API mode. MIT.
+- **Solomon OS fit:** SKILL — Quality rubric for Hermes skill evaluation. Rule-based mode = standalone quality checker in AgentArmor Studio.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/pratiksangle01-self-improving-ai-agent.md
+
+## ClawAgents_py — Production Python Agent Framework (April 26, 2026)
+- **URL:** https://github.com/x1jiang/clawagents_py
+- **What it does:** Production-ready Python agent framework. OpenClaw + DeepAgents patterns. Built-in planning, memory, sandboxing, gateway server. Multi-provider (GPT-5, Gemini, Claude). MIT, v6.6.0.
+- **Solomon OS fit:** SKILL — Study OpenClaw patterns for Hermes skill design. MIT license allows building on this.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/x1jiang-clawagents_py.md
+
+## Deliberation — Multi-Voice Quorum-Style Quorum (April 26, 2026)
+- **URL:** https://github.com/2389-research/deliberation
+- **What it does:** Claude-based multi-voice deliberation (discernment, clearness, gathered). Quaker-inspired sense-of-meeting process (seek unity, not votes). MIT.
+- **Solomon OS fit:** SKILL — Ethical trade-off deliberation for Solomon OS governance. Claude-native skills = easy Hermes integration.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/2389-research-deliberation.md
+
+## Council — Python Multi-Agent Debate Framework (April 26, 2026)
+- **URL:** https://github.com/dubs3c/council
+- **What it does:** Python multi-agent debate to consensus. 4-phase pipeline: Input→Proposal→Debate→Consensus. Persona-based (Architect, Critic, AppSec Specialist). Markdown reports with full transcripts. MIT.
+- **Solomon OS fit:** SKILL — Python debate with security persona. 4-phase pipeline maps to Hermes governance. Security-specialist persona for AgentArmor Studio Layer 8.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/dubs3c-council-python-debate.md
+
+## Xmaks Self-Improving Agent — 16-Agent Permanent Prompt Evolution (April 26, 2026)
+- **URL:** https://github.com/xmaks82/self-improving-agent
+- **What it does:** 16 interconnected agents. System prompts versioned (v1→v2→v3) from user feedback. VersionerAgent creates improved prompts. 6 free LLM providers. 6-layer bash security, secret scanner. MIT.
+- **Solomon OS fit:** FORGE — Fork and adapt as Hermes self-improvement skill. VersionerAgent = Hermes evolution loop core. Free LLM = cheap Solomon OS agents.
+- **Status:** FORGE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/xmaks82-self-improving-agent.md
+>>>>>>> 5f9d0e9 (Auto-sync 2026-04-27 00:46)

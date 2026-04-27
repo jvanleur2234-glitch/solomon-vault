@@ -1,31 +1,26 @@
-# RD Report: Microsoft Agent Framework
+# RD Report: microsoft/agent-framework
 
-**Repo:** `microsoft/agent-framework`  
-**URL:** https://github.com/microsoft/agent-framework  
+**Date:** April 26, 2026  
+**Forked:** No (already exists in workspace)  
+**Forked to:** N/A  
 **License:** MIT  
-**Stars:** 120+ contributors, active  
-**Date:** 2026-04-26
+**Stars:** ~120 contributors, active (latest python-1.1.0, 2026-04-21)  
 
 ## What It Is
-Multi-language framework (Python + .NET/C#) for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based orchestration with streaming, checkpointing, human-in-the-loop, and time-travel support.
+Cross-language (Python + .NET/C#) framework for building, orchestrating, and deploying AI agents and multi-agent workflows. Graph-based orchestration, streaming, checkpointing, human-in-the-loop, time-travel capabilities.
 
 ## Key Capabilities
-- Graph-based workflows with streaming and checkpointing
-- Human-in-the-loop and time-travel support
-- DevUI for interactive development/testing/debugging
-- Cross-language: consistent Python + .NET APIs
-- AF Labs for benchmarking, RL, research features
-- MIT licensed
-- Latest release: Python-1.1.0 (Apr 2026)
+- **Graph-based workflows:** Agents and deterministic functions linked in directed graphs
+- **AF Labs:** Experimental features (benchmarking, RL, research)
+- **DevUI:** Interactive agent development, testing, debugging
+- **Migration path:** From Semantic Kernel and AutoGen
+- **Weekly office hours + Discord**
 
-## Relevance to Solomon OS
-**MEDIUM** — Microsoft's official agent framework. Large-scale enterprise adoption potential. Graph-based orchestration pattern is relevant for Hermes multi-agent workflows.
+## Solomon OS Fit
+**SKILL** — Study Microsoft Agent Framework's graph-based orchestration for Hermes workflow design. DevUI component is interesting for debugging agent runs. Large enterprise backing means it will influence industry standards.
 
-## Use Case for JCPaid
-Enterprise customers may want Microsoft Agent Framework compatibility. Hermes could expose MCP interface to Microsoft AF workflows.
+## Threat/Competitor
+Competitor to our agent orchestration. Microsoft's scale means they could become the dominant enterprise agent framework — important to monitor their skill/MCP integration patterns.
 
-## Verdict
-**MONITOR** — Watch for enterprise adoption trends. Not immediate priority for fork.
-
-## Action Taken
-Already cloned in workspace.
+## Action
+Monitor. Study graph-based orchestration patterns. Do NOT fork (already exists locally).

@@ -1,24 +1,30 @@
-# Self-Improving AI Agent by pratiksangle01
+# RD Report: pratiksangle01/self-improving-ai-agent
 
-**Date:** 2026-04-26  
-**Slug:** pratiksangle01-self-improving-ai-agent  
-**Category:** Self-Improvement  
+**Date:** April 26, 2026  
+**Forked:** Already in workspace  
 **License:** MIT  
-**Stars:** ~300 (est.)  
-**Forked:** Yes (`jvanleur2234-glitch/self-improving-ai-agent-pratik`)
+**Language:** Python  
 
-## What it is
-Python multi-agent system with Generator → Critic → Improver loop. Scores outputs on 5 dimensions (Completeness, Clarity, Logic, Specificity, Tone) with 0–10 scale. Weighted final score drives iterative improvement until threshold is met.
+## What It Is
+Python-based multi-agent system that autonomously improves output through self-reflection and iterative optimization. Three-agent pipeline: Generator → Critic → Improver.
 
-## Key Features
-- **Generator/Critic/Improver pipeline**: 3-role architecture
-- **Dual mode**: Rule-based (no API key) or API mode (Claude/OpenAI)
-- **Scoring dimensions**: Completeness, Clarity, Logic, Specificity, Tone
-- **Loop controller**: configurable iterations and threshold
-- **Output**: `output/history.json` improvement log
+## How It Works
+1. **Generator:** Creates initial answer from user prompt
+2. **Critic:** Scores result on 5 dimensions (0–10): Completeness (30%), Clarity (25%), Logic (20%), Specificity (15%), Tone (10%)
+3. **Improver:** Refines based on critic feedback
+4. Loop repeats until score ≥ threshold (default 8.0)
 
-## Relevance to Solomon OS / Hermes
-Self-improvement loop architecture could inform Hermes agent self-evolution skill. Generator→Critic→Improver pattern is clean and implementable as a skill.
+## Modes
+- **Rule-based:** No external API required (offline demo)
+- **API mode:** Claude (Anthropic) or OpenAI for AI-powered improvements
 
-## Verdict
-**SKILL** — Study the scoring architecture for Hermes self-improvement skills. MIT licensed, Python, easy to adapt.
+## Solomon OS Fit
+**SKILL** — Self-improvement loop architecture is foundational for Hermes autonomous evolution. Critic scoring dimensions (Completeness, Clarity, Logic, Specificity, Tone) provide a quality rubric we could adapt for skill evaluation. The three-role pipeline (Generator→Critic→Improver) is a reusable pattern.
+
+## Key Insight
+- Self-improvement without external APIs (rule-based mode) means it could run locally on JCPaid compute nodes
+- Weighted scoring ( Completeness 30%, Clarity 25%) prioritizes substance over style
+- Iteration limit prevents infinite loops
+
+## Action
+Study. Extract scoring rubric for Hermes skill quality evaluation. The rule-based mode could be a standalone quality checker in AgentArmor Studio.
