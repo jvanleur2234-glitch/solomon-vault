@@ -1,0 +1,86 @@
+{
+  "date": "2026-04-27",
+  "leads": [
+    {
+      "business_name": "Fox Lake Locksmith",
+      "url": "https://foxlakelocksmith.com",
+      "seo_score": 63,
+      "top_issues": ["Slow server response (951ms)", "No Open Graph tags", "No Twitter Card meta"],
+      "contact_method": "phone",
+      "contact_value": "(847) 448-0455",
+      "status": "pitched"
+    },
+    {
+      "business_name": "Lock Doctor Inc",
+      "url": "https://lockdoctorinc.com",
+      "seo_score": 74,
+      "top_issues": ["Slow server response (567ms)", "Images missing alt text", "No lazy loading"],
+      "contact_method": "phone",
+      "contact_value": "(770) 476-7135",
+      "status": "pitched"
+    },
+    {
+      "business_name": "Knowell's Lock & Safe",
+      "url": "https://knowellslockandsafe.com",
+      "seo_score": 79,
+      "top_issues": ["Slow server response (574ms)", "Title too long", "H1 tag not unique"],
+      "contact_method": "phone",
+      "contact_value": "(904) 387-0042",
+      "status": "pitched"
+    },
+    {
+      "business_name": "Salem Plumbing",
+      "url": "https://salemorplumber.com",
+      "seo_score": 74,
+      "top_issues": ["Slow server response (640ms)", "No canonical tag", "Title too long"],
+      "contact_method": "website",
+      "contact_value": "https://salemorplumber.com",
+      "status": "pitched"
+    },
+    {
+      "business_name": "Bay Area Air Conditioning",
+      "url": "https://bayareacool.com",
+      "seo_score": 68,
+      "top_issues": ["Slow server response (663ms)", "Title too long (211 chars)", "Images missing alt text"],
+      "contact_method": "website",
+      "contact_value": "https://bayareacool.com",
+      "status": "pitched"
+    },
+    {
+      "business_name": "Smith HVAC Services",
+      "url": "https://smithhvacservices.com",
+      "seo_score": 79,
+      "top_issues": ["Slow server response (641ms)", "Title too long (70 chars)", "No image lazy loading"],
+      "contact_method": "website",
+      "contact_value": "https://smithhvacservices.com",
+      "status": "pitched"
+    },
+    {
+      "business_name": "Murphy's HVAC & Plumbing",
+      "url": "https://callmurphys.com",
+      "seo_score": 68,
+      "top_issues": ["Very slow server response (2420ms)", "Title too long (217 chars)", "Images missing alt text"],
+      "contact_method": "website",
+      "contact_value": "https://callmurphys.com",
+      "status": "pitched"
+    },
+    {
+      "business_name": "Best HVAC 24/7",
+      "url": "https://besthvac247.com",
+      "seo_score": 84,
+      "top_issues": ["Slow server response (745ms)", "Images missing alt text"],
+      "contact_method": "website",
+      "contact_value": "https://besthvac247.com",
+      "status": "pitched"
+    },
+    {
+      "business_name": "Farmington Hills MI Locksmith",
+      "url": "https://farmingtonhillsmilocksmith.com",
+      "seo_score": 53,
+      "top_issues": ["Slow server (799ms)", "No HTML lang attribute", "No Open Graph tags", "No Twitter cards", "Favicon missing"],
+      "contact_method": "phone",
+      "contact_value": "(248) 939-5075",
+      "status": "pitched"
+    }
+  ]
+}

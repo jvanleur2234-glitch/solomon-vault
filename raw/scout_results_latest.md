@@ -1,6 +1,6 @@
 # Scout Results — Latest Run
 
-**Date:** 2026-04-26  
+**Date:** 2026-04-27  
 **Total Leads:** 9  
 **Payment Link:** https://buy.stripe.com/3cI3cv1Ti1AsaGl1DW4ZG08
 
@@ -8,22 +8,22 @@
 
 | Business | URL | SEO Score | Key Issues |
 |----------|-----|-----------|-----------|
-| Half Moon Plumbing | halfmoonplumbing.com/claremore | **79/100** | Slow server (849ms), Title too long, Alt text missing |
-| Duck's Locksmithing | duckslocksmithing.com | **74/100** | Slow (838ms), No lazy load, Alt text missing |
-| Colorado Premier Moving | coloradopremiermoving.com | **89/100** | Very slow (2923ms), Alt text missing |
-| Crown Plumbing | crownplumbingservice.com | **74/100** | Slow (1178ms), Title/meta issues, Alt text missing |
-| University Park Dental | dentistparkcitiestx.com | **74/100** | Short title, H1 issue, Alt text missing |
-| SNZ Locksmith | snzlocksmith.com | **79/100** | Meta too long, Alt text missing, No lazy load |
-| World's Best Movers | worldsbestmoversinc.com | **68/100** | Title too long (169c), No OG tags, H1 issue |
-| Remington Family Dental | remingtonfamilydental.com | **79/100** | Slow (781ms), Alt text missing |
-| The Mover | themover.com | **42/100** | HTTP 403, No meta tags at all |
+| Fox Lake Locksmith | foxlakelocksmith.com | **63/100** | Slow server (951ms), No OG tags, No Twitter cards |
+| Lock Doctor Inc | lockdoctorinc.com | **74/100** | Slow server (567ms), Alt text missing, No lazy load |
+| Knowell's Lock & Safe | knowellslockandsafe.com | **79/100** | Slow server (574ms), Title too long, H1 issue |
+| Salem Plumbing | salemorplumber.com | **74/100** | Slow server (640ms), No canonical tag, Title too long |
+| Bay Area Air Conditioning | bayareacool.com | **68/100** | Slow server (663ms), Title 211 chars, Alt text missing |
+| Smith HVAC Services | smithhvacservices.com | **79/100** | Slow server (641ms), Title too long, No lazy load |
+| Murphy's HVAC & Plumbing | callmurphys.com | **68/100** | Very slow (2420ms), Title 217 chars, Alt text missing |
+| Best HVAC 24/7 | besthvac247.com | **84/100** | Slow (745ms), Alt text missing |
+| Farmington Hills MI Locksmith | farmingtonhillsmilocksmith.com | **53/100** | Slow (799ms), No lang attr, No OG/Twitter, No favicon |
 
 ## Most Common Issues
-1. Missing image alt text — 78% of leads
-2. Slow server response — 67% of leads
-3. Meta description length — 78% of leads
-4. Title tag length — 56% of leads
+1. Slow server response — 100% of leads
+2. Missing image alt text — 67% of leads
+3. Title tag too long — 56% of leads
+4. No Open Graph tags — 44% of leads
 
 ## Files
-- Full leads log: `solomon-vault/raw/scout_leads_2026-04-26.json`
-- Daily report: `solomon-vault/raw/scout_daily_2026-04-26.md`
+- Full leads log: `solomon-vault/raw/scout_leads_2026-04-27.json`
+- Daily report: `solomon-vault/raw/scout_daily_2026-04-27.md`
