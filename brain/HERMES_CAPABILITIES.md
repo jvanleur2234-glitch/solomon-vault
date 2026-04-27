@@ -556,3 +556,122 @@
 - **Solomon OS fit:** FORGE — Solomon Air distributed inference foundation. P2P volunteer compute grid matches AgentFM. DiLoCo compression for distributed Hermes model training. Live Petals proves viability.
 - **Status:** FORGE
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/DandinPower-hivemind.md
+
+## Agentrail — TypeScript Agent Framework (April 26, 2026)
+- **URL:** https://github.com/yai-dev/agentrail
+- **What it does:** Production-grade TypeScript framework for AI agents. Docker sandboxing, multi-agent mailboxing, profile/plugin extension, session memory, deep-research addon. Apache 2.0.
+- **Solomon OS fit:** STUDY — Mailboxing pattern for Solomon Bus v2. Docker sandbox for Hermes secure execution. Profile system maps to Hermes skills.
+- **Status:** STUDY
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentrail-typescript-agent-framework.md
+
+## PeerClaw — Rust P2P AI Agent Network (April 26, 2026)
+- **URL:** https://github.com/antonellof/peerclaw
+- **What it does:** Rust P2P decentralized AI compute network. GGUF inference, vector memory, P2P job marketplace with escrowed payments, WASM tools, MCP interface, OpenAI-compatible API. MIT.
+- **Solomon OS fit:** WATCH — AgentFM competitor. Escrowed payment model + P2P marketplace = JCPaid compute marketplace pattern.
+- **Status:** WATCH
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/peerclaw-rust-p2p-ai-agent-network.md
+
+## AIBYAI — Multi-Agent Deliberative Intelligence (April 26, 2026)
+- **URL:** https://github.com/Yash-Awasthi/aibyai
+- **What it does:** Council of 4+ AI agents (Empiricist, Strategist, Historian, Skeptic). Conflict Detection, Critique/Rebuttal, Cold Validator hallucination check, reliability-weighted synthesis. MIT.
+- **Solomon OS fit:** SKILL — Council architecture for Solomon OS governance decisions. Skeptic persona prevents groupthink.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/aibyai-multi-agent-deliberative-intelligence.md
+
+## Medusa — AI-First Security Scanner 9,600+ Patterns (April 26, 2026)
+- **URL:** https://github.com/Pantheon-Security/medusa
+- **What it does:** 9,600+ detection patterns, 200 CVE detections (Log4Shell, Spring4Shell, LangChain RCE), Git repo scanning, IDE integration (VS Code, Claude Code, Cursor), SARIF output, parallel scanning. MIT.
+- **Solomon OS fit:** SKILL — OWASP LLM Top 10 aligned. IDE integration for dev-time security. Pattern database for AgentArmor Studio.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/medusa-ai-first-security-scanner-9600-patterns.md
+
+## AgentGuard — Real-Time Security Layer (April 26, 2026)
+- **URL:** https://github.com/GoPlusSecurity/agentguard
+- **What it does:** 3-layer security: Automatic Guard (blocks destructive commands), Deep Scan (24 rules), Daily Patrol (automated posture checks). Per-skill trust registry. MIT.
+- **Solomon OS fit:** INTEGRATE — Layer 1 (Automatic Guard) for Hermes runtime protection. Trust registry for AgentArmor Studio Layer 6.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentguard-real-time-security-layer.md
+
+## Firmis-Scanner — Zero-Config AI Runtime Security (April 26, 2026)
+- **URL:** https://github.com/Firmislabs/firmis-scanner
+- **What it does:** 268 detection rules, 18+ threat categories, zero-config via npx, supports Claude Skills/MCP/Codex/Cursor, no API key required. Apache 2.0.
+- **Solomon OS fit:** SKILL — Zero-config scanner for Hermes skill security. No API key = privacy-first scanning.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/firmis-scanner-ai-runtime-security.md
+
+## AI Agent Scanner — Shadow AI Discovery (April 26, 2026)
+- **URL:** https://github.com/perfecxion-ai/ai-agent-scanner
+- **What it does:** Discovers shadow AI across Network/Code/Traffic/Cloud surfaces, tests vulnerabilities, risk scoring, maps to GDPR/SOC2/HIPAA/NIST/EU AI Act. GPL-3.0.
+- **Solomon OS fit:** WATCH — Shadow AI discovery for enterprise security audit. Compliance mapping enables JCPaid enterprise sales.
+- **Status:** WATCH
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/ai-agent-scanner-shadow-ai-discovery.md
+
+## Agent Security Scanner — OWASP/MITRE Aligned (April 26, 2026)
+- **URL:** https://github.com/Cybathreat/agent-security-scanner
+- **What it does:** 220+ AI patterns, 65 mapped to OWASP ASI, 44 MCP security, 30+ CWE. Prompt injection, RAG pipeline, agent attacks detection. SARIF + GitHub Action. MIT.
+- **Solomon OS fit:** INTEGRATE — OWASP ASI alignment = enterprise compliance. RAG security for Hermes knowledge layer.
+- **Status:** INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agent-security-scanner-owasp-mitre.md
+
+## Deep Claw — Dream Cycle Self-Improvement (April 26, 2026)
+- **URL:** https://github.com/the-keats-ai/deep-claw
+- **What it does:** Nightly scan → synthesis → citation-backed reflection → falsifiable proposals → governance + rollback. Anti-narcissism measures. MIT.
+- **Solomon OS fit:** SKILL — Anti-narcissism + rollback plans = safe Hermes autonomous evolution. Citation-based reflection.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/deep-claw-dream-cycle-self-improvement.md
+
+## Ouroboros — Self-Modifying Agent with Constitution (April 26, 2026)
+- **URL:** https://github.com/joi-lab/ouroboros
+- **What it does:** Self-modifying agent with Git-based identity, BIBLE.md constitution, background consciousness loop, multi-model review (o3/Gemini/Claude) before commits, 30+ evolution cycles/24hrs. MIT.
+- **Solomon OS fit:** SKILL — Constitution pattern for Hermes identity preservation. Multi-model review as safety gate.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/ouroboros-self-modifying-agent-constitution.md
+
+## NFH Self-Improvement Loop — Adversarial Generator/Evaluator (April 26, 2026)
+- **URL:** https://github.com/theprint/nfh-self-improvement-loop
+- **What it does:** Generator proposes, evaluator judges — strict separation. Pre-flight checks (timers, fresh branch, verification). One improvement per cycle. MIT, v1.0.0.
+- **Solomon OS fit:** SKILL — Adversarial separation for safe autonomous improvement. Pre-flight checks for skill validation.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/nfh-self-improvement-loop-adversarial-generator-evaluator.md
+
+## Pratiksangle Self-Improving Agent — Generator/Critic/Improver (April 26, 2026)
+- **URL:** https://github.com/pratiksangle01/self-improving-ai-agent
+- **What it does:** Generator→Critic→Improver pipeline. 5-dimension scoring (Completeness 30%, Clarity 25%, Logic 20%, Specificity 15%, Tone 10%). Rule-based or API mode. MIT.
+- **Solomon OS fit:** SKILL — Quality rubric for Hermes skill evaluation. Rule-based mode = free quality checker.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/pratiksangle01-self-improving-ai-agent-generator-critic-improver.md
+
+## Microsoft Agent Framework — Graph-Based Orchestration (April 26, 2026)
+- **URL:** https://github.com/microsoft/agent-framework
+- **What it does:** Cross-language (Python + .NET) graph-based orchestration. Streaming, checkpointing, human-in-the-loop, time-travel, DevUI. AF Labs. 120+ contributors. MIT.
+- **Solomon OS fit:** SKILL — Study graph-based orchestration for Hermes workflow design. Time-travel debugging valuable.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/microsoft-agent-framework-graph-based-orchestration.md
+
+## Mesh-LLM — Rust Distributed Inference Pool (April 26, 2026)
+- **URL:** https://github.com/MichaelNeale/decentralized-inference
+- **What it does:** Rust P2P distributed AI inference pool. OpenAI-compatible API, pipeline parallelism, MoE expert sharding, collaborative inference. Apache 2.0, v0.64.0.
+- **Solomon OS fit:** WATCH — AgentFM competitor. OpenAI compatibility for JCPaid marketplace integration.
+- **Status:** WATCH
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/mesh-llm-rust-distributed-inference-pool.md
+
+## AgentFM Core — P2P Containerized Compute (April 26, 2026)
+- **URL:** https://github.com/Agent-FM/agentfm-core
+- **What it does:** P2P zero-config compute mesh. Podman containers, GossipSub telemetry, load-balancing, public mesh + private Darknets. Framework-agnostic. MIT.
+- **Solomon OS fit:** WATCH — AgentFM competitor. Study libp2p P2P patterns for Solomon Air.
+- **Status:** WATCH
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/agentfm-core-p2p-containerized-compute.md
+
+## MyCellm — P2P GPU Pool with Credit Economy (April 26, 2026)
+- **URL:** https://github.com/mycellm/mycellm
+- **What it does:** P2P GPU inference network. Credit economy (earn by seeding), Ed25519 signed receipts, private networks + federation, on-device prompt scanning. MIT.
+- **Solomon OS fit:** WATCH — Credit economy model for JCPaid marketplace. On-device scanning for privacy.
+- **Status:** WATCH
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/mycellm-p2p-gpu-pool-credit-economy.md
+
+## KwaaiNet — Decentralized Trust Graph (April 26, 2026)
+- **URL:** https://github.com/Kwaai-AI-Lab/KwaaiNet
+- **What it does:** W3C verifiable credentials, did:peer identities, Ed25519 trust attestations, time-decayed trust scoring, DHT propagation. Rust CLI. MIT, v0.3.24.
+- **Solomon OS fit:** WATCH — Trust graph for distributed AI compute selection. W3C credentials for enterprise compliance.
+- **Status:** WATCH
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/kwaainet-decentralized-trust-graph-p2p-ai.md

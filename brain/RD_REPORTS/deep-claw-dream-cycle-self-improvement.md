@@ -1,29 +1,39 @@
-# deep-claw — Dream Cycle Self-Improvement Framework
+# RD Report: Deep Claw — Dream Cycle Self-Improvement Framework
 
-**Repo:** `the-keats-ai/deep-claw`  
-**License:** MIT  
-**Latest:** Initial commit (Apr 2026)
+## Summary
+Deep Claw by The Keats AI implements the Dream Cycle: structured autonomous self-improvement with nightly scanning → synthesis → reflection → proposals → governance. Anti-narcissism measures, automatic rollback, separation of generation/evaluation. Production-grade, running in production for weeks. MIT.
 
-## What It Is
-An autonomous AI agent self-improvement framework based on the **Dream Cycle** concept — continuous cycles of scanning, synthesis, reflection, proposal, and governance. Agents self-modify based on evidence, with automatic rollback on failure.
+## What It Does
+- **Nightly Scanning**: Survey research papers, open-source tools, community discussions; score for relevance
+- **Synthesis**: Extract actionable patterns, capability gaps, potential improvements
+- **Reflection**: Citation-backed self-assessment (not vibes)
+- **Proposals**: Falsifiable improvement hypotheses with rollback plans + milestone dates
+- **Governance**: Distinguish autonomous vs. human-reviewable changes
+- **Anti-Narcissism Measures**: Prevents self-aggrandizing improvement
+- **Automatic Rollback**: Revert bad changes
 
-## Core Process
-1. **Nightly scan**: survey papers, tools, discussions; score by relevance
-2. **Synthesis**: extract patterns, capability gaps, improvements
-3. **Reflection**: evidence-backed evaluation with citations
-4. **Proposal**: concrete, testable improvements with rollback plans
-5. **Governance**: distinguish autonomous actions vs. human review
+## Tech Stack
+- Language: Python
+- License: MIT
 
-## Architecture
-- **Two modes**: Nightly (broad scanning) and Weekly (structured self-reflection + formal proposals)
-- **Anti-narcissism measures**: prevent self-preferential modifications
-- **Automatic rollback**: validation failure triggers revert
-- Claims systematic generalization and depth extrapolation
+## Strategic Fit for Solomon OS
 
-## Why It Matters
-- Self-improvement is a **core Hermes value proposition**
-- The Dream Cycle is a well-structured approach (unlike ad-hoc self-modification)
-- Could inform Hermes self-evolution architecture
+**SKILL** — Study for Hermes self-improvement skill architecture. Governance layer = core for autonomous skill evolution. Citation-based reflection prevents hallucinated self-assessment.
+
+Key learnings:
+1. **Nightly/Weekly Modes**: Different cadences for scanning vs. deep reflection
+2. **Anti-Narcissism**: Prevents agent from over-claiming improvements
+3. **Rollback Plans**: Every proposal has revert path = safe autonomous evolution
+4. **Citation-Backed**: Evidence-based self-assessment, not vibes
+
+## Risk/Concerns
+- Complex framework
+- Production claims unverified
+- Python-only
 
 ## Verdict
-**SKILL** — Theoretical but well-structured. Study the governance/rollback mechanism for Hermes self-improvement skills.
+STUDY — Anti-narcissism measures + rollback plans = essential for safe Hermes autonomous evolution. Citation-based reflection pattern for skill quality validation.
+
+## Links
+- Repo: https://github.com/the-keats-ai/deep-claw
+- Fork: Already forked

@@ -1,37 +1,38 @@
-# Agentrail — TypeScript Production Agent Framework
+# RD Report: Agentrail — TypeScript Agent Framework
 
-**Fork:** `yai-dev/agentrail` → already in workspace (not yet forked to GitHub)
-**Source:** https://github.com/yai-dev/agentrail (Apache-2.0)
-**Date:** 2026-04-25
-
----
+## Summary
+Agentrail is a production-grade TypeScript framework for building, hosting, and orchestrating tool-using AI agents. Key differentiators: sandboxed execution (Docker), multi-agent mailboxing, profile/plugin extension model, session memory, and deep-research addon. Apache 2.0 licensed.
 
 ## What It Does
+- **Core Runtime**: Composable agent definition, execution loop, tool contracts, prompt SDK
+- **Sandboxing**: Docker-based isolated execution for safe agent code execution
+- **Multi-Agent Orchestration**: Mailboxing, fault recovery, parallel agents
+- **Profiles/Plugins**: Extensible behavior via profile/plugin system
+- **Deep Research**: Standalone deep-research workflow addon
+- **Memory**: Session memory with knowledge retrieval
 
-Agentrail is a TypeScript-based framework for building, hosting, and orchestrating tool-using AI agents. It provides:
-- Full runtime core (@agentrail/core): agent definition, execution loop, tool contracts, session types
-- Capabilities package: sandbox, knowledge, skills, orchestration, browser automation
-- Hosted server layer with profiles and plugins
-- Multi-agent delegation with mailboxing and failure recovery
-- Memory and knowledge indexing with retrieval
-- Pluggable LLM providers (Anthropic, OpenAI, etc.)
+## Tech Stack
+- Language: TypeScript
+- License: Apache 2.0
+- Registry: agentrail.run
 
-## Key Components
+## Strategic Fit for Solomon OS
 
-- `@agentrail/core` — Agent definition, execution loop, tool contracts, LLM providers
-- `@agentrail/capabilities` — Sandbox, knowledge, skills, orchestration, browser automation
-- `@agentrail/app` — Hosted request lifecycle, profiles, session management, plugins
-- `@agentrail/deep-research` — Deep research workflow addon
+**FORGE** — Agentrail is already forked. Key learnings:
 
-## Solomon OS Fit
+1. **Mailboxing Pattern**: How Agentrail handles inter-agent communication with fault recovery is directly applicable to Solomon Bus v2.
+2. **Profile System**: The profile/plugin extension model maps well to Hermes skills architecture.
+3. **Docker Sandboxing**: Critical for secure agent code execution in Hermes. Study how agentrail does this.
+4. **Deep-Research Addon**: Could inform Hermes research capabilities.
 
-**INTEGRATE** — TypeScript framework with production-grade architecture. Key patterns:
-- Multi-agent delegation with failure recovery = resilience for Hermes
-- Sandbox execution = security isolation
-- Plugin extension model = maps to Hermes skills ecosystem
-- Memory/knowledge indexing = fits gbrain pattern
-- Apache-2.0 license permits code reference
+## Risk/Concerns
+- Pre-GA (public APIs may change)
+- TypeScript-only
+- Newer project with limited community
 
-## Status
+## Verdict
+STUDY — Adopt mailboxing pattern for Solomon Bus. Study Docker sandbox implementation. Agentrail's production patterns are worth absorbing.
 
-**INTEGRATE** — study sandbox architecture and failure recovery patterns for Hermes resilience layer.
+## Links
+- Repo: https://github.com/yai-dev/agentrail
+- Fork: jvanleur2234-glitch/agentrail (already forked)

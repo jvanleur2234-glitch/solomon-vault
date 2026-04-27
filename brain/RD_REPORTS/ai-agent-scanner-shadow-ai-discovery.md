@@ -1,33 +1,39 @@
-# RD Report: ai-agent-scanner — Shadow AI Discovery + Security
+# RD Report: AI Agent Scanner — Shadow AI Discovery + Security Assessment
 
-**Original:** `perfecxion-ai/ai-agent-scanner` | **License:** GPL-3.0 | **Stars:** ~500+ | **Lang:** Python
+## Summary
+Perfecxion AI's ai-agent-scanner discovers "shadow AI" running in environments, tests for vulnerabilities, maps to compliance frameworks (GDPR, SOC 2, HIPAA, NIST, EU AI Act). 4 discovery surfaces: Network, Code (SDK usage), Traffic (API calls in logs), Cloud (SageMaker, Bedrock, Azure, Vertex). SARIF output. GPL-3.0, v1.1.0.
 
-## What It Is
-Discovers AI agents across your environment, performs vulnerability testing, maps findings to compliance risk. Unique focus on "shadow AI" discovery — finds unknown/unsanctioned AI agents.
+## What It Does
+- **Discovery**: Finds AI agents across 4 surfaces (Network, Code, Traffic, Cloud)
+- **Security Testing**: Probes discovered agents for vulnerabilities
+- **Risk Scoring**: Per-agent score to prioritize remediation
+- **Compliance Mapping**: GDPR, SOC 2, HIPAA, NIST AI RMF, EU AI Act
+- **SARIF Output**: CI/CD integration
+- **Cloud Scanning**: Optional dependencies for AWS/Azure/GCP AI services
 
-## Key Capabilities
-- Discovery: Network endpoints, Code (SDKs, API keys, configs), Traffic (AI API calls), Cloud (SageMaker, Bedrock, Azure, Vertex)
-- Vulnerability testing of discovered AI agents
-- Risk scoring per asset
-- Compliance mapping: GDPR, SOC 2, HIPAA, NIST AI RMF, EU AI Act
-- SARIF output for CI/CD integration
-- Shadow AI detection (finds AI you didn't know was running)
+## Tech Stack
+- Language: Python
+- License: GPL-3.0
+- Latest: v1.1.0 (2026-03-31)
 
-## Relevance to Solomon OS
-- **Discovery:** Inventory all AI agents in environment
-- **Compliance:** Automated compliance mapping for enterprise clients
-- **Security:** Vulnerability assessment of deployed agents
+## Strategic Fit for Solomon OS
 
-## Threat Analysis
-- GPL-3.0 (not MIT/Apache — commercial use restrictions)
-- Active development (latest v1.1.0, Mar 2026)
-- Strong compliance mapping
+**WATCH** — Shadow AI discovery is unique. First open-source tool that discovers unknown agents.
 
-## Integration Path
-```
-TOOL: ai-agent-scanner → Discovery/inventory tool for Solomon OS deployments
-USE CASE: Enterprise clients need to know ALL AI agents running in their environment
-NOTE: GPL-3.0 — consider for internal use or negotiate commercial license
-```
+Key learnings:
+1. **Shadow AI Discovery**: Find agents you didn't know existed = critical for enterprise security
+2. **4 Discovery Surfaces**: Network, Code, Traffic, Cloud = comprehensive coverage
+3. **Compliance Mapping**: GDPR/SOC2/HIPAA = enterprise sales enablement
+4. **Risk Scoring**: Prioritization framework for remediation
 
-**Recommendation:** SKILL — Shadow AI discovery is valuable for enterprise. Study compliance mapping patterns. Note GPL-3.0 licensing.
+## Risk/Concerns
+- GPL-3.0 (copyleft) — cannot bundle in proprietary products
+- Cloud scanning requires optional dependencies
+- 3 contributors, smaller community
+
+## Verdict
+WATCH — Shadow AI discovery concept is valuable for enterprise audit. Compliance mapping directly enables JCPaid enterprise sales. License prevents integration into proprietary products.
+
+## Links
+- Repo: https://github.com/perfecxion-ai/ai-agent-scanner
+- Fork: Not yet forked

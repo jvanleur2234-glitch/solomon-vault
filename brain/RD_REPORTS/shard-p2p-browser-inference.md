@@ -1,28 +1,41 @@
-# Shard v0.6.6 — Browser-Powered P2P Distributed Inference
+# RD Report: Shard — Browser-Powered P2P Distributed Inference
 
-**Date:** 2026-04-26  
-**Slug:** shard-p2p-browser-inference  
-**Category:** Distributed Compute / P2P AI  
-**License:** MIT (est.)  
-**Language:** Python (SDK), TypeScript (Desktop), Rust (core)  
-**Stars:** ~1,200  
-**Forked:** Yes (`jvanleur2234-glitch/shard`)
+## Summary
+Shard is a browser-powered decentralized AI inference network. Scouts (browser WebGPU) generate drafts, Shards (desktop/server BitNet) verify. Proof-of-Compute receipts for network priority. 1.58-bit ternary quantization. Libp2p mesh with QUIC/TCP/WebRTC and DCUtR hole punching. OpenAI-compatible API. MIT licensed.
 
-## What it is
-Browser-powered distributed inference network. Scouts (browsers) run WebGPU draft models; Shards (desktop/server) verify with 1.58-bit BitNet models. Zero-cost compute via browser tabs. Proof-of-Compute receipts for network priority.
+## What It Does
+- **Scout Role**: Browser nodes running lightweight draft models via WebGPU
+- **Shard Role**: Desktop/server nodes running full BitNet verification
+- **Leech Role**: Passive users consuming AI
+- **Proof-of-Compute**: Cryptographically signed receipts for network priority
+- **1.58-bit Ternary Quantization**: Efficient verification on consumer hardware
+- **Libp2p Mesh**: QUIC, TCP, WebRTC transports, DCUtR hole punching
+- **OpenAI-Compatible API**: Drop-in replacement for standard LLM clients
+- **Python SDK**: Integrate Shard as OpenAI backend replacement
 
-## Key Features
-- **Scout nodes**: browser tabs running WebGPU draft models
-- **Shard nodes**: desktop/server nodes with 1.58-bit BitNet verification
-- **Proof-of-Compute (PoC)**: incentive/reputation system
-- **WebGPU for browser inference**: real AI in browser tabs
-- **Ternary quantization**: 1.58-bit weights for verification on consumer hardware
-- **Libp2p mesh**: TCP, QUIC, WebRTC with DCUtR hole punching
-- **OpenAI-compatible API**: easy integration
-- **Free community AI endpoints** via browser compute
+## Tech Stack
+- Language: Python, Rust (binary)
+- License: MIT
+- Latest: v0.6.6 (2026-03-12)
 
-## Relevance to Solomon OS / Hermes
-Browser-based compute is a novel paradigm for distributed AI. Could be a future compute source for Hermes agents. Shard's incentive system (PoC) is interesting for AgentFM-style compute marketplace.
+## Strategic Fit for Solomon OS
+
+**INTEGRATE** — Browser compute is future distributed AI infrastructure. PoC incentive model directly relevant to AgentFM/compute grid. Already forked.
+
+Key learnings:
+1. **Browser WebGPU for AI**: Scouts running in browser tabs = distributed compute at scale
+2. **Proof-of-Compute**: Cryptographic receipts for verified work = trust without exposure
+3. **1.58-bit BitNet**: Extremely efficient inference for verification
+4. **Libp2p Mesh**: Production-grade P2P networking with NAT traversal
+
+## Risk/Concerns
+- Requires compatible browsers with WebGPU
+- BitNet verification model needs to run somewhere
+- Early stage, community building
 
 ## Verdict
-**INTEGRATE** — Watch for browser-based compute integration potential. Proof-of-Compute incentive model is directly relevant to AgentFM/compute grid strategy.
+INTEGRATE — Study for Solomon Air browser compute layer. PoC receipts model for JCPaid compute marketplace trust layer. BitNet quantization efficiency for Hermes inference optimization.
+
+## Links
+- Repo: https://github.com/TrentPierce/Shard
+- Fork: jvanleur2234-glitch/shard (already forked)
