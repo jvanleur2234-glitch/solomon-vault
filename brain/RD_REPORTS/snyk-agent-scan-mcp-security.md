@@ -1,26 +1,27 @@
-# snyk/agent-scan — AI Agent Security Scanner
+# Snyk Agent Scan — MCP Server Security Scanner
 
-## SLUG: snyk-agent-scan
-## Date: 2026-04-26
-## Tags: #AI-security #MCP #skills #scanner #prompt-injection #Apache-2.0
-## Status: SKILL
-
----
+**Fork:** `jvanleur2234-glitch/snyk-agent-scan-new`
+**URL:** https://github.com/snyk/agent-scan
+**Stars:** 2,261 | **License:** Apache 2.0 | **Lang:** Python
 
 ## What It Is
-snyk/agent-scan is an open-source security scanner for AI agents, MCP servers, and agent skills. Discovers and inventories installed AI agent components and scans them for security risks.
+Snyk's open-source security scanner that inventories and analyzes AI agent components (MCP servers, agent skills) on your machine. Detects prompt injections, tool poisoning, toxic flows, malware payloads, and 15+ risk categories.
 
-## Key Capabilities
-- **Auto-discovers MCP configurations**, agent tools, and skills
-- **Scans popular agents**: Claude, Cursor, Windsurf, Gemini CLI, Amp, Amazon Q
-- **15+ risk categories** for MCPs (Prompt Injection, Tool Poisoning, Tool Shadowing, Toxic Flows)
-- **Skills risk categories**: Prompt Injection, Malware Payloads, Untrusted Content, Credential Handling
-- **Apache-2.0 License** — Python-based
+## Key Features
+- **Auto-discovers agent configurations** — macOS, Linux, Windows
+- **Wide agent coverage** — Windsurf, Cursor, Claude Desktop/Code, Gemini CLI, Amp, Amazon Q, etc.
+- **15+ risk categories** — Prompt Injection, Tool Poisoning/Shadowing, Toxic Flows, Malware Payloads, Untrusted Content, Hardcoded Secrets
+- **Skill scanning** — optional `--skills` flag for agent skill analysis
+- **Quick start** — `uvx snyk-agent-scan@latest`
 
-## Relevance to Solomon OS / AgentArmor
-- Industry-standard scanner from Snyk adds credibility
-- MCP server scanning directly applicable to Hermes MCP integration
-- Skill risk categories align with AgentArmor skill vetting
+## Why It Matters for Solomon OS
+- MCP server scanning = validates Hermes MCP integrations
+- Snyk brand = enterprise trust for JCPaid security story
+- Shadow AI discovery = enterprise security audit requirement
+- Integrates with Snyk's broader security platform
 
-## Recommendation
-**SKILL** — integrate into AgentArmor workflow, add to Hermes skill installation pipeline.
+## Solomon OS Fit
+**INTEGRATE** — Primary scanner for Hermes MCP server security. Snyk brand = enterprise sales enablement. Agent inventory = compliance requirement for regulated industries.
+
+## SWARM Score
+⭐⭐⭐⭐ (2,261 stars, Snyk backing, direct MCP security relevance)

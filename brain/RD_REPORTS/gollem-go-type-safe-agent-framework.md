@@ -1,36 +1,29 @@
-# RD Report: gollem — Production-Grade Go Agent Framework
+# Gollem — Production-Grade Go Agent Framework
 
-**Date:** 2026-04-25  
-**Category:** Agent Framework  
-**Status:** SKILL  
+**No fork needed** (local study)
+**URL:** https://github.com/fugue-labs/gollem
+**Stars:** ~200+ | **License:** MIT | **Lang:** Go
 
 ## What It Is
-
-A production-grade agent framework for Go with compile-time type safety, zero-allocation streaming, and a single-binary deployment. Aims to prevent runtime type errors common in Python-based frameworks.
+A production-grade Go agent framework with compile-time type safety, zero-allocation streaming, and single-binary deployment. Built by fugue-labs for teams wanting typed, observable, multi-provider AI agents in Go.
 
 ## Key Features
-
-- **Compile-time type safety:** Generic `Agent[T]` with automatic compile-time schema generation, validation, deserialization
-- **5+ LLM providers:** Anthropic Claude, OpenAI GPT/O-series, Google Gemini/Vertex AI, Claude via Vertex AI
-- **FuncTool[P]:** Auto-generates JSON Schemas from typed Go functions
-- **Structured output patterns:** `final_result` and streaming via `iter.Seq2`
-- **Guardrails:** Input/turn validation, tool result validators, output auto-repair
-- **Observability:** Structured run traces, OpenTelemetry middleware, state snapshots
-- **Middleware:** Customizable middleware chain (Logging, Timing, MaxTokens)
-- **Message interceptors**
-
-## License
-
-MIT
+- **Generic Agent[T]** — compile-time schema generation, validation, deserialization
+- **5+ LLM providers** — OpenAI GPT, Claude, Gemini/Vertex AI with streaming via Go iterators
+- **Guardrails** — input/turn guardrails, tool result validators, output auto-repair
+- **Observability** — Full run traces, OpenTelemetry middleware, lifecycle hooks, conversation snapshots
+- **Middleware chain** — Logging, Timing, MaxTokens built-ins + custom interceptors
+- **FuncTool[P]** — reflection-based JSON Schema from typed Go functions
+- **Zero core dependencies** — single binary, compile-time guarantees
 
 ## Why It Matters for Solomon OS
+- Go = perfect for Hermes backend services that need type safety + performance
+- Single-binary = trivial deployment in Solomon Air containers
+- OpenTelemetry = direct integration with Solomon OS observability
+- Type-safe agents = fewer runtime errors in critical paths
 
-- **Compile-time guarantees:** Prevents runtime type errors (Python-style ValidationError/TypeError) — relevant for Hermes reliability
-- **Single-binary deployment:** Zero-dependency Go binary fits distributed compute nodes
-- **Guardrails pattern:** Input/turn/output validation maps to Hermes security layer
-- **OpenTelemetry:** Native observability aligns with Solomon OS monitoring
+## Solomon OS Fit
+**STUDY** — Architecture patterns for Hermes Go services. Compile-time type safety for mission-critical agent code. Middleware chain model for Hermes request pipeline.
 
-## Source
-
-- https://github.com/fugue-labs/gollem
-- v0.3.1 (March 2026), MIT license
+## SWARM Score
+⭐⭐⭐ (MIT, active, Go = high value for Solomon Air backend)
