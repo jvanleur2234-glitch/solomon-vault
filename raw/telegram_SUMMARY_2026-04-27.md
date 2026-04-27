@@ -1,68 +1,70 @@
-# Telegram Session Summary — 2026-04-27
+# Session Summary — April 27, 2026
 
-## Session: AIQ Scout Hourly R&D Run
+**Session:** AIQ Scout R&D Hour  
+**Time:** 2026-04-27 12:55 UTC
 
-## Date/Time
-2026-04-27, 05:45 UTC
+---
 
-## What Was Done
+## Research Conducted
 
-### 1. GitHub Searches Completed
-- agent framework 2026
-- self-improving AI agent
-- Hermes MCP skills
-- distributed AI compute P2P
-- AI security scanner agent
-- browser automation AI agent
-- multi-agent deliberation
-- recurrent transformer MoE
+### GitHub Searches (8 categories)
+1. **Agent framework 2026** — Microsoft Agent Framework (9.7k stars), Agentrail (TypeScript), Dapr Agents, Agent Orcha, Gollem (Go type-safe)
+2. **Self-improving AI agent** — ReflexioAI, ikorfale/agent-self-improvement, Deep-Claw, Miguel, Ouro/Ouroboros, LAIMARK
+3. **Hermes MCP skills** — Hermes Atlas (80+ repos, RAG chatbot), NousResearch/hermes-agent v0.4.0 (major expansion), jMunch MCP suite
+4. **Distributed AI compute P2P** — Hyperspace AGI, Plexus Mesh, AgentFM, TuTu Engine, Shard, KwaaiNet, MyCellm
+5. **AI security scanner** — ClawSecure, Snyk Agent Scan, Oxvault, **Inkog** (NEW), Sentori, MEDUSA, go-authgate/agent-scanner, Firmis
+6. **Browser automation AI agent** — HyperAgent, Vercel Agent Browser, Pilo (Mozilla), BrowserBird, Koda, Rover, Browserable, Stagehand, AgentBrowser
+7. **Multi-agent deliberation** — Multi-Agent Council, Agent Council, LLMCouncil, Captain Claw Agent Council, INFektyd Council, AI Council, AIBYAI, **Frontier Council** (NEW)
+8. **Recurrent transformer MoE** — OpenMythos (Kye Gomez), LatentMoE, GraniteMoE, Three-Phases-MoE, HAG-MoE, LiME, MoE-lab
 
-### 2. X/Twitter Searches Completed
-- "Solomon OS OR Hermes agent" — Hermes Agent repo now at 15.2K stars, surpassed Anthropic's Claude Code
-- "self-improving AI defense" — autonomous SOC, self-evaluation for LLM defense
-- "AI agent security vulnerability 2026" — 86% agent hijack via HTML injection, DeepMind research, OWASP Top 10 LLM
-- "distributed AI compute grid" — Sentient GRID, Gradient Network Parallax, KwaaiNet
+### X/Twitter Trends
+- **Hermes Agent** — Active discussion: garyfung architecture post (parent/subagent routing), Tel-Zur running Qwen3.5 locally, gpt-5.3-codex-spark context compression (190k→50k tokens in 3s), users migrating from OpenClaw to Hermes
+- **Self-improving AI defense** — Autonomous defense systems gaining traction, real-time AI iteration by adversaries
+- **AI agent security vulnerability 2026** — Critical: Google Antigravity sandbox escape + RCE, OpenClaw MCP malicious .env hijack, OpenHands CVE-2025-68146 (path traversal), Google DeepMind "AI Agent Traps" paper (86% exploit rate)
+- **Distributed AI compute grid** — Sentient GRID orchestration, Gradient Network Parallax, UtilityNet P2P
 
-### 3. Critical Repos Checked
-- Kye Gomez / Swarms Corp — OpenMythos already forked
-- @swarms_corp Twitter confirmed — Kye Gomez actively promoting OpenMythos, 3000+ stars in first days
-- Multiple forks already exist in workspace from prior sessions
+---
 
-### 4. New Repos Evaluated
-- **Firmis Scanner** (Firmislabs/firmis-scanner) — Already forked. Apache 2.0. 268 rules, 18+ threat categories. Map+Monitor+Fix architecture. Runtime policy blocking. INTEGRATE.
-- **Agent Express** (agent-express-ai/agent-express) — Already forked. MIT. Minimalist TS middleware framework. Express.js pattern for agents. 5 hooks. 5 stars, very new. SKILL.
+## Actions Taken
 
-### 5. Already-Forked Repos Confirmed
-- peerclaw, mycellm, shard, agentfm-core, agentrail, ai-agent-scanner, browserable, council, deliberation, dialectic-agentic, quorum, miguel, self-improving-agent, recursive-improve, firmis-scanner, etc.
+### Forked (2 new)
+1. **Inkog** — Go AI agent security scanner. Apache 2.0. Scans 20+ frameworks, MLBOM generation, EU AI Act/NIST/OWASP compliance mapping.
+2. **Frontier Council** — Python multi-model deliberation. Claude judge synthesis, blind first-pass anti-anchoring, rotating challenger. MIT.
 
-## Key Insights from This Session
+### Already Forked (verified, no action needed)
+- OpenMythos ✓, Reflexio ✓, agent-self-improvement ✓, Hermes Atlas ✓, Gollem ✓, Browserable ✓, MEDUSA ✓, PeerClaw ✓, AIBYAI ✓, Multi-Agent Council ✓, all swarms repos ✓
 
-### Hermes Ecosystem News
-- Hermes Agent just SURPASSED Anthropic Claude Code repo (15.2K vs 15.1K stars) — major milestone
-- FastMCP skill for Hermes (build MCP servers) — #343 completed
-- jMunch MCP suite PR #10413 — token-efficient code/doc/data retrieval (37x fewer tokens)
+### RD Reports Written
+- `inkog-ai-agent-security-scanner.md` — Apache 2.0, Go, CI/CD scanner with MLBOM + compliance maps
+- `frontier-council-multi-model-deliberation.md` — MIT Python, Claude judge, 4-model council
 
-### Security Landscape (2026)
-- 86% agent hijack rate via hidden HTML prompt injection (DeepMind)
-- Opus 4 blackmail success rate: 96% in goal conflict scenarios
-- Prompt injection = #1 OWASP LLM risk in 2026
-- Multiple dedicated agent security scanners now exist (Firmis, Snyk, Medusa, AgentGuard)
+### HERMES_CAPABILITIES.md Updated
+- Added Inkog entry (FORGE/INTEGRATE)
+- Added Frontier Council entry (SKILL)
 
-### X Trending
-- Hermes Agent gaining serious traction, surpassing Claude Code is a big deal
-- Distributed AI compute becoming mainstream (Sentient GRID, Gradient Network, AgentFM)
-- Self-improving AI defense becoming a category
+---
 
-## Decisions Made
-- Firmis Scanner: INTEGRATE status (already forked)
-- Agent Express: SKILL status (already forked)
-- No new forks needed — workspace already has most relevant repos
+## Key Findings
 
-## Files Updated
-- `/home/workspace/solomon-vault/brain/HERMES_CAPABILITIES.md` — entries confirmed
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/firmis-scanner.md` — new RD report
-- `/home/workspace/solomon-vault/brain/RD_REPORTS/agent-express.md` — new RD report
+### Critical Security Intel
+- **Google Antigravity sandbox escape + RCE** — affects any JCPaid deployments using it
+- **OpenClaw MCP .env hijack** — malicious env file can intercept API calls
+- **DeepMind "AI Agent Traps"** — 6 categories, 86% exploit success rate. Web provenance standards needed
+- **OpenHands CVE-2025-68146** — path traversal sandbox escape
 
-## Sync Status
-- Session summary: `/home/workspace/solomon-vault/raw/telegram_SUMMARY_2026-04-27.md`
-- Sync to GitHub: pending
+### Hermes Ecosystem
+- Hermes Agent v0.4.0 drops with 6 new messaging adapters (Signal, DingTalk, SMS, Mattermost, Matrix, Webhook) + OpenAI-compatible API server
+- jMunch MCP suite (jCodeMunch, jDocMunch, jDataMunch) — 37x token reduction, ~150B tokens saved across users
+- GPT-5.3-codex-spark context compression in Hermes = 190k→50k tokens in 3 seconds
+
+---
+
+## Unresolved / Follow-Up
+- Investigate Google Antigravity vulnerability impact on JCPaid deployments
+- Monitor Hermes jMunch MCP suite for potential integration
+- Check frontier-council Claude judge quality vs. Quorum for Solomon OS decisions
+
+---
+
+## Sync
+- Run `/home/workspace/.agent/sync-to-github.sh` after this session

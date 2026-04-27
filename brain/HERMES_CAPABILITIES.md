@@ -691,3 +691,19 @@
 - **What it does:** 4+ agents (Empiricist, Strategist, Historian, Skeptic) argue/critique with consensus scoring (0.6×Agreement + 0.4×PeerRanking). Conflict detection, Cold Validator for hallucinations, topic graph memory with decay. TypeScript, MIT.
 - **Solomon OS fit:** INTEGRATE — Confidence metrics on deliberation outputs. Topic graph memory aligns with Hermes persistent memory. Conflict detection for tool-calling consistency.
 - **Status:** INTEGRATE
+
+## Inkog — AI Agent Security Scanner (April 27, 2026)
+- **URL:** https://github.com/inkog-io/inkog
+- **Fork:** https://github.com/jvanleur2234-glitch/inkog
+- **What it does:** Go static analyzer for AI agent code. Scans 20+ frameworks for logic bugs, prompt injection, missing guardrails, hardcoded secrets. Generates MLBOM (Machine Learning Bill of Materials). Compliance maps EU AI Act Article 14, NIST AI RMF, OWASP LLM Top 10. CI/CD ready. Apache 2.0.
+- **Solomon OS fit:** FORGE/INTEGRATE — Pre-deployment security gate for Hermes skills and JCPaid agent code. MLBOM for supply chain transparency. EU AI Act compliance mapping for enterprise clients.
+- **Status:** FORGE / INTEGRATE
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/inkog-ai-agent-security-scanner.md
+
+## Frontier Council — Multi-Model Deliberation with Claude Judge (April 27, 2026)
+- **URL:** https://github.com/terry-li-hm/frontier-council
+- **Fork:** https://github.com/jvanleur2234-glitch/frontier-council
+- **What it does:** 4 frontier LLMs (GPT-5.2-pro, Gemini-3-pro-preview, Grok-4, Kimi-k2.5) debate in parallel; Claude Opus 4.5 judges and synthesizes. Blind first-pass anti-anchoring, rotating challenger, early-exit consensus. MIT Python.
+- **Solomon OS fit:** SKILL — "Consult the council" tool for Hermes before high-stakes decisions (client deployments, pricing, architecture). Clean pip install, lightweight.
+- **Status:** SKILL
+- **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/frontier-council-multi-model-deliberation.md
