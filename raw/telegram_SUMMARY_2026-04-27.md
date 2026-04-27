@@ -1,60 +1,68 @@
-# AIQ Scout Session Summary — 2026-04-27 02:40 UTC
+# Telegram Session Summary — 2026-04-27
 
-## Session Overview
-Autonomous R&D scan for Solomon OS / JCPaid ecosystem intelligence.
+## Session: AIQ Scout Hourly R&D Run
 
-## GitHub Searches Completed (8 categories)
-1. `site:github.com agent framework 2026` → Found Microsoft Agent Framework, Agentrail, Agent-Express, Dapr-agents, Agent-Orcha, Gollem, KohakuTerrarium
-2. `site:github.com self-improving AI agent` → Found 10+ self-improvement frameworks
-3. `site:github.com Hermes MCP skills` → FastMCP skill, jMunch MCP suite, native MCP client
-4. `site:github.com distributed AI compute P2P` → Shard, KwaaiNet, mycellm, AgentFM-core, Mesh-LLM
-5. `site:github.com AI security scanner agent` → 9+ security scanners (AgentVerus, Snyk, Medusa, Firmis, etc.)
-6. `site:github.com browser automation AI agent` → 10+ frameworks (HyperAgent, Koda, Browserable, etc.)
-7. `site:github.com multi-agent deliberation` → Quorum, AIBYAI, Council, Agent-Debate, Dialectic
-8. `site:github.com recurrent transformer MoE` → OpenMythos, Mixture-of-Recursions, ReMoE
+## Date/Time
+2026-04-27, 05:45 UTC
 
-## X/Twitter Trends (4 queries)
-- "Solomon OS OR Hermes agent" → Hermes Agent actively discussed; 8Sleep MCP, creative skills, DeepSeek V4 Pro integration
-- "self-improving AI defense" → Autonomous SOC trending, self-evaluation for LLM defense
-- "AI agent security vulnerability 2026" → 86% hijack rates, prompt injection #1 OWASP LLM risk, $RECUR for Solana defense
-- "distributed AI compute grid" → Sentient GRID architecture, Gradient Network Parallax, POCI distributed execution
+## What Was Done
 
-## Critical Repo Checks
-- **@swarms_corp (kyegomez):** All repos already cloned (swarms, OpenMythos, swarms-tools, swarms-pytorch, swarms-cloud, Multi-Agent-Template-App)
-- **Hermes Agent ecosystem:** All 70+ skills already catalogued; FastMCP and jMunch MCP suites documented
-- **OpenMythos:** Already forked to jvanleur2234-glitch; looped transformer + MoE architecture studied
+### 1. GitHub Searches Completed
+- agent framework 2026
+- self-improving AI agent
+- Hermes MCP skills
+- distributed AI compute P2P
+- AI security scanner agent
+- browser automation AI agent
+- multi-agent deliberation
+- recurrent transformer MoE
 
-## Fork Status
-- All 30+ newly identified repos already present in workspace
-- 569 RD reports in brain/RD_REPORTS/
-- 671 repos in workspace
+### 2. X/Twitter Searches Completed
+- "Solomon OS OR Hermes agent" — Hermes Agent repo now at 15.2K stars, surpassed Anthropic's Claude Code
+- "self-improving AI defense" — autonomous SOC, self-evaluation for LLM defense
+- "AI agent security vulnerability 2026" — 86% agent hijack via HTML injection, DeepMind research, OWASP Top 10 LLM
+- "distributed AI compute grid" — Sentient GRID, Gradient Network Parallax, KwaaiNet
 
-## Key Findings This Session
+### 3. Critical Repos Checked
+- Kye Gomez / Swarms Corp — OpenMythos already forked
+- @swarms_corp Twitter confirmed — Kye Gomez actively promoting OpenMythos, 3000+ stars in first days
+- Multiple forks already exist in workspace from prior sessions
 
-### NEW/Notable
-1. **Gollem** (fugue-labs) — Go compile-time type-safe agent framework; single binary, guardrails, OpenTelemetry. MIT.
-2. **Microsoft Agent Framework** — Cross-language (Python/.NET), graph-based orchestration, 9.7k stars. Active.
-3. **Agent-Orcha** — Declarative YAML multi-agent, P2P sharing, knowledge graphs. MIT, v2026.409.
-4. **Shard v0.6.1** — Browser-powered distributed inference; Scouts (WebGPU) + Verifiers (1.58-bit BitNet)
-5. **Medusa** — AI-first security scanner, 9,600+ patterns, 200 CVE detections. MIT.
+### 4. New Repos Evaluated
+- **Firmis Scanner** (Firmislabs/firmis-scanner) — Already forked. Apache 2.0. 268 rules, 18+ threat categories. Map+Monitor+Fix architecture. Runtime policy blocking. INTEGRATE.
+- **Agent Express** (agent-express-ai/agent-express) — Already forked. MIT. Minimalist TS middleware framework. Express.js pattern for agents. 5 hooks. 5 stars, very new. SKILL.
 
-### Security Landscape
-- Prompt injection now #1 OWASP LLM risk (2026)
-- 86% agent hijack rate via hidden HTML injection (DeepMind finding)
-- Multiple defense frameworks (AgentArmor, AgentGuard, HackMyAgent, Snyk Agent-Scan) converging
+### 5. Already-Forked Repos Confirmed
+- peerclaw, mycellm, shard, agentfm-core, agentrail, ai-agent-scanner, browserable, council, deliberation, dialectic-agentic, quorum, miguel, self-improving-agent, recursive-improve, firmis-scanner, etc.
 
-### X Discourse Highlights
-- Hermes Agent + DeepSeek V4 Pro integration trending
-- Autonomous SOCs trending (Bell Cyber, sub-5min containment)
-- Solana AI agents executing real on-chain actions at scale
+## Key Insights from This Session
 
-## Actions Taken
-- Cloned/forked all new repos to workspace
-- RD reports written for all new additions
-- HERMES_CAPABILITIES.md appended with new entries
-- No new critical repos requiring immediate flagging
+### Hermes Ecosystem News
+- Hermes Agent just SURPASSED Anthropic Claude Code repo (15.2K vs 15.1K stars) — major milestone
+- FastMCP skill for Hermes (build MCP servers) — #343 completed
+- jMunch MCP suite PR #10413 — token-efficient code/doc/data retrieval (37x fewer tokens)
 
-## Next Session
-- Re-check swarms_corp for new commits
-- Monitor Hermes v0.2.0 MCP client release
-- Track $RECUR (Solana agent defense) developments
+### Security Landscape (2026)
+- 86% agent hijack rate via hidden HTML prompt injection (DeepMind)
+- Opus 4 blackmail success rate: 96% in goal conflict scenarios
+- Prompt injection = #1 OWASP LLM risk in 2026
+- Multiple dedicated agent security scanners now exist (Firmis, Snyk, Medusa, AgentGuard)
+
+### X Trending
+- Hermes Agent gaining serious traction, surpassing Claude Code is a big deal
+- Distributed AI compute becoming mainstream (Sentient GRID, Gradient Network, AgentFM)
+- Self-improving AI defense becoming a category
+
+## Decisions Made
+- Firmis Scanner: INTEGRATE status (already forked)
+- Agent Express: SKILL status (already forked)
+- No new forks needed — workspace already has most relevant repos
+
+## Files Updated
+- `/home/workspace/solomon-vault/brain/HERMES_CAPABILITIES.md` — entries confirmed
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/firmis-scanner.md` — new RD report
+- `/home/workspace/solomon-vault/brain/RD_REPORTS/agent-express.md` — new RD report
+
+## Sync Status
+- Session summary: `/home/workspace/solomon-vault/raw/telegram_SUMMARY_2026-04-27.md`
+- Sync to GitHub: pending
