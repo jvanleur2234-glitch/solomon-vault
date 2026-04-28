@@ -715,3 +715,9 @@
 - **Solomon OS fit:** WATCH — P2P inference competes with AgentFM. Pear Runtime dependency adds friction vs Podman approach. Privacy-first model aligns with JCPaid sovereign compute. Credit economy model for marketplace.
 - **Status:** WATCH
 - **RD Report:** /home/workspace/solomon-vault/brain/RD_REPORTS/qmesh-pear-p2p-llm-inference.md
+
+## Playwright CLI v0.1.9 — Browser Automation (April 28, 2026)
+- **URL:** https://github.com/microsoft/playwright-cli/releases/tag/v0.1.9
+- **What it does:** Microsoft Playwright CLI with AI agent features. 9.5k stars. `show --annotate` for visual feedback, `highlight` for element confirmation, `generate-locator` for stable selectors, `snapshot --boxes` for accessible tree with coords, `drop` for file upload, `--json` for machine parsing. Auto-discovers agent skills.
+- **Solomon OS fit:** INTEGRATE — Browser automation for Solomon Browser. Key commands: open, goto, click, fill, screenshot, eval, highlight, show --annotate, snapshot --boxes. Skill installed at `/home/workspace/Skills/solomon-browser-automation/`.
+- **Status:** INSTALLED
