@@ -1,70 +1,49 @@
 # Telegram Session Summary — 2026-04-27
 
 ## Date & Context
-Full Telegram session. Joseph scrolling X, finding AI tools, directing me to build.
+Full Telegram session with Joseph Vanleur. Evening of April 27 — long productive session.
 
-## Key Decisions Made
+## Repos Cloned Today
+- `solomon-cloner/` — ai-website-cloner-template (12.9k stars)
+- `solomon-brain/` — agentic brain system (from raroque)
+- `solomon-memary/` — Memary memory layer (2.6k stars)
+- `solomon-generic-agent/` — GenericAgent self-evolving agent (7.8k stars)
+- `solomon-openphone/` — OpenPhone mobile agent (HKUDS)
+- `solomon-maps-leads/` — google-maps-scraper (2.6k stars)
 
-1. **Business: BrickPortrait (AI Lego Family Portraits)**
-   - Full business plan written (saved to solomon-vault/brain/BRICKPORTRAIT_BUSINESS_PLAN.md)
-   - BUD sent a better version — merged key improvements:
-     - Source from Gobricks ($0.006/piece) not BrickLink
-     - Use LegoGPT for AI design generation
-     - 3-tier pricing: 16x16 ($99), 24x24 ($179), 32x32 ($299)
-   - Joseph confirmed this is the direction to go
+## Skills Created
+- `/home/workspace/Skills/clone-website/SKILL.md`
+- `/home/workspace/Skills/google-maps-leads/SKILL.md`
+- `/home/workspace/Skills/openphone-agent/SKILL.md`
 
-2. **Business: Deal Bundle**
-   - Live at https://josephv.zo.space/solomon-deal-bundle
-   - Stripe: https://buy.stripe.com/cNi5kDdC03IAbKpaas4ZG0n
-   - $19 per bundle, manual curation by Joseph
+## Key Business Discussions
+- Joseph confirmed: he is "The Connector" — finds AI tools on X, hands them to Zo, Zo builds
+- BrickPortrait business plan written (Lego family portrait from photo)
+- Sherlock OSINT service confirmed as direction
+- Money Maker agent created then stopped (kept failing)
+- Business Idea Scout created (every 3 days) then deleted (kept failing)
+- GenericAgent self-evolution → integrated into Solomon OS
+- Memary → integrated as Solomon memory layer
 
-3. **Killed failing automations:**
-   - Money Maker (every 30 min) — kept failing
-   - Business Idea Scout — failed
-   - Lead Generation — failed
-   - Morning brief was already running, kept it
+## Current Business Pipeline
+1. Sherlock Digital Footprint Audit (live Stripe link)
+2. BrickPortrait (Lego family portraits — needs Julian's workflow)
+3. AI Website Cloner service (sell via CashClaw)
+4. Google Maps lead gen (real estate agents)
+5. Deal Bundle (live on zo.space)
 
-4. **Memary integration** — Open source memory layer for AI agents
-   - Cloned to /home/workspace/solomon-memary/
-   - SolomonMemory system built in solomon-os-agentic-stack/
-   - Pushed to solomon-os-agentic-stack GitHub
+## JulianGoldieSEO Workflow
+3 X posts need comment "YES":
+1. https://x.com/JulianGoldieSEO/status/2048117511867310113
+2. https://x.com/JulianGoldieSEO/status/2048707036049965054
+3. https://x.com/JulianGoldieSEO/status/2048703590290645194
 
-5. **GenericAgent integration** — 7.8k stars self-evolving agent
-   - Cloned to /home/workspace/solomon-generic-agent/
-   - Key files read: agent_loop.py (123 lines), llmcore.py (1016 lines), GETTING_STARTED.md
-   - Built solomon_llmcore.py with:
-     - compress_history_tags() — token compression from GenericAgent
-     - trim_messages_history() — context budget management
-     - crystallize_skill() — writes skill files after every success
-   - Updated AGENTS.md with self-evolution mechanism
-   - Pushed to solomon-os-agentic-stack GitHub
+## Unresolved Items
+- Cannot browser-automate X replies (not logged into X in Zo browser)
+- Money Maker agent and Business Idea Scout deleted (kept failing)
+- Sandbox tools timed out heavily all evening (system issue)
 
-## Code Created/Modified
-
-- /home/workspace/solomon-vault/brain/BRICKPORTRAIT_BUSINESS_PLAN.md (new)
-- /home/workspace/solomon-vault/brain/LESSONS.md (updated with seed lessons)
-- /home/workspace/solomon-vault/brain/BUSINESS_SCOUT.md (new)
-- /home/workspace/solomon-os-agentic-stack/.agent/solomon_llmcore.py (new)
-- /home/workspace/solomon-os-agentic-stack/.agent/memory/memory_system.py (new)
-- /home/workspace/solomon-os-agentic-stack/.agent/AGENTS.md (rewritten)
-- /home/workspace/.agent/sync-to-github.sh (updated — added 3rd repo)
-
-## Unresolved Issues
-
-- HYRVE wallet needs re-login (kept failing all day)
-- Sandbox timing out on commands — infrastructure issue
-- Sherlock audit pipeline built but not deployed
-- Money Maker agent killed — needs redesign before next attempt
-
-## Follow-up Needed
-
-- BrickPortrait: need to find LegoGPT alternative (LegoGPT repo seems gone), source from Gobricks
-- GenericAgent browser automation (web_setup_sop) — needs to be integrated next
-- Solomon OS skill tree should start crystallizing naturally — monitor after sessions
-
-## Joseph's Brain (for next session context)
-- Generalist/Connector — finds tools on X, hands to me, I build
-- Hates video content / social media presence
-- Wants passive/investment income
-- BrickPortrait feels like the right business for him — physical product, no social media needed
-- CashClaw audit agency is the backup income stream
+## GitHub Sync
+- solomon-vault: synced
+- solomon-os-agentic-stack: synced
+- zo-excellence-package: synced
