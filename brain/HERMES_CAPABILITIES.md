@@ -721,3 +721,21 @@
 - **What it does:** Microsoft Playwright CLI with AI agent features. 9.5k stars. `show --annotate` for visual feedback, `highlight` for element confirmation, `generate-locator` for stable selectors, `snapshot --boxes` for accessible tree with coords, `drop` for file upload, `--json` for machine parsing. Auto-discovers agent skills.
 - **Solomon OS fit:** INTEGRATE — Browser automation for Solomon Browser. Key commands: open, goto, click, fill, screenshot, eval, highlight, show --annotate, snapshot --boxes. Skill installed at `/home/workspace/Skills/solomon-browser-automation/`.
 - **Status:** INSTALLED
+
+## ai-website-cloner-template — JCodesMore (12.9k stars, MIT)
+- **Path**: `/home/workspace/solomon-cloner/`
+- **What it does**: Multi-agent pipeline — Playwright scrapes URL → vision model describes layout → parallel agents extract HTML/CSS/JS/images/icons → outputs clean Next.js 16 + shadcn/ui + Tailwind v4 project. Run `cashclaw clone <url>`.
+- **Solomon OS fit**: INTEGRATE → CashClaw clone command. Instant website reversal for competitor analysis, client demos, landing page prototyping.
+- **Status**: INTEGRATE
+
+## google-maps-scraper — gosom (2.6k stars, MIT)
+- **Path**: `/home/workspace/solomon-maps-leads/`
+- **What it does**: Go-based Google Maps scraper. Extracts names, emails, phones, reviews, ratings, websites, coordinates. CLI + Web UI + REST API + AI agent wrapper.
+- **Solomon OS fit**: INTEGRATE → Lead gen for real estate agents (scrape "real estate agents in [city]" → cold email list). CashClaw audit can cross-reference scraped leads.
+- **Status**: INTEGRATE
+
+## OpenPhone — HKUDS (autonomous mobile AI)
+- **Path**: `/home/workspace/solomon-openphone/`
+- **What it does**: 3B vision-language on-device model. PhoneClaw iOS agent uses Ralph Loop (EXECUTE→EVALUATE→FIX→REPEAT) + UserMemory + ExperienceLog. Learns user patterns, self-improves.
+- **Solomon OS fit**: WATCH → Future mobile component for Solomon Air. AI receptionist for real estate/business answering service. Long-term play.
+- **Status**: WATCH (requires mobile build)
