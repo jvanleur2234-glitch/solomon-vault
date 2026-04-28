@@ -1,0 +1,66 @@
+# THE SOLOMON OS BUSINESS PLAYBOOK
+## Based on: Chinese 7-Agent Stack (April 28, 2026)
+
+> Source: https://x.com/carverfomo/status/2049150638781579287
+> 4M views in 72 hours. Every CEO in China forwarding it. Every support team in America panicking.
+
+---
+
+## THE BLUEPRINT
+
+Two Chinese developers showed how to replace an entire customer support department with 7 AI agents running for $50/month in API costs.
+
+**Setup:** They opened a terminal. In 4 minutes the whole thing was running.
+
+**Old cost:** $25,000-$40,000/month in salaries for 8 operators
+**New cost:** $50/month in API calls
+
+---
+
+## THE 7 AGENT STACK
+
+| Agent | Function | Solomon OS Equivalent |
+|-------|----------|----------------------|
+| 1. Classifier | Routes incoming tickets/requests | Solomon Flow router |
+| 2. Knowledge Reader | Reads the KB, pulls relevant docs | Memary retrieval |
+| 3. Billing Handler | Processes payments, refunds | Stripe integration |
+| 4. Tone Watcher | Sentiment analysis, urgency detection | RENU emotion API |
+| 5. Escalation Decider | Decides when to escalate to human | Solomon Flow decision engine |
+| 6. Report Writer | Generates summaries, reports | Claude/AI writing |
+| 7. Orchestrator | Runs and coordinates the other 6 | Solomon Flow master |
+
+---
+
+## SOLOMON OS CURRENT STATE
+
+✅ Russell Tuna — reasoning brain (NVIDIA Nemotron)
+✅ Memary — memory layer  
+✅ Solomon Flow — workflow orchestrator
+✅ RENU API — emotion/sentiment analysis
+✅ Skills library — 90+ tools
+✅ Stripe — payments
+✅ Playwright CLI — browser automation
+✅ OpenCLI — data tools
+
+**NEEDS:**
+- The 7 agent workers need to be built as actual processes
+- Solomon Flow worker daemon is running (tmux session: solomon-flow)
+- Need to connect Russell Tuna as the orchestrator brain
+
+---
+
+## THE BUSINESS MODEL
+
+**Offer:** "We build your 7-agent team in 4 minutes"
+**Price:** $299 setup + $99/month (vs $25K-$40K salary equivalent)
+**Target:** Small businesses, agencies, e-commerce brands
+**Differentiator:** Fully hosted by us, no technical skill needed
+
+---
+
+## WHAT TO BUILD NEXT
+
+1. Build the 7 agent worker templates in Python
+2. Connect Russell Tuna as the orchestrator
+3. Create a "4-minute setup" script
+4. Package as a sellable product
