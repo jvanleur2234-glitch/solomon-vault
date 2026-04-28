@@ -1,87 +1,47 @@
-# Telegram Session Summary — 2026-04-28 (Morning/Afternoon)
+# Telegram Session Summary — 2026-04-28
 
-## Date: April 28, 2026
-## Duration: ~8:30 AM - 4:00 PM CDT
+## Date & Context
+Morning session. Joseph continued where Apr 27 left off.
 
----
+## Key Decisions Made
+- **Russell Tuna → NVIDIA NIM**: Upgraded Russell Tuna's backend from Ollama qwen3 to NVIDIA Nemotron-3-Nano (via ai.api.nvidia.com). Had to fix 3 bugs: undefined NVIDIAAPIKEY, undefined messages, wrong API URL path (/v1/ missing).
+- **Business Idea Scout**: Killed failing Money Maker agent. Replaced with focused Business Idea Scout running every 3 days.
+- **BrickPortrait business**: Analyzed the Lego AI custom portrait idea from the China 7-agent video. Found Bricklink API for parts lookup + Midjourney for rendering. Joseph wants to build it.
+- **7-Agent Business Playbook**: Created from the China video. Documented the exact agent roles (classifier, reader, handler, tone-watcher, escalator, reporter, orchestrator).
+- **Polymarket trading**: Researched 20+ repos. Cloned top 4: Polymarket/agents (official), TradingAgents, Polymarket-Arbitrage-Bot, PredictOS. Got Polymarket/agents live and returning real market data. Fixed web3 v7 compatibility.
 
-## KEY EVENTS
+## Repos Cloned Today
+- `solomon-huginn` — Huginn self-hosted automation (11.5k stars)
+- `solomon-cloner` — AI website cloner
+- `solomon-maps-leads` — Google Maps → CSV lead gen
+- `solomon-openphone` — HKUDS autonomous AI phone agent
+- `solomon-opencli` — OpenCLI v1.7.8
+- `solomon-polymarket-agents` — Official Polymarket AI agents
+- `solomon-trading-agents` — Tauric multi-agent trading framework
+- `solomon-poly-arb` — Polymarket arbitrage bot
+- `solomon-predict-os` — PredictOS prediction market OS
 
-### Russell Tuna Upgrade (NVIDIA Nemotron)
-- Added NVIDIA_API_KEY env var to WifeApp/v2/bot
-- Added `/v1/` to NIM endpoint URL (was 404-ing)
-- Fixed `messages` undefined — `build_messages()` returned None in non-NIM path
-- Fixed `IndexError: list index out of range` — SSE data line parsing
-- Russell Tuna is now live with NVIDIA Nemotron as primary brain
+## Skills Added
+- clone-website (from solomon-cloner)
+- google-maps-leads (from solomon-maps-leads)
+- openphone-agent (from solomon-openphone)
+- opencli-browser (from OpenCLI v1.7.8)
 
-### Repos Cloned and Integrated
-1. **solomon-skillforge** — Skill routing from triplesyak
-2. **solomon-brain** — Agent memory system from raroque  
-3. **solomon-opencli** — CLI data tool from jackwener/JackCLI
-4. **solomon-cloner** — Website cloner (JCodesMore)
-5. **solomon-maps-leads** — Google Maps → CSV lead gen
-6. **solomon-openphone** — HKUDS autonomous phone agent
-7. **solomon-huginn** — Huginn automation platform (22k stars)
-8. **solomon-generic-agent** — Self-evolving agent (4.3k stars, 3.3k line seed)
+## Research Saved
+- `brain/RESEARCH_ANTHROPIC_LABOR_STUDY.md` — AI kills entry-level tasks, elevates senior workers
+- `brain/RESEARCH_PSYCHOLOGY_AI_MEMORY.md` — Layered memory architecture (episodic/semantic/procedural/working)
+- `brain/BUSINESS_PLAYBOOK_7AGENT.md` — The China 7-agent blueprint
 
-### Solomon Flow Built
-- Pure-Python workflow engine (no Docker needed, 512MB RAM)
-- Replaces Solomon Bus JSON queue with full event-driven graph
-- 6 agent types: Manual, Trigger, Webhook, Http, Memary, Shell
-- REST API on port 3021, worker daemon, SQLite persistence
-- Running in tmux session `solomon-flow`
+## Still Running
+- Russell Tuna bot → NVIDIA NIM (tmux)
+- Solomon Flow API on port 3021 (tmux)
 
-### Critical Intel: 7-Agent Stack (China Post)
-- Viral X post by @carverfomo — 4M views in 72 hours
-- Chinese devs showed 7 AI agents replacing 8 call center operators for $50/month
-- The 7 agents: Classifier, KB Reader, Billing, Tone Watcher, Escalation Decider, Report Writer, Orchestrator
-- Old cost: $25K-$40K/month. New cost: $50/month API calls.
-- **This is the business model for Solomon OS**
+## Unresolved
+- Polymarket trading needs funded Polygon wallet + non-US location
+- Huginn full install blocked (needs Docker daemon or 1GB RAM sacrifice)
+- BrickPortrait needs: Midjourney API, Bricklink API, Stripe checkout
+- TradingAgents → Polymarket hybrid not built yet
 
-### OpenCLI Installed
-- v1.7.8 installed globally
-- Needs Chrome browser for full functionality
-- Commands: hackernews, reddit, podcasts, amazon, github, twitter, youtube
-
----
-
-## PRODUCTS / SERVICES LIVE
-- Solomon OS Deal Bundle: https://josephv.zo.space/solomon-deal-bundle ($19 Stripe)
-- Russell Tuna Bot: t.me/RussellTunaBot (NVIDIA Nemotron, streaming)
-- Solomon Flow: running in tmux (port 3021 REST API)
-- Morning Business Brief: email, daily at 1 PM CDT
-
----
-
-## SERVICES RUNNING
-- russell-tuna-bot (NVIDIA Nemotron)
-- solomon-flow (Solomon Flow worker)
-- solomon-heartbeat
-- n8n
-- moneyprinterturbo
-- jackconnect-cloudbrowser
-
----
-
-## GIT SYNC
-- solomon-vault: pushed ( BUSINESS_PLAYBOOK_7AGENT.md, Huginn research, etc.)
-- solomon-os-agentic-stack: pushed (GenericAgent integration)
-- zo-excellence-package: synced
-- WifeApp: git remote reset to HTTPS, pushed fixes
-
----
-
-## LESSONS LEARNED
-1. NVIDIA NIM endpoint requires `/v1/` in path: `https://integrate.api.nvidia.com/v1/chat/completions`
-2. SSE streaming: filter out non-JSON lines (comments, empty lines, ping frames)
-3. Huginn needs Docker + 2GB RAM — Solomon Flow is the lightweight alternative
-4. The 7-agent stack from China is the exact business model to build
-
----
-
-## NEXT STEPS
-1. Build the 7 agent worker Python scripts
-2. Connect them to Solomon Flow  
-3. Connect Russell Tuna as orchestrator
-4. Create the "4-minute setup" script for the 7-agent stack
-5. Package as a sellable product: $299 setup + $99/month
+## Joseph's Priority Direction
+"Don't tell me what businesses to do. Tell me what YOU would do and just build it."
+→ Focus on: Polymarket trading + BrickPortrait (both fit his Connector brain + Sherlock audit skill)
