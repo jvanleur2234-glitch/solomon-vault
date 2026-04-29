@@ -25,6 +25,7 @@ Recurring patterns and knowledge. Medium stability.
 Specific moments. High plasticity, decay over time.
 - "April 27 session: Built Deal Bundle, Russell upgrade, Huginn"
 - "April 28 session: Fixed NVIDIA NIM errors, Polymarket API live"
+- "April 28: Hermes Workspace cloned, Self-Memory System architected"
 
 ---
 
@@ -63,6 +64,11 @@ The active goal filter. Before every response or action, the Working Self determ
 - Entity knowledge store → General events
 - Graph store → Lifetime periods
 
+### Hermes Workspace (NEW — cloned Apr 28)
+- brain/RESEARCH_HERMES_WORKSPACE.md — Full integration plan
+- solomon-hermes-workspace/ — Frontend UI (Node.js)
+- solomon-hermes-agent/ — Backend with WebAPI (Python)
+
 ---
 
 ## RETRIEVAL HIERARCHY
@@ -93,6 +99,8 @@ Not "most similar embedding" → "most goal-relevant to current context"
 | Working Self (Solomon) | ✅ In brain/soul.md | Goals, identity |
 | Working Self (Zo) | ✅ In SOUL.md | Active |
 | Memary integration | ✅ Installed | Needs hierarchical wiring |
+| Hermes Workspace frontend | ✅ Cloned | Node.js :3000 |
+| Hermes Agent WebAPI | ✅ Cloned | Python :8642 |
 | Hierarchical retrieval | 🔧 In progress | scripts/sms_retrieve.py |
 
 ---
