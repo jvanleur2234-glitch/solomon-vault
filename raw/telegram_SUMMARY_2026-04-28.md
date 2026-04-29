@@ -1,47 +1,97 @@
-# Telegram Session Summary — 2026-04-28
+# Telegram Session Summary — 2026-04-28 Evening
 
 ## Date & Context
-Morning session. Joseph continued where Apr 27 left off.
+- **Date:** April 28, 2026, evening session
+- **Started:** 9:38 PM CDT
+- **Channel:** Telegram DM
+- **Session tone:** Fast-paced, research-heavy, building out the Polymarket trading agent
 
-## Key Decisions Made
-- **Russell Tuna → NVIDIA NIM**: Upgraded Russell Tuna's backend from Ollama qwen3 to NVIDIA Nemotron-3-Nano (via ai.api.nvidia.com). Had to fix 3 bugs: undefined NVIDIAAPIKEY, undefined messages, wrong API URL path (/v1/ missing).
-- **Business Idea Scout**: Killed failing Money Maker agent. Replaced with focused Business Idea Scout running every 3 days.
-- **BrickPortrait business**: Analyzed the Lego AI custom portrait idea from the China 7-agent video. Found Bricklink API for parts lookup + Midjourney for rendering. Joseph wants to build it.
-- **7-Agent Business Playbook**: Created from the China video. Documented the exact agent roles (classifier, reader, handler, tone-watcher, escalator, reporter, orchestrator).
-- **Polymarket trading**: Researched 20+ repos. Cloned top 4: Polymarket/agents (official), TradingAgents, Polymarket-Arbitrage-Bot, PredictOS. Got Polymarket/agents live and returning real market data. Fixed web3 v7 compatibility.
+## What Was Decided/Built
 
-## Repos Cloned Today
-- `solomon-huginn` — Huginn self-hosted automation (11.5k stars)
-- `solomon-cloner` — AI website cloner
-- `solomon-maps-leads` — Google Maps → CSV lead gen
-- `solomon-openphone` — HKUDS autonomous AI phone agent
-- `solomon-opencli` — OpenCLI v1.7.8
-- `solomon-polymarket-agents` — Official Polymarket AI agents
-- `solomon-trading-agents` — Tauric multi-agent trading framework
-- `solomon-poly-arb` — Polymarket arbitrage bot
-- `solomon-predict-os` — PredictOS prediction market OS
+### 1. Polymarket Trading Agent — STARTED ✅
+- Cloned `Polymarket/agents` (800+ stars, MIT licensed)
+- Fixed web3 POA middleware error (web3 v7 removed it)
+- Fixed missing `PARENT_MARKET` variable error  
+- Fixed `MarketType` not defined error
+- Added missing dependencies (requests, langchain, pycryptodome, web3, py-clob-client)
+- **Result:** Live and returning real Polymarket market data — BTC, ETH, XRP 15-min markets
 
-## Skills Added
-- clone-website (from solomon-cloner)
-- google-maps-leads (from solomon-maps-leads)
-- openphone-agent (from solomon-openphone)
-- opencli-browser (from OpenCLI v1.7.8)
+### 2. Russell Tuna Upgrade ✅
+- Replaced Ollama qwen3 with NVIDIA Nemotron 4B via NIM API
+- Fixed 3 bugs: `NVIDIAAPIKEY` undefined, `messages` undefined, missing `/v1/` in URL
+- Bot now running on NVIDIA NIM (free tier)
 
-## Research Saved
-- `brain/RESEARCH_ANTHROPIC_LABOR_STUDY.md` — AI kills entry-level tasks, elevates senior workers
-- `brain/RESEARCH_PSYCHOLOGY_AI_MEMORY.md` — Layered memory architecture (episodic/semantic/procedural/working)
-- `brain/BUSINESS_PLAYBOOK_7AGENT.md` — The China 7-agent blueprint
+### 3. Huginn Self-Hosted Automation ✅
+- Cloned `huginn/huginn` (18K stars, MIT)
+- Docker-based deployment
+- Created Docker Compose setup
+- Registered as tmux service `solomon-flow` on port 3021
+- **Note:** Docker daemon not fully available, running via tmux as workaround
 
-## Still Running
-- Russell Tuna bot → NVIDIA NIM (tmux)
-- Solomon Flow API on port 3021 (tmux)
+### 4. Hermes Workspace — Cloned ✅
+- Cloned `outsourc-e/hermes-workspace` (2,000+ stars, MIT)
+- Full analysis written to brain/HERMES_WORKSPACE.md
+- **Strategic fit:** Control panel for Solomon OS agent swarm
+
+### 5. Global Self-Memory System — BUILT ✅
+- Self-Memory System paper (Conway & Rubin, 2005) implemented for ALL agents:
+  - **Lifetime Periods (LTP)** — Identity, birth, major transitions
+  - **General Events (GE)** — Patterns, repeated behaviors, skills learned
+  - **Episodic Details (ED)** — Timestamped events per session
+  - Applied to: Zo (me), Solomon OS, Russell Tuna
+- Created: `/solomon-os-agentic-stack/.agent/memory/sms_runner.py`
+- Created: `SOUL.md` and `RUSSELL_TUNA.md` memory files
+- Created: `brain/SOUL.md` and `brain/RUSSELL_TUNA.md`
+
+### 6. Business Playbook — WRITTEN ✅
+- Created `brain/BUSINESS_PLAYBOOK_2026.md`
+- Covers all 4 businesses: Sherlock Audit, Deep Reverse Audit, Whitelabel, Deal Bundle
+- Deal Bundle page live at: https://josephv.zo.space/solomon-deal-bundle
+- Stripe payment link: https://buy.stripe.com/00w3cv2Xmdja9ChdmE4ZG0m ($19)
+
+### 7. Security Check — SECURE ✅
+- CVE-2026-3854: GitHub server-side vulnerability (fixed by GitHub before disclosure)
+- Our GitHub tokens use HTTPS+PAT with proper scopes — not vulnerable to this CVE
+- Sync script uses HTTPS only, repos are public — no credentials at risk
+
+### 8. Research Queue
+- `us6506148 b2` — Conspiracy meme patent, NOT actionable. Bio says "satire." Skipped.
+- Huginn bridge needs proper GitHub token setup (no push access to huginn/huginn)
+
+## Key Files Modified
+- ` WifeApp/v2/bot/russell_bot.py` — NVIDIA NIM integration, 3 bug fixes
+- `solomon-os-agentic-stack/.agent/memory/sms_runner.py` — Self-Memory System runner
+- `solomon-vault/brain/SOUL.md` — Zo's full identity
+- `solomon-vault/brain/RUSSELL_TUNA.md` — Russell Tuna's full identity  
+- `solomon-vault/brain/HERMES_WORKSPACE.md` — Hermes Workspace analysis
+- `solomon-vault/brain/BUSINESS_PLAYBOOK_2026.md` — Business plan
+- `SOUL.md` — Global soul
+- `SELF_MEMORY_SYSTEM.md` — Self-Memory System implementation
+
+## Repos Cloned This Session
+- `solomon-skillforge/` — Skill routing system (280+ stars)
+- `solomon-brain/` — Second brain with Qdrant vector DB (300+ stars)
+- `solomon-cloner/` — AI website cloner (280+ stars)
+- `solomon-maps-leads/` — Google Maps to leads scraper
+- `solomon-openphone/` — AI phone agent (iMessage)
+- `solomon-opencli/` — OpenCLI v1.7.8 (500+ commands)
+- `solomon-huginn/` — Huginn self-hosted automation (18K stars)
+- `solomon-polymarket-agents/` — Polymarket trading agents (800+ stars)
+- `hermes-workspace/` — Hermes agent control panel (2,000+ stars)
+- `GenericAgent/` — Self-evolving agent with skill tree (500+ stars)
+- `Memary/` — Open-source memory layer for agents (100+ stars)
 
 ## Unresolved
-- Polymarket trading needs funded Polygon wallet + non-US location
-- Huginn full install blocked (needs Docker daemon or 1GB RAM sacrifice)
-- BrickPortrait needs: Midjourney API, Bricklink API, Stripe checkout
-- TradingAgents → Polymarket hybrid not built yet
+- Huginn bridge repo: needs GitHub token with push access to huginn org to submit PR
+- Docker not fully available — Huginn deployed via tmux as workaround
+- Russell Tuna service: still registered but bot is running manually
 
-## Joseph's Priority Direction
-"Don't tell me what businesses to do. Tell me what YOU would do and just build it."
-→ Focus on: Polymarket trading + BrickPortrait (both fit his Connector brain + Sherlock audit skill)
+## Next Steps
+1. Connect Polymarket API keys to solomon-polymarket-agents
+2. Run full trading loop test on test markets
+3. Get Joseph GitHub token with push access for Huginn PR
+4. Set up Russell Tuna as managed service (needs paid plan)
+5. Build the Huginn + Solomon Bus bridge
+
+---
+*Session ended: April 28, 2026 ~10:00 PM CDT*
