@@ -744,3 +744,11 @@
 - **TouchDesigner skill** added to `hermes-agent/skills/creative/touchdesigner/` — Hermes autonomously operates TouchDesigner for real-time generative visuals, interactive installations, node-based programming from natural language. Video: Nous Research Creative Suite demo by @macbethAI
 - **Zijus Chat UI** wired to both Hermes and Zo. Bridges the WebSocket frontend to Hermes agent (port 8080) and to Zo API (port 8081)
 - **Sigma Browser + OpenClaw**: Nous Browser is nous-research/nous-browser. OpenClaw has 250K+ GitHub stars. Sigma Browser at sigmabrowser.com is the privacy AI browser. ClawHub = skill registry. All interconnected.
+
+## Zijus Chat UI Integration (April 28, 2026)
+- **Repo:** https://github.com/zijus/zijus-chat-ui (MIT)
+- **Bridges:** WebSocket chat UI → Zo API or Hermes SSE
+- **Zo Bridge:** `/home/workspace/zijus-chat-ui/zijus_zo_bridge.py` — running on port 8001
+- **Hermes Bridge:** `/home/workspace/zijus-chat-ui/zijus_hermes_bridge.py` — needs Hermes running
+- **UI:** http://localhost:8001 (Solomon OS branded)
+- **Purpose:** Gives Russell Tuna + Hermes a proper web chat face with multimodal support

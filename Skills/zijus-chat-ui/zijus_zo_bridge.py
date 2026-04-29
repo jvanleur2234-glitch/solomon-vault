@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory=os.path.join(os.path.dirname(__file__), "templates"))
 
 APP_NAME = os.getenv("APP_NAME", "Solomon OS")
 ZO_API = "https://api.zo.computer/zo/ask"
