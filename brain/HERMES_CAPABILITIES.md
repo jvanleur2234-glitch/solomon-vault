@@ -739,3 +739,8 @@
 - **What it does**: 3B vision-language on-device model. PhoneClaw iOS agent uses Ralph Loop (EXECUTE→EVALUATE→FIX→REPEAT) + UserMemory + ExperienceLog. Learns user patterns, self-improves.
 - **Solomon OS fit**: WATCH → Future mobile component for Solomon Air. AI receptionist for real estate/business answering service. Long-term play.
 - **Status**: WATCH (requires mobile build)
+
+## Creative Suite (Apr 28, 2026)
+- **TouchDesigner skill** added to `hermes-agent/skills/creative/touchdesigner/` — Hermes autonomously operates TouchDesigner for real-time generative visuals, interactive installations, node-based programming from natural language. Video: Nous Research Creative Suite demo by @macbethAI
+- **Zijus Chat UI** wired to both Hermes and Zo. Bridges the WebSocket frontend to Hermes agent (port 8080) and to Zo API (port 8081)
+- **Sigma Browser + OpenClaw**: Nous Browser is nous-research/nous-browser. OpenClaw has 250K+ GitHub stars. Sigma Browser at sigmabrowser.com is the privacy AI browser. ClawHub = skill registry. All interconnected.
