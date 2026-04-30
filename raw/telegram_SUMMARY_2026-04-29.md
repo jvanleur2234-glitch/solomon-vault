@@ -6,61 +6,63 @@
 
 ---
 
-## Key Decisions Made
+## Key Decisions Made This Session
 
-1. **PIVOT: Stop building, start connecting**
-   - Joseph confirmed: sell what others have built, connect the dots for people who don't know about AI tools
-   - JCPaid becomes the "AI agency layer" — we find clients, set them up on platforms like Sauna.ai, manage everything
+1. **PIVOT from HVAC Lead Machine to JCPaid AI Employee Agency**
+2. **Channel partner model** — use great AI tools, sell them to local businesses, keep the margin
+3. **JCPaid landing page** built at https://josephv.zo.space/jcpaid — sells "AI Employee Agency" flat $500/mo
+4. **Department packaging** — sell Sales, Marketing, HR, IT, Finance, Support AI employees as add-ons
+5. **Bundle pricing** — 2 depts = $900, 3 = $1,300, all 6 = $2,200
+6. **White-label hidden Sauna model rejected** — transparent channel partner approach is cleaner
+7. **Stack pivot from Sauna.ai to Paperclip + Hermes + Hermes Workspace** — fully open source, MIT license, zero per-seat costs
+8. **hermes-paperclip-adapter** found — official bridge from Nous Research, runs Hermes as Paperclip employee
+9. **Hermes Workspace** released — native web UI for Hermes, makes it accessible to non-technical clients
 
-2. **New direction for JCPaid offer:**
-   - "Anything you hate doing — we automate it with AI. Flat $500/month. Cancel anytime."
-   - We go into businesses, ask for their pain points, build the solution using AI
-   - Simple, repeatable, scalable
+## New Repos Cloned / Analyzed This Session
 
-3. **JCPaid landing page built**
-   - https://josephv.zo.space/jcpaid
-   - Sells $500/mo AI employee service
-   - Captures name, business type, email, phone, and biggest pain point
+| Repo | What It Is | Status |
+|---|---|---|
+| paperclipai/paperclip | AI company orchestration (org chart, tasks, budgets) | Clone now |
+| NousResearch/hermes-paperclip-adapter | Run Hermes as Paperclip employee (1K stars, MIT) | IMMEDIATE FORGE |
+| outsourc-e/hermes-workspace | Native web UI for Hermes (just released TODAY) | IMMEDIATE FORGE |
 
-4. **Realtor vertical = test case**
-   - Jack Vanleur (JackConnect) is the first test client
-   - We set him up on Sauna.ai, show him what an AI employee looks like for a realtor
+## Code Created / Modified
 
-5. **Research on 3 AI platforms:**
-   - **Naive AI** ($310/mo): Full AI employee stack with own email/bank/legal entity. No affiliate program found. Direct competitor.
-   - **Zenflow** (@zencoderai): AI coding orchestration. Content pulled/private. No affiliate program found.
-   - **Sauna.ai**: JUST LAUNCHED TODAY. Personal AI brain with multiplayer, 3,800+ tools. $80 free credits with LAUNCH code. No partner program yet — but $1M in free credits means they're in blitz mode.
+| File | Change |
+|---|---|
+| /jcpaid (zo.space route) | Full JCPaid landing page with department selector + bundle pricing |
+| /home/workspace/ACTIVE_CONTEXT.md | Updated with new JCPaid model + Paperclip stack |
+| /home/workspace/solomon-vault/brain/RD_REPORTS/hermes-paperclip-adapter.md | RD report |
+| /home/workspace/solomon-vault/brain/RD_REPORTS/hermes-workspace.md | RD report |
 
-6. **White-label model rejected**
-   - Couldn't legitimately hide Sauna from clients — bad practice, TOS risk, trust destruction
-   - Instead: transparent channel partner approach — we lead with what we're using
+## Business Model — JCPaid AI Employee Agency
 
-## Business Model Confirmed
+**The pitch:** "Anything you hate doing — we automate it with AI. Flat $500/month. Cancel anytime."
 
-| What | Cost |
-|------|------|
-| We charge client | $500/mo |
-| Sauna.ai costs us | ~$320/mo |
-| **Our margin** | **$180/mo per client** |
+**Per client economics:**
+- Cost to run: ~$0 (self-hosted Paperclip + Hermes, API costs passed through or capped)
+- Price: $500-2,200/mo depending on departments
+- We pocket the difference
 
-- Get 10 clients = $1,800/mo
-- Get 25 clients = $4,500/mo
+**How it works:**
+```
+Client → JCPaid (contract) → Paperclip (company setup) → Hermes (AI employee)
+                         → Hermes Workspace (client dashboard) → Reports back
+```
 
-## Files Updated
+**The moat:** Client relationship + pre-built workflow templates per vertical (real estate, HVAC, etc.)
 
-- `/home/workspace/ACTIVE_CONTEXT.md` — Updated with JCPaid pivot, revenue model, priority actions
-- `/home/workspace/JCPaid/` route at `/jcpaid` on Zo Space
+## Unresolved Issues
 
-## Next Steps
+- Need to actually set up Paperclip + Hermes + Hermes Workspace on sandbox
+- Need first client (Jack Vanleur — real estate agent)
+- API costs need to be understood and capped per client
 
-1. **Joseph signs up for Sauna.ai** with LAUNCH code — $80 free credits to test
-2. **Test with Jack Vanleur** — set up his AI employee, document the process
-3. **Share JCPaid link** with potential clients
-4. **Consider reaching out to Sauna.ai** about channel partner program (when they formalize)
+## Next Steps (Priority Order)
 
-## Unresolved / Follow-up Needed
-
-- Joseph still needs to actually sign up for Sauna (action item on his end)
-- Need to test Sauna setup process with Jack
-- When/if to approach Sauna about partnership model
-- JackConnect status — has Joseph reached out to Jack yet about the new direction?
+1. **Clone and set up Paperclip** — paperclip.ai/paperclip
+2. **Clone hermes-paperclip-adapter** — NousResearch/hermes-paperclip-adapter
+3. **Clone Hermes Workspace** — outsourc-e/hermes-workspace
+4. **Get Groq API key** for free inference (backup to paid APIs)
+5. **Test with Jack Vanleur** — first real estate client demo
+6. **Share JCPaid landing page** with potential clients
