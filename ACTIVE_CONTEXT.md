@@ -113,6 +113,11 @@ If it's not in here, it's not happening. No guessing, no assuming.
 JCPaid Client → Paperclip (company) → hermes-paperclip-adapter → Hermes (employee) → Hermes Workspace (web dashboard)
 ```
 
+**What was FORGED this session:**
+- `jcpaid-bus/` — SQLite task queue + flag system + QGR receipts + session pause/resume (347 lines Python)
+- `jcpaid-personas/` — 4 agent personas: Alex (Sales), Maya (Marketing), Sam (Support), Finn (Finance)
+- `solomon-vault/raw/FORGE_JCPaid_Agency_Hermes_Paperclip.md` — full integration plan
+
 **Why this beats competition:**
 - Hermes has 80+ skills, persistent memory, session persistence, 30+ native tools
 - Paperclip handles org chart, cost tracking, task assignment
