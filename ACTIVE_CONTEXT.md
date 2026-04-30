@@ -85,3 +85,53 @@ We are NOT building AI products from scratch. We are:
 If Joseph says "READ THE FILE" — stop and read this file first.
 
 If it's not in here, it's not happening. No guessing, no assuming.
+
+---
+
+## REAL WORLD VALIDATION: David Roberts ($recap_david) — $2,000/mo with Paperclip AI
+- 4 AI agents: CEO + Growth Engineer + Content Director + Sales Director
+- 6,662 subscriber local newsletter, 47.5% open rate (2x industry average)
+- Local newsletters: Naptown Scoop $320K/yr, Wichita Life 6 figures
+- Offering FREE Paperclip company export to clone
+- JCPaid play: same model for local service businesses (HVAC, real estate, etc.)
+- Source: https://x.com/dotta/status/2049490085268111555
+
+---
+
+## Infrastructure Stack (CONFIRMED THIS SESSION)
+
+| Tool | Purpose | Status |
+|---|---|---|
+| **Paperclip** | AI company orchestration (org chart, tasks, budgets) | Clone at paperclipai/paperclip |
+| **hermes-paperclip-adapter** | Run Hermes as Paperclip employee | Clone at NousResearch/hermes-paperclip-adapter (1K stars, MIT) |
+| **Hermes Workspace** | Native web UI for Hermes (profiles, knowledge browser, skills hub, MCP settings) | Released Apr 29/30, 2026 |
+| **Hermes Agent** | AI employee with 30+ tools, persistent memory, 80+ skills | MIT license, NousResearch |
+| **Sauna.ai** | Fallback / optional additional AI layer | $80/wk |
+
+**Stack flow:**
+```
+JCPaid Client → Paperclip (company) → hermes-paperclip-adapter → Hermes (employee) → Hermes Workspace (web dashboard)
+```
+
+**Why this beats competition:**
+- Hermes has 80+ skills, persistent memory, session persistence, 30+ native tools
+- Paperclip handles org chart, cost tracking, task assignment
+- Hermes Workspace gives clients a web dashboard (no CLI needed)
+- hermes-paperclip-adapter bridges both — reports cost/time back to Paperclip
+- Fully open source, MIT license — ZERO per-seat licensing costs
+- 8 inference providers: Anthropic, OpenRouter, OpenAI, Nous, OpenAI Codex, ZAI, Kimi Coding, MiniMax
+
+**Why this beats Sauna for our model:**
+- Self-hosted = no per-user SaaS fees
+- MIT license = we own the deployment
+- Client sees a professional web dashboard
+- We pocket 100% of the margin
+
+**THE MONEY MODEL (CONFIRMED)**
+- Each client: $299/mo
+- Your cost: ~$0 (CPU already paid on Zo Computer)
+- 20 clients = $5,980/mo
+- MoClaw charges clients = you keep nothing
+- YOUR Zo Computer hosts = you keep 100%
+
+**Multi-client isolation needed:** Client API keys, data sandboxing, single dashboard.
