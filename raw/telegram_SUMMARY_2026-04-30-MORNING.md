@@ -86,4 +86,9 @@ Infrastructure stack confirmed: Paperclip + Hermes v0.11.0 + Hermes Workspace.
 
 - `/home/workspace/ACTIVE_CONTEXT.md` — JCPaid model, stack
 - `/home/workspace/MegaPlan/HERMES_CAPABILITIES.md` — Hermes v0.11.0, Hermes Workspace, hermes-paperclip-adapter
-- `/home/workspace/solomon-vault/ACTIVE_CONTEXT.md` — synced from root
+- `/home/workspace/solomon-vault/ACTIVE_CONTEXT.md` — synced from root## Paperclip v1.0 + Official Docs (April 30, 2026)
+- **Docs:** docs.paperclip.ing (just launched today)
+- **Repo:** paperclipai/paperclip, 58K stars, MIT
+- **What:** Control plane for AI-run companies. Hire agents, delegate tasks, approve risky ones, watch work happen.
+- **For JCPaid:** Client company templates. Each client gets a pre-configured Paperclip company with their branding + workflows.
+- **Status:** INTEGRATE — Official docs = production-ready. Aron Prins maintaining.
