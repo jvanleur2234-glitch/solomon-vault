@@ -1,69 +1,74 @@
 # Telegram Session Summary — 2026-04-30 (Evening)
 
-**Date:** Thu Apr 30, 2026
-**Time:** 4:34 PM - 5:xx CDT
+**Time:** 8:03 PM - 9:20 PM CDT
+**Channel:** Telegram DM
 
-## FORGE Status: JCPaid × The Agency × Hermes × Paperclip
+## Session Overview
+Joseph and I went deep on JCPaid's architecture, clarifying the exact role of each tool and dropping unnecessary complexity.
 
-### What Got Built
-1. **JCPaid Bus** (`/home/workspace/jcpaid-bus/`) — SQLite-based task dispatch queue
-   - Dispatch, queue, complete, flag, receipt, session pause/resume
-   - Working: `python bus.py dispatch --agent sales --task "Follow up with lead #123"` ✓
-   - Hermes skill written at `skills/jcpaid-bus.md`
+## Key Decisions Made This Session
 
-2. **The Agency** cloned to `/home/workspace/the-agency/`
-   - 334 files, 51,584 insertions
-   - 147 AI agents across 12 departments
-   - Source of truth: `CLAUDE.md`, `AGENTS.md`, `.claude/skills/`
-   - Agents: `captain/`, `code/`, `design/`, `research/`, `test/`, etc.
+1. **DROP SAUNA from v1** — not needed as the control layer
+   - holaOS IS the client interface (desktop app they install)
+   - We use Paperclip to run JCPaid's internal ops
+   - We sell Hermes + holaOS to clients
 
-3. **Hermes v0.11.0** — running on port 8642 with auth key
-   - API Server enabled
-   - Creative studio tips from Teknium (pretext, creative workflows)
+2. **JCPaid Architecture Clarified:**
+   - **Paperclip**: Builds and runs OUR internal company (Zeus CEO + agents)
+   - **Hermes + holaOS**: What we SELL to clients (their AI employee)
+   - **We**: Oversee, monitor, provide documentation
 
-4. **Hermes Workspace** — running on port 3002
+3. **Support Model:**
+   - AI handles 80% of its own issues (self-diagnosis, self-healing)
+   - Human escalation only for: billing, contracts, technical edge cases
+   - No 24/7 support burden — AI employees are self-sufficient
 
-5. **ProjectsMD skill** — stub created, repo not public yet
+4. **here.now — FREE 10GB cloud storage for AI agents:**
+   - One prompt install: "install https://here.now/skill.md"
+   - Gives every Hermes agent persistent cloud storage
+   - Skill stub created at /home/workspace/jcpaid/skills/here-now/
 
-### Key Decisions Made
-- Pure reseller model: Sauna (control) + Hermes (execution) + Open Web UI (client UI)
-- No cursor needed — for most businesses Hermes handles everything
-- We own the workflow/IP, not the platform
-- Build JCPaid Bus as the coordination layer
-- ProjectsMD pattern = single `project.md` per client = perfect for JCPaid
+## New Tools Analyzed This Session
+- Agent-S by Matt Shumer — SKILL (AI agents with subscriptions, $29/mo)
+- Supabase + Codex plugin — FORGE (AI builds entire backends)
+- holaOS — FORGE (open agent desktop OS, MIT, TypeScript/Electron)
+- here.now — FORGE (10GB free cloud storage for AI agents)
 
-### Repos Cloned
-- the-agency (88K stars, 147 agents)
-- hermes-workspace (port 3002)
-- hermes-paperclip-adapter
-- paperclip (v1.0 docs live)
-- obscura (encryption)
-- multica (multi-agent coordination, needs Go 1.26)
-- ProjectsMD (stub, not yet public)
-- BridgeWard (not yet public)
-- Umbrel (queued, self-hosted OS)
-- free-coding-models (queued)
-- Electric Agents (queued)
+## holaOS Key Details
+- **What it is:** Open-source desktop app where AI agents control the computer
+- **Stack:** TypeScript, Electron, Nativefier, SQLite
+- **License:** MIT
+- **Status:** Already cloned to /home/workspace/holaOS/
+- **For JCPaid:** Client-facing app they install = our product interface
 
-### JCPaid FORGE Plan (Tasks 1-6)
-1. Hermes Bus — ✅ basic dispatch working, needs production hardening
-2. Agency Agent Templates → Hermes skills — IN PROGRESS
-3. Paperclip Company Generator integration — PENDING
-4. ProjectsMD for JCPaid client management — PENDING
-5. Open Web UI + Hermes integration — PENDING
-6. Client onboarding flow — PENDING
+## Files Created This Session
+- /home/workspace/jcpaid/FORGE_PLAN.md — JCPaid × The Agency × Hermes integration plan
+- /home/workspace/jcpaid/personas/ — 4 JCPaid personas (CEO, Sales, Support, Marketing)
+- /home/workspace/jcpaid/skills/jcpaid-project-skill/ — ProjectsMD-based task management skill
+- /home/workspace/jcpaid/skills/here-now/ — here.now storage skill stub
+- /home/workspace/solomon-vault/raw/JCPaid_FORGE_PLAN.md
+- /home/workspace/solomon-vault/raw/JCPERSONAS.md
+- /home/workspace/solomon-vault/raw/JCPaid_README.md
+- /home/workspace/solomon-vault/raw/JCPaid_bus_README.md
 
-### Files Modified
-- `/home/workspace/jcpaid/FORGE_PLAN.md` — Full plan written
-- `/home/workspace/jcpaid-bus/bus.py` — Working dispatch system
-- `/home/workspace/jcpaid-bus/skills/jcpaid-bus.md` — Hermes skill
-- `/home/workspace/jcpaid/skills/jcpaid-projects.md` — ProjectsMD skill stub
+## Critical Insight: The Simple Model
+```
+JCPaid internal (us):
+Paperclip AI → Zeus CEO → recruits agents → runs our whole business
+         ↓
+   We oversee, AI does the work
 
-### GitHub Sync
-- jcpaid pushed to GitHub
-- solomon-vault: synced with merge conflict resolved (ACTIVE_CONTEXT.md)
+Our clients (what they buy):
+Hermes + holaOS → their own AI employee → runs THEIR business
+```
 
-### Outstanding Issues
-- Multica needs Go 1.26 (sandbox has 1.23)
-- Docker compose not available
-- ProjectsMD repo not public yet — building equivalent
+## What We Still Need
+1. First paying client (pilot program)
+2. Simple landing page explaining the product
+3. Pricing tiers ($99-299/mo range confirmed by competitors)
+4. Test holaOS installation flow
+
+## What NOT To Build
+- ❌ Sauna.ai control layer (overcomplicated, not needed)
+- ❌ Custom hosting infrastructure (use client machines + Hermes cloud)
+- ❌ Full agency management (let Paperclip/Hermes handle it)
