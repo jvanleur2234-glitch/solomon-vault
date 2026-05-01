@@ -23,6 +23,11 @@
 
 ---
 
+## Installs This Session (2026-05-01 morning)
+- **hermes-workspace** → already in workspace, `git pull` got latest (swarm Kanban store)
+
+---
+
 ## Active Queue Summary (as of 2026-05-01 8:40 AM)
 
 | # | Item | Priority | Rec |
