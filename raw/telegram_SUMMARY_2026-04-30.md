@@ -57,6 +57,10 @@
 - Cloned to: /home/workspace/Fusion/
 - Analysis: 1M+ lines TS, TypeScript monorepo. Extract design tokens (54 themes), worktree isolation for parallel agents, multi-node mesh sync architecture. See RD_REPORT fusion-runfusion-multi-node-orchestrator.md
 
+### Queue: X.com/i/status/2049900962001674302
+- **Content:** Hermes Curator — skill maintenance infra (Tony Simons)
+- **Analysis:** Already covered — Curator pattern, key quote from Timur
+
 ---
 
 ## Key Decisions Made
