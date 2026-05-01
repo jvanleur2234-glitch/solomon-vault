@@ -97,3 +97,14 @@ The stack: holaOS + Hermes + The Agency + here.now
 If Joseph says "READ THE FILE" — stop and read this file first.
 
 If it's not in here, it's not happening. No guessing, no assuming.
+
+**Stack flow:**
+```
+JCPaid internal (us):     → What we SELL to clients:
+Paperclip                 → Hermes + holaOS
+(builds our AI company)   → (their AI employee)
+   Zeus CEO                   AI runs on THEIR computer
+   + agents                   Client sees holaOS desktop
+         ↓                   We get SaaS fee per agent
+   WE OVERSEE
+```
