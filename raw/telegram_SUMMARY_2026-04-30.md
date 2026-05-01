@@ -52,6 +52,11 @@
 - **Analysis:** INTEGRATE — JCPaid workflow engine. Already in stack (DreamServer bundle). Wire up: Claude Code → n8n → here.now → Solomon Bus.
 - **Added:** RD_REPORT `n8n-claude-code-connector-ai-workflow.md`
 
+### Fusion Cloned
+- Source: github.com/Runfusion/Fusion (MIT, weekly shipping)
+- Cloned to: /home/workspace/Fusion/
+- Analysis: 1M+ lines TS, TypeScript monorepo. Extract design tokens (54 themes), worktree isolation for parallel agents, multi-node mesh sync architecture. See RD_REPORT fusion-runfusion-multi-node-orchestrator.md
+
 ---
 
 ## Key Decisions Made
@@ -98,6 +103,7 @@
 3. First client outreach (real estate or HVAC, Sioux Falls)
 4. Stripe Link Wallet FORGE (18-month window)
 5. n8n + Claude Code integration
+6. Extract Fusion design tokens + worktree isolation pattern → JCPaid
 
 ---
 
