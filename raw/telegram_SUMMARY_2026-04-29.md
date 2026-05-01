@@ -1,68 +1,71 @@
-# Telegram Session Summary — 2026-04-29
+# Telegram Session Summary — 2026-04-29 to 2026-04-30
 
-**Date:** Wed Apr 29, 2026
-**Session Duration:** ~1 hour (9:01 PM - 9:59 PM CDT)
-**Channel:** Telegram DM
+## Session Overview
+Two-day marathon session covering JCPaid business model refinement, Hermes Agent v0.11.0, Paperclip, The Agency (147 AI agents), holaOS, and the SaaS vs reseller model decision.
 
----
+## Key Decisions Made
 
-## Key Decisions Made This Session
+### Business Model Finalized: Pure SaaS Reseller
+- **Stack**: Sauna (control panel) + Hermes (execution) + holaOS (client-facing AI computer)
+- **No self-hosting for clients** — keeps it simple
+- **Contract + workflow ownership** = real moat
+- **Pricing**: $500-2000/month depending on departments
+- **No cursor, no heavy coding** — focus on orchestration and sales
 
-1. **PIVOT from HVAC Lead Machine to JCPaid AI Employee Agency**
-2. **Channel partner model** — use great AI tools, sell them to local businesses, keep the margin
-3. **JCPaid landing page** built at https://josephv.zo.space/jcpaid — sells "AI Employee Agency" flat $500/mo
-4. **Department packaging** — sell Sales, Marketing, HR, IT, Finance, Support AI employees as add-ons
-5. **Bundle pricing** — 2 depts = $900, 3 = $1,300, all 6 = $2,200
-6. **White-label hidden Sauna model rejected** — transparent channel partner approach is cleaner
-7. **Stack pivot from Sauna.ai to Paperclip + Hermes + Hermes Workspace** — fully open source, MIT license, zero per-seat costs
-8. **hermes-paperclip-adapter** found — official bridge from Nous Research, runs Hermes as Paperclip employee
-9. **Hermes Workspace** released — native web UI for Hermes, makes it accessible to non-technical clients
+### Infrastructure Stack Confirmed
+- **Hermes Gateway**: Running on port 8642, API key auth
+- **Hermes Workspace**: Running on port 3002
+- **JCPaid Bus**: Task queue built from The Agency patterns
+- **4 Personas**: Founder, Closer, Builder, Creative — based on The Agency
+- **ProjectsMD**: Single-file project management as creative brief system
 
-## New Repos Cloned / Analyzed This Session
+### Critical Finds
+- **YC validated AI service companies** — perfect timing for JCPaid
+- **Supabase + Codex** = AI builds backends in seconds
+- **Agent-S by Matt Shumer** — $20M raised, agent infrastructure play
+- **BridgeWard** — upcoming security layer for Hermes
+- **Open WebUI** — ChatGPT interface for self-hosted models
 
-| Repo | What It Is | Status |
-|---|---|---|
-| paperclipai/paperclip | AI company orchestration (org chart, tasks, budgets) | Clone now |
-| NousResearch/hermes-paperclip-adapter | Run Hermes as Paperclip employee (1K stars, MIT) | IMMEDIATE FORGE |
-| outsourc-e/hermes-workspace | Native web UI for Hermes (just released TODAY) | IMMEDIATE FORGE |
+## Repos Cloned This Session
+- paperclip (NousResearch)
+- hermes-workspace
+- hermes-paperclip-adapter
+- the-agency (147 AI agents)
+- multica (multi-model proxy)
+- obscura (privacy proxy)
+- the-agency-holaboss (clone)
+- projectsmd
+- holaOS (CRITICAL)
 
-## Code Created / Modified
+## Files Created/Modified
+- `/home/workspace/jcpaid/` — JCPaid forge directory
+- `/home/workspace/jcpaid-bus/` — Task queue system
+- `/home/workspace/jcpaid-personas/` — 4 client-facing personas
+- `/home/workspace/jcpaid/skills/` — Hermes skills
+- `/home/workspace/solomon-vault/raw/FORGE_PLAN.md` — Forge roadmap
+- `/home/workspace/solomon-vault/raw/JCPERSONAS.md` — 4 personas documented
 
-| File | Change |
-|---|---|
-| /jcpaid (zo.space route) | Full JCPaid landing page with department selector + bundle pricing |
-| /home/workspace/ACTIVE_CONTEXT.md | Updated with new JCPaid model + Paperclip stack |
-| /home/workspace/solomon-vault/brain/RD_REPORTS/hermes-paperclip-adapter.md | RD report |
-| /home/workspace/solomon-vault/brain/RD_REPORTS/hermes-workspace.md | RD report |
+## What Needs To Happen Next
+1. **Get first client** — pipeline is JCPaid landing page (https://josephv.zo.space/jcpaid)
+2. **Test holaOS fork** — see if it can be pre-loaded with our agents
+3. **Build JCPaid OS prototype** — holaOS + The Agency + Hermes
+4. **Write sales script** — based on "AI computer that runs your company"
+5. **Sync everything to GitHub** — some files still need pushing
 
-## Business Model — JCPaid AI Employee Agency
-
-**The pitch:** "Anything you hate doing — we automate it with AI. Flat $500/month. Cancel anytime."
-
-**Per client economics:**
-- Cost to run: ~$0 (self-hosted Paperclip + Hermes, API costs passed through or capped)
-- Price: $500-2,200/mo depending on departments
-- We pocket the difference
-
-**How it works:**
+## Stack Flow
 ```
-Client → JCPaid (contract) → Paperclip (company setup) → Hermes (AI employee)
-                         → Hermes Workspace (client dashboard) → Reports back
+JCPaid Landing Page
+  ↓
+Client signs up
+  ↓
+We provision: holaOS + Hermes Gateway + The Agency skills
+  ↓
+Client downloads holaOS → their AI computer is already running
+  ↓
+We monitor + bill monthly
 ```
 
-**The moat:** Client relationship + pre-built workflow templates per vertical (real estate, HVAC, etc.)
-
-## Unresolved Issues
-
-- Need to actually set up Paperclip + Hermes + Hermes Workspace on sandbox
-- Need first client (Jack Vanleur — real estate agent)
-- API costs need to be understood and capped per client
-
-## Next Steps (Priority Order)
-
-1. **Clone and set up Paperclip** — paperclip.ai/paperclip
-2. **Clone hermes-paperclip-adapter** — NousResearch/hermes-paperclip-adapter
-3. **Clone Hermes Workspace** — outsourc-e/hermes-workspace
-4. **Get Groq API key** for free inference (backup to paid APIs)
-5. **Test with Jack Vanleur** — first real estate client demo
-6. **Share JCPaid landing page** with potential clients
+## GitHub Sync Status
+- solomon-vault: Synced ✅
+- jcpaid: Committed locally ✅
+- Some files may need re-committing after git issues
