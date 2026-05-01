@@ -47,6 +47,11 @@
 ### GitHub Sync
 - Synced to GitHub (3 files, 858 insertions)
 
+### Queue: X.com/i/status/2049855705172128213
+- **Content:** n8n Claude Code connector — AI creates/edits workflows via TS SDK
+- **Analysis:** INTEGRATE — JCPaid workflow engine. Already in stack (DreamServer bundle). Wire up: Claude Code → n8n → here.now → Solomon Bus.
+- **Added:** RD_REPORT `n8n-claude-code-connector-ai-workflow.md`
+
 ---
 
 ## Key Decisions Made
@@ -71,6 +76,28 @@
 - here.now — 10GB permanent memory per client
 - Competitive positioning vs HermesOS
 - First client target identified
+
+---
+
+## Session Stats
+- **Items queued this session (Apr 30):** 8 total
+  1. 🔴 Stripe Link Wallet — CRITICAL FORGE (18-month window)
+  2. 🟡 Fusion — bundle as JCPaid frontend (high priority)
+  3. 🟡 n8n Claude Code — integrate as JCPaid workflow engine
+  4. 🟢 Lantern — STUDY competitive landscape
+  5. 🟢 Hermes v0.12 — integrate multi-profile web UI
+  6. 🟢 Karpathy "Dead in AI" — READ sales weapon
+  7. 🟢 Hermes Agent v0.12 — INTEGRATE
+  8. 🟢 Hermes datasets — low priority
+
+---
+
+## Next Actions
+1. Build JCPaid landing page on zo.space
+2. Get HermesOS API docs
+3. First client outreach (real estate or HVAC, Sioux Falls)
+4. Stripe Link Wallet FORGE (18-month window)
+5. n8n + Claude Code integration
 
 ---
 
