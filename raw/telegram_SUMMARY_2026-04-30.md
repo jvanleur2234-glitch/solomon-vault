@@ -28,6 +28,13 @@
 - **Competitive note:** HermesOS ($9.99-$19.99/mo, crypto required) vs Hermes Agent v0.12.0 (free, self-hosted, no crypto). Feature gap closing. Our edge: flat $299/mo, no crypto, holaOS desktop, here.now permanent memory.
 - **Recommendation:** INTEGRATE — clone Profiles dashboard for JCPaid client portal
 
+### Queue: X.com/i/status/2049613859623677978
+- **Content:** Andrej Karpathy "What's Dead in AI Engineering" — viral post (309K views)
+- **Key insight:** "Harness > model" — JCPaid is the harness, not the model
+- **Analysis:** Validates entire JCPaid positioning. Dead: CrewAI, AutoGen, per-seat pricing, autonomous agent pitches. Alive: supervised bounded agents, context engineering, MCP, outcome-based pricing.
+- **Recommendation:** READ — sales weapon. RD: brain/RD_REPORTS/karpathy-whats-dead-in-ai-engineering.md
+- **Synced to GitHub:** ✅
+
 ### RD Report Written
 - `solomon-vault/brain/RD_REPORTS/hermes-agent-v012-curator-release.md`
 
