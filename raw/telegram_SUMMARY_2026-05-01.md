@@ -60,4 +60,13 @@
 
 ---
 
-*Session complete. All brain files synced to GitHub.*
+## ClawSync (Wayne Sutton) — Queued + Cloned
+- **URL:** https://github.com/waynesutton/clawsync
+- **Type:** DIRECT competitor — OpenClaw in the cloud, Convex backend
+- **Rec:** SKILL — clone, study, steal Soul Document arch for JCPaid personas
+- **Cloned:** /home/workspace/clawsync/
+- **RD:** brain/RD_REPORTS/clawsync-wayne-sutton-openclaw-cloud.md
+
+---
+
+*Session complete. Synced to GitHub.*
