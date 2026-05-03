@@ -56,6 +56,18 @@ Joseph asked for a full report on all GitHub repos from 3 X posts + a GitHub URL
 
 ---
 
+## Chatly Omni Agent + Remaining Repos
+- **URLs:** chatlyai.app/agent + x.com/i/status/2050606347721298380
+- **Content:** All-in-one AI workspace, 3M views, 900+ likes. Three tiers (Think/Pro/Ultra). Free tier EMPTY.
+- **Threat:** 🟢 Low — B2C content app, not B2B AI employees
+- **RD:** brain/RD_REPORTS/chatly-omni-agent-competitor-analysis.md
+- **OpenClaude:** already in workspace
+- **Agent Orchestrator:** already in workspace  
+- **Lark CLI:** ❌ not found
+- **ST3GG:** ❌ not found
+
+---
+
 ## Next Actions
 1. Clone Agent Orchestrator (Composio) — github.com/ComposioHQ/agent-orchestrator
 2. Study Ankh.md .agent/ folder structure → design JCPaid multi-tenant client isolation
