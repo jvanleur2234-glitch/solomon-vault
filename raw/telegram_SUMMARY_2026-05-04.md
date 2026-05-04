@@ -37,6 +37,12 @@ ALL THREE are cloud-only SaaS. None can be self-hosted. This is the OPPOSITE of 
 
 None kill JCPaid — they all make the market bigger.
 
+## DeepSwarm + Hermes Agent Ultra (May 4, 2026)
+- **DeepSwarm:** Cloned → /home/workspace/deepswarm/. 96 parallel workers, $100/527M tokens, 99.95% success, tiered delegation (V4-Pro orchestrator → V4-Flash workers). FORGE CRITICAL.
+- **Hermes Agent Ultra:** Cloned → /home/workspace/hermes-agent-ultra/. Rust rewrite + enterprise layer (policy engine, audit trails, memory fusion, sync gates). FORGE.
+- **Install:** `hermes skills tap add amanning3390/deepswarm`
+- **JCPaid impact:** 96 concurrent clients per server = $28,704/mo potential vs ~$18/mo AI costs
+
 ## Actions
 - Use Cofounder's "agentic departments" UI as DESIGN REFERENCE for JCPaid client dashboard
 - Use RunMyBiz pricing ($30-$250/mo) as validation for JCPaid at $299/mo
