@@ -52,6 +52,15 @@ None kill JCPaid — they all make the market bigger.
 - **JCPaid angle:** Each client = one Hermes profile = fully isolated AI employee
 - **Also noted:** @DeeAutonomous building "Autonomous Intern" family AI kit (hardware) — same vision different execution
 
+## Noustiny (Ufuk/cprivacy.io) — Pipeline Blueprint
+- **Post:** x.com/i/status/2051088239579345329 — 296 likes, built on Hermes Agent
+- **What it does:** Full video creation pipeline (script, visuals, voice, subtitles, render) as Hermes tools + skills
+- **12 tools + 13 skills** organized into 4 pipelines: Story State, Character, Voice, Render
+- **Pattern:** No hardcoded prompts. Skills loaded by gateway. Pipeline IS the service.
+- **JCPaid parallel:** Same pattern for Christian songs (Scripture pipeline + Vocals pipeline + Video pipeline + Distribution pipeline)
+- **GitHub:** not yet public
+- **STATUS:** SKILL — Study for JCPaid service pipeline architecture. Blueprint confirmed.
+
 ## Actions
 - Use Cofounder's "agentic departments" UI as DESIGN REFERENCE for JCPaid client dashboard
 - Use RunMyBiz pricing ($30-$250/mo) as validation for JCPaid at $299/mo
