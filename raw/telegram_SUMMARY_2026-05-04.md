@@ -43,6 +43,15 @@ None kill JCPaid — they all make the market bigger.
 - **Install:** `hermes skills tap add amanning3390/deepswarm`
 - **JCPaid impact:** 96 concurrent clients per server = $28,704/mo potential vs ~$18/mo AI costs
 
+## Multi-Profile Hermes + Open WebUI (Ivan Fioravanti)
+- **Post:** x.com/i/status/2051192406322659448 — 79 likes, 3,902 views
+- **Tip:** Multiple Hermes profiles/gateways → connect each to Open WebUI → each family member gets their own sandboxed AI agent
+- **Skills:** Fully sandboxed per profile (family privacy confirmed)
+- **Files:** Can be shared between profiles via shared folders
+- **Already in stack:** Open WebUI ✅, Hermes Workspace ✅, multi-profile (v0.12.0) ✅
+- **JCPaid angle:** Each client = one Hermes profile = fully isolated AI employee
+- **Also noted:** @DeeAutonomous building "Autonomous Intern" family AI kit (hardware) — same vision different execution
+
 ## Actions
 - Use Cofounder's "agentic departments" UI as DESIGN REFERENCE for JCPaid client dashboard
 - Use RunMyBiz pricing ($30-$250/mo) as validation for JCPaid at $299/mo
