@@ -61,6 +61,12 @@ None kill JCPaid — they all make the market bigger.
 - **GitHub:** not yet public
 - **STATUS:** SKILL — Study for JCPaid service pipeline architecture. Blueprint confirmed.
 
+## Google CodeWiki (May 4, 2026) — SKILL
+- **Source:** x.com/i/status/2051265488806674619 — 363 likes, 492 bookmarks, 24,818 views
+- **What it does:** Auto-generated docs + architecture diagrams + Gemini AI chat for any GitHub repo
+- **Pattern for JCPaid:** "Show the work" client dashboard (auto-generated, auto-updated, linked to source)
+- **STATUS:** SKILL — Study CodeWiki pattern for client activity feed. Clone or reference when building JCPaid dashboard.
+
 ## Actions
 - Use Cofounder's "agentic departments" UI as DESIGN REFERENCE for JCPaid client dashboard
 - Use RunMyBiz pricing ($30-$250/mo) as validation for JCPaid at $299/mo
