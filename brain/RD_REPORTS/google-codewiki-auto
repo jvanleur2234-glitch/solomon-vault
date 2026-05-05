@@ -1,0 +1,39 @@
+# RD Report: Google CodeWiki — Auto-Docs + Architecture Diagrams + AI Chat
+
+**Date:** 2026-05-04
+**Source:** x.com/i/status/2051265488806674619 (24,818 views, 492 bookmarks, 363 likes)
+
+## What It Is
+
+Google CodeWiki transforms any GitHub repo into an interactive knowledge base:
+- Auto-generated docs from code (every PR regenerates relevant sections)
+- Architecture diagrams (auto-drawn from code structure)
+- AI chatbot powered by Gemini that knows your codebase
+- Links back to source: doc → function definition in one click
+- Free for public repos
+
+## Key Features
+
+| Feature | Details |
+|---------|---------|
+| Auto-docs | Section-by-section, generated from code |
+| Auto-diagrams | Architecture drawings from code |
+| AI chat | Gemini-powered, code-aware |
+| Auto-update | Every PR triggers regeneration |
+| Free tier | Public repos free |
+| Private repos | "Coming Soon" |
+
+## JCPaid Relevance
+
+**What this means for us:** CodeWiki is exactly the kind of thing JCPaid clients want — their AI employee (Hermes) should generate docs automatically as it works. But CodeWiki does it for DEVELOPERS (code repos). We do it for BUSINESS OWNERS (business operations).
+
+**NOT competitive.** Different user, same principle. We should:
+1. Study CodeWiki's auto-doc pattern for Hermes → JCPaid client reports
+2. Add a "client wiki" feature — every JCPaid client gets a CodeWiki-style dashboard showing what their AI employee has done
+3. The architecture diagram feature is EXACTLY what we need for JCPaid's "show the work" trust builder
+
+## RD_REPORT Link
+brain/RD_REPORTS/google-codewiki-auto-docs-ai-chat.md
+
+## Recommendation
+SKILL — Study CodeWiki's "show the work" pattern for JCPaid client dashboard. Clone or reference when building client-facing activity feeds.
