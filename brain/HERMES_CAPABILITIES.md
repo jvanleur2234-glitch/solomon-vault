@@ -762,3 +762,28 @@
 - Integration: Hermes Agent v0.11.0 (port 8642), Paperclip company generator
 - Client model: $299/mo, multi-agent dispatch per client
 - Skills: /home/workspace/jcpaid/agency-framework/.claude/skills/
+
+## JCPaid Kill Switch — Governance Layer (May 5, 2026) — FORGED
+- **Location:** https://josephv.zo.space/kill-switch (private, founder-only)
+- **What it is:** Full governance layer for JCPaid multi-agent companies. Built from "Headcount Zero" by Anthony David Adams (CC BY-NC-SA 4.0). The missing 25% that completes the headless company.
+- **API routes:**
+  - `GET /api/kill-switch/health` — health check
+  - `GET/POST /api/kill-switch/agents` — list/create agents
+  - `GET/PATCH /api/kill-switch/agents/:id` — get/update agent
+  - `POST /api/kill-switch/agents/:id/pause` — pause agent
+  - `POST /api/kill-switch/agents/:id/resume` — resume agent
+  - `POST /api/kill-switch/agents/:id/terminate` — terminate agent
+  - `POST /api/kill-switch/agents/:id/spend` — check budget + record spend
+  - `GET /api/kill-switch/budget/:agentId` — budget status for agent
+  - `GET /api/kill-switch/audit` — SHA-256 hash-chained audit log
+  - `GET/POST /api/kill-switch/approvals` — list/request approvals
+  - `POST /api/kill-switch/approvals/:id/grant` — grant approval
+  - `POST /api/kill-switch/approvals/:id/deny` — deny approval
+  - `POST /api/kill-switch/override` — founder override
+- **Storage:** `/home/workspace/solomon-vault/kill-switch/` (agents.json, audit.json, approvals.json, spend.json)
+- **Security:** Bearer token auth via `JCPAID_KILL_SWITCH_SECRET` env var
+- **Budget enforcement:** Per-agent monthly caps in cents. 80% warning → hard stop at cap.
+- **Approval gates:** 5 categories — external_communications, publishing, financial, structural, strategy
+- **Audit trail:** SHA-256 hash chain (GENESIS → ... → latest). Chain integrity verified on every read.
+- **JCPaid score:** 75% → 100% with this. Headless company platform now complete.
+- **Next:** Hook Hermes agents into kill-switch API on every tool call to enforce budget + approval gates before execution
