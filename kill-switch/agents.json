@@ -1,0 +1,12 @@
+[
+  {
+    "id": "jcpaid_1778094911276_eke59",
+    "name": "Test Innovator",
+    "role": "innovator",
+    "budgetCap": 10000,
+    "warningPct": 80,
+    "status": "active",
+    "createdAt": "2026-05-06T19:15:11.276Z",
+    "updatedAt": "2026-05-06T19:15:11.276Z"
+  }
+]
