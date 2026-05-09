@@ -1,54 +1,47 @@
-# Telegram Session Summary — 2026-05-08 (Morning)
+# Telegram Session Summary — 2026-05-08
 
-**Date:** May 8, 2026
-**Session:** OSagnent Enterprise build + TinyFish integration
+## Date & Context
+- **Session:** Fri May 08, 2026
+- **Channel:** Telegram DM
 
-## What We Built
+## Key Decisions Made
+1. **Huly platform cloned** — 25,576 stars, self-hosted replacement for Jira+Slack+Notion+Linear
+2. **OSagnent stack finalised:**
+   - Observation Layer: UI-TARS-desktop (screen recording) + camofox-browser + holaOS + TinyFish (web intelligence)
+   - Kill Switch API: Running on port 5015 via user service
+   - Base platform: Huly (self-hosted OS for company work)
+   - Memory: here.now (10GB) + MemOS + cognee
+   - Training: DeepSwarm (parallel batch) + Hermes v0.13.0
+3. **Hermes v0.13.0 "The Tenacity Release"** installed and working
+4. **SGLang credits:** Validated as useful for testing only (not infrastructure)
 
-### OSagnent Enterprise — Complete Architecture
-- Self-hosted, air-gapped AI workforce that learns by watching employees
-- Observation → Learning → Self-Code-Gen → Self-Clone pipeline
-- Target: Banks, healthcare, legal — air-gapped industries
+## Code Created/Modified
+- `/tmp/kill-switch-api.ts` — Fixed version with proper Hono imports
+- `~/.hermes/plugins/osagnent-observe/` — OSagnent Hermes plugin (pre_tool_call + post_tool_call hooks)
+- `~/.hermes/plugins/kill-switch/` — Kill Switch Hermes plugin (block expensive tools over budget)
+- `~/.hermes/config.yaml` — Updated with OSagnent + Kill Switch config
 
-**Full stack (10 components):**
-```
-OSagnent = holaOS + Hermes v0.13.0 + The Agency + UI-TARS + 
-           Camofox + here.now + MemOS + DeepSwarm + JCPaid Bus + 
-           Kill Switch + TinyFish
-```
+## Repos Cloned This Session
+- `holaOS/` — Self-hosted desktop OS
+- `UI-TARS-desktop/` — ByteDance visual agent (observation layer)
+- `camofox-browser/` — Anti-detection browser for web scraping
+- `tinyfish-cookbook/` — Web intelligence agents
+- `Huly/platform/` — 25.5K stars, replaces Jira+Slack+Notion+Linear
 
-### Kill Switch — LIVE on port 5015
-- register / check / allow / spend endpoints
-- Hermes pre_tool_call hook enforcing budget
-- Agent registration: curl -X POST http://localhost:5015/register
+## Problems Solved
+- Kill Switch API kept dying — fixed by running as user service instead of space route
+- Sandbox kept dropping — recovered each time, kept working through it
+- Hermes v0.13.0 install failed — fixed by manually stashing changes and pip install -e .
 
-### TinyFish — FREE Web Intelligence
-- Replaces all paid SERP APIs
-- npm install -g @tiny-fish/cli (done)
-- Hermes skill: ~/.hermes/skills/use-tinyfish/
-- OSagnent plugin routes web tasks through TinyFish (free)
+## Unresolved
+- OSagnent enterprise spec still needs full product requirements doc
+- Huly needs docker deployment testing
+- SGLang credits not yet claimed
 
-### Hermes Updated to v0.13.0 "The Tenacity Release"
-- Auto-retry on network errors (up to exponential backoff)
-- Pip upgrade + Hermes reinstall → v0.13.0 confirmed
-
-### Repos Cloned
-- /home/workspace/UI-TARS-desktop/ — ByteDance visual learning
-- /home/workspace/camofox-browser/ — Stealth browser automation
-- /home/workspace/holaOS/ — Desktop OS layer
-- /home/workspace/tinyfish-cookbook/ — TinyFish skill recipes
-
-## OSagnent Plugin — INSTALLED
-- Location: ~/.hermes/plugins/osagnent-observe/
-- Hooks: pre_tool_call, post_tool_call
-- Routes web tasks through TinyFish (free) before paid APIs
-- Kills budget-exceeded requests at the door
-
-## GitHub Synced
-- zo-excellence-package/OSAGNENT.md
-- zo-excellence-package/OSAGNENT_ENTERPRISE_SPEC.md
-- zo-excellence-package/OSAGNENT_ENTERPRISE_COMPLETE_SPEC.md
-
----
+## Files Synced
+- OSAGNENT.md (workspace + zo-excellence-package + solomon-vault)
+- OSAGNENT_ENTERPRISE_COMPLETE_SPEC.md
+- All Hermes plugins
+- Session summary
 
 *Session complete. All brain files synced to GitHub.*
