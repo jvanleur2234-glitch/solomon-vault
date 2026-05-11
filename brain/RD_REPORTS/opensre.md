@@ -1,1 +1,0 @@
-# R&D Report: OpenSRE — AI SRE Agent
