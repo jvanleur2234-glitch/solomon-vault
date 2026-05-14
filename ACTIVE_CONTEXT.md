@@ -1,92 +1,60 @@
 # ACTIVE_CONTEXT.md — What's Happening Right Now
-**Last updated:** 2026-04-30
+**Last updated:** 2026-05-14
 
 ---
 
 ## What We Are Doing
 
-**JCPaid — AI Employee Agency ("Your AI employee that works 24/7")**
+**Dual-track income system:**
 
-Joseph's role: Vision/Ideas/Connector
-Zo's role: Master Builder (orchestrates everything)
-The stack: holaOS + Hermes + The Agency + here.now
+1. **JCPaid** — AI Employee Agency ("Your AI employee that works 24/7")
+   - Stack: holaOS + Hermes + The Agency + here.now
+   - Target: $299/mo per client, real estate/HVAC in Sioux Falls
+
+2. **OSagnent POD** — Print-on-Demand business (rebuilt from scratch today)
+   - Stack: Groq (free) + Printify + Etsy
+   - Target: Automated t-shirt store, zero inventory
 
 ---
 
-## The Stack (FINAL — April 30)
+## OSagnent POD — Built 2026-05-14
 
-| Component | Purpose | Status |
+**Location:** `/home/workspace/osagnent-vault/`
+
+| Component | Status | Path |
 |---|---|---|
-| **holaOS** | Client desktop dashboard (open agent OS, MIT, 7.5K stars) | ✅ Cloned |
-| **Hermes Agent v0.11** | The AI brain — one instance, all clients | ✅ Running on port 8642 |
-| **The Agency** | 147 pre-built AI agents (sales, HR, IT, marketing, etc.) | ✅ Cloned, MIT |
-| **here.now** | Per-client permanent memory (10GB, $5/mo add-on) | ✅ Cloned, MIT |
-| **Paperclip** | FORGE TOOL — builds client companies internally | ✅ Cloned |
-| **JCPaid Bus** | Task dispatch system | ✅ Built |
+| Printify API client | ✅ Built | `scripts/printify_api.py` |
+| AI Design Generator | ✅ Tested | `scripts/design_generator.py` |
+| Trend Research | ✅ Tested | `scripts/trend_research.py` |
+| Workflow Orchestrator | ✅ Built | `scripts/pod_workflow.py` |
+| Hermes skill | ✅ Installed | `~/.hermes/skills/osagnent-pod/SKILL.md` |
 
-**We dropped:** Sauna.ai (not needed), MoClaw hosting (don't need it)
+**Designs generated:**
+- `golden_retriever_lovers_20260514_151652.png` — 123KB
+- `hvac_technician_20260514_151702.png` — 134KB
 
----
+**Top 5 niches (scored):**
+1. Golden Retriever Lovers (score 25)
+2. Fisherman Angler (score 25)
+3. Nurse Practitioner (score 23)
+4. Pickleball Player (score 23)
+5. NASCAR Fan (score 23)
 
-## Competitive Landscape
-
-| Competitor | What they do | Price | JCPaid advantage |
-|---|---|---|---|
-| **HermesOS** | Direct competitor — cloud AI OS | $9.99-$19.99/mo | We have here.now (permanent memory), no crypto, holaOS desktop |
-| **Naive AI** | AI employee company | $310/mo | We can beat on price + here.now |
-| **Sauna.ai** | AI agent platform | $20/mo | Dropped — not needed |
-| **MoClaw** | Hermes cloud hosting | ~$25/mo | Don't need it — Hermes runs on existing Zo |
-
----
-
-## The Money Model
-
-**JCPaid Core:**
-- $299/mo per client (flat, no per-user)
-- Cost: ~$0 (Hermes CPU already paid)
-- here.now add-on: $5/mo per client for extra memory
-
-**Revenue potential:**
-- 5 clients = $1,495/mo
-- 10 clients = $2,990/mo
-- 20 clients = $5,980/mo
-
-**First client target:** Real estate or HVAC in Sioux Falls area
+**Waiting on:**
+- `PRINTIFY_API_KEY` — free at developers.printify.com
+- Etsy OAuth — at developers.etsy.com
 
 ---
 
-## What's Working Right Now
+## JCPaid Status (April 30)
 
-- ✅ Zo Computer — the main platform
-- ✅ Telegram — Russell Tuna bot working
-- ✅ Stripe — connected and ready
-- ✅ Hermes Gateway — running on port 8642
-- ✅ Hermes Workspace — running on port 3002
-- ✅ The Agency — 147 AI agents cloned
-- ✅ holaOS — desktop client OS cloned
-- ✅ here.now — permanent memory cloned
-- ✅ JCPaid Bus — task dispatch built
+- ✅ holaOS cloned
+- ✅ Hermes running on port 8642
+- ✅ The Agency (147 agents) cloned
+- ✅ here.now cloned
+- ✅ JCPaid Bus built
 
----
-
-## What's NOT Working / Deprioritized
-
-- ❌ Sauna.ai — dropped (not needed in v1)
-- ❌ MoClaw — dropped (don't need hosting)
-- ❌ CashClaw — shelved
-- ❌ Hermes (it's down anyway)
-
----
-
-## Key Files Created This Session
-
-- `jcpaid-bus/bus.py` — Fleet dispatch system
-- `jcpaid/personas/` — JCPaid Innovator/Closer/Support/Admin
-- `jcpaid/skills/jcpaid-skill.SKILL.md`
-- `jcpaid/FORGE_PLAN.md`
-- `the-agency/` — 147 AI agents framework
-- `holaOS/` — Client desktop OS
-- `here.now/` — Permanent memory layer
+**First client target:** Jon at EZ Heating & Cooling (605-940-0650) — HVAC
 
 ---
 
@@ -97,14 +65,3 @@ The stack: holaOS + Hermes + The Agency + here.now
 If Joseph says "READ THE FILE" — stop and read this file first.
 
 If it's not in here, it's not happening. No guessing, no assuming.
-
-**Stack flow:**
-```
-JCPaid internal (us):     → What we SELL to clients:
-Paperclip                 → Hermes + holaOS
-(builds our AI company)   → (their AI employee)
-   Zeus CEO                   AI runs on THEIR computer
-   + agents                   Client sees holaOS desktop
-         ↓                   We get SaaS fee per agent
-   WE OVERSEE
-```
