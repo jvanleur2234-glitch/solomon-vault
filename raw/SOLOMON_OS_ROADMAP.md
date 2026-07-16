@@ -29,7 +29,6 @@ This isn't "using AI tools." This is building a **partnership** where Zo is your
 - ✅ RENU API (port 5010) — 31,102 amplified Bible verses
 - ✅ Second Brain Portal (port 5011) — knowledge management
 - ✅ Guardian OS — adversarial security testing (red vs blue 24/7)
-- ✅ Arena2API — reverse-engineered arena.ai API (parked)
 - ✅ Parlor Voice AI — voice agent (forked and running)
 - ✅ MarkItDown — installed and ready
 - ✅ ShareTrace — forked and running
@@ -96,13 +95,6 @@ This isn't "using AI tools." This is building a **partnership** where Zo is your
 **AI partner role:** Zo writes remaining articles, does SEO research, monitors rankings, applies to affiliate programs.
 
 ---
-
-### RANK 5: Arena AI Voting Pipeline
-**What it is:** Capture the AI model ranking space — voting wars, community, eventual AI Model Selector marketplace.
-
-**Current state:** Arena2API reverse-engineered, blocked by Cloudflare + reCAPTCHA.
-
-**What it needs:** Find a workaround or pivot approach. Zo keeps probing.
 
 ---
 
@@ -191,7 +183,6 @@ Here's how your existing infrastructure covers every category in the founders-ki
 #### Week 11-12: Multiply
 - [ ] Launch second Russell Tuna instance (new persona: "Maxwell Tuna" for enterprise)
 - [ ] Create Faceless Kids YouTube SOP — let Zo run it autonomously
-- [ ] Explore: can Arena2API be replaced with a manual curation + voting mechanic?
 - [ ] Start documenting everything for "How I Built a 6-Figure AI Staffing Business" content
 
 ---
