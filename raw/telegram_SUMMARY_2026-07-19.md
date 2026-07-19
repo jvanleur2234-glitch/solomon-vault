@@ -32,3 +32,31 @@
 - Sent Joseph the requested Telegram reminder to configure Russell Tuna travel API credentials.
 - Required options: `TRAVELPAYOUTS_API_KEY` or `AMADEUS_CLIENT_ID` + `AMADEUS_CLIENT_SECRET` in Settings > Advanced.
 - No code was created or modified.
+
+## Sunday Self-Review — 2026-07-19
+
+### Date
+2026-07-19
+
+### Key decisions made
+- Kept the analyze-first R&D behavior as the single `queue:` rule and removed overlapping duplicate rules.
+- Quarantined the obsolete April 27 job rather than executing it.
+
+### Code created/modified
+- Repaired `/home/workspace/.agent/jobs/job-runner.sh` for valid glob handling and empty queues.
+- Updated `/home/workspace/AGENTS.md` and added the Sunday runner-health rule.
+- Logged the failure and repair in `zo-foam/dumps/by-type/experiments/failure/2026-07-19-job-runner-repair.md`.
+
+### Problems solved
+- Restarted the stale job runner and verified it with a harmless smoke test.
+- Sent Joseph the self-review results via Telegram.
+
+### Unresolved issues
+- Ollama and MoneyPrinterTurbo remain unavailable for downstream AI News delivery.
+- Arena2API automation continues to find missing project files.
+- ACTIVE_CONTEXT.md is stale and recall helper files remain unverified/missing.
+
+### Follow-up needed
+- Add a daily cadence-agent watchdog.
+- Decide whether to pause or redesign the repeated Arena2API status automation.
+- Repair the Ollama/MoneyPrinterTurbo dependencies and refresh ACTIVE_CONTEXT.md.
