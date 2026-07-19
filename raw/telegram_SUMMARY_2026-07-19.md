@@ -27,3 +27,8 @@
 ## Follow-up needed
 - Restore or recreate Arena2API and run clean Cloudflare/reCAPTCHA verification.
 - Repair the recall pipeline and confirm future Telegram sessions produce summaries reliably.
+
+## Scheduled reminder — 2026-07-19
+- Sent Joseph the requested Telegram reminder to configure Russell Tuna travel API credentials.
+- Required options: `TRAVELPAYOUTS_API_KEY` or `AMADEUS_CLIENT_ID` + `AMADEUS_CLIENT_SECRET` in Settings > Advanced.
+- No code was created or modified.
