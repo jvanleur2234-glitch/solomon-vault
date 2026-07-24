@@ -26,3 +26,9 @@
 - Re-run `/home/workspace/.agent/sync-to-github.sh` and inspect its failure.
 
 Sensitive data was not included.
+
+## Scheduled reminder — Tier 1 ideas and Dog Co-Parent App
+- Sent Joseph a Telegram reminder to choose 1–2 ideas from the six Tier 1 business ideas and revisit the $4.99/mo Dog Co-Parent App.
+- Verified `/home/workspace/ideas/MASTER_BUSINESS_RANKINGS.md` and `/home/workspace/ideas/DOG_COPARENT_APP.md` are present.
+- `/home/workspace/MegaPlan/SESSION_SUMMARY.md` is currently missing, so Joseph was told that explicitly.
+- No secrets included.
