@@ -19,3 +19,6 @@
 
 ## Follow-up needed
 - Restore/recreate Arena2API, run local tests, then evaluate CapSolver/camoufox integration.
+
+## Scheduled reminder
+- Sent Joseph a Telegram reminder to return to the Tier 1 business ideas and Dog Co-Parent App decision, choose 1–2 to execute, and review the rankings/app plan. Verified `MegaPlan/SESSION_SUMMARY.md` is missing; `ideas/MASTER_BUSINESS_RANKINGS.md` and `ideas/DOG_COPARENT_APP.md` are present.
