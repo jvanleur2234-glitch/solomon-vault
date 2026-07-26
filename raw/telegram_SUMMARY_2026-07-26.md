@@ -22,3 +22,10 @@
 
 ## Scheduled reminder
 - Sent Joseph a Telegram reminder to return to the Tier 1 business ideas and Dog Co-Parent App decision, choose 1–2 to execute, and review the rankings/app plan. Verified `MegaPlan/SESSION_SUMMARY.md` is missing; `ideas/MASTER_BUSINESS_RANKINGS.md` and `ideas/DOG_COPARENT_APP.md` are present.
+
+## Scheduled Telegram Reminder — 2026-07-26
+- **Key decision:** Reminded Joseph to add at least one travel provider credential for Russell Tuna.
+- **Code created/modified:** None.
+- **Problem solved:** Sent the requested Telegram reminder successfully.
+- **Unresolved issues:** Travel API credentials still need to be added.
+- **Follow-up needed:** Add `TRAVELPAYOUTS_API_KEY`, or both `AMADEUS_CLIENT_ID` and `AMADEUS_CLIENT_SECRET`, in Zo Settings > Advanced.
